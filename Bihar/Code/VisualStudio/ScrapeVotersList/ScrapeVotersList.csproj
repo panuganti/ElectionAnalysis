@@ -50,9 +50,9 @@
     <Compile Include="ScrapingIterator.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BodyConfig.ini">
+    <None Include="BodyConfig.ini">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Compile>
+    </None>
     <None Include="Config.ini">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

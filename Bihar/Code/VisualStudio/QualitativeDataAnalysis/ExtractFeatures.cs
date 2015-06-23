@@ -45,10 +45,6 @@ namespace QualitativeDataAnalysis
         {
             foreach (var parameterScore in _candidate.CandidateParameterScores)
             {
-                if (!Utils.AllFeatures.Contains(Utils.GetNormalizedName(parameterScore.Key)))
-                {
-                    Utils.AllFeatures.Add(Utils.GetNormalizedName(parameterScore.Key));
-                }
                 FeatureVector.Add(Utils.GetNormalizedName(parameterScore.Key),
                     Convert.ToInt32(parameterScore.Value*255/10));
             }
@@ -76,10 +72,6 @@ namespace QualitativeDataAnalysis
                     featureValue = Convert.ToInt32(casteParameter.Value/100 *
                                     (_constituency.CasteShareLookups.CastePartySupport[casteParameter.Key][_candidateParty]));
                 }
-                if (!Utils.AllFeatures.Contains(Utils.GetNormalizedName(String.Format("{0}_CastePercent_X_CastePartyPercent", casteParameter.Key))))
-                {
-                    Utils.AllFeatures.Add(Utils.GetNormalizedName(String.Format("{0}_CastePercent_X_CastePartyPercent", casteParameter.Key)));
-                }
 
                 FeatureVector.Add(Utils.GetNormalizedName(String.Format("{0}_CastePercent_X_CastePartyPercent", casteParameter.Key)), featureValue);
             }
@@ -89,10 +81,6 @@ namespace QualitativeDataAnalysis
         {
             foreach (var localIssuesParameterScore in _constituency.LocalIssues.LocalIssuesParameterScores)
             {
-                if (!Utils.AllFeatures.Contains(Utils.GetNormalizedName(String.Format("LocalIssues_{0}", localIssuesParameterScore.Key))))
-                {
-                    Utils.AllFeatures.Add(Utils.GetNormalizedName(String.Format("LocalIssues_{0}", localIssuesParameterScore.Key)));
-                }
                 FeatureVector.Add(Utils.GetNormalizedName(String.Format("LocalIssues_{0}", localIssuesParameterScore.Key)),
                     Convert.ToInt32(localIssuesParameterScore.Value*255/10));
             }
@@ -102,11 +90,6 @@ namespace QualitativeDataAnalysis
         {
             foreach (var rating in _constituency.DevelopmentRatings.DevelopmentParameterScores)
             {
-                if (!Utils.AllFeatures.Contains(
-                        Utils.GetNormalizedName(String.Format("DevelopmentRating_{0}", rating.Key))))
-                {
-                    Utils.AllFeatures.Add(Utils.GetNormalizedName(String.Format("DevelopmentRating_{0}", rating.Key)));
-                }
                 FeatureVector.Add(Utils.GetNormalizedName(String.Format("DevelopmentRating_{0}", rating.Key)),
                     Convert.ToInt32(rating.Value*255/10));
             }
@@ -118,10 +101,6 @@ namespace QualitativeDataAnalysis
             {
                 foreach (var partyParameter in _constituency.PartyInfo.PartyParameterScores[_candidateParty])
                 {
-                    if (Utils.AllFeatures.Contains(Utils.GetNormalizedName(partyParameter.Key)))
-                    {
-                        Utils.AllFeatures.Add(Utils.GetNormalizedName(partyParameter.Key));
-                    }
                     FeatureVector.Add(Utils.GetNormalizedName(partyParameter.Key), Convert.ToInt32(partyParameter.Value * 255 / 10));
                 }
             }
