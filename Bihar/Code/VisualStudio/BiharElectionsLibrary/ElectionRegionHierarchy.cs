@@ -8,7 +8,21 @@ namespace BiharElectionsLibrary
 {
     public class AssemblyConstituency : Constituency
     {
+        public HashSet<PollingBooth> Booths { get; set; }
+
         public ParliamentaryConstituency PC { get; set; }
+
+        public HashSet<AssemblyConstituency> Neighbors { get; set; }
+
+        public IEnumerable<House> Houses
+        {
+            get { return Booths.SelectMany(x => x.Houses); }
+        }
+
+        public IEnumerable<Voter> Voters
+        {
+            get { return Houses.SelectMany(x => x.Voters); }
+        }
 
         public void Merge(AssemblyConstituency ac)
         {
@@ -30,7 +44,10 @@ namespace BiharElectionsLibrary
     public class ParliamentaryConstituency : Constituency
     {
         public District District { get; set; }
+
         public HashSet<AssemblyConstituency> Constituencies { get; set; }
+
+        public HashSet<ParliamentaryConstituency> Neighbors { get; set; }
 
         public void Merge(ParliamentaryConstituency pc)
         {
@@ -79,7 +96,29 @@ namespace BiharElectionsLibrary
     public class District : RegionWithId
     {
         public Division Division { get; set; }
-        public HashSet<ParliamentaryConstituency> ParliamentaryConstituencies { get; set; }
+
+        public HashSet<ParliamentaryConstituency> PCs { get; set; }
+
+        public IEnumerable<AssemblyConstituency> ACs
+        {
+            get { return PCs.SelectMany(x => x.Constituencies); }
+        }
+
+        public IEnumerable<PollingBooth> Booths
+        {
+            get { return ACs.SelectMany(x => x.Booths); }
+        }
+
+        public IEnumerable<House> Houses
+        {
+            get { return Booths.SelectMany(x => x.Houses); }
+        }
+
+        public IEnumerable<Voter> Voters
+        {
+            get { return Houses.SelectMany(x => x.Voters); }
+        }
+
 
         public void MergeDistrictInfo(District district)
         {
@@ -91,21 +130,21 @@ namespace BiharElectionsLibrary
             {
                 No = district.No;
             }
-            foreach (var constituency in district.ParliamentaryConstituencies)
+            foreach (var constituency in district.PCs)
             {
-                if (ParliamentaryConstituencies == null)
+                if (PCs == null)
                 {
-                    ParliamentaryConstituencies = new HashSet<ParliamentaryConstituency> { constituency };
+                    PCs = new HashSet<ParliamentaryConstituency> { constituency };
                 }
-                if (!ParliamentaryConstituencies.Any(
+                if (!PCs.Any(
                     x => x.Name == constituency.Name || (x.No != 0 && x.No == constituency.No)))
                 {
                     constituency.District = this;
-                    ParliamentaryConstituencies.Add(constituency); 
+                    PCs.Add(constituency); 
                     
                     return;
                 }
-                ParliamentaryConstituencies.First(
+                PCs.First(
                     x => x.Name == constituency.Name || (x.No != 0 && x.No == constituency.No)).Merge(constituency);
             }
         }
@@ -139,12 +178,27 @@ namespace BiharElectionsLibrary
 
         public IEnumerable<ParliamentaryConstituency> PCs
         {
-            get { return Districts.SelectMany(x => x.ParliamentaryConstituencies); }
+            get { return Districts.SelectMany(x => x.PCs); }
         }
 
         public IEnumerable<AssemblyConstituency> ACs
         {
             get { return PCs.SelectMany(x => x.Constituencies); }
+        }
+
+        public IEnumerable<PollingBooth> Booths
+        {
+            get { return ACs.SelectMany(x => x.Booths); }
+        }
+
+        public IEnumerable<House> Houses
+        {
+            get { return Booths.SelectMany(x => x.Houses); }
+        }
+
+        public IEnumerable<Voter> Voters
+        {
+            get { return Houses.SelectMany(x => x.Voters); }
         }
 
         public void MergeDistrictInfo(District district)
@@ -179,7 +233,7 @@ namespace BiharElectionsLibrary
                 var district = new District
                 {
                     Name = districtName,
-                    ParliamentaryConstituencies = new HashSet<ParliamentaryConstituency> { pc },
+                    PCs = new HashSet<ParliamentaryConstituency> { pc },
                     Division = Divisions.First(x => x.Districts.Any(y => y.Name == districtName))
                 };
                 acConstituency.PC = pc;
@@ -210,5 +264,53 @@ namespace BiharElectionsLibrary
             }
             return state;
         }
-    }    
+    }
+
+    public class PollingBooth : RegionWithId
+    {
+        public HashSet<House> Houses { get; set; }
+
+        public AssemblyConstituency AC { get; set; }
+    }
+
+    public class House: RegionWithId
+    {
+        public PollingBooth Booth { get; set; }
+
+        public HashSet<Voter> Voters { get; set; }
+    }
+
+    public class Voter: Person
+    {
+        public House House { get; set; }
+
+        public int Age { get; set; }
+
+        public List<Relative> Relatives { get; set; }
+    }
+
+    public class Person : Region
+    {
+        public Caste Caste { get; set; }
+
+        public Gender Gender { get; set; }
+
+    }
+
+    public class Relative
+    {
+        public RelationType RelationType {get; set;}
+
+        public Person Relative {get; set;}
+    }
+
+    public enum RelationType
+    {
+        Father,
+        Husband,
+        Wife,
+        Son,
+        Sibling,
+        NoRelation = 0
+    }
 }
