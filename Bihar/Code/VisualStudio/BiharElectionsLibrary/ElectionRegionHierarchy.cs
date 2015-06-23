@@ -2,10 +2,14 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Security.Policy;
 using System.Text.RegularExpressions;
 
 namespace BiharElectionsLibrary
 {
+  
+    #region ElectionHierarchy
+
     public class AssemblyConstituency : Constituency
     {
         public HashSet<PollingBooth> Booths { get; set; }
@@ -63,7 +67,7 @@ namespace BiharElectionsLibrary
             {
                 if (Constituencies == null)
                 {
-                    Constituencies = new HashSet<AssemblyConstituency> {constituency};
+                    Constituencies = new HashSet<AssemblyConstituency> { constituency };
                 }
                 if (!(Constituencies.Any(
                     x => x.Name == constituency.Name || (x.No != 0 && x.No == constituency.No))))
@@ -78,24 +82,130 @@ namespace BiharElectionsLibrary
         }
     }
 
-    public abstract class RegionWithId : Region
-    {
-        public int No { get; set; }
-    }
-
-    public abstract class Region
-    {
-        public string Name { get; set; }
-    }
-
     public class Constituency : RegionWithId
     {
-        public ConstituencyCasteCategory Category { get; set; }        
+        public ConstituencyCasteCategory Category { get; set; }
     }
-    
+  
+    public class PollingBooth : RegionWithId
+    {
+        public HashSet<House> Houses { get; set; }
+
+        public AssemblyConstituency AC { get; set; }
+    }
+
+    public class House : RegionWithId
+    {
+        public PollingBooth Booth { get; set; }
+
+        public HashSet<Voter> Voters { get; set; }
+    }
+
+    public class Voter : Person
+    {
+        public House House { get; set; }
+
+        public int Age { get; set; }
+
+        public List<Relative> Relatives { get; set; }
+    }
+
+    public class Person : Region
+    {
+        public Caste Caste { get; set; }
+
+        public Gender Gender { get; set; }
+
+    }
+
+    public class Relative
+    {
+        public RelationType RelationType { get; set; }
+
+        public Person Person { get; set; }
+    }
+
+    #endregion ElectionHierarchy
+
+    #region AdminHierarchy
+
+    public class Block : RegionWithId
+    {
+        public HashSet<Village> Villages { get; set; }
+        public HashSet<CensusTown> CensusTowns { get; set; }
+
+        public HashSet<MunicipalCorp> MinicipalCorp { get; set; } // Very likely, there would be only 1
+
+        public District District { get; set; }
+    }
+
+    public class Village : RegionWithId
+    {
+        public Block Block { get; set; }
+
+        public int TotalPopulation { get; set; }
+        public int MalePopulation { get; set; }
+        public int FemalePopulation { get; set; }
+
+        public VillageParameters Parameters { get; set; }
+    }
+
+    public class VillageParameters
+    {
+        public int NoOfHouses { get; set; }
+        public Dictionary<Gender, int> Population { get; set; }
+        public Dictionary<Gender, int> Children { get; set; }
+        public Dictionary<Gender, int> SCs { get; set; }
+        public Dictionary<Gender, int> STs { get; set; }
+        public Dictionary<Gender, int> Literacy { get; set; }
+        public Dictionary<Gender, int> TotalWorkers { get; set; }
+        public int MainWorkers { get; set; } // Earning 6 or more months
+        public int MarginalWorkers { get; set; } // Less than 6 months earning
+    }
+
+    public class CensusTownParams
+    {
+        public int NoOfHouses { get; set; }
+        public Dictionary<Gender, int> Population { get; set; }
+        public Dictionary<Gender, int> Children { get; set; }
+        public Dictionary<Gender, int> Literacy { get; set; }
+
+        public double SCs { get; set; } // %
+        public double STs { get; set; } // %
+
+        public Dictionary<Gender, int> Workers { get; set; } // Worker: somone who does business,job,service,cultivator or labor
+        public double MainWorkers { get; set; } // %
+        public double MarginalWorkers { get; set; } // %
+    }
+
+    public class Ward : RegionWithId
+    {
+        public MunicipalCorp MunicipalCorp { get; set; }
+    }
+
+    public class CensusTown : RegionWithId
+    {
+        public CensusTownParams Params { get; set; }
+        public Block Block { get; set; }
+        
+    }
+
+    public class MunicipalCorp : RegionWithId
+    {
+        public int TotalPopulation { get; set; }
+        public HashSet<Ward> Wards { get; set; }
+        public Block Block { get; set; }
+    }
+
+    #endregion AdminHierarchy
+
+    #region Common Hierarchy
+
     public class District : RegionWithId
     {
         public Division Division { get; set; }
+
+        public HashSet<Block> Blocks { get; set; }
 
         public HashSet<ParliamentaryConstituency> PCs { get; set; }
 
@@ -140,8 +250,8 @@ namespace BiharElectionsLibrary
                     x => x.Name == constituency.Name || (x.No != 0 && x.No == constituency.No)))
                 {
                     constituency.District = this;
-                    PCs.Add(constituency); 
-                    
+                    PCs.Add(constituency);
+
                     return;
                 }
                 PCs.First(
@@ -163,7 +273,7 @@ namespace BiharElectionsLibrary
                 Districts.Add(district);
                 return;
             }
-            Districts.First(x=>x.Name.Equals(district.Name)).MergeDistrictInfo(district);
+            Districts.First(x => x.Name.Equals(district.Name)).MergeDistrictInfo(district);
         }
     }
 
@@ -207,7 +317,7 @@ namespace BiharElectionsLibrary
         }
 
         public void PopulateWithACInfoFromFile(string filename)
-        { 
+        {
             // TODO: Some names have (SC) in them.. Remove that from the name
             // Assumes all divisions are already created
             var acNameRegex = new Regex(@"([A-Za-z,\s]+)\(Vidhan Sabha constituency\)");
@@ -223,7 +333,7 @@ namespace BiharElectionsLibrary
                 int pcNo = Int32.Parse(cols[4].Split(' ')[0]);
                 string pcName = Utils.GetNormalizedName(String.Join(" ", cols[4].Split(' ').Skip(1)));
 
-                var acConstituency = new AssemblyConstituency {Category = category, Name = acNameNormalized, No = acNo};
+                var acConstituency = new AssemblyConstituency { Category = category, Name = acNameNormalized, No = acNo };
                 var pc = new ParliamentaryConstituency
                 {
                     Name = pcName,
@@ -244,7 +354,7 @@ namespace BiharElectionsLibrary
 
         public static State LoadDivisionsFromFile(string filename)
         {
-            var state = new State {Name = "Bihar", Divisions = new HashSet<Division>()};
+            var state = new State { Name = "Bihar", Divisions = new HashSet<Division>() };
             string[] allLines = File.ReadAllLines(filename).Skip(1).ToArray();
             int divisionId = 1;
             foreach (var line in allLines)
@@ -255,52 +365,32 @@ namespace BiharElectionsLibrary
 
                 if (!state.Divisions.Any(t => t.Name.Equals(divisionName)))
                 {
-                    var division = new Division {Name = divisionName, Districts = new HashSet<District>(), State = state, No = divisionId};
+                    var division = new Division { Name = divisionName, Districts = new HashSet<District>(), State = state, No = divisionId };
                     state.Divisions.Add(division);
                     divisionId++;
                 }
                 var div = state.Divisions.First(t => t.Name == divisionName);
-                div.Districts.Add(new District {Name = Utils.GetNormalizedName(districtName), Division = div});
+                div.Districts.Add(new District { Name = Utils.GetNormalizedName(districtName), Division = div });
             }
             return state;
         }
     }
 
-    public class PollingBooth : RegionWithId
-    {
-        public HashSet<House> Houses { get; set; }
 
-        public AssemblyConstituency AC { get; set; }
+
+    #endregion Common Hierarchy
+
+    #region generic
+
+    public abstract class RegionWithId : Region
+    {
+        public int No { get; set; }
     }
 
-    public class House: RegionWithId
+    public abstract class Region
     {
-        public PollingBooth Booth { get; set; }
-
-        public HashSet<Voter> Voters { get; set; }
+        public string Name { get; set; }
     }
 
-    public class Voter: Person
-    {
-        public House House { get; set; }
-
-        public int Age { get; set; }
-
-        public List<Relative> Relatives { get; set; }
-    }
-
-    public class Person : Region
-    {
-        public Caste Caste { get; set; }
-
-        public Gender Gender { get; set; }
-
-    }
-
-    public class Relative
-    {
-        public RelationType RelationType {get; set;}
-
-        public Person Relative {get; set;}
-    }
+    #endregion generic
 }
