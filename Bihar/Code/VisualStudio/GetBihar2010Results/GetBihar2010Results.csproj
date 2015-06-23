@@ -45,11 +45,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\BiharElectionsLibrary\BiharElectionsLibrary.csproj">
-      <Project>{92B370C7-179A-4FD7-981A-1AF1D66DB55E}</Project>
+    <ProjectReference Include="..\BiharElectionsLibrary\BiharElectionsLibrary.csproj">
+      <Project>{92b370c7-179a-4fd7-981a-1af1d66db55e}</Project>
       <Name>BiharElectionsLibrary</Name>
     </ProjectReference>
   </ItemGroup>

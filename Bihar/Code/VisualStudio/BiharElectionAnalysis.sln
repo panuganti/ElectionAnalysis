@@ -7,15 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrapeVotersList", "ScrapeV
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CombineVoterLists", "CombineVoterLists\CombineVoterLists.csproj", "{454A9DC2-466F-429E-BDC1-48E85F148497}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessVotersList", "ProcessVotersList\ProcessVotersList.csproj", "{09A2585D-5A60-44C7-AD50-B12F7AF049B5}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QualitativeDataAnalysis", "..\QualitativeDataAnalysis\QualitativeDataAnalysis.csproj", "{8993AD02-EA00-4989-AB8C-5BF9B75DE201}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetBihar2010Results", "GetBihar2010Results\GetBihar2010Results.csproj", "{97A99171-800E-48EA-A773-469BDE67A54A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiharElectionsLibrary", "..\BiharElectionsLibrary\BiharElectionsLibrary.csproj", "{92B370C7-179A-4FD7-981A-1AF1D66DB55E}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadHtmlQuantitativeData", "ReadHtmlQuantitativeData\ReadHtmlQuantitativeData.csproj", "{E295C68F-6EBE-4F07-8C87-359EC5715599}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiharElectionsLibrary", "BiharElectionsLibrary\BiharElectionsLibrary.csproj", "{92B370C7-179A-4FD7-981A-1AF1D66DB55E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QualitativeDataAnalysis", "QualitativeDataAnalysis\QualitativeDataAnalysis.csproj", "{8993AD02-EA00-4989-AB8C-5BF9B75DE201}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,26 +29,22 @@ Global
 		{454A9DC2-466F-429E-BDC1-48E85F148497}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{454A9DC2-466F-429E-BDC1-48E85F148497}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{454A9DC2-466F-429E-BDC1-48E85F148497}.Release|Any CPU.Build.0 = Release|Any CPU
-		{09A2585D-5A60-44C7-AD50-B12F7AF049B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{09A2585D-5A60-44C7-AD50-B12F7AF049B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{09A2585D-5A60-44C7-AD50-B12F7AF049B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{09A2585D-5A60-44C7-AD50-B12F7AF049B5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8993AD02-EA00-4989-AB8C-5BF9B75DE201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8993AD02-EA00-4989-AB8C-5BF9B75DE201}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8993AD02-EA00-4989-AB8C-5BF9B75DE201}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8993AD02-EA00-4989-AB8C-5BF9B75DE201}.Release|Any CPU.Build.0 = Release|Any CPU
 		{97A99171-800E-48EA-A773-469BDE67A54A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{97A99171-800E-48EA-A773-469BDE67A54A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97A99171-800E-48EA-A773-469BDE67A54A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97A99171-800E-48EA-A773-469BDE67A54A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{92B370C7-179A-4FD7-981A-1AF1D66DB55E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{92B370C7-179A-4FD7-981A-1AF1D66DB55E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{92B370C7-179A-4FD7-981A-1AF1D66DB55E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{92B370C7-179A-4FD7-981A-1AF1D66DB55E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E295C68F-6EBE-4F07-8C87-359EC5715599}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E295C68F-6EBE-4F07-8C87-359EC5715599}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E295C68F-6EBE-4F07-8C87-359EC5715599}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E295C68F-6EBE-4F07-8C87-359EC5715599}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92B370C7-179A-4FD7-981A-1AF1D66DB55E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92B370C7-179A-4FD7-981A-1AF1D66DB55E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92B370C7-179A-4FD7-981A-1AF1D66DB55E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92B370C7-179A-4FD7-981A-1AF1D66DB55E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8993AD02-EA00-4989-AB8C-5BF9B75DE201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8993AD02-EA00-4989-AB8C-5BF9B75DE201}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8993AD02-EA00-4989-AB8C-5BF9B75DE201}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8993AD02-EA00-4989-AB8C-5BF9B75DE201}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
