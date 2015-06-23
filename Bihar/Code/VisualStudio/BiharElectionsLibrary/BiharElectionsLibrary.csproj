@@ -50,11 +50,13 @@
     <Compile Include="LookUps.cs" />
     <Compile Include="MuslimPopulationData.cs" />
     <Compile Include="PhoneticHash.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QualitativeData.cs" />
     <Compile Include="ShapeFileData.cs" />
     <Compile Include="SurveyResponse.cs" />
     <Compile Include="Utils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

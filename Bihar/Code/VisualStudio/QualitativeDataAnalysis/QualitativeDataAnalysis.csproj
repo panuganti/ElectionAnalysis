@@ -50,14 +50,15 @@
     <Compile Include="LocalIssues.cs" />
     <Compile Include="Party.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="Properties\Annotations.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BiharElectionsLibrary\BiharElectionsLibrary.csproj">
       <Project>{92b370c7-179a-4fd7-981a-1af1d66db55e}</Project>
       <Name>BiharElectionsLibrary</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
