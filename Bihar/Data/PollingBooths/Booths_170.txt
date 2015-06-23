@@ -1,0 +1,205 @@
+1	1 - Utkramit Middle School, Kashibigha
+2	2 - Primary School, Kalyanpur
+3	3 - Middle School,Teus (North Wing)
+4	4 - Middle School, Teus (South Wing)
+5	5 - Primary School, Teus Harijan tola
+6	6 - Utkramit Middle School, Narsinghpur (East Wing)
+7	7 - Utkramit Middle School, Narsinghpur(west Wing)
+8	8 - Utkramit Middle school, Subhanpur
+9	9 - Primary School, kabirpur
+10	10 - Primary School, Kanhauli
+11	11 - Samudayik Buildding, Bhanpura
+12	12 - Utkramit Middle School,Jagdishpur
+13	13 - Utkramit Middle school, Ukhdi
+14	14 - Utkramit Middle School,Saraiya
+15	15 - Samudayik Buildding,Toy,Harijan Tola
+16	16 - Middle School, Toy
+17	17 - Middle School, Pank
+18	18 - Utkramit Middle School,Musapur
+19	19 - Samudayik Buildding,Chainpur
+20	20 - Utkramit Middle School,Makanpurdih
+21	21 - Utkramit Middle School, Kajifattuchak
+22	22 - Utkramit middle School, Punesara
+23	23 - Primary School,Milkichak
+24	24 - Samudayik Buildding,Baijnathpur
+25	25 - Utkramit middle school, Dih Nizamat
+26	26 - Middle School Kewati, East Wing
+27	27 - Middle School,Kewati (West Wing)
+28	28 - Utkramit Middle School, Goddih
+29	29 - Utkramit Middle School, Dharseni
+30	30 - Primary School,Sheikhpurwa
+31	31 - Middle School, Kutaut
+32	32 - Utkramit Middle School,Ahiyapur
+33	33 - Middle School, Kusherdhi
+34	34 - primary School, Mahmada
+35	35 - Utkramit middle School, Bhadarthi
+36	36 - Utkramit Middle School,Dumri
+37	37 - Rajo Singh High School,Pinjari
+38	38 - Utkramit Middle School, Pinjadi
+39	39 - Gaushala, Barbigha(West Wing)
+40	40 - Gaushala Barbigha,East Wing
+41	41 - Primary School,Badhanpura
+42	42 - Prathamik Vidyalay,Samachak
+43	43 - Middle School, D.A.V Chandukuan(North Wing
+44	44 - Middle school,D.A.V Chandukuan,Barbigha,(South Wing)
+45	45 - Middle School, Sherpar
+46	46 - Panchayat Buildding,Mahadevganj
+47	47 - Primary School, Parsobigha
+48	48 - Block Office, Barbigha
+49	49 - Adarsh Kanya Middle School, Barbigha
+50	50 - Tailik Balika High School, Barbigha
+51	51 - Adarsh Town Middle School, Nasibchak,Barbigha
+52	52 - Middle School,Barbigha,Telkar(North Wing)
+53	53 - Middle school,Barbigha Telakar (South Wing)
+54	54 - Utkramit Middle School,Sinday
+55	55 - Madarsa Faijullahpur
+56	56 - Harijan Samudayik Buildding,Faijullahpur
+57	57 - High School Barbigha (North Wing)
+58	58 - High School, Barbigha, (South Wing)
+59	59 - Primary School, Narayanpur
+60	60 - Utkramit Middle School,Gangati (North Wing)
+61	61 - Utkramit Middle School,Gangati (South Wing)
+62	62 - Utkramit Middle School,Koyaribigha
+63	63 - Samudayik Buildding,Maur
+64	64 - Middle School, Maur
+65	65 - Utkramit middle school, Nasaratpur
+66	66 - Utkramit Middle School, khojagachhi
+67	67 - Mahatma Gandhi High School,Babhanbigha(East Wing)
+68	68 - Mahatma Gandhi High School,Babhanbigha(West Wing)
+69	69 - Utkramit Middle School, Kolhadabigha
+70	70 - primary School,Samaskhurd
+71	71 - Primary School, Dariyachak
+72	72 - Utkramit Middle school, Khalilchak
+73	73 - Panchayat Buildding,Samasbujurg
+74	74 - Middle School, Samas Bujurg
+75	75 - Utramit Middle School,Urdu Ramjanpur(North Wing)
+76	76 - Utkramit middle School, Urdu Ramjanpur(South Wing)
+77	77 - Utkramit Middle School,Kutubchak
+78	78 - Utkramit Middle School, Rajaura
+79	79 - Samudayik Buildding,Mirzapur
+80	80 - Utkramit Middile School,Kanya Sarwa
+81	81 - Primary School,Jamalpur
+82	82 - Harijan Samudayik Buildding,Sarwa
+83	83 - high School, Maldah
+84	84 - Primary School,Mallikchak
+85	85 - Middle School, Maldah
+86	86 - Utkramit Middle school, Nagdih(East wing)
+87	87 - Utkramit Middle School, Nagdih (West Wing)
+88	88 - Utkramit Middle School, Ishmailpur
+89	89 - Middle School, Onama, North Wing
+90	90 - Middle School, Onama (South Wing)
+91	91 - Utkramit Middle School,Dowadih
+92	92 - Utkramit middle School, Asthana,North Wing
+93	93 - Utkramit Middle School, Asthana, South Wing
+94	94 - Primary School, Belao (South wing)
+95	95 - Primary School, Belao (North Wing)
+96	96 - High School, Belao
+97	97 - Utkramit Middle School,Kisanpur
+98	98 - Primary School, Chhabilathika
+99	99 - Utkramit middle School,Haiderchak
+100	100 - Utkramit Middle School,Madhepur
+101	101 - Utkramit middle School, Virpur(East Wing)
+102	102 - Utkramit Middle School,Virpur(West Wing)
+103	103 - Middle School, Ambari(South Wing)
+104	104 - Middle school, Ambari (Middle school|
+105	105 - Middle School, Ambari (North Wing)
+106	106 - Middle School, Chhema
+107	107 - Utkramit Middile School, Ahmadpur Chhema
+108	108 - Middle School, Sadikpur
+109	109 - Utkramit Middile School,Yodhanbigha
+110	110 - Library Building Charuawan (Left Wing)
+111	111 - Library Building Charuawan (Left Wing)
+112	112 - Middle School, Charuawan, East Wing
+113	113 - Middle school, charuawan,West Wing
+114	114 - Utkramit middle School, Shekhopur Dih(East Wing)
+115	115 - Utkramit middle School, Shekhopur Dih(West Wing)
+116	116 - Utkramit Middle School, Sugiya
+117	117 - Utkramit Middle School, Ranhicha
+118	118 - Utkramit Middile School,Kabirpur
+119	119 - Middle School, Panchi (East Wing)
+120	120 - Middle School,Panchi (Middle Wing)
+121	121 - Middle School,Panchi (West Wing)
+122	122 - Utkramit Middle School, Mahanandpur
+123	123 - Panchayat Buildding,Panchi
+124	124 - Middle School, Mohabbatpur (East Wing)
+125	125 - Middle School, Mohabbatpur (West Wing)
+126	126 - Middle School Mosimpur
+127	127 - Utkramit middle School,Khudiya
+128	128 - Middle School, Panhesa
+129	129 - Middle school,Nimi (South Wing)
+130	130 - Middle school,nimi (North Wing)
+131	131 - High School,Nimi(West Wing)
+132	132 - High School, Nimi (East Wing)
+133	133 - Utkramit Middile School, Pahadiya Balak (East Wing)
+134	134 - Utkramit Middle School, Pahadiya,Balak (West Wing)
+135	135 - Utkramit middle School, miyanbigha
+136	136 - Samudayik Buildding,Badebigha
+137	137 - Utkramit middle School, Gabay
+138	138 - High School, Gabay
+139	139 - Lohiya Buliding,Sarika
+140	140 - Middle School, Lodipur
+141	141 - Utkramit Middle School, Maniyodi
+142	142 - Primary School, Maktab,Nawada
+143	143 - Utkramit middle school, Sarmaidan
+144	144 - Primary School,Khalaspur
+145	145 - Middle School, Mehuns (East Wing)
+146	146 - Middle School, Mehuns (West Wing)
+147	147 - Middle School, Mehuns (Middle Wing)
+148	148 - Middle School,Ramanubigha
+149	149 - Utkramit middle School,kurauni
+150	150 - Library Buildding,Chitaura
+151	151 - Middle School, Aijhi (East Wing)
+152	152 - Middle School, Aijhi (West Wing)
+153	153 - Primary School,Mubarakpur
+154	154 - Library Building,Murarpur
+155	155 - High School,Katari
+156	156 - High School, Murarpur
+157	157 - Middle School, katari
+158	158 - Utkramit middle school, Gosaymardhi
+159	159 - Middle school, Badshahpur
+160	160 - Middle School, Audhey
+161	161 - primary School,Faridpur
+162	162 - Middle School, Dullapur
+163	163 - Primary School, Mandana
+164	164 - Utkramit Middle School, Bihata
+165	165 - Middle School, Kamata
+166	166 - Utkramit middle School, Rasalpur
+167	167 - Middle School, Hathiyawan
+168	168 - High School, Hathiyawan
+169	169 - Middle School, Purankama
+170	170 - Utkramit Middle School, Dharmpur
+171	171 - Utkramit middle School, Ramraypur
+172	172 - Primary School,Dihari
+173	173 - Middle School,Pain (Middle Wing)
+174	174 - Middle School, Pain (East Wing)
+175	175 - Middle School, Pain (West Wing)
+176	176 - Primary School, Nemdarganj
+177	177 - Samudayik Buildding,Devele
+178	178 - Primary School, Dheusabigha
+179	179 - Utkramit Middle School, Dheusadih
+180	180 - Middle school, Lodipur,East Wing
+181	181 - Middle School, Lodipur, West Wing
+182	182 - Utkramit middle School, Devara
+183	183 - Primary School,Pathraita
+184	184 - Utkramit Middle School,Khakhada
+185	185 - Primary School, Prabhubigha
+186	186 - Samudayik Buildding,Kosara
+187	187 - Primary School, Gangati
+188	188 - Utkramit middle School,Jiyanbigha (Left Wing)
+189	189 - Utkramit Middile School,Jiyanbigha(Right Wing)
+190	190 - Primary School,Gopichak
+191	191 - Primary School,Bhadeli
+192	192 - Utkramit Middle School, Bakarpur Bank
+193	193 - Primary School,Baraiyabigha
+194	194 - Panchayat Buildding,Kusumbha
+195	195 - Primary School,Beldari
+196	196 - Utkramit middle School, Amanatpur
+197	197 - Utkiramit middle School, matokhar (Left Wing)
+198	198 - Utkramit Middle school, Matokhar (Right Wing)
+199	199 - Middle School, kare (North Wing)
+200	200 - Middle School,Kare (South Wing)
+201	201 - Middle School, Kare (Middle Wing)
+202	202 - Utkramit middle school,Bazidpur
+203	203 - Utkramit Middle School,Surdaspur
+204	204 - Primary School, Kariho
+205	205 - Primary School, Lakshna

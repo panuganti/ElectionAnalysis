@@ -1,0 +1,279 @@
+1	1 - Madhya Vidyalay, Kanya Raghopur, North Wing
+2	2 - madhya vidyalay raghopur (Kanya) Dakshin Bhag
+3	3 - Madhya Vidyalay, Shahpur West Wing
+4	4 - Madhya Vidyalay Shahpur, East Wing
+5	5 - Madhya Vidyalay , Rasidpur
+6	6 - Madhya Vidyalay, Shrirampur, North Part
+7	7 - Madhy vidalaya shrirampur dakshin bhag
+8	8 - Madhya Vidyalay, Ajmeripur Bairia, East Wing
+9	9 - Madhya vidyalay Shrirampur, Middle Wing
+10	10 - Madhya Vidayalay Ajmeripur Bairiya
+11	11 - Madhya Vidyalaya, Ajmeripur Bairiya (West wing)
+12	12 - Madhya Vidyalaya, Shankarpur Chaubaniya East Wing
+13	13 - Madhya Vidyalaya Shankarpur Chauwaniya Weast Part
+14	14 - Madhya Vidyalaya, Shankarpur  Chowaniya (Bind Tola)
+15	15 - Prathmik Vidyalay Haridaspur, Weast Tola
+16	16 - Madhya Vidyalaya,Mathurapur
+17	17 - Madhya Vidyalay Haridaspur, Purab Bhag
+18	18 - Madhya Vidyalaya, Haridaspur, West Part
+19	19 - Madhya Vidyalaya, Gosaidaspur, Weast part
+20	20 - Madhya Vidyalaya, Gosaidaspur East Part
+21	21 - Madhya Vidyalaya, Gosaidaspur ,Middle part
+22	22 - Madhya Vidyalaya Rannuchak, Weast Part
+23	23 - Madhya Vidyalaya Rannuchak East part
+24	24 - Madhya Vidyalaya Makandpur (Nort Part)
+25	25 - Madhya Vidyalaya Makanadpur (South Part)
+26	26 - Prathmik  Vidyalaya  Bharat Rasalpur
+27	27 - Madhya Vidyalay, Dogachhi
+28	28 - Madhya Vidyalay, Fatehapur(West Wing)
+29	29 - Madhya Vidyalay, Fatehpur, (East Wing)
+30	30 - Madhya Vidyalay, Bhuwalpur, (Nort Wing)
+31	31 - Madhya Vidyalay, Bhuwalpur, (South Wing)
+32	32 - Madhya Vidyalay, Purani Sarai
+33	33 - Madhya Vidyalay, Bhatoriya (West Wing)
+34	34 - Madhya Vidyalay, Bhatoriya (East Wing)
+35	35 - Madhya Vidyalay Bhatodiya, (Middle Wing)
+36	36 - Madhya Vidyalay ,Ganga Prasad
+37	37 - Madhya Vidyalay, Biharipur
+38	38 - Ramawati Kanya Madhya Vidyalay Ramapur (North Wing)
+39	39 - Ramavati kanya madhya vidyalaya rampur Middle Wing
+40	40 - Ramawati Kanya Madhya Vidyalay , Ramapur (South Wing)
+41	41 - Samudayik Bhavan  Kawakoli
+42	42 - Madhya Vidyalay, Bhimakita
+43	43 - Madhya Vidyalay, Kanjhiya, (South Wing)
+44	44 - Madhya Vidyalay, Kanziya, (North Wing)
+45	45 - Madhya Vidyalay, Noorpur, (North Wing)
+46	46 - Madhya Vidyalay, Noorpur, (South Wing)
+47	47 - Uchcha Vidyalay, Noorpur
+48	48 - Madhya Vidyalay, Nurapur Harijan
+49	49 - Madhya Vidyalay Raghopur Tikar (East Wing)
+50	50 - Madhyavidyalay Raghopur Tikar, Pashchim Bhag
+51	51 - Prakhanda Karyalay, Nathanagar, Madhya Bhag
+52	52 - Prakhanda Karyalay, Nathanagar, Uttari Bhag
+53	53 - Prakhanda Karyalay, Nathanagar, Dakshini Bhag
+54	54 - Madhya Vidyalay, Manoharapur, Purab Bhag
+55	55 - Madhya Vidyalay Manoharpur, Paschim Bhag
+56	56 - Prathmik Vidyalay, Digghi
+57	57 - Prathamik Vidyalay, Nishf Ambai , Pashchim Bhag
+58	58 - Prathamik Vidyalay,Nisf Ambai, Purab Bhag
+59	59 - Utkarmit Madhya Vidyalay, Masudanpur, Dakshin Bhag
+60	60 - Madhya Vidyalay, Masudanapur, Uttar Bhag
+61	61 - Madhya Vidyalay, Kishanapur
+62	62 - Madhya Vidyalay, Belsira, Dakshin Bhag
+63	63 - Madhya Vidyalay, Belasira, Uttar Bhag
+64	64 - Madhya Vidyalay, Gaurachauki, Uttar Bhag
+65	65 - Madhya Vidyalay, Gaurachauki, Dakshin Bhag
+66	66 - Madhya Vidyalay,Bahadurpur,Uttar Bhag
+67	67 - Madhya Vidyalay Bahadurapur, Dakshin Bhag
+68	68 - Madhya Vidyalay, Jitavarapur, Purab Bhag
+69	69 - Prathamik Vidyalay, Patodhi
+70	70 - Madhya Vidyalay, Jitavarpur, Pashchim Bhag
+71	71 - Madhya Vidyalay, Golahu
+72	72 - Madhya Vidyalay,Govindapur, Uttar Bhag
+73	73 - Madhya Vidyala, Govindpur, Dakshin Bhag
+74	74 - Urdu Praimary Vidyalay, Rajapur
+75	75 - Madhya Vidyalay, Maniyarapur
+76	76 - Prathamik Vidyalay, Goddi
+77	77 - Madhya Vidyalay, Bishanpur, Dakshin Bhag
+78	78 - Madhya Vidyalay, Bishanpur, Uttar Bhag
+79	79 - Tahsil Kachahari, Shahapur Tamoani
+80	80 - Mdhaya  Vidyalay, Kumarath Balak, Purab Bhag
+81	81 - Madhya vidyalaya kumrath Balak, Paschim Bhag
+82	82 - Tahasil Kachahari, Kajraili, Uttar Bhag
+83	83 - Tahasil Kachahari, Kajraili, Dakshin Bhag
+84	84 - Madhya Vidyalay, Tetarhar
+85	85 - Madhya Vidyalay, Kajraili, Purab Bhag
+86	86 - Madhya Vidyalay, Kajaraili, Pashchim Bhag
+87	87 - Madarasa Mahmudiya Simariya, Uttar Bhag
+88	88 - Madrasa Mahmudiya Simariya, Dakshin Bhag
+89	89 - Prathamik Vidyalay, Urdu (Balak),Simariya
+90	90 - Urdu  Madhya Vidyalay, Shahajangi, Pashchim Bhag
+91	91 - Urdu Madhya Vidyalay, Shahjangi, Purab Bhag
+92	92 - Samudayik Bhavan Shahjangi Pashchim Bhag
+93	93 - Utkaramit Madhya Vidyalay, Badarealamapur-East Part
+94	94 - Utkarmit Madhya Vidhyalaya, Badre Alam, West Part
+95	95 - Samudayik Bhavan Shahajangi, Purb Bhag
+96	96 - Urdu Madhya Vidyalay Mohiuddinpur,Purab Bhag
+97	97 - Urdu Madhya Vidyalay Mohiuddinpur, Pashchim Bhag
+98	98 - Samudayik Bhavan  Imamapur Hat Pashchim Bhag
+99	99 - Urdu Prathamik Vidyalay, Sadruddinchak
+100	100 - Samudayik Bhavan  Imampur Hat East Part
+101	101 - ANGAN BADI KENDRA IMAMPUR HAT, WARD NO.4
+102	102 - Urdu Prathmik Vidayalay Rasalbag
+103	103 - Madhya Vidyalay, Satghara
+104	104 - Utkaramit Madhya Vidyalay Habibapur (Balak), Pashchim Bhag (Dakshin)
+105	105 - Utkaramit Madhya Vidyalay Habibapur(Balak) Paschimi Bhag (North)
+106	106 - Utkaramit Madhya Vidyalay  Habibpur (Balak)  East Part
+107	107 - panchayat Bhawan Habibpur West Part
+108	108 - Panchayat Bhavan, Habibpur East Part
+109	109 - Utkaramit Madhya Vidyalay Kanya Habibapur Dakshin Bhag (East)
+110	110 - Utkaramit Madhya Vidyalay Kanya Habibapur, Dakshin Bhag (West)
+111	111 - Utkaramit Madhya Vidyalay Kanya Habibapur North Part
+112	112 - Madhya Vidyalay Koyari Tola, Habibapur  North Part
+113	113 - Madhya Vidyalay Koyari Tola, Habibpur South Part
+114	114 - Madhya vidhalaya koyri tola Habibpur Middle Part
+115	115 - Prathamik Vidyalay, Ganeshapur, Uttar Bhag
+116	116 - Prathmik Vidyalay Ganeshpur, Dakshin Bhag
+117	117 - Samudaik Bhawan Salehpur, North Part
+118	118 - PRATHMIK VIDDYALYA SALEHPUR
+119	119 - Samudayik Bhavan Salehapur Dakshin Bhag
+120	120 - Madhya Vidyalay Maksaspur, Kanu Tola
+121	121 - Utkaramit Madhya Vidyalay, Mukheriya
+122	122 - Panchayat Bhavan,Khiri Bandh
+123	123 - UrduMadhya Vidyalay, Khiri Bandh
+124	124 - Utkaramit Madhya Vidyalay, Kharava, Dakshin Bhag
+125	125 - Utkramit Madhya Vidyalay, Kharba, ( North Part)
+126	126 - Madhya Vidyalay, Kurban
+127	127 - Madhya Vidyalay, Gangti, Daudbat (East Part)
+128	128 - Madhya Vidyala Gangati, Daudbat ( West Part)
+129	129 - Urdu Prathamik Vidyalay, Dogacchi
+130	130 - Utkaramit Madhya Vidyalay ,Pista
+131	131 - Utkaramit Madhya Vidyalay Makasaspur
+132	132 - Abhyas Madhya Vidyalay, Fulavariya
+133	133 - Madhya Vidyalay, Fulavariya
+134	134 - Madhya Vidyalay, Baijani Uttar Bhag
+135	135 - Madhya Vidyalay, Baijani, Dakshin Bhag
+136	136 - Panchayat Bhawan Baijani
+137	137 - Panchanand Jha Uchch Vidayalay, Baijani
+138	138 - Utkaramit Madhya Vidyalay Taradiha Dakshin Bhag
+139	139 - Utkaramit Madhya Vidyalay Taradiha Uttar Bhag
+140	140 - Madhya Vidyalaya, Koili
+141	141 - Madhya Vidyalay, Bharokhar
+142	142 - Utkarmit Urdu Madhya Vidyalaya Sanhauli, Balak ( North Part)
+143	143 - Utkarmit Urdu Madhya Vidyalaya Balak, Sanhauli, Uttar Bhag
+144	144 - Utkramit Madhya Vidyalya, Dhauri
+145	145 - Urdu Madhya Vidyalay Kundi
+146	146 - Utkaramit Madhya Vidyalay, Jamaganv
+147	147 - Panchayat Bhawan Balluachak, South Part
+148	148 - Panchayat Bhavan, Baluachak Uttar Bhag
+149	149 - Urdu Prathamik Vidyalay Makhna
+150	150 - Utkarmit  Madhya Vidyalay,Araji Kankaithi
+151	151 - Prathamik Vidyalay,  Kanakaithi
+152	152 - Panchayat Bhawan, Mohammadpur
+153	153 - Prathamik Vidyalay Kharauni Kathauni
+154	154 - Madhya Vidyalay Sonuchak
+155	155 - Utkaramit  Madhya Vidyalay, Mustafapur
+156	156 - Madhya Vidyalay, Chainchak
+157	157 - Madhya Vidyalay, Udeshi
+158	158 - Madhya Vidyalay, Salemapur,Balak , East Part
+159	159 - Utkaramit Madhya Vidyalay Bade Laugayn
+160	160 - Madhya vidiyalay salempur Balak, west part
+161	161 - Madhya Vidyalay, Mohadipur
+162	162 - Madhya Vidyalay, Tagepur
+163	163 - Prathamik Vidyalay Chandpur
+164	164 - Panchayat Bhawan Chandpur esthit Kaneri
+165	165 - Prathamik Vidyalay Deshri East Part
+166	166 - Bunkar Shed, Kamalachak
+167	167 - Utkarmit Madhya Vidyalay, Harwa
+168	168 - Madhya Vidyalay, Tahasur
+169	169 - Prathamik Vidyalay, fatehpur
+170	170 - Madehya Vidyalay, Bhawanipur Deshri
+171	171 - Utkramit Madhya Vidyalay, Wade Hasanpur
+172	172 - Prathmik Vidyalay Saidpur
+173	173 - Madhya Vidyalay, Mustafapur Hindi
+174	174 - Madhya Vidyalay Purani South Part
+175	175 - Madhya Vidyalay Puranini, North Part
+176	176 - Madhya Vidyalay,  Puraini Naya Bhavan
+177	177 - Panchayat Bhawan Puraini, West Part
+178	178 - Panchayat Bhavan Purain,i Purab Bhag
+179	179 - Handloom Bunkar Samanya Subidha Abam Adhunik Rangai Kendra Momin Tola Puraini Uttar Bhag
+180	180 - Handloom Bunkar Samanya Subidha Abam Adhunik Rangai Kendra Momin Tola  Puraini dakshin  Bhag
+181	181 - Madarasa Hamidiya Husainabad
+182	182 - Handloom Bunkar Samanya Subidha Abam Adhunik Rangai Kendra Momin Tola  Puraini madhya  Bhag
+183	183 - Loknath Uchachya Vidyalay Jagdishpur Purana Bhavan North Part
+184	184 - Lok Nath Uchcha Vidyalay, Jagadishapur, Purana Bhavan, Dakshin Bhag
+185	185 - Loknath Uchch Vidyalay Jagdishpur, Purana Bhawan, Madhya Bhag
+186	186 - Madhya Vidyalay, Angari
+187	187 - Madhya Vidyalay, Yogibir
+188	188 - Madhya Vidyalay, Kolakhurd
+189	189 - Prathamik Vidyalay, Kolanarayanpur North Tola
+190	190 - Utkaramit Madhya Vidyalay, Kolanarayanpur, Dakshin Tola
+191	191 - Madhya Vidyalay, Saino Purab Bhag
+192	192 - Madhya Vidyalay, Saino, Pashchim Bhag
+193	193 - Urdu Madhya Vidyalay, Badaluchak,Purab Bhag
+194	194 - Urdu Madhya Vidyalay, Badaluchak, Pashchim Bhag
+195	195 - Urdu Madhya Vidyalay, Lodipur Yasin Chak, Purana Bhawan Uttar Bhag
+196	196 - Urdu Madhya Vidyalay, Lodipur Yasinchak, Purana Bhawan, Dakshin Bhag
+197	197 - Urdu Madhya Vidyalay, Lodipur Yasinchak, Naya Bhawan, Uttar Bhag
+198	198 - Urdu Madhya Vidyalay, Lodipur Yasin Chak, Naya Bhawan Dakshin Bhag
+199	199 - Samudayik Bhavan Angari
+200	200 - Utkramit Madhya Vidyalay, Lodipur, Nai Tola,
+201	201 - Urdu Prathamik Vidyalay, Lodipur Kala, (B M C)
+202	202 - Madhya Vidyalay Tahabalapur
+203	203 - Prathamik Vidyalay, Jagatapur
+204	204 - Samudayik Bhavan Lodipura Khurd
+205	205 - Prathamik Vidyalay, Basantpur
+206	206 - Madhya Vidyalay, Saradho, Purab Bhag
+207	207 - Madhya Vidyalay, Saradho, Pashchim Bhag
+208	208 - Urdu Madhaya VIdhyalaya  Bansitikar, Uttar Bhag
+209	209 - Urdu Madhya Vidyalay Banshitikar, Dakshin Bhag
+210	210 - Utkarmit Madhya Vidhyalaya Choti Dhankar
+211	211 - Prathamik Vidyalay, Badi Ibrahimapur
+212	212 - Madhya Vidyalay, Rani Talab
+213	213 - Madhya Vidyalay,Mirachak barari uttar bhag
+214	214 - madhya vidhalaya mirachak barari dakshin bhag
+215	215 - Prathamik Vidyalay, Navatoliya Chauka
+216	216 - Panchayat Bhavan, Bahadurapur, Purab Bhag
+217	217 - Panchayat Bhavan, Bahadurapur, Madhya Bhag
+218	218 - Prathmik Vidhyalaya Bahadurpur
+219	219 - Utkramit Madhya Vidyalay,Jhurkhuriya
+220	220 - Prathamik Vidyalay, Gopalapur
+221	221 - Madhya vidhyalaya Mansarpur South
+222	222 - Prathamik Vidyalay , Mansarapur  Uttar
+223	223 - Madhya Vidyalay, Fatehapur, Purab Bhag
+224	224 - Madhya Vidyalay, Fatehapur, Pashchim Bhag
+225	225 - Urdu Prathamik Vidyalay, Fatehapur Chauka North Part
+226	226 - Urdu Prathmik Vidhyalaya Fatehpur Chauka (South Part)
+227	227 - Prathmik Vidhayalaya Mukeri Tola Fatehpur
+228	228 - Sahakarita Bhavan Babupur Uttar Bhag
+229	229 - Sahkarita Bhawan, Babupur, Dakshin Bhag
+230	230 - Madhya Vidyalay, Rajandipur, Purab Bhag
+231	231 - Madhya Vidyalay, Rajandipur, Uttar Bhag
+232	232 - Panchayat Bhavan, Sabaur North Part
+233	233 - Panchayat Bhawan Sabour South Part
+234	234 - Kanya Madhya Vidyalay ,Gramin Kshetra Sabor Kamara No.-1
+235	235 - Kanya Madhya Vidyalay ,Gramin Kshetra Sabor Kamara No.-2
+236	236 - Inter Stariaya Balika Ucha vidhyalaya Sabour North Part
+237	237 - Inter Stariya Balika Ucha Vidhalaya Sabour West Part
+238	238 - Madhya Vidyalay, Ary Tola, Sabaur
+239	239 - Madhya Vidyalay, Sultanapur Bhitthi  Purab Bhag
+240	240 - Madhya Vidyalay, Sultanapur Bhitthi Pashchim Bhag
+241	241 - Panchayat Bhavan Khanakitta Uttar Bhag
+242	242 - Panchayat Bhavan Khanakitta Dakshin Bhag
+243	243 - Madhya Vidyalay Chandheri, North Part
+244	244 - Madhya Vidyalay Chendhery, Dakshin Bhag
+245	245 - Urdu Prathmik Vidyalay Rajpur Room No. 1
+246	246 - Urdu Prathmik  Vidyalay Rajpur Room No. 3
+247	247 - Prathamik Vidyalay, Bhitthi,
+248	248 - Madrasa Ashrafiya Mokhtarul Oluim, Rajpur, (North Part)
+249	249 - Madrasa Ashrafiya Mukhtarul Olum, Rajpur, Dakshin Bhaga
+250	250 - Kanya Madhya Vidyalay, College Kshetra Sabour
+251	251 - Madhaya  Vidyalay, Mirzapur
+252	252 - Samudayik Bhavan, Ghoshpur Bagder
+253	253 - Madhya Vidyalay Ghoshpur East Part
+254	254 - Madhya Vidyalay, Ghoshpur, West Bhag
+255	255 - Kanya Madhya Vidyalay, English
+256	256 - Panchayat bhawan English Farka
+257	257 - Madhya Vidalay Shankarpur Diyara East Part
+258	258 - Madhya Vidyalay Shankarapur Diyara Pashchim Bhag
+259	259 - Madhya Vidyalay Athagama,
+260	260 - Prathamik Vidyalay, Masadhu, Dakshin Bhag
+261	261 - Prathmik Vidyalay Chainyachak
+262	262 - Prathamik Vidyalay, Masadhu Uttar Bhag
+263	263 - Prathamik Vidyalay Masadhu Middle Part
+264	264 - Uchcha Vidyalay Mamalakha
+265	265 - Madhya Vidyalay Mamalkha
+266	266 - Madhya Vidalay Lailakh East Part
+267	267 - Madhya Vidyalay Lailakh, Pashchim Bhag
+268	268 - Madhya Vidyalay, Lailakh, North Part
+269	269 - Madhya Vidyalay Lailakh, Dakshin Bhag
+270	270 - Madhya Vidyalay, Shivayadih,
+271	271 - Prathamik Vidyalay, Maheshapur
+272	272 - Urdu Madhya Vidyalay Amdanr, North Part
+273	273 - Urdu Madhya Vidyalay Amdanr, South Part
+274	274 - Madhya Vidyalay Kurapat South Part
+275	275 - Madhya Vidyalay, Kurapat North Part
+276	276 - Prathamik Vidyalay, Baijalpur
+277	277 - Madhya Vidyalay Baijnathpur
+278	278 - Madhya Vidyalay Alang
+279	279 - Madhya Vidyalay, Paraghari

@@ -1,0 +1,237 @@
+1	1 - Middle Vidyalaya, Fulvariya (N.Part)
+2	2 - Middle Vidyalaya (Middle Part), Fulvariya
+3	3 - M.V.Phulwariya South Part
+4	4 - M0 Vidyalaya,Siagachi
+5	5 - U.M.S Bhoraha miyatoli (P. Bh)
+6	6 - U0 M0 Vidyalaya, Bhorha Miyatola(East Part)
+7	7 - Upgraded Middle School, Khaniyabad
+8	8 - New Pvt. B .Tokabhasha Phulwari
+9	9 - U0 M0 Vidyalaya Lalpani
+10	10 - Middle Vidyalaya, Vairiya
+11	11 - Upgraded Middle School Chichora
+12	12 - Upgraded Middle School Khuniya Toli
+13	13 - H.S Terhagachh (P0 B0)
+14	14 - Uchcha Vidyalaya Tedhagachh P0 V0
+15	15 - Madarsa, Asha
+16	16 - Upper Middle School haatgaon (North Part)
+17	17 - Utkramit Madhya Vidaylya Hattgoan, Madhya Bhag Uttari Bhavan
+18	18 - u0 m0  Vidyalaya, Hatagaon (South0 Part)
+19	19 - U0 M0  Vidyalaya, Hatagaon (Middle Part)
+20	20 - U0 M0 Vidyalaya , Pipra
+21	21 - Upgraded Middle School Bhelagurii
+22	22 - M.S.Kalpir Bibiganj (U0 P0)
+23	23 - Middle School, Kaalpir Bibiganj  (South.Part.)
+24	24 - High School Bibiganj (North.Part.)
+25	25 - Uchcha Vidyalaya, Bibiganj  South part
+26	26 - Upper Middle School, Jhunki Mushara (North Part)
+27	27 - Ucch Madya Vidyalaya, Jhunki Mushara(South.Part.)
+28	28 - Middle Vidyalaya, Faravadi (West0Part)
+29	29 - M.S , Farabadi (East..Part)
+30	30 - Madhya Vidyalya Farabadi Middle Part
+31	31 - Prathamik Vidyalaya, Kajleta
+32	32 - U0 M0  Vidyalaya , Kamati
+33	33 - Middle Vidyalaya, Shishagachhi Purana Bhawan(North Part)
+34	34 - M.S. sisagachi old building (south part)
+35	35 - Middle Vidyalaya, Shishagachhi New Bhawan, Purab Bhag
+36	36 - Madhya vidyalya Sishagachi Naya Bhawan,Paschmi Bhag
+37	37 - Upgraded Middle School Lodhabari
+38	38 - New Primary School Farabari
+39	39 - M0 Vidyalaya , Charaghriya(pu0 bhag)
+40	40 - M.S. Chardhariya west part
+41	41 - U0 M0 Vidyalaya,Jhala kanya(South.Part.)
+42	42 - U0 M0  Vidyalaya ,Jhala kanya (North.Part.)
+43	43 - M0 Vidyalaya , Bhojpur balua (U0 Bh0)
+44	44 - M.S Bhojpur  balua (south part)
+45	45 - Upgraded Middle School Hwakol,Purab Bhag
+46	46 - Upgraded Middle School Hwakol,Paschim Bhag
+47	47 - Middle Vidyalaya, Gamhariya
+48	48 - Upgraded Middle School Bagulahangi, Uttar Bhag
+49	49 - Upgraded Middle School Bagulahangi, Dakshin Bhag
+50	50 - U0 M0 Vidyalaya, Khajuravadi(East..Part.)
+51	51 - U0 M V Khajurbadi Purab Part
+52	52 - M0 Vidyalaya , Kuadi
+53	53 - Upgraded Middle SchoolBavangama
+54	54 - M0 Vidyalaya, Chilhniyo
+55	55 - U0 M0 Vidyalaya, Suhiya
+56	56 - New Primary School, Dewri Khas
+57	57 - pgraded Middle School Ghanifulsara
+58	58 - U0 M0 V0 Zunaki Mushari(East..Part.)
+59	59 - U0 M V Zunaki Mushari (West0 Part)
+60	60 - Middle Vidyalaya, Matiyari (West0Part)
+61	61 - Middle Vidyalaya Matiyari,(East..Part.)
+62	62 - Ma0 Vidyalaya Belbadi,North0 Part
+63	63 - M V Belbadi (D0 V0)
+64	64 - Middle Vidyalaya , Venugadh(North.Part.)
+65	65 - Middle Vidyalaya ,Benugadh(South.Part.)
+66	66 - Middle Vidyalaya ,Suhiya Rahamatpur
+67	67 - Prathamik Vidyalaya , Siraniya
+68	68 - Upgraded Middle School Balua Dangi
+69	69 - Upgraded Middle School Mahua (East Part)
+70	70 - Upgraded Middle School mahua (Weast Part)
+71	71 - U0 M0 Vidyalaya , Teghriya
+72	72 - Madarsa Miyampur (P0 B0)
+73	73 - Madarsa Miyampur West0 Part
+74	74 - Baigna Madarsa
+75	75 - Madarsa Lakshmipur Brujatola
+76	76 - Panchayat Bhawan Lakshmipur
+77	77 - Utkramit Middle B.Lakshmipur
+78	78 - Upgraded Middle School  (Lakshmipur) Pothimari
+79	79 - Madarsa Tekanigarhi
+80	80 - Ma0 B0 Patharghatti (North.Part)
+81	81 - M V Patharghatti (South.Part)
+82	82 - Madarsa Guavadi
+83	83 - Prathamik Vidyalaya Kamarakhod
+84	84 - Madarsa Kudhaili
+85	85 - U.M.S Kudhaili
+86	86 - Madarsa Dhangadha(North0Part)
+87	87 - Madarsa Dhangadha(South0Part)
+88	88 - Panchayat Bhawan Dhangadha
+89	89 - Samudayik bhawan Dhangara
+90	90 - Upgraded Middle School Kalpir (North Part)
+91	91 - Upgraded Middle School Kalpir (South Part)
+92	92 - Upgraded Middle School Gorumara
+93	93 - Pvt0 B0 Durgapur
+94	94 - New Panchayat Bhawan Durgapur
+95	95 - Upgraded Middle School Deveri Amabari
+96	96 - M.S.Rupani
+97	97 - U.M.S.Haribhasha
+98	98 - Upgraded Middle School Tangtagi (South Part)
+99	99 - Upgraded Middle School Tangatangi North Part
+100	100 - Madarsa Musaldanga
+101	101 - Pvt.B.Dharahar
+102	102 - M.S.  Nisandra
+103	103 - U.M.S., Laucha
+104	104 - Upgraded Middle School Chandragawn
+105	105 - Panchayat Bhawan Laucha Hat
+106	106 - U.M.S. Vaisa
+107	107 - Upgraded Middle School Baisa Gopalganj
+108	108 - Sirajul Ulum Madarsa Tedhariya
+109	109 - Primary School. Bochagadi
+110	110 - Upgraded Middle School  Mashangaon
+111	111 - Tabaligul Islam Madarsa Dogachchhi
+112	112 - M.S. Mahesh Bathna ,East.0 Part
+113	113 - M.S. Mahesh Bathna ,West0 Part
+114	114 - Chadakapada Madarsa
+115	115 - Aganabadi Kendra Chhotha Laucha
+116	116 - Upgraded Middle School Zhingakata (North Part)
+117	117 - Upgraded Middle School Zhingakata South Part
+118	118 - M. V. Dhimtola
+119	119 - Pvt0B0Dahagonv North0 Part
+120	120 - Primary School Dahagov South Part
+121	121 - P.S Dahgown Gawaltoli
+122	122 - Panchayat Bhawan Baisa Jurail
+123	123 - Anganbadi Kendra aalam Tola Baisa Jurail
+124	124 - Ilahiya Islamia Madarsa Kothi Tola Bhatavadi
+125	125 - M.S. Bhatavadi
+126	126 - Bansavadi Madarsa (North0Part0)
+127	127 - Bonsavadi Madarsa (South0Part)
+128	128 - Pvt0B0Fulabadi
+129	129 - Upgraded Middle School Takiya (East Part)
+130	130 - Upgraded Middle School Takiya West Part
+131	131 - Ma0B0Samesar
+132	132 - Hamidiya Madarsa Devottar Viraniyo
+133	133 - Upgraded Middle School Charghriya
+134	134 - Madarsa Jameul Ulum Karvala Tola
+135	135 - Madarsa Islamiya Islahulaulum Sameshwar Sitagaach
+136	136 - U.M.S. Devottar Wirniya
+137	137 - Anavarul Ulum Madarsa Duvadangi
+138	138 - Pvt0B0Amavadi
+139	139 - Panchayat Bhawan Garagonv Milik
+140	140 - Upgraded Middle School Garggwan
+141	141 - Upgraded Middle School  Guwabari
+142	142 - Ma0B0Lohagada Haat (East.0Part0)
+143	143 - M.S Lohagada haat (middle Part)
+144	144 - Ma0B0 Lohagada haat (West.Part.)
+145	145 - Upgraded Middle School Singhiya Dulali (North Part)
+146	146 - Upgraded Middle School Singhiya Dulali (South Part)
+147	147 - Middle School Bangama
+148	148 - Madarsa Dastagir Bangama
+149	149 - Nasirul Islam Madarsa Nasimaganj
+150	150 - Sikhavaul Ulum Madarsa Bhauradah
+151	151 - Middle School Bhauradah Suoth part
+152	152 - Middle School Bhouradah  North Part
+153	153 - Darasul Kuran Madarsa Bagicha
+154	154 - Primary School Malibasti
+155	155 - Madarsa Raisul Ulum Birniya
+156	156 - Pvt0 B0 Wirniyo
+157	157 - Madarsa Kaji Ul Ulum Guna Samansar
+158	158 - Ijaharul Ulum Madarsa Gunachaurasi
+159	159 - Jila Parishad Bhawan, Bahadurganj
+160	160 - Madarsa Kajiul Islamiya Idgah Biraniyo
+161	161 - Kanya Pvt0 B0 Jurail
+162	162 - Rasal Uchcha Vidyalaya Bahadurganj
+163	163 - Prathamik Vidyalaya Kanya Veni Sarw Siksha Bhawan
+164	164 - Prathamik Vidyalaya Kanya Veni
+165	165 - Ma0B0Bahadurganj
+166	166 - Pvt0 B0 Saranda
+167	167 - Nuri Madarsa L.R.P Chauk
+168	168 - Pvt0B0Satal Nihalabhag
+169	169 - Madarsa Avidiya Guvavadi
+170	170 - Pvt0B0Satal Istamarar
+171	171 - Panchayat Bhawan Gopalpur Hat
+172	172 - Birpur Madarsa
+173	173 - U.M.S. Kumhar Toli Birpur
+174	174 - Palasmani Madarsa, Uttar Bhag
+175	175 - Palasmani Madarsa, Daskin Bhag
+176	176 - Ma0 B0 Palasmani
+177	177 - Upgraded Middle School Paiktola Palasmani
+178	178 - Ma0B0Mandalatola Dohar
+179	179 - Primary School Kajee Tola Dohar
+180	180 - Pvt0B0Dohar Malani
+181	181 - U.M.S. Mahadev Dighi (North0Part0)
+182	182 - U.M.S Mahadev Dighi South0Part0
+183	183 - Upgraded Middle School Chhoti Zhilzili
+184	184 - Pvt0B0Zilazili
+185	185 - Panchayat Bhawan Rahamanganj
+186	186 - U.M.S. Kudhaila
+187	187 - Madarsa Chorakatata Kudhaili
+188	188 - Upgraded Middle School Siktihar
+189	189 - Prathamik Vidyalaya , Bentabadi Purab Bhag
+190	190 - Prathamik Vidyalaya , Bentabadi Paschim Bhag
+191	191 - M.S  Natuapada
+192	192 - Madarsa Sakaur (North0Part0)
+193	193 - Madarsa Sakaur (South0Part0)
+194	194 - Natuapada Madarsa
+195	195 - Anganbadi Kendra Mohanasinhagachha
+196	196 - P.S. Gopalpur
+197	197 - Bhopala Madarsa
+198	198 - Madarsa Tejamul Muslemin Varadanga
+199	199 - U.M.S. Chandavarahat (north part)
+200	200 - U.M.S chandavarahat (south part)
+201	201 - U. M. S. Bhati Chandavar
+202	202 - Upgraded Middle School Bhati Chandwar
+203	203 - Madarsa Dulali, North0 Part
+204	204 - Madarsa Dulali, South0 Part
+205	205 - Purana Panchayat Bhawan Dulali
+206	206 - Pvt0B0Domohani
+207	207 - Ma0 B0 Katahalabadi
+208	208 - U.M.S Tharakachapur
+209	209 - U.M.S Nariyalabadi(North0Part)
+210	210 - U.M.S Nariyalabadi (South0Part0)
+211	211 - Primary School Kelabari
+212	212 - Ma0 B0 Kasba Khodaganj
+213	213 - Madarsa Rahamaniyo Kharasel
+214	214 - Madarsa Talemul Kuran, Katahalbadi
+215	215 - U.M.S Dabar
+216	216 - M.S Chikabadi (East.0Part0)
+217	217 - Middle School Chikabadi West0 Part
+218	218 - Panchayat Bhawan Chikabadi
+219	219 - Panchayat Bhawan Rangamani
+220	220 - Upgraded Middle School LohiaKandar
+221	221 - U.M.S Kumhar Toli
+222	222 - Madarsa Dalamohiudadinapur
+223	223 - Upgraded Middle School Koimari
+224	224 - Bhati Chandavar Madarsa
+225	225 - Ma0 B0 Alatabadi  (North Part)
+226	226 - M.s  Alatabadi (south part)
+227	227 - Pvt0B0Bhakaranavadi
+228	228 - Upgraded Middle School, Kasvagangi (North0Part0)
+229	229 - Upgraded Middle School Kavagangi (South0Part0)
+230	230 - Middle School Gangi Hat (South Part)
+231	231 - Middle School  Gangi Hat (North Part)
+232	232 - Upgraded Middle School Deshiyatoli (East.0 Part0)
+233	233 - Upgraded Middle School  Deshiyatoli (West0Part0)
+234	234 - Upgraded Middle School Deshiyatoli (Middle Part)
+235	235 - Middle School Belbadi
+236	236 - Primary School Rangamani
+237	237 - Ma0 B0 Muramala

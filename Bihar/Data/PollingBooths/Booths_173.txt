@@ -1,0 +1,260 @@
+1	1 - Prathmik Vidyalay Uprawan
+2	2 - Prathmik Vidyalay Mananaki
+3	3 - Madhya Vidyalay Mohiuddhinpur Purwi Bhag
+4	4 - Madhya Vidyalay Mohiuddhinpur Pashchimi Bhag
+5	5 - Prathmik Vidyalay Raja Kunwan
+6	6 - Prathmik Vidyalay Vasavan Vigaha
+7	7 - Madhya Vidyalay Nakatapura Pashchimi Bhag
+8	8 - Madhya Vidyalay Nakatapura Purwibhag
+9	9 - Prathmik Vidyalay Takiyakala
+10	10 - Urdu Prathmik Vidyalay Chainapura
+11	11 - Prathmik Vidyalay Uparaura
+12	12 - Upgraded Middle School Haveli(east part)
+13	13 - Madhya Vidyalay Muraura
+14	14 - Upgrade Middle School Haveli (west part
+15	15 - Prathmik Vidyalay Samasti
+16	16 - Prathmik Vidyalay Visakurava
+17	17 - Prathmik Vidyalay Ganjapar
+18	18 - Prathmik Vidyalay Navinagar
+19	19 - Upgrade Middle School Darogavigaha
+20	20 - Prathmik Vidyalay Kalyanapur
+21	21 - Onganabadi Kendra Tungi
+22	22 - Madhya Vidyalay Tungi Purwi Bhag
+23	23 - Madhya Vidyalay Tungi Pashchimi Bhag
+24	24 - Madhya Vidyalay Tiuri Purwi Bhag
+25	25 - Madhya Vidyalay Tiuri Pashchimi Bhag
+26	26 - Prathmik Vidyalay Dhasapur
+27	27 - Samudayik Bhavan Goraiyapar
+28	28 - Utkramit Madhya Vidyalay Alaudiya Saray
+29	29 - Prathmik Vidyalay Nagawan
+30	30 - Prathmik Vidyalay Nauvatapur Lotan
+31	31 - Prathmik Vidyalay Palatapura
+32	32 - Madhya Vidyalay Belachhisharif Utar Bhag
+33	33 - Madhya Vidyalay Belachhisharif Dakshin   Bhag
+34	34 - Panchayat Bhavan Palatapura
+35	35 - Samudayik Bhavan Mustafapur
+36	36 - Prathmika Vidyalay Pedhuka
+37	37 - Samudayik Bhavan Devakali
+38	38 - Prathmik Vidyalay Vilasapur
+39	39 - Madhya Vidyalay Majidapur
+40	40 - Prathmik Vidyalay Karingapur
+41	41 - Utkramik Madhyavidyalay Itaura
+42	42 - Panchayat Bhavan Sarabahadi
+43	43 - Prathmik Vidyalay Sarabahadi Purwi Bhag
+44	44 - Prathmik Vidyalay Sarabahadi Pashchimi Bhag
+45	45 - Prathmik vidyalay Sarabahadi
+46	46 - Utkramik Madhya Vidyalay Paroha Utari Bhag
+47	47 - Utkramik Madhya Vidyalay Paroha Dakshin Bhag
+48	48 - Prathmik Vidyalay Dhanuki
+49	49 - Prathmik Vidyalay Gonavo
+50	50 - Utkramik Madhya Vidyalay Palani
+51	51 - Prathmik Vidyalay Bahuara
+52	52 - Panchayat Bhavan Singathu Purwi Bhag
+53	53 - Panchayat Bhavan Singathu Pashchimi Bhag
+54	54 - Madhya Vidyalay Singathu
+55	55 - Madhya Vidyalay Chhabilapur
+56	56 - Anganabadi Kendra Tada Par Anu0 Jati
+57	57 - Upgrade Middle School Gulani
+58	58 - Upgrade Middle School Verauti
+59	59 - Madhya Vidyalay Nepura Uttar Bhag
+60	60 - Madhya Vidyalay Nepura Dakshin Bhag
+61	61 - Prathmik Vidyalay Mehanaur
+62	62 - Prathmik Vidyalay Fatehali
+63	63 - Upgrade Middle School Kanchanapur
+64	64 - Annabadi Kendra Sakaraul
+65	65 - Madhya Vidyalay Devadha
+66	66 - Harijan Samudayik Bhavan Devadha
+67	67 - Prathmik Vidyalay Korai
+68	68 - Tahasil Kachahari Korai
+69	69 - Panchayat Bhavan Mahanandapur
+70	70 - Vesik School Mahanandapur
+71	71 - Uchcha Vidyalay Pavapuri
+72	72 - Prathmik Vidyalay Chhato
+73	73 - Harijan Samudayik Bhavan Pava
+74	74 - Madhya Vidyalay Pava Pashchimi Bhag
+75	75 - Madhya Vidyalay Pava Purwi Bhag
+76	76 - Sarakari Godam Haragawan
+77	77 - Urdu Prathmik Vidyalay Haragavo
+78	78 - Prathmik Vidyalay Nevaji Vigaha
+79	79 - Panchayat Bhavan Haragawan
+80	80 - Prathmik Vidyalay Dabhar Bigaha
+81	81 - Prathmik Vidyalay Gongaripar
+82	82 - Prathmik Vidyalay Bhauravaratara
+83	83 - Samudayik Bhavan Visunapur
+84	84 - Gautamabuddha Uchcha Vidyalay Tetarawan
+85	85 - Panchayat Bhavan Tetarawan
+86	86 - Madhya Vidyalay Tetarawan
+87	87 - Prathmik Vidyalay Khade Bigaha
+88	88 - Madhya Vidyalay Manapur (Uttari Bhag)
+89	89 - Prathmik Vidyalay Amadaha
+90	90 - Jal Sansadhan Karyalay Kutauniyapar
+91	91 - Madhya Vidyalay Manapur Dakshin Bhag
+92	92 - Prathmik Vidyalay Dariyapur
+93	93 - Utkramit Madhya Vidyalay Goravo
+94	94 - Prathmik Vidyalay Madhopur
+95	95 - Prathmik Vidyalay Sikandara
+96	96 - Utkramit Madhya Vidyalay Panki(Dakshin Bhag)
+97	97 - Utkramit Madhya Vidyalay panki(uttar bhag)
+98	98 - Utkramit Madhya Vidyalay Nalanda Vidyapith Pashchimi Bhag
+99	99 - Utkramit Madhya Vidyalay Nalanda Vidyapith Purwi Bhag
+100	100 - URDU UTKRAMIT MADHYA SCHOOL PANHESSA
+101	101 - Prathmik Vidyalay Fatehapur
+102	102 - Madhya Vidyalay Kul
+103	103 - Yatri Bhod Nalanda
+104	104 - Utkramit Madhya Vidyalay Sabbait Purab Bhag
+105	105 - Utkramit Madhya Vidyalay Sabbait Pashchim Bhag
+106	106 - Samudayik Bhavan Khondupur
+107	107 - Prathmik Vidyalay Kharapar
+108	108 - Utkramit Madhya Vidyalay Sabbait Maghya Bhag
+109	109 - Utkramit Madhya Vidyalay Niyamatanagar
+110	110 - Utkramit Madhya Vidyalay Bhadari
+111	111 - Madhya Vidyalay Maniyavo Purab Bhag
+112	112 - Madhya Vidyalay Maniyavo Pashchim Bhag
+113	113 - Samudayik Bhavan Rangila Bigaha
+114	114 - Madhya Vidyalay Dharahara Purab Bhag
+115	115 - Madhya Vidyalay Dharahara Pashchim Bhag
+116	116 - Paikas Bhavan Dharahara
+117	117 - Panchayat Bhavan Nananda
+118	118 - Madhya Vidyalay Nananda Uttari Bhag
+119	119 - Madhya Vidyalay Nananda Dakshin Bhag
+120	120 - Uchcha Vidyalay Nananda Uttari Bhag
+121	121 - Uchcha Vidyalay Nananda Dakshin Bhag
+122	122 - Prathmik Vidyalay Bhavanivigaha
+123	123 - Madhya Vidyalay Kariyanna Pashchim Bhag
+124	124 - Madhya Vidyalay Kariyanna Purab Bhag
+125	125 - Madarasa Kariyanna
+126	126 - Prathmik Vidyalay Tulasivigaha
+127	127 - Prathmik Vidyalay Bajitapur
+128	128 - Madhya Vidyalay Mahuri Utari Bhag
+129	129 - Madhya Vidyalay Mahuri Dakshin Bhag
+130	130 - Madhya Vidyalay Narahar Vigaha Naya Bhavan Uttar Bhag
+131	131 - Madhya Vidyalay Narahar Vigaha Naya Bhavan Dakshin Bhag
+132	132 - Samudayik Bhavan Bhatatavigaha
+133	133 - Urdu Prathmik Vidyalay Kadah Bajar
+134	134 - Prathmik Vidyalay Khojagachhi
+135	135 - Samudayik Bhavan Anu0 Jati Ka Tola Haidarganj Kadah
+136	136 - Madarasa Jiyaul Ullam Kadah Pashchim Bhag
+137	137 - Madarasa Jiyaul Ullam Kadah Purab Bhag
+138	138 - Utkramit Madhya School Kadahdih
+139	139 - Kanya Uchcha Vidyalay, Silav
+140	140 - Samudayik Bhavan Silav Dih,Mushaharatoli
+141	141 - Shrigandhi Uchcha Vidyalay Silav
+142	142 - Prathmik Vidyalay Nepura
+143	143 - Madhya Vidyalay, Silav(Uttar bhag)
+144	144 - Madhya Vidyalay, Silav(Dakshin Bhag)
+145	145 - Hindi Pustakalya, Silav
+146	146 - Prathmik School, Mitma
+147	147 - Samudayik Bhavan Saidapur
+148	148 - Utkramit Madhya Vidyalay Surumapur
+149	149 - Utkramit Madhya Vidyalay Dhostavo
+150	150 - Utkramit Madhya Vidyalay Gandhupur
+151	151 - Prathmik Vidyalay Dhanachhuhi Pashchim Bhag
+152	152 - Prathmik Vidyalay Dhanachhuhi Purab Bhag
+153	153 - Prathmik Vidyalay Dumari
+154	154 - Utkramit Madhya Vidyalay Malikapur
+155	155 - Prathmik Vidyalay Shahapur
+156	156 - Prathmik Vidyalay Ujarapur
+157	157 - Utkramit Urdu Madhya Vidyalay Barakar Uttar Bhag
+158	158 - Utkramit Urdu Madhya Vidyalay Barakar Dakshin Bhag
+159	159 - Prathmik Vidyalay Belaur
+160	160 - Prathmik Vidyalay Dhamarapur
+161	161 - Madhya Vidyalay Sithaura Pashchim Bhag
+162	162 - Madhya Vidyalay Sithaura Purab Bhag
+163	163 - Prathmik Vidyalay GaurBigaha
+164	164 - Prathmik Vidyalay Kamalabigaha
+165	165 - Prathmik Vidyalay Bakasu
+166	166 - Madhya Vidyalay Chandi Mau
+167	167 - Prathmik Vidyalay Samasera
+168	168 - Utkramit Madhya Vidyalay Dhamar
+169	169 - Uchcha Vidyalay Vindidih, Uttar Bhag
+170	170 - Uchcha Vidyalay Vindidih, Dakshin Bhag
+171	171 - Prathmik Vidyalay ,Bhagavanapur
+172	172 - Madhya Vidyalay, Junedi
+173	173 - Samudayik Bhavan, Kadamatar
+174	174 - Utkramit Madhya Vidyalay Dariyasaray
+175	175 - Prathmik Vidyalay Ramhari pind
+176	176 - Prathmik Vidyalay Saurai
+177	177 - Prathmik Vidyalay Balavigaha
+178	178 - Madhya Vidyalay Lahuar
+179	179 - Utkramit Madhya Vidyalay Ajayanagar
+180	180 - Utkramit Madhya Vidyalay Naipokhar(purw Bhag)
+181	181 - Utkramit Madhya Vidyalay Naipokhar(paschim bhag)
+182	182 - Nagar Panchayat Karyalay Rajagir Pashchim Bhag
+183	183 - Nagar Panchayat Karyalay Rajagir Purab Bhag
+184	184 - Samudayik Bhavan Kalali Chauk
+185	185 - Prathmik Vidyalay Thakkar Bapa
+186	186 - Gandhi Ashram Gandhi Tola Rajagir
+187	187 - Samudayik Bhavan Panditapur
+188	188 - Prakhand Karyalay Rajagir Dakshin Bhag
+189	189 - Prakhand Karyalay Rajagir Utari Bhag
+190	190 - Lok Swasthya Abhiyantran Karyalay Rajagir
+191	191 - Madhya Vidyalay Rajagir Uttari Bhag
+192	192 - Madhya Vidyalay Rajagir Dakshin Bhag
+193	193 - Prathmik Vidyalay Gandhi Ashram Uttar Bhag
+194	194 - Prathmik Vidyalay Gandhi Ashram Dakshin Bhag
+195	195 - Madhya Vidyalay Chak Par
+196	196 - Madhya Vidyalay Sabalapur
+197	197 - Prathmik Vidyalay Kunndapar
+198	198 - Kanyamadhya Vidyalay Rajagari
+199	199 - EPrathmik Vidyalay Karyanand Nagar
+200	200 - Madhya Vidyalay Mahadev Pur
+201	201 - Karyalay Avar Pramandal Padadhikari Path Nirman Rajgir (Purwi Bhag)
+202	202 - Karyalay Avar Pramandal Padadhikari Path Nirman Rajgir (Pashchimi Bhag)
+203	203 - Utkramit Madhya Vidyalay Bakara, Purwi Bhag
+204	204 - Utkramit Madhya Vidyalay Bakara, Pashchimi Bhag
+205	205 - Madhya Vidyalay Chorasua Uttar Bhag
+206	206 - Madhya Vidyalay Chorasua Dakshin Bhag
+207	207 - Panchayat Bhavan Chorasua
+208	208 - Utkramit Madhya Vidyalay Pokharapur Uttar Bhag
+209	209 - Utkramit Madhya Vidyalay Pokharapur Dakshin Bhag
+210	210 - Prathmik Vidyalay Daulachak
+211	211 - Prathmik Vidyalay Puri Purwi Bhag
+212	212 - Prathmik Vidyalay Puri Pashchimi Bhag
+213	213 - Harijan Prathmik Vidyalay Sikarapur
+214	214 - Kangres Uchcha Vidyalay Dasharathapur Uttari Bhag
+215	215 - Kangres Uchcha Vidyalay Dasharathapur Dakshin Bhag
+216	216 - Madhya Vidyalay Durgapur
+217	217 - Panchayat Bhavan Durgapur
+218	218 - Prathmik Vidyalay Sakuchidih
+219	219 - Prathmik Vidyalay Lakhachak
+220	220 - Madhya Vidyalay Kerua
+221	221 - Madhya Vidyalay Sakuchisaray
+222	222 - Prathmik Vidyalay Gajipur
+223	223 - Prathmik Vidyalay Mahila
+224	224 - Uchcha Vidyalay Dhosaravo Purwi Bhag
+225	225 - Uchcha Vidyalay Dhosaravo Pashchimi Bhag
+226	226 - Madhya Vidyalay Dhosaravo Uttari Bhag
+227	227 - Madhya Vidyalay Dhosaravo Dakshin Bhag
+228	228 - Utkramit Madhy  Vidyalay Ranisaray
+229	229 - Prathmik Vidyalay Visunapur
+230	230 - Utkramit Madhy Vidyalay Saidih
+231	231 - Utkarmit Madhya Vidyalay Isua Pashchimi Bhag
+232	232 - Utkramit Madhy  Vidyalay Ishua Purwi Bhag
+233	233 - Samudayik Bhavan Rupasapur
+234	234 - Madhya Vidyalay Payarepur
+235	235 - Utkramit Madhya Vidyalay, Koyari Vigaha
+236	236 - Prathmik Vidyalay Bhaday
+237	237 - Utkramit Madhyavidyalay Ramnagar Marakatata
+238	238 - Utkramit Madhyavidyalay Mahamadapur
+239	239 - Panchayat Bhavan Raitar Purwi Bhag
+240	240 - Panchayat Bhavan Raitar Pashchimi Bhag
+241	241 - Madhya Vidyalay Raitar
+242	242 - Utkramit Madhya Vidyalay Beladariya
+243	243 - Prathmik Vidyalay Tarokhar
+244	244 - Rajakiy Urdu Prathmik Vidyalay Sataua
+245	245 - Prathmik Vidyalay Badhaita
+246	246 - Charavaha Prathmik Vidyalay Kandopur
+247	247 - Madhya Vidyalay Adamapur
+248	248 - Prathmik Vidyalay Dakabangala Ingilash  Purab Bhag
+249	249 - Prathmik Vidyalay Dakabangala Ingilash Pashchimi Bhag
+250	250 - Madhya Vidyalay Dhoda Katora
+251	251 - Prathmik Vidyalay Ghoda Katora Purab Bhag
+252	252 - Prathmik Vidyalay Dhoda Katora Pashchimi Bhag
+253	253 - Jalapath Dak Bangala Dhoda Katora
+254	254 - Madhya Vidyalay Puraini(purw bhag)
+255	255 - Madhya vidyalay,puraini(paschimi bhag)
+256	256 - Utkramit Madhyavidyalay Khanapura
+257	257 - Prathmik Vidyalay Mahatapura
+258	258 - Prathmik Vidyalay Manapur
+259	259 - Prathmik Vidyalay Takhtaroja
+260	260 - Urdu Prathmik Vidyalay Jalalapur

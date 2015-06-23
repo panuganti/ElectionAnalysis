@@ -1,0 +1,251 @@
+1	1 - Upgraded Middle school, Sajanapur
+2	2 - Primary school, Dhuralakh
+3	3 - Upgraded Middle School, Makasudapur
+4	4 - Upgraded Middle school, Babupur
+5	5 - Upgraded Middle School, Ratanapur
+6	6 - Upgraded Middle school, Dhanahar Right side
+7	7 - Upgraded Middle school,Dhanahar Left side
+8	8 - Primary School Makatab Milaki
+9	9 - Upgraded Middle School Warisnagar Market Right side
+10	10 - Upgraded Middle School Warisnagar Market middke Side
+11	11 - Upgrade middle School Warisnagar Left Part
+12	12 - Upgraded Middle school, Rampur Right side
+13	13 - Upgraded Middle school Rampur Left side
+14	14 - Upgraded Middle school, Rahua Right Side
+15	15 - Kanya Middle school, Rahua
+16	16 - Primary School Rahua Tole Kangoi
+17	17 - Islamiya Madarsa Shekhtoli Rahua
+18	18 - Middle school Darasur Right side
+19	19 - Middle school, Darasur Left side
+20	20 - Middle School Darsur Middle Side
+21	21 - Middle school, Ballipur Right side
+22	22 - Middle school, Ballipur Left side
+23	23 - Upgraded Middle School Ladwara
+24	24 - Panchayat Bhavan,Rahua East Right side
+25	25 - Panchayat Bhavan Rahua East Left side
+26	26 - Primary girls school urdu, Urdu Rahua Purbi
+27	27 - Middle school, Warisnagar
+28	28 - Swarn (Rsvn) Jayanti Building rural self employment Gohi
+29	29 - C.D.P.O. office, Warisnagar
+30	30 - Block office, Warisnagar
+31	31 - Panchayat Bhavan,Gohi
+32	32 - Primary school, Urdu Gohi
+33	33 - Upgraded Middle school, Ramapur Vishun
+34	34 - Upgraded Middle School Rampur Vishun House No. 4
+35	35 - High school, Kishanapur
+36	36 - Upgraded Middle school, Raghunathapur
+37	37 - Upgraded Middle school,Urdu Madhopur
+38	38 - Community Building, Dumarbanna
+39	39 - Middle school, Kusaiya
+40	40 - Panchayat Building Kusaiya
+41	41 - Upgraded Middle school, Urdu Sukhapur
+42	42 - Primary school, Mathurapur,Kusaiya
+43	43 - Primary school, Daulatapur
+44	44 - Upgraded Middle school, Shekhopur Right side
+45	45 - Upgraded Middle school, Shekhopur Left side
+46	46 - Schedule Caste Chaupal Mannipur
+47	47 - Urdu Primary school, Begamapur Right side
+48	48 - Urdu Primary school, Begampur Left side
+49	49 - Upgraded Middle school, Akabarapur Right side
+50	50 - Upgraded Middle school, Akabarapur Left side
+51	51 - Upgraded Middle school, Mathurapur, Right side
+52	52 - Panchayat Bhavan Mathurapur
+53	53 - Upgraded Middle school, Mathurapur Left side
+54	54 - Upgraded Middle school, Mathurapur Middle side
+55	55 - Upgraded Middle school, Mannipur
+56	56 - Middle school, Sari (Right side)
+57	57 - Middle school, Sari (Left side)
+58	58 - Middle school Sari (Middle side)
+59	59 - Panchayat Bhavan Sari (Right side)
+60	60 - Panchayat Bhavan Sari (Left side)
+61	61 - Urdu Makatab Nagarabasti
+62	62 - Family Welfare Centre Nagarabasti (Right side)
+63	63 - Family Welfare Centre Nagarabasti (Left side)
+64	64 - Basic school Hansa (Right side)
+65	65 - Basic school Hansa (Left side)
+66	66 - Upgraded Middle school, Mohiudinapur Tole Ekadwari (Right side)
+67	67 - Upgraded Middle school, Mohiudinapur Tole Ekadwari (Left side)
+68	68 - Upgraded Middle school, Mohiudinapur
+69	69 - Makatab Mohiudinapur
+70	70 - Upgraded Middle school, Hajapurava (Right side)
+71	71 - Upgraded Middle school, Hajapurava (Left side)
+72	72 - Upgraded Middle School Hajpurwa Middle Side
+73	73 - Middle school Chhataneshwar (Right side)
+74	74 - Middle school, Chhataneshwar (Left side)
+75	75 - Upgraded Middle school,Tara Tol Chhataneshwar
+76	76 - Upgraded Middle school, Paroriya
+77	77 - Upgraded Middle school, Lavahatata
+78	78 - Primary school, Satamalapur
+79	79 - Upgraded Rahimuddin Middle girls Makatab Satamalapur
+80	80 - Upgraded Middle school shekh Toli Satamalapur, Urdu
+81	81 - Middle school, Satamalapur(Right side)
+82	82 - Middle school, Satamalapur (Left side)
+83	83 - Middle school, Balahi (Right side)
+84	84 - Middle school, Balahi (Left side)
+85	85 - Upgraded Middle school, Charo
+86	86 - Upgraded Middle school, Puranahi (Right side)
+87	87 - Upgraded Middle school, Puranahi (Left side)
+88	88 - Upgraded Middle school, Rayapur (Right side)
+89	89 - Rupgraded Middle school, Rayapur (Left side)
+90	90 - Primary school, Chandauli
+91	91 - Upgraded Middle school.,Mugalanichak
+92	92 - Middle school, Kasaur (Right side)
+93	93 - Middle School,Kasare (Left side)
+94	94 - Primary school, Matua
+95	95 - Panchayat Bhavan,Lakhanapatati, (Right side)
+96	96 - Panchayat Bhavan Lakhanapatati, (Left side)
+97	97 - Upgraded Middle school, Shadipur Bathanaha (Right side)
+98	98 - Upgraded Middle school, Shadipur Bathanaha (Left side)
+99	99 - Primary school, Bhadoghat (Right side)
+100	100 - Primary school,Bhadoghat (Left side)
+101	101 - Upgraded Middle school, Basantapur Ramani (Right side)
+102	102 - Upgraded Middle school, Basantapur Ramani (Left side)
+103	103 - Primary school, Kishanapur Baikuntha
+104	104 - Middle school, Kishanapur Baikuntha (Right side)
+105	105 - Middle school, Kishanapur Baikuntha,(Left side)
+106	106 - Upgraded Middle school, Kamala Baha
+107	107 - Upgraded Middle school, Navatol
+108	108 - Upgraded Middle school, Madhurapur
+109	109 - Water Wage Office Madhurapur Hathhathaudi Kothi (North side)
+110	110 - Water Wage Office, Madhurapur, Hathhathaudi Kothi (South side)
+111	111 - Upgraded Middle school, Dharmpur Right Side
+112	112 - Upgraded Middle School Dharmpur Left Side
+113	113 - Upgraded Middle school, Rahatauli (North side)
+114	114 - Upgraded Meddle school, Rahatauli, (South side)
+115	115 - Anganabadi Centre Bhatahi
+116	116 - Primary school, Maheshabara
+117	117 - Upgraded Middle school Bhataura (East side)
+118	118 - Upgraded Middle school, Bhataura, (West side)
+119	119 - Upgraded Middle school, Kathaghara
+120	120 - Primary School, Shahapur Chintamani
+121	121 - Upgraded Middle school, Akhatavara
+122	122 - Govt. Middle school, Chhatauni
+123	123 - Primary School, Garib Bsdantpur
+124	124 - Upgraded Middle school, Shaharu(Right side)
+125	125 - Upgraded Middle school, Shaharu (Left side)
+126	126 - Middle school, Dahiyar (North side)
+127	127 - Middle school, Dahiyar(south side)
+128	128 - Upgraded Middle school, Ranna
+129	129 - Panchayat Bhavan Ranna
+130	130 - Upgraded Middle school, Sarahila
+131	131 - Upgraded Middle school, Parasa (Right side)
+132	132 - Upgraded Middle school, Parasa (Left side)
+133	133 - Primary school, Shripur
+134	134 - Primary School Khanpur Belhar
+135	135 - Primary school, Boraj
+136	136 - Upgraded Middle school, Kharasam
+137	137 - Middle school, Paravana(North side)
+138	138 - Middle school, Paravana (south side)
+139	139 - Primary school, Dube Pur
+140	140 - Primary school, Narasinha
+141	141 - Panchayat Bhavan Dumra Mohan
+142	142 - Primary school, Dumara Mohan
+143	143 - Primary school, Amarauti Right side
+144	144 - Primary school, Amarauti Left side
+145	145 - Primary school, Bathanaha
+146	146 - Upgraded Middle School Shripuragahar Right side
+147	147 - Upgraded Middle School Shripuragahar Left side
+148	148 - Primary school, Chakamahi Mujari
+149	149 - Primary school, Shivanagar
+150	150 - Upgraded Middle School, Gudarghat
+151	151 - Upgraded Middle school, Hosopur
+152	152 - Panchayat Building  Hansopur
+153	153 - Primary school, Salemapatati
+154	154 - Upgraded Middle school, Kamopur
+155	155 - Primary school, Babanaghat Right side
+156	156 - Primary school, Babanaghat Left side
+157	157 - Upgraded Middle school, Suraul(Urdu)
+158	158 - Primary School Moditol
+159	159 - Middle school, Bhanapur Right side
+160	160 - Middle school, Manapur (Left side)
+161	161 - Upgraded Middle school, Khatuaha (Right side)
+162	162 - Upgraded Middle school, Khatuaha (Left side)
+163	163 - Upgraded Middle school, Barahagama (Right side)
+164	164 - Upgraded Middle school, Barahagama (Left side)
+165	165 - Primary school, Kharaj
+166	166 - Panchayat Building Khairi Gram Siropatati
+167	167 - Middle school, Siropatati (Right side)
+168	168 - Middle School Siropati Middle Part
+169	169 - Middle school, Siropatati (Left side)
+170	170 - Govt Basic school, Khairi (Right side)
+171	171 - Govt Basic school, Khairi (Left side)
+172	172 - Upgraded Middle school, Kanubishunapur (Right side)
+173	173 - Upgraded Middle School Kanuvishanpur Left part
+174	174 - Primary School Bhupatpur
+175	175 - Library building, Chakoti
+176	176 - Primary Agriculture Credit Copretive Society Chakoti
+177	177 - Panchayat Building Manwara
+178	178 - Schedule Caste Caupal Ilamasanagar
+179	179 - Upgrade middle School Raini Right Part
+180	180 - Upgraded Middle school, Raini Left Part
+181	181 - Upgraded Middle school, Kothiya
+182	182 - Upgraded Middle School Pirakhpur
+183	183 - Upgraded Middle school, Madhutol(Right side)
+184	184 - Upgraded Middle school, Madhutol(Left side)
+185	185 - High school, Siropatati Khatuaha (Chakvakhar) Left Part
+186	186 - High School Siropati Khatua (Chkwakhar) Right Part
+187	187 - Upgraded Middle school, Ramanagar
+188	188 - Primary school, Singiyahi
+189	189 - Middle school, Revada
+190	190 - Primary School Jagdishpur
+191	191 - Primary School, Goriyahi
+192	192 - primary school, Ranjitapur Right Side
+193	193 - Primary School Rajitpur Left Side
+194	194 - Middle school, Khanapur (Right side)
+195	195 - Middle school, Khanapur (Left side)
+196	196 - Upgraded Middle School HariyaBad Chak Right Part
+197	197 - Upgraded Middle School Hariyabad Chak Lift Side
+198	198 - Primary school, Tengaraha
+199	199 - Middle School Sadipur Right Side
+200	200 - Middle school, Shadipur Middle side)
+201	201 - Middle school, Shadipur (Left side)
+202	202 - Primary school, Sedukha
+203	203 - Primary School Mananpur
+204	204 - Primary school , Simaraha
+205	205 - Upgraded Middle school, Vikramapatati
+206	206 - Upgraded Middle school, Fatehapur
+207	207 - Upgraded Middle school, Hasanapur (Right side)
+208	208 - Upgraded Middle school, Hasanapur (Left side)
+209	209 - Panchayat Samiti Building Khanapur
+210	210 - Upgraded Middle school,Udayapur
+211	211 - Upgraded Middle school, Madhuban Right part
+212	212 - Upgraded Middle school, Madhuban Left part
+213	213 - Upgraded Middle school, Milki
+214	214 - Upgraded Middle school, Tedha  (Right side)
+215	215 - Upgraded Middle school, Tedha  (Left side)
+216	216 - Primary school, Hariharapur Khedhi   (Right side)
+217	217 - Primary school, Hariharapur Khedhi  (Left side)
+218	218 - Upgraded Middle school, Masina (Right side)
+219	219 - Upgraded Middle school, Masina  (Left side)
+220	220 - Middle school, Shobhan (Right side)
+221	221 - Middle school, Shobhan (Left side)
+222	222 - Upgraded Middle school shobhan, Basantpur
+223	223 - Primary school, Basantapur Right Side
+224	224 - Primary School Basantpur Left Side
+225	225 - Govt Basic school Bhore Jay Ram (Right sdie)
+226	226 - Govt Basic school, Bhorejayaram (Middle side)
+227	227 - Govt. Basic school, Bhorejayaram (Left side)
+228	228 - Rajamani High school, Bhorej Shahpur (Right side)
+229	229 - Rajmani  High school, Bhore Shahpur (Left side)
+230	230 - Upgraded Middle school, Amasaur
+231	231 - Upgraded Middle school, Bishanpur Sonsa
+232	232 - Primary School Murgiya Chak
+233	233 - Upgraded Middle school, Bachhauli Tole Parana (Right side)
+234	234 - Upgraded Middle school, Bachhauli Tole parana (Left side)
+235	235 - Middle school, Natthudwar (Right side)
+236	236 - Middle school, Natthudwar (left side)
+237	237 - High school, Natthudwar
+238	238 - Primary school, Bujurg Dwar (Right side)
+239	239 - Primary school ,Bujurg Dwar (Left side)
+240	240 - Upgraded Middle school Amasaur Chaur Tol
+241	241 - Primary school Karua
+242	242 - Upgraded Middle school, Samana (Right side)
+243	243 - Upgraded Middle school, Samana (Left side)
+244	244 - Middle school, Vishanapur Aabhi
+245	245 - Primary school, Dhaigh
+246	246 - Primary School Haripur
+247	247 - Primary school Balha Vishwanath (Right side)
+248	248 - Primary school  Balha Vishwanath (Left side)
+249	249 - Upgraded Middle school Sivaisingapur (Right side)
+250	250 - Upgraded Middle school Sivausingapur (Left side)
+251	251 - Upgraded Middle school, Rajvara

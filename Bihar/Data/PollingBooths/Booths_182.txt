@@ -1,0 +1,330 @@
+1	1 - Rajkiya Madhya Vidyalay Rajapur Mainapura Pradhanadhyapak Kaksha Ke Sate Dakshini Bhag
+2	2 - Rajkiya Madhya Vidyalay Rajapur Mainapura Pradhanadhyapak Kaksha Ke Sate Pashchimi Bhag
+3	3 - Rajkiya Madhya Vidyalay Rajapur Mainapura(Madhya Bhag)
+4	4 - Bihar Rajya Jal Parshad Vishwas Board Rajapur (Uttari Bhag)
+5	5 - Bihar Rajya Jal Parshad Vishwas Board Rajapur (Dakshini Bhag)
+6	6 - Rajakiy Prathamik Urdu Vidyalay Dujara, Patna (Pashchimi Bhag)
+7	7 - Sant Domanik High School, Kasturaba Path(Yamuna Apartament Ke Pichhe Boring Road ) (Uttari Bhag)
+8	8 - Sant Domanik High School, Kasturaba Path(Yamuna Apartament Ke Pichhe Boring Road ) (Purab Bhag)
+9	9 - Sant Domanik High School,Kasturaba Path (Yamuna Apartament Ke Pichhe Boring Road)(Dakshini Bhag)
+10	10 - Sant Domanik High School,Kasturaba Path (Yamuna Apartament Ke Pichhe Boring Road)(Pashchim Bhag)
+11	11 - Sant Domanik High School, Kasturaba Path (Yamuna Apartament Ke Pichhe Boring Road)
+12	12 - Vikas Residensiyal Public School Vivekananad Marg, Uttari Krishnapuri
+13	13 - Vikas Residensiyal Public School Vivekananad Marg, Uttari Krishnapuri
+14	14 - Indira Gandhi Samudayik Bhavan Shri Krishnapuri (Purwi Bhag)
+15	15 - Indiragandhi Samudayik Bhawan Srikrishnapuri (pashimi Bhag)
+16	16 - Indira Gandhi Samudayik Bhavan Shri Krishnapuri (Purwi Bhag Ke Baramada Me))
+17	17 - Indira Gandhi Samudayik Bhavan Shri Krishnapuri (Dakshini Bhag)
+18	18 - Patna Maunteshari School Boring Road (Purwi Bhag)
+19	19 - Patna Maunteshari School Boring Road (Pashchim Bhag)
+20	20 - Patna Maunteshari School Boring Road (Varg Char ka kamara)
+21	21 - Patna Maunteshari School Boring Road (Pashchimi Bhag)
+22	22 - Patna Maunteshari School Boring Road Pashchimi Bhag(Varg-2 Ke Kamara Me)
+23	23 - Patna Maunteshari School Boring Road (Varg-3  Kamare Me)
+24	24 - A.N.College Kala Bhavan Ke ( Manobigyan Vibhag Ke Kamara No.-3) Boring Road
+25	25 - A.N.College Kala Bhavan  ke (Manobigyan Vibhag Ke Kamara No.-3 ) Boring Road
+26	26 - A.N.College Prashasanik Bhavan (Uttari Bhag) Boring Road
+27	27 - A.N.College Prashasanik Bhavan (Dakshini Bhag) Boring Road
+28	28 - A.N.College Zoology Bhavan (Purwi Bhag) Boring Road
+29	29 - A.N.College Zoology Bhavan (Madhya Bhag) Boring Road
+30	30 - A.N.College Zoology Bhavan (Pashchimi Bhag) Boring Road
+31	31 - A.N.College Zoology Bhavan (Pashchimi Bhag Se Sata Kamara) Boring Road
+32	32 - A.N.College Shatabdi Bhavan (Uttari Bhag) Boring Road
+33	33 - A.N.College Shatabdi Bhavan (Uttari Bhag Ke Samane Bala Kamara) Boring Road
+34	34 - A.N.College Shatabdi Bhavan (Dakshini Bhag) Boring Road
+35	35 - A.N.College Shatabdi Bhavan (Dakshini Bhag Ke Samane Bala Kamara) Boring Road
+36	36 - A.N.College Bigyan Bhavan (Pashchimi Bhag) Boring Road
+37	37 - A.N.College Bigyan Bhavan Dipartament Of Mainth Boring Road
+38	38 - A.N.College Bigyan Bhavan (Pashchimi Bhag Ke Bagal Me) Boring Road
+39	39 - A.N.College Bigyan Bhavan Pashchimi Bhag Ke Bagal Me Boring Road (Girls Common Room) Boring Road
+40	40 - B.S.N.L. Seva Kendra P.N.T. Colony Kidavaipuri (Uttari Bhag)
+41	41 - B.S.N.L. Seva Kendra P.N.T. Colony Kidavaipuri 
+42	42 - B.S.N.L. Seva Kendra P.N.T. Colony Kidavaipuri (Dakshini Bhag)
+43	43 - B.S.N.L. Seva Kendra P.N.T. Colony Kidavaipuri 
+44	44 - Prathamik Vidyalay Chakaram (Purwi Bhag)
+45	45 - Prathamik Vidyalay Chakaram (Pashchimi Bhag)
+46	46 - Prathamik Vidyalay Chakaram (Uttari Bhag)
+47	47 - Prathamik Vidyalay Chakaram (Dakshini Bhag)
+48	48 - Bihar Sanskrit Shiksha Board Govindayan Bhavan (Uttari Bhag) Boring  Canal Road
+49	49 - Bihar Sanskrit Shiksha Board Govindayan Bhavan (Dakshini Bhag) Boring  Canal Road
+50	50 - Bihar Sanskrit Shiksha Board Govindayan Bhavan (Dakshin Bhag) Boring Canal Road
+51	51 - Rajkiy Prathamiki Urdu Vidyalay, Dujara, Patna (Purvi Bhag)
+52	52 - Bihar Sanskrit Shiksha Board Govindayan Bhavan (Pashchimi Bhag) Boring Canal Road
+53	53 - Modern Competetive High School Buddha Colony (Purabi Bhag)
+54	54 - Mordn Competetive High School Buddha Colony (Pashchimi Bhag)
+55	55 - Sant Meri Mainar Seminari Chakaram (Purwi Bhag)
+56	56 - Sant Meri Mainar Seminari Chakaram (Pashchimi Bhag)
+57	57 - Sant Meri Mainar Seminari Chakaram (Uttari Bhag)
+58	58 - Hathuaraj Gyanoday Sanskrit Mahavidyalay Mandiri ( Uttari Bhag)
+59	59 - Hathuaraj Gyanoday Sanskrit Mahavidyalay Mandiri (Dakshini Bhag)
+60	60 - Hathuaraj Gyanoday Sanskrit Mahavidyalay Mandiri (Purwi Bhag)
+61	61 - Hathuaraj Gyanoday Sanskrit Mahavidyalay Mandiri (Pashchimi Bhag)
+62	62 - Rajkiya Dwarika Uchcha Mandiri (Uttari Bhag)
+63	63 - Rajkiya Dwarika Uchcha  Mandiri (Dakshini Bhag)
+64	64 - Rajkiya Dwarika Uchcha Vidyalay Mandiri (Purwi Bhag)
+65	65 - Rajkiya Dwarika Uchcha Vidyalay Mandiri (Pashchimi Bhag)
+66	66 - Vihar Prashasanik Seva Sangh Ka Karyalay (Madhya Bhag) Kidavai Rpuri
+67	67 - Vihar Prashasanik Seva Sangh Ka Karyalay (Dakshini Bhag) Kidavaipari
+68	68 - Vihar Prashasanik Seva Sangh Ka Karyalay (Uttari Bhag) Kidavaipuri
+69	69 - Vihar Prashasanik Seva Sangh Ka Karyalay (Dakshin Bhag) Kidavaipuri
+70	70 - Kala Evm Shilpa Mahavidyalay Uttari Ving (Madhya Bhag)
+71	71 - Kala Evm Shilp Mahavidyalay Uttari Ving (Pashchimi Bhag)
+72	72 - Vimens College Panta Science Block kamra N0. 101
+73	73 - Vimens College Panta Science Block kamra N0. 103
+74	74 - Vimens College Panta Science Block kamra N0. 118
+75	75 - Vimens College Panta Science Block kamra N0. 117
+76	76 - Vimens college Patna Manoranjan Kaksh (Dakshini Bhag)
+77	77 - Vimens College Panta Manoranjan Kaksh (Pashchimi Bhag)
+78	78 - Jakir Husain Rastriya Sansthan, Beli Road (Purwi Bhag)
+79	79 - Jakir Husain Rastriya Sansthan Beli Road (Pashchimi Bhag)
+80	80 - P.N.T.Colony Kidavaipuri Community Hall ( Dakshini Bhag)
+81	81 - P.N.T.Colony Kidavaipuri Community Hall ( Uttari Bhag)
+82	82 - P.N.T.Colony Kidavaipuri Community Hall (Purwi Bhag)
+83	83 - P.N.T.Colony Kidavaipuri Community Hall (Pashchimi Bhag)
+84	84 - Thakur Prasad Smriti Samudayik Bhavan Kidavaipuri (Purwi Bhag )
+85	85 - Jila Sahakarita Karyalay Buddhamarg China Kothi
+86	86 - Uchacha Secondary Girl's School Bankipur Uttri Block Purwi Bhag Kamra No.-15
+87	87 - Uchacha Secondary Girl's School Bankipur Uttri Block Uttari Bhag Kamra No.-15
+88	88 - Uchacha Secondary Girl's School Bankipur Uttri Block Purwi Bhag Kamra No.-17
+89	89 - Uchacha Secondary Girl's School Bankipur Uttri Block Purwi Bhag Kamra No.-18
+90	90 - Rajkiy Balika Uchch Vidyalay Bankipur Ddhadsh Bhawan (Dayan Bhag)
+91	91 - Rajkiy Balika Uchch Vidyalay Bankipur Ddhadsh Bhawan (Bayan Bhag)
+92	92 - Karyalay Zila Sahakarita Padadhikari (Uttari Bhag) Buddha Marg
+93	93 - Karyalay Zila Sahakarita Padadhikari (Madhya  Bhag) Buddha Marg
+94	94 - Karyalay Zila Sahakarita Padadhikari  (Dakshini  Bhag) Buddha Marg
+95	95 - Sant Zeviers High School  Uttari Block Purwi Bhag Nikat Pashchimi Gandhi Maidan
+96	96 - Sant Zeviers High School  Uttari Block (Spots Kaksha)
+97	97 - Sant Zeviers High School  Uttari Block Madhya Bhag Ke Nikat Pashchimi Gandhi Maidan
+98	98 - Sant Zeviers High School Sports Room.
+99	99 - Bihar Vidyalay Pariksha Samiti Uttar Purwi Block Sinha Library Road
+100	100 - Bihar Vidyalay Pariksha Samiti Uttar Purwi Block Sinha Library Road Booth No. 86 Ke Bagal wala Baramda.
+101	101 - Bihar Vidyalay Pariksha Samiti Dakshini Block Purwi Bhag Sinha Labrary Road
+102	102 - Bihar Vidyalay Pariksha Samiti Dakshini Block (Pashchimi Bhag) Sinha Labrary Road
+103	103 - B.N. College Ashok Rajapath (Purwi Bhag)
+104	104 - B.N. College Ashok Rajapath (Kamanarum)
+105	105 - B.N. College Ashok Rajapath (Dakshini Bhag)
+106	106 - B.N. College Mukhya Bhavan Kamara Sa- 17
+107	107 - B.N. Collegiate High School Mahendru Ghat
+108	108 - Bihar Rajya Khadi Gramodyog Bhavan (Baya Bhag) Bakar Ganj Patna.
+109	109 - Indian Medical Association Hall Bakaraganj (Purwi Bhag)
+110	110 - Indian Medical Association Hall Bakaraganj (Pashchimi Bhag)
+111	111 - Balak Madhya Vidyalay Salimapur Ahara Pashchimi Ving (Uttari Bhag)
+112	112 - Balak Madhya Vidyalay Salimapur Ahara Pashchimi Ving (Madhya Bhag)
+113	113 - Rajkiya Kanya Madhya Vidyalay Salimapur Ahara Dakshini Ving (Pashchimi Bhag)
+114	114 - Rajkiya Kanya Madhya Vidyalay Salimapur Ahara Dakshini Ving (Purwi Bhag)
+115	115 - Rajkiya Kanya Madhya Vidyalay Salimapur Ahara Dakshini Ving (Uttari Bhag)
+116	116 - Rajkiya Kanya Madhya Vidyalay Salimapur Ahara Dakshini Ving (Baramada Me)
+117	117 - Bihar Rajy Puskalay Pradhikar, Dakabangala Road
+118	118 - Bihar Rajy Puskalay Pradhikar Dabagangala Road
+119	119 - Bihar Rajy Puskalay Pradhikar Dabagangala Road (Uttari Bhag)
+120	120 - Bihar Rajy Puskalay Pradhikar Dabagangala Road
+121	121 - Bihar Rajy Puskalay Pradhikar Dabagangala Road (Dakshini Bhag)
+122	122 - Bihar Rajy Puskalay Pradhikar Dabagangala Road
+123	123 - Rajkiya Kanya Uchcha Vidyalay Dakbangala Road (Purwi Bhag)
+124	124 - Rajkiya Kanya Uchcha Vidyalay Dakbangala Road (Pashchimi Bhag)
+125	125 - Karyalay Bihar Rajya Vitta Nigam Frazer Road Patna (Uttari Bhag)
+126	126 - Karyalay Bihar Rajya Vitta Nigam Frazer Road Patna (Dakshini Bhag)
+127	127 - Karyalay Bihar Rajya Vitta Nigam Frazer Road Patna (Pashchimi Bhag)
+128	128 - Shram Evm Niyojan Kshetriy Bima Vibhag Jamal Road, Patna
+129	129 - Shram Evm Niyojan Kshetriy Bima Vibhag Jamal Road (Pashchimi Bhag) Karyalay Ka Bhandar Grih
+130	130 - Karyalay Nideshak Dur Sanchar Jamal Road Manoranjan Kaksha
+131	131 - Bihar Text Book Community Main Builking Ke Baramada Me Patna Gaya Road (Uttari Bhag)
+132	132 - Bihar Text Book Community Main Builking Ke Baramada Me Patna Gaya Road (Dakshini Bhag)
+133	133 - Rashtriy Codet Core Nideshalay Purwi Block (Purvi Bhag) Lalaji Tola
+134	134 - RashtriyCodet Core Nideshalay Purwi Block (Madhya Bhag) Lalaji Tola
+135	135 - Rashtriy Codet Core Nideshalay Purwi Block (Pashchimi Bhag) Lalaji Tola
+136	136 - Rashtriy Codet Core Nideshalay Purwi Block (Pashchimi Bhag) Ka Dwarapal Baithak Sed Lalaji Tola
+137	137 - C.D.A. Building (Swagat Kaksha) Lalaji Tola (Uttari Bhag)
+138	138 - C.D.A. Building (Swagat Kaksha) Lalaji Tola (Dakshini Bhag)
+139	139 - Vidya Niketan Girls High School  Lohanipur (Purwi Bhag)
+140	140 - Vidya Niketan Girls High School  Lohanipur (Pashchimi Bhag)
+141	141 - Devidayal Uchchavidyalay Piramohani (Uttari Bhag)
+142	142 - Devidayal Uchchavidyalay Piramohani (Madhya Bhag)
+143	143 - Devidayal Uchchavidyalay Piramohani (Dakshni Bhag)
+144	144 - Devidayal Uchchavidyalay Piramohani (Purwi.Bhag)
+145	145 - Rajkiya Kanya Madhya Vidyalay Lohanipur (Purwi Bhag)
+146	146 - Rajkiya Kanya Madhya Vidyalay Lohanipur (Purwi Bhag)
+147	147 - Rajkiya Kanya Madhya Vidyalay Lohanipur (Dakshini Bhag)
+148	148 - Rajkiya Kanya Madhya Vidyalay Lohanipur (Uttari Bhag)
+149	149 - Lokeshwari Mahila Uchcha Vidyalay Lohanipur (Baya Bhag)
+150	150 - Lokeshwari Mahila Uchcha Vidyalay Lohanipur (Baya Bhag)
+151	151 - Samudayik Bhavan Purwi Lohanipur
+152	152 - Student Scientific Uchcha Vidyalay Lalaji Tola
+153	153 - Middle School Lalji Tola (Purwi Bhag)
+154	154 - Ayurvedik College, Kadam Kuan, Patna
+155	155 - Ayurvedik College, Kadam Kuan Patna
+156	156 - Middle School  Lalji Tola(Uttari Bhag)
+157	157 - Karyalay Sahayak Abhiyanta Purwi Railway Colony Rajendra Path Baya Bhag
+158	158 - Karyalay Sahayak Abhiyanta Purwi Railway Colony Rajendra Path Daya Bhag
+159	159 - Madhyamik Shikshak Sangh, Canteen Me
+160	160 - Karyalay Karyapalak Abhiyanta Sinchai Vibhag Punapun Pramandal Uttari Ving Karbigahiya (Uttari Bhag)
+161	161 - Karyalay Karyapalak Abhiyanta Sinchai Vibhag Punapun Pramandal Uttari Ving Karbigahiya (Dakshin Bhag)
+162	162 - Karyalay Karyapalak Abhiyanta Sinchai Vibhag Punapun Pramandal Karbigahiya Baya Bhag (Dakshni Wing-1)
+163	163 - Karyalay Karyapalak Abhiyanta Sinchai Vibhag Punapun Pramandal Karbigahiya Baya Bhag(Purwi Wing)
+164	164 - Karyalay Karyapalak Abhiyanta Badh Suraksha Punapun Pramandal Karbigahiya (Uttari Bhag)
+165	165 - Karyalay Karyapalak Abhiyanta Badh Suraksha Punapun Pramandal Karbigahiya, ( Dakshini Bhag)
+166	166 - Karyalay Karyapalak Abhiyanta Badh Suraksha Punapun Pramandal Karbigahiya (Madhya Bhag)
+167	167 - R.P.D Convent School Kumhar Toli (Purwi Bhag)
+168	168 - R.P.D Convent School Kumhar Toli (Dakshini Bhag)
+169	169 - R.P.D. C Kanbent School Kumharatoli, (Madhy Bhag)
+170	170 - R.P.D Convent School Kumhar Toli (Pashchimi Bhag)
+171	171 - R.P.D Convent School Kumhar Toli
+172	172 - R.P.D Convent School Kumhar Tali (Purwi Blok Uttari Bhag)
+173	173 - R.P.D Convent School Kumhar Tali (Purwi Block Dakshni Bhag )
+174	174 - R.P.D Convent School Kumhar Tali (Purwi Block Purwi Bhag )
+175	175 - T.P.S. Collage  Chiraiyatad (Purwi Bhag)
+176	176 - T.P.S. Collage Chiraiyatad (Pashchim Bhag)
+177	177 - T.P.S. Collage Chiraiyatad (Uttari Bhag)
+178	178 - Gajadhar Madhy Vidyalay Chiraiyatad
+179	179 - High School chiraiyatad Naya Bhawan
+180	180 - Hai School, Chiraiyatad Patna
+181	181 - T.P.S College Chiraiyatad Patna
+182	182 - High School Chiraiyatad (Hall N.-04)
+183	183 - Siddharth International School Janatapath (Dayan Bhag)
+184	184 - High School  Chiraiyatad ( Uttari Bhag)
+185	185 - High School Chiraiyatad (Hall No.-03)
+186	186 - High School Chiraiyatad ( Dakshini Bhag)
+187	187 - High School Chiraiyatand (Holl N0-04)
+188	188 - Sant Mark Ekedami Chandamari Road (Purwi Bhag) Patna
+189	189 - Sant Mark Ekedami Chandamari Road (Purwi Pashchimi Bhag) Patna
+190	190 - Lal Bahadur Shastri Madhya Vidyalay Chandmari Road
+191	191 - Anand International Public School  Chiraiyatad (Uttari Bhag)
+192	192 - Anand International Public School Chiraiyatand (Dakshini Bhag)
+193	193 - Prathamik Vidyalay Vigrahapur (Dakshini Bhag)
+194	194 - Prathamik Vidyalay, Vigrahapur  (Uttari Bhag)
+195	195 - Prathamik Vidyalay Vigrahapur (Dakshini Bhag Se Sate Kamare Me)
+196	196 - Prathamik Vidyalay Vigrahapur (Madhya Bhag)
+197	197 - Prathamik Vidyalay Vigrahapur 
+198	198 - Prathamik Vidyalay Vigrahapur (Uttari Bhag)
+199	199 - Prathamik Vidyalay Vigrahapur 
+200	200 - Madhya Vidyalay Sipara (Dakshini Bhag)
+201	201 - Madhya Vidyalay Sipara (Madhya Bhag)
+202	202 - Madhya Vidyalay Sipara (Uttari Bhag)
+203	203 - Madar Teresa High School Sipara Block -A Kamara No.7
+204	204 - Madar Teresa High School Sipara Block -A Kamara No.5
+205	205 - Madar Teresa High School Sipara Block -A Kamara No.5
+206	206 - Madar Teresa High School Sipara Block -A Kamara No.3
+207	207 - Madar Teresa High School Sipara Block No-B kamara No-5
+208	208 - Madar Teresa High School Sipara (Karyalay Paksh)
+209	209 - Madar Teresa High School Sipara Block No.-B Kamara No.1
+210	210 - Madar Teresa High School Sipara Block -No-B Kamara No.2
+211	211 - Dayanand High School Mithapur (Uttari Bhag)
+212	212 - Dayanand Uchcha Vidyalay Mithapur (Kamara No.3)
+213	213 - Dayanand Uchcha Vidyalay Mithapur (Pashchimi Block 7 Dakshini bhag)
+214	214 - Dayanand Uchcha Vidyalay Mithapur (Pashchimi Block-7 Dakshini Bhag)
+215	215 - Dayanand Uchcha Vidyalay Mithapur(Pashchimi Block Uttari Bhag)
+216	216 - Dayanand Madhya Vidyalay Mithapur (Dakshini Bhag)
+217	217 - Dayanand Madhya Vidyalay Mithapur (Madhya Bhag)
+218	218 - Dayanand Madhya Vidyalay Mithapur (Kaksha Hall)
+219	219 - Dayanand Girls Uchcha Vidyalay Mithapur Dakshini Block (Purwi Bhag)
+220	220 - Dayanand Girls Uchcha Vidyalay Dakshini Block Pashchimi Bhag
+221	221 - Dayanand Girls Uchcha Vidyalay Purwi Block Purwi Bhag
+222	222 - Dayanand Girls Uchcha Vidyalay Mithapur Kamara No.-1 Pratham Bhavan
+223	223 - Dayanand Prathamik Vidyalay, Mithapur (Dayanand Kanya Uchcha Vidyalay Ke Parisar Me) Mithapur (Uttari Bhag)
+224	224 - Dayanand Prathamik Vidyalay, Mithapur (Dayanand Kanya Uchcha Vidyalay Ke Parisar Me) (Dakshini Bhag)
+225	225 - Karyapalak Abhiyanta Laghu Sinchai Vibhag Karyalay Mithapur Farm
+226	226 - Set. M.G. High School Yarapur
+227	227 - Sent M.G. High School Yarapur Kamara No.- 2 (Dakshini Bhag)
+228	228 - Rising  Star Public School  (Domakhana Ke Pichhe) Yarapur Purvi Bhag
+229	229 - Little Nesta Convent New Jakkanpur (Gairej Me Pashchimi Bhag)
+230	230 - Little Nesta Convent New (Purwii Bhag)
+231	231 - Karyalay Adhikshan Abhiyanta Nalakup Driling Evm Maintenance Anchal Mithapur ( Purwi Bhag)
+232	232 - Karyalay Adhikshan Abhiyanta Nalakup Driling Evm Maintenance Anchal Mithapur (Paschimi Bhag)
+233	233 - Sent M.G. High School yarapur Mukhy Bhawan
+234	234 - B.D.Evening College Jakkanapur Mukhya Bhavan
+235	235 - B.D.Evening College Jakkanapur Mukhya Bhavan(Hall No.- 4)
+236	236 - B.D.Evening College Jakakanapur Purwi Bhag
+237	237 - B.D.Evening College,Jakakanapur (Hall No.-5)
+238	238 - Bihar Popular Scientific English School New Purundarpur (Purwi Bhag)
+239	239 - Bihar Popular Scientific English School New Purundarpur (Uttari Bhag)
+240	240 - Bihar Popular Scientific English School New Purundarpur (Pashchimi Bhag)
+241	241 - Bihar Popular Scientific English School New Purundarpur (Madhya Bhag)
+242	242 - Sned Public School, New Purandarpur
+243	243 - Falorida International English School  Mithapur (Baya Bhag)
+244	244 - Falorida International English School  Mithapur (Daya Bhag)
+245	245 - South Private English School New Jakkanpur (Karyalay Kaksha Me)
+246	246 - South Private English School New Jakkanpur (Purwi Bhag)
+247	247 - South Private English School New Jakkanpur  (Vidyalay Sed Me)
+248	248 - South Private English School New Jakkanpur (Pashchimi Bhag)
+249	249 - South Private English School New Jakkanpur  (Pashchimi Bhag Se Sata Kamra)
+250	250 - Sunrise High School  Ramalakhan Mahto Chauk (Pani Tanki Ke Nikat)Purani Jakakanapur (Uttari Bhag)
+251	251 - Sunrise High School  Ramalakhan Mahto Chauk (Pani Tanki Ke Nikat)Purani Jakakanapur(Dakshini Bhag)
+252	252 - Sunrise High School  Ramalakhan Mahto Chauk (Pani Tanki Ke Nikat)Purani Jakakanapur(Purwi Bhag)
+253	253 - Sunrise High School  Ramalakhan Mahto Chauk (Pani Tanki Ke Nikat)Purani Jakakanapur (Madhya Bhag)
+254	254 - Sunrise High School  Ramalakhan Mahto Chauk (Pani Tanki Ke Nikat) Purani Jakakanapur (Purwi Bhag )
+255	255 - Bihar Rajya Vidhut Board Karyalay Avar Sahayak Vidhut Apurti Shakha,Mithapur
+256	256 - Florid International English School (Purwi Bhag) Mithapur
+257	257 - Florid International English School (Pashchimi Bhag) Mithapur
+258	258 - Bal Niketan uchch vidyalay purandarpur (Dakshini bhag)
+259	259 - Bal Niketan uchch vidyalay purandarpur (Madhy  Bhag)
+260	260 - New Kids Children School Purandarpu Dayan Bhagr
+261	261 - New Kids Children School Purandarpu Bayan Bhagr
+262	262 - Diksha Public School, New Purandarapur (Dayan Bhag)
+263	263 - Diksha Public School, New Purandarapur (Bayan Bhag)
+264	264 - K.P.S. Memoriyal Hall, Jhunjhun Mahla ke Samane new Yarapur Patna
+265	265 - K.P.S. Memoriyal Hall, Jhunjhun Mahla ke Samane new Yarpur Patna
+266	266 - Samudayik bhawan chandapur bela (Dayan Bhag)
+267	267 - Samudayik Bhawan chandapur Bela (Bayan Bhag)
+268	268 - D. P.A. Englis School Chandapur Bela (Bayan Bhag)
+269	269 - D. P.A. Englis School Chandapur Bela (Dayan Bhag)
+270	270 - S.P. Maunteshari School Chandpur Bela (Dakshini Bhag)
+271	271 - S.P. Maunteshari School Chandpur Bela (Pracharya ka Kaksh)
+272	272 - S.P. Maunteshari School Chandpur Bela (Dakshini BhagSe Sata Kamra )
+273	273 - Prakritik Vidyalay Jay Prakash Nagar (Madhya Bhag)
+274	274 - Prakritik Vidyalay jay Prakash Nagar Dayan Bhag
+275	275 - Prakritik Vidyalay jay Prakash Nagar (Bayan Bhag)
+276	276 - L.P. Public School Jay Prakash Nagar Varg-2 Kamara Me
+277	277 - L.P. Public School jay Prakash Nagar Varg L.K.G. Ke kamara Me
+278	278 - Prathamik Vidyalay Dasharatha Kamara Sankhya-1
+279	279 - Shahid Ram Govind Singh Balika Uchch Vidhyalay Dashartha Kamara No-9
+280	280 - Prathamik Vidyalay Dasharatha Kamara Sankhya-2
+281	281 - Shahid Ram Govind Singh Balika Uchch Vidhyalay Dashartha Kamara No-11
+282	282 - Bankipur Post Office Ashok Rajpath
+283	283 - Samudayik Bhawan Bhanwar Pokhar
+284	284 - Samudayik Bhawan Bhanwar Pokhar (Purwi Bhag)
+285	285 - Samudayik Bhawan Bhanwar Pokhar (Pashchimi Bhag)
+286	286 - Patna Nagar Nigam Union Ka Karyalay (Uttari Bhag Ka Purwri Kamra )
+287	287 - Patna Nagar Nigam Union Ka Karyalay (Uttari Bhag Ka Paschimi Bhag)
+288	288 - Janwar Aspatal Bhanwar Pokhar (Purwi Bhag)
+289	289 - Janwar Aspatal Bhanwar Pokhar (Pashchimi Bhag)
+290	290 - Anjuman Islamiya Hall (Pashchimi Bhag)
+291	291 - Anjuman Islamiya Hall (Karyalay Me)
+292	292 - Anjuman Islamiya Hall (Purwi Bhag)
+293	293 - Anjuman Islamiya Hall Purwi Bhag (Uttari Bhag)
+294	294 - Patna College, Patna Ashok Rajpath (Purwi Bhag )
+295	295 - Patna College Patna Ashok Rajpath Purwi Bhag (Pashchimi Bhag)
+296	296 - Patna Nagar Nigam Bankipur Anchal Ka Karyalay (Uttari Bhag)Bhavar Pokhar
+297	297 - Patna Nagar Nigam Bankipur Anchal Ka Karyalay (Dakshini Bhag)Bhavar Pokhar
+298	298 - Rajkiy Hindi Balak Madhya Vidhalay Bhavar Pokhar (Madhya Bhag)
+299	299 - Rajkiy Hindi Balak Madhya Vidhalay Bhavar Pokhar (Uttari Bhag)
+300	300 - Baiptist Charch School, Bhanvar Pokhar (Daya Bhag)
+301	301 - Baiptist Charch School, Bhanvar Pokhar (Bayan Bhag)
+302	302 - Rajkiy Urdu Prathmik Vidhalay Bhavar Pokhar
+303	303 - Shah Rasidullah Institute Of  Technology Training Centre Birala Mandir Road Bhanvar Pokhar
+304	304 - Urdu Middle School Darzi Tola Dariyapur (Purwi Bhag)
+305	305 - Urdu Middle School Darzi Tola Dariyapur (Pashchimi Bhag)
+306	306 - Urdu Middle School Darzi Tola Dariyapur (Madhya Bhag)
+307	307 - Madhya Vidhalay Dariyapur Gola Road (Pashchimi Bhag)
+308	308 - Madhya Vidhalay Dariyapur Gola (Purwi Bhag)
+309	309 - Madhya Vidhalay Dariyapur Gola (Madhya Bhag)
+310	310 - Patna Collegiate School Dariyapur (Purwi Bhag)
+311	311 - Patna Collegiate School Dariyapur  (Pashchimi Bhag)
+312	312 - Patna Collegiate School Dariyapur  (Madhya Bhag)
+313	313 - Patna Collegiate School Dariyapur  (Uttari Bhag)
+314	314 - Tibbi College Kadamkuan (Purwi Bhag)
+315	315 - Tibbi College Kadamkuan (Uttari Bhag)
+316	316 - Tibbi College Kadamkuan (Dakshini Bhag)
+317	317 - Ayurvedic College Kadamkuan (Uttari Bhag)
+318	318 - Ayurvedik College, Kadam Kuan (Madhy Bhag)
+319	319 - Ayurvedic College Kadamkuan (Dakshini Bhag)
+320	320 - Hindi Sahitya Samelan Bhavan Kadamkuan (Uttari Bhag)
+321	321 - Hindi Sahitya Samelan Bhavan Kadamkuan (Dakshini Bhag)
+322	322 - Hindi Sahitya Samelan Bhavan Kadamkuan (Madhya Bhag)
+323	323 - Hindi Sahitya Samelan Bhavan Kadamkuan (Pashchimi Bhag)
+324	324 - Sant Sevarin High School Kadamkuan (Uttari Bhag)
+325	325 - Sant Sevarin High School Kadamkuan (Dakshini Bhag)
+326	326 - Sant Sevarin High School Kadamkuan  (Purvi Bhag)
+327	327 - Sant Sevarin High School Kadamkuan (Pashchimi Bhag)
+328	328 - Blind School Mukhya Bhavan Central Block Kadamkuan
+329	329 - Bihar Rajya Homiopathic Board Nibandhan Karyalay Kadamkuan (Uttari Bhag)
+330	330 - Bihar Rajya Homiopathic Board Nibandhan Karyalay (Dakshini Bhag)

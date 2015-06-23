@@ -1,0 +1,260 @@
+1	1 - Utkarmit madhVidyalay Narayanapur
+2	2 - Prathamik Vidyalay, Dhibara
+3	3 - Prathamik Vidyalay,  Patez
+4	4 - Madhya Vidyalay, Navagadh
+5	5 - Tahasil Kachahari, Taradih
+6	6 - Lok Shikshan Kendra Bhavan, Ramapur
+7	7 - Utkramit Madhya Vidyalay, Manzauliya- ii
+8	8 - Utkramit Madhya Vidyalay, Lembua
+9	9 - Utkramit Madhya Vidyalay, Pahadapur
+10	10 - Utkramit Madhya Vidyalay, Baliyari
+11	11 - Samudayik Vikas Bhavan, Maricha
+12	12 - Utakramit Madhya Vidyalay, Reganiya
+13	13 - Samudayik Bhawan, Khaira
+14	14 - Samudayik Vikas Bhavan, Khairapokhar
+15	15 - Utkramit Madhya Vidyalay, Bahera
+16	16 - Uchcha Vidyalay, Amas
+17	17 - Prathamik Vidyalay, Jhari
+18	18 - Samudayik Vikas Bhavan, Jasapur
+19	19 - Panchayat Bhavan, Budhaul
+20	20 - madhya Vidyalay, Bishunpur
+21	21 - Utkramit Madhya Vidyalay, Badki Chilmi
+22	22 - Prathamik Vidyalay, Bara (Bankat)
+23	23 - Madhya Vidyalay, Nima
+24	24 - Samudayik Vikas Bhavan, Balkhora sthit Tola Chhatri Bigaha
+25	25 - Prathamik Vidyalay, Simari
+26	26 - Panchayat Bhawan Amas(UttariBhag)
+27	27 - Panchayat Bhawan, Amas (Dakshani Bhag)
+28	28 - Sarakari Tahasil Kachahari, Pathara
+29	29 - Utkramit Madhya Vidyalay, Gamhariya
+30	30 - Mdhya Vidyalay, Aamas
+31	31 - Utkramit Madhya Vidyalay, Gangati
+32	32 - Prathamik Vidyalay, Manzauliya
+33	33 - Prathamik Vidyalay, Mahapur
+34	34 - Madhya Vidyalay, Vrindavan
+35	35 - Prathamik Vidyalay, Chhotaki Sanv
+36	36 - Sarwajanik Sanskritik Sah Pustakalay Bhavan, Khairakhurd
+37	37 - Madhya  Vidyalay, Shyamkala (Bariki sanw)
+38	38 - Prathamik Vidyalay, Kolsar
+39	39 - Prathamik Vidyalay, Tetariya
+40	40 - Madhya Vidyalay, Pindara
+41	41 - Madhya Vidyalay, Shamsher Khap
+42	42 - Primary school Tilaiya ama
+43	43 - Utkramit Madhya Vidyalay, Mungarain
+44	44 - Samudayik Vikas Bhavan, Karamadih
+45	45 - Madhya Vidyalay, Suggi
+46	46 - Middle School Morainiyan Amas
+47	47 - Samudayik Vikas Bhavan, Javainiya
+48	48 - Samudayik Vikas Bhawan, Pahadapur
+49	49 - Samudayik Vikas Bhavan, Banakat
+50	50 - Utkramit Urdu Madhya Vidyalay, Sihuli (Paschimi Bhag)
+51	51 - Utkrmit Madhya Vidyalay, Karamain More
+52	52 - Madhya Vidyalaya, Kalwan
+53	53 - Madhya Vidyalay, Bajitpur
+54	54 - Samudayik Vikas Bhavan, Chaparadah Sthit Manashadih Bhui Toli
+55	55 - Samudayik Vikas Bhavan, Kudasin
+56	56 - Prathamik Vidyalay, Banahi
+57	57 - Samudayik Vikas Bhavan, Haridaspur
+58	58 - Urdu Prathmik Vidyalay, Supai
+59	59 - Prathamik Vidyalay, Sekhbigha
+60	60 - Urdu Prathamik Vidyalay, Koramathu
+61	61 - Madhya Vidyalay, Shyam Nagar Nima
+62	62 - Utkramit Madhya Vidyalay, Ramuachak
+63	63 - Utkramit Urdu Madhya Vidyalay, Vaida
+64	64 - Utkramit Madhya Vidyalay, Akauna
+65	65 - Utkramit Madhya Vidyalay, Akauna
+66	66 - Samudayik Vikas Bhavan, Chaturekhap
+67	67 - Utkramit Madhya Vidyalay, Chitabakhurd
+68	68 - Prathamik vidhyalaya, Drana
+69	69 - Samudayik Vikas Bhavan, Ahuri
+70	70 - Utkramit Madhya Vidyalay, Mahuava (Uttri Bhag)
+71	71 - Utkramit Madhya Vidyalay, Mahuama(dakshini Bhag)
+72	72 - Urdu Kanya Prathamik Vidyalay, Hamjapur (Uttari Bhag)
+73	73 - Urdu Kanya Prathamik Vidyalay, Hamjapur (Uttri Bhag)
+74	74 - Utkramit Urdu Madhya Vidyalay, Hamajapur
+75	75 - Utkramit Madhya Vidyalay, Cheraki
+76	76 - Samudayik Vikas Bhavan, Cheraki Tikari Par
+77	77 - Samudayik Vikas Bhavan, Dariyapur
+78	78 - Anganabadi Kendra Bhavan, Ratanapura
+79	79 - Prathamik Vidyalay, Bishunapura
+80	80 - Prathamik Vidyalay, Jayapur
+81	81 - Madhya Vidyalay, Khandail
+82	82 - Samudayik Vikas Bhavan, Harijan Tola, Khandail
+83	83 - Prathamik Vidyalay, Pandaul
+84	84 - Prathamik Vidyalay, Baniya Baraun
+85	85 - Prathamik Vidyalay, Dakhinakhap
+86	86 - Madhya Vidyalay, Bela
+87	87 - Samudayik Vikas Bhavan, Ghodajara
+88	88 - Samudayik Vikas Bhawan, Mohidipur
+89	89 - Utkramit Madhya Vidyalay, Baheri Tola, Mohanapur
+90	90 - Prathamik Vidyalay, Ganv Khap
+91	91 - Prathamik Vidyalay, Ghodijara
+92	92 - Utkramit Madhya Vidyalay, Kusha
+93	93 - Madhya Vidyalay, Kachaudi
+94	94 - smudayak bhawan Thewaichak
+95	95 - Prathamik Vidhyalaya, lakshnati
+96	96 - Prathamik Vidyalay, Fajalaha
+97	97 - Samudayik Vikas Bhavan, Kalandara
+98	98 - Utkramit Madhya Vidyalay, Dhab Ramapur
+99	99 - Utkramit Madhya Vidyalay, Bhusabhusiya
+100	100 - Sanskrit Vidyalay, Uchirma
+101	101 - Prathamik Vidyalay, Mojama
+102	102 - Utkramit Madhya Vidyalay, Chitabakala
+103	103 - Samudayik Vikas Bhavan, Raja Bigaha
+104	104 - Prathamik Vidyalay, Kamat
+105	105 - Samudayik Vikas Bhavan, Mazanapur
+106	106 - Madhya Vidyalay, Jogapur
+107	107 - Prathamik Vidyalay, Isamailapur
+108	108 - Prathamik Vidyalay, Harana
+109	109 - Madhya Vidyalay, Salaiya
+110	110 - Panchayat Bhavan, Nakanupa
+111	111 - Samudayik Vikas Bhavan, Mansa Bigaha
+112	112 - Samudayik Vikas Bhavan, Bharari
+113	113 - Prathamik Vidyalay, Bar (Dakshini Bhag)
+114	114 - Prathamik Vidyalay, Bar (Madhy Bhag)
+115	115 - Prathamik Vidyalay, Bar Husainganj
+116	116 - Utkramit Madhya Vidyalay, Chilim (Uttari Bhag)
+117	117 - Utkramit Madhya Vidyalay, Chilim (Daskhini Bhag)
+118	118 - Harijan Prathamik Vidyalay, Gopalpur (Uttari Bhag)
+119	119 - Harijan Prathamik Vidyalay, Gopalpur (Dakshini Bhag)
+120	120 - Prathamik Vidyalay, Pahlad Kala
+121	121 - URDU Madhya Vidyalay, Sonekhap
+122	122 - Samudayik Vikas Bhawan, Mahamadpur
+123	123 - Samudayik Vikas Bhawan, Kathar
+124	124 - Prathamik Vidyalay, Samod Bigaha
+125	125 - Sherghati Godam (Uttari Bhag)
+126	126 - Sherghati Godam (Dakshini Bhag)
+127	127 - Anusuchit Jati Kalyan Chhatravas, Sherghati
+128	128 - Parda Girls Prathamik Vidyalay, Somali Sherghati (Uttari Bhag)
+129	129 - Parda Girls Prathamik Vidyalay, Somali Sherghati (Dakshini Bhag)
+130	130 - Ranglal Uchcha Vidyalay, Sherghati
+131	131 - Urdu Model School, Sherghati
+132	132 - Nagar Panchayat Karyalay, Sherghati
+133	133 - Balika Uchcha Vidyalay, Sherghati
+134	134 - Narayan Pustakalay, Sherghati (Baya Bhag)
+135	135 - Narayan Pustakalay, Sherghati (Daya Bhag)
+136	136 - Samudayik Vikas Bhawan, Fatehpur
+137	137 - Utkrmit Madhya Vidyalay, Palakiya
+138	138 - Shikshan Prashikshan Mahavidyalay, Sherghati
+139	139 - Rajkiya Abhyas Buniyadi Vidyalay, Sherghati
+140	140 - Urdu Prathamik Vidyalay Ramana Chatti, Sherghati
+141	141 - Urdu Prathamik Vidyalay Ramana Chatti, Sherghati
+142	142 - Smudayik Bhawan, Sherghati
+143	143 - Urdu Madhya Vidyalay Kazi Mahalla, Sherghati (Uttari Bhag)
+144	144 - Urdu Madhya Vidyalay Kazi Mahalla, Sherghati (Dakshini Bhag)
+145	145 - Prathamik Vidyalay, Afzalpur
+146	146 - Prathamik Vidyalay, Nawada
+147	147 - Panchayat Bhawan, Varma
+148	148 - Madhya Vidyalay, Varma Thaman Bigaha
+149	149 - Utkramit Madhya Vidyalay, Shrirampur
+150	150 - Samudayik Vikas Bhawan, Beldih
+151	151 - Prathamik Vidyalay, Bhujoul
+152	152 - Prathmik Vidyalay, Bniyadih
+153	153 - Prathamik Vidyalay, Jhaur
+154	154 - Utkramit Madhya Vidyalay, Chapi
+155	155 - URDU MADHYA Vidyalay, Mohabbatpur
+156	156 - Prathamik Vidyalay, Samda
+157	157 - Utkramit Madhya Vidyalay, Jamuain
+158	158 - Samudayik Vikas Bhawan, Nima
+159	159 - Prathamik Vidyalay, Safichak
+160	160 - Prathamik Vidyalay, Ghaghar
+161	161 - Samudayik Vikas Bhawan, Manjharkala
+162	162 - Utkramit Madhya Vidyalay, Dhabchiraiya
+163	163 - Utkramit Madhya Vidyalay, Dhabchiraiya
+164	164 - Utkramit Madhya Vidyalay, Sondiha
+165	165 - Anganbari Kendra Bhawan, Ghanghari
+166	166 - Samudayik Vikas Bhawan, Manjharkhurd
+167	167 - Utkramit Madhya Vidyalay, Kajarsot
+168	168 - Prathamik Vidyalay, Dhujji
+169	169 - Samudayik Vikas Bhawan, Ghoravadih
+170	170 - Kurumdih Pariyojana Vidyalay, Kurumdih
+171	171 - Sarwjanik Pustakalay, Navadih
+172	172 - Samudayik Vikas Bhawan, Mansidih
+173	173 - Panchayat Bhawan, Karmauni
+174	174 - Samudayik Bhawan, Gamhariya
+175	175 - Utkramit Madhya Vidyalay, Dariaura
+176	176 - Samudayik Bhawan, Parari
+177	177 - Samudayik Vikas Bhawan, Bhalua
+178	178 - Utkramit Madhya Vidyalay, Barahmoriya
+179	179 - Samudayik Vikas Bhawan, Tetariya Tola Butti Bigaha
+180	180 - Prathamik Vidyalay, Ghonghava
+181	181 - Madhya Vidyalay, Pindasin
+182	182 - Prathamik Vidyalay, Dharampur
+183	183 - Madhya Vidyalay, Vari
+184	184 - Utkrmit Madhya Vidyalay, Salempur
+185	185 - Prathamik Vidyalay, Akauni
+186	186 - Besic School, Bajaura
+187	187 - Utkramit Madhya  Vidyalay, Maharajganj Bajaura
+188	188 - Samudayik Vikas Bhawan, Bajaura
+189	189 - Utkramit Madhya Vidyalay, Nigari
+190	190 - Utkramit Madhya Vidyalay, Angara Tola Nimiyatand (Dakshini Bhag)
+191	191 - Utkramit Madhya Vidyalay, Angara Tola Nimiyatand (Uttari Bhag)
+192	192 - Utkramit Madhya Vidyalay, Singh Pokhar
+193	193 - Madhya Vidyalay, Aurwan Dohar
+194	194 - Utkramit Madhya Vidyalay, Piparghatti
+195	195 - Samudayik Bhawan, Kushabija (Purvi Bhag)
+196	196 - Samudayik Bhawan, Kushabija (Pashchimi Bhag)
+197	197 - Prathamik Vidyalay, Kushabija (Kusha)
+198	198 - Samudayik Bhavan, Jaymangalpur (Bigaha)
+199	199 - Prathamik Vidyalay, Kauabar
+200	200 - Utkramit Madhya Vidyalay, Panchratan (Uttari Bhag)
+201	201 - Utkramit Madhya Vidyalay, Achchhvan
+202	202 - Prathamik Vidyalay, Nehuta
+203	203 - Madhya Vidyalay, Nehuta
+204	204 - Dak Bangala, Bahera
+205	205 - Utkrmit Madhya Vidyalay, Kothwara
+206	206 - Uchcha Vidyalay, Amarut
+207	207 - Akhauri Vanshidhar Sanskrit Vidyalay, Hardavan (Bayan Bhag)
+208	208 - Akhauri Vanshidhar Sanskrit Vidyalay, Hardavan (Dayan Bhag)
+209	209 - Anganbari Kendra, Dharampur
+210	210 - Utkramit Madhya Vidyalay, Kosama
+211	211 - Samudavik Bhawan Garhijam
+212	212 - Prathmik Vidyalay Ranichak
+213	213 - Prathamik Vidyalay, Pindarakhurd
+214	214 - Panchayat Bhawan, Ghoraghat
+215	215 - Utkramit Kanya Madhya Vidyalay, Ghoraghat
+216	216 - Amarut Besic School, Sevaichak (Pashchimi Bhag)
+217	217 - Amarut Besic School, Sevaichak (Purwi Bhag)
+218	218 - Amarut Besic School, Kanziyar (Naya Bhawan)
+219	219 - Samudayik Bhawan, Keshapi
+220	220 - Prathamik Vidyalay, Kesapi Purana Tola
+221	221 - Utkarmit Madhya Vidayalay Khajariya
+222	222 - Sarwajanik Pustakalay, Dobhi (Purwi Bhag)
+223	223 - Samudayik  Bhawan, Dobhi
+224	224 - Prathamik Vidyalay, Ghirsindi Kala
+225	225 - Samudayik Bhawan, Nainasagar
+226	226 - Samudayik Vikas Bhawan, Makhrour
+227	227 - Panchayat Bhawan, Bhurkunda
+228	228 - Prathamik Vidyalay, Nima
+229	229 - Samudayik Bhawan, Sitachak
+230	230 - Utkramit Madhya Vidyalay, Dumari
+231	231 - Utkramit Madhya Vidyalay, Deshpura
+232	232 - Prathamik Vidyalay, Amarua
+233	233 - Madhya Vidyalay, Surajmandal
+234	234 - Utkramit Madhya Vidyalay, Chanda
+235	235 - Prathamik Vidyalay, Kalyanpur
+236	236 - Prathamik Vidyalay, Patti
+237	237 - Prathamik Vidyalay, Bhelava
+238	238 - Samudayik Bhawan, Kangali Bigaha
+239	239 - Utkramik Madhya Vidyalay, Bundabigaha
+240	240 - Samudayik  Bhawan, Musehani
+241	241 - Prathamik Vidyalay, Sabal Bigaha
+242	242 - Utkramit Madhya Vidyalay, Kurmawan (Uttari Bhag)
+243	243 - Utkramit Madhya Vidyalay, Kurmawan (Dakshini Bhag)
+244	244 - Prathamik Vidyalay, Musehana
+245	245 - Samudayik Bhawan, Sundarkumhari
+246	246 - Utkramit Madhya Vidyalay, Babhandev (Uttari Bhag)
+247	247 - Utkramit Madhya Vidyalay, Babhandev (Dakshini Bhag)
+248	248 - Prathamik Vidyalay, Mudiyal
+249	249 - Prathamik Vidyalay, Sugasot
+250	250 - Prathamik Vidyalay, Lembogarha
+251	251 - Utkramit Madhya Vidyalay, Goitha Mitha
+252	252 - Prathamik Vidyalay, Msaundha
+253	253 - Utkramit Madhya Vidyalay, Bariya
+254	254 - Utkramit Madhya Vidyalay, Kharounti (Uttari Bhag)
+255	255 - Utkramit Madhya Vidyalay, Kharounti (Dakshini Bhag)
+256	256 - Utkramit Madhya Vidyalay, Nadarpur
+257	257 - Prathamik Vidyalay, Garvaiya
+258	258 - Prathamik Vidyalay, Garvaiya
+259	259 - Samudayik Bhawan, Khapiya
+260	260 - Utkramit Madhya Vidyalay, Mahuari

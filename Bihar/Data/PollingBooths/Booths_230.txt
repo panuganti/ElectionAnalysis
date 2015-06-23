@@ -1,0 +1,227 @@
+1	1 - Delha Madhya Vidyalay, Near Tel Mill, Tisara Varg
+2	2 - Prathamik Vidyalay, Dhaniya Bagicha (Bayan Bhag)
+3	3 - Prathamik Vidyalay, Dhaniya Bagicha (Dayan Bhag)
+4	4 - Delha Madhya Vidyalay, Tel Mil Ke Pas (Pashchimi Bhag)
+5	5 - Railway Clony School, Gaya (Utari Bhag)
+6	6 - Railway clony School, Gaya (Dakshini Bhag)
+7	7 - Delha Madhya Vidyalay, Tel Mil Ke Nikat (Saptam Varg)
+8	8 - Prathamik Vidyalay, Vijay Bigha,Devi Sthan Gaya (Dayan Bhag)
+9	9 - Prathamik Vidyalay, Vijay Bigha,Devi Sthan Gaya (Bayan Bhag)
+10	10 - Madhya Vidyalay, Kharkhura (Daya Bhag)
+11	11 - Madhya Vidyalay, Kharkhura (Baya Bhag)
+12	12 - Madhya Vidyalay, Kharakhura (Utari Bhag Karyalay Kaksha)
+13	13 - Madhya Vidyalay, Kharakhura (Dakshini Bhag)
+14	14 - Ashok Uchcha Vidyalay, Kharkhura (Bayan Bhag)
+15	15 - Ashok Uchcha Vidyalay, Kharkhura (Madhya Bhag)
+16	16 - Ashok Uchcha Vidyalay, Kharkhura (Daya Bhag)
+17	17 - Kanya Prathamik Vidyalay, Kharkhura
+18	18 - Lalu Mandal College, Kharkhura (Daya Bhag)
+19	19 - Lalu Mandal Kolej, Kharkhura (Bayan Bhag)
+20	20 - Lalu Mandal Kolej, Kharkhura (Madhya Bhag)
+21	21 - Lalu Mandal College, Kharkhura Karyalay Kaksha
+22	22 - R. M. P. School, Kharkhura (Purvi Bhag)
+23	23 - R. M. P. School, Kharkhura (Pashchimi Bhag)
+24	24 - R. M. P. School, Kharkhura (Madhya Bhag)
+25	25 - Nagar Nigam Store
+26	26 - A. T. P. School, Purva Madhya Rail Loko
+27	27 - A. T. P. School, Purva Madhya Rail Loko
+28	28 - Loko Madhya Vidyalay Bayan Bhag
+29	29 - Loko Madhya Vidyalay, Madhya Bhag
+30	30 - Loko Madhya Vidyalay, Dayan Bhag
+31	31 - Loko Madhya Vidyalay, Karyalay Kaksha
+32	32 - Anganwadi Kendra -Sah- Samudayik Bhavan, Kushta Aspatal Ke Samane (Bayan Bhag)
+33	33 - Anganbadi Kendra -Sah- Samudayik Bhawan, Kushta Aspatal Ke Samane Dayan Bhag (Chalant Matdan Kendra)
+34	34 - Prathamik Vidyalay, Sanjay Nagar
+35	35 - Samudayik Vikas Bhawan, River Side Road Karbala Ke Samane
+36	36 - Samudayik Vikas Bhawan, River Side Road Karbala Ke Samane
+37	37 - Azad Urdu Madhya Vidyalay Karbala (Pashchimi Bhag)
+38	38 - Azad Urdu Madhya Vidyalay Karbala (Madhy Bhag)
+39	39 - Azad Urdu Madhya Vidyalay Karbala (Purwi Bhag)
+40	40 - Urdu Prathmik Vidhyalay, Varisnagar
+41	41 - Mahila Shikshak Prashikshan Kendra, Panchayati Akhada River Side Road Karyalay Kaksha
+42	42 - Mahila Shikshak Prashikshan Kendra, Panchayati Akhada Nadi Kinare Road Bayan Bhag
+43	43 - Mahila Shikshak Prashikshan Kendra, Panchayati Akhada Nadi Kinare Road Dayan Bhag
+44	44 - Mahila Shikshak Prashikshan Kendra, Panchayati Akhada River Side Road, Madhya Bhag
+45	45 - Jila Vidyalay Nirikshika Ka Karyalay (Bayan Bhag)
+46	46 - Nai Godam Pamping House
+47	47 - Prathamik Vidyalay, Shankar Balika] Maharani Road, Gaya (Bayan Bhag)
+48	48 - Phasi Len Ke Ant Me Chalant Matdan Kendar Khata No 61 Plot No 41
+49	49 - Jila Vidyalay Nirikshika Ka Karyalay Tutwari (Dayan Bhag)
+50	50 - Bapuvachanalaya Prathamik Vidyalay, Jhilganj (Dakshini Bhag)
+51	51 - Bapuvachanalaya Prathmik Vidyalaya, Tutbadi(Uttri  Bhag)
+52	52 - Janata Madhya Vidhalay, Murli Pahadi (Bayan Bhag)
+53	53 - Janata Madhya Vidhalay, Murli Pahadi (Dayan Bhag)
+54	54 - Prathamik Vidyalay, Murli Pahadi (Balak) Rajendra Path
+55	55 - Yoddha Ram Prathamik Vidyalay, Rajendra Path (Dayan Bhag)
+56	56 - Yoddha Ram Prathamik Vidyalay,  Rajendra Path (Bayan Bhag)
+57	57 - Ramaruchi Kanya Uchcha Vidyalay, Gaya Rajendra Path (Bayan Bhag)
+58	58 - Ramaruchi Kanya Uchcha Vidyalay, Gaya Rajendra Path (Dayan Bhag)
+59	59 - Ramaruchi Kanya Uchcha Vidyalay, Gaya Rajendra Path (Madhya Bhag)
+60	60 - Kendriy Vidyalay, Sankhya-1,Pavaraganj (Dayan Bhag)
+61	61 - Kendriy Vidyalay, Sankhya-1,Pavaraganj (Bayan Bhag)
+62	62 - Kendriy Vidyalay Sankhya-1,Pavaraganj (Madhya Bhag)
+63	63 - Kendriy Vidyalay, Sankhya-1,Pavaraganj (Madhya Bhag)
+64	64 - Kendriy Vidyalay Sankhya-1, Ke Maidan Me Nagar Nigam Pamping House (Dayan Bhag)
+65	65 - Kendriy Vidyalay Sankhya-1, Ke Maidan Me Nagar Nigam Pamping House (Bayan Bhag)
+66	66 - Mahatma Gondhi Vidya Bhawan, Ramdhanpur
+67	67 - Prathamik Vidyalay, Shankar Balika Maharani Road
+68	68 - Nav Balika Madhya Vidyalay, Rajendra Path (Pancham Varg)
+69	69 - Chandrashekhar Janta College, Ganga Mahal ke Purvi Bhawan Mein
+70	70 - Chandrashekhar Janta College, Chowk Road (Pashchimi Bhag)
+71	71 - Chandrashekhar Janta College, Chowk Road (Dakshini Bhag)
+72	72 - Madhya Vidyalay, Panchayati Akhada (Purvi Bhag)
+73	73 - Madhya Vidyalay, Panchayati Akhada (Dakshini Bhag)
+74	74 - Haranachandra Uchcha Vidyalay, Nadi Kinare Road (Navama Varg)
+75	75 - Haranachandra Uchcha Vidyalay, Karyalay Kaksha
+76	76 - Gautam Buddha Mahila College, Mani Road (Dakshini Bhag)
+77	77 - Mam Academy, Dukhaharani Mandir Ke Pas
+78	78 - Jain Dharmashala, Ribhar Said Rod (Utari Bhag)
+79	79 - Jain Dharmashala, Ribhar Said Rod (Dakshini Bhag)
+80	80 - Gautam Budha Mahila College, Mani Road (Uttari Bhag)
+81	81 - Urdu Prathamik Vidyalay, Murarapur
+82	82 - Murarpur Madhya Vidyalay, Murarpur (Pashchimi Bhag)
+83	83 - Murarpur Madhya Vidyalay, (Madhya Bhag)
+84	84 - Hindi Sahitya Sammelan Bhawan, Azad Park (Utari Bhag)
+85	85 - Azad Park Pani Tanki Ke Kamara Mein
+86	86 - Anugrah Kanya Uchcha Vidyalay, ( Bayan Bhag )
+87	87 - Anugrah Kanya Uchcha Vidyalay, (Dayan Bhag )
+88	88 - Anugrah Kanya Uchcha Vidyalay (Ashtam Varg )
+89	89 - Gurunanak Madhya Vidyalay, East Godam Road, (Purvi bhag)
+90	90 - Gurunanak Madhya Vidyalay, East Godam Road (Madhya Bhag)
+91	91 - Gurunanak Madhya Vidyalay, East Godam road, Gaya
+92	92 - Marwari High School, Gaya
+93	93 - Quasimi Middile School (Pashchimi Bhag)
+94	94 - Madarsa Anwarul Ullum, Marufganj
+95	95 - Mahaveer Inter School Kamra Sankhia 23 (Dayan Bhag)
+96	96 - Mahavir Inter School, Kamara Sankhya 23 (Bayan Bhag)
+97	97 - Fire Brigde Karyalay (Uttari Bhag )
+98	98 - Fire Brigade office (Dakshini Bhag)
+99	99 - Muslim Musafirkhana Ganni Market, Dr. Wazirali Road, Ghasiyar Tola
+100	100 - Chowk Dharmshala K.P Road, Gaya (Purwi Bhag)
+101	101 - Marwari Panchayati Dharmashala, K.P Road
+102	102 - T. Model Uchcha Vidyalay, G.B Road (Purwi Bhag)
+103	103 - T. Model Uchcha Vidyalay, G.B Road (Pashchimi Bhag)
+104	104 - Hindi Sahitya Sammalen, Azad Park (Dakshini Bhag)
+105	105 - Government Girls Uchcha Vidyalay, Ramna (Navam Varg)
+106	106 - Government Girls Uchcha Vidyalay, Ramna (Ashtham Varg Dayan Bhag)
+107	107 - Government Girls Uchcha Vidyalay, Ramna (Ashtham Varg Bayan Bhag)
+108	108 - Loadging house, Angan Baadi Kendra
+109	109 - Tilha Dharmashala, Dakshin Bhag, Ramsagar Road
+110	110 - Laujing House, Angan Badi Kendra Ke Purvi Taraf Ke Kaksha Mein
+111	111 - Mahavir Inter MahaVidyalaya , Swarajpuri Road (Room-3)
+112	112 - Quasimi Middile School
+113	113 - Quasimi High School    Haridash Chatarji Gali          (Purvi bg)
+114	114 - Urdu Kanya Madhya Vidyalay, Karimganj (Bayan Bhag)
+115	115 - Urdu Kanya Madhya Vidyalay, Karimaganj (Dayan Bhag)
+116	116 - Quasimi High School, Chuna Gali(Pashchimi Bhag)
+117	117 - Quasimi High School Chunagali Road (Madhya Bhag)
+118	118 - Quasimi Middile School (Pashchimi Bhag)
+119	119 - Quasimi Middile school (Purwi Bhag)
+120	120 - Jiradei Dharmashala, Swarajapuri Road
+121	121 - Prathamik Vidyalay, Murarpur Gurudwara Road (Paschimi Bhag)
+122	122 - Prathamik Vidyalay, Murarpur Gurudwara Road (Purvi Bhag)
+123	123 - Mahaveer Madhya Vidyalay, Swrajpuri Road (Ashtham Varg Bayan Bhag)
+124	124 - Mahavir Madhya Vidyalay, Swrajpuri Road (Astam Varg Dayan Bhag)
+125	125 - Lok Nirman Vibhag, Seva Nagar (Pashchimi Bhag)
+126	126 - Lok Nirman Vibhag, Seva Nagar (Purwi Bhag)
+127	127 - Van Vibhag Karyalay Parisar (Hajat)
+128	128 - Van Vibhag Karyalay Parisar (Guard Kamra)
+129	129 - Udyog Karyalay, Karimaganj
+130	130 - Udyog Karyalay, Karimaganj
+131	131 - D.A.V Public School, Katari Road Bhatt Bigha (Dayan Bhag)
+132	132 - D.A.V Public School, Katari Road Bhatt Bigha (Bayan Bhag)
+133	133 - Rotari D.A.V. Vidyalay, Imaliyachak
+134	134 - Anugrah Memorial College, Vigyan Bhawan (Room No.-3)
+135	135 - Anugrah Memorial College (Jimnezium Hall)
+136	136 - Gaya High School, (Room No.-1)
+137	137 - Gaya High School, (Room No.-3)
+138	138 - Adhikshan Abhiyanta, Vidhut Karyalay Gairej, Katari Road (Pashchimi Bhag)
+139	139 - Adhikshan Abhiyanta, Vidhut Karyalay Gairej, Katari Rod (Purvi Bhag)
+140	140 - Gaya High School, Kamra No-9 (Navam Varg)
+141	141 - Adhikshan Abhiyanta, Vidhut Karyalay Gairej, Katari Road (Purwi Bhag)
+142	142 - Adhikshan Abhiyanta, Vidhut Karyalay Gairej, Katari Road (Pashchimi Bhag)
+143	143 - Dankan Madhya Vidyalay, Sikadiya more
+144	144 - Gaya Nagar Nigam, Nav Nirmit Bhawan, S.P Kothi Ke Samne
+145	145 - Gaya Nagar Nigam, Navanirmit Bhawan, S.P Kothi Ke Samne
+146	146 - Gaya College Gaya, Vanijya Bhawan (Purvi Bhag) Room No.-89
+147	147 - Gaya College Gaya, Vanijya Bhawan (Madhya Bhag) Room No.-88
+148	148 - Gaya College Gaya, Vanijya Bhawan (Pashchimi Bhag) Room No.-87
+149	149 - Housing Board Karyalay, A.P Colony
+150	150 - Indira Gandhi Samudayik Vikas Bhavan, A.P Colony, Gaya
+151	151 - Dankan Madhya Vidyalay, C. R. C. Bhawan
+152	152 - Dankan Madhya Vidyalay, Anandai Bhawan
+153	153 - Balika Bihar Vidyalay, Near Mustafabad Devi Asthan (Purvi Bhag)
+154	154 - Balika Bihar Vidyalay, Near Mustafabad Devi Asthan (Pashchimi Bhag)
+155	155 - Indira Gandhi Samudayik Vikas Bhawan, A.P. Colony, Gaya (Madhya Bhag)
+156	156 - Indira Gandhi Samudayik Vikas Bhavan, A.P Colony Karyalay, Gaya
+157	157 - Samudayik Bhavan, Siyadi Dayan Bhag
+158	158 - Samudayik Bhavan, Siyadi Bayan Bhag
+159	159 - Prathamik Vidyalay, Kaler
+160	160 - Prathamik Vidyalay, Paharpur
+161	161 - Sarwe Karyalay, Red House (Bayan Bhag)
+162	162 - Gaya College, Bhugol Vibhag
+163	163 - Sarwe Karyalay, Lal Kothi (Bayan Bhag)
+164	164 - Zila Shiksha Padadhikari Karyalay (Purwi Bhag)
+165	165 - Zila Shiksha Padadhikari Karyalay (Madhya Bhag)
+166	166 - Zila Shiksha Padadhikari Karyalay, (Pashchimi Bhag)
+167	167 - Zila Shiksha Padadhikari Karyalay (Purvi Bhag)
+168	168 - Zila School, Vigyan Kaksha (Uttari Bhag)
+169	169 - Zila School, Meeting Hall
+170	170 - Tilha Dharmashala, Utari Bhag, Ramasagar Road, (Dayan Bhag)
+171	171 - Tilha Dharmashala Ka Uttari Bhag, Ramasagar Road, (Bayan Bhag)
+172	172 - Tilha Dharmashala, (Uttar Bhag) Ramasagar Road, Room No-4
+173	173 - Tilha Dharmashala, Ramasagar Rod
+174	174 - Tilha Dharmashala, Ramasagar Rod
+175	175 - Urdu Prathamik Vidyalay, Nadraganj
+176	176 - Kanya Madhya Vidyalay, Pitamaheshwar (Purvi Bhag)
+177	177 - Samudayik Bhawan, Nim Tale, Nadaraganj
+178	178 - Shahmir Takiya Madhya Vidyalay (Uttari Bhag)
+179	179 - Shahmir Takiya Madhya Vidyalay (Madhya Bhag)
+180	180 - Shahmir Takiya Madhya Vidyalay (Madhya Bhag)
+181	181 - Shahmir Takiya Madhya Vidyalay Saptam Varg Sankul Kendra
+182	182 - Shahhmir Takiya Madhya Vidyalay (Shashtam Varg)
+183	183 - Shahmir Takiya Madhya Vidyalay (Chaturth Varg)
+184	184 - Haridas Seminari Uchcha Vidyalay, Gaya
+185	185 - Haridas Seminari Uchcha Vidyalay, Gaya
+186	186 - Haridas Seminari Uchcha Vidyalay, (Madhya Bhag) Gaya
+187	187 - Haridas Seminari Uchcha Vidyalay (Dayan Bhag) Gaya
+188	188 - Karyalay S. D. O. Lok Nirman Vibhag, Path N0.-1 Karyalay Kaksha
+189	189 - Karyalay Karyapalak Abhiyanta, Lok Nirman Bhawan Dayan Bhag
+190	190 - Karyalay Karyapalak Abhiyanta, Lok Nirman Bhawan Bayan Bhag
+191	191 - Urdu Madhya Vidyalay, Gewal Bigha
+192	192 - Hindi Middle School, Gewal Bigha (Dayan Bhag)
+193	193 - Hindi Middle School, Gewal Bigha (Bayan Bhag)
+194	194 - Harijan Vidyalay, Gewal Bigha (Dayan Bhag)
+195	195 - Harijan Vidyalay, Gewal Bigha (Bayan Bhag)
+196	196 - Prathamik Vidyalay, Akshaywat (Pashchimi Bhag)
+197	197 - Prathamik Vidyalay, Akshaywat (Purvi Bhag)
+198	198 - Prathmik Vidyalay, Akshaywat (Dayan Bhag)
+199	199 - Prathamik Vidyalay, Akshaywat (Bayan Bhag)
+200	200 - Samudayik Bhawan, Akshaywat
+201	201 - Chandrashekhar Uchcha Vidyalay Akshayavat (Uttari Bhag)
+202	202 - Chandrashekhar Uchcha Vidyalay Akshayavat (Dakshini Bhag)
+203	203 - Chandchaura Madhya Vidyalay, Chandchaura
+204	204 - Chandchaura Madhya Vidyalay, Chandchaura
+205	205 - Chandachaura Madhya Vidyalay, Chandachaura (Pancham Varg)
+206	206 - Ashok Atithi Niwas, Room No.-1, Vishnupad Road, Gaya
+207	207 - Loudging House Karyalay, Vishnupad (Karyalay Kaksh)
+208	208 - Ashok Atithi Niwas, Room No.-4, Vishnupad Road, Gaya
+209	209 - Ramachandra Sinh Banamali Baba Kanya Uchcha Vidyalay, Andar Gaya Dayan Bhag
+210	210 - Ramachandra Sinh Banamali Baba Kanya Uchcha Vidyalay, Andar Gaya Bayan Bhag
+211	211 - Virajmohni Kanya Madhya Vidyalay, Andar Gaya
+212	212 - Virajmohni Kanya Madhya Vidyalay, Andar Gaya
+213	213 - Ashok Atithi Niwas, Room No.-7, Vishnupad Road, Gaya
+214	214 - Vishnu Bhawan, Vishnupad Road, Gaya
+215	215 - Maharani Ahilyabai Bhawan (Dayan Bhag)
+216	216 - Maharani Ahilyabai Bhawan (Bayan Bhag)
+217	217 - Madhya Vidyalay, Menhadibag (Bayan Bhag)
+218	218 - Madhya Vidyalay, Menhadibag (Dayan Bhag)
+219	219 - Madhya Vidyalay, Ghugharitand (Utari Bhag)
+220	220 - Madhya Vidyalay, Ghugharitand (Dakshini Bhag)
+221	221 - Bihar Rajya Pull Nirman Karya Pramandal, Gaya Ka Karyalay Dandibag (Dayan Bhag)
+222	222 - Bihar Rajya Pull Nirman Karya Pramandal, Gaya Ka Karyalay Dandibag (Bayan Bhag)
+223	223 - Rajkiya Politechnic, Ghughari Tand Gaya (Dayan Bhag)
+224	224 - Rajkiya Politechnic, Ghughari Tand Electronic Bhawan Room No.-103
+225	225 - Rajkiya Politechnic, Ghughari Tand Gaya (Bayan Bhag)
+226	226 - Rajkiya Politechnic, Ghughari Tand Electronic Bhawan Room No.-107
+227	227 - Bihar Rajya Pull Nirman Karya Pramandal, Gaya Ka Godam

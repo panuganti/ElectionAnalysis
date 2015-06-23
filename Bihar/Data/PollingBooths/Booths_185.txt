@@ -1,0 +1,254 @@
+1	1 - UPGRADED MIDDILE SCHOOL, SHIEKHPURA (EASTERN  PART)
+2	2 - AngandBari Kendra Shekhpura (Campus Me)
+3	3 - Upgraded Middile School, Brahmpur (Western Part)
+4	4 - Upgraded Middile School, Shiekhpura (Karyalay Bhag)
+5	5 - Prathamik Vidyalay Ashochak
+6	6 - Primary School Khemanichak
+7	7 - Bhabha Central School,Khemnichak
+8	8 - Bhabha Central School,Khemnichak
+9	9 - Primary School Illahibagh
+10	10 - Middile School Mahoharpur Kachuara (Northern Part)
+11	11 - Middile School Mahoharpur Kachuara (Southern Part)
+12	12 - Primary School Kanuji (Northern Part)
+13	13 - Primary School Kanuji (Western Part)
+14	14 - Primary School Kanuji (Southern Part)
+15	15 - Primary School Nayachak (Eastern Part)
+16	16 - Primary School Nayachak (Western Part)
+17	17 - Upgraded Middile School, Shahpur
+18	18 - Primary School Udaini
+19	19 - Samudayik Bhavan Bairiya Naya Bhavan
+20	20 - Primary School Sitjainchak
+21	21 - Upgraded Middile School Karnpura
+22	22 - Primary School Bairiya (Uttari Bhag)
+23	23 - Primary School Bairiya (Dakshini Bhag)
+24	24 - Harijan Kalyan Pustakalay Bairiya
+25	25 - Prathamik Vidyalay Harijan Tola Bairaiya
+26	26 - High School Chakbairiya
+27	27 - Primary School Shripatpur (Eastern Part)
+28	28 - Aanganbadi Kendra Sampatchak
+29	29 - Upgraded Middile School Abdullachak
+30	30 - Middile School Sampatchak New Building (Northern Part)
+31	31 - Middile School Sampatchak New Building (Southern Part)
+32	32 - Panchayat Bhawan Sona Gopalpur
+33	33 - Primary School Sona Gopalpur
+34	34 - Upgraded Middile School Sohagi (Northern Part)
+35	35 - Primary School Sohagi (Southern Part)
+36	36 - Primary School Hathder
+37	37 - Primary School Ramnagar
+38	38 - Upgraded Middile School Azimchak
+39	39 - Middile School Chainpur
+40	40 - Primary School Chipura Kalan
+41	41 - Upgraded Middile School, Chipura Khurd
+42	42 - Primary School Khushiyalchak
+43	43 - Middile School Bahuara
+44	44 - Upgraded Middile School Bahuara Rampur
+45	45 - Upgraded Middile School, Varuna
+46	46 - Primary School Achhechak
+47	47 - Prathamik Vidyalay Khaira Toli
+48	48 - Middile School Dariyapur
+49	49 - Primary School Saidanichak
+50	50 - Primary School Pipra (Naya Bhawan)
+51	51 - Upgraded Middile School Bhogipur
+52	52 - Samudayik Bhavan Chakpul
+53	53 - Samudayik Bhavan Faijalabad
+54	54 - Upgraded Middile School Bhelwara Musahari
+55	55 - Primary School Kamtachak New Building
+56	56 - Upgraded Middile School Kura Nawada (Southern Part)
+57	57 - Middile School Taranpur
+58	58 - Middile School Kandap (Southern Part)
+59	59 - Primary School Gopalpur (Jhuggi Jhopadi)
+60	60 - Panchayat Bhavan Kandap
+61	61 - Prathamik Vidyalay Kandap
+62	62 - Upgraded Middile School Kura Nawada (Northern Part)
+63	63 - Primary School Mokimpur
+64	64 - Rajkiya Madhya Vidyalay Lanka Kachuara
+65	65 - Samudayik Bhavan Lanka Kachhuara (Pashchimi Bhag)
+66	66 - Primary School Nadghat New Building (Western Part)
+67	67 - Primary School Alawakspur
+68	68 - Primary School Udaypur
+69	69 - Upgraded Middile School Jaiwar (Eastern Part)
+70	70 - Upgraded Middile School Jaiwar (Western Part)
+71	71 - Primary School Kamarji
+72	72 - Primary School Gaurichak (Eastern Part)
+73	73 - Primary School Gaurichak (Western Part)
+74	74 - Primary School Lakhipur Koli (New Building)
+75	75 - High School Fatehpur Northern Part)
+76	76 - High School, Fatehpur (Southern Part)
+77	77 - Upgraded Middile School, Fatehpur (Southern Part)
+78	78 - Primary School Fatehpur Nadi Ke Paar
+79	79 - Harijan Primary School, Fatehpur (Northern Part)
+80	80 - Harijan Primary School, Fatehpur (Southern Part)
+81	81 - Anugrah Kanya Madhya Vidyalay Fatehpur
+82	82 - MIDDILE SCHOOL, MADHOPUR, NORTHERN PART
+83	83 - Middile School Marchi (Eastern Part)
+84	84 - Middile School Marchi (Western Part)
+85	85 - Samudayik Bhavan Marchi (Pashchimi Bhag)
+86	86 - Samudayik Bhavan  Marchi (Purwi Bhag)
+87	87 - Primary School Marcha (Eastern Part)
+88	88 - Primary School Marcha (Western Part)
+89	89 - Harijan Samudayik Bhavan Marcha
+90	90 - Middile School Kothiya (Purvi Bhag)
+91	91 - Middile School Kothiya (Western Part)
+92	92 - Middile School, Mahuli (Northern Part)
+93	93 - Middile School Mahuli (Southern Part)
+94	94 - Sinchai Vibhag Ka Godam Mahuli Varmukta Nala (Dakshini Bhag
+95	95 - Sinchai Vibhag Ka Godown, Mahuli Varmukta Nala Northern Part
+96	96 - Middile School Gauharpur (Eastern Part)
+97	97 - Middile School Gauharpur (Western Part)
+98	98 - UPGRADED MIDDILE SCHOOL, HEERANANDPUR
+99	99 - Middile School Sonawan (Eastern Part)
+100	100 - Middile School Sonawan (Western Part)
+101	101 - Primary School Khanpur
+102	102 - Primary School Khaspur (Northern Part)
+103	103 - Primary School Baratpur
+104	104 - Upgraded Middile School Khaspur (Southern Part)
+105	105 - Primary School Mahmadpur (Northern Part)
+106	106 - Middile School Raibagh
+107	107 - Primary School Hanumanchak
+108	108 - Primary School Kasara
+109	109 - High School Punadih (Northern Part)
+110	110 - High School Punadih (Southern Part)
+111	111 - Primary School Natthachak
+112	112 - Primary School Nizampur
+113	113 - Primary School Sukulpur
+114	114 - Primary School Baghzafar Khan (Western Part)
+115	115 - Primary School Baghzafar Khan (Eastern Part)
+116	116 - Sabalpur Devi Sthan Ka Akhada (Dakshini Bhag)
+117	117 - Sabalpur Devi Sthan Ka Akhada (Pashchimi Bhag)
+118	118 - Primary School Fatehjungpur (Northrtn Part)
+119	119 - Samudayik Bhawan, Fatehjangpur
+120	120 - Samudayik Bhawan, Banstal
+121	121 - Anganbari Kendra Basantpur
+122	122 - Primary School Alampur (Northern Part)
+123	123 - Primary School Alampur (Southern Part)
+124	124 - Middile School, Khokhana
+125	125 - Upgraded Middile School, Gangapur
+126	126 - Primary School Kharfar
+127	127 - Upgraded Middile School, Rukunpur (Eastern Part)
+128	128 - Upgraded Middile School, Rukunpur (Western Part)
+129	129 - Primary School Dalanpur
+130	130 - Baraiya Khurd Khata No.- 50 Ev Khesara No.-1 Gairamajarua Am Thana No.-57 Par Chalit Matdan Kendra
+131	131 - Middile School, Daulatpur (Northern Part)
+132	132 - Middile School, Daulatpur (Southern Part)
+133	133 - Middile School Daulatpur (Middile Part)
+134	134 - Primary School Bali (Eastern Part)
+135	135 - Primary School Bali (Western Part)
+136	136 - Upgraded Middile School, Pachrukhiya
+137	137 - Primary School Sahora
+138	138 - Chalant Matdan Kendra, Prathamik Vidyalay Bareya Kalan Ke Prangan Mein
+139	139 - Middile School, Parsa
+140	140 - Primary School, Lashkarichak
+141	141 - Primary School, Sotichak
+142	142 - Middile School, Alawalpur (Eastern Part)
+143	143 - Kalika High School, Alawalpur
+144	144 - Middile School, Alawalpur (Western Part)
+145	145 - Kanya Primary School, Alawalpur
+146	146 - Primary School Piariya
+147	147 - Upgraded Middile School, Jamalpur
+148	148 - Upgraded Middile School, Yamunapur
+149	149 - Primary School Chamardeeh
+150	150 - High School Usfa (Northern Part)
+151	151 - High School Usfa (Southern Part)
+152	152 - Rajkiya Madhya Vidyalay, Usfa
+153	153 - Primary School, Abdullahchak
+154	154 - Upgraded Middile School, Dariyapur
+155	155 - Primary School, Turkdiha
+156	156 - Primary School Chakbihari
+157	157 - Upgraded Middile School, Mansingpur
+158	158 - Primary School Saidanpur (Northern Part)
+159	159 - Primary School, Saidanpur (Southern Part)
+160	160 - Pacs Godown, Saidanpur
+161	161 - Upgraded Middile School, Aniyo
+162	162 - Primary School, Bhergawan
+163	163 - Primary School, Gawaspur
+164	164 - Primary School Andari
+165	165 - Primary School Kazibigaha
+166	166 - Upgraded Middile School, Jaitiya
+167	167 - Primary School Bibipur
+168	168 - Primary School Satauli Bujurg
+169	169 - Upgraded Middile School, Bindauli
+170	170 - Upgraded Middile School, Masadhi (Eastern Part)
+171	171 - Primary School Musahari Tola, Masadhi
+172	172 - Upgraded Middile School, Masadhi (Western Part)
+173	173 - Primary School Daulatpur
+174	174 - Upgraded Middile School, Sirpatpur
+175	175 - Primary School, Abdullahpur
+176	176 - Primary School, Narman
+177	177 - Primary School, Shrirampur
+178	178 - Upgraded Middile School, Mohiuddinpur (Naya Bhawan)
+179	179 - Upgraded Middile School, Mohiuddinpur (Purana Bhawan)
+180	180 - Aanganbadi Kendra Kisamiriya
+181	181 - Upgraded Middile School, Kolhar
+182	182 - Primary School Hazipur
+183	183 - Upgraded Middile School, Sarvahanpur
+184	184 - Upgraded Middile School, Janardanpur
+185	185 - Primary School Saidpur
+186	186 - Upgraded Middile School, Rasulpur (Eastern Part)
+187	187 - Upgraded Middile School, Rasulpur (Western Part)
+188	188 - Primary School Bhikhua
+189	189 - Primary School Parshurampur
+190	190 - Upgraded Middile School, Pitambarpur
+191	191 - Middile School Sonaru (Northern Part)
+192	192 - Middile School, Sonaru (Southern Part)
+193	193 - Primary School, Sultanpur
+194	194 - Upgraded Middile School, Naraina
+195	195 - Upgraded Middile School, Natthupur (Northern Part)
+196	196 - Upgraded Middile School, Natthupur (Southern Part)
+197	197 - Middile School, Dumri (Eastern Part)
+198	198 - Middile School Dumri (Western Part)
+199	199 - Primary School Ranipur
+200	200 - Primary School, Murazpur
+201	201 - Upgraded Middile School, Jethuli (Northern Part)
+202	202 - Upgraded Middile School, Jethuli (Southern Part)
+203	203 - Upgraded Middile School, Jethuli (Dakshin Bhag Ke Bramda Me)
+204	204 - Upgraded Middile School, Jethuli, New Building (Eastern Part)
+205	205 - Upgraded Middile School Jethuli (New Building) (Western Part)
+206	206 - Primary School Gulmahiyabagh (Northern Part)
+207	207 - Primary School Gulmahiyabagh (Southern Part)
+208	208 - Aanganbadi Kendra Vikrampur
+209	209 - Primary School Daulatpur
+210	210 - Krishi Paramarsh Kendra, Khizirpur
+211	211 - Upgraded Middile School, Maujipur (Northern Part)
+212	212 - Upgraded Middile School, Maujipur (Southern Part)
+213	213 - Primary School Gadhochak (Southern Part)
+214	214 - Primary School Gadhochak
+215	215 - Primary School, Kripal Tola (Southern Part)
+216	216 - Primary School, Kripal Tola (Middile Bhag)
+217	217 - Primary School, Kripal Tola (Northern Part)
+218	218 - Upgraded Middile School, Sammaspur
+219	219 - Bazar Samiti Traders Shop Fatuha, Northern Part
+220	220 - Bazar Samiti Traders Shop Fatuha (Middile Part)
+221	221 - Bazar Samiti Traders Shop Fatuha (Southern Part)
+222	222 - Bazar Samiti Traders Shop Fatuha (Southern Part)- K
+223	223 - Bazar Samiti Traders Shop Fatuha (Near Northern Part)
+224	224 - Bazar Samiti Traders Shop Fatuha (Near Northern Part)- K
+225	225 - Vyapar Mandal Sahkari Samiti Fatuha (Purwi Bhag)
+226	226 - Vyapar Mandal Sahkari Samiti Fatuha (Pashchimi Bhag)
+227	227 - Atma Building Block Campus, Fatuha
+228	228 - Pradarshani Sah Vikray Kendra, Fatuha Prakhand Parisar
+229	229 - High School Fatuha, Western Part (First Room)
+230	230 - High School Fatuha, Eastern Part (Second Room)
+231	231 - High School Fatuha, Eastern Part (First Room)
+232	232 - High School Fatuha, Western Part (Second Room)
+233	233 - Middile School Dariyapur, Northern Part
+234	234 - Middile School Dariyapur, Southern Part
+235	235 - Primary School Raipura, Northern Part
+236	236 - Primary School Raipura, Southern Part
+237	237 - Administrative Building Raipura, Industrial Area Northern Part
+238	238 - Administrative Bhawan Raipura Industrial Area (Southern Part)
+239	239 - Upgraded Middile School Maqsudpur (Eastern Part)
+240	240 - Upgraded Middile School Maqsudpur (Western Part)
+241	241 - Sabhagar Bhavan Fatuha Prakhand Parisar
+242	242 - Pradarshani Sah Vikray Kendra Fatuha Purwi Bhag Prakhand Parisar
+243	243 - Pradarshani Sah Vikray Kendra Fatuha Pashchimi Bhag Prakhand Parisar
+244	244 - Adhisuchit Kshetra Samiti Karyalay Fatuha
+245	245 - Primary School Niyazipur
+246	246 - Middile School Buddhuchak (Eastern Part)
+247	247 - Middile School Buddhuchak (Western Part)
+248	248 - Girls Primary School Momindpur
+249	249 - Middile School Varuna
+250	250 - Samudayik Bhavan Gori
+251	251 - Primary School, Abdalchak
+252	252 - Prathamik Krishi Sakh Sahayog Samiti Gauripundah
+253	253 - High School Balwa
+254	254 - Anganbadi Kendra Nasirpur Balwa

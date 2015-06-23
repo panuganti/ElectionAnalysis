@@ -1,0 +1,244 @@
+1	1 - Tara Devi Madhya Vidyalay Ranjitapur Urf Gaibipur Daur (Purvi Bhag)
+2	2 - Tara Devi Madhaya Vidyalaya Ranjitapur Urf Gaibipur Daur (Pashchimi Bhag)
+3	3 - Panchayat Bhavan Ranjitapur Pashchimi
+4	4 - Rajakiya Prathamik Vidyalaya Ranjitapur Urf Gaibipur Daur Tole Bagahi
+5	5 - Rajakiya Prathamik Vidyalaya Ranjitapur Tola Kachabachchipur Hindi
+6	6 - Rajakiya Prathamik Vidyalaya Ranjitapur Urf Gaibipur Daur Bhaglu Mahto ka Tola
+7	7 - Navasrijit Rajakiya Prathamik Vidyalaya Ranjitapur Tole Kuari
+8	8 - Rajakiya Madhaya Vidyalaya Fatahapur
+9	9 - RAJKIYA PRATHMIK VIDYALAY GIRMISANI TOLA GIRMISANI
+10	10 - Rajakiya Madhya Vidyalaya,Fandah Govind (Purvi Bhag)
+11	11 - Rajakiya Madhya Vidyalaya,Fandah Govind (Pashchimi Bhag)
+12	12 - Utkramit Madhaya Vidyalaya, Maniyari
+13	13 - Rajakiya Madhaya Vidyalaya, Khairava (Purvi Bhag)
+14	14 - Rajakiya Madhaya Vidyalaya, Khairava (Pashchimi Bhag)
+15	15 - Matsya Palan Bhavan, Punaura
+16	16 - Navanirmit Panchayat Bhavan, Punaura Pashchimi
+17	17 - Paryatan Bhavan,Punaura Janaki Sthan Punaura,Janaki Nagar (Uttari Bhag)
+18	18 - Paryatan bhavan, Punaura Janki Asthan Punaura, janki Nagar (Dakshini Bhag)
+19	19 - Rajakiya Madhaya Vidyalaya, Punaura(Dakshini Left Bhag)
+20	20 - Rajakiy Madhya Vidyalay, Puraura (Dakshini Right Side)
+21	21 - Rajakiya Madhaya Vidyalaya, Punaura (Uttari Bhag)
+22	22 - Rajakiya Madhaya Vidyalaya, Punaura (Madhya Bhag)
+23	23 - RAKHIYA MADHaYA VIDLAYALAYA PUNAURA (DAKSHINI RUKHA WALA BHAG)
+24	24 - Rajakiy Madhya Vidyalay, Banaudhiya Tola
+25	25 - Panchayat Bhavan, Khadaka
+26	26 - Rajakiya Madhya Vidyalaya, Ramapur Parori Pashchim Tola
+27	27 - Uttkramit madhya Vidyalaya Ramapur Parori Purwi (Uttari Bhag)
+28	28 - Uttkramit Madhya Vidyalay Ramapur Parori Purwi (Dakshini Bhag)
+29	29 - Rajakiya Urdu Madhaya Vidyalaya, Banachauri
+30	30 - Rajakiya Prathamik Vidyalaya, Banachauri
+31	31 - Rajakiya Madhaya Vidyalaya, Chak Mahila (Uttari Bhag)
+32	32 - Rajakiya Madhaya Vidyalaya, Chak Mahila (Madhaya Bhag)
+33	33 - Rajakiya Madhaya Vidyalaya, Chak Mahila (Dakshini Bhag)
+34	34 - Rajakiya Prathamik Vidyalaya, Rajopatti Urf Kotabajar (Uttar Bhag )
+35	35 - Rajakiy Prathmik Vidyalay, Rajopatti Urf Koatbazar (Dakshini Bhag)
+36	36 - Rajakiy Jila Udyog Kendra Karyalay, Rajopatti Urf kot Bazar
+37	37 - Madhya Vidyalaya Urdu Balak, Rajopatti (Purvi Bhag)
+38	38 - Madhya Vidyalaya Urdu Balak, Rajopatti (Pashchimi Bhag)
+39	39 - Jila Prathamik Shikshak Sangh Karyalay, Rajopatti (Purwi Bhag)
+40	40 - Jila Prathamik Shikshak Sangh Karyalay, Rajopatti (Madhaya Bhag)
+41	41 - Jila Prathamik Shikshak Sangh Karyalay Rajopatti (Pashchimi Bhag)
+42	42 - Sanskrit Pathashala Janaki Sthan Sitamadhi (Uttari Bhag)
+43	43 - Sanskrit Pathashala Janaki Sthan Sitamadhi (Madhya Bhag)
+44	44 - Sanskrit Pathashala Janaki Sthan Sitamadhi (Dakshin Bhag)
+45	45 - Sitamadhi Goshala Janaki Sthan
+46	46 - Samudayik Bhawan Janaki Sthan, Sitamarhi
+47	47 - Imamabada Ke Nikat Sadak Ke Kinare Chalit Mat Pandap Muralia Chak Khesara No 287 (Purwi Bhag)
+48	48 - Imamabada Ke Nikat Sadak Ke Kinare Chalit Mat Pandap Muralia Chak Khesra No 287 (Pashchimi Bhag)
+49	49 - Rajakiy Prathamik Vidyalay Muraliya Chak (Uttari Bhag)
+50	50 - Rajakiy Prathamik Vidyalay Muraliya Chak (Dakshini Bhag)
+51	51 - Rajakiy Prathamik Vidyalay Nuniya Toli Sitamadhi Ward No 5
+52	52 - NagarPalika Ke Zamin Khesara No 127 Par Chalit Mat Mandap
+53	53 - Maravadi Madhya Vidyalay Sitamadhi (Uttari Bhag)
+54	54 - Maravadi Madhya Vidyalay Sitamadhi (Dakshini Bhag)
+55	55 - Purw Sarakari Godam Pupari Gola Kot Bajar Ka (Utari Bhag Haul Me
+56	56 - Rajakiya Prathamik Vidyalaya Kot Bajar (Bihar Shiksha Pariyaozana Se Nirmit Bhawan (Uttari Bhag)
+57	57 - Rajakiya Prathamik Vidyalaya Kot Bajar (Bihar Shiksha Pariyaozana Se Nirmit Bhawan (Dakshini Bhag)
+58	58 - Shankar Bharatiya Ke Ghar Ke Samane Sarakari Jamin Me Chalit Mat Mandap Sitamarhi Kot Bazar Khesara No 188 (Uttari Bhag)
+59	59 - Shankar Bharatiya Ke Ghar Ke Samane Sarakari Jamin Me Chalit Mat Mandap Sitamarhi Kot Bazar Khesara No 188 (Dakhini Bhag)
+60	60 - Kamala Rais Mil Sitamadhi Ganesh Sinema Ke Nikat
+61	61 - Rajakiy Prathamik Vidyalay Sitamadhi Purana Ward No 17 Purw Me Nagarpalika Ka Buchadkhana
+62	62 - Mathura Uchcha Vidyalaya Sitamarhi Ring Bandh Ke Andar Lakshmana Nagar
+63	63 - Lakshami Uchcha Vidyalaya Sitamarhi Main Road
+64	64 - Nagar Parishad Karyalaya, Sitamarhi (Utari Bhag)
+65	65 - Nagar Parishad Karyalaya, Sitamarhi (Dakshini Bhag)
+66	66 - Purw Urdu Makatab Mirachaipati Ke Samane Chalit Mat Mandap,
+67	67 - Bapu Pustakalaya Mirachaipatti ,Sitamarhi
+68	68 - Mahanth Raghunath Das Balika Uchcha Vidyalay Sitamadhi(Uttari Bhag)
+69	69 - Mahanth Raghunath Das Balika Uchcha Vidyalay Sitamadhi (Dakshin Bhag)
+70	70 - Sanatan Dharmashala Pustakalay Sitamadhi (Uttari  Bhag)
+71	71 - Sanatan Dharmashala Pustakalay Sitamadhi (Dakshin Bhag)
+72	72 - Pulis Klub, Bhavadepur Sitamarhi Ward Na.- 12 Khesra -327 K,KH,G,GH Par Chalit Mat-Mandap (Uttari Bhag)
+73	73 - Pulis Klub, Bhavadepur Sitamarhi Ward Na.- 12 Khesra -327 K,KH,G,GH Par Chalit Mat-Mandap (Dakshini Bhag)
+74	74 - Karyapalak Abhinyanta (Vidyut) Ka Karyalay, Sitamadhi (Uttari Bhag)
+75	75 - Karyapalak Abhiyanta (Vidyut ) Ka Karyalay, Sitamadhi (Dakshini Bhag)
+76	76 - Nagarapalika Madhaya Vidyalaya Bhavedapur Sitamarhi, Ward Na 18
+77	77 - Nagarapalika Madhya Vidyalay Bhavedapur Sitamadhi, Bihar Shiksha Pariyojana Wala Bhawan
+78	78 - Anchal Karyalay Dumara (Sitamadhi) (Purwi Bhag)
+79	79 - Anchal Karyalay Dumara (Sitamadhi) (Pashchimi Bhag)
+80	80 - Anchal Karyalay, Dumara Sitamadhi (Madhya Bhag)
+81	81 - Pashupalan Karyalaya Ward Na. 23 Khesra -223 K,KH,G,GH Par Chalit Mat-Mandap Mehasaul Sitamarhi
+82	82 - Rajakiya Prathamik Vidyalaya Mehasaul Station Se Uttar
+83	83 - Oriyantal Madhaya Vidyalaya Sitamarhi Ward No. 21 (Uttari Bhag)
+84	84 - Oriyantal Madhya Vidyalay Sitamadhi Vard Na0. 21 (Dakshani Rukh Wala Bhawan)
+85	85 - Oriyantal Madhaya Vidyalaya Sitamadhi Vard Na0. 21 (Dakshani Bhag)
+86	86 - Oriyantal Madhaya Vidyalaya Sitamarhi Vard Na0. 21 (Uttar Rukh Wala Bhawan)
+87	87 - Ganesh Petrol Pump Ke Nikat Sadak Ke Kinare Dumra Road Sitamarhi Khesra No 171 Chalit Mat Mandap (Uttari Bhag)
+88	88 - Ganesh Petrol Pump Ke Nikat Sadak Ke Kinare Dumra Road Sitamarhi Khesara No 171 Chalit Mat Mandap (Dakshini Bhag)
+89	89 - Krishi Utpadan Bajar Samiti Sitamarhi Falait Na.1Mehasaul (Purwi Bhag)
+90	90 - Krishi Utpadan Bajar Samiti Sitamadhi Falait Na.1Mehasaul (Pashchimi Bhag)
+91	91 - Krirshi Utpadan Bajar Samiti Sitamadhi Falait Na0. 2 Mehasaul
+92	92 - Rajakiya  Madhaya Vidyalaya, Mohanapur Purab Rukh Wala Bhawan
+93	93 - Rajakiya  Madhaya Vidyalaya, Mohanapur Dakshin Rukh Wala Bhawan
+94	94 - Rajakiya Urdu Prathamik Vidyalaya, Mohanapur
+95	95 - Madarasa Tabijul Kuran, Bariyarapur (Utar Bhag)
+96	96 - Madarasa Tabijul Kuran, Bariyarapur (Utar  Rukh Vala Bhavan)
+97	97 - Madarasa Tabijul Kuran, Bariyarapur (Dakshini Bhag)
+98	98 - Rajakiya Madhya Vidyalaya , Jababipur
+99	99 - Jagarup Rajakiy Madhya Vidyalay, Bariyarapur (Utari Bhag)
+100	100 - Jagarup Rajakiy Madhya Vidyalaya, Bariyarapur (Dakshin Bhag)
+101	101 - Rajakiy Prathamik Vidyalay Mehasaul (Utari Bhag)
+102	102 - Rajakiy Parthamik Vidyalay, Mehasaul Urf Ramapur (Dakshin Bhag)
+103	103 - Rajakiya Prathamik Vidyalaya Urdu Mehasaul Urf Ramapur Rain Tola
+104	104 - Thakur Yugal Kishor Singh Mahavidyalay Mehasaul Urf Ramapur (Uttar Rukhwal Bhawan Pashchimi Bhag)
+105	105 - Thakur Gugal Kishor Sinh Mahavidyalay Mehasaul Urf Ramapur (Uttar Rukhwala Bhawan) (Purabi Bhag)
+106	106 - Thakur Yugal Kishor Singh Mahavidyalay Mehasaul Urf Ramapur (Dakshini Rukhwala Bhawan) (Paschimi Bhag)
+107	107 - Thakur Yugal Kishor Singh Mahavidyalay, Mehasaul Urf Rampur (Dakshini Rukhwala Bhawan) (Purvi Bhag)
+108	108 - Utkramit Madhaya Vidyalaya,Urdu Husaina(Uttari Bhag)
+109	109 - Utkramit Madhya Vidhyalay Urdu Husaina (Madhya Bhag)
+110	110 - Utkramit Madhya Vidyalay,Urdu Husaina(Dakshini Bhag)
+111	111 - Madarasa Rahamaniya Mehasaul Urf Ramapur Purab Rukh Vala Bhavan (Uttari Bhag)
+112	112 - Madarasa Rahamaniya Mehasaul Urf Ramapur Purab Rukh Vala Bhavan( Dakshini Bhag)
+113	113 - Madarasa Rahamaniya Mehasaul Uttar Rukh Vala Bhavan
+114	114 - Madarasa Rahamaniya Mehasaul Pashchim Rukh Vala Bhavan
+115	115 - Rajakiy Madhya Vidyalay , Bhup Bhairo(Utari Bhag)
+116	116 - Rajakiya Madhaya Vidyalaay , Bhup Bhairo (Dakshin Bhag)
+117	117 - Panchayat Bhavan, Bhup Bhairo
+118	118 - Rajakiy Madhya Vidyalay Balak, Bhairo Kothi (Purwi Bhag)
+119	119 - Rajakiy Madhya Vidyalay Balak,Bhairo Kothi (Pashchimi Bhag)
+120	120 - Rajakiy Prathamik Vidyalay,Mahammadapur Sev
+121	121 - Rajakiy Prathamik Kanya Vidyalay, Pakadi
+122	122 - Rajakiy Madhya Vidyalay,Kamalapura
+123	123 - Rajakiy Madhya Vidyalay Sanskrit Pakadi, Bhasar Machchhaha Tole Lakshmipur
+124	124 - Rajakiy Prathamik Vidyalay, Machchhaha
+125	125 - Rajakiy Madhya  Vidyalay,Bhasar Machchhaha
+126	126 - Rajakiy Madhya Vidyalay,Satamacha
+127	127 - Panchayat Bhavan,Amaghatta
+128	128 - Rajakiya Madhaya Vidyalaya,Amaghatta Urf Bhagavatipur
+129	129 - Rajakiya Utkramit Madhya Vidyalaya,Madhopur Raushan Tola Bhisa
+130	130 - Panchayat Bhavan,Madhopur Raushan Tole Basatapur(Uttari Bhag)
+131	131 - Panchayat Bhavan,Madhopur Raushan Tole Basatapur(Dakshini Bhag)
+132	132 - Rajakiy MADHYA Vidyalay,Parasauni(Purwi Bhag)
+133	133 - Rajakiy MADHYA  Vidyalay,Parasauni(Pashchimi Bhag)
+134	134 - Rajakiy Madhya Vidyalay,Dharamapur
+135	135 - Rajakiy Prathamik Vidyalay,Dumara Vard Na.6
+136	136 - Lok Nirman Sadak Karyalay, Dumara(Purwi Bhag)
+137	137 - Lok Nirman Sadak Karyalay,Dumara(Pashchimi Bhag)
+138	138 - Adhisuchit Kshetra Karyalay,Dumara(Purwi Bhag)
+139	139 - Adhisuchit Kshetra Karyalay,Dumara(Pashchimi Bhag)
+140	140 - Bagamati Pramandal Karyalay,Dumara(Purwi Bhag)
+141	141 - Bagamati Pramandal Karyalay, Dumara(Pashchimi Bhag)
+142	142 - Global Skul,Dumara(Uttari Bhag)
+143	143 - Global Skul,Dumara(Dakshini Bhag)
+144	144 - Utkramit Madhya Vidyalay, Madhuban(Uttari Bhag)
+145	145 - Utkramit Madhya Vidyalay, Madhuban(Dakshini Bhag)
+146	146 - Rajakiy Urdu Prathamik Vidyalay, Talakhapur Dumara Kothi Tola
+147	147 - Rajakiy Buniyadi Vidyalay, Talakhapur Dumara(Uttari Bhag
+148	148 - Rajakiy Buniyadi Vidyalay, Talakhapur Dumara(Madhya Bhag)
+149	149 - Rajakiy Buniyadi Vidyalay Talakhapur Dumara(Dakshini Bhag
+150	150 - Panchayat Bhavan,Hari Chhapara
+151	151 - Utkramit Madhya Vidyalay, Hari Chhapara
+152	152 - Rajakiy Madhya Vidyalay, Lauhadih
+153	153 - Utkramit Madhya Vidyalay, Bhavaprasad
+154	154 - Panchayat Bhavan, Bhavaprasad
+155	155 - Rajakiy Madhya Vidyalay, Kokana
+156	156 - Rajakiy Madhya Vidyalay,Karanahiya
+157	157 - Rajakiy Anusuchit Jati Avasiy Vidyalay,Raghopur Bakhari
+158	158 - Rajakiy Buniyadi Vidyalay Raghopur Bakhari
+159	159 - Uttkramit Madhya Vidyalay Beravas(Purwi Bhag)
+160	160 - Utkramit Madhya Vidhyalay Bervas (Madhya Bhag)
+161	161 - Uttkramit Madyha Vidyalay Beravas(Pashchimi Bhag)
+162	162 - Utkramit Madhya Vidhyalay Bervas (Paschimi Bhag) (Dakshini Bhag)
+163	163 - Anusuchit Jati Baithaka, Mohanadih
+164	164 - Rajakiy Madhya Vidyalay, Mirjapur Tola Pamara
+165	165 - Rajakiy Madhya Vidyalay, Mirjapur (Purbi Bahg)
+166	166 - Rajakiy Madhya Vidyalay, Mirzapur (Pashchimi Bhag)
+167	167 - Uchcha Vidyalay, Padari(Uttari Bhag)
+168	168 - Uchcha Vidyalay,Padari(Dakshini Bhag)
+169	169 - Rajakiy Prathamik Vidyalay, Badaharava(Uttari Bhag)
+170	170 - Rajakiy MADHYA Vidyalay, Badaharava(Dakshini Bhag)
+171	171 - Ra0 Ma0 Vi0 Paramanandapur Dakshin Bhag
+172	172 - Rajakiy Madhya Vidyalay, Paramanandapur Uttari Bhag
+173	173 - Rajakiy Madhya Vidyalay, Ramapur Bakhari
+174	174 - Rajakiy Madhya Vidyalay, Vishanapur Rupauli (Uttari Bhag)
+175	175 - Rajakiy Prathamik Vidyalay, Vishanapur Rupauli (Dakshini Bhag)
+176	176 - Rajakiy Prathamik Vidyalay, Vishanapur Tola Gopanathapur
+177	177 - Rajakiy Madhya Vidyalay,Dhanushi
+178	178 - Rajakiy Madhtya Vidyalay,Rupauli
+179	179 - Rajakiy Madhya Vidyalay, Methaura(Uttari Bhag)
+180	180 - Rajakiy Madhya Vidyalay,Methaura(Dakshini Bhag)
+181	181 - Rajakiy Madhya Vidyalay, Methaura(Madhya Bhag)
+182	182 - Rajakiy Madhya Vidyalay, Beli
+183	183 - Rajakiy Madhya Vidyalay, Balua
+184	184 - Mahila Mandal, Muhachatti
+185	185 - Panchayat Bhavan, Lagama (Uttari Bhag)
+186	186 - Panchayat Bhavan, Lagama(Dakshini Bhag)
+187	187 - Rajakiy Madhya Vidyalay, Lagama (UTTAR BHAG)
+188	188 - Rajakiya Madhya Vidyalaya, Lagma (Daksahni Bhag)
+189	189 - Rajakiy Madhya Vidyalay, Suhai(Uttari Bhag)
+190	190 - Rajakiy Madhya Vidyalay, Suhai (Dakshini Bhag)
+191	191 - Rajakiy Madhya Vidyalay, Suhai (Madhya Bhag)
+192	192 - Rajakiy Madhya Vidyalay, Mazauliya(Uttari Bhag)
+193	193 - Rajakiy Madhya Vidyalay, Mazauliya(Dakshini Bhag)
+194	194 - Utkramit Madhya Vidyalay,Narayanapur
+195	195 - Navasrijit Rajakiy Prathamik Vidyalay,Dhodhana
+196	196 - Rajakiy Madhya Vidyalay, Muradapur(Purwi Bhag)
+197	197 - Rajakiy Madhya Vidyalay, Muradapur (Pashchimi Bhag)
+198	198 - Rajakiy Madhya Vidyalay, Vajitapur (Uttari Bhag)
+199	199 - Rajakiy Madhya Vidyalay, Bajitpur (Dakshini Bhag)
+200	200 - Rajakiy Madhya Vidyalay, Paroha Purana Bhawan
+201	201 - Rajakiy madhya Vidyalaya, Paroha (Naya Bhawan)
+202	202 - Rajakiy Prathamik Vidyalaya, Vishwanathapur (Purwi Bhag)
+203	203 - Rajakiy Prathamik Vidyalay, Vishwanathapur (Pashchimi Bhag
+204	204 - Utkramit Madhya Vidyalay, Parasapatti
+205	205 - Rajakiy Madhya Vidyalay, Gosaipur
+206	206 - Utkramit Madhya Vidyalay,Simara (Uttri Bhag)
+207	207 - Utkramit Madhya Vidhyalay, Simra (Dakshini Bhag)
+208	208 - Panchayat Bhavan, Rikhauli (Uttari Bhag)
+209	209 - Panchayat Bhawan, Rikhauli (Dakshini Bhag)
+210	210 - Rajakiy Madhya Vidyalay, Rikhauli
+211	211 - Rajakiy Buniyadi Vidyalay,Pakadi
+212	212 - Bhasar Got Dharmashala Bhavan (Purab Bhag)
+213	213 - Bhasar Got Dharmashala Bhavan (Pashchim Bhag)
+214	214 - Rajakiy Madhya Vidyalay, Mirachaiya Balava Rasalapur
+215	215 - Buniyadi Vidyalay, Rasalapur
+216	216 - Rajakiy Prathamik Kanya Vidyalay, Rasalapur (Purwi Bhag)
+217	217 - Rajakiy Prathamik Kanya Vidyalay, Rasalapur (Pashchimi Bhag)
+218	218 - Samudayik Bhawan Bagaha Dabara
+219	219 - Dugdha Utpadan Sangrah Kendra,Dharmavana
+220	220 - Panchayat Bhavan, Ajamagadh (Uttari Bhag)
+221	221 - Panchayat Bhavan, Ajamagadh (Dakshini Bhag)
+222	222 - Rajakiy Madhya Vidyalay, Ajamagadh Tola Jagadishapur
+223	223 - Rajakiy Madhya Vidyalay, Madanapur
+224	224 - Utkramit Madhya Vidyalay, Dhobauli
+225	225 - Harijan Baithaka,Dhobauli
+226	226 - Dugdha Utpadan Sangrah Ev Bikri Kendra, Bachharapur
+227	227 - Rajakiy Madhya Vidyalay, Shivahar
+228	228 - Rajakiy Madhya Vidyalay, Vishanapur Kethariya (Uttari Bhag)
+229	229 - Rajakiy Madhya Vidyalay, Vishanapur Kethariya (Dakshini Bhag)
+230	230 - Rajakiy Madhya Vidyalay, Mishrauliya (Uttari Bhag)
+231	231 - Rajakiy Madhya Vidyalay, Mishrauliya (Dakshin Bhag)
+232	232 - Rajakiy Madhya Vidyalay,Pakatola
+233	233 - Pax Gowdn,Pakatola
+234	234 - Rajakiy Madhya Vidyalay, Hanumananagar
+235	235 - Rajakiy Madhya Vidyalay Kumhara Vishnupur Mandal Tola
+236	236 - Mahila Mandal Mohan Mandal Ka Tola Kumhara Bishnupur
+237	237 - Rajakiy Madhya Vidyalay, Kumhara Vishnupur Tole Hariharpur (Purvi Bhag)
+238	238 - Rajakiy Madhya Vidyalay,Kumhara Bishnupur Tole Hariharpur (Paschimi Bhag)
+239	239 - Anaupacharik Shiksha Kendra Adithi Kumhara Vishnupur Tola Jalim singh
+240	240 - Rajakiy Madhya Vidyalay, Kumhara Vishnupur (Uttari Bhag)
+241	241 - Rajakiy Madhya Vidyalay, Kumhara Vishnupur (Dakshini Bhag)
+242	242 - Panchayat Bhavan,Kumhara Vishnupur khata 3064 kheshra 13276 par chlit mat mandap
+243	243 - Rajakiy Madhya Vidyalay Kumhara Vishanapur Tole Deua (Purvi Bhag)
+244	244 - Rajakiy Madhya Vidyalay Kumhara Vishanapur Tole Deua (Paschimi Bhag)

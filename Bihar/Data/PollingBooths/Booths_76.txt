@@ -1,0 +1,276 @@
+1	1 - URDU PRIMARY SCHOOL BELDAWAR NORTH SIDE
+2	2 - Urdu Prathamik Vidyalay Beladavar South Side
+3	3 - Utkramit Madhya Vidyalay Ghoghepur
+4	4 - Pachayat Bhavan Dhoghepur
+5	5 - Prathamik Vidyalay Shankarathua
+6	6 - Prathamik Vidyalay Baluvadi
+7	7 - Panchayat Bhavan Zada Uttari Bhag
+8	8 - Panchayat Bhavan jhara Dakshini Bhag
+9	9 - madh  Vidyalay Sisauna Dakshin Bhag
+10	10 - middle school  Sisauna Uttar Bhag
+11	11 - KHICHARI BHAWAN NAV PRIMARY SCHOOL TIKULWA
+12	12 - M.S. Aina Utar Bhag
+13	13 - M.S. Aina Dakshini Bhag
+14	14 - m.s.  Aina Purwi Bhag
+15	15 - Madhya Vidyalay Mangarauni
+16	16 - MIDDILE SCHOOL  Karahara
+17	17 - Harijan middle school  Mahishi madhya Bhag
+18	18 - Harijan madhaya  Vidyalay Mahishi Dakshini Bhag
+19	19 - Harijan Madhya Vidyalay Mahishi uttri Bhag
+20	20 - asho devi pyare lal  Uchcha Vidyalay Mahishi
+21	21 - Sanskrit Mahavidhalay Mahishi
+22	22 - Kanya Madhya Vidhalay Mahishi Purwi Bhag
+23	23 - Kanya Madhya Vidyalay Mahishi PACHIM Bhag
+24	24 - Ugratara Madhya Vidhalay Mahishi Purwi Bhag
+25	25 - Ugratara Madhya Vidhalay Mahishi Pashchimi Bhag
+26	26 - Madhya Vidhalay Sataravar
+27	27 - Utkarmit middle Vidyalay Kothiya
+28	28 - Madhya Vidyalay Bhagavatapur Purwi Bhag
+29	29 - Madhya Vidhalay Bhagavatapur Pashchimi Bhag
+30	30 - Chatdar chabutra samari bharana
+31	31 - Madhya Vidhalay Mahapura uttar bhag
+32	32 - Madhya Vidhalay Mahapura dakhsin bhag
+33	33 - utkarmit madhya Vidyalay Lahatha Bathan
+34	34 - NAVSRIJIT PRIMARY SCHOOL BIRVAL
+35	35 - Madhya Vidyalay Siravar Utar Bhag
+36	36 - UTKARMIT MIDDLE SCHOOL   NAKUCH
+37	37 - Urdu Madhya Vidyalay Gamaraho
+38	38 - Angabari kendra  JIJOURI
+39	39 - Prathamik Vidyalay Vijavar
+40	40 - Utkarmit middle Vidyalay Naharavar uttar bhag
+41	41 - Utkarmit middle Vidyalay NaharavarDakshini Bhag
+42	42 - Utkramit Madhya Vidyalay naharwar madhya bhag
+43	43 - Uchcha Vidhalay Maina
+44	44 - TANUK DEVI BALIKA MIDDLE SCHOOL MAINA
+45	45 - Prathamik Vidyalay Badhaud punarwash Pachishmi
+46	46 - Prathamik Vidyalay Badhaud purnrwash  Purab
+47	47 - Madhya Vidhalay Dhanauj Dharmapur uttar bhag
+48	48 - madhya vidhalay danaouj dharmpur dakshin bhag
+49	49 - Prathamik Vidyalay Dharmapur
+50	50 - Madhya Vidhalay Rajanapur Uttar Bhag
+51	51 - Madhya Vidhalay Rajanapur Dakshini Bhag
+52	52 - MIDDILE SCHOOL  RAJANPUR MADHAY BHAG
+53	53 - Prathamik Vidyalay Vishanapur Purwi Bhag
+54	54 - Prathamik Vidyalay Vishanapur Pashchimi Bhag
+55	55 - Primary School Ghoghasam
+56	56 - Madhya Vidyalay Ghodhasam
+57	57 - Chhatadar Chabutar Julaharoli Tilathi
+58	58 - Madhya Vidyalay Tilathi
+59	59 - Middle  School  Sukhasan
+60	60 - pratimic  Vidyalay Muraladih Kathadumar
+61	61 - Prathamik Vidyalay Kathadumar
+62	62 - Middle School Agar Purwi Bhag
+63	63 - madhya Vidyalay Agar Pashchimi Bhag
+64	64 - Middle School  dah PURBI BHAG
+65	65 - MIDDILE SCHOOL  DAH SOUTH PART
+66	66 - Madhya Vidyalay Kathadumbar
+67	67 - Madhya Vidyalay Dhanpura
+68	68 - Middle School  Chameni
+69	69 - Middle School  Kavaiya
+70	70 - Middle School Ramanagar
+71	71 - Middle School  Bhanvari
+72	72 - Madhya Vidyalay  Bhavan Uttar Bhag
+73	73 - Madhya Vidyalay Belavara  Dakshini Bhag
+74	74 - Panchayat Bhavan Belavara
+75	75 - Prathamik Vidyalay Belavara
+76	76 - Madhya Vidyalay Kanariya uttar bbhag
+77	77 - Madhya Vidyalay Kanariya dakchin bhag
+78	78 - Middle  School  Hasuliya
+79	79 - Swastha Upakendra  ke Bagal Me Chhatadar Chabutara koshi bandh belbara
+80	80 - Madhya Vidyalay Pahadapur Purwi Bhag
+81	81 - Madhya Vidyalay Pahadapur Pashchimi Bhag
+82	82 - madhya  Vidyalay Sakara Uttar Bhag
+83	83 - madhya Vidyalay Sakara Dakshini Bhag
+84	84 - Uchcha Vidyalay Badhava Uttar Bhag
+85	85 - Uchcha Vidyalay Badhava Dakshini Bhag
+86	86 - Madhya Vidyalay Badhava
+87	87 - madhya Vidyalay Majhua
+88	88 - Prathamik Vidyalay Gopalapur
+89	89 - Middle school Barasam
+90	90 - Prathamik Vidyalay Bhagavanapur
+91	91 - Panchayat Bhavan Khajuri
+92	92 - Middle School khajuri purvi bhag
+93	93 - Middle School khajuri pashmi bhag
+94	94 - Madhya Vidyalay Tegra purbi bhag
+95	95 - Madhya Vidyalay Balahi Tedhada pachmi bhaj
+96	96 - Prathamik Vidyalay Madanapur
+97	97 - madhya  Vidyalay Mohanapur
+98	98 - Harijan Chabutara Mohanapur Chhatadar
+99	99 - Madhya Vidyalay Hariyo
+100	100 - urdu  Vidyalay Usarahi
+101	101 - Madhya Vidyalay Kumedan Tolua
+102	102 - madhya Vidyalay Dhoramuho purbi Bhag
+103	103 - Madhya Vidyalay Dhoramuho south Bhag
+104	104 - URDU kanya madhya  Vidyalay Panchavidhi Purwi Bhag
+105	105 - URDU KANYA MIDDIAL SCHOOL Panchavidhi Pashchimi Bhag
+106	106 - Prathamik Vidyalay Bareba Tola Utari Bhag
+107	107 - Prathamik Vidyalay Barebatola Dakshini Bhag
+108	108 - Madhya Vidyalay Urdu Sitana Vad Uttar Bhag
+109	109 - Urdu Madhya Vidyalay  Sitana Vad Dakshini Bhag
+110	110 - Prathamik Vidyalay Gangaprasad
+111	111 - madhya  Vidyalay Sitanavad chok baZAR dakhshin bhag
+112	112 - Middle school sitanabad Uttar Bhag chowk bazar
+113	113 - CHATDAR CHABTURA HARIJAN TOLA BADIYA
+114	114 - Madhya vidyalya hussaiun chouk PURVI bhag
+115	115 - MIDDLE SCHOOL HUSAN CHAK WEST  BHAG
+116	116 - MIDDLE SCHOOL MAHKHAR
+117	117 - Panchayat Bhavan Mahakhad
+118	118 - PRIMARY SCHOOL BAGROLI
+119	119 - Madhya Vidyalay Badiya Valahamapur
+120	120 - Chhatadar Chabutar Harijan Tola Badiya
+121	121 - Prathamik Vidyalay Bindupur
+122	122 - madhya Vidyalay Morakahi
+123	123 - Madhya Vidyalay Rayapura Bhauraha uttar bhag
+124	124 - Middle school raypura bhaurha dakshin bhag
+125	125 - Middil school raipura Bhoraha
+126	126 - Prathamik Vidyalay Karua kopariya
+127	127 - PANCHAYAT BHAWAN KOPARIYA
+128	128 - Utkarmit middle school karua
+129	129 - Middle School Galafariya Purwi Bhag
+130	130 - Middle School Galafariya Paschim Bhag
+131	131 - Madhya Vidyalay Ramapur
+132	132 - urdu madhya Vidyalay Chakamaka
+133	133 - madhya Vidyalay Sarauja
+134	134 - Prathamik Vidyalay Sisauni
+135	135 - MIDDLE SCHOOL BALWAHAAT UTTAR BHAG
+136	136 - Madhya Vidyalay BALWAHAAT SOUTH SIDE
+137	137 - Sahayya Kedra Kantho
+138	138 - Prathamik Vidyalay Kantho
+139	139 - madhya Vidyalay Matihani
+140	140 - pachayt bhavan chaprav purvi bhag
+141	141 - Panchayat Bhavan chapraun pashmi bhag
+142	142 - Madhya Vidyalay Bhotiya
+143	143 - Prathamik Vidyalay Belatola
+144	144 - Prathamik Vidyalay Mahamadapur
+145	145 - Madhya Vidyalay Eaini
+146	146 - madhya  Vidyalay Baidi
+147	147 - madhya Vidyalay Bhavadeva
+148	148 - Prathamik Vidyalay kusmihi Govardhainapur
+149	149 - madhya  Vidyalay Sonapura purvi bhag
+150	150 - Madhya Vidyalay Sonapura Pashchimi Bhag
+151	151 - Kanya Madhya Vidyalay Sonapura
+152	152 - MADHYA Vidyalay Basantapur
+153	153 - Prathamik Vidyalay Harijan Kolani Khojuchak
+154	154 - Madhya Vidyalay Saradiha southBhag
+155	155 - Uchcha Vidyalay Saradiha Uttar Bhag
+156	156 - HIGH School Saradiha Dakshini Bhag
+157	157 - middile school  Saradiha NORTH  bhag
+158	158 - middile school Jamuniya
+159	159 - UTTKRAMIT MIDDLE SCHOOL SAKROLI
+160	160 - Prathamik Vidyalay Alama
+161	161 - Madhya Vidyalay Khamhoti
+162	162 - kanya madhya vidhalay khamouti pubi bhag
+163	163 - Kanya madhya Vidyalay Khamhauti pachimi bhag
+164	164 - Prathamik Vidyalay Bariyarapur
+165	165 - madhya Vidyalay Madhuvan
+166	166 - madhya  Vidyalay Bhaura
+167	167 - Khadi Charkha Kendra Bakhtiyarapur
+168	168 - Prathamik Vidyalay Ganj Simri Bakhtiyarpur
+169	169 - Harivansh Madhya Vidyalay simri  Bakhtiyar Pur uttar bhag
+170	170 - Harivansh Madhya Vidyalay simri Bakhtiyar Pur Dakshini Bhag
+171	171 - Prajekat Kanya Uchcha Vidyalay Bikhtayar Pur
+172	172 - Uchcha Vidyalay Bakhtiyarapur
+173	173 - madhta Vidyalay Shainitola purvi bhaag
+174	174 - madhya Vidyalay Shainitola Pashchim Bhag
+175	175 - Matsya Palan Kendra Purani Bajar Simri Bakhtiyarpur
+176	176 - Prathamik Vidyalay Ranihat uttari bhag
+177	177 - Prathamik Vidyalayranihaat south side
+178	178 - Purana Anchal Kachahari Pashmichi Bhag Simri Bakhtiyarpur
+179	179 - Trannig center Prankhad Parisar simri bakhtiyarpur
+180	180 - Purana Anchal Kachahari Purwi Bhag Simri Bakhtiyarpur
+181	181 - Middle School Raganiya
+182	182 - madhya  Vidyalay Samastipur purndahaPAR
+183	183 - PRATHMIK MAKTAB
+184	184 - URDU Kanya  madhya Vidyalay Samastipur  Purwi Bhag
+185	185 - URDU madhya Vidyalay Samastipur west
+186	186 - Tahasil Kachahari Simari
+187	187 - Sarakari Jamin Khesara 2180 Chhatadar Chabutara chabiyahi dhab
+188	188 - madhya Vidyalay Simari
+189	189 - madhiya Vidyalay Chakabharo
+190	190 - madhya Vidyalay Ekapadaha
+191	191 - Uchcha Vidyalay Chakabharo uttari bhag
+192	192 - Uchcha Vidyalay Chakabharo Dakshini Bhag
+193	193 - Prathamik Vidyalay Lagama
+194	194 - MADHAY VIDAYLAY TARIYAMA UTTARI BAHAG
+195	195 - Madhya Vidyalay Tariyama SOUTH SIDE
+196	196 - Urdu Prathamik Vidyalay  Tariyama
+197	197 - Harijan Prathamik Vidyalay Tariyama
+198	198 - panchayat bhavan tariyama purvi bhag
+199	199 - panchayar bhavan tariyama pachimi bhag
+200	200 - Madhya Vidyalay turki
+201	201 - MADHAY VIDAYALAY BHATPURA PURBI BAHAG
+202	202 - Madhya Vidyalay Bhatapura SOUTH SIDE
+203	203 - Girls pramari school bhatpura
+204	204 - Prathamik Vidyalay maktab Bhatauni
+205	205 - madhya Vidyalay bhatoni
+206	206 - madhya Vidyalay Tulsiyahi
+207	207 - Prathamik Vidyalay tangaraha
+208	208 - Madhya Vidyalay Katghara
+209	209 - middle school khochardeva
+210	210 - Middle school dengrahi
+211	211 - NAVSRIJIT PRIMARY SCHOOL SHISHVA
+212	212 - PRIMARY SCHOOL CHANAN
+213	213 - madhya Vidyalay Sahuriya Purwi Bhag
+214	214 - middle school suhariya pachmi bhag
+215	215 - Madhya Vidyalay kabira Purwi Bhag
+216	216 - Madhya Vidyalaykabira Pashchim Bhag
+217	217 - Panchayat Bhavan Kabira
+218	218 - madhya Vidyalay Kamasthan
+219	219 - middle school rathi
+220	220 - Prathamik Vidyalay Mushaharaniyo
+221	221 - middle school Chaurahi
+222	222 - middle school  Goradah
+223	223 - Panchayat Bhavan Gosapur Goradah
+224	224 - middle school  Goriyari
+225	225 - middle school pipra bhagava velva
+226	226 - Madhya Vidyalay Gauripipara Pashchimi Bhag
+227	227 - Madhya Vidyalay gauri pipra pachmi  Bhag
+228	228 - Madhya Vidyalay Utesara utri  Bhag
+229	229 - Madhya Vidyalayutshara  Dachni bhaj  Bhag
+230	230 - middle  school  Bahuaraba pachmi  Bhag
+231	231 - middle Vidyalay Gosapur Utari Bhag
+232	232 - MIDDLE SCHOOL GOSPUR NORTH SIDE
+233	233 - MIDDLE SCHOOL GOSPUR SOUTH SIDE
+234	234 - URDU MIDDLE SCHOOL FENSAHA
+235	235 - Prathamik VIDYALAY  khojahara
+236	236 - KANAYA PRIMARI SCHOOL Makatab Hareba
+237	237 - URDU MIDDLE SCHOOL Hareva
+238	238 - Middle School korlaha
+239	239 - Prathamik School Gorgama NORTH SIDE
+240	240 - PRIMARY SCHOOL GORGAMA SOUTH SIDE
+241	241 - URDU MIDDLE SCHOOL MAKAB PURANI
+242	242 - madhya Vidyalay Mobarak Pur UTTARI BHAG
+243	243 - MIDDLE SCHOOL MOBARKPUR SOUTH SIDE
+244	244 - urdu middile school mobarkpur
+245	245 - Panchayat Bhavan salkhuaa
+246	246 - kanya madhya school salkhuaa
+247	247 - Madhya Vidyalay Salakhua utaar Bhag
+248	248 - Middle School salkhuaa south bhag
+249	249 - High school salkhuaa
+250	250 - middle school bangama
+251	251 - madhya Vidyalay Situaha
+252	252 - nav srijit prathamik vidyalay situaha
+253	253 - Prathamik Vidyalay kotwaliya pathak   tola
+254	254 - madhya vidyalaya mahadev math
+255	255 - madya vidyalaya haripur
+256	256 - madhya vidyalay belahi
+257	257 - madhya vidylaya purvi bhag
+258	258 - madhya vidyalaya pashmi bhag
+259	259 - madhya vidyalay aloani
+260	260 - madhya vidyalaya reharewa
+261	261 - prathmic vidyalaya rangeniya
+262	262 - madhay Vidyalay Bhirakhi purvi Bhag
+263	263 - prathmic vidyalaya bhirkhi pashmi bhag
+264	264 - Prathamik vidhalaya  tajpur
+265	265 - parthmic vidyalay ghormaha
+266	266 - madhya vidyalay samhar
+267	267 - prathmic vidyalya savti samahrkala
+268	268 - madhya vidalya kabirpur
+269	269 - madhya vidyuala kchait
+270	270 - Madhya Vidyalay Kopariya naya bhawan
+271	271 - Madhya Vidyalay Kopariya uttari Bhag
+272	272 - Madhya Vidyalay kopriya dachni bhaj
+273	273 - madhy school matha
+274	274 - PRIMARY SCHOOL satebar
+275	275 - Madhya Vidyalay bankati
+276	276 - Middle school harinsari

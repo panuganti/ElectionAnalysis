@@ -1,0 +1,225 @@
+1	1 - utkarmit madhya vidhalay bagahi stith lohadiya baya bhag
+2	2 - utkarmit madhya vidhalay bagahi stith lohariya daya bhag
+3	3 - Prathamik vidhalay bhawanipur
+4	4 - Nawasrijit  prathamik vidhalay purainiya muslim tola
+5	5 - sadhogandhi madhya vidhalay tinkoni purvi bhag(daya)
+6	6 - sadhogandhi madhya vidhalay tinkoni purvi bhag (daya)
+7	7 - sadho gandhi madhya vidhalay tinkoni pashchimi bhag baya
+8	8 - Sadhogandhi Madhya Vidhalay Tinakoni Pashchimi Bhag Daya
+9	9 - utkarmit madhya vidhalay tinkoni tola baya bhag
+10	10 - utkarmit madhya vidhalay tinkoni tola daya bhag
+11	11 - Kapretibh godam darpa
+12	12 - utkarmit madhya vidhalay pipra purvi baya bhag
+13	13 - utkarmit madhya vidhalay purvi daya bhag
+14	14 - Prathamik vidhalay sukhalahiya
+15	15 - prathamik vidhalay pipra pashchimi
+16	16 - utkarmit madhya vidhalay bi. am.si.pipra urdu purvi bhag
+17	17 - Utkramit madhay vidhalay bi.am.si.pipra urdu pashchim bhag
+18	18 - Rajkiya Prathamik Vidyalay Dharahari
+19	19 - utkarmit madhya vidhalay buduahan
+20	20 - prathamik vidhalay bhelawa Dakshini  purvi bhag
+21	21 - utkramit madhya bhelwa dakshini Pashchimi  bhag
+22	22 - pratmik vidhalaya bhelwa baya bhag
+23	23 - prathmik vidhalaya bhelwa daya bhag
+24	24 - madhya vidhalay chhauradano balak
+25	25 - prathamik bidhalay raghunathpur
+26	26 - madhya vidhalay katakenwa
+27	27 - Prathamik vidhalay dharmnagar
+28	28 - utkarmit madhya vidhalay vdhyawasani
+29	29 - Prathmik Vidhalaya mahuawa Baya Bhag
+30	30 - prathamik vidhalay nahuawa daya bhag
+31	31 - nawarsjeet prathamik vidhalay hanuman nagar
+32	32 - knya madhya vidhlay edari
+33	33 - kanya uchch vidhlay ekdari
+34	34 - prathmik vidhalaya Rampur
+35	35 - Utkramit madhay vidhalay murali
+36	36 - utkarmit madhy vidhalay shripur
+37	37 - utkarmit madhy vidhalay masahi urdu
+38	38 - prathamik vidhalay khairawa hindi
+39	39 - prathamik vidhalay khairawa urdu
+40	40 - utkarmit madhy vidhalay gonahai
+41	41 - Utkarmit madhya vidhalay bela
+42	42 - prathamik bidhalay bishun purawa
+43	43 - utkarmit madhy vidhalay haridiya urdu sathit jitpur baya bhag
+44	44 - utkarmit madhy vidhalay haridiya urdu sthit jitpur daya bhag
+45	45 - Utkarmit madhya vidhalay jitpur purvi bhag
+46	46 - Utkarmit madhya vidhalay jitpur pashchimi bhag
+47	47 - Madhya vidhalay jitpur
+48	48 - prathamik vidhalay mathiya vreit
+49	49 - Prathamik Vidyalay Bathuahiya
+50	50 - utkarmit madhya vidhalay parsa paithan patti urdu balak
+51	51 - madhya vidhalay bhatnahiya baya bhag
+52	52 - Madhya vidhalay bhatnahiya daya bhag
+53	53 - prathamik vidhalay parsa paithan pati urdu knya
+54	54 - Panchyat bhawan bhatnahiya
+55	55 - Utkarmit madhya vidhalay baikunthawa
+56	56 - madhya vidhalay narakatiya baya bhag
+57	57 - madhya vidhalay narakatiya daya bhag
+58	58 - bahudhadhi sahayogi samiti bhawan narkatiya baya bhag
+59	59 - bahudhadhi sahayogi samiti bhawan narkatiya daya bhag
+60	60 - Utkarmit madhya vidhalay sisawaniya
+61	61 - Utkarmit madhya vidhalay baya bhag
+62	62 - UTKRAMIT MADHAY VIDHLAYA Rampur daya bhag
+63	63 - prathamik vidhalay sihorawa
+64	64 - utkarmit madhya vidhalay vishunapurwa
+65	65 - prathamik bidhalay hiramani urdu baya bhag
+66	66 - prathamik bidhalay hiramani urdu daya bhag
+67	67 - madhya vidhalay hiramani
+68	68 - Utkramit Madhya Vidyalaya purushotampur urdu
+69	69 - prathamik vidhalay purushotampur hindi
+70	70 - utkarmit madhya bidhalay banjari
+71	71 - prathamik vidhalay semariya urdu
+72	72 - madhya vidhalay pakadiya urdu
+73	73 - madarasa semarahiya
+74	74 - prathamik bidhalay pakadiya hindi
+75	75 - Utkramit madhay vidhalay fatua
+76	76 - prathamik vidhalay duho suho
+77	77 - Utkramit madhay Vidyalaya chainpur
+78	78 - utkarmit madhya vidhalay katahariya
+79	79 - Prathamik vidhalay malahi
+80	80 - prathamik vidhalay jaynagar
+81	81 - Madhya vidhalay juafar baya bhag
+82	82 - panchyat bhawan juafar
+83	83 - prathamik vidhalay ramnagar ramana
+84	84 - utkarmit madhya vidhalay kudarkat tola ghaphar baya bhag
+85	85 - utkarmit madhya vidhalay kudarkat ghaphar baya bhag
+86	86 - prathmik vidhalaya mlahi
+87	87 - utkarmit madhya vidhalay  kudarkat daya bhag
+88	88 - utkarmit madhya vidhalay jolaganwa
+89	89 - Utkarmit madhy vidhalay jolganwa purvi bhag
+90	90 - Utkarmit madhya vidhalay bhawanipur
+91	91 - Madhya vidhalay pipra
+92	92 - utkramit madhya vidhalaya Shripur chanari
+93	93 - utkarmit madhya vidhalay jitpur utar bhag
+94	94 - utkramit madhya vidhalaya jitpur dakshini bhag
+95	95 - utkramit madhya vidhlaya Bela
+96	96 - utkramit madhya vidhlaya Balua
+97	97 - madhya vidhalay sathaura
+98	98 - Utkarmit madhya vidhalay badaharawa
+99	99 - Utkarmit madhya vidhalay jhajhara stith purvi bhag
+100	100 - utkramit madhya vidhalaya jhajhara stith jitan pashchimi bhag
+101	101 - utkarmit madhya vidhlay badaiya tola
+102	102 - Utkramit madhay vidhalay Reganiya baya bhag
+103	103 - Utkramit madhay Vidyalay Reganiya daya bhag
+104	104 - Utkarmit madhya vidhalay urdu ghoghiya pashchim bhag
+105	105 - Utkarmit madhya vidhalay urdu ghoghiya pachim bhag
+106	106 - kaparetibh godam bijabani
+107	107 - Utkarmit madhya vidhalay koirgawa
+108	108 - Utkramit Madhaya Vidhalaya Agarawa baya bhag
+109	109 - Utkarmit madhya vidhalay agrwa daya bhag
+110	110 - Utkramit Madhaya Vidhalaya Athmohan purvi bhag
+111	111 - Utkarmit madhya vidhalay athmohan pashchimi bhag
+112	112 - Utkramit madhay vidhalaya koirgawa
+113	113 - madhya vidhalay bijabani utar
+114	114 - Madhya vidhalay bijabani dakshani bhag
+115	115 - Samudayik bhawan gobindpur
+116	116 - Utkramit madhay vidhalaya kodarkat
+117	117 - Madhya vidhalay bankatwa purvi bhag
+118	118 - madhya vidhalaya bankatwa pashchimi bhag
+119	119 - uchch vidhalay kanya bankat
+120	120 - Panchyat Bhawan Badapakahi
+121	121 - Madhya vidhalay semri
+122	122 - Madhya Vidhalay Gola pakadiya pashchimi bhag
+123	123 - madhya vidhalay gola pakariya purvi bhag
+124	124 - utkarmit madhya vidhalay majariwa utar bhag
+125	125 - utkarmit madhya vidhlay majirawa dakshin bhag
+126	126 - urdu prathamik vidhalay jagirha kamaraula baya bhag
+127	127 - urdu prathamik vidhalay jagiraha kamraula daya bhag
+128	128 - Madhya vidhalay shekhauna purvi bhag
+129	129 - Madhya vidhalay shwkhauna pashchimi bhag
+130	130 - Madhya vidhalay shekhauna dakshin bhag
+131	131 - prathamik vidhalay nimoiya nagarwa utar bhag
+132	132 - Prathamik vidhalay nimoiya nagarwa dakshin bhag
+133	133 - Utkarmit madhya vidhalay bagaha toli
+134	134 - Madhya vidhalay dhumnagar
+135	135 - utkarmit madhya nimoiya balak utar bhag
+136	136 - urkramit madhya vidhalaya Nimoiya Balak Dakshin Bhag
+137	137 - samudayik bhawan pokhariya
+138	138 - prathamilk vidhalay nimoiya kanya stit lalua baya bhag
+139	139 - prathmik vidhalay nimoiya kanya sithit lalua daya bhag
+140	140 - utkarmit madhya vidhalay bangari
+141	141 - Panchyat bhawan inrawa fulwar
+142	142 - utkarmit madhya vidhalay mathiya bhopat sthit godhiya
+143	143 - utkarmit madhya vidhlay inrwa
+144	144 - madhya vidhlay inarawa fulawar vrit
+145	145 - madhya vidhalay mathiya bhopat baya bhag
+146	146 - madhya vidhalaya inrwa fulwar vrit
+147	147 - madhya vidhalaya fulwar gamhariya
+148	148 - Rajkiy Madhya Vidyalay Fulwar gauriya utar bhag
+149	149 - Rajakiy Madhya Vidyalay fulwar dakshin bhag
+150	150 - madhya vidhalay fulwar brahampura purvi bhag
+151	151 - Madhya vidhalaya Fulwar  Brahapura purvi bhag
+152	152 - Chanlat matadan kendra ghodamrawa khata nambar -3 khesara nambar -554
+153	153 - Utkramit madhay vidhalay fulwar nagdaha
+154	154 - rajkiya prathmik vidhalaya fulwar utter bhag
+155	155 - rajkiya prathmik vidhalaya fulwar dakhscini bhag
+156	156 - rajkiya madhya vidhalaya chithaa pashchimibhag purana bhawan
+157	157 - rajkiy madh vidhalya chitahaa pashchmi bhag naya bhawan
+158	158 - rajkiya madhya vidhalaya semaraehiya
+159	159 - rajkiya madhya vidhalaya samrehiya naya bhawan
+160	160 - rajkiya madhya vidhalaya kukurjari
+161	161 - Utkramit madhay Vidhalay Rohiniya
+162	162 - rajkiya prathmik vidhalaya budhawa
+163	163 - rajkiya madhya vidhalaya chichurihiya
+164	164 - rajkiya gani mohamad urdu madhya vidhalaya jatwa utar bhag
+165	165 - rajkiya gani mohamad urdu madhya vidhalaya jatwa dakdhchini bhag
+166	166 - madarsa janerawa uttar bhag
+167	167 - madrsha janerwa Dakshin  bhag
+168	168 - Rajakiya utkarmit madhya vidhalay janerawa purana bhawan
+169	169 - rajkiya  Utkrmait Madhaya  vidhalaya janarewa hindi naya bhawan
+170	170 - Prathamik vidhalay patkhauliya
+171	171 - rajkiy prathamik vidhalay semra harijan toli
+172	172 - Madhya vidhalay semra
+173	173 - Rajakiya uchch vidhalay semra purvi bhag
+174	174 - Rajakiya uchch vidhalay uttar bhag
+175	175 - Rajakiy Prathamik Vidhalay Kaprasandi
+176	176 - Rajakiya utkarmit madhya vidhalay
+177	177 - RAJAKIYA PRATHMIK VIDHALAY LOKNATHPUR
+178	178 - Madhya Vidhalay  Mokhilispur
+179	179 - madhya vidhalaya mokhlispur
+180	180 - Rajakiya prathamik vidhalay limauniya
+181	181 - rajkiya prathmik vidhlaya pachrukha
+182	182 - Rajakiya Madhya vidhalay jhakhiya
+183	183 - Prathmik vidhalay khadawa mushahar toli
+184	184 - Rajakiya Madhya Vidhalay Gobari Purvi Bhag
+185	185 - rajkiya madhya vidhalaya Pashchimi bhag
+186	186 - rajakiya urdumadhya vidhalay sisawaniya naya bhawan
+187	187 - rajkiya urdu madhya vidhalaya seswaniya purana bhawan
+188	188 - rajkiya urdu utkarmit madhya vidhalaya mohammadpur uttar bhag
+189	189 - Rajkiya urdu Utkrmait Madhay Vidhalay Mohammadpur Dakshin  Bhag
+190	190 - madhya vidhlay khairi
+191	191 - utkarmit madhya vidhalay sundarpur
+192	192 - Utkramit urdu Madhaya Vidhalaya Sundarpur Dakshin  Bhag
+193	193 - Rajkiya Madhya Vidhalay Ajgarawa Hindi
+194	194 - Rajakiya Urdu Prathmik Vidhalay ajagarawa
+195	195 - Rajakiya Madhya Vidhalay Gokhula Dikshni Bhag
+196	196 - rajkiya madhya vidhalaya gokhula uttar bhag daya
+197	197 - Rajakiy Madhaya Vidhalay,gokhula utter bhag
+198	198 - rajkiya madhya vidhalaya gokhula utter bhag
+199	199 - panchayat bhawan seswa purvi bhag
+200	200 - Panchyat bhawan siswa pashchim bhag
+201	201 - RAJAKIYA MADHYA VIDHALAY SISAWA URDU
+202	202 - Rajkiya Utkramit Madhaya Vidhalaya Bathana
+203	203 - rajkiya madhya vidhalaya seswa amwa purana bhawan
+204	204 - Madhya Vidyalay Chailaha Purana Bhavan
+205	205 - rajkiya madhya vidhalaya seswa hindi purvi bhag
+206	206 - rajkiya madhya vidhalaya seswa hindi pashchimi bhag
+207	207 - utkramit madhya vidhalaya singhiya howa utree bhag
+208	208 - utkramit madhya vidhalaya singhiya hiwan dakshchini bhag
+209	209 - Rajkiya utkramit madhya vidhlaya oakdiya
+210	210 - rajkiya madhya vidhlaya ajagari utter bhag
+211	211 - rajkiya madhya vidhlaya ajagari dakshchini bhag
+212	212 - rajkiya madhya vidhlaya ajagari madhya  bhag
+213	213 - rajkiya  Utkramit  madhya vidhlaya chailaha gosahala isthit dhaita musahar tola
+214	214 - rajkiya prathmik vidhalaya pakdiya chailaha purana bhawan
+215	215 - Rajkiya Prathmik Vidhalaya Chailahan  Pakdiya chailaha naya bhawan
+216	216 - madhya vidhalaya chailaha purana bhawean
+217	217 - मध्य विधालय चैलाहा नया भवन
+218	218 - Rajkiya Prathmik  Vidhalaya Shek Bundan
+219	219 - rajkiy utkramit madhya vidhalya chailaha tal
+220	220 - RAJKIY UTKRAMIT MADHY VIDHALAY SINGHIYA SAGAR
+221	221 - rajkiya madhya vidhalaya banjariya
+222	222 - Krishi Utpadan Bajar Samiti Motihari prashasnik bhavan
+223	223 - Krishi Utpadan Bajar Samiti Motihari madhya bhag
+224	224 - Krishi Utpadan Bajar Samiti Motihari purvi bhag
+225	225 - madhya vidhalaya banjariya dakshini bhag

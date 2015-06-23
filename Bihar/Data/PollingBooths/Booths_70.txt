@@ -1,0 +1,279 @@
+1	1 - Rajkiya Buniyadi Madhya Vidyalay,Khada, Left side
+2	2 - Rajkiya Buniyadi Madhya Vidyalay,Khada, Right side
+3	3 - Sanskrit Uchcha Vidyalay,Khada North Side
+4	4 - Sanskrit Uchcha Vidyalay,Khada South Side
+5	5 - Upgraded Middle School, Sukhasani
+6	6 - Uchcha Vidyalay,Khada
+7	7 - Madhya Vidyalay, Sinavada
+8	8 - Panchayat Bhavan, Budhama
+9	9 - Madhya Vidyalay, Budhama
+10	10 - Upgraded Middle School, Baijanathapur
+11	11 - Prathamik Vidyalay,Kusthani
+12	12 - Panchayat Bhavan,Singarapur Boya Bhag
+13	13 - Panchayat Bhavan,Singarapur Doya Bhag
+14	14 - Madhya Vidyalay,Navatol Purab Bhag
+15	15 - Madhya Vidyalay,Navatol Pashchim Bhag
+16	16 - Madarasa Islamiya, Singarapur
+17	17 - Vikas Bhavan,Nayanagar
+18	18 - Prathamik Vidyalay,Tivarivasa
+19	19 - Uchcha Vidyalay,Shahajadapur (North Side)
+20	20 - Uchcha Vidyalay,Shahajadapur (South Side)
+21	21 - Madhya Vidyalay,Shahajadapur Uttar Bhag
+22	22 - Madhya Vidyalay, Shahajadapur Dakshin  Bhag
+23	23 - Upgraded Middle School, Bakhari Left Side
+24	24 - Upgraded Middle School, Bakhari, Right Side
+25	25 - Upgraded Middle School,Shekhapur Chaman Pashchim Bhag
+26	26 - Upgraded Middle School, Shekhapur Chaman, Purab Bhag
+27	27 - Upgraded Middle School, Bhavanandapur
+28	28 - Upgraded Middle School, Baliya Vasa
+29	29 - Prathamik Vidyalay, Ramamandal Tola
+30	30 - Upgraded Middle School, Chakafajula (Chit Jagirghat)
+31	31 - Prathamik Vidyalay, Chakafajula Goth
+32	32 - Madhya Vidyalay, Gopalapur Naya Bhavan Purab Bhag
+33	33 - Madhya Vidyalay,Gopalapur Naya Bhavan Pashchim Bhag
+34	34 - Vikas Bhavan,Fanahan
+35	35 - Upgraded Middle School, Fanahan
+36	36 - Upgraded Middle School, Rahata Ujani
+37	37 - Madarasa, Rahata
+38	38 - Upgraded Urdu Middle School, Rahata Utar Bhag
+39	39 - Upgraded Urdu Middel School, Rahata, Dakshin Bhag
+40	40 - Madhya Vidyalay, Badateni
+41	41 - Panchayat Bhavan , Laskari Barateni
+42	42 - Madhya Vidyalay, Laskari
+43	43 - Upgraded Middle School, Lashkari
+44	44 - Upgraded Middle School, Muralichandava
+45	45 - Madhya Vidyalay, Muralichandava
+46	46 - Upgraded Middle School, Kumharapur North Side
+47	47 - Upgaraded Middle School, Kumharapur South Side
+48	48 - Madhya Vidyalay, Manjaura
+49	49 - Baikavard Musalim Kamuniti Makatab,Manjaura Purab Bhag
+50	50 - Baikavard Musalim Kamuniti Makatab,Manjaura  Pashchim Bhag
+51	51 - Upgraded Middle School, Rahua Hindi, Nouth Side
+52	52 - Upgraded Middle School, Rahua Hindi, South Side
+53	53 - Upgraded Middle School, Rahua Hindi Middle Side
+54	54 - Urdu Prathamik Vidyalay, Ramapur Deharu Left Side
+55	55 - Urdu Primary School, Rampur Dehru, Right Side
+56	56 - Uprathamik Vidyalay, Jotaili Santhal Tola
+57	57 - Upgraded Urdu Middle School,Jotaili, Gulab Tola
+58	58 - Prathamik Vidyalay, Jotaili Hindi
+59	59 - Madhya Vidyalay, Baliya
+60	60 - Navsrijit Primary School, Bhola Babu Basa
+61	61 - Upgraded Middle School, Kurasandi
+62	62 - Upgraded Middle School, Balatol
+63	63 - Upgraded Middle School , Rauta
+64	64 - Prathamik Vidyalay, Bathanaha
+65	65 - Prathamik Vidyalay, Badhava Diyara
+66	66 - Middle School, Basudevapur
+67	67 - Upgraded Middle School, Duhabi-Suhabi
+68	68 - Basudev Uchcha Vidyalay, Nayatola
+69	69 - Upgraded Middle School, Naradah
+70	70 - Upgraded Middle School Muslim, Naradah
+71	71 - Madhya Vidyalay, Yogiraj Pashchim Bhag
+72	72 - Madhya Vidyalay,Yogiraj Purbi Bhag
+73	73 - Upgraded Middle School, Oralaha
+74	74 - Upgraded Middle School, Ganeshapur Diyara
+75	75 - Panchayat Bhavan, Dumarail , East Side
+76	76 - Panchayat Bhawan Dumrail, West Side
+77	77 - Prathamik Vidyalay, Ganeshapur, Pashchim Bhag
+78	78 - Prathamik Vidyalay, Ganeshapur Purbi Bhag
+79	79 - Madhya Vidyalay, Karama Pashchim Bhag
+80	80 - Madhya Vidyalay, Karama, Purbi  Bhag
+81	81 - Upgraded School, Saparadah Purbi Bhag
+82	82 - Upgraded School, Saparadah Pashchimi Bhag
+83	83 - Upgraded Middle School, Tirasi
+84	84 - Vikas Bhavan, Aurai  Purwi Tola chengahi
+85	85 - Madhya Vidyalay, Auray
+86	86 - Upgraded Middle School, Maruwahi
+87	87 - Urdu Upgraded Middle School, Auray Chengahi
+88	88 - Upgraded Middle School, Kheraho
+89	89 - Upgraded Middle School, Kheraho Chanda Daya Bhag
+90	90 - Upgraded Middle School, Kheraho Chanda Baya Bhag
+91	91 - Upgraded Middle School, Auray Chengahi
+92	92 - Panchayat Bhavan, Puraini Daya Bhag
+93	93 - Panchayat Bhavan, Puraini Baya Bhag
+94	94 - Upgraded Middle School, Puraini Purab Bhag
+95	95 - Upgraded Middle School, Puraini Pashchim Bhag
+96	96 - Upgraded Middle School, Puraini  Uttar Bhag
+97	97 - Upgraded Middle School, Puraini  Dakshin Bhag
+98	98 - Rajaswa Tahasil Kachahari, Puraini
+99	99 - Urdu Upgraded Middle School, Bhatauni
+100	100 - Madhya Vidyalay, Chatanama, Purab Bhag
+101	101 - Madhya Vidyalay, Chatanama, Pashchim Bhag
+102	102 - Madhya.Vidyalay, Banshagopal
+103	103 - Prathamik Vidyalay, Baghara
+104	104 - Upgraded Middle School,Teliyari
+105	105 - Madhya Vidyalay, Durgapur Daya Bhag
+106	106 - Madhya Vidyalay, Durgapur Baya Bhag
+107	107 - Madhya Vidyalay, Makadamapur, Pashchim Bhag
+108	108 - Madhya Vidyalay, Makadamapur Purab Bhag
+109	109 - Upgraded Middle School, Kaharatoli
+110	110 - Upgraded Middle School, Fulapur
+111	111 - Upgraded Middle School, Fekararahi
+112	112 - Upgraded Middle School, Shivamangal Sinh Vasa
+113	113 - Madhya Vidyalay , Chandasara
+114	114 - Prathamik Vidyalay, Tulasiyahi, left side
+115	115 - prathamik vidyalay, akaha tulsiyahi, right side
+116	116 - Madhya Vidyalay, Vishanpur
+117	117 - Madhya Vidyalay, Vishapatti
+118	118 - Prathamik Vidyalay, Mahadipur
+119	119 - Uchcha Vidyalay, Khurahan (Uttar Bhag)
+120	120 - Uchcha Vidyalay, Khurahan (Dakshin Bhag)
+121	121 - Prathamik Vidyalay, Mahamuda
+122	122 - Prathamik Vidyalay ,Forasahi
+123	123 - Prathamik Vidyalay, Khurahan (Uttari Bhavan)
+124	124 - Prathamik Vidyalay, Khurahan, (Dakshini Bhavan)
+125	125 - Madhya Vidyalay,Basanavada, (Utar Bhag)
+126	126 - Madhya Vidyalay, Basanavada (Dakshin Bhag)
+127	127 - Upgraded Middle School, Teliyari uttar side
+128	128 - Upgraded Middle School, Teliyari, dakshin bhag
+129	129 - Upgraded Middle School, Khurahan Mal (Uttar Bhag)
+130	130 - Upgraded Middle School, Khurahan Mal, (Dakshin Bhag)
+131	131 - Upgraded Middle School, Lakshminiya
+132	132 - Upgraded Middle School, Keshopur
+133	133 - Prathamik Vidyalay, Madhaili Diyara
+134	134 - Urdu Madhya Vidyalay, Madhaili
+135	135 - Urdu Balika  Prathamik Vidyalay, Madhaili
+136	136 - Madhya Vidyalay, Sinhar
+137	137 - Madhya Vidyalay, Tilakapur, (Purwi Bhavan)
+138	138 - Madhya Vidyalay, Tilakapur, (Pashchim Bhavan)
+139	139 - Madhya Vidyalay, Ladama (Purab Bhag)
+140	140 - Madhya Vidyalay, Ladama (Pashchim Bhag)
+141	141 - Madhya Vidyalay, Sonavarsha (Uttar Bhag)
+142	142 - Madhya Vidyalay, Sonavarsha (Dakshin Ka Bhavan)
+143	143 - Upgraded Middle School, Shankari Tola
+144	144 - Vijaya Smarak, Kanya Uchcha Vidyalay, Alamanagar Ka Purab Ka Bhavan
+145	145 - Vijaya Smarak, Kanya Uchcha Vidyalay, Alamanagar Ka Pashchim Ka Bhavan
+146	146 - Madhya Vidyalay,Bhagipur Pashchimi Bhavan
+147	147 - Madhya Vidyalay,Bhagipur Madhya  Bhavan
+148	148 - Madhya Vidyalay, Bhagipur (Purbi Bhavan)
+149	149 - Madhya Vidyalay, Narathua
+150	150 - Prathamik Vidyalay, Alamanagar Mushari Tola East North Side
+151	151 - Prathamik Vidyalay, Alamanagar Musahari Tola Purw Ka  Dakshin Bhag
+152	152 - Upgraded Middle School, Vaisabasa (Purwi Bhavan)
+153	153 - Prathamik Vidyalay, Vaisabasa (Pashchimi Bhavan)
+154	154 - Upgraded Middle School, Athagama Basa
+155	155 - Upgraded Middle School, Fatoriya
+156	156 - Upgraded Middle School, Alamanagar Harijan Tola (Purab Bhag)
+157	157 - Upgraded Middle School, Alamanagar Harijan Tola (Pachim Bhag)
+158	158 - Upgraded Middle School, Alamanagar (Uttari Bhag)
+159	159 - Upgraded Middle School, Alamanagar (Dakshini Bhag)
+160	160 - Madhya Vidyalay, Karunavasa
+161	161 - Madhya Vidyalay, kunjauri Pashchim Bhag
+162	162 - Madhya Vidyalay, Kujaudi, uttar bhag
+163	163 - Upgraded Middle School, Bharatakhanda Basa
+164	164 - Upgraded Middle School, Ganaul
+165	165 - Madhya Vidyalay, Hariharapur Bajaraha (Purab Bhag)
+166	166 - Madhya Vidyalay, Hariharapur Bajaraha (Pashchim Bhag)
+167	167 - Middle School, Hariharpur Bajraha, Middle Side
+168	168 - Madhya Vidyalay, Itahari
+169	169 - Prathamik Vidyalay,Bhramarapur Basa Itahari (Purwi Bhag)
+170	170 - Prathamik Vidyalay,Bhramarapur Basa Itahari (Pashchim Bhag)
+171	171 - Upgraded Middle School, Gauchhidih
+172	172 - Prathamik Vidyalay, Ramnagar Khavan
+173	173 - Upgraded Middle School, Ramnagar Khavan Diyara
+174	174 - Upgraded Middle School, Badhauna
+175	175 - Upgraded Middle School, Chakarami Vasa
+176	176 - Upgraded Middle School, Panadahi
+177	177 - Madhya Vidyalay, Tarasua Badagonv, (Pashchim Bhag)
+178	178 - Madhya Vidyalay, Tarasua Badagonv, (Naya Bhavan)
+179	179 - Madhya Vidyalay, Tarasua Badagonv, (Purab Bhag)
+180	180 - Upgraded Middle School, Parail
+181	181 - Upgraded Middle School, Kodaraghat (Utar Bhag)
+182	182 - Upgraded Middle School, Kodaraghat (Dakshin Bhag)
+183	183 - Uchcha Vidyalay, Khapur (Uttar Bhag)
+184	184 - Uchcha Vidyalay, Khapur, (Dakshin Bhag)
+185	185 - Madhya Vidyalay, Khapur (Uttar Bhag)
+186	186 - Madhya Vidyalay, Khapur (Dakshin Bhag)
+187	187 - Madhya Vidyalay, Kapasiya (Utar Bhag)
+188	188 - Madhya Vidyalay, Kapasiya (Dakshin Bhag)
+189	189 - Madhya Vidyalay, Ratavara (Uttar Bhag)
+190	190 - Madhya Vidyalay, Ratavara (Dakshin Bhag)
+191	191 - Upgraded Middle School, Sukhadra Ghat (Uttar Bhag)
+192	192 - Upgraded Middle School, Sukhadra Ghat (Dakshin Bhag)
+193	193 - Primary School, Bhawanipur Basa, Pashchim Bhag
+194	194 - Primary School, Bhawanipur Basa, Purab Bhag
+195	195 - Upgraded Middle School, Sonamukhi (Purab Bhag)
+196	196 - Upgraded Middle School, Sonamukhi (Pashchim Bhag)
+197	197 - Madhya Vidyalay, Gangapur, Bageshwari  (Uttar Bhag)
+198	198 - Madhya Vidyalay, Gangapur, Bageshwari  (Dakshin Bhag)
+199	199 - Madhya Vidyalay, Gangapur (Dakshin Bhag)
+200	200 - madhya Vidyalay, gangapur purab bhag
+201	201 - Madhya Vidyalay, Gangapur (Utar Bhag)
+202	202 - Upgraded Middle School, Harajaura Ghat
+203	203 - Utkramit Madhya Vidyalay, Tiyar Tola (Pashchim Bhag)
+204	204 - Utkramit Madhya Vidyalay, Tiyar Tola (Purab Bhag)
+205	205 - Upgraded Middle School, tiyar tola north side
+206	206 - Utkramit Madhya Vidyalay , Tiyar Tola Dakshin Bhag
+207	207 - Utkramit Madhya Vidyalay, Sapani
+208	208 - Madhya Vidyalay, Fulaut Utar Bhag
+209	209 - Madhya Vidyalaya Fulaut Madhya Bhag
+210	210 - Madhya Vidyalay, Fulaut Dakshin Bhag
+211	211 - Kanya Prathamik Vidyalay, Fulaut Uttar Bhag
+212	212 - Kanya Prathamik Vidyalay, Fulaut Dakshin Bhag
+213	213 - Madhya Vidyalay, Dhaneshapur Uttar Bhag
+214	214 - Prathamik Vidyalay, Dhaneshapur Dakshin Bhag
+215	215 - Prathamik Vidyalay, Dharmapur Hat Chanda
+216	216 - Madhya Vidyalay, Morasanda Uttar Bhag
+217	217 - Madhya Vidyalay, Morasanda Dakshin Bhag
+218	218 - Madhya Vidyalay, Paina Baya Bhag
+219	219 - Urdu Madhya Vidyalaya Paina Daya Bhag
+220	220 - Madhya Vidyalay, Gulajar Sinh Chanda
+221	221 - Panchayat Bhavan, Paina
+222	222 - Urdu Madhya Vidyalay, Thakuraganj Chanda
+223	223 - Prathamik Vidyalay, Hira Tola Paina
+224	224 - Prathamik Vidyalay, Chhotki Badhauna
+225	225 - Prathamik Vidyalay, Kalasan
+226	226 - Utkramit Madhya Vidyalay, Tillarahi Doya Bhag
+227	227 - Madhya Vidyalay, Tillarahi Boya Bhag
+228	228 - Raghunath Uchcha Vidyalay, Kalasan
+229	229 - Prathamik Vidyalay, Dhuriya
+230	230 - Prathamik Vidyalay, Dhuriya Sautari
+231	231 - Madhya Vidyalay, Badki Badhauna
+232	232 - Madhya Vidyalay , Ghoshai Uttar Bhag
+233	233 - Madhya Vidyalay, Ghoshai Dakshin Bhag
+234	234 - Prathamik Vidyalay, Ramanagar Kelabadi
+235	235 - Madhya Vidyalay, Chirauri Doya Bhag
+236	236 - Madhya Vidyalay, Chirauri Boya Bhag
+237	237 - Prathamik Vidyalay, Bhavanapura Basa
+238	238 - Madhya Vidyalay, Ajagaiva Uttar Bhag
+239	239 - Madhya Vidyalay, Ajagaiva Dakshin Bhag
+240	240 - Madhya Vidyalay, Chausa Doya Bhag
+241	241 - Madhya Vidhalay, Chausa Boya Bhag
+242	242 - Janata Uchcha Vidyalay, Chausa Doya Bhag
+243	243 - Janata Uchcha Vidyalay, Chausa Banya Bhag
+244	244 - Kanya Madhya Vidyalay, Chausa
+245	245 - Baba Bisu Raut Kolej, Chausa
+246	246 - Navauvak Pustakalay, Laualagan Uttar Bhag
+247	247 - Navauvak Pustakalay, Laualagan Dakshin Bhag
+248	248 - Panchayat Bhavan, Laualagan
+249	249 - Upgraded Middle School, Murgiya Tola
+250	250 - Upgraded Middle School, Tulasipur Laualagan
+251	251 - Prathamik Vidyalay, Abhiram Sinh Vasa
+252	252 - Panchayat Bhavan, Chausa Purwi
+253	253 - Prathamik Vidyalay, Tulasipur, Chausa, Left side
+254	254 - Prathamik Vidyalay, Tulasipur, Chausa, Right side
+255	255 - Madhya Vidyalay, Basaitha Uttar Bhag
+256	256 - Madhya Vidyalay, Basaitha Dakshin Bhag
+257	257 - Prathamik Vidyalay, Abhiya Tola, Right Side
+258	258 - Primary School, Abhiya Tola Left Side
+259	259 - Upgraded Madhya Vidyalay, Lakshminiya, purvi bhag
+260	260 - Upgraded Middle School, pashchim bhag
+261	261 - Ajad Pustakalay, Laualagan
+262	262 - Kanya Prathamik Vidyalay, Laualagan North SIde
+263	263 - Kanya Prathamik Vidyalay, Laualagan South Side
+264	264 - Upgraded Middle School, Khopadiya Right Side
+265	265 - Upgraded Middle School, Khopariya Left Side
+266	266 - Upgraded Middle School, Bindatoli, Right Side
+267	267 - Upgraded Middle School, Bindtoli, Left Side
+268	268 - Upgraded Middle School, Chandasuri Tola
+269	269 - Prathamik Vidyalay, Sadhu Tola
+270	270 - Upgraded Middle School, Manoharapur
+271	271 - Madhya Vidyalay, Bhatagama Purab Bhag
+272	272 - Madhya Vidyalay, Bhatagama Pashchim Bhag
+273	273 - Upgraded Middle School, Garaiya Tola
+274	274 - Upgraded Middle School, Bhitha Tola
+275	275 - Rajakiy Buniyadi Vidyalay, Arajapur Uttar Bhag
+276	276 - Rajakiy Buniyadi Vidyalay, Arajapur Pashchim Bhag
+277	277 - Gandhi High School, Arajapur Baya Bhag
+278	278 - Gandhi High School, Arajapur, Right Side
+279	279 - Prathamik Vidyalay, Sonavarsha

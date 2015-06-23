@@ -1,0 +1,258 @@
+1	1 - Prathamik Vidyalay Narakatiya
+2	2 - Anusuchit Jati Darwaja,Manihas Kanshi, South Part
+3	3 - Anusuchit Jati Darwaja, Manihas Kanshi, North
+4	4 - Madhya Vidyalay Kansi
+5	5 - Panchayat Bhavan Kansi Pachimi Bhag
+6	6 - Panchyat Bhawan, Kanshi, East Part
+7	7 - Upgraded Middle School,Chakka
+8	8 - Girl Middle School, Ketuka North Part
+9	9 - Girl Middle School, Ketuka South  Part
+10	10 - Middle School, Makhnahi West Part
+11	11 - Middle School,Makhnahi East Part
+12	12 - Primary School, Shisho
+13	13 - Primary School, Madhoupur
+14	14 - Panchyat Bhawan,Shisho West
+15	15 - Upgraded Middle School, Shisho,Kanya
+16	16 - Upgraded Middle School,Harpur
+17	17 - Middle School, Shishodih Old Building
+18	18 - Middle School,  Shishodih New Building
+19	19 - Primary School, Karkauli
+20	20 - Primary School, Bhalni
+21	21 - Samudayik Bhawan, Sahwajpur
+22	22 - Utkramit Madhya Vidyalay, Karahatiya
+23	23 - Upgraded Middle School, Bhaluka, (Sahwajpur) East  Part,
+24	24 - Upgraded Middle School, Bhaluka, (Sahwajpur) West Part,
+25	25 - Upgraded Middle School, Mabbi East Part.
+26	26 - Prathamik Vidyalay,MAHTHA POKHAR
+27	27 - Upgraded Middle School, Mabbi South Parth
+28	28 - Primary School, Madhupur
+29	29 - prathmik bidyaly kothiya
+30	30 - Primary School, Chirmara
+31	31 - Girls Upgraded Middle School, Basaila Basudevpur
+32	32 - Primary School,Kasnraini Basudevpur
+33	33 - Middle  School, Maulaganj,
+34	34 - Upgraded Middle School, Sonhan, East Part
+35	35 - Upgraded Middle School, Sonhan, West Part
+36	36 - Middle School, Ranipur North Part
+37	37 - Middle School, Ranipur South Part
+38	38 - Primary School,Belhar North Part
+39	39 - Upgraded Middle School, Bela
+40	40 - Primary School, Belhar, South Part
+41	41 - Kumbhkari Prasikshan kendra, khadi board, Mohanpur
+42	42 - Rajkiy Makhana Anusadhan Center Buchaman
+43	43 - Samta High School,Gosaghat,North Part
+44	44 - Primary School,Basaila
+45	45 - Upgraded Middle School, Sara Mahammad,Hindi, North Part
+46	46 - Primary School, Sara Mahammad,Urdu, East Part
+47	47 - Upgraded Middle School,  Sara Mahammad,Hindi,South Part
+48	48 - Primary School, Sara Mahammad,Urdu, West Part
+49	49 - Girls Middle School,Chandpatti East Part
+50	50 - Primary School,Gangwara, Navtoliya
+51	51 - Samudayik Bhawan, Chapki parari, East Part
+52	52 - Samudayik Bhawan,chapki parari , West Part
+53	53 - Upgraded Middle School, parari North Part
+54	54 - Upgraded Middle School, parari South Part
+55	55 - Anusuchit Jati Darwaja, Poshanpura near Shivmandir
+56	56 - Middle School, Mathurapur  Kabirchak (North Part)
+57	57 - Middle School, Mathurapur,Kabirchak,South Part
+58	58 - Manrega Bhawan Kabirchak, East Part
+59	59 - Manrega Bhawan Kabirchak, West Part
+60	60 - Primary School, GosaiTol, Kabircack
+61	61 - Primary School,Behat
+62	62 - Primary school badhiya
+63	63 - Middle School, taj vishanpur, North Part
+64	64 - Middle School,taj vishanpur,  South Part
+65	65 - Middle School, Alinagar, north Part
+66	66 - Middle School, Alinagar South Part
+67	67 - High School Sunderpur, Bela East Part
+68	68 - High School Sunderpur, Bela West Part
+69	69 - Middle School, Bira East Part
+70	70 - Middle School, Bira Middle Part
+71	71 - Middle School,  Bira West Part
+72	72 - Middle School, Beladullah
+73	73 - Lakshmi Girls Primary School, Bela Shankar
+74	74 - Audhogik office, Bela
+75	75 - Rajkiya Politeknic, Kaidarabad
+76	76 - Rajkiya Politeknic, Kaidarabad New Building
+77	77 - Middle School, Sundarpur, North Part
+78	78 - Middle School, Sundarpur, Middle Part
+79	79 - Mukundi Choudhary High School,Kaidirabad, East Part
+80	80 - Mukundi Choudhary High School,Kadirabad,West Part
+81	81 - Mukundi Choudhary High School Kadirabad,MiddlePart
+82	82 - Middle School, Alafganj, Ajamnagar
+83	83 - Radharani Middle School, Ruhelaganj
+84	84 - Middle School, chak nijamganj ,martoul Bazar
+85	85 - Middle School, chak nijamganj ,martoul Bazar
+86	86 - Raj Gosala , near homeguard center
+87	87 - Maharani Rameshwari Balika High School, Lalbag, North Part
+88	88 - Maharani Rameshwari Balika High School, Lalbag,Middle Part
+89	89 - Maharani Rameshwari Balika High School, Lalbag South Part
+90	90 - Rameshwari Lata Sanskrit School , kathalbari, East Part
+91	91 - Rameshwari Lata Sanskrit School  kathalbari,  West Part
+92	92 - Middle School,  kathalbari, North Part
+93	93 - Middle School,  kathalbari, South Part
+94	94 - Middle School, saidpur chunabhatti, north part
+95	95 - Middle School, saidpur chunabhatti, Middle part
+96	96 - Middle School, saidpur,South part
+97	97 - Middle School, saidpur North part
+98	98 - Middle School, Lakshmisagar, West Part
+99	99 - Middle School, Lakshmisagar, East Part
+100	100 - Primary School, Lakshmisagar,East Part
+101	101 - Primary School, Lakshmisagar,West Part
+102	102 - Milk Factory Lakshmisagar west part
+103	103 - dugdh faiktri lakshmi sagr purvi bhag
+104	104 - Jila pasupalan office, Lakshmisagr east part
+105	105 - Jila pasupalan office, Lakshmisagar, West part
+106	106 - Middle School, Sadhugachhi, Lakshmisagar, North Parth
+107	107 - Middle School, Sadhugachhi, Lakshmisagar, South Parth
+108	108 - Komal Facility center, bihar state labour industries devlopment, corporation LTd. dharampur
+109	109 - Gandhi sisu bihar, kathariya, East Part
+110	110 - Gandhi sisu bihar, kathariya, West Part
+111	111 - Holy Cross Christian School, Donar, darbhanga, south part
+112	112 - Holy Cross Christian School, Donar, Darbhanga, Middle part
+113	113 - Holy Cross Christian School, Donar, darbhanga, North part
+114	114 - Primary School, mishratola(Digghi)
+115	115 - Maithili sahitya parishad, mishratola, south part
+116	116 - Poor home Middle School, Mirjapur, North part
+117	117 - ajkiya blind school, poor home, mirjapur, North Part
+118	118 - Rajkiya blind school, poor home, mirjapur, South Part
+119	119 - Musa sah Middle School, Lalbag, East  Part
+120	120 - Musa sah Middle School, Lalbag, Middle Part
+121	121 - Musa sah Middle School, lalbag, west Part
+122	122 - Public school, lalbag, East Part
+123	123 - Public school, lalbag, West Part
+124	124 - chnadrdhri mithilabigyan mhabidhyaly purvi bhag
+125	125 - Chandradhari Mithila Science Collage West Part
+126	126 - Chandradhari Mithila Science Collage (Kameshwar bhawan)
+127	127 - Chandradhari Mithila Science Collage North Part
+128	128 - Chandradhari Mithila Science Collage South Part
+129	129 - Desratna Dr. Rajendra prasad mahila High School , Juraban singh, South Part
+130	130 - Desratna Dr. Rajendra prasad mahila High School , Juraban singh,Middle Part
+131	131 - Desratna Dr. Rajendra prasad mahila High School , Juraban singh,North Part
+132	132 - Raj High School, Darbhanga South part
+133	133 - Raj High School, darbhanga North part
+134	134 - Primary School, Banglagadh,Fakirana, North Part
+135	135 - Primary School, Banglagadh,Fakirana, South Part
+136	136 - Middle School, Ramchowk, Banglagadh
+137	137 - Middle School, banglagadh
+138	138 - Samudayik bhawan,Satihara Tola, East part
+139	139 - prathmik bidyaly satihara tola
+140	140 - Samudayik Bhawan, Satihara Tola, West part
+141	141 - Anusuchit Jati Darwaja, sumbhankarpur, north part
+142	142 - Anusuchit Jati Darwaja, sumbhakarpur, south part
+143	143 - Middle School, Shumbhakarpur
+144	144 - Radha swami Middle School, Ratnopatti
+145	145 - Brajkishor kanya Primary school, Ratanopatti, West part
+146	146 - Brajkishor kanya Primary school, Ratanopatti, East part
+147	147 - Middle School, wajitpur, west part
+148	148 - Primary School, wajitpur, anusuchit jaati tola
+149	149 - Imarte mujubiya tecnical sansthan, Mahdouli
+150	150 - Middle School, Basantganj, North part
+151	151 - Middle School, Basantganj, south part
+152	152 - Middle School, Basantganj, Middle part
+153	153 - Middle School, Basantganj, East part
+154	154 - Middle School, kaliasthan
+155	155 - Marwari High School, Senapat
+156	156 - Chandra mithila kla mahaSchool, kila ghat, East  part
+157	157 - middle school,girls bhagwandas jp chowk north part
+158	158 - Middle School kanya, Bhagwandas J.P. chock, South Part
+159	159 - Madarsa Hamidiya, kilaghat, west part
+160	160 - Madarsa Hamidiya, kilaghat East Part
+161	161 - Marwari Collage, Mogalpura South Part
+162	162 - Sarvodya High School, Mogalpura West Part
+163	163 - Sarvodya High School, Mogalpura East Part
+164	164 - Prashasnik Bhawan Marwari collage, Darbhanga East Part
+165	165 - Prashasnik Bhawan Marwari collage, Darbhanga West Part
+166	166 - Middle School, Maulaganj
+167	167 - Middle School, Madarpur East Part
+168	168 - Middle School, Madarpur West Part
+169	169 - Holy Cross christan school. Madarpur, West Part
+170	170 - Holy Cross christan school. Madarpur, East Part
+171	171 - Kuwar singh Collage, Allpatti, Laheriasarai West Part
+172	172 - Kuwar singh Collage, Allpatti, Laheriasarai East Part
+173	173 - P.H.D. office, Faijullah khan
+174	174 - Adhikshan Abhiyanta office, faijullah khan, East Part
+175	175 - Adhikshan Abhiyanta office, faijullah khan, West Part
+176	176 - Middle School,Rajendrapuri,sahaspun, East Part
+177	177 - Middle School,Rajendrapuri,sahaspun, Middle Part
+178	178 - Middle School, Rajendrapuri,sahaspun, West Part
+179	179 - Middle School,Rajendrapuri,sahaspun,middle part
+180	180 - Middle School, Urdu bazar
+181	181 - Primary School, Sher mohammad, urdu
+182	182 - Girls Primary School, Fakira khan
+183	183 - Middle School, Bibi pakar ,West Part
+184	184 - Middle School, Bibi pakar,West Part
+185	185 - Millat Collage, Urdu North Part
+186	186 - Millat Collage, Urdu South Part
+187	187 - Middle School, Bhigo, East Part
+188	188 - Middle School, Bhigo, West Part
+189	189 - Middle School, Imambari, dumduma
+190	190 - Middle School Maharajganj Dildarganj South Part
+191	191 - Middle School Maharajganj Dildarganj Uttar Part
+192	192 - Primary School, Dildarganj
+193	193 - Middle School Karmganj West Part
+194	194 - Middle School,karamganj East part
+195	195 - Primary School Rahamganj Urdu
+196	196 - Jila school karamganj, old building East Part
+197	197 - Jila school karamganj, old building West Part
+198	198 - Jila school karamganj, new building
+199	199 - Middle School, Rahamganj, North part
+200	200 - Middle School, Rahamganj, south part
+201	201 - Primary maktab, Alalpatti
+202	202 - Middle School, Alalpatti,  new building, East Part
+203	203 - Middle School, Gangasagar, Alalpatti,  new building, West Part
+204	204 - Middle School Alalpatti, Old Bhawan
+205	205 - Middle School,benta, Boys East Part
+206	206 - Middle School,benta, Boys West Part
+207	207 - PHD Office, benta,
+208	208 - Safi muslim High School, benta,East Part
+209	209 - Safi muslim High School, benta,West Part
+210	210 - Nagendra Jha mahila Collage, Bangalitola, East part
+211	211 - Nagendra Jha mahila Collage, bangalitola,West part
+212	212 - M.L Acedmy, Laheriasarai, North Part
+213	213 - ML Acedmy, Laheriasarai, South Part
+214	214 - Maharani Kalyani MahaSchool , Bangalitola,North Part
+215	215 - Maharani Kalyani MahaSchool , bangalitola,South Part
+216	216 - Bansi das Girls Middle School, GN ganj South Part
+217	217 - Bansi das Girls Middle School, GN ganj North Part
+218	218 - Veena Pani Club, Bangali Tola
+219	219 - Hekok Institue, Bengali Tola
+220	220 - Middle School, Saray sattar Khan East Part
+221	221 - Middle School,Saray sattar KhanWest Part
+222	222 - Kanya Primary School Mahrajganj East Part
+223	223 - Girls Primary School, Maharajganj, West Part
+224	224 - Intrial Primary School, Bakarganj East Part
+225	225 - Intrial Primary School, Bakarganj East Part
+226	226 - Primary School, E I B Screm, Abhanda
+227	227 - Swarnlata Kharga Middle School, , Bakarganj, East Part
+228	228 - Swarnlata Kharga Middle School, , Bakarganj, West Part
+229	229 - K K Lal Middle School , Bakarganj, East Part
+230	230 - K K Lal Middle School , Bakarganj, West Part
+231	231 - Tahsil Kachahari, Bakarganj East Part
+232	232 - Tahsil Kachahari, Bakarganj West Part
+233	233 - Vidyapatti High School , Rajendra Bazar
+234	234 - Jila Prishad Office, Laheriasarai,
+235	235 - Ramnandan Mishra Balika High School East Part Laheriasarai
+236	236 - Ramnandan Mishra Balika High School West Part Laheriasarai
+237	237 - Middle School, Near Balbhadrapur tank East Part
+238	238 - Middle School, Near Balbhadrapur tank west Part
+239	239 - Pashupalan Office and hospital, Laheriasarai, North Part
+240	240 - Pashupalan Office and hospital, Laheriasarai, South Part
+241	241 - Middle School Balbhdrapur N.P.Mishra Chowk ke Pass East Part
+242	242 - Middle School,Balbhadrapur near np mishra chock South Part
+243	243 - Mahip narayan Middle School, Navtoliya, North Part
+244	244 - Mahip narayan Middle School, Navtoliya, West Part
+245	245 - Purwanchal High School Navtoliya, East Part
+246	246 - Purwanchal High School Navtoliya, West Part
+247	247 - Vyapar Mandal, kabilpur, West Part
+248	248 - Vyapar Mandal, kabilpur, East part
+249	249 - eekh padhakari ka karyalayal, kabilpur, East Part
+250	250 - Pashupalan Office and hospital, Laheriasarai, North Part
+251	251 - Aadarsh Middle School, Laheriasarai, North Part
+252	252 - Aadarsh Middle School, Laheriasarai, South Part
+253	253 - Middle School, Khajasarai, North Part
+254	254 - Middle School, Khajasarai, South Part
+255	255 - Samudayik Bhawan, Pandasarai, brahamasthan ke picche
+256	256 - Samudayik Bhawan, Pandasarai, brahamasthan ke picche Pachgachhiya
+257	257 - Middle School, Pandasarai
+258	258 - samudayik bhavn panda sary pach gachhiya

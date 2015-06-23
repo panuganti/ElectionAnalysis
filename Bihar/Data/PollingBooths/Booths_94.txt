@@ -1,0 +1,275 @@
+1	1 - Muzaffarpur Institue Of Technology Brahampura, Purwi Bhag
+2	2 - Muzaffarpur Institute Of Tecnalogy Brahmapura Madhya Bhag
+3	3 - Muzaffarpur Institute Of Technalogy, Brahmapura Pashchimi Bhag
+4	4 - Yantrik Karyalay, Rashtiy Uchcha Path Pariyojana Lok Nirman Vibhag Muzaffarpur Sikandarapur Kundal Pachhmi Bhag
+5	5 - Yantrik Karyalay, Rashtiy Uchcha Path Pariyojana Lok Nirman Vibhag Muzaffarpur Sikandarapur Kundal Purwi Bhag
+6	6 - Ratri Pathashala, Brahmapura Dayo Bhag
+7	7 - Ratri Pathashala Brahmapura, Bonya Bhag
+8	8 - Anirudda Lal Keshari Mitra Pustakalayh Brahampura Uttar Bhag
+9	9 - Anirudda Lal Keshari Mitra Pustakalayh Brahampura Dakshin Bhag
+10	10 - Hira Balika Uchcha Vidhyalay, Brahmapura Sanjay Tokij Ke Pichhe Utar Bhag
+11	11 - Ashiyan Pablik Skul, Brahmpura, Purab Bhag
+12	12 - Eshiyan Pablik Skul, Brahampura Pashchim Bhag
+13	13 - Madhya Vidhyalay,Laxmi Chowk Brahmapura, Uttar Bhag
+14	14 - Madhya Vidhyalay, Laxmi Chowk Brahmapura  Dakshin Bhag
+15	15 - Madhya Vidhyalay, Daudapur,Muzaffarpur Uttar Bhag
+16	16 - Madhya Vidhyalay, Daudapur Muzaffarpur, Dakshin Bhag
+17	17 - Madhya Vidhyalay, Daudapur Muzaffarpur, Purab Bhag
+18	18 - Rajkiy Madhya Vidhyalay, Railway Colony, Brahmapura, Daya Bhag
+19	19 - Madhya Vidhyalay Balak, Brahmapura Naka
+20	20 - Madhya Vidhyalay, Juran Chhapra, Muzaffarpur(Dakshin Bhag)
+21	21 - Madhya Vidhyalay Juran Chhapra Mazaffarpur Uttar Bhag
+22	22 - Madhya Vidhyalay, Juran Chhapra Ke Uttar Ka Bhawan Me Paschimi Bhag
+23	23 - Madhya Vidhyalay, Juran Chhapra Ke Uttar Bhawan Me Purab Bhag
+24	24 - Rajkiyakrit Balika Uchcha Vidhyalaya Juran Chharpra Uttar Bhag
+25	25 - Rajkiyakrit Balika Uchcha Vidhyalaya Juran Chharpra Dakshin Bhag  Bhag
+26	26 - Sima Shulka Karyalya, Imalichatati Ovarabrij, Purab Bhag
+27	27 - Sima Shulka Karyalya, Imalichatti Ovarabrij, Paschim  Bhag
+28	28 - Arabi collage, Brahmapura, Uttar Bhag
+29	29 - Arabi Kolej, Brahmapura, Dakshin Bhag
+30	30 - up nideshak Tirhut pramandal Pashupalan Vibhag ka karyalay Brahmpura bibi ganj, uttari Bhag
+31	31 - Up nideshak tirhut Pramandal Pashupalan Vibhag ka karyalay, Brahmpura Bibi Ganj, Paschim Bhag
+32	32 - Up nideshak tirhut Pramandal Pashupalan Vibhag ka karyalay, Brahmpura Bibi Ganj, Dakshin Bhag
+33	33 - Up Nideshak Tirhut Parmandal Pashupalan vibhag ka kayalay, Brahampura, Bibiganj, Madhya Bhag
+34	34 - Vidhut Vibhag, Madipur, Parisadan Rod
+35	35 - Madarsa Tegiya Anwarul Ulum Chhapra Lodi Maripur
+36	36 - Rajakiya Chitraguptapuri Madhya Vidhyalay, Madipur
+37	37 - Niteshwar Madhya Vidhyalay, Madipur, Baya Bhag
+38	38 - Niteshwar Madhya Vidhyalay, Madipur, Daya Bhag
+39	39 - Karyalay Sahayak Vidut Abhiyanta, Vidhut Karyalay Madipur, Baya Bhag
+40	40 - Karyalay Sahayak Vidhut Abhiyanta, Vidut Karyalay, Madipur, Daya Bhag
+41	41 - Karyalya Karyapalk Abhiyanta Lok Nirman Vibhag, Madipur, Pashchim Bhag
+42	42 - Karyalya Karyapalk Abhinyata Lok Nirman Vibhag, Madipur, Purwi Bhag
+43	43 - Adhikshak Abhiyanta ka karyalay Rastriya uch path anchal maripur,pachami Bhag
+44	44 - Adhikshan Abhiyanta ka karyalay Rastriya uch path Anchal Maripur,Purvi Bhag
+45	45 - Dun Public School, Lelin Chowk
+46	46 - Prabhat tara School, Chakkar Maidan
+47	47 - Railway Prashikshan Borad, Batalar Ke Pass
+48	48 - Madhya Vidhyalay, Saraiyaganj, Baink Rod Saraiyaganj, Uttar Bhag
+49	49 - Madhya Vidhyalay, Saraiyaganj, Baink Rod Saraiyaganj, Dakshin Bhag
+50	50 - Kshetriy Prashikshan Mahavidhyalay, An E Relave Kampanibag, Karabala, Saraiyaganj,Uttar Bhag
+51	51 - Kshetriy Prashikshan Mahavidyalay, En E Relave, Kampanibag, Karabala, Saraiyaganj,Dakshin Bhag
+52	52 - En E Railway Ka Manoranjan Bhavan, Relave Station Ke Dakshin,Muzaffarpur
+53	53 - Samudayak Bhawan, Ambedakar Nagar, Sikandarpur, Purwi Bhag
+54	54 - Samudayak Bhawan, Ambedakar Nagar, Sikandarpur, Madhya Bhag
+55	55 - Sikandarpur Stediyam, Kaimra Na. - 11
+56	56 - Sikandarpur Stediyam Kaimra Na. - 17
+57	57 - Sikandarpur Stediyam, Kamara Na. - 5
+58	58 - Dakghar, Prabhat Jarda Faikatri, Akharaghat, Sinkandarapur, Daya Bhag
+59	59 - Dakghar, Prabhat Jarda Faikatri, Akhadaghat,Sikandarpur, Baya Bhag
+60	60 - Radha Devi Uchcha Vidhalay, Sikandarpur, Daya Bhag
+61	61 - Radha Devi Uchcha Vidhalay, Sikandarpur, Bayo Bhag
+62	62 - Samudayak Bhavan, Akharaghat, Balughat,Uttar  Bhag
+63	63 - Samudayak Bhavan, Akharaghat, Balughat,dkshini Bhag
+64	64 - Rajnarayan Singh Collage,Balughat,Purab Bhag
+65	65 - Rajanrayan Singh Collage,Balughat,Pashchim Bhag
+66	66 - Rajnarayan Singh Collage,Balughat,Uttar Bhag
+67	67 - Rajanarayan Singh collage,Balughat,Dakshin Bhag
+68	68 - Marawari Uchcha Vidhyalay, Chandawara, Pashchim Bhag
+69	69 - Marwari Uchcha Vidhyalay,Chandawara, Uttar Bhag
+70	70 - Marwari Uchcha Vidhyalay, Chandavara, Dakshin Bhag
+71	71 - Marawari Uchcha Vidhyalay, Chandavara, Purab Bhag
+72	72 - Mahila Prathamik Shikshak Prashikshan, Chandavara
+73	73 - Radha krishna Kediya Balika Uchcha Vidhyalay, Balughat,Paschim Bhag
+74	74 - Radha krishna Kediya Balika Uchcha Vidhyalay, Balughat, Pashchim Madhya Bhag
+75	75 - Radha krishna Kediya Balika Uchcha Vidyalay, Balughat,Purab Bhag
+76	76 - J D Madar Intarnation school, Akharaghat Rod, Muzaffarpur, Tunaki Shah Dharmashala
+77	77 - Mahila Shilp Kala Bhawan, Chandawara,Purab Bhag
+78	78 - Mahila Shilpa Kala Bhawan, Chandawara, Pashchim Bhag
+79	79 - Mahila Shilpa Kala Bhawan, Chandavara Madhya Bhag
+80	80 - Madhya Vidhyalay, Mahila Shilpakala Bhavan,Chandavara
+81	81 - Gondhi Pustakalay, Gola Rod, Najirapur,  Pashchimi Bhag
+82	82 - Gondhi Pustakalay, Gola Rod, Najirapur, Purab Bhag
+83	83 - Vanijya Mahavidyalay,Ramabhajan Sah Market  Gola Rod, Najirapur, Dakshin Bhag
+84	84 - Vanijya Mahavidyalay, Ramabhajan Shah Market, Gola Rod, Najirapur, Uttar Bhag
+85	85 - Vanijya Mahavidyalay, Ramabhajan Shah Market, Gola Rod ,Najirapur, Madhya Bhag
+86	86 - Madhya Vidhyalay, Mahavir Sthan, Gola Rod
+87	87 - Adarsh Vidhya Mandir, Baink Rod Uttar Bhag
+88	88 - Adarsh Vidhya Mandir Banck Raod Dakshin Bhag
+89	89 - Madavari Dharmashala, Sutapatati,Purwi Bhag
+90	90 - Madavari Dharmashala, Sutapatati,Pashchim Bhag
+91	91 - Adarsh Vidhya Mandir, Saraiyaganj,Dakshin Bhag
+92	92 - Adarsh Vidhya Mandir, Saraiyaganj, Uttar Bhag
+93	93 - Adarsh Vidhya Mandir, Saraiyaganj, Paschim Bhag
+94	94 - Anganavari Kendra ,Durga Sthan, Gola Rod
+95	95 - Dwarikanath Uchcha Vidhyalay, Gola Rod Purwi Bhag
+96	96 - Dwarika Nath Uchcha Vidyalay, Gola Road, Pashchim Bhag
+97	97 - Indra Daman Madhya Vidyalay, Brahamnatoli Ke Prangan Me Chalit Matadan Kendra,Purwi Bhag Khata No.-402,Khesara No.-436 K. Kha Rakwa-0.0535he.
+98	98 - Indra Daman Madhya Vidhyalay, Brahmanatoli Ke Prangan Me Chalit Matadan Kendra,Pashchim Bhag  Khata No.-402,Khesara No.-436 K. Kha Rakwa-0.0535he.
+99	99 - Marwari Madhay Vidhalay Shahu Road Uttar Bhag
+100	100 - Marwari Madhay Vidhalay Shahu Road Dakshin Bhag
+101	101 - Rastriya BijNigam Ka Karyalay, Radhuvansh Rod
+102	102 - Children Park, Sahu Rod, Chalanta Matadan Kendra Khata No.-390 Khesara No.-345,346 Rakwa-0.0425 He.
+103	103 - Ramesh Rani Agwal Balika Uchcha Vidhyalay Raguvansh Raod  Raod
+104	104 - Madhya Vidhyalay, Gokhalepuri, Islamapur
+105	105 - Vidhut Karyalay, Tilak Maidan Rod
+106	106 - B B Collagiat School, Motijhil,Purab Bhag
+107	107 - B B Collagiat School, Motijhil, Paschim Bhag
+108	108 - Dr. Ram Manohar Lohiya Smarak Collage,Divan Road, Uttar Bhag
+109	109 - Dra. Ram Manohar Lohiya Smarak Collage, Divan Road,Madhya Bhag
+110	110 - Dra. Ram Manohar Lohiya Smarak Collage,Diwan Road,Dakshin Bhag
+111	111 - Dr. Ram Manohar Lohiya Smarak collage, Diwan Rod, Purwi Bhag
+112	112 - Dr. Ram Manohar Lohiya Smarak collage, Diwan Road,Pashchim Bhag
+113	113 - Todal School, Purani Dharmashala, Motizil
+114	114 - Gorwarament Politekanik, Shyam Nandan Road,Naya Tola,Purab  Bhag
+115	115 - Gorwarament Poltechnik, Shyam Nandan Road,Naya Tola Paschim Bhag
+116	116 - Shatrudhan Devi Kanchan Devi Kanya Madhya Vidyalay, Chandralok Chauk, Naya Tola
+117	117 - Rajkiya urdu Prathmik Vidhalay saray saiyad alli nagar kshetra
+118	118 - Saray Saiyad Ali Balika Uchcha Vidalay Damuchak Purab Bhag
+119	119 - Saray saiyad alli Balika ucha Vidhalay damuchak pachim bhag
+120	120 - Makatab Chauk Abdul Vahid, Mazauliya, Purwi Bhag
+121	121 - Makatab Chak Abdul Vahid, Mazauliya, Pashchim Bhag
+122	122 - Karkhana Nirikshak Ka Karyalay, Mazauliya Rod
+123	123 - Avakari Godam, Damuchak, Purab Bhag
+124	124 - Abakari Godam, Damuchak,Paschim Bhag
+125	125 - Zila Shiksha Nirikshaka Ka Karyalay,Damuchak
+126	126 - Karyalay Mukhya Abhiyanta Sinchai,Dakshin Bhag,Kalambag Road
+127	127 - Audyogik Prakshigan Sansthan, Gannipur
+128	128 - s. Ke. Je Law Collage, Gannipur,Purwi Bhag
+129	129 - S. K. J.Law. collage, Gannipur,Madhya Bhag
+130	130 - S.K.J. Law.collage, Gannipur,Pashchim Bhag
+131	131 - Tirahut akedami, Aghoriya Bajar Chauk, Purab Bhag
+132	132 - Tirahut akedemi, Aghoriya Bajar Chauk, Uttar Bhag
+133	133 - Tirahut akedami, Aghoriya Bajar Chauk, Pashchim Bhag
+134	134 - Bhartiya Jeevan Bima nigam si.a.b.shakha hotal Ambedkar prisar kalambag Road muzaffarpur Uttar bhag
+135	135 - Bhartiya Jeevan Bima nigam si.a.b.shakha hotal Ambedkar prisar kalambag Road muzaffarpur dakshani bhag
+136	136 - Bhartiya Jeevan Bima nigam si.a.b.shakha hotal Ambedkar prisar kalambag Road muzaffarpur Purv bhag
+137	137 - Bhartiya jeevan Bima nigam si.a.b.shakha hotal Ambedkar prisar kalambag Road muzaffapur paschim Bhag
+138	138 - Shram Niyojan Ev Prashikshan Vibhag,Karmachari Rajya Bima Chikitsalay, Mujafafarapur,Pankha Toli,Pur
+139	139 - Shram Niyojan Ev Prashikshan Vibhag,Karmachari Rajya Bima Chikitsalay,Mujafafarapur,Pankha Toli,Paschim Bhag
+140	140 - Madhya Vidhyalay, Amagola Pankha Toli,Purab Bhag
+141	141 - Madhya Vidhyalay, Amagola Pankha Toli, Pschin Bhag
+142	142 - Matasya Palan Vibhag, Amagola,Dakshin Bhag,Satapura
+143	143 - Matasya Palan Vibhag, Amagola, Uttar Bhag,
+144	144 - Rajkiya Madhya Vidhyalay Balak Sadpura Urdu Paschim Bhag
+145	145 - Rajkiya Madhya Vidhyalay Balak Sadpura Urdu Paschim Madhya Bhag
+146	146 - Mukharji Seminari Harisabha
+147	147 - Rajkiya Kanya Madhya Vidhyalay, Kalab Road
+148	148 - Nitishwar Mahavidhalay, Kalab Road
+149	149 - Madhya Vidhyalay, Harisabha
+150	150 - Nagarapalika Warkashop,  Bahalakhana,Kanhauli Dakshin Bhag
+151	151 - Nagarapalika Varkashop, Bahalakhana Kanhauli, Uttar Bhag
+152	152 - Nagarapalika Warkashop, Bahalakhana Kanhauli, Madhya Bhag
+153	153 - Chaturbhuj Ram Memoriyal Trasat, Sahu Rod, Purab Bhag
+154	154 - Chaturbhuj Ram Memoriyal Trasat, Sahu Rod, Pashchim Bhag
+155	155 - Chaturbhuj Ram Memoriyal Trasat, Sahu Rod Uttar Bhag
+156	156 - Thok Vastra Vikreta, Atithi Bhawan, Shukla Road, Dakshini Bhag
+157	157 - Madarsa Bibi Sogara Data Kambal Shah Mazar Muslim Club Road
+158	158 - Thok Vastra Vikreta, Atithi Bhawan Shukla Road, Uttar Bhag
+159	159 - Eslamiya Digri Kolej, Pakki Saray
+160	160 - Pani Tanki Karyalay, Jel Rod, Chandwara,Purab Bhag
+161	161 - Pani Tanki Karyalay, Jel Rod, Chandavara,Pashchim Bhag
+162	162 - Rajkiya Prathamik Vidhyalay Chaturbhuj Sthan Nagar (1) Pakki Sarai Purab Bhag
+163	163 - Rajkiya Prathamik Vidhyalay Chaturbhuj Sthan Nagar (1) Pakki Sarai Paschim Bhag
+164	164 - Madarasa Jame Ul Ulum,Chanwara
+165	165 - Urdu Balika Uchcha Vidhyalay,Chandavara, Pakki Saray
+166	166 - Agni Shamak Karyalay, Nawav Road, Chandawara, Uttar Bhag
+167	167 - Agni Shamak Karyalay, Nawab Road, Chandwara, Dakshin Bhag
+168	168 - Mukarri Madhya Vidhyalay, Chandwara, Uttar Bhag
+169	169 - Mukarri Madhya  Vidhyalay, Chandwara, Dakshin Bhag
+170	170 - Pani Kal Compound Jal Kary Vibhag Chandwara, Purab Bhag
+171	171 - Pani Kal Kampaund, Jal Kary Vibhag, Chandwara,Ke Prangan Me Chalant Matdan Kendra Paschim Bhag Khata No.-601,Khesara No.-854 K,Kh, Rakwa-0.0400 He0
+172	172 - Pani Kal Kampaund, Jal Kary Vibhag, Chandwara,Ke Prangan Me Chalant Matdan Kendra Uttar Bhag Khata No.-601,Khesara No.-854 K,Kh, Rakwa-0.0400 He0
+173	173 - Pani Kal Kampaund, Jal Kary Vibhag, Chandwara,Ke Prangan Me Chalant Matdan Kendra Dakshin Bhag Khata No.-601,Khesara No.-854 K,Kh, Rakwa-0.0400 He0
+174	174 - Madhya Vidhyalay, Malighat
+175	175 - Tulasi Madhya Vidhyalay, Kalibari Road, Malighat
+176	176 - Aweda Uchcha Vidhyalay, Tinkothiya Chandwara Purab Bhag
+177	177 - Aweda Uchcha Vidhyalay, Tinkothiya ChandwaraPaschim Bhag
+178	178 - F.C.I. Kalibadi Rod, Kanhauli Ke Prangan Me Chalant Matdan Kendra Uttar Bhag Khata No.-34, Khesara No.-135,136, Rakwa-0.2090 He.
+179	179 - F.C.I., Kalibadi Rod, Kanhauli Ke Pragan Me Chalant Matdan Kendra Dakshin Bhag  Khata No.-34, Khesara No.-135,136, Rakwa-0.2090 He.
+180	180 - F.C.I., Kalibadi Rod, Kanhauli Ke Pragan Me Chalant Matdan Kendra Paschim Bhag  Khata No.-34, Khesara No.-135,136, Rakwa-0.2090 He.
+181	181 - F.C.I., Kalibadi Road, Kanhauli Ke Pragan Me Chalant Matdan Kendra Purab Bhag  Khata No.-34, Khesara No.-135,136, Rakwa-0.2090 He.
+182	182 - Karyalay Mukhya Abhiyanta, Sichai Vibhag, Ram Bag Road,Uttar Bhag
+183	183 - Karyalay Mukhya Abhinyanta, Sinchai Vibhag, Ram Bag Road Dakshin Bhag
+184	184 - Karyalay Chhetriy Up-Nideshak, Swasthya Sewa, V. Pra. Muzaffarpur Kanhauli
+185	185 - Kanhauli Prathamik Vidhyalay, Ramabag
+186	186 - Mahila Prathamik Shikshak Prashikshan Mahavidyalay, Rambag
+187	187 - Zila School, Ramna
+188	188 - Ladhu Udhog Sewa Sansthan, Gausala Road, Mithanpura Utar Bhag
+189	189 - Ladhu Udhog Sewa Sansthan, Gosala Road,Mithanpura Dakshin Bhag
+190	190 - Ladhu Udhog Sewa Sansthan, Gosala Road,Mithanapura, Dakshin Madhya Bhag,
+191	191 - Baba Saheb Bhim Rav Ambedakar Ratri Pathsala, Mithanpura Purab Bhag
+192	192 - Baba Saheb Bhim Rav Ambedakar Ratri Pathsala, Mithanapura Paschim Bhag
+193	193 - Mahantha Sukhadev Das Uchcha Vidhyalay, Rambag
+194	194 - Sanskrit collage, Rambag Kanhauli, Utar Bhag
+195	195 - Sanskrit Collage Rambag Kanhauli, Purav Bhag
+196	196 - Sanskrit Collage, Rambag Kanhauli, Dakshin Bhag
+197	197 - Sanskrit Collej, Ramabag Kanhauli,Pachhim Bhag
+198	198 - Madhya Vidhyalay Nai Talim,Kanhauli,Khadi Bhandar Uttar Bhag
+199	199 - Madhya Vidhyalay Nai Talim,Kanhauli,Khadi Bhandar Purab Bhag
+200	200 - Madhya Vidhyalay  Nai Talim, Kanhauli,Khadi Bhandar Pashchimi Bhag
+201	201 - Madhya Vidhyalay Nai Talim, Kanhauli,Khadi Bhandar  Dakshin  Bhag
+202	202 - Nitishawar Aruvedik Collage, A N M Terenig School, BavanBidha Kanhauli Vishundatta, Pashchami Bhag
+203	203 - Nitishawar Aruvedik Collage, A.N.M. Trenig School, Bavanbidha Kanhauli Vishundatta, Purav Bhag
+204	204 - Niteshawar Aruvedik Collage, A.N.M Trening School, Bawan Bidha Kanhauli Vishundatta, Uttar Bhag
+205	205 - Niteshawar Ayruvedik Collage, A.N.M Trening School, Bawan Bidha Kanhauli Vishundatta,Dakshin Bhag
+206	206 - Prathamik Vidhyalay,Kanhauli Vishundatta, Ajarkave Math
+207	207 - Madhya Vidhyalay, Mithanpura, Dakshin Bhag
+208	208 - Madhya Vidhyalay, Mithanpura, Purab Bhag
+209	209 - Madhay Vidhalaya Mithanpura,Uttar Bhag
+210	210 - Sanyuakt Krishi Nideshak Ka Karyalay, Mithanpura, Muzaffarpur Daya Bhag
+211	211 - Sanyuakt Krishi Nideshak Ka Karyalay, Mithanpura,Muzaffarpur Baya Bhag
+212	212 - Madhya Vidhyalay, Sadapur,Urdu Kanya Purab Bhag
+213	213 - Madhya Vidhyalay, Sadpura,Urdu Kanya Purab Madhya Bhag
+214	214 - Madhya Vidhyalay ,Sadpura,Urdu Kanya Paschim Madhya Bhag
+215	215 - Madhya Vidyalay,Sadpura, Urdu Kanya Paschim Bhag
+216	216 - Madhya Vidhyalay Sadpura Urdu Balak Bhag
+217	217 - Oriyanat Club, Amgola, Uttar Bhag
+218	218 - Oriyanat Club , Amgola, Dakshin Bhag
+219	219 - Oriyanat Club Ke Prangan Me Chalit Matdan Kendra, Daya Bhag Khata No.-621,Khesara No.-177, K, Rakwa-101224 He.
+220	220 - Oriyanat Club Ke Prangan me Chalit Matdan Kendra, Baya Bhag Khata No.-621,Khesara No.-177, K, Rakwa-1.01224 He.
+221	221 - Ray Bahadur Tunaki Sah Homiyopaithik Mahavidhalay,Ramadyalu nagar,Uttar Bhag
+222	222 - Prathamik Vidhyalay,Ataradah,Uttar Bhag
+223	223 - Prathamik Vidhyalay, Ataradah, Dakshin Bhag
+224	224 - Prathamik Vidhyalay, Ataradah, Madhya Bhag
+225	225 - Karyalay Karypalak Aviyanta Gandak Project, Tirahut Pramandal,Sadpura, Pashchim Bhag
+226	226 - Karyalay Karyapalak Aviyanta Gandak Project, Tirahut Pramandal,Sadpura,Purab Bhag
+227	227 - Sichayi Vibhag Ka Nirikshan  Bhawan Jenith Petrol Pamp Ke Samne Aghoriya Bazaar
+228	228 - Mushahar Vidhyalay, Milki Tola, Sadpura,Uttar Bhag
+229	229 - Mushahar Vidhyalay, Milki Tola, Sadpura,Dakshin Bhag
+230	230 - Madhay Vidhalay Mithanpura Urdu
+231	231 - Samaj Bhawan, Bela Chhapara,
+232	232 - Rajkiya Prathamik Vidhyalay Bela
+233	233 - Uttar Bihar Adhoyagik Kshetra Vikas Karyalay, Bela Purab Bhag
+234	234 - Uttar Bihar Adhyagik Ksheta Vikas Karyalay Bela Paschim Bhag
+235	235 - Vaishali Rural Bijanes Mainejamennta Coolage, Mithanpura Lal, Purab Bhag
+236	236 - Vaishali Rural Bijanes Mainejamenta Collage,Mithanpura Lala,Paschim Bhag
+237	237 - Uttkramit Madhyalay Kanhauli Azarkbe Rajput Tola
+238	238 - Prathamik Vidhyalay, Patahi Rup
+239	239 - Balak Madhya Vidhyalay, Patahi
+240	240 - Balika Madhya Vidhyalay, Patahi
+241	241 - Prathamik Vidhyalay, Narayanpur, Patahi
+242	242 - Prathamik Vidhyalay, Nayatola Patahi,  Lahladpur
+243	243 - Prathamik Vidhyalay, Methurapur
+244	244 - Uttkramit Madhya Vidhyalay,Bhagwanpur, Uttar Bhag
+245	245 - Uttkramit Madhya Vidhyalay, Bhagwanpur, Dakshin Bhag
+246	246 - Mukhya Abhiyanta Ka Karyalya, Vidhut Apurti Vibhag, Bhagwanpur, Purab Bhag
+247	247 - Mukhya Abhiyanta Ka Karyalay, Vidhut Apurti Vibhag,Bhagwanpur,Pashchim Bhag
+248	248 - Mukhya Abhiyanta Ka Karyalya, Vidhut Apurti Vibhag,Bhagwanpur,Paschim Madhay Bhag
+249	249 - Prathamik Vidhyalya,Yadav Tola,Pashchim Bhag
+250	250 - Prathamik Vidhyalay, Yadav Tola, Paschim Bhag
+251	251 - Prathamik Vidhyalay,Yadav Tola,Purab Bhag
+252	252 - Prathamik Vidhyalay Yadav Tola Prangan
+253	253 - Panchayat Bhavan, Bhagwanpur, Uttar Bhag
+254	254 - Panchayat Bhawan, Bhagwanpur, Madhya Bhag
+255	255 - Uttakramit Madhya Vidhyalya,Bhagwanpur Ke Parisar Me,C.R.C.Bhawan,Bhagwanpur,Uttar Bhag
+256	256 - Uttkramit Madhya Vidhyalay Bhagwanpur Ke Parisar me C. R. C.Bhawan Bhagwanpur Uttar Madhya Bhag
+257	257 - Uttkramit Madhya Vidyalay,Bhagwanpur Ke Parisar Me C.R.C.Bhawan, Bhagwanpur, Dakshin  Bhag
+258	258 - Karypalak Abhiyanta Muzaffarpur,Pashchim Vidhut Apurti Vibhag,Bhagwanpur,Daya Bhag
+259	259 - Prathamik Vidhyalay, Madhubani
+260	260 - Uttkramit Madhya Vidhyalay Chausima, Uttar Bhag
+261	261 - Uttkramit Madhya Vidhyalay, Chausima, Dakshin Bhag
+262	262 - Uttkramit Madhya Vidhyalay Chausima Dakshin Madhya Bhag
+263	263 - Madhya Vidhyalay , Madapur
+264	264 - Madhya Vidhyalay , Pakari Ismail Uttar Bhag
+265	265 - Madhya Vidhyalay , Pakari Ismail Dakshin Bhag
+266	266 - Prathamik Vidhyalya,Gobrasahi,Uttar Bhag
+267	267 - Prathamik Vidhyalya,Gobrashi,Madhya Bhag
+268	268 - Prathamik Vidhyalay, Gobarashi, Dakshin Bhag
+269	269 - Prathamik Vidhyalay, Dumari, Purwi Bhag
+270	270 - Prathamik Vidhyalay, Dumari, Pashchimi Bhag
+271	271 - Madhya Vidhyalay, Mazauliya, Uttar Bhag
+272	272 - Madhya Vidhyalay Majhauliya Prangan
+273	273 - Mahesh Prasad Singh Science Coolage Majhauliya, Muzaffarpur, Daya Bhag
+274	274 - Madhya Vidhyalay, Mazauliya,Madhya Dakshin Bhag
+275	275 - Mahesh Prasad Singh Science Coolage Majhauliya, Muzaffarpur, Baya Bhag

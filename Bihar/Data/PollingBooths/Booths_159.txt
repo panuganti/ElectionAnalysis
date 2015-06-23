@@ -1,0 +1,281 @@
+1	1 - Sarswati Pustkalaya, Chatmadih
+2	2 - Upgraded Middle School, Kurma, Dharmpur
+3	3 - Primary School, Chatmabajar
+4	4 - Middle School, Banshipur
+5	5 - Rajkiya Buniyadi Middle School, Garhikurma
+6	6 - Primary School, Kurmadih
+7	7 - Giral Primary School Kurmadih
+8	8 - Primary School, Saguni
+9	9 - Upgraded Middle School Kaitha (Left Wing)
+10	10 - Upgraded Middle School, Kaitha (Right Wing)
+11	11 - Primary School, Gidhoura(Right Wing)
+12	12 - Primary School, Gidhoura(Left Wing)
+13	13 - Middle School, Birnoudha
+14	14 - Primary School, Sahdeopur
+15	15 - Upgraded Middle School,Kamardih
+16	16 - Upgraded Middle School, Kunnath
+17	17 - Middle School Sewa Gram Mohanpur East Wing
+18	18 - Middle School, Seva Gram Mohanpur West Wing
+19	19 - pramiry School, Kiranpur
+20	20 - Middle School, Padariya(Right Wing)
+21	21 - Middle School, Padariya(Left Wing)
+22	22 - Upgraded Middle School, Kamatpur
+23	23 - Pronnat Madhya Vidhlaya kamatpur (left side )
+24	24 - Upgraded Middlel, School Ghoshpur
+25	25 - Upgraded Middle School, Kuntha
+26	26 - Upgraded Middle School, Warshabad(North wing)
+27	27 - Upgraded Middle School, Warshabad(South wing)
+28	28 - pramiry School, Manjhgayn
+29	29 - Primary School, Khangah
+30	30 - Upgraded Middle School, Belsira
+31	31 - Primary School, Jagtapur
+32	32 - Upgraded Middle School, Mahisota
+33	33 - Middle School, Kaswa(Right)
+34	34 - Middle School, Kaswa(Left)
+35	35 - High School, Kaswa(East)
+36	36 - High School, Kaswa(West)
+37	37 - Middle School, Mirzapur
+38	38 - middle school mirjapur(left side)
+39	39 - Primary School, Urdu Jogni
+40	40 - Upgraded Middle  School, Sondiha
+41	41 - prathamik  School, Lalwamod
+42	42 - Primary School, Rangania
+43	43 - Upgraded Middle  School, Chandela
+44	44 - Upgraded Middle  School, Daka
+45	45 - High School, Shambhuganj
+46	46 - Upgraded Middle , Karnpur
+47	47 - Primary School, Kehnichak
+48	48 - Middle School, Shambhuganj (North)
+49	49 - Middle School, Shambhuganj (Middle)
+50	50 - Middle School, Shambhuganj (South)
+51	51 - Primary School, Rudpay
+52	52 - Primary School, Patwara
+53	53 - Primary School, Goyra
+54	54 - Middle School, Ramchua (North)
+55	55 - Middle School, Ramchua(South)
+56	56 - Primary School, Khajuri(Right)
+57	57 - Primary School, Khajuri(Left)
+58	58 - Primary School, Goyra Tola Mahadeopur
+59	59 - Middle School, Chatrahar (East)
+60	60 - Community hall Dhanihar
+61	61 - Middle School, Chatrahar (West)
+62	62 - Middle School, Haribanspur
+63	63 - Primary School, Malda
+64	64 - Primary School, Jhakhra(Right)
+65	65 - Primary School, Jhakhra(Left)
+66	66 - Primary School, KadraChak
+67	67 - High School, PratapPur
+68	68 - Upgraded Middle School, Meharpur (Right wing)
+69	69 - Upgraded Middle School, Meharpur (Right wing)
+70	70 - Urdu Middle School, Belariwest (South wing)
+71	71 - Urdu Middle School, Belari West (North wing)
+72	72 - Urdu Middle School, Belari west ( Right wing)
+73	73 - samudik bhavan mahuthidih
+74	74 - Urdu Middle School, Belari west (Left wing)
+75	75 - Hindi Middle School, Belari
+76	76 - Rajkiya Middle School, Urdu Makhtab Chutiya  (East wing)
+77	77 - Rajkiya Middle School, Urdu MakhtabChutiya  (West wing)
+78	78 - Rajkiya Middle School, Urdu MakhtabChutiya(Middle wing)
+79	79 - Primary School, Rampur Darhi
+80	80 - Adarsh Pustkalay Pakariya
+81	81 - Primary School, Pakariya
+82	82 - Primary School, Choutra
+83	83 - Primary School, Narayanpur
+84	84 - Panchayat Bhawan Bishanpur
+85	85 - Rajkiya Buniyadi Middle School, Gulni Kushaha(South)
+86	86 - Rajkiya Buniyadi Middle School, Gulni Kushaha(North)
+87	87 - Pramiry Girl School Kushaha
+88	88 - High School, Gulni Kushaha
+89	89 - Primary SchoolDayaldih
+90	90 - Primary School, Narsandi
+91	91 - Primary School, Pahri
+92	92 - Upgraded Middle School, Baidpur (South)
+93	93 - Upgraded Middle School, Baidpur (North)
+94	94 - Upgraded School, Silouta
+95	95 - Upgraded Middle  School, Manjhgayn
+96	96 - Upgraded Middle School, Bela
+97	97 - Upgraded Middle School, Bhalua
+98	98 - Middle School, Poukri(North)
+99	99 - Middle School, Poukri(South)
+100	100 - Primary School, Yogibagha
+101	101 - Primary School, Harijan Tola Bagha
+102	102 - Middle School, Lakha
+103	103 - Middle School, Basbitta
+104	104 - Upgraded Middle School, Garhi Mohanpur
+105	105 - middle  School, Rajghat Tithi
+106	106 - Upgraded Middle School, Bandhudih
+107	107 - Panchayat Bhawan Parmanandpur
+108	108 - Primary School, Bhumihara
+109	109 - Middle School, Paidapur
+110	110 - Girls Middle School, Pokhar Asauta
+111	111 - Upgraded Girls Middle School, Asauta nagel right wing
+112	112 - Middle School, Bhatshila
+113	113 - Upgraded Middle  School, Chhoti Bhatshila
+114	114 - Upgraded Middle School, Pipra
+115	115 - Primary School, Nijhri
+116	116 - Middle  School, Maldih (Right)
+117	117 - Primary School, Maldih (Left)
+118	118 - Primary School, Bhagwatchak
+119	119 - Middle School, Karanja(Right side)
+120	120 - Middle School karanja (Left side)
+121	121 - MiddleSchool, Baroutha
+122	122 - Middle School, Naroun
+123	123 - Upgraded Middle School Pansalla
+124	124 - Middle School, Kushmaha(East)
+125	125 - Middle School, Kushmaha(West)
+126	126 - Upgraded Middle School Mainma
+127	127 - Upgraded Middle School Pathki
+128	128 - Primary School, Parnathpur
+129	129 - Primary School, Bacchni
+130	130 - Upgraded Middle School Chandpur
+131	131 - Middle School Lougayan
+132	132 - Upgraded Middle School Chiraiya
+133	133 - Middle School, Bishwaspur
+134	134 - prathamik vidhalay dhimDa
+135	135 - High School, Lougayan
+136	136 - pramiry school Mansarpur
+137	137 - New Primary School Laxmipur Chatra
+138	138 - Middle School, Garibpur(Urdu) (North)
+139	139 - Middle School, Garibpur(Urdu) (South)
+140	140 - Upgraded Middle School Dumariya
+141	141 - Primary School, Sangarmpur Urdu
+142	142 - Upgraded Middle School Bikarmpur
+143	143 - Upgraded Middle School Kamdeopur asthith Hemrajpur Balak
+144	144 - Kanya Primary School, Hemrajpur
+145	145 - Primary School, Douna (Ha) (North)
+146	146 - Primary School, Douna (Ha) (South)
+147	147 - Upgraded Middle School Dauna Urdu
+148	148 - Upgraded Middle School Pabayee (North)
+149	149 - Upgraded Middle School Pabayee (South)
+150	150 - Upgraded Middle School Jankipur (North)
+151	151 - Upgraded Middle School Jankipur(South)
+152	152 - Primary School, Oray
+153	153 - Panchayat Bhawan Pabayee
+154	154 - Upgraded Middle School Bhikhanpur
+155	155 - Primary School, Khardauri
+156	156 - Primary School, Bhikhanpur North tola
+157	157 - Primary School, Satghara
+158	158 - Middle School Chapri
+159	159 - Upgraded Middle School, Badshahganj
+160	160 - Primary School, Datwati
+161	161 - Upgraded Middle School, Mahota
+162	162 - Primary School, Bindu Bishanpur
+163	163 - Upgraded Middle School Sultanpur (North)
+164	164 - Upgraded Middle School Sultanpur  (Middle)
+165	165 - Upgraded Middle School  Surihari
+166	166 - pramiry school bhattichak
+167	167 - Primary School, Balua
+168	168 - Upgraded Middle School Sultanpur (South)
+169	169 - New Primary School Hasanpur
+170	170 - Primary School, Govindpur
+171	171 - Upgraded Middle School  Baijudih
+172	172 - Samudayik Bhawan Kulhariya
+173	173 - Primary School, Kusumkhar
+174	174 - Middle School Kulhariya asthith Aminpur
+175	175 - Panchayat Bhawan Birma
+176	176 - Primary School  Koyindha
+177	177 - Primary School Nandlal Patti
+178	178 - Upgraded Middle School Gangapur
+179	179 - Upgraded Middle School Rajapur
+180	180 - Primary School, Khanjarpur
+181	181 - Middle School, Bhadariya (North)
+182	182 - Upgraded Middle  School, Lousa
+183	183 - Middle School, Bhadariya (South)
+184	184 - Upgraded Middle School Laxmipur
+185	185 - Primary School, Raghunathpur
+186	186 - Upgraded Middle School Tardih
+187	187 - Girls Middle  School, Galimpur
+188	188 - Pustakalaya Bhawan Tardih
+189	189 - Primary School, Jadulkhair
+190	190 - Primary School, Dumrama (South)
+191	191 - Primary School, Dumrama (North)
+192	192 - Girls Middle School, Dumrama (West)
+193	193 - pramiry school dumrama(left side)
+194	194 - Girls Middle School, Dumrama (East)
+195	195 - pramiry school dumrama (right side)
+196	196 - Tasij Kachahri Banhara
+197	197 - Primary School,Banhara
+198	198 - Banhara Tola Madarsa
+199	199 - Upgraded Middle School, Banahra
+200	200 - Primary School, Mahmadpur (East)
+201	201 - Primary School, Mahmadpur (West)
+202	202 - Upgraded Middle School, Bidanchak
+203	203 - Middle School, Amarpur Balak (East )
+204	204 - Middle School, Amarpur Balak (Middle)
+205	205 - Middle School, Amarpur Balak  (West)
+206	206 - New Primary School Bhaluar Babutola
+207	207 - Prathamik Vidhalay Bhaluar Harijan(Banya Bhag)
+208	208 - Prathmik Vidyalya Bhaluar  Harijan (Danya Bhag)
+209	209 - High School, Mahadeopur (North)
+210	210 - High School, Mahadeopur (South)
+211	211 - High School Mahadeopur (Middle)
+212	212 - Primary School, Barmasiya
+213	213 - Sanskrit High School, Mohdinagar
+214	214 - Upgraded Middle School Gopalpur
+215	215 - Primary School, Kajra
+216	216 - Pramiry  School, Ranikitta
+217	217 - Primary School, Bishanpur, Kothiya
+218	218 - High School, Athmaha
+219	219 - Primary School, Kashpur
+220	220 - Upgraded Middle Gorgama (North)
+221	221 - Primary School, Paharpur
+222	222 - Upgraded Middle Gorgama Gorgama (South)
+223	223 - New Primary School, Harijan Tola Gorgama
+224	224 - Middle School, Kolbujurg (East)
+225	225 - Middle School, Kolbujurg (West)
+226	226 - Upgraded Middle School, Nanayechak
+227	227 - Primary School, Sihuri (West)
+228	228 - Primary School, Sihuri (East)
+229	229 - Primary School, Khemichak
+230	230 - Middle School, Bishwambharchak
+231	231 - Primary School, Mouglanichak
+232	232 - High School, Salempur (North wing)
+233	233 - Madhya Bidhyalay Tetariya
+234	234 - High School, Salempur (South wing)
+235	235 - High School, Salempur (Middle wing)
+236	236 - Primary  School  Maldeochak
+237	237 - Upgarded Middle  School, Kalyanpur
+238	238 - rajkiya buniyadi school puranchak
+239	239 - Primary School, Dharmpur
+240	240 - Primary School, Mojahidpur
+241	241 - Primary School English Fatehpur
+242	242 - Upgarded Middle School Fatehpur(Right Side)
+243	243 - pronnat madhya vidyalay fatehpur(right side)
+244	244 - Primary School Naksosa
+245	245 - Middle School, Kathel, asthith Rampur
+246	246 - Pustakalay Bhawan Simarpur
+247	247 - Samudayik Bhawan Rampur Tola, Radhanagar
+248	248 - Upgraded Middle School, Urdu Katoriya (East)
+249	249 - Upgraded Middle School, Urdu Katoriya (West)
+250	250 - Upgraded Middle School, Sobhanpur (North)
+251	251 - Upgraded Middle School, Sobhanpur (South)
+252	252 - Primary School, Sobhanpur (Ha)
+253	253 - Upgraded Middle School Dhodra Janakpur
+254	254 - Middle School, Ballikita (West)
+255	255 - Middle School, Ballikita (East)
+256	256 - C.M.S. High School, Shahpur(North)
+257	257 - Primary School, Baidadih
+258	258 - C.M.S. High School, Shahpur(South Wing)
+259	259 - Upgraded Middle School, Ramchandrapur  Ithari
+260	260 - Primary School, Ramchandrapur  Ithari Harijan Tola
+261	261 - Upgraded Middle School, Rampur
+262	262 - Middle School, Bharko (East)
+263	263 - Middle School, Bharko (West)
+264	264 - Upgraded Middle  School, Baja
+265	265 - Primary School, Bharko
+266	266 - Primary School, Sahua
+267	267 - Upgraded Middle School, Mahgama
+268	268 - Primary School Khaira
+269	269 - Upgraded Middle School, Bhimsain
+270	270 - Primary School, Kumhara
+271	271 - Primary School, Ratanpur Makduma (North)
+272	272 - Primary School, Ratanpur Makduma (South)
+273	273 - Primary School, Chathara
+274	274 - Upgraded Middle School, Bishanpur Madachak
+275	275 - prathmik vidyalaiya dhoda gauripur
+276	276 - Upgraded Middle School Jamua East tola
+277	277 - Primary School, Manjhgayan
+278	278 - Upgraded Middle School, Rajpur
+279	279 - New Primary School Ramnagar
+280	280 - Primary School, Dubouni
+281	281 - Primary School, Kajhiya

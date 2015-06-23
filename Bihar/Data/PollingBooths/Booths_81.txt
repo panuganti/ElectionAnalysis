@@ -1,0 +1,212 @@
+1	1 - Upgraded Middle School,Awam
+2	2 - High School, Pokharbhinda , North Part
+3	3 - High School, Pokharbhinda , South Part
+4	4 - Middle School, Pokharbhinda
+5	5 - Primary School, Fulwariya
+6	6 - Upgraded Middle School, Mahiya , Norh  Part
+7	7 - Upgraded Middle School, Mahiya , South Part
+8	8 - Awantipur Bodhnarayan Sanskrit Schoo, Mahiya
+9	9 - New Upgraded  Middle School, Raja Kharwar North Part
+10	10 - New Upgraded  Middle School, Raja Kharwar South Part
+11	11 - Primary School(Girls), Machhaita
+12	12 - Buniyady School, Machhaita,
+13	13 - Madhya Vidyalay Kuso
+14	14 - Panchayat bhawan, Kurso East Part
+15	15 - Panchayat bhwan, Kurso west Part
+16	16 - Upgraded Middle School,Devna NorthPart
+17	17 - Upgraded Middle School,Devna South Part
+18	18 - Primary School , Katahara
+19	19 - Upgraded Middle School,Thengaha East Part
+20	20 - Upgraded Middle School,Thengaha West Part
+21	21 - High School, Nadiyami, North Part
+22	22 - High School, Nadiyami, North Part,East Part
+23	23 - High School, Nadiyami, South Part
+24	24 - High School, Nadiyami, Middle Part
+25	25 - Panchayat Bhavan Nadiyami
+26	26 - Primary School, Tardih
+27	27 - Primary School, Dadpatti
+28	28 - Primary School, Baika, North Part
+29	29 - Primary School, Madariya
+30	30 - Primary School, Baika,South Part
+31	31 - Upgraded Middle School, Vishnupur
+32	32 - Upgraded Middle School, Kakodha East Part
+33	33 - Upgraded Middle School, Kakodha West Part
+34	34 - Upgraded Middle School Bahadurpur Kakodha New Bhawan North part
+35	35 - Upgraded Middle School Bahadurpur Kakodha New Bhawan South part
+36	36 - Middle School, Kaithwar, North Part
+37	37 - Middle School, Kaithwar,  South Part
+38	38 - Panchayat Bhavan Kaithavar
+39	39 - Primary School, Kaithwar Sonpur North Part Kaithavar
+40	40 - Primary School, Kaithwar Sonpur South Part
+41	41 - Upgraded Middle School, Shriram pur
+42	42 - Upgraded Middle School, Sakatpur
+43	43 - Primary School, Sherpur
+44	44 - Patel High School, Narayanpur,east Part
+45	45 - Patel High School, Narayanpur, Middle Part
+46	46 - Patel High School, Narayanpur, west Part
+47	47 - Middle School, Kaithwar,  South Part
+48	48 - Madhya Vidyalay Lagama
+49	49 - Sanskrti School Lagma North part
+50	50 - Sanskrti School Lagma South part
+51	51 - Primary School, Bisahath
+52	52 - UP Maktab, Bathiya, East  Part
+53	53 - UP Maktab, Bathiya, West  Part
+54	54 - Upgraded Middle School, Bathiya North Part
+55	55 - Upgraded Middle School, Bathiya south Part
+56	56 - Vidyapati Pustakalya Bhawan, Kathra
+57	57 - Uparaded  School, Kathra ,East Part
+58	58 - Upgrded School, Kathra ,West Part
+59	59 - उत्‍क्रमित मध्‍य विद्यालय, कठरा, महादेव पोखर
+60	60 - Upgraded Middle School,Kathra North Part, Mahuapar
+61	61 - Primary School, Putai Hanuman Nagar
+62	62 - Upgraded School,Putai
+63	63 - Madhya Vidyalay Putai
+64	64 - Upgraded Middle School, Mahthaur Anusuchi jati North Part
+65	65 - Upgraded Middle School, Mahthaur Anusuchi jati South Part
+66	66 - Middle School, Mahthaur, Sarkari
+67	67 - Upgraded Middle School, Chakka
+68	68 - Upgraded Middle School, Urdu Ijarhatta East Part
+69	69 - Upgraded Middle School, Urdu Ijarhatta West Part
+70	70 - Primary School,Matahi Tol Ijarhatta,
+71	71 - Primary School, Garaul Balak North Part
+72	72 - Primary School, Garaul Balak south Part
+73	73 - Primary School Girls, Garaul
+74	74 - Anusuchit Jati Darwaja Garaul
+75	75 - New Upgraded  Middle School,Garaul Chakka
+76	76 - Upgraded Middle School, MirjaPur Balak
+77	77 - Primary School ,Mirjapur Girls
+78	78 - Primary School ,Hariyath, Hindi North Part
+79	79 - Primary School ,Hariyath, Hindi Middle Part
+80	80 - Primary School ,Hariyath, Hindi South Part
+81	81 - Upgraded Middle School, Hariyath Urdu East Part
+82	82 - Upgraded Middle School, Hariyath Urdu West Part
+83	83 - Upgraded Middle School, Manahar Urdu, North Part
+84	84 - Upgraded Middle School, Manahar Urdu
+85	85 - Upgraded Middle School, Lahata North part
+86	86 - Upgraded Middle School, Lahata South Part
+87	87 - Upgraded Middle School,East West Part
+88	88 - Upgraded Middle School, Tumaoul  North part
+89	89 - Upgraded Middle School,Tumaul , North Part
+90	90 - Upgraded Middle School,Tumaul , South Part
+91	91 - Upgraded Middle School, Adhloaam-2  East part
+92	92 - Upgraded Middle School, Adhloaam-2  West Part
+93	93 - Upgraded Middle School, Laharpur
+94	94 - Primary School, Rasidpur
+95	95 - New Upgraded  Middle School, Rampur uday East Part
+96	96 - New Upgraded Middle School, Rampur uday West Part
+97	97 - Upgraded Middle School, Motipur East part
+98	98 - Upgraded Middle School, Motipur West part
+99	99 - Anusuchit Jati Darwaja Motipur
+100	100 - प्रिमरिय स्कूल आरा नोनिया टोला मोतीपुर
+101	101 - Upgraded Middle School, Antaur East Part
+102	102 - Upgraded Middle School, Antaur West part
+103	103 - Upgraded Middle School, Andaouli
+104	104 - Samudayik Bhavan Andauli
+105	105 - Basik school Milki East Part
+106	106 - Basik school Milki West Part
+107	107 - Basik school Milki Middle part
+108	108 - Primary School, Pakari East Part
+109	109 - Primary School, Pakri West Part
+110	110 - Upgraded Middle School, Joghatta
+111	111 - Upgraded Middle School, HarsingPur East Part
+112	112 - Upgraded Middle School, HarsingPur West Part
+113	113 - Madrasha Harsingpur
+114	114 - Primary School, Kiratpur
+115	115 - Upgraded Middle School, Watganj North Part
+116	116 - Upgraded Middle School, Watganj South Part
+117	117 - Samudayik Bhavan Jayantipur Dath
+118	118 - New Upgraded Middle School, Jayantipur, South Part
+119	119 - New Upgraded Middle School, Jayantipur  north part
+120	120 - Upgraded Middle School, Askaul Balak
+121	121 - Upgraded Middle School, Narma
+122	122 - Upgraded Middle School, Nabharpattii
+123	123 - Primary School, NawaNagar
+124	124 - Upgraded Middle School, Shyampur, East part
+125	125 - Upgraded Middle School, Shyampur, West part
+126	126 - Middle School, Alinagar Urdu East Part
+127	127 - Middle School, Alinagar Urdu West Part
+128	128 - Primary School, Jagbani
+129	129 - Upgraded Middle School,Sahjouli (Sisouni)
+130	130 - Primary School, Sisauni South Part
+131	131 - Upgraded Middle School, Pirhauli
+132	132 - Upgraded Middle School, Dhamsain North Part
+133	133 - Upgraded Middle School, Dhamsain South Part
+134	134 - Madarsha Momin tola Dhamsain
+135	135 - Primary School, Dhamuara hindi North part
+136	136 - Primary School,Dhamuara  Hindi South Part
+137	137 - High School, Rupaspur North Part
+138	138 - High School, Rupaspur South Part
+139	139 - Upgraded Middle School,Hanumangagar
+140	140 - Upgraded Middle School,Hanumannagar West Part
+141	141 - Samudaki Bhawan, Baghaila
+142	142 - Upgraded Middle School, Lilpur
+143	143 - Primary School,Tikkapati
+144	144 - Upgraded Middle School, Dasaut Nankar East Part
+145	145 - Upgraded Middle School, Dasaut Nankar West Part
+146	146 - Primary School, Gorkha
+147	147 - Upgraded Middle School, Supaul
+148	148 - New Upgraded Middle School,Tumaul
+149	149 - Panchayat Bhavan Tumaul, East Part
+150	150 - Panchayat Bhavan Tumaul
+151	151 - Upgraded Middle School, Godhail North Part
+152	152 - Upgraded Middle School, Godhail South Part
+153	153 - Upgraded Middle School, Lalapatti
+154	154 - Pustakalay Bhavan Jaydev Patati
+155	155 - Panchayat Bhavan, Jaydev patti
+156	156 - Upgraded Middle School, Jaydevpatti
+157	157 - Middle School, Parari East Part
+158	158 - Middle School, Parari West Part
+159	159 - Primary school Budhev
+160	160 - Madarasa Kumaraul
+161	161 - Upgraded Middle School, Kumraul
+162	162 - Upgraded Middle School,Asma
+163	163 - Upgraded Middle School, Baur
+164	164 - Middle School, Ghanshyampur
+165	165 - Primary School Mahadevsathan Ghanashyamapur
+166	166 - Upgraded Middle School, Ghanshyampur
+167	167 - Primary Maktab Mahathwar
+168	168 - Upgraded Middle School, Mahathwar
+169	169 - Utkramit Madhya Vidyalay, Lagama Pashchimi Bhag
+170	170 - Prathamik Vidhalay Lagama Purwi Bhag
+171	171 - Panchayat Bhavan Lagama
+172	172 - Utkramit Madhya Vidyalay, Dohatha, puravi bhag
+173	173 - Utkramit Madhy Vidhalay Dohtha Paschimi Bhag
+174	174 - utkramit madhya vidhyalay, Basauli, पूर्वी भाग
+175	175 - utkramit madhya vidhyalay, Basauli, paschimi bhag
+176	176 - Utkramit MadhyaVidhalay Dethua Dakshin Bhag
+177	177 - Prathamik Makatab Gonaun Utar Bhag
+178	178 - prathmik maktab ganoun madhya bhag
+179	179 - Prathamik Makatab Gonaun Dakshin Bhag
+180	180 - Utkramit madhya Vidhalay Gonon Uttar Bhag
+181	181 - Utkramit Madhya Vidyalay, Gonaun Dakshin Bhag
+182	182 - Madarasa Islamiya Pali Purwi Bhag
+183	183 - Madarasa Islamiya Pali Pashchimi Bhag
+184	184 - Primary Kayna Maktab Pardanashi Pali
+185	185 - Upgraded Makta, Pali
+186	186 - Madhya Vidhalay Pali
+187	187 - Sarwoday Pustakayal Pali
+188	188 - Upgraded Middle School, Pohaddi Bela North Part
+189	189 - Upgraded Middle School, Pohaddi Bela South Part
+190	190 - Panchayat Bhavan Pohadadi Bela
+191	191 - Madarasa Pohadadi Bela
+192	192 - Upgraded Middle School, Deuari Norht Part
+193	193 - Upgraded Middle School, Deuari South Part
+194	194 - Prathamik Vidyalay, Masavasi
+195	195 - Upgraded Middle School, Brahampura
+196	196 - Prathamik Vidyalay Navatol
+197	197 - Upgraded Middle School, Hardwar
+198	198 - Utkramit Madhya Vidyalay Punahad
+199	199 - Samudayik Bhavan Punahad
+200	200 - Upgraded Middle School,Galma, North Part
+201	201 - Upgraded Middle School,Galma, South Part
+202	202 - Prathamik Kanya Vidhalay Galama
+203	203 - Samudayik Bhawan, Dath North Part
+204	204 - Primary School Dath
+205	205 - janta High School, Shivnagar Ghat
+206	206 - Lal Thakur Sanskrit Madhya Vidhalay Korthu
+207	207 - Damodar Sanskrit Uchcha Vidhalay Korthu
+208	208 - Upgraded Middle School, Shivnagar Ghat
+209	209 - Madhya Vidhalay Korthu
+210	210 - Prathamik Vidyalay Korthu Kanya
+211	211 - Tahasil Kachahari Korthu
+212	212 - Utkramit Madhya Vidyalay, Boraba

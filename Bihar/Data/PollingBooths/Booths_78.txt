@@ -1,0 +1,219 @@
+1	1 - Middle School,Tarwara South Part Bhag
+2	2 - Besik Vidyalay,  Taravara, Uttari Bhag
+3	3 - Utkramit Madhya Vidyalay, Saua, Dakshini Bhag
+4	4 - Utkramit Madhya  Vidyalay, Saua, Uttari Bhag
+5	5 - Prathamik Vidyalay, Ganaura Tarwara
+6	6 - Utkramit Madhya Vidyalay, Lohani
+7	7 - Utkramit Madhya  Vidyalay, Pokharam, Purab Bhag
+8	8 - Utkramit Madhya Vidyalay, Pokharam  Madhya Bhag
+9	9 - Utkramit Madhya Vidhyalay Pokharam Pashchmi Bhag
+10	10 - Utkramit Madhya Vidhyalay Pokharam Middle Bhag
+11	11 - Primary School, Sisouni
+12	12 - Kamala Uchcha Vidyalay, Pokharam, Uttari Bhag
+13	13 - Kamala Uchcha Vidyalay, Pokharam, Madhya Bhag
+14	14 - Madhya Vidyalay, Pokharam
+15	15 - New Upgraded Middle School, Balha, North Part
+16	16 - New Upgraded Middle School, Balha, East Part
+17	17 - New Madhyamik  Vidyalay, Balaha, Dakshin Bhag
+18	18 - Nav Utkramit madhy vidhyalay balha madhy bhag
+19	19 - Upgraded Middle School, Naudega, North Part
+20	20 - Upgraded Middle School, Naudega, South Part
+21	21 - Prathamik Vidyalay, Mahathaur
+22	22 - Kamla High School, Pokhram, South Part
+23	23 - Upgraded Middle School, Ladaho, East Part
+24	24 - Upgraded Middle School, Ladaho, Midlle Part
+25	25 - Primary School, Changwara
+26	26 - Upgraded Middle School, Ladaho, West Part
+27	27 - Upgraded Middle School, KamlaBari
+28	28 - Upgraded Middle School, Boari
+29	29 - Upgraded Middle School, Khewa, North Part
+30	30 - Upgraded Middle School, Khewa, South Part
+31	31 - Madrsa Rahmaniya, Khewa
+32	32 - Primary School, Bharhi
+33	33 - Anganwari Kendra, Afjala Baliya, North Part
+34	34 - Middle School,Baliya
+35	35 - Rajkiya Middle School, Benk, East Part
+36	36 - Rajkiya Middle School, Benk, West Part
+37	37 - Rajkiya Middle School, Benk, Midill Part
+38	38 - Rajkiya Middle School, Benk, North Part
+39	39 - Upgraded Middle School, Hati, North Part
+40	40 - Upgraded Middle School, Hati, South  Part
+41	41 - Middle School, Uchhati
+42	42 - Madhy School, Uchhati, East Part
+43	43 - Madhy School, Uchhati, West Part
+44	44 - Primary School, Balra
+45	45 - Primary School, khanpur
+46	46 - Primary School, Thika
+47	47 - Upgraded Middle School, Sonpur, North Part
+48	48 - Upgraded Middle School, Sonpur, South Part
+49	49 - Primary School, Mohanpur
+50	50 - Middle School, Paghari, West Part
+51	51 - Middle School, Paghari, East Part
+52	52 - Primary School, Fakirana
+53	53 - Primary School, Brahmpur
+54	54 - Primary School, Gora
+55	55 - Primary School, Missi
+56	56 - Utkarmit Middle School, Aurahi
+57	57 - Utkarmit Middle School, Khetas Kalna
+58	58 - Utkarmit Middle  School, Ghorsar
+59	59 - Utkramit Middle School, Mohim
+60	60 - Primary School, Chhotki Mohim North Parth
+61	61 - Primary School, Chhotki Mohim south Parth
+62	62 - New Upgraded middle school Bisahariya North Parth
+63	63 - Nav  Upgraded middle school Bisahariya South Parth
+64	64 - Upgraded Middle School, Khesraha
+65	65 - Primary School, Laranch Bhadaul
+66	66 - Upgraded middle School, Mahari
+67	67 - Adharbhut Yojanantgart Nirmit syam Sahayata samuh bhawan ,Bhadahar
+68	68 - Upgraded middle School, Bhadahar, kanya
+69	69 - Middle School Nadiyami East Parth
+70	70 - Middle Shool Nadiyami, West Parth
+71	71 - Primary School, Gyaspur
+72	72 - Upgraded Middle  School, Asma
+73	73 - Middle School, Hirani Balak, North Part
+74	74 - Middle School, Hirani Balak, South Part
+75	75 - Panchyat Bhawan, Hirani
+76	76 - Ghanshyam Pustkalaya, Hirani, East Part
+77	77 - Ghanshyam Pustikalaya, Hirani, West Part
+78	78 - Middle School, Harinagar,East Part
+79	79 - Middle School, Harinagar,West Part
+80	80 - Middle School, Harinagar,midill Part
+81	81 - Upgraded middle School, Harinagar, Sthit Chatar
+82	82 - Upgraded Middle School, Katwara Ghat
+83	83 - Primary School, Aaso
+84	84 - Primary School, Maharajpur
+85	85 - Primary School, Kachhua
+86	86 - Middle School,Beri, North Part
+87	87 - Middle  School, Beri,south part
+88	88 - Middle school Lakshminiya Gyaspur North Parth
+89	89 - Middle school Lakshminiya Gyaspur Middle Parth
+90	90 - Middle school Lakshminiya Gyaspur South Parth
+91	91 - Primary School, Sultanpur North Parth
+92	92 - Primary School, Sultanpur south Parth
+93	93 - Utkramit Middle School, Sanhouli
+94	94 - Middle  School,Balha,East Part
+95	95 - Middle  School,Balha,Middle Part
+96	96 - Middle  School,Balha, West Part
+97	97 - Upgraded Middle School, Maibi, Kachhua
+98	98 - Primary School, Pirouri me chalant voter center
+99	99 - Upgraded Middle School, Masankhon, East Part
+100	100 - Upgraded Middle School, Masankhon, West Part
+101	101 - Primary School, Bhadaul
+102	102 - Upgraded Middle School, Hathra, North Part
+103	103 - Upgraded Middle School, Hathra, South Part
+104	104 - Primary School, Hathauri
+105	105 - Primary School,  Hathauri Basoul
+106	106 - Upgraded MiddleSchool, Gothani, East Part
+107	107 - Upgraded MiddleSchool, Gothani, West Part
+108	108 - Upgraded MiddleSchool, Taraso
+109	109 - Upgraded Middle School, Maintha
+110	110 - Middle School, Samaila
+111	111 - Primary School, Basatpur
+112	112 - Upgraded Middle School, Barna, North Part
+113	113 - Upgraded Middle School, Barna, South Part
+114	114 - Upgraded Middle School, Barna Midill Part
+115	115 - Primary School, Shahpur
+116	116 - Upgraded Middle School, Ghordouar, North part
+117	117 - Primary School, Sanichara
+118	118 - Upgraded Middle School, Ghordouar, South  part
+119	119 - Upgraded Middle School, Chigari, North  part
+120	120 - Upgraded School, Chigari, South  part
+121	121 - Upgraded Middle School, Simraha, North  part
+122	122 - Upgraded Middle School, Simraha, South  part
+123	123 - Primary School, Jhajhra me chalant voter center
+124	124 - Middle School, Jhajhra, North Part
+125	125 - Middle School, Jhajhra, South Part
+126	126 - Upgraded Middle School, Pakahi, North Part
+127	127 - Upgraded Middle School, Pakahi, South Part
+128	128 - Primary School, Morkahi
+129	129 - Middle School, Harouli, East Part
+130	130 - Middle School, Harouli, West Part
+131	131 - Middle School, Harouli, South Part
+132	132 - Upgraded Middle School, Pachahara Bujurg
+133	133 - Prathmik School, Buchouli Anusuchit Jati
+134	134 - Primary School, Manoripur
+135	135 - Primary School, Paro
+136	136 - Upgraded Middle School, Narayanpur  , East Part
+137	137 - Upgraded Middle School, Narayanpur  , West Part
+138	138 - मध्‍य विद्यालय, बरगॉंव (पूरब भाग)
+139	139 - Middle School, Bargown, West Part
+140	140 - Middle School,Buchouli,Gopalpur, Bargown
+141	141 - Middle School, Paika Charai, East Part
+142	142 - Middle School, Paika Charai, West Part
+143	143 - Primary School, Parmanandpur, North
+144	144 - Primary School, Parmanandpur,
+145	145 - Middle School, Dinmo
+146	146 - New Utramit Middle  School, Madhuban, North Part
+147	147 - New Utkramit Middle School, Madhuban, South Part
+148	148 - Primary School, Karotba, East Part
+149	149 - Primary School, Karotba, West Part
+150	150 - Madarsa Primary School, Pakriya
+151	151 - Upgraded Middle School, Shripur Gobarahi
+152	152 - Upgraded Middle School, Bhindua, North Part
+153	153 - Upgraded Middle School, Bhindua, South Part
+154	154 - High School, Kueshwarasthan, Routa, North Part
+155	155 - High School, Kueshwarasthan, Routa, North Part
+156	156 - High School, Kueshwarasthan, Routa, South Part
+157	157 - High School, Kueshwarasthan, Middle Part
+158	158 - Middle School, Kueshwarasthan,  North Part
+159	159 - Middle School, Kueshwarasthan,  South Part
+160	160 - Upgraded Middle School, Bahera
+161	161 - New Upgraded Middle School, Barnia
+162	162 - Upgraded Middle School, Itahar North Part
+163	163 - Primary School, Bisuniya
+164	164 - Upgraded Middle School, Itahar, South part
+165	165 - Upgraded Middle School, Itahar, East part
+166	166 - Utkarmit Middle School, Samoura,New Bhawan
+167	167 - Utkarmit Middle School, Ujua,East Part
+168	168 - Utkarmit Middle School, Ujua,West Part
+169	169 - Upgraded School, Simartoka, North Part
+170	170 - Upgraded Middle School, Simartoka,Middle Part
+171	171 - Upgraded Middle School, Simartoka, South Part
+172	172 - New Upgraded Middle School, Mahadev Math (Tegachha)
+173	173 - Upgraded Middle  School, Konia North Part
+174	174 - Upgraded Middle  School, Konia South Part
+175	175 - Primary School, Chhotki Konia
+176	176 - Upgraded Middle School, Harinahi, North Part
+177	177 - Upgraded Middle School, Harinahi, South Part
+178	178 - Panchyat Bhawan, Usari (New Building)
+179	179 - Upgraded Middle School, Usari North Part
+180	180 - Upgraded Middle School, Usari South Part
+181	181 - Primary School, Kola,
+182	182 - Upgraded Middle School, Adalpur
+183	183 - Upgraded Middle School, Khalasin
+184	184 - Primary School, Bhaluka
+185	185 - Primary School, Dharampur
+186	186 - Upgraded Middle School, Dhaboliya, North Part
+187	187 - Upgraded School, Dhabouliya, South Part
+188	188 - Primary School, Fakdoliya, North Part
+189	189 - Primary School, Fakdoliya, South Part
+190	190 - Middle School, Kewtgama, North Part
+191	191 - Middle School, Kewtgama, East Part
+192	192 - Middle School, Kewatgama, South Part
+193	193 - Middle School, Kewtgama, West Part
+194	194 - Upgraded Middle School, Salmgarh, North Part
+195	195 - Upgraded Middle School, Salmgarh, South Part
+196	196 - Upgraded Middle School, Sisouna, North Part
+197	197 - Upgraded Middle School, Sisona, South Part
+198	198 - Primary School, Mahisoath, North Part
+199	199 - Primary School, Mahisouth, South Part
+200	200 - Primary School, Narkatiya
+201	201 - Upgraded Middle School, Rahipura
+202	202 - Upgraded Middle School, Baghmara
+203	203 - Upgraded Middle School, Jurouna, West Parth
+204	204 - Upgraded Middle School, Jurouna, East Parth
+205	205 - Middle School Sughrain, North Parth
+206	206 - Middle School Sughrain, South Parth
+207	207 - Upgraded Middle School Sughrain, South Parth
+208	208 - Upgraded Middle School Sughrain, North Parth
+209	209 - Upgraded Middle School Sughrain, Middle Parth
+210	210 - Primary School, Bharain
+211	211 - New Upgraded Middle, Tilkeshwar, South Part
+212	212 - New Utkramit Madhymik, Tilkeshwar, North Part
+213	213 - New Utkramit Middle School, Tilkeshwar, New Building
+214	214 - Primary School, Tilakpur
+215	215 - Upgraded Middle School, Golma, North Part
+216	216 - Upgraded Middle School, Golma, South Part
+217	217 - Primary School, Gopalpur Arthua, North part
+218	218 - Primary School, Gopalpur Asthua, South part
+219	219 - Primary School, Budhiya Sukarasi

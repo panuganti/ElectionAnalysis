@@ -1,0 +1,238 @@
+1	1 - Upgraded Middle School, Sonapur
+2	2 - P.S. Thekalbadi
+3	3 - Upgraded Middle School, Teli Bhitta  North Part
+4	4 - Upgraded Middle School, Teli Bhitta (South.Part.)
+5	5 - Upgraded Middle School, Gola Panbar North Part
+6	6 - UMS, Gola Panwar South Part
+7	7 - U.M.S. Bodhigachchh
+8	8 - U.M.S. Dubanochi
+9	9 - Kanya M.S. Gilhabadi
+10	10 - M.S. Bhelagachhi Virpur(East..Part.)
+11	11 - M.S. Bhelagachhi Virpur(West.Part.)
+12	12 - Middle School Bhelagachhi Birpur Middle Part
+13	13 - P.S. Barahghariya
+14	14 - U.M.S. Purandarpur North Part
+15	15 - U.M.S. Purandarpur South Part
+16	16 - M.S. Kasvakaliyaganj (North Part)
+17	17 - M.S. Kasva Kaliyaganj (South0 Part)
+18	18 - Panchayat Bhawan Kasaba Kaliyaganj
+19	19 - Madarsa Chichuabari North Part
+20	20 - Madarsa Chichuabari South Part
+21	21 - Panchayat Bhawan Taiyabpur
+22	22 - Gandhi Pustakalay Saithavadi
+23	23 - M.S. Mirjapur North Part
+24	24 - M.S. Mirjapur Middle Part
+25	25 - M.S. Mirjapur (South Part)
+26	26 - Upgraded Middle School, Janta Hat Madanganj
+27	27 - M.S. Daluahat (East Part)
+28	28 - M.S. Daluahat (West Part)
+29	29 - Upgraded Middle School,  Makhan Pokhar
+30	30 - M.S. Haripokhar Kantigachh East Part
+31	31 - M.S. Haripokhar Kantigachchh West Part
+32	32 - U.M.S. Koimari
+33	33 - Primary School, Bagmara North Part
+34	34 - Primary School, Bagmara  (South Part)
+35	35 - U.M.S.Fulhara
+36	36 - U.M.S. Kusiyari North Part
+37	37 - Upgraded Middle School, Dangipokhar
+38	38 - Upgraded Middle School, Nimlagaon North Part
+39	39 - U.M.S. Kusiyari S.Part
+40	40 - Upgraded Middle School, Nimlagaon S. Part
+41	41 - Madarsa Chochpada
+42	42 - Upgraded Middle School, Kachkachipara
+43	43 - U.M.S.Panchgachhiya North Part
+44	44 - U.M.S. Panchgachhiya South Part
+45	45 - Madarsa Chanamana Tipizadi
+46	46 - Panchayat Bhavan Chanamana Tippijhari South Part
+47	47 - Ambedkar Bhawan Panasi, Tipijhadi
+48	48 - P.S. Panasi
+49	49 - U.M.S. Jaluchowk
+50	50 - Upgraded Middle School, Chanamana
+51	51 - M. S. Jalu Chowk, New Bhawan
+52	52 - Upgraded Middle School, Naukatta (North Part)
+53	53 - Upgraded Middle School, Naukatta (SouthPart)
+54	54 - Upgraded Middle School, Naukatta Middle Part
+55	55 - U.M.S.Pamal North Part
+56	56 - U.M.S. Pamal South Part
+57	57 - P.S. Chilhamari
+58	58 - Upgraded Middle School, Ghiyagaon
+59	59 - P.S. Sarogoda
+60	60 - U.M.S. Belgachhi
+61	61 - U.M.S.Haldibadi
+62	62 - U.M.S. Ramaniya Pokhar
+63	63 - U.M.S.Baksa
+64	64 - Madarsa Chhamatiya
+65	65 - Madarsa Bakhonala
+66	66 - Madarsa Kashibadi Notrh Part
+67	67 - Madarsa Kashibadi South Part
+68	68 - Upgraded Middle School, Galgaliya
+69	69 - Upgraded Middle School, Jharbari West Part
+70	70 - Upgraded Middle School, Jharbari East Part
+71	71 - U.M.S. Suhagi dangi Basti North Part
+72	72 - U.M.S. Suhagi, Dangi basti South0 Part
+73	73 - Madarsa Suhagi
+74	74 - U.M.S. Bhotathana (North Part)
+75	75 - U.M.S. Bhotathana (South Part)
+76	76 - U.M.S. Bhotathana Middle Part
+77	77 - Upgraded Middle School, Satboliya
+78	78 - Madarsa Navanadi (North Part)
+79	79 - Madarsa Navnadi (South Part0)
+80	80 - A. M. S. Pothiya
+81	81 - P.S. Goabadi
+82	82 - Kanya P.S. Pothiya  East Part
+83	83 - Kanya P.S. Pothiya West Part
+84	84 - Upgraded Middle School, Patilabhasha
+85	85 - U.M.S. Budhara East Part
+86	86 - U.M.S. Budhara West Part
+87	87 - Singhari Govindpur Madarsa North Part
+88	88 - Singhari Govindpur Madarsa South Part
+89	89 - Singhari Govindpur Madarsa, Middle Part
+90	90 - U.M.S. Singhari Gobindpur North Part
+91	91 - U.M.S. Singhari Gobindpur (S. Part)
+92	92 - Panchayat Bhawan Dhantola
+93	93 - Upgraded Middle School, Khajurbari (East Part)
+94	94 - Upgraded Middle School, Khajurbadi New Building
+95	95 - Upgraded Middle School, Khajurbari (West Part)
+96	96 - M.S. Shitalpur (East Part)
+97	97 - M.S. Shitalpur (West Part)
+98	98 - Madarsa Shitalpur
+99	99 - Mariya Madarsa Katahalbadi
+100	100 - Panchayat Bhawan Koltha (Purab Part)
+101	101 - Panchayat Bhawan Koltha W. Part
+102	102 - U.M.S. Mahsul Katahalbadi
+103	103 - M.S. Baldia Hat
+104	104 - Madarsa Hardasmani
+105	105 - M.S. Chhatargachh East Part
+106	106 - M.S. Chhattargachh North Part
+107	107 - Upgraded Middle School, (Girls) Chhattargachh East Part
+108	108 - Upgraded Middle School, (Girls) Chhattargachh West Part
+109	109 - Upgraded Middle School, Geramari North Part
+110	110 - Upgraded Middle School, Geramari South Part
+111	111 - Madarsa Farrabadi
+112	112 - Halka Kachahari,Raypur Kharkhadi
+113	113 - P.S. Arrabadi East Part
+114	114 - U.M.S. Arrabadi W.Part
+115	115 - M.S. Raypur
+116	116 - U.M.S. Dhobiniya
+117	117 - Paks Godown Arrabadi
+118	118 - Panchayat Bhawan Parlabadi (East Part)
+119	119 - Panchayat Bhawan Paralabadi (West Part)
+120	120 - Madarsa Fejul Ulum Sindhimari
+121	121 - Madarsa Haldagaon West Part
+122	122 - Madarsa Haldagaon (North Part)
+123	123 - Upgraded Middle School, Parlabari North Part
+124	124 - Upgraded Middle School, Parlabari South Part
+125	125 - Ratua Madarsa (East Part)
+126	126 - Ratua Madarsa (West Part)
+127	127 - Pahadkatta Madarsa
+128	128 - U.M.S.Sitajhadi
+129	129 - Panchayat Bhawan Pahadakatta E.Part
+130	130 - Panchayat Bhawan Pahadakatata West Part
+131	131 - U.M.S. Dhekipada
+132	132 - Panchayat Bhawan Panasi Mohaniya
+133	133 - P.S. Adhikari
+134	134 - Upgraded Middle School, Lohagara
+135	135 - M.S. Ratanpur (North Part)
+136	136 - M.S. Ratanpur (Dakshin Part)
+137	137 - Madarsa Belpokhar (East Part)
+138	138 - Madarsa Belpokhar (West0 Part)
+139	139 - M.S. Jahangirpur(NorthPart)
+140	140 - Middle School Jahangirpur Middle Part
+141	141 - M.S. Jahangirpur (South Part)
+142	142 - U.M.S. Belpokhar
+143	143 - M.S. Damalbadi
+144	144 - Chaman Emustafa Madarsa Bansbadi
+145	145 - Madarsa Purana Hat Damalbadi
+146	146 - U.M.S. Bagalbadi-2 East Part
+147	147 - U.M.S. Bagalbadi-2 West Part
+148	148 - Upgraded Middle School, Bagalbari -1
+149	149 - Sarkari Madarsa Bisani
+150	150 - M.S. Halamala East Part
+151	151 - M.S. Halamala West Part
+152	152 - M.S. Halamala Middle Part
+153	153 - U.M.S. Motihara E.Part
+154	154 - U.M.S. Motihara (West Part)
+155	155 - U.M.S. Motihara, Middle Part
+156	156 - Madarsa Motihara Taluka North Part
+157	157 - Madarsa Motihara Taluka South Part
+158	158 - U.M.S. Kolha Banbadi
+159	159 - M.S.Panisal (North Part)
+160	160 - M.S. Panisal (Dakshin Part)
+161	161 - P.S.Chhagaliya
+162	162 - U.M.S.Maida
+163	163 - Upgraded Middle School, Singhiya Kulamani North Part
+164	164 - Upgraded Middle School, Singhiya Kulamani South Part
+165	165 - Madarsa Darul Huda Kashipur E.Part
+166	166 - Madrasa Darul huda Kashipur W.Part
+167	167 - H.S. Singhiya
+168	168 - U.M.S. Satkhamar Purana Bhawan
+169	169 - U. M. S.  Satakhamar New Bhawan
+170	170 - U.M.S. Maheshbathna North Part
+171	171 - U.M.S.  Maheshbathna South Part
+172	172 - U. M. S.  Teusa Purana Bhawan
+173	173 - U. M. S.  Teusa New Bhawan
+174	174 - M.S. Simalbari
+175	175 - U.M.S. Dheksara
+176	176 - U.M.S.Kolha
+177	177 - M.S. Shiksha Sudhar (East Part)
+178	178 - M.S. Shiksha Sudhar (West Part)
+179	179 - Madarsa Anjuman Kishanganj (North Part)
+180	180 - Madarsa Anjuman Kishanganj (South Part)
+181	181 - Madarsa Anjuman Kishanganj Middle Part
+182	182 - M.S. Line Urdu Kishanganj E.Part
+183	183 - M.S. Line Urdu Kishanganj W.Part
+184	184 - P.S.Madhav Nagar (West Part)
+185	185 - P.S. Madhavnagar Middle Part
+186	186 - P.S. Madhavnagar E.Part
+187	187 - P.S. Motibag North Part
+188	188 - P.S. Motibag South Part
+189	189 - P.S. Tanti Tola (North Part)
+190	190 - P.S. Tanti Tola (South Part)
+191	191 - P.S. Teghariya (North Part)
+192	192 - P.S. Tegharia Middle Part
+193	193 - P.S. Teghariya (South Part)
+194	194 - P.S. Tegharia East Part
+195	195 - U.M.S. Faring goda North Part
+196	196 - U.M.S. Faring goda South Part
+197	197 - U.M.S. Dilawarganj North Part
+198	198 - U.M.S. Dilawarganj South Part
+199	199 - Manoranjan Club Kishanganj (East Part)
+200	200 - Manoranjan Club Kishanganj (West Part)
+201	201 - Kamla Nehru Balika M.S. Kishanganj
+202	202 - Rajkiya Kanya Middle School Kishanganj
+203	203 - Rajkiya Kanya Middle School Kishanganj (West Part)
+204	204 - Bajme Adab Kanya H.S. Kishanganj (North Part)
+205	205 - Bajme Adab Kanya H.S. Kishanganj (South Part)
+206	206 - National High School Kishanganj(South Part)
+207	207 - National High School, Kishanganj (North Part)
+208	208 - Pratap Middle School Line  Kishanganj(East Part)
+209	209 - Pratap Middle School Line Kishanganj(West Part)
+210	210 - P.S. Kajlamani North Part
+211	211 - P.S. Kajalamani S.Part
+212	212 - Ambedkar Awasiya H.S. Kishanganj East Part
+213	213 - Ambedkar Awasiya H.S. Kishanganj Middle Part
+214	214 - Ambedkar Awasiya H.S. Kishanganj West Part
+215	215 - M.S. Ashalata(North Part)
+216	216 - M.S. Ashalata (South Part)
+217	217 - Vyapar Mandal Sahyog Samiti Kishanganj
+218	218 - Vyapar Mandal Sahyog Samiti, Guest House Kishanganj
+219	219 - M.S. Sardar Gopal Singh East Part
+220	220 - M.S. Sardar Gopal Singh(West Part)
+221	221 - Middle School Sardar Gopal Singh Middle Part
+222	222 - Kanya H.S. Dumriya (North Part )
+223	223 - Kanya H.S. Dumriya Middle Part
+224	224 - Kanya H.S. Dumriya (South Part)
+225	225 - Halka Kachhari Khagda
+226	226 - Dist. Matasya Office, Khagda Kishanganj
+227	227 - M.S. Khagda North Part
+228	228 - M.S. Khagda S.Part
+229	229 - U.M.S. Purana Khagada E.Part
+230	230 - U.M.S. Purana Khagada W.Part
+231	231 - U.M.S. Pothia Dhekabhinja North Part
+232	232 - U.M.S. Pothia Dhekabhinja South Part
+233	233 - Sub Division Agro Farm Office , Kishanganj
+234	234 - Khagda Mela Office, Kishanganj
+235	235 - P.S. Juljuli Room No. 1
+236	236 - P.S. Juljuli Room No. 2
+237	237 - U.M.S. Majhiya (North Part)
+238	238 - U.M.S. Majhiya (South Part)

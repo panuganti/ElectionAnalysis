@@ -1,0 +1,281 @@
+1	1 - Kanya Prathmik Vidyalaya Bahachouki (East Part)
+2	2 - Kanya Prathmik Vidyalaya Bahachouki (West Part)
+3	3 - Madhya Vidyalaya Sundarpur (South Part)
+4	4 - Madhya Vidyalaya Sundarpur (North Part)
+5	5 - Uchcha Vidyalaya Sundarpur
+6	6 - Madhya Vidyalaya Durgapur
+7	7 - Madhya Vidyalaya Shivkund Nishad Tola
+8	8 - Kanya Madhya Vidyalaya Shivkund
+9	9 - Prathamik Vidyalay Shivakunda
+10	10 - Prathmik Vidyalaya Chharrapatti
+11	11 - Prathmik Vidyalaya Chhotilagma Hemjapur  (South Part)
+12	12 - Prathmik Vidyalaya Chhotilagma Hemjapur (North Part)
+13	13 - Madhya Vidyalaya Badi Lagma  Hemjapur (South Part)
+14	14 - Madhya Vidyalaya Badi Lagma  Hemjapur (North Part)
+15	15 - Madhya Vidyalaya Hemjapur (South Part)
+16	16 - Madhya Vidyalaya Hemjapur (North Part)
+17	17 - Panchayat Bhawan Hemjapur
+18	18 - Prathamik Vidyalay Chony Tola, Hemajapur
+19	19 - Madhya Vidyalaya Sugathia
+20	20 - Madhya Vidyalaya Maharna— Naya Bhawan
+21	21 - Madhya Vidyalaya Maharna
+22	22 - Madhya Vidyalaya Mangarh (North Part)
+23	23 - Madhya Vidyalaya Mangarh (South Part)
+24	24 - Prathmik Vidyalaya Dharhara Town
+25	25 - Madhya Vidyalaya Sarobagh
+26	26 - Madhya Vidyalaya Bhalar (West Part)
+27	27 - Madhya Vidyalaya Bhalar (East Part)
+28	28 - Prathmik Vidyalaya Govindpur
+29	29 - Madhya Vidyalaya Fulka (Khirodharpur)
+30	30 - Prathmik Vidyalaya Dashrathpur (Dhasrathi)
+31	31 - Madhya Vidyalaya Dariyapur
+32	32 - Prathmik Vidyalaya Paharpur
+33	33 - Prathmik Vidyalaya Matadih Nayatola (West Part)
+34	34 - Prathmik Vidyalaya Matadih Nayatola (East Part)
+35	35 - Madhya Vidyalaya Bilokhar
+36	36 - Madhya Vidyalaya Itwa Sarha (North Part)
+37	37 - Madhya Vidyalaya Itwa Sarha (South Part)
+38	38 - Madhya Vidyalay Itava
+39	39 - Madhya Vidyalaya Pachrukhi
+40	40 - Madhya Vidyalaya Pachrukhi Naya Bhawan
+41	41 - Uchcha Vidyalaya Adalpur Amari
+42	42 - Kanya Madhya Vidyalaya Amari Tola Sardhapur
+43	43 - Madhya Vidyalaya Amari (West Part)
+44	44 - Madhya Vidyalaya Amari (East Part)
+45	45 - Madhya Vidyalaya Barichak
+46	46 - Madhya Vidyalaya Govindpur
+47	47 - Prathmik Vidyalaya Jasidih
+48	48 - Madhya Vidyalaya Khajuria
+49	49 - Panchayat Bhawan Mahagama
+50	50 - Madhya Vidyalaya Laraiyatand
+51	51 - Panchayat Bhawan Orabagicha Mohanpur
+52	52 - Madhya Vidyalaya Orabagicha (South Part)
+53	53 - Madhya Vidyalaya Orabagicha (North Part)
+54	54 - Madhya Vidyalaya Orabagicha (East Part)
+55	55 - Madhya Vidyalaya Mohanpur (South Part)
+56	56 - Madhya Vidyalaya Mohanpur (North Part)
+57	57 - Uchcha Vidyalaya Mohanpur
+58	58 - Prathmik Vidyalaya Khushalpur (South part)
+59	59 - Prathmik Vidyalaya Khushalpur (North Part)
+60	60 - Prathmik Vidyalaya Dharhara (Uttar Tola)
+61	61 - Kanya Madhya Vidyalaya Dharhara
+62	62 - Madhya Vidyalaya Dharhara (South Part) Naya Bhawan
+63	63 - Madhya Vidyalaya Dharhara (North Part)) Naya Bhawan
+64	64 - Panchayat Bhawan Dharhara
+65	65 - Prathmik Vidyalaya Virojpur
+66	66 - Basic School Ghatwari
+67	67 - Madhya Vidyalaya Kumarpur
+68	68 - Madhya Vidyalaya Bhikakita
+69	69 - Madhya Vidyalaya Aajimganj
+70	70 - Madhya Vidyalaya Goraia
+71	71 - Prathmik Vidyalaya Sakhaul
+72	72 - Madhya Vidyalaya Bangalwa (East Part)
+73	73 - Madhya Vidyalaya Bangalwa (West Part)
+74	74 - Panchayat Sarkar Bhawan Bangalwa
+75	75 - Madhya Vidyalaya Banwarsha
+76	76 - Madhya Vidyalaya Jayanti Gram Lakarkola
+77	77 - Prathmik Vidyalaya Satgharwa
+78	78 - Prathmik Vidyalaya Sarvoday Tola Farda
+79	79 - Prathmik Vidyalaya Shinghia Punsara
+80	80 - Uchcha Vidyalaya Singhia (East Part)
+81	81 - Uchcha Vidyalaya Singhia (West Part)
+82	82 - Prayag Narayan Madhya Vidyalaya Singhia
+83	83 - Prathmik Vidyalaya Raviraitola Mahamadpur (North Part)
+84	84 - Prathmik Vidyalaya Raviraitola Mahamadpur (South Part)
+85	85 - Panchayat Bhawan Parham
+86	86 - Madhya Vidyalaya Parham
+87	87 - Madhya Vidyalaya Farda
+88	88 - Uchcha Vidyalaya Farda
+89	89 - Prathmik Vidyalaya Farda Prem Tola
+90	90 - Madhya Vidyalaya Dakra Satkhajuria (East Part)
+91	91 - Madhya Vidyalaya Dakra Satkhajuria (West Part)
+92	92 - Madhya Vidyalaya Malik Patti Farda (East Part)
+93	93 - Madhya Vidyalaya Malik Patti Farda (West Part)
+94	94 - Prathmik Vidyalaya Herudiyara Sangrampur
+95	95 - Uchcha Vidyalaya Hasanganj
+96	96 - Madhya Vidyalaya Indrukh (North Part)
+97	97 - Madhya Vidyalaya Indrukh (South Part)
+98	98 - Prathmik Vidyalaya Chakmansingh
+99	99 - Madhya Vidyalaya Halimpur (North Part)
+100	100 - Madhya Vidyalaya Halimpur (South Part)
+101	101 - Gaivi Madhya Vidyalaya Gauripur
+102	102 - Uchcha Vidyalaya Chandanpura (North Part)
+103	103 - Uchcha Vidyalaya Chandanpura (South Part)
+104	104 - Madhya Vidyalaya Chandanpura
+105	105 - Madhya Vidyalaya Naya Tola Ramnagar
+106	106 - Prathmik Vidyalaya Bhagichak Harijantola
+107	107 - Prathmik Vidyalaya Ramnagar Morcha
+108	108 - Rajkiya Prathmik Vidyalaya Daulatpur (South Part)
+109	109 - Rajkiya Prathmik Vidyalaya Daulatpur (Middle Part)
+110	110 - Rajkiya Prathmik Vidyalaya Daulatpur (North Part)
+111	111 - Rajkiya Prathmik Vidyalaya Daulatpur (West Part)
+112	112 - P. D. Uchcha Vidyalaya Jamalpur
+113	113 - Prathmik Vidyalaya Badi Ashikpur (North Part)
+114	114 - Prathmik Vidyalaya Badi Ashikpur (South Part)
+115	115 - Madhya Vidyalaya Mungarora No-2 (West Part)
+116	116 - Madhya Vidyalaya Mungarora No-2 (Middle Part)
+117	117 - Madhya Vidyalaya Mungarora No-2 (East Part)
+118	118 - Prathmik Kanya Vidyalaya Alinagar Mugrora (North Part)
+119	119 - Prathmik Kanya Vidyalaya Alinagar Mugrora (Middle Part)
+120	120 - Prathmik Kanya Vidyalaya Alinagar Mugrora (South Part)
+121	121 - Kanya Madhya Vidyalaya Naya Gaon
+122	122 - Achchu Ram Kanya Uchcha Vidyalaya Jamalpur
+123	123 - A.T.P. Daulatpur Colony
+124	124 - Purva Railway Uchcha Vidyalaya Jamalpur (North Part)
+125	125 - Purva Railway Uchcha Vidyalaya Jamalpur (South Part)
+126	126 - Madhya Vidyalaya Rampur (East Part)
+127	127 - Madhya Vidyalaya Rampur (West Part)
+128	128 - Madhya Vidyalaya Rampur (Middle Part)
+129	129 - Mission Kanya Prathmik Vidyalaya Baridariyapur (East Part)
+130	130 - Mission Kanya Prathmik Vidyalaya Badi Dariyapur (West Part)
+131	131 - Mission Kanya Prathmik Vidyalaya Badi Dariyapur (Middle Part)
+132	132 - Nagar Parishad Karyalaya (East Part)
+133	133 - Nagar Parishad karyalaya (West Part)
+134	134 - Sahayak Abhiyanta Karyalaya Jamalpur Purvi Railway
+135	135 - Hari Sabha Naya Gaon (East Part)
+136	136 - Hari Sabha Nayagaon (West Part)
+137	137 - Hari Sabha Nayagaon (Middle Part)
+138	138 - Central Institute Purvi Railway (North Part)
+139	139 - Central Institute Purvi Railway Jamalpur (South Part)
+140	140 - Balika Uchcha Vidyalaya Dharmashala Road Jamalpur
+141	141 - A.T.P. Prathmik Vidyalaya Rampur Colony
+142	142 - National Institute Purva Railway Rampur Colony (South Part)
+143	143 - National Institute Purva Railway Rampur Colony (North Part)
+144	144 - Madhya Vidyalaya valipur (East Part)
+145	145 - Madhya Vidyalaya Valipur (Middle Part)
+146	146 - Madhya Vidyalaya Valipur (West Part)
+147	147 - Kanya Madhya Vidyalaya Sadar Bazar Jamalpur
+148	148 - Bhartiya Arya Kanya Madhya Vidyalaya Sadar Bazar Jamalpur (East Part)
+149	149 - Bhartiya Arya Kanya Madhya Vidyalaya Sadar Bazar Jamalpur (West Part)
+150	150 - R.B. Uchcha Vidyalaya Jamalpur (East Part)
+151	151 - R.B. Uchcha Vidyalaya Jamalpur (West Part)
+152	152 - Madhya Vidyalaya Mohanpur (West Part)
+153	153 - Madhya Vidyalaya Mohanpur (East Part)
+154	154 - Railway Madhya Vidyalaya Jamalpur No-2
+155	155 - Sitaram Kanya Prathmik Vidyalaya Mohanpur
+156	156 - Railway Madhya Vidyalaya Jamalpur No-1 (East Part)
+157	157 - Railway Madhya Vidyalaya Jamalpur No-1 (Middle Part)
+158	158 - Railway Madhya Vidyalaya Jamalpur No-1 (West Part)
+159	159 - Railway Madhya Vidyalaya Jamalpur No-1 (North Part)
+160	160 - Toril Mandal Kanya Uchcha Vidyalaya Jamalpur (North Part-1)
+161	161 - Toril Mandal Kanya Uchcha Vidyalaya Jamalpur (North Part-2)
+162	162 - Toril Mandal Kanya Uchcha Vidyalaya (South Part-1)
+163	163 - Toril Mandal Kanya Uchcha Vidyalaya (South Part-2)
+164	164 - Madhya Vidyalaya Bhelu Jahangira (East Part)
+165	165 - Madhya Vidyalaya Bhelu Jahangira (West Part)
+166	166 - Madhya Vidyalaya Faridpur
+167	167 - Hardevi Uchcha Vidyalaya Jamalpur (East Part)
+168	168 - Hardevi Uchcha Vidyalaya Jamalpur (West Part)
+169	169 - Prathmik Vidyalaya Fulka
+170	170 - Prathmik Vidyalaya Nayatola Fulka
+171	171 - Prathmik Vidyalaya Ramchandrapur (North Part)
+172	172 - Prathmik Vidyalaya Ramchandrapur (South Part)
+173	173 - Madhya Vidyalaya Laxmanpur (East Part)
+174	174 - Madhya Vidyalaya Laxmanpur (West Part)
+175	175 - Madhya Vidyalaya Bank
+176	176 - Prathmik Vidyalaya MubarakChak (East Part)
+177	177 - Prathmik Vidyalaya MubarakChak (West Part)
+178	178 - Prathmik Vidyalaya Kanchangarh
+179	179 - Madhya Vidyalaya Banaudha (East Part)
+180	180 - Madhya Vidyalaya Banaudha (West Part)
+181	181 - Madhya Vidyalaya Kalarampur (East Part)
+182	182 - Madhya Vidyalaya Kalarampur (West Part)
+183	183 - Prathmik Vidyalaya Bochahi (East Part)
+184	184 - Prathmik Vidyalaya Bochahi (West Part)
+185	185 - Madhya Vidyalaya Itahari (North Part)
+186	186 - Madhya Vidyalaya Itahari (South Part)
+187	187 - Prathmik Vidyalaya VijayNagar (East Part)
+188	188 - Prathmik Vidyalaya VijayNagar (West Part)
+189	189 - Prathmik Vidyalaya Pairumandal Tola (North Part)
+190	190 - Prathmik Vidyalaya Pairumandal tola (SouthPart)
+191	191 - Prathmik Vidyalaya Chamangarh
+192	192 - Prathmik Pathshala Ahara Mushahari
+193	193 - Uchcha Vidyalaya Patam (North Part)
+194	194 - Uchcha Vidyalaya Patam (South Part)
+195	195 - Kanya Madhya Vidyalaya Baraichak Patam (North Part)
+196	196 - Kanya Madhya Vidyalaya Baraichak Patam (South Part)
+197	197 - Madhya Vidyalaya Ahara Patam
+198	198 - Madhya Vidyalaya Patam (East Part)
+199	199 - Madhya Vidyalaya Patam (West Part)
+200	200 - Madhya Vidyalaya Garhirampur
+201	201 - Panchayat Bhawan Garhirampur
+202	202 - Madhya Vidyalaya Mahamda (North Part)
+203	203 - Madhya Vidyalaya Mahamda (South Part)
+204	204 - Kanya Prathmik Vidyalaya Mahamada
+205	205 - Madhya Vidyalaya Paharpur (North Part)
+206	206 - Madhya Vidyalaya Paharpur (South Part)
+207	207 - Madhya Vidyalaya Purushottampur Jawayat (East Part)
+208	208 - Madhya Vidyalaya Purushottampur Jawayat (West Part)
+209	209 - Panchayat Bhawan Jawayat
+210	210 - Prathmik Vidyalaya Sangrampur Mushahari
+211	211 - Prathmik Vidyalaya Dangari Viliya
+212	212 - Samudaik Bhawan Laliyadih
+213	213 - Sri Krishna Madhya Vidyalaya Brindawan
+214	214 - Madhya Vidyalaya Lohchi (East Part)
+215	215 - Madhya Vidyalaya Lohchi (West Part)
+216	216 - Madhya Vidyalaya Laliyadih
+217	217 - Kanya Prathmik Vidyalaya Lohchi
+218	218 - Prathmik Vidyalaya Jagir Laxmipur Naki
+219	219 - Panchayat Bhawan Galimpur
+220	220 - Prathmik Vidyalaya Nichli Bahira
+221	221 - Prathmik Vidyalaya Bahira
+222	222 - Madhya Vidyalaya Bhadaura (North Part)
+223	223 - Madhya Vidyalaya Bhadaura (South Part)
+224	224 - Prathmik Vidyalaya Karighati
+225	225 - Bihar Dalit Vikas Samiti Vidyalaya Ghorakhur
+226	226 - Van Vibhag Rest House Shampur
+227	227 - Madhya Vidyalaya Raghunathpur (East Part)
+228	228 - Madhya Vidyalaya Raghunathpur (West Part)
+229	229 - Madhya Vidyalaya Bageswari (North Part)
+230	230 - Madhya Vidyalaya Bageswari (South Part)
+231	231 - Madhya Vidyalaya Anujati Agrahan
+232	232 - Madhya Vidyalaya Agrahan (East Part)
+233	233 - Madhya Vidyalaya Agrahan (West Part)
+234	234 - Madhya Vidyalaya Kurawa
+235	235 - Samudaik Bhawan Manjhgain Dih
+236	236 - Prathmik Vidyalaya Manjhgain
+237	237 - Samudaik Bhawan Shaampur (Tantitola)
+238	238 - Madhya Vidyalaya Dhapri
+239	239 - Madhya Vidyalaya Bhudharni
+240	240 - Madhya Vidyalaya Barhauna
+241	241 - Samudaik Bhawan Barhauna
+242	242 - Prathmik Vidyalaya Laxmipur
+243	243 - Samudaik Bhawan Laxmipur
+244	244 - Prathmik Vidyalaya Gaura Makhtab
+245	245 - Madhya Vidyalaya Gobadda (North Part)
+246	246 - Madhya Vidyalaya Gobadda (South part)
+247	247 - Madhya Vidyalaya Shivpur Laugayn (North Part)
+248	248 - Madhya Vidyalaya Shivpur Laugayn (South Part)
+249	249 - Prathmik Vidyalaya Dhondhari Mandare
+250	250 - Bans Tokari Godown Ladui
+251	251 - Prathmik Vidyalaya Korasi
+252	252 - Madhya Vidyalaya Ladui
+253	253 - Prathmik Vidyalaya Kaudia
+254	254 - Madhya Vidyalaya Gonai
+255	255 - Madhya Vidyalaya Sadov
+256	256 - Prathmik Vidyalaya Khiridih
+257	257 - Madhya Vidyalaya Kishanpur
+258	258 - Samudaik Bhawan Khandbihari
+259	259 - Basic School Khandbihari
+260	260 - Samudayik Bhawan Nishihara (North Tola)
+261	261 - Pustakalaya Bhawan Baijalpur
+262	262 - Madhya Vidyalaya Bokhra
+263	263 - Prathmik Vidyalaya Bhusichak
+264	264 - Samudaik Bhawan Nayatola Prasando
+265	265 - Prathmik Vidyalaya Harijantola Prasando
+266	266 - Madhya Vidyalaya Prasando
+267	267 - Madhya Vidyalaya Shasan
+268	268 - Uchcha Vidyalaya Muzaffarganj
+269	269 - Prathmik Vidyalaya Urdu Madarssa Mudheri
+270	270 - Panchayat Bhawan Muzaffarganj
+271	271 - Panchayat Bhawan Muzaffarganj
+272	272 - Madhya Vidyalaya Rataitha No-2 (East Part)
+273	273 - Madhya Vidyalaya Rataitha No-2 (West Part)
+274	274 - Prathmik Vidyalaya Rataitha
+275	275 - Madhya Vidyalaya Ratani (South Part)
+276	276 - Madhya Vidyalaya Ratani (North Part)
+277	277 - Madhya Vidyalaya Barui (North Part)
+278	278 - Madhya Vidyalaya Barui (South Part)
+279	279 - Madhya Vidyalaya Teghra
+280	280 - Madhya Vidyalaya Mahkola (East Part)
+281	281 - Madhya Vidyalaya Mahkola (West Part)

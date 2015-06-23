@@ -1,0 +1,205 @@
+1	1 - Utkramit madhya vidyalya nawada utri bhag
+2	2 - Utkramit madhya vidyalya nawada dakshini bhag
+3	3 - Prathamik Vidyalay Rohuakhas
+4	4 - UTKARMITMadhya Vidyalay Sobaiyo, Utari Bhag
+5	5 - Utkramit Vidyalay Sobaiyo, Da0 Bhag
+6	6 - Madhya Vidyalay Machchharagonva
+7	7 - Utkramit madhya vidyalya banktwa
+8	8 - Uchcha Vidyalay Machchharagonva
+9	9 - Prathamik Vidyalay Heman Chhapara, Pu0 Bhag
+10	10 - Prathamik Vidyalay Heman Chhapara, Pa0 Bhag
+11	11 - Madhya Vidyalay Ramaji Tola
+12	12 - madhay Vidyalay ramjee tola purwi bhag
+13	13 - prathamik vidyalay kalyan pur brit
+14	14 - Utkramit madhy vidalay khonhawa
+15	15 - Utkramit madhya vidalya gaura purvi bhag
+16	16 - Utkramit madhya vidyalya gaura pashchim bhag
+17	17 - utkramit madhya vidyalya kalyanpur khas
+18	18 - Utkramit madhya vidyalya adiya
+19	19 - madhay Vidhyalay rajapur daya bhag
+20	20 - Madhya Vidyalay Rajapur (Baya Tola)
+21	21 - Panchayat Bhavan Ahirauliya
+22	22 - Utkramit madhya vidyalya ahirauliya kanya purvi bhag
+23	23 - Utkramit madhya  Vidyalay Ahirauliya, kneya pachim bhag
+24	24 - Utkramit madhya vidyalya karriya jagir
+25	25 - panchayat bhawan  Sihorava
+26	26 - Prathamik Vidyalay sihorawa pashmi bhag
+27	27 - parathamikvidhaly sihorawa purvi bhag
+28	28 - Utkramit madhya vidyalya bairagi tola
+29	29 - madhy vidhaly dumara dakshn bhag
+30	30 - Madhya Vidyalay dumara utar bhag
+31	31 - Utkramit madhya vidyalya amwa
+32	32 - utkarmit madhy vidhaly bangara pashmi bhag
+33	33 - utkarmit madhy vidhaly bangaara purvi bhag
+34	34 - utkramit madhy vidhaly khajuariya urdu purvi
+35	35 - utkramit madhy vidhaly urdu khajuriya urdu pashmi bhag
+36	36 - Madhy Vidhaly Jasauli Jamuniya Purvi Bhag
+37	37 - madhya vidhyalya jasauli west part
+38	38 - Madhya Vidyalay Rajapur Mathiya
+39	39 - Madhya Vidyalay Belva Madho Purvi Bhag
+40	40 - Madhya Vidyalay Belawa Madho Pashchimi Bhag
+41	41 - Utkramit madhya vidyalya dilman chhapra
+42	42 - Utkramir mahdya vidyalya sagar churaman
+43	43 - UTKRAMIT MADHYA VIDHALAYA SAGAR CHURAMAN PASHCHIM BHAG
+44	44 - utkarmit madhy bidhyalay Betiya Basant Sthit Gopi Chhapra PURVI BHAG
+45	45 - utkarmit madhy bidhyalay Betiya Basant Sthit Gopi Chhapra
+46	46 - Shri Jata Singh Uchch Vidhalay BhopatPur
+47	47 - Uday bahadur Madhay Visdhalay Bhopatpur Purvi Part
+48	48 - Uday bahadur Madhay Visdhalay Bhopatpur Paschim Part
+49	49 - utkramit madhya vidhalaya ahirauliya chaube tola purvi bhag
+50	50 - Utkramit Madhaya Vidhalay Ahirauliya
+51	51 - Utkramit Madhya Vidhaylaya Visunpur
+52	52 - Madhya Vidhlaya visunpur pachmi bhag
+53	53 - Madhya Vidhaylay Visunpur Naya Bhawan Purvi Champaran
+54	54 - Utkramit madhya vidyalya bhopatpur
+55	55 - Utkramit madhya vidyalya bhopatpur nadi kanhi pashchim bhag
+56	56 - Utkramit madhya vidyalya tlwa pokhar
+57	57 - Prathmik Vidhalay Dipau Paschimi Bhag
+58	58 - Prathmik Vidhyalaya Dipau Pachimi Bhag
+59	59 - Prathmik Vidhayalay Pokhar  Shekhi Toli
+60	60 - rajkiya prathmik vidhayalay talwa
+61	61 - Ra0 M0 Vidhayalay Kotva Ojha Tola
+62	62 - Utkramit madhya vidylaya mathurapur math gopal
+63	63 - Panchayat Bhawan kotawa
+64	64 - uchch vidhayalay kotwa purvi bhag
+65	65 - uchch Vidyalay kotwa pachimi bhag
+66	66 - Madhya Vidhalay Mathbanwari Pashchimi Bhag
+67	67 - Madhyay Vidhalay Mathbanwari Purvi Bhag
+68	68 - prathmik Vidhalay ratanpur
+69	69 - Utkramit madhya vidyalya mahmada
+70	70 - utkramit madhya vidyalya sirsiya urdu
+71	71 - Prathmik Vidhalay Kanth Chhapra Hindi
+72	72 - Madhya Vidyalay pakri barwa pachimi Bhag
+73	73 - madhyay vidhyay pakri barwa purvi bhag
+74	74 - Prathamik Vidyalay ashok
+75	75 - Madhya Vidyalay banbirwa pachhim bhag
+76	76 - madhyay vidhyalay banbirva purvi bhag
+77	77 - Prathmik Vidhalay Maharani Bhopat
+78	78 - madhay Vidyalay jasauli uttar bhag
+79	79 - madhya vidhyalay jasaili patti madhya bhag
+80	80 - Madhyay Vidhalay Jasauli Patti Dakshin Bhag
+81	81 - mahatma gandhi madhya vidhylay jasauli patna
+82	82 - prathmik vidhylay chitariya
+83	83 - utkramit madhya vidhylay bairiya
+84	84 - prathmik vidhyalay saraiya
+85	85 - UTKRAMIT MADHYA VIDHAYALA JAGIRAHA
+86	86 - Madhya vidyalya tenua
+87	87 - madhya vidhya kathariya
+88	88 - uchch vidhyalay tenua isthit semra
+89	89 - prathmik vidhyalay devpur parsa
+90	90 - Prathmik Vidhyalay Parsauni Wajid
+91	91 - Prathamik Vidyalay parsauni Wajid
+92	92 - Madhya vidyalya vishmbharpur baya bhag
+93	93 - Utkramit mahdya vidyalya vishambharpur daya bhag
+94	94 - Utkramit Madhya Vidhalay Madhuchapra
+95	95 - Utkramit madhya vidyalya bakhri bairagi tola
+96	96 - madhay vidhalay rajapur Machchhrangi
+97	97 - prathmik vidhalay govindapur
+98	98 - Panchayat Bhavan Bakhari
+99	99 - madhya vidhalay mannpur purvi bhag
+100	100 - madhay vidhalay mannpur paschim bhag
+101	101 - prathmik vidhalay jamunapur kathi tola
+102	102 - prathmik vidhalay kanya sisva kharar
+103	103 - MADHAY VIDHALAY SISVA KHARAR DAYA BHAG
+104	104 - madhyay vidhyalay siswa kharar baya bhag
+105	105 - Utkramit Madhaya Vidhalaya Siswa Patna Harijan Belwatiya
+106	106 - Uchcha Vidyalay Sisava Patana (Pu.Bha.)
+107	107 - ucch vidhalya siswa patana pachami bhag
+108	108 - madhyay vidhyalay hajipur
+109	109 - Utkramit madhya vidyalya gavandri purvi bhag
+110	110 - utkramit madhya vidhalay gawandri paschim  bhag
+111	111 - prathimik Vidyalay jamunapur isthgarib tola
+112	112 - prathmik vidhalaya gariba baya bhag
+113	113 - prathmik vidhalya gariba daya bhag
+114	114 - utkramit madhya vidyalya balua gariba purvi bhag
+115	115 - Utkramit Madhya Vidhalay baluwa Gariba pachimi bhag
+116	116 - utkramit madhya vidyalay gavendri purvi bhag
+117	117 - utkramit madhya vidhalaya khatolawa Gavandri pashchimi bhag
+118	118 - prathimik viadhalay rai tola daya bhag
+119	119 - prathimik vidhalay rai tola baya bhag
+120	120 - Madhya vidaylay shambhu chak
+121	121 - Ma.Vidyalay shambhu chak Pashchimi Bhag Baya
+122	122 - madhyay vidhyalay shambhu chak pachimi bhag daya
+123	123 - Utkramit Madhya Vidhalaya khokhara Purvi Bhag
+124	124 - Utkramit Madhya Vidhalaya Khokhra West Part
+125	125 - Prathamik Vidyalay Andhra Chhapra
+126	126 - Prathmik vidyalay Math Govardhan sthit Siswa
+127	127 - Madhya Vidyalay Bakarpur
+128	128 - Prathmik Vidyalay Bakarpur Urdu East Part
+129	129 - Prathamik Vidyalay Fulavariya
+130	130 - Madhya Vidyalay Barharwa Mahanand East Part
+131	131 - Madhy vidhalybaraharwa mahanad pashkmi bhag
+132	132 - Utkramit Madhya Vidhalaya Bakhari Mahesh
+133	133 - Prathamik Vidyalay Urdu Kalyanapur North Part
+134	134 - prathmik vidhalaya urddu kalyanpur dhashchini bhag baya
+135	135 - Prathamik Vidyalay Urdu Kalyanapur South Part
+136	136 - Madhya Vidhyalay Tulasi Patti
+137	137 - Prathmik Vidyalay Manglapur Left Part
+138	138 - Prathmik Vidyalay Manglapur right Part
+139	139 - Utkramit Madhya Vidhalay Alaula hindi
+140	140 - Madhya Vidyalay Bahlolpur Saraki Right Part
+141	141 - Prathamik Vidyalay Sisava BasantMadhya Vidyalay Bahlolpur Garbi left  Part
+142	142 - Utkramit Madhya vidhalaya Meghua
+143	143 - Utkramit Madhya Vidhalaya Urdu Siswa Sob East Part
+144	144 - Utkramit Madhya Vidhalaya Siswa Sob West Part
+145	145 - Prathmik Vidyalay Ahiman Chhapara Sthat Ahimanava
+146	146 - Utkramit madhya Vidhalaya fulwariya
+147	147 - म.वि.कैथवलिया
+148	148 - Prathmik Vidyalay Harpur, Pipra Ke Nikat Pipra Nanhkar
+149	149 - मध्य विधालय पकड़ी दीक्षित
+150	150 - Panchayat Bhavan Pakadi Dikshit Left Part
+151	151 - Panchayat Bhawan Pakari Dikshit Daya Bhag
+152	152 - utkramit madhya vidhalay jagdishpur
+153	153 - Prathmik Vidyalay Hanuman Nagar
+154	154 - Prathamik Vidhyalay Madhopur Vrindavan East Part
+155	155 - Prathamik Vidyalay Madhopur Vrindavan West Part
+156	156 - Rajkiya Utkramit Madhaya Vidhalaya  Alakhbani Urdu
+157	157 - Utkramit madhya Vidhalaya Siswa Basant Left Part
+158	158 - Utkramit Madhya Vidhalaya Siswa Basant Right Part
+159	159 - Prathmik Vidyalay Parsauni Vrindaban South Part
+160	160 - Prathmik Vidyalay Parsauni Vrindaban Utar Part
+161	161 - MADHAY VIDHAYALAY SHITALPUR BAYA BHAG
+162	162 - MADHYA VIDYALAY SHITLAPUR DAYA BHAG
+163	163 - Rajkiya Prathamik Vidhalaya Sawana
+164	164 - Prathamik Vidhalaya Shitalpur Sawana
+165	165 - Mdhya vidhalay  Sirsapatti  Shitalpur Poorvi Bhag
+166	166 - madhya vidhalay sirsapatti paschim bhag
+167	167 - madhya vidhalay sirsapatti shitalpur
+168	168 - Rajkiya Madhya vidhalaya patakhauliya
+169	169 - Utkramit Madhya Vidhalaya patkhauliya kanya
+170	170 - utkramit madhya vidhalaya koyla belwa daya bhag purvi
+171	171 - Utkramit Madhya vidhalaya koyala belawa daya bhag pashchimi
+172	172 - Utkramit madhya  Vidyalay koyala belawa baya bhag
+173	173 - Prathamik Vidyalay bangara isthth baraitha daya bhag
+174	174 - Prathamik Vidyalay bangra isthit baritha baya bhag
+175	175 - utkramit madhya Vidhalaya bakhari
+176	176 - Utkarmit  Madhy Vidyalay  Ramdiha Urdu Daya bhag
+177	177 - utkarmit madhy bidhyalay ramdiha urdu baya bhag
+178	178 - Rajkiya Utkramit Madhya Vidhalaya Ramdiha Urdu
+179	179 - prathmik bidhyaly gabndra (kanya)
+180	180 - UTKRIMIT MADHA VIDHAYALAY GVNDRA
+181	181 - UTKRIMIT MADHA VIDHALAY GVNDRA PASHIM BHAG
+182	182 - उत्क्रमित मध्यविधालय कोइरगावा
+183	183 - prathmik vidhalya puran chapra
+184	184 - Utkramit madhya vidhalaya nagarganwa utar bhag
+185	185 - Utkramit Madhya vidhalaya nagargawa dakshin bhag
+186	186 - prathmik vidhalay sahata
+187	187 - प्राथमिक विधालय शेरपुर
+188	188 - prathmikvidhalayvishunpur basghat
+189	189 - Utkramit madhya vidhalaya hasanpurwa utar bhag
+190	190 - Utkramit madhya vidhalaya hasanpurwa dakshin bhag
+191	191 - madhya vidhalay basghat purvi bhag
+192	192 - madha vidhyalay bashghat pashchim bhag
+193	193 - madhya vidhalay basghat madhya bhag
+194	194 - Utkramit Madhya vidhalaya manshi chhapra daya bhag
+195	195 - Utkramit Madhya vidhalaya manshi chhapra baya bhag
+196	196 - madhya vidhalay bhuan chhapra daya bhag
+197	197 - madhya vidhyalay bhuan chhapra baya bhag
+198	198 - Utkramit Madhya Vidhalaya Kharki Kuan Daya Bhag
+199	199 - utkramit madhya vidhalaya kharki kuan baya bhag
+200	200 - panchyat bhawan bhuwan chhapra
+201	201 - Utkramit Madhya Vidhalay Devpur
+202	202 - panchyat bhwan mani chhapra daya
+203	203 - panchyat bhwan mani chhapra baya
+204	204 - sri ram kla buniyadi bidhyaly madhopur gobind
+205	205 - Utkramit Madhya vidhalaya paltu belwa

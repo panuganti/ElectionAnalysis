@@ -1,0 +1,216 @@
+1	1 - Upgraded Middle School Patapara Uttar ( South Side )
+2	2 - Upgraded Middle School Patapara Uttar ( North side)
+3	3 - Primary School Patapar ( South)
+4	4 - Primary School Bharapura Dih East Side
+5	5 - Primary School Bharapura Dih West Side
+6	6 - Upgraded Middle School Chochai Bharpura
+7	7 - samudaik bhawan musahari tola chochahi
+8	8 - Primary School Belsandi Tara Brahaman Tol
+9	9 - Middile School Belsandi tara
+10	10 - panchyat bhawan   Belasandi Tara
+11	11 - Kramshala Bhavan Belsandi Tara
+12	12 - Primary School haman Fulwariya east side
+13	13 - Primary School, Fulavariya (West side)
+14	14 - Upgraded Middle School Sindhiya Bujurg left part
+15	15 - Nirikshan Bhavan Singhiya Ghat
+16	16 - Primary  Makatab Sindhiya Bujurg Tole Fakaratakiya
+17	17 - Community Hall  Pani Tanki Ke Samip Sindhiya Bujurg
+18	18 - Upgraded Middle School, salkhanni left part
+19	19 - Upgraded Middle School Salkhanni left part
+20	20 - Upgraded Middle School Mahathi Tol Sonavarachak(East Side)
+21	21 - Upgraded Middle School Mahathi Tol Sonavarachak ( West side)
+22	22 - Portable Booth  Gandak Nadi Ke Daya Tatabandh par Khesara SaO  112232
+23	23 - primary school mohanpuur ward no. 13
+24	24 - Community Hall Chura Par Mahathi Ram Tol
+25	25 - Gram Panchayat Bhavan Tole Mahathi
+26	26 - Primary school  Mandaya
+27	27 - Angan Badi Kendra Bhidi Sindhiya Bujurg Dakshin
+28	28 - Prathamik Vidyalay,Birasahiya
+29	29 - Radhunandan Seth High School Sindhiya Bujurg(East side)
+30	30 - Radhunandan Seth High School  Sindhiya Bujurg(West side)
+31	31 - Panchayat Bhavan Sindhiya Bujurg South
+32	32 - Primary School, Kodariya Gauth
+33	33 - Upgraded Middle School Kodriya tole pharpur right part
+34	34 - Pugraded Middle School Kodariya Tole Paharpur left part
+35	35 - Upgraded Middle School Mahathi Tola Alampur  West part
+36	36 - Upgraded Middle School Alampur ( East side)
+37	37 - Community House Mushahari Alampur
+38	38 - Upgraded Middle School Belsandi Dih West Part
+39	39 - Upgraded Middle School Belsandi Dih ( East side)
+40	40 - Primary School Madadiha
+41	41 - Upgraded Middle school, Bajidapur Bambaiya Tole East tol ( Left side)
+42	42 - Upgraded Middle  School Bajidapur Bambaiya East Tola Right side
+43	43 - Upgraded Middle School, Bajidapur Bambaiya West part
+44	44 - Primary School mahisi North part
+45	45 - Primary School Mahishi east part
+46	46 - Upgraded Middle School, Mahishi Ishwar Tola south
+47	47 - Upgraded middle School Mahishi Ishwar Tola Utter side
+48	48 - t Primary School mahishi Uttar side
+49	49 - Upgraded Middle School Rupauli Khurd
+50	50 - Middle School Kerai ( North side)
+51	51 - Middle School Kerai ( South side)
+52	52 - Primary School Kerai Dih ,Left side
+53	53 - Primary School Kerai Dih kerai dih
+54	54 - Sanskrit primary school Mushahara
+55	55 - Upgraded Middle School  Kerai tole Sarapati
+56	56 - Upgraded School, Shahapur Parohi
+57	57 - Community building chakhoja Mushar toli
+58	58 - Upgraded Middle School Chakahavib (East side)
+59	59 - Upgraded  School chkhbib  north Part
+60	60 - Middle School, chakhbib  west part
+61	61 - Middle School Chakahavib ( Middle Side)
+62	62 - Middle School Chakahavib north part
+63	63 - Primary School Mustafapur North side
+64	64 - Agan Bari Kandra Bhavan Mustafapur ( Left side)
+65	65 - Agan Bari Kendra Bhavan Mustafapur ( Right side)
+66	66 - Upgraded Middl School Mustafapur ( North side)
+67	67 - Upgraded Middle School, Mustafapur (South Side)
+68	68 - Upgraded Girl  Middle School Milki, Bhumihar Tol
+69	69 - Pachayat building , Kalyanpur ( East side)
+70	70 - Panchyat building Kalyanpur ( West side)
+71	71 - Primary School Kalyanpur Benipur Koina
+72	72 - Primary Girl School Kalyanpur Gadh
+73	73 - Middle School Kalyanpur ( West side)
+74	74 - Middle School , Kalyanpur ( East side)
+75	75 - Primary School,  Vishanapur Shishabanni
+76	76 - Middle School, Samartha
+77	77 - Portable booth ,  Gwal Tol Samartha Gairamajarua Am,Khesara Na0-1147 Pokhar Bhida Pakad Ped Ke Niche
+78	78 - Primary School Gwal Tol Samartha
+79	79 - Upgraded Middle School Kalyanpur Bhisun tol
+80	80 - Middle School Khokasaha  East side to left part
+81	81 - middle school khoksaha east to right part
+82	82 - Middle School Khokasaha (West Side to left part
+83	83 - middle school khaksaha west to left part
+84	84 - Primary School Madhopur ( West side) right part
+85	85 - Primary school, madhopur middle part
+86	86 - Primary School Madhopur ( East side)
+87	87 - Middle School Kapan ( South Side)
+88	88 - Middle school kapan middle part
+89	89 - Middle School Kapan ( North Side)
+90	90 - High School Sirasi
+91	91 - Primary Girl School Sirasi
+92	92 - Primary School Ekadara North
+93	93 - Upgraded Middle School Ekadara ( Left side)
+94	94 - Upgraded middle school academy, right side
+95	95 - Middle School Mohanpur Mahathi
+96	96 - Panchayat building Boriya Dih
+97	97 - Upgraded Middle School Baso Tol Narahan
+98	98 - Middle School Manaray Tol
+99	99 - Upgraded middle school boriya dih
+100	100 - Primary School Narhan Rayapatati right part
+101	101 - primary school narhan raipatti right side
+102	102 - Primary Girl School Narahan (South Side)
+103	103 - Primary Girls School Narahan ( North Side)
+104	104 - Middle School Narahan left part
+105	105 - Middle school right part
+106	106 - High School Narahan
+107	107 - Divan Bahadur Kameshwar Narayan Sinngh College Narahan right part
+108	108 - Divan Bahadur Kameshwar Narayan Sinngh College Narahan left part
+109	109 - Upgraded Middle School Khadiyahi ( East side)
+110	110 - Upgraded Middle School Khadiyahi ( West side)
+111	111 - Upgraded middle school khadiyahi middle part
+112	112 - Middle School Shahapur Basauna
+113	113 - Primary School Bibhutipur
+114	114 - Primary Urdu School Bibhutipur
+115	115 - Upgraded Girls Middle School Bibhutipur
+116	116 - Panchayat building Bhusavar
+117	117 - Upgraded Middle School, Bhusavaradih
+118	118 - Upgraded Middle School  Litiyahi ( Left side)
+119	119 - Upgraded Middle School litiyahi right part
+120	120 - Upgraded Middle School Basauna Bhusavari ( left side)
+121	121 - Upgraded Middle School Sahpur Litiyahi ( Right Side)
+122	122 - Primary School, Rotaganna
+123	123 - Middle School, Banahaiti
+124	124 - Primary School Saidpur
+125	125 - MiddleSchool chod surari right part
+126	126 - Middle school chandsurari left part
+127	127 - Upgraded Middle SchoolChora  Ramachandrapur ( Left side)
+128	128 - Upgraded MiddleSchoolChora Ramachandrapur ( Right side)
+129	129 - Upgraded Middle School, Mishrauliya
+130	130 - High School Mishrauliya
+131	131 - Primary School  Sakara Maithli tola  Saraiya
+132	132 - Upgraded Middle School Mahammadapur Sadara ( Middle Side)
+133	133 - Community Hall Mahammadapur Sakara, Viran Ram Ke Ghar Ke Nikat
+134	134 - Upgraded Middle School Mahammadapur Sakara (Right side)
+135	135 - Upgraded Middle  School Muhammadapur Sakara ( Left side)
+136	136 - Upgraded Middle School Muriya Sthan Muhammadapur Sakara
+137	137 - Middle School, Tabhaka
+138	138 - High School Tabhaka ( Left Side)
+139	139 - High school tabha  middle part
+140	140 - High School , Tabhaka ( Right Side)
+141	141 - Primary School  Pandit tol Tabhaka
+142	142 - Middle School Khamhar
+143	143 - Primary  School, Tole Narayan
+144	144 - Primary School balha
+145	145 - Primary School Dih Tabhaka
+146	146 - Primary school Prushotampur
+147	147 - Primary School Bariyarapur
+148	148 - Upgraded Middle School Chakahavib (East side)
+149	149 - Primary School Surauli North Tol
+150	150 - Upgraded Middle School, Damodarpur ( West side)
+151	151 - Upgraded Middle School, Damodarapur ( East side)
+152	152 - prathamick bidhayalay bariyarpur
+153	153 - Middle school raghopur right part
+154	154 - middle school Raghopur left part
+155	155 - Upgraded Middle School Gangauli ( North side)
+156	156 - Upgraded Middle School Gangauli ( South side)
+157	157 - Primary School Vijaiya Manda
+158	158 - Middle School Surauli
+159	159 - Upgraded Middle School Zahura Sakhamohan
+160	160 - Primary School Shyamavaha Sakhmohan South
+161	161 - Upgraded Middle School Badiya Sakhmohan
+162	162 - Portable booth Khesara Sankhya 1037/909 Teli Tol Sakhamohan (South side)
+163	163 - Portable booth  Khesara Sankhya 1037/909 Teli Tol Sakhamohan (North side)
+164	164 - Middle School Sakhamohan ( East side)
+165	165 - Middle School Sakhamohan (West side)
+166	166 - Primary School, Patailiya Pashchim ( West)
+167	167 - Davakara D. W. C. R. A. building Patailiya
+168	168 - Primary Girl School Patailiya Harijan
+169	169 - Community Hall Sahani Tol Patailiya
+170	170 - maddhay viddlay saakhmohan paccahimi  bhag
+171	171 - Sanskrit School Badiya Patailiya
+172	172 - Upgraded Middle School Diyanatapur Patailiya
+173	173 - Upgraded Middle School ( Right side)
+174	174 - Middle School Karrakh (Left side)
+175	175 - Middle School Patailiya
+176	176 - Panchayat building Desari
+177	177 - Middle School Desari (South side)
+178	178 - Middle School, Desari ( North side)
+179	179 - Upgraded Middle School Pakhahi ( Nadi ke Dakshin)
+180	180 - Primary School Makadamapur
+181	181 - Upgraded Middle School Konaila
+182	182 - Upgrade Middle School, Raghuvarapur
+183	183 - upgraded middle school desri middle part
+184	184 - Upgrade Primary Girl School Balukipur ( West side)
+185	185 - Primary Girls School, Bulakipur ( East side)
+186	186 - Comminity Hall Kamarov
+187	187 - Upgraded Middle School, Konaila
+188	188 - Upgrded Middle School Kamarov Usarahi Pokhar ( North side)
+189	189 - Panchayat building, Kamaronv
+190	190 - Upgraded Middle School Shambhu
+191	191 - Middle School, Malapur ( South Side)
+192	192 - Middle School Malapur ( North side)
+193	193 - Panchayat building Malapur
+194	194 - Chaupal building  Ramapur,Jalalapur Taule Malapur
+195	195 - Upgraded Middle School Gosapur, ( East side)
+196	196 - Upgraded Middle School Sambhua
+197	197 - Primary School Rampur Jalalpur West
+198	198 - Middle School Malpur North Side
+199	199 - Panchayat building , Ramapur Jalalapur
+200	200 - Primary Teachers Training College , Rampur Jalalpur (South side)
+201	201 - Upgraded Middle School Gospur  East Part
+202	202 - Primary School Bhatagama
+203	203 - Primary school Rampur west Side
+204	204 - Upgreded Girls Midlle School Jalalpur  Rampur
+205	205 - Upgraded Middle School Khokasa
+206	206 - Upgraded Girl Middle School Bambaiya Haralal ( West building )
+207	207 - Upgraded Middle School Bambaiya Harlal ( East side)
+208	208 - Upgraded Middle School,  Bambaiya Haralal Dih
+209	209 - Upgraded Middle School, Ajnoul right part
+210	210 - Upgraded Middle School Ajnaul left part
+211	211 - Upgraded middle school, East Ajnaul
+212	212 - Upgraded middle school khosaha
+213	213 - Upgraded Middle school Bambaiya harial west part
+214	214 - Upgraded Middle school bambaiya harial east part
+215	215 - Upgraded Middle school bambaiya harial dih
+216	216 - Upgraded middle school, oriyama

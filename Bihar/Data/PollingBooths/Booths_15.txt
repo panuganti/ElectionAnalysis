@@ -1,0 +1,202 @@
+1	1 - rajkiya madhay vidhalay murli baya bhag
+2	2 - rajkiya madhy vidhalay murli daya bhag
+3	3 - prathmik shikshk prashikshan mahavidhalya dariyapur baya bhag
+4	4 - prathmik shikshak prashishan mahavidhalay dariya pur daya bhag
+5	5 - prathmik vidhalya pachbhirwa
+6	6 - utkrmit madhay vidhalya indargachhi
+7	7 - Urdu Utkramit Madhya Vidhalaya Dariyapur
+8	8 - madhy vidhalay madhubani dube tola
+9	9 - prathmik vidhalya panday tola ghardan
+10	10 - utkrmit madhy vidhalya madhubani baya bhag
+11	11 - utkrmit madhy vidhalya madhubani purvi
+12	12 - madhya vidalya madhubani baya bhag
+13	13 - nirmala panday ucch vidhalya madhubani
+14	14 - utkrmit madhy vidhalya bhtoli madhubani
+15	15 - utkramit madhya vidalya pratap mathiya
+16	16 - Utkramit Madhya Vidhalaya Ghusiyar Madhubani Baya Bhag
+17	17 - Utkramit Madhya Vidhalaya Ghusiyar Madhubani Daya Bhag
+18	18 - Utkramit Madhya Vidhalaya Parsauna Madhubani Baya Bhag
+19	19 - Utkramit Madhya Vidhalaya Parsauna Madhubani Daya Bhag
+20	20 - Prathamik Vidhalaya Nandpur Madhubani
+21	21 - Madhaya Vidhalaya Sabalpur
+22	22 - Utkramit Madhya Vidhalaya Indragachhi Navin
+23	23 - prathmik vidalya bariyariya
+24	24 - Prathamik Vidyalay Bariyariya dakshin bhag
+25	25 - prathmik vidalya bariyariya purvi bhag
+26	26 - Prathmik Vidhalay Bariyariya Pashchim Bhag
+27	27 - kanya madhya vidalya bariyariya
+28	28 - uday bhadur singh ucch vidalya jalha
+29	29 - Utkramit Madhaya Vidhalaya Jalahan Baya Bhag
+30	30 - Utkramit  Madhya Vidhalya Jalahan Daya Bhag
+31	31 - Madhaya Vidhalaya Mangalapur Bariyariya Baya Bhag
+32	32 - Madhya Vidhalya Manglapur Variyariya Tola Rajpur Daya Bhag
+33	33 - dak bangla manglapru
+34	34 - Utkramit Madhyamik Vidhalaya shyampur baya bhag
+35	35 - Utkramit Madhyamik Vidhalaya Shyampur Daya Bhag
+36	36 - Prathamik Vidyalay sikanderpur
+37	37 - madhya vidalya new besik barwa baya bhag
+38	38 - Madhya Vidyalay new besik barwa baya bhag
+39	39 - prathmik vidalya chandpur
+40	40 - Utkramit Madhya Vidhalaya Bhatkarya
+41	41 - prathmik madhya vidalya kurkut ray mathiya uttar bhag
+42	42 - rajkiye madhya vidalya kurkut ray mathiya purvi bhag
+43	43 - rajkiye utkramit madhya vidalya nrullah pandey tola uttar bhag
+44	44 - rajkiye utkramit madhya vidalya nrullah pandey tola dakshin Dakshin  bhag
+45	45 - Utkramit Madhya Vidhalaya Nautan
+46	46 - Prathmik Vidhalya Gousnagar Baya Bhag
+47	47 - prathmik vidalya gous nagar Daya  bhag
+48	48 - utkramit madhya vidalya thikhan bvhawanipur
+49	49 - besik school bhawanipur baya bhag
+50	50 - besik school bhawanipur daya bhag
+51	51 - panchayat bhawan purvi bhag
+52	52 - panchayat bhawan bhawanipur paschmi bhag
+53	53 - Utkramit Madhya Vidhalaya Bhawanipur Bathani Tola
+54	54 - utkramit madhya vidalya chapra urf mtwa ram
+55	55 - Madhya Vidhalya Pakadi Baya Bhag
+56	56 - madhya vidalya purvi bhag
+57	57 - Madhya Vidhalya Pakadi Paschimi Bhag
+58	58 - prathmik vidalya bghiistith dumariya baya bhag
+59	59 - prathmik vidhalya bghi istith dumariya daya bhag
+60	60 - utkramit madhya vidalya badurha tola misr baya bhag
+61	61 - Utkramit Madhaya Vidhalaya Badurahan Tola Kamala Mishra
+62	62 - Utkramit Madhaya Vidhalaya Rampurwa Patkhauliya
+63	63 - prathmik vidalya redwaniya purvi bhag
+64	64 - prathmik vidalya redwaniya paschmi bhag
+65	65 - rajkiy madhya vidhalya huseni paschim bhag
+66	66 - rajkiy madhya vidalya huseni purvi bhag
+67	67 - Utkramit madhya vidhalaya kukurbhuka
+68	68 - di o pi o ucch vidhlaya husaini uttar bhag
+69	69 - D.P. ucch vidalya hussaini dakshni  bhag
+70	70 - utkrmit madhy vidhalya husaini pasvhimi bhag
+71	71 - utkrmit madhy vidhalya husaini pasvhimi purvi bhag
+72	72 - utkrmit madhy vidhalya husaini pasvhimi bhag
+73	73 - samudayak bhawan rampur khajuriya
+74	74 - utkrmit madhy vidhalya dubauli toli rampur khajuriya baya bhag
+75	75 - utkramit madhya vidalya dubauli toli rampur khajuriya daya bhag
+76	76 - madhy vidhalya rampur kharuriya daya bhag
+77	77 - madhy vidhalya rampur khajuriya baya bhag
+78	78 - sanskrit Utkramit Madhya Vidhalaya rampur khajuriya
+79	79 - prathmik vidhalya badharwa khurd baya bhag
+80	80 - prathmik vidhalya badharwa khurd daya bhag
+81	81 - utkrmit madhy vidhalya semua pur purvi bhag
+82	82 - Utkramit Madhya Vidhalaya semua pur pakchim bhag
+83	83 - madhay vidhalya sarotar
+84	84 - ucch vidhalya sarotar uttar bhag baya
+85	85 - ucch vidhalya sarotar uttar bhag daya
+86	86 - ucch  vidhalaya sarotar dakshni bhag baya
+87	87 - Uchcha Vidhalaya Saritar dakshin  Bhag daya
+88	88 - utkrmit madhy vidhalya dhangdha uttar bhag
+89	89 - Utkramit Madhaya Vidhalaya Dhangadaha dakshin Bhag
+90	90 - utkramit madhya vidalyapuraina baya bhag
+91	91 - Utkarmit Madhaya Vidhalay Puraina daya bhag
+92	92 - nadhya vidalya purvi bhag
+93	93 - madhya vidalya bhagwatiya parsa purvi bhag
+94	94 - Rajkiya Uchchha vidhalaya chand parsa purvi bhag
+95	95 - rajkiya ucch vidhalya chand parsa paschimi bhag
+96	96 - Utkrmit madhy vidhalya narayanpur banparua
+97	97 - Utkramit Madhya Vidhalaya KHIJIRPURA UTTAR BHAG
+98	98 - Utkramit madhya vidhalaya khizirpura uttar bhag
+99	99 - PRATHMIK VIDHALYA KHAP GOPALPUR
+100	100 - madhy vidhalya naya gaw baya bhag
+101	101 - madhya vidalya nya gao daya bhag
+102	102 - prathamik vidhyalay benipur uttar bhag
+103	103 - prathmik  vidalya benipur dakshin bhag
+104	104 - madhy vidhalaya mahmudpur baya bhag
+105	105 - Rajkiya Madhya Vidhalaya Mahammadpur
+106	106 - prathmik vidalya kesariya dakshini tola pr purvi bhag
+107	107 - prathmik vidalya kesariya dakshini tola pachim  bhag
+108	108 - madhya vidhalya lohargawa
+109	109 - laxmi sanskrit ucch vidalya lohargawa
+110	110 - Utkramit Madhya Vidhalaya sarangpur
+111	111 - ytkramit madhya vidalya utter bhag
+112	112 - utkramit madhya vidalyakusher dakshin bhag
+113	113 - Urdu Vidhalaya Kundwan
+114	114 - prathmik vidalya urdu gochi
+115	115 - Prathamik Vidhalaya Tajpur Milki
+116	116 - utkramit madhya vidalya bairiya hindi
+117	117 - utkrmit madhy vidhyalay ramnath ray ke tola bairiya
+118	118 - rajkiya madarsa rampur bairiya
+119	119 - ucch vidhayaly bairiya
+120	120 - utkrmit madhy vidhalya baradih bairiya
+121	121 - madhy vidhayal kadhan purvi bhag
+122	122 - Madhya Vidyalay kadan pashchimi bhag
+123	123 - utkarmit madhay vidhayal bramashtan kadhan
+124	124 - sahkarita gofam dhekha baya bhag
+125	125 - sahkarita gofam dhekha
+126	126 - prathmik vidalya majhariya
+127	127 - kanya madhya vidalya dhekha utter bhag
+128	128 - kanya madhya vidalya dekha dakschin bhag
+129	129 - prathmik vidalya bhusouliya sundra pur
+130	130 - Utkramit Madhya vidhalaya sundrapur mauje
+131	131 - Utkramit Uchcha vidalya sundrapur new bhawan purvi bhag
+132	132 - Utkramit Uchcha vidhalaya sundrapur nya bhawan paschim bhag
+133	133 - Utkramit madhya vidhalaya diyara tola sundra pur
+134	134 - rajkiy madarsa rampur kodar purvi bhag
+135	135 - rajkiy madarsa rampur paschim bhag
+136	136 - Prathamik Vidyalay lala chapra ojhwaliya
+137	137 - Utkramit madhya vidhalaya lala chapra naveen daya bhag
+138	138 - Utkramit Madhya vidhalaya lala chapra naveen baya bhag
+139	139 - madhya vidalya tajpur patkhouliya purvi bhag
+140	140 - madhya vidalya tazpur patkhouliya paschin bhag
+141	141 - Utkramit Madhya Vidhalaya manohar chhapra
+142	142 - Prathamik Vidyalay badhai tola sundrapur
+143	143 - madhya vidalya bizdhari diliya bazar uttar bhag
+144	144 - madhya vidalya bizdhari diliya bazar dahschin bhag
+145	145 - Utkramit Madhya vidhalaya harizan bizdhari mafi
+146	146 - utkramit madhya vidalya ghusukpur sundra pur
+147	147 - prathmik vidalya praduman chapra ramkamal thakur ka tola
+148	148 - utkramit madhya vidalya chakdariya baya bhag
+149	149 - utkramit madhya vidalya chakdariya daya bhag
+150	150 - urdu madhta vidalya bathna baya bhag
+151	151 - Prathamik Vidyalay zagirha
+152	152 - prathmik vidhalya hini kesariya Purwi Bhag
+153	153 - prathmik vidalya hini kesariya  (Pashchimi Bhag)
+154	154 - Rajkiya Kanya Madhya Vidyalay Keshriya Daya Bhag
+155	155 - Rajkiya Kanya Madhya Vidyalay Keshriya Baya Bhag
+156	156 - gandak yojna karyalya baisakhwa daya bhag
+157	157 - gandak tojna karyalya baisakhwa baya bhag
+158	158 - zila parisad karyalya hamidpur kesariysa
+159	159 - aarya kanya priject ucch vidalya kesariya
+160	160 - madgya vidalya fultakiya daya bhag
+161	161 - madhya vidalya fultakiya baya bhag
+162	162 - Utkramit Madhya vidhalaya derwa
+163	163 - panchayat bhawan mathiya purvi bhag
+164	164 - panchayat bhawan mathiya paschim bhag
+165	165 - madhya vidhalya bankat
+166	166 - prathmik vidhalya bankat mafi
+167	167 - Utkramit madhya vidhalaya konahiya hindi Raghunathpur purvi Bhag
+168	168 - Utkramit madhya vidhalaya konhiya hindi raghunathpur pashchimi bhag
+169	169 - mdhya vidalya raghunathpur purvi bhag
+170	170 - madhaya vidalya raghunathpur paschin bhag
+171	171 - prathmik vidalya khora
+172	172 - madhya vidalya subaiya purvi bhag
+173	173 - madhya vidalya subaiya paschim bhag
+174	174 - Utkrmit madhy vidalya kthariya
+175	175 - Utkramit Madhya Vidhalaya Musaulava Darmaha Daya Bhag
+176	176 - Utkramit Madhya Vidhalaya Musaulava Daramaha Baya Bhag
+177	177 - utkramit nadhya vidalya darmaha paschim bhag
+178	178 - utkramit nadhya vidalya drmaha purvi bhag
+179	179 - prathmik vidalya ramgarwa
+180	180 - madhya vidhalya rajpur kamra no. 1 1
+181	181 - madhya vidhalya rajpur kamra no. 2
+182	182 - madhya vidalya rajpur kamra no.3
+183	183 - Madhaya  Vidhalaya Rajpur Kamra no .4
+184	184 - Utkramit Madhya Vidhalaya Ganeshpur
+185	185 - prathmik vidalya bahuaara hrwans
+186	186 - Utkrmit madhy vidalya bahuaara sujan kanya
+187	187 - Utkramit Madhya Vidhalaya Mathjagdish
+188	188 - ganday yojna karyalya narayanpur r.d. no 554
+189	189 - prathmik vidalya harozan toli pipra khem
+190	190 - ucch vidalya pipra khem utter bhag
+191	191 - ucch vidalya pipra khem utter bhag
+192	192 - utkramit madhya vidyalya manoharpur
+193	193 - madhya vidalya dilawarpur paschim bhag
+194	194 - madhya vidalya dilawarpur purvi bhag
+195	195 - ucch vidalya dilawarpur
+196	196 - prathmik vidalya bhaganpur
+197	197 - prathmik vidalya balmi nanhkar
+198	198 - UTKARMIT MADHAY VIDHALAY GANESH SIRSIYA
+199	199 - Utkarmit  Madhya Vidhyalya Balmi Sirsiya
+200	200 - Madhaya Vidhalaya Medan Sirsiya Purvi Bhag
+201	201 - madhya vidalya medan sirsiya paschim bhag
+202	202 - utkramit madhya Vidhalya Ganga Sirasiya

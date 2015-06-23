@@ -1,0 +1,209 @@
+1	1 - Prathamik Vidyalay, Saray Hamid
+2	2 - Prathamik Vidyalay, Naya Tol Siraniya
+3	3 - Prathamik Vidyalay, Siraniya Gharari
+4	4 - Utkramit Middle School Vilaspur
+5	5 - Utkramit Middle School Vilaspur New Building
+6	6 - Prathamik Urdu Girl School Vilaspur (East Part)
+7	7 - Primary Urdu Girls School Bilaspur West Part
+8	8 - Anusuchit jati Darwaja, sirniya
+9	9 - Utkramit Middle School, Akraha North
+10	10 - Primary School Akraaha South
+11	11 - Balika Madhya Vidyalay, Hayaghat Siraniya
+12	12 - Bairoliya Middle School, Hayaghat Sirniya
+13	13 - Utkramit Middle School Rustampur
+14	14 - Panchayat Bhavan,Makshudpur Pauram
+15	15 - tkramiit Middle School, Maksudpur
+16	16 - Prathamik Vidyalay, Rajauli
+17	17 - Utkramit Middle School, Pauram
+18	18 - Samudayik Bhavan,  BatarTolPauram
+19	19 - Utkramit Middle School Manpurkharra Sajhauti
+20	20 - Utkramit Middle School Manpur Khara Navin
+21	21 - Utkramit Middle School Rasulpur Urdu Uttar Tool (East Part)
+22	22 - Utkramit Middle School Rasulpur Urdu Uttar Tool (West Part)
+23	23 - Utkramit Middle School, Oliyabad West Part
+24	24 - Utkramit Middle School Auliyabad (West Part)
+25	25 - Madarasa Rasulpur (East Part)
+26	26 - Madarasa Rasulapur (West Part)
+27	27 - Utkramit Middle School, Rasoolpur, Hindi East Part
+28	28 - Utkramit Middle School, Rasoolpur, Hindi West Part
+29	29 - Anusuchit jati Darwaja, Ghoshrama
+30	30 - Primary School, Ghoshrama
+31	31 - Utkramit Middle School, Bansdih (North Part)
+32	32 - Utkramit Middle School, Bansdih South Part
+33	33 - Prathamik Vidyalay Indiranagar
+34	34 - Utkramit Middle School, Baluaha Urdu
+35	35 - Utkramit Middle School, Balha , East Part
+36	36 - Utkramit Middle School, Balha , West Part
+37	37 - Primary School, Mohammadpur,Sirniyapur Siraniyo
+38	38 - Utkramit Middle School,Usma
+39	39 - Anusuchit jati Darwaja, Ratanpura , East Part
+40	40 - Anusuchit Jati Darwaja, Ratanpura (West Part)
+41	41 - Primary School, Ratanpura
+42	42 - Middle School, Malhipatti, East Part
+43	43 - Middle School, Malhipatti, West Part
+44	44 - Rajkiya Vuniyadi Vidyalay Srirampur
+45	45 - Prathamik Vidyalay, Paramanandapur
+46	46 - Utkramit Middle School, Hawasa Old Bhwanna Bhavan
+47	47 - Utkramit Middle School, Hawasa , New building
+48	48 - Utkramit Middle School, Baliya Parmar
+49	49 - Anusuchit jati Darwaja,  (Dumri)
+50	50 - Samudayik Bhavan, Navaka Tol
+51	51 - Utkramit Middle School, Manorathpur
+52	52 - Utkramit Middle School, Vishanpur
+53	53 - Middle School, Basaha Mirzapur Noth Part
+54	54 - Madhya Vidyalay, Basaha Mirzapur South Part
+55	55 - Primary School  Pator Kanya Aganbari Kendra No - 86
+56	56 - Prathamik Vidyalay Pator Kanya North Part
+57	57 - Prathamik Vidyalay Pator Kanya South Part
+58	58 - Prathamik Vidyalay Pator Kanya Naya Bhawan West Part
+59	59 - Kanya Middle Vidyalay Pator East  Part
+60	60 - Kanya Madhya Vidyalay Pator West Part
+61	61 - Prathamik Vidyalay  Sidhauli Urdu
+62	62 - Madhya Vidyalay Sidhauli
+63	63 - Prathamik Vidyalay, Anar urdu uttar bhag
+64	64 - Prathamik Vidyalay, Anar urdu South Part
+65	65 - Prathamik Vidyalay Paithiyaghachhi
+66	66 - Prathamik Vidyalay Shobhanathpatti Uttar Part
+67	67 - Prathamik Vidyalay shobhanathpatti South Part
+68	68 - Rajkiye Buniyadi Vidyalay Majhauliya Purvi Part
+69	69 - Rajkiye Buniyadi Vidyalay Majhauliya West Part
+70	70 - Utkramit Middle School,  Shivaisinghpur
+71	71 - Utkrmik Middle School  Devipur Gorapatti
+72	72 - Utkramit Middle School, Horalpatti
+73	73 - Prathamik Vidyalay, Hajipur
+74	74 - Utkramit Middle School,Piprauliya
+75	75 - Madhya Vidyalay, ChandanapattI UTTRI BHAG i
+76	76 - Madhya Vidyalay, Chandanapatti South Part
+77	77 - Anusuchit Jati Darwaja, Chandanpatti
+78	78 - Primary School Chandanpatti Raghunathpur
+79	79 - Prathamik Vidyalay, Akabarapur
+80	80 - Utkramit Middle School,Sahora , New building,
+81	81 - Utkramit Middle School,Sahora Naya Bhavan Middle Part
+82	82 - Utkramit Middle School,Sahora , Old building, North Part
+83	83 - Utkramit Middle School,Sahora , Old building, South Partna Bhavan
+84	84 - Prathamik Vidyalay, Makhanpur utttar bhag
+85	85 - Prathamik Vidyalay Makhanpur South Part
+86	86 - Madhya Vidyalay Anandapur
+87	87 - Utkramit Middle  School,Athar North Part
+88	88 - Utkramit Middle  School,Athar South Part
+89	89 - Anusuchit Jaati Harijan  Darwaja , Athardih, North Part
+90	90 - Anusuchit Jaati Harijan Darwaja , Athardih, South Part
+91	91 - Primary School, Kerwa Koth
+92	92 - Prathamik Vidyalay, Daing Naya Bhavan East Part
+93	93 - Prathamik Vidyalay, Daing Naya Bhavan
+94	94 - Middle School, Athi , East Part
+95	95 - Madhya Vidyalay, Atahi Pashchimi Bhag
+96	96 - Prathamik Vidyalay, Chakala
+97	97 - Primary School, Blat
+98	98 - Primary School, Goval North Part
+99	99 - Primary School, Goval South Part
+100	100 - Madhya Vidyalay, Baghaul
+101	101 - Samudayik Bhavan Mahuli
+102	102 - Prathamik Vidyalay, Turki, Purwi Bhag
+103	103 - Prathamik Vidyalay, Turki, Pashchimi Bhag
+104	104 - Utkramit Middle School,Susari , South Part
+105	105 - Utkramit Middle School, Susari ,Norht Part
+106	106 - Panchayat Bhavan Susari
+107	107 - Utkrmit Madhya Vidyalay Copy Chakla
+108	108 - Anusuchit Jati Darwaja, Chakla
+109	109 - Primary School, Nandapatti
+110	110 - Middle School, Bithauli East Part
+111	111 - Middle School, Bithauli North Part
+112	112 - Panchayat Bhavan, Bithauli pachhmi bhag
+113	113 - Panchyat Bhawan, Bithauli, East part
+114	114 - Utkramit Middle  School, Shankar Rohar,South  Part
+115	115 - Utkramit Middle School, Shankar Rohad, North Part
+116	116 - Uchcha Vidyalay, Ujjaina
+117	117 - Middle School, Ujaina
+118	118 - Prathamik Vidyalay, Banaul
+119	119 - Buniyadi School Bhachchi  , East Part
+120	120 - Buniyadi School Bhachchi  , West Part
+121	121 - Primary School, Gangdah,South Part
+122	122 - Primary School, Gangdah, North Part
+123	123 - Middle School, Shivram, Old Bulding  East part
+124	124 - Middle School, Shivram, Old Bulding  West part
+125	125 - Middle School, Shivram North Part
+126	126 - Middle School, Shivram  South Part
+127	127 - Utkramit Middle School, Dhanauli, New building North part
+128	128 - Naw Utkramit Middle School, Dhanauli, New building East part
+129	129 - Naw Utkramit Middle School, Dhanauli, New building West part
+130	130 - Utkramit Middle School Dhaunali Old Bhawan (West Part)
+131	131 - Primary School, Baghra
+132	132 - Primary School, Kalyanpur
+133	133 - Primary School, Sima
+134	134 - Primary School Baligawn East Part
+135	135 - Utkramit Middle School Baligawn West Part
+136	136 - Panchyat Bhawan, Baligav
+137	137 - Utkrmit Madhya Vidyalay ,Bihrauna
+138	138 - Middle School, Sirua East Part
+139	139 - Middle School, Sirua New Bulding East Part
+140	140 - Middle School, Sirua New Bulding West part
+141	141 - Utkramit Middle School,Navtol
+142	142 - Madarsa Samsul Oulam Paharpur
+143	143 - Madarsa Niswa Rajkha
+144	144 - Utkramit Middle  School, Jorja,Old Bulding East Part
+145	145 - Utkramit Middle  School, Jorja,Old Bulding West part
+146	146 - Utkramit Middle School, Jorja , New building, East Part
+147	147 - Utkramit Middle School, Jorja , New building, South Part
+148	148 - Middle School Paghari North Part
+149	149 - Middle School, Paghari, East part
+150	150 - Primary School ,Paghari ,West part
+151	151 - Ucch Vidyalay Kumar Ranjeet
+152	152 - High School, Kumar Ranjit New Bulding
+153	153 - Utkramit Middle School, Sankherha East Part
+154	154 - Utkramit Middle School, Sankherha West Part
+155	155 - Prathamik Vidyalay,duboli
+156	156 - Naw Srijit Primary School ,Salha
+157	157 - Primary School, Kusiyam
+158	158 - Utkramit Middle School, Mituniya Middle Part
+159	159 - Utkramit Middle School, Mituniya East Part
+160	160 - Utkramit Middle School, Mituniya West Part
+161	161 - Primary School Sadhua
+162	162 - Primary School, Rupoliya
+163	163 - Utkramit Middle School Adawan,East part
+164	164 - Utkramit Middle School Adawan,West part
+165	165 - Utkramit Middle School, Adawan Middle Part
+166	166 - Middle School, Thathopur, East  Part
+167	167 - Middle School, Thathopur, West Part
+168	168 - Utkramit Middle School Simri
+169	169 - Primary School, Sihuliya
+170	170 - Utkramit Middle School Kothra East Part
+171	171 - Utkramit Middle School Kothra pachim bhag
+172	172 - Primary School, Chackraipur
+173	173 - Utkramit Middle Maktab, Bhawanipur Nimaithi
+174	174 - Middle School, Nimaithi North Part
+175	175 - Middle School, Nimaithi, East part
+176	176 - Utkramit Middle School, Chakka
+177	177 - Primary School, Rampur
+178	178 - Samudayik Bhawan, Korigama
+179	179 - Madarsa, Gausiya Chilha
+180	180 - Utkramit middle Maktab, Chilha Dilawarpur, West Part
+181	181 - Utkramit middle Maktab, Chilha Dilawarpur, East Part
+182	182 - Primary School, Harhaccha New Bulding
+183	183 - Primary School,Harhaccha , Old building
+184	184 - Utkramit Middle School,Dadarwara
+185	185 - Primary School, Manikopatti
+186	186 - Primary School, Dumri
+187	187 - Primary School, Yadu pipra
+188	188 - Utkramit Midhya Vidyalay Gujrauli Ramauli
+189	189 - Primary School,Ramauli , North Part
+190	190 - Primary School,Ramauli , South Part
+191	191 - Utkramit Middle School,Darima ,West Part
+192	192 - Samudayik Bhawan, Katarhiya
+193	193 - Utkramit Middle School, Sadhopur
+194	194 - Primary School,Benta, East Part
+195	195 - Primary School,Benta, West Part
+196	196 - Middle School, Chakwa
+197	197 - High School, Jakhra
+198	198 - Primary School, Bharbari
+199	199 - Primary School, Dhobopur , West Part
+200	200 - Primary School, Dhobopur Middle Part
+201	201 - Primary School, Dhobopur , East Part
+202	202 - Girls School, Hathauri, South Part
+203	203 - Girls School, Hathauri,North Part
+204	204 - Primary School, Mokridih
+205	205 - Panchyat Bhawan, Hathauri
+206	206 - Primary School,Bhagwatipur
+207	207 - Middle School, Kharari
+208	208 - Girls Middle School,Partapatti
+209	209 - High School,Kharari,

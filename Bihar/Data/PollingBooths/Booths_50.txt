@@ -1,0 +1,222 @@
+1	1 - Utkramit Madhya Vidyalay Chandipur
+2	2 -  Prathamik Vidyalay Bhatavar
+3	3 - Madhya Vidyalay Majalisapur
+4	4 - Utkramit Madhya Vidyalay Dwaragonv
+5	5 - Navasujit Prathamik Vidhalay Dhangama (East Part)
+6	6 - Navasujit Prathamik Vidhalay Dhangama (West Part)
+7	7 - Madarsa Jiyaul Ulum Kujari (North Part)
+8	8 - Madarsa Jiyaul Ulum Kujari (South Part)
+9	9 - Utkramit Madhya Vidyalay Kujari (South Part)
+10	10 - Utkramit Madhya Vidyalay Kujari(North Part)
+11	11 - Utkramit Madhya Vidyalay Gohas
+12	12 - Prathamik Vidyalay Bhatauja (North Part)
+13	13 - Prathamik Vidyalay Bhatauja (South Part)
+14	14 - Madaras Islamiya Miyapur
+15	15 - Prathamik Vidyalay Miyapur (North Part)
+16	16 - Utkramit Madhya Vidyalay Maladar Puv (North Part)
+17	17 - Utkramit Madhya Vidyalay Maladwar Purv (South Part)
+18	18 - Prathamik Vidyalay Bakaradagi
+19	19 - Utkramit Madhya Vidyalay Bihari
+20	20 - Prathamik Vidyalay Kathora
+21	21 - Prathamik Vidyalay Nakatakhudra
+22	22 - Prathamik Vidyalay kalhibari
+23	23 - Uttakramit madhay vidhalay naktakala
+24	24 - Utkramit Madhya Vidyalay Dipnagar (East Part)
+25	25 - Utkramit Madhya Vidyalay Dipnagar (West Part)
+26	26 - Utkramit Madhya Vidyalay Pothiya
+27	27 - Utkramit Madhya Vidyalay Pakri
+28	28 - Prathamik Vidyalay Beni (West Part)
+29	29 - Prathamik Vidyalay Beni (East Part)
+30	30 - Madhya Vidyalay Dala
+31	31 - Kanya Prathamik Vidyalay Lokhara
+32	32 - Madhya Vidyalay Balua Dayodhi
+33	33 - Prathamik Vidyalay Purandaha Mallah Tola Bhikha
+34	34 - Prathamik Vidhalay Mohaniya (East Part)
+35	35 - Prathamik Vidyalay Mohaniya (West Part)
+36	36 - Madhya Vidyalay Purandaha Tola Bansar
+37	37 - Paiks Godam Bhima  Moja Majhua
+38	38 - Utkramit Madhya Vidhalay Pechaili(South part)
+39	39 - Utkramit Madhya Vidyalay Pechaili (North Part)
+40	40 - Utkramit Madhya Vidyalay Rupel Shyampur (North Part)
+41	41 - Utkramit Madhya Vidyalay Rupel Shyampur (South Part)
+42	42 - Utkramit Madhya Vidhalay Rupail Shyampur (Middle Part)
+43	43 - Madaradasasa Nurul Huda Barabanna
+44	44 - Madrasa Denga
+45	45 - Utkramikat Madhya Vidyalay Denga
+46	46 - Madarsa Samasul Islamiya suksaina
+47	47 - Prathamik Vidylay Balua sukhasaina
+48	48 - Utkramit Madhya Vidyalay Rupail Madhail (East Part)
+49	49 - Utkramit Madhya Vidyalay Rupail Madhail (West Part)
+50	50 - Uttakrmit madhay Vidyalay Gyaspur
+51	51 - Madhya Vidyalay Kumihaya (East Part)
+52	52 - Madhya Vidyalay Kumihaya ( West  Part)
+53	53 - Madarsa Sangora
+54	54 - Prathamik Vidyalay Marichgaw
+55	55 - Utkramit Madhya Vidyalay Badhauli, (East Part)
+56	56 - Utkramit Madhya Vidyalay Badhauli, (West Part)
+57	57 - Utkramit Madhya Vidyalay Taravi
+58	58 - Prathamik Vidyalay Daulatapur
+59	59 - Prathamik Vidyalay Khapada
+60	60 - Prathamik Vidyalay Kashibadi
+61	61 - Uchcha Vidyalay Sohandar
+62	62 - Prathamik Vidyalay Gosaipur, Sthit Buddhi
+63	63 - Prathamik Vidyalay Bhadauna
+64	64 - Prathamik Vidyalay Thaki
+65	65 - Prathamik Vidyalay Dubba Taran
+66	66 - Prathamik Vidyalay Majhua (South Part)
+67	67 - Prathamik Vidyalay Majhua ( North Part)
+68	68 - Utkramit Madhya Vidyalay Taran (North Part)
+69	69 - Utkramit Madhya  Vidyalay Taran(South Part)
+70	70 - Utkramit Madhya Vidyalay Taran (Middle Part)
+71	71 - Madarsa Imadadul Dubba (NorthPart) 
+72	72 - Madarsa Imadadul Dubba (South Part) 
+73	73 - Utkramit Madhya Vidyalay Dhapi  Dubba
+74	74 - Utkramit Madhya Vidyalay Daulatpur
+75	75 - Prathmik  Vidyalay Sikatiya Hat (East Part)
+76	76 - Prathmik Vidyalay Sikatiya Hat (West part)
+77	77 - Utkramit Madhya Vidhalay  Sikatiya Kakan (South Part)
+78	78 - Utkramit Madhya Vidyalay  Sikatiya Kakan (North Part)
+79	79 - Prathamik madhay  Vidyalay Par kaknpar  (East Part)
+80	80 - Utkramit Madhya Vidyalay Par  kakanpar (West Part)
+81	81 - Utkramit Madhya Vidyalay Aratiya (West Part)
+82	82 - Utkramit Madhya Vidyalay Aratiya (East Part)
+83	83 - Panchayat Bhawan Kashibadi
+84	84 - Prathamik Vidyalay Baghmara
+85	85 - Prathamik Vidyalay Dhobania
+86	86 - Prathamik Vidyalay Khirdaha (East Part)
+87	87 - Prathamik Vidyalay Khirdaha
+88	88 - Madhya Vidyalay Sisauna (South Part)
+89	89 - Madhya Vidyalay Sisauna (North Part)
+90	90 - Prathamik Vidyalay Kashi Bari
+91	91 - Uchcha Vidhalay Sisauna (North Part)
+92	92 - Uchcha Vidhalay Sisauna (South Part)
+93	93 - Ardash Madhya Vidyalay Jokihat
+94	94 - Utkramit Madhya Vidyalay Patharabari
+95	95 - Kanya Prathamik Vidyalay Jokihat
+96	96 - Madarassa Harava Chauk Rani (South Part)
+97	97 - Madrassa Harava Chauk Rani (North Part)
+98	98 - Samudaik Bhawan Harwa Chowk
+99	99 - Prathamik Vidyalay Satghara
+100	100 - Islamiya Habul Madarsa Kesarra
+101	101 - Utkramit Madhya Vidyalay Kesarra
+102	102 - Prathamik Vidyalay Dharmeshwar (south part)
+103	103 - Prathamik Vidyalay Dharmeshwargachchh (North Part)
+104	104 - Prathamik Vidyalay Khutratikharaiya
+105	105 - Madhya Vidyalay Jahanapur
+106	106 - Utkramit Madhya  Vidyalay Nauvananakar Chormara  (North Part)
+107	107 - Utkramit Madhya  Vidyalay Nauvananakar  Chormara (South Part)
+108	108 - Madhya  Vidyalay Kajleta
+109	109 - Prathmik Vidyalay Maalchadi
+110	110 - Prathmik  Vidyalay Hardar (South Part)
+111	111 - Prathamik Vidhalay Hardar(North part)
+112	112 - Madarsa Nurul Islam Bara
+113	113 - Utkramit Madhya Vidyalay Baraistambarar Kanya
+114	114 - Utkramit Madhya Vidyalay Sisua
+115	115 - Prathamik Vidyalay Pipara Tola
+116	116 - Prathamik Vidyalay Marua
+117	117 - Prathamik Vidhalay Mehadinagar
+118	118 - Utkramit Madhya Vidhalay Dabhara
+119	119 - Utkramit Madhya  Vidyalay Domahana-1
+120	120 - Prathmik Vidhalay baigana (Baharbari)
+121	121 - Madhya Vidyalay Baharbari (North Part)
+122	122 - Madhya Vidyalay Baharbari (South Part)
+123	123 - Utkramit Madhya Vidyalay Laluabadi
+124	124 - Madhya Vidyalay chakaihaat (North part)
+125	125 - Madhya Vidyalayhaat (South Part)
+126	126 - Prathmik Vidyalay Chakai Kurmi Tola (South Part)
+127	127 - Prathamik Vidyalay Chakai Kurami Tola (North part)
+128	128 - Prathamik Vidyalay Chakai Hansa Tola (North Part )
+129	129 - Prathamik Vidyalay  Chakai Hansa Tola (South Part)
+130	130 - Madhya Vidyalay Darshan (South Part)
+131	131 - Prathmik Vidyalay Darshana (North Part)
+132	132 - Prathamik Vidhalay Girada Kanya (South Part)
+133	133 - Prathamik Vidyalay Girda Kanya (North Part)
+134	134 - Prathmik Vidyalay Pamaanpur (North Part)
+135	135 - Prathmik Vidyalay Parmaanpur (South  Part)
+136	136 - Prathamik Vidyalay Banamotar
+137	137 - Utkramit Madhya Vidhalay Singar Mohani
+138	138 - Prathamik Vidyalay Barahua (North Part)
+139	139 - Prathamik Vidyalay Barahua (South Part)
+140	140 - Utkarmit Madhya Vidyalay Matiyari (South Part)
+141	141 - Utkarmit Madhya Vidyalay Matiyari (North Part)
+142	142 - Utkarmit Madhya Vidyalay Matiyari (Middle Part)
+143	143 - Prathamik Vidyalay Rahikpur
+144	144 - Prathamik Vidyalay Seralangha (South Part)
+145	145 - Prathamik Vidyalay Seralandha  (North Part)
+146	146 - Madhya Vidyalay Bagdahra (East Part)
+147	147 - Madhya Vidyalay Bagdahra (West Part)
+148	148 - Madhya Vidyalay Bagdahra (North Part)
+149	149 - Utkarmit Madhya Vidyalay Bhagavanapuur
+150	150 - Utkramit Madhya Vidhalay Satabita (North Part)
+151	151 - Utkramit Madhya  Vidyalay Satabita (South Part)
+152	152 - Utkramit Madhya Vidyalay Bhag Turakeli (East Part)
+153	153 - Utkramit Madhya Vidyalay Bhag Turakeli (West Part)
+154	154 - Prathamik Vidyalay Bageshwari
+155	155 - Utkramit Madhya Vidyalay Masuriya Farasadagi (East Part)
+156	156 - Utkramit Madhya Vidyalay Masuriya Farasadagi (West Part)
+157	157 - Prathamik Vidyalay Raharia
+158	158 - Prathamik Vidyalay Gogara (North Part)
+159	159 - Prathamik Vidyalay Gogara (South Part)
+160	160 - Madarsa Taalim E Millat Baageshwar Gairki
+161	161 - Madhya Vidyalay Gairaki
+162	162 - Madhya Vidhalay Bhansiya (East Part)
+163	163 - Madhya Vidyalay Bhansiya (West Part)
+164	164 - Madarassa Islamia Yogendra Idgah
+165	165 - Madarsa Ashful Kanya Jogendra Bhansia (South Part)
+166	166 - Madarsa Ashful Kanya Jogendra Bhansia (South Part)
+167	167 - prathmik Vidyalay Mahjali Godhi Tola
+168	168 - Prathimk Vidyalay Dumaria Prasadpur (West Part)
+169	169 - Prathimk Vidyalay Prasadpur (Middle Part)
+170	170 - Prathimk Vidyalay Prasadpur (East Part)
+171	171 - Utkramit Madhya Vidyalay Dumariya Prasadpur
+172	172 - Prathamik Vidyalay Dumaria Chikniya
+173	173 - Madhya Vidhalay Vajitapur
+174	174 - Samudayik Vikas Bhawan Dumariya Chikniya
+175	175 - Uchya Vidyalay Udah
+176	176 - Utkarmit Madhya Vidyalay Chirah (East Part)
+177	177 - Utkarmit Madhya Vidyalay Chirah (West Part)
+178	178 - Prathmik Vidyalay  Janatahat (north Part)
+179	179 - Prathamik Vidyalay Janatahat (South Part)
+180	180 - Prathmik Vidyalay Phulpur Bara Kalkali (East Part)
+181	181 - Prathmik Vidyalay Phulpur Bara Kalkali (West Part)
+182	182 - Prathamik Vidyalay Kurasail Balak
+183	183 - Prathamik Vidyalay Ukhava
+184	184 - Madarsa Misabahul Uloom  Kurasail
+185	185 - Utkramit Madhya Vighalay Balua Kursail (North Part)
+186	186 - Utkramit Madhya Vidyalay Balua Kursail (South Part)
+187	187 - Utkarmit Madhya Vidyalay Balua Kursail (Middile Part)
+188	188 - Madhya Vidyalay Mahalgaon
+189	189 - Prathamik Vighalay Shekhapura (East Part)
+190	190 -  Prathamik Vidyalay shekhpura (West Part)
+191	191 -  Prathamik Vidyalay Borel
+192	192 - Madarsa Sanaul Uloom Karahara (North Part)
+193	193 - Madarsa Sanaul Uloom Karahara (South Part)
+194	194 - Madhya Vidyalay Chainapur (East Part)
+195	195 - Madhya Vidyalay Chainapur (West Part)
+196	196 - Mahamadiya Madarassa Masuriya (East Part)
+197	197 - Mahmadia Madarsa Masuria (West Part)
+198	198 - Prathamik Vidyalay  Masuria 
+199	199 - Prathimk Vidyalay Malharia (West Part)
+200	200 - Prathimk Vidyalay Malharia (North Part)
+201	201 - Madhya Vidyalay Chilhania (West Part)
+202	202 - Madhya Vidyalay Chilhania (Middle Part)
+203	203 - Madhya Vighalay Chilhaniya (East Part)
+204	204 -   Utkramit Madhya  Vidyalay Sapa
+205	205 - Kanya Prathmik Vidyalay Mongra Baagnaga
+206	206 - Madhya Vidyalay Baagnagar
+207	207 - Shams Waajgah Madarsa Kakauda (North Part)
+208	208 - Shamsa Bajagah Madarassa Kakauda (South Part)
+209	209 - Utkramit Madhya  Vidyalay Domhana.2
+210	210 - Utakramit Madhya Vidyalay Majagama
+211	211 - Madhya Vidyalay Bhuna (East Part)
+212	212 - Madhya Vidyalay Bhuna (West Part)
+213	213 - Samudayik Vikas Bhawan Bhuna
+214	214 - Prathmik Vidyalay Durgapur
+215	215 - Utkramit Madhya  Vidyalay Chaukata (North Part)
+216	216 - Utakramit Madhya Vidyalay Chaukata (South Part)
+217	217 - madrsa  Mahmadia machhaila  (East Part)
+218	218 - Madarsa Mahmadia Machhaila  (West Part)
+219	219 - Prathamik Vidyalay Pechaili
+220	220 - Madhya Vidyalay Aamgachhi (East Part)
+221	221 - Madhya Vidyalay Aamgachhi (West Part)
+222	222 - Prathimik Vidyalay Bardenga

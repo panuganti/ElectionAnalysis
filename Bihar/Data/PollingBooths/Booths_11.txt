@@ -1,0 +1,232 @@
+1	1 - prathmik vidhalaya vinwa tola
+2	2 - nawsrijit prathmik vidhalaya jaitapur harijan toli
+3	3 - madhya vidalaya purvi bhag
+4	4 - madhya vidhalaya jaitapur pashchimi bhag
+5	5 - utkramit madhya vidhalaya siswaniya
+6	6 - prathmik vidhalaya dhangadhwa
+7	7 - utkramit madhya vidhalaya sukhi semra purvi bhag
+8	8 - utkramit madhya vidhalaya sukhi semra pashchimi bhag
+9	9 - prathmik vidhalaya kohbarwa
+10	10 - prathmik vidhalaya hindi pakhniya purvi bhag
+11	11 - prathmik vidhalaya hindi pakhaniya ke prangan me chalant matdan kendra
+12	12 - prathmik vidhalaya hindi pakhniya pashchimi bhag
+13	13 - utkramit madhya vidhalaya mudwa
+14	14 - utkramit madhya vidhalaya mudwa
+15	15 - prathmik vidhalaya khodwa
+16	16 - utkramit madhya vidhalaya kharkatwa
+17	17 - utkramit madhya vidhalaya uchhidih
+18	18 - madhya vidhalaya dihauli purvi bhag
+19	19 - madhya vidhalaya dhanhar dihuli pashchimi bhag
+20	20 - utkramit madhya vidhalaya gurhanwa purvi bhag
+21	21 - utkramit madhya vidhalaya gunhawa pashchimi bhag
+22	22 - urddu utkramit madhya vidhalaya chadwa
+23	23 - madhya vidhalaya purvi bhag
+24	24 - madhya vidhalaya raghunath pur pashchimi bhag
+25	25 - shivshankar singh uchya vidhalaya raghunathpur
+26	26 - utkramit madhya vidhalaya tilakhani
+27	27 - utkramit madhya vidhalaya belhiya
+28	28 - urddu prathmik vidhalaya narigir
+29	29 - utkramit madhya vidhalaya aamodei urddu purvi bhag
+30	30 - utkramit vidhalaya aamodei urddu pashchimi bhag baya
+31	31 - utkramit madhya vidhalaya amodei urddu pashchimi bhag daya
+32	32 - utkramit madhya vidhalaya hindi utteri bhag baya
+33	33 - utkramit madhya vidhalaya hindi dhachini bhag
+34	34 - utkramit madhya vidhalaya baluwa champapur
+35	35 - panchayat bhawan champapur
+36	36 - utkramit madhya vidhalaya manna
+37	37 - madhya vidhalaya champapur utter bhag
+38	38 - madhya vidhalaya champapur dakchini bhag
+39	39 - madhya vidhalaya champapur purvi bhag
+40	40 - utkramit madhya vidhalaya mushari champapur
+41	41 - utkramit madhya vidhalaya yogwaliya
+42	42 - panchayat bhawan bairiya
+43	43 - utkramit madhya vidhalaya aryanagar puri bhag
+44	44 - utkramit madhya vidhalaya aryanagar pashchimi bhag
+45	45 - prathmik vidhalaya dumra
+46	46 - prathmik vidhalaya lakshmipur
+47	47 - madhya vidhalaya satpipra purvi bhag
+48	48 - madhya vidhalaya satpipra pashchimi bhag
+49	49 - madhya vidhalaya inarwa
+50	50 - utkramit madhya vidhalaya mishrauliya
+51	51 - madhya vidhalaya parsauna madan
+52	52 - prathmik vidalaya bhatwaliya
+53	53 - bord sanskrit vidhalaya ramgadh utter bhag
+54	54 - madhya vidhalaya ramgadh purvi bhag
+55	55 - bord sanskrit vidhalaya ramgadh dakchini bhag
+56	56 - prathmik vidhalaya chikni
+57	57 - utkramit madhya vidhalaya ramgadh gawn
+58	58 - madhya vidhalaya ramgadh pasgchimi bhag
+59	59 - ramgadh vidhalaya ramgadh madhya bhag
+60	60 - uchya vidalaya ramgadh
+61	61 - prathmik vidhalaya bahuwari tola ramgadh
+62	62 - prathmik vidhalaya bahaari utter bhag
+63	63 - prathmik vidhalaya bahuaari dahchini bhag
+64	64 - madhya vidhalaya sarakar
+65	65 - prathmik vidhalaya badhubarwa purvi bhag
+66	66 - prathmik vidhalaya badubarwa pashchimi bhag
+67	67 - prathmik vidhalaya urddu hasanpur
+68	68 - prathmik vidhalaya lachumanwa
+69	69 - MADHYA VIDHALAYA DUBAULIYA PURVI BHAG
+70	70 - MADHYA VIDHALAYA DUBAULIYA PASHCHIMI BHAG
+71	71 - NAWSRIJIT PRATHMIK  VIDHALAYA SHIV PURWA
+72	72 - UTKRAMIT MADHYA VIDHALAYA CHIDTAHA
+73	73 - PRATHMIK VIDHALAYA SIHORWA PURVI BHAG
+74	74 - PRATHMIK VIDHALAYA PASHCHIM BHAG
+75	75 - PRATHMIK VIDHALAYA FULWARIYA
+76	76 - MADHYA VIDHALAYA ADHKAPRIYA PURVI BHAG
+77	77 - MADHYA VIDHALAYA ADHKAPRIYA  PASHCHIMI BHAG
+78	78 - UCHYA VIDHALAYA ADHKAPRIYA UTTER BHAG
+79	79 - UCHYA VIDHALAYA ADHAKAPRIYA DAKSYHCHINI BHAG
+80	80 - URDDU PRATHMIK VIDHALAYA KANYA ADHAKAPARIYA
+81	81 - RAJKIYA UTKRAMIT MADHYA VIDHALAYA TRIVENI
+82	82 - MADHYA VIDHALAYA SINGASINI PURVI BHAG
+83	83 - MADHYA VIDHALAYA SINGASINI MADHYA BHAG
+84	84 - MADHYA VIDHALAYA SINGASINI PASHCHIMI BHAG
+85	85 - MADHYA VIDHALAYA SINGASINI PASHCHIMI BHAG
+86	86 - PANCHAYAT BHAWAN PURVI BHAG BHEDIHARWA
+87	87 - PANCHAYAT BHAWAN BHEDHIARWA PASHCHIMI BHAG
+88	88 - PRATHMIK VIDHALAYA PIPAR PATI
+89	89 - UTKRAMIT MADHYA VIDHALAYA BELA HINDI DHASHCHINI BHAG
+90	90 - UTKRAMIT MADHYA VIDHALAYA BELA HINDI DAKSHCHINI MADHYA BHAG
+91	91 - UTKRAMIT MADHYA VIDHALAYA BELA HINDI UTTER BHAG
+92	92 - UTKRAMIT MADHYA VIDHALAYA BELA HINDI MADHYA BHAG
+93	93 - ISLAMIYA MADRSA BELASPUR PURVI BHAG
+94	94 - ISLAMIYA MADRSA BELAS PUR PASHCHIMI BHAG
+95	95 - utkramit madhya vidhaly BHAISADA
+96	96 - Utkramit madhya vidhalaya pachbhidwa
+97	97 - prathmik vidhalaya siswaniya pokhar dhanga tola
+98	98 - besik school siswaniya purvi bhag
+99	99 - besik school siswaniya pashchim bhag
+100	100 - madhya vidhalaya murla utter bhag
+101	101 - madhya vidhalaya murla utter bhag
+102	102 - madhya vidhalaya murla dhashchin bhag
+103	103 - madhya vidhalaya murla dhashchin bhag
+104	104 - urddu prathmik vidhalaya bhediharwa baya bhag
+105	105 - urddu prathmik vidhalaya bhediharwa daya bhag
+106	106 - madhya vidhalaya ucchi bhatiya
+107	107 - utkramit madhya vidhalaya khugni
+108	108 - utkramit madhya vidalaya minapur
+109	109 - utkramit madhya vidhalaya mangalpur utter bhag
+110	110 - Madhya Vidyalay ucchi bhatiya
+111	111 - utkramit madhya vidalya pantoka
+112	112 - prathmik vidhalaya madhopur nanhakar
+113	113 - madhya vidhalaya bagahi utter bhag
+114	114 - madhya vidhalaya bagahi dakchini bhag
+115	115 - utkramit madhyamik vidhalaya chainpur
+116	116 - prathmik vidhalaya shrikhandi
+117	117 - utkramit madhya vidhalaya devtwa bahuari
+118	118 - prathmik vidhlaya dewdattwa
+119	119 - madhya vidhalaya panjiarwa utteri bhag
+120	120 - prathmik vidhalaya panjiyarwa dhashchini bhag
+121	121 - prathmik vidhalaya parsauni
+122	122 - utkramit madhya vidhalaya pachvidwa
+123	123 - utkramit madhya vidhalaya shyampur
+124	124 - nawsrijit prathmik vidhalaya hata
+125	125 - madrsa nakardei
+126	126 - madrsa vaksa
+127	127 - utakarmit madhy Vidhalay khoda
+128	128 - ueddu prathmik vidhalaya mansingha purvi bhag
+129	129 - urdu prathmik vidhalaya ,mansibgha pashchimi bhag
+130	130 - prathmik vidhalaya madhopur nijamat
+131	131 - prathmik vidhalaya kekdawa
+132	132 - prathmik vidhalaya khutiwarwa
+133	133 - panchayat bhawan karmawa
+134	134 - madhya vidhalaya  karmwa raghunathpur
+135	135 - mashya  vidhalya kekarwa
+136	136 - prathmik vidhalaya hata isthit lesihar
+137	137 - utkramit madhya vidhalaya unwa
+138	138 - prathmik vidhalaya shitalpur
+139	139 - utkramit madhyamik vidhalaya mali naya tola
+140	140 - Utkramit madhyamik vidhalaya mali
+141	141 - utkarmit madhay vidhalay mali purvi
+142	142 - madhya vidhalaya godi baya bhag
+143	143 - madhya vidhalaya godi daya bhag
+144	144 - utkramit madhya vidhalaya chiljhapti
+145	145 - prathmik vidhalaya lalparsa pashchimi bhag
+146	146 - prathmik vidhalaya lalparsa pashchimi bhag
+147	147 - prathmik vidhalaya bewatiya urddu pashchimi bhag
+148	148 - prathmik vidhalaya belwatiya urddu purvi bhag
+149	149 - madhya vidhalaya belwatiya hindi purvi bhag
+150	150 - Madhya Vidhalya Belwatiya Hindi pashchimi  Bhag
+151	151 - prathmik vidhalaya amir kha tola
+152	152 - madhya vidhalaya vishunpurwa
+153	153 - madhya vidhalaya vishunpurwa utter bhag
+154	154 - utkramit madhya vidhalaya nimui
+155	155 - ganesh vidya mandir sugouli gao purvi bhag
+156	156 - ganesh vidha mandir sugauli gawn madhya bhag
+157	157 - ganesh vidya mandir sugouli gao Pashchimi  bhag
+158	158 - MADHYA VIDHALAYA SUGAULI URDDU
+159	159 - Madhya vidhalaya sugauli line hindi baya bhag
+160	160 - madhya vidhalaya line hindi daya bhag
+161	161 - utkramit madhya vidhalaya sugauli gawn
+162	162 - pandit din dyal girl hihg school sugouli utter  bhag
+163	163 - pandit din dyal girl hihg school sugouli dakshichini  bhag
+164	164 - madhya vidhalaya bahurupiya
+165	165 - Madhya Vidhalay Sugauli Utter Bhag
+166	166 - madhya vidhalaya sugauli dhakchini bhag
+167	167 - madhya vidhalya bangra bhag
+168	168 - madhya vidhalya bangra Pashchim bhga
+169	169 - Rajkiy Madhay Vidhalay Sugauli Kanya
+170	170 - rajkiya madhy vidhalya sugauli knya
+171	171 - UTKRAMIT MADHYA VIDHALAYA BOGIYA PAKSHMI BHAG
+172	172 - Utkramit madhay vidhalay Begiya Fulawariya
+173	173 - prathmik vidhalaya khapartata
+174	174 - madhya vidhalya fulwariya
+175	175 - Panchyat Bhawan Fulawariya
+176	176 - Prathamik Vidhalaya Chhapwa FULWARIYA
+177	177 - Urdu Madhya Vidyalay basantpur
+178	178 - Utkramit Madhaya Vidhalaya Dhanushtola Sripur
+179	179 - Rajikiya Utkarmit Madhaya Vidhalaya Shripur Hindi Chintamanpur
+180	180 - Prathamik Vidhalaya Shripur Dharampur
+181	181 - prathamik Vidhalaya Parshurampur Mushahar Toli
+182	182 - Panchayat Bhawan Bhatahan
+183	183 - madhya vidhalya bhatha uttr bhag
+184	184 - madhya vidhalya batha dakshin bhag
+185	185 - Madhaya Vidhalaya Raypatti Pashchim Bhag
+186	186 - madhya vidalyaraypatti Purvi bhag
+187	187 - Utkramit Mdhaya Vidhalay Tikuliya
+188	188 - Madhaya Vidhalaya Bhatwaliya Hindi Uttari Bhag
+189	189 - Madhaya Vidhalaya Bhatwaliya Dakshin Bhag
+190	190 - Utkramit Madhaya  Vidhalaya Rampur
+191	191 - URDU Madhaya Vidhalaya Shripur BAZAR
+192	192 - Utkrmait Madhya Vidhalay MuddhaChhapra
+193	193 - Madhya Vidyalaya Sugaon
+194	194 - Prathamik Vidhalaya Sugaon Harijan  Toli
+195	195 - Krishi Faram Sugaon
+196	196 - Prathamik Vidhalaya Sugaon Dhagartoli
+197	197 - Madhaya Vidhalaya Baudha
+198	198 - Prathamik Vidhalaya Karuaini Dih Uttari Bhag
+199	199 - Prathamik Vidhalaya Karuaini Dih Dakshini Bhag
+200	200 - Utkramit madhay Vidhalay Godigauv sugauv
+201	201 - Prathamik Vidhalya Sugaon Kanya
+202	202 - madhya vidalya lmonita sugao
+203	203 - Utkramit Madhaya Vidhalaya Chhota Bangra Sarahari Sugauli
+204	204 - Utkramit madhay vidhalay nayka tola chhagrahan
+205	205 - Utkramit Madhaya Vidhalaya Chhagrahan Naya Tola
+206	206 - Madhya  Vidhalya Chhagrahan Purvi Bhag
+207	207 - Madhaya Vidhalaya Chhagrahan Pashchim Bhag
+208	208 - Madhaya Vidhalaya Kauwahan
+209	209 - Utkramit Madhaya Vidhalaya Karuaini Bhargaonwan Purvi Bhag
+210	210 - utkramit madhya vidhalya karuaini bhargawa madhya bhag
+211	211 - utkramit madhya vidhalya karuaini bhargawa paschim bhag
+212	212 - panchat bhawan chapra Bahas
+213	213 - madhya vidhalya chapra Bahas Purvi Bhag
+214	214 - Madhaya Vidhalaya Chhapra Bahas Pashchim Bhag
+215	215 - Utkarmit Madhya Vidhalay Chikanauta
+216	216 - Prathamik Vidhalaya Gidha
+217	217 - Utkramit Madhaya Vidhalaya Madhumalti
+218	218 - madhya vidhalya Kathwaliya purvi Part
+219	219 - madhya vidhalay kaithwaliya paschim Part
+220	220 - Prathamik Vidhalaya Basghatiya
+221	221 - Prathamik Vidhalay bhwanipur dakshin Part
+222	222 - Prathamik Vidhalay bhawanipur Utar Part
+223	223 - Prathamik Vidhalaya Sapaha
+224	224 - Utkramit Madhaya Vidhalay Mehwa Girls
+225	225 - Utkramit madhaymik Vidhalay Muswa Utari Bhag
+226	226 - Utkramit madhaymik Vidhalay Muswan Dakshin Bhag
+227	227 - Utkramit madhay Vidhalay Laksmipur mansingha
+228	228 - Utkramit madhay Vidhalay Laksmipur mallah Tola
+229	229 - urdu prathmik vidhalya Buccha Uttari
+230	230 - Naw  Prathamik Vidhalaya Laxmipur Nayka Tola Shekh Toli Purvi Bhag
+231	231 - NAW  PRATHAMIK VIDHALAYA  LAKSHAMIPUR NAYAKA TOLA SHEKH TOLI PASHCHIM BHAG
+232	232 - Madhy Vidhalaya Roshanpur Sapaha
