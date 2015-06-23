@@ -1,11 +1,22 @@
 ﻿namespace BiharElectionsLibrary
 {
+    public enum RelationType
+    {
+        Father,
+        Husband,
+        Wife,
+        Son,
+        Sibling,
+        NoRelation = 0
+    }
+
     public enum YesNo
     {
         Yes = 1,
         No = 2,
         Others = 0
     }
+
     public enum Gender
     {
         M,

@@ -303,14 +303,4 @@ namespace BiharElectionsLibrary
 
         public Person Relative {get; set;}
     }
-
-    public enum RelationType
-    {
-        Father,
-        Husband,
-        Wife,
-        Son,
-        Sibling,
-        NoRelation = 0
-    }
 }

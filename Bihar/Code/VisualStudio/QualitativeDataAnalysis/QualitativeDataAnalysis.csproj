@@ -48,7 +48,9 @@
     <Compile Include="ExtractFeatures.cs" />
     <Compile Include="LocalUtils.cs" />
     <Compile Include="LocalIssues.cs" />
-    <Compile Include="Party.cs" />
+    <Compile Include="Party.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Program.cs" />
   </ItemGroup>
   <ItemGroup>
