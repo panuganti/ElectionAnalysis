@@ -47,12 +47,14 @@ namespace BiharElectionsLibrary
         }
     }
 
+    [DataContract]
     public class ParliamentaryConstituency : Constituency
     {
+        [DataMember]
         public District District { get; set; }
-
+        [DataMember]
         public HashSet<AssemblyConstituency> Constituencies { get; set; }
-
+        [DataMember]
         public HashSet<ParliamentaryConstituency> Neighbors { get; set; }
 
         public void Merge(ParliamentaryConstituency pc)
@@ -84,46 +86,59 @@ namespace BiharElectionsLibrary
         }
     }
 
+    [DataContract]
     public class Constituency : RegionWithId
     {
+        [DataMember]
         public ConstituencyCasteCategory Category { get; set; }
     }
-  
+
+    [DataContract]
     public class PollingBooth : RegionWithId
     {
+        [DataMember]
         public HashSet<House> Houses { get; set; }
-
+        [DataMember]
         public AssemblyConstituency AC { get; set; }
     }
 
+    [DataContract]
     public class House : RegionWithId
     {
+        [DataMember]
         public PollingBooth Booth { get; set; }
-
+        [DataMember]
         public HashSet<Voter> Voters { get; set; }
     }
 
+    [DataContract]
     public class Voter : Person
     {
+        [DataMember]
         public House House { get; set; }
-
+        [DataMember]
         public int Age { get; set; }
-
+        [DataMember]
         public List<Relative> Relatives { get; set; }
     }
 
+    [DataContract]
     public class Person : Region
     {
+        [DataMember]
         public Caste Caste { get; set; }
 
+        [DataMember]
         public Gender Gender { get; set; }
 
     }
 
+    [DataContract]
     public class Relative
     {
+        [DataMember]
         public RelationType RelationType { get; set; }
-
+        [DataMember]
         public Person Person { get; set; }
     }
 
@@ -131,13 +146,16 @@ namespace BiharElectionsLibrary
 
     #region AdminHierarchy
 
+    [DataContract]
     public class Block : RegionWithId
     {
+        [DataMember]
         public HashSet<Village> Villages { get; set; }
+        [DataMember]
         public HashSet<CensusTown> CensusTowns { get; set; }
-
+        [DataMember]
         public HashSet<MunicipalCorp> MunicipalCorps { get; set; } // Very likely, there would be only 1
-
+        [DataMember]
         public District District { get; set; }
 
         #region Info Add methods
@@ -178,57 +196,86 @@ namespace BiharElectionsLibrary
         #endregion Info Add methods
     }
 
+    [DataContract]
     public class Village : RegionWithId
     {
+        [DataMember]
         public Block Block { get; set; }
-
+        [DataMember]
         public VillageParameters Parameters { get; set; }
     }
 
+    [DataContract]
     public class VillageParameters
     {
+        [DataMember]
         public int NoOfHouses { get; set; }
+        [DataMember]
         public Dictionary<Gender, int> Population { get; set; }
+        [DataMember]
         public Dictionary<Gender, int> Children { get; set; }
+        [DataMember]
         public Dictionary<Gender, int> SCs { get; set; }
+        [DataMember]
         public Dictionary<Gender, int> STs { get; set; }
+        [DataMember]
         public Dictionary<Gender, int> Literacy { get; set; }
+        [DataMember]
         public Dictionary<Gender, int> TotalWorkers { get; set; }
+        [DataMember]
         public int MainWorkers { get; set; } // Earning 6 or more months
+        [DataMember]
         public int MarginalWorkers { get; set; } // Less than 6 months earning
     }
 
+    [DataContract]
     public class CensusTownParams
     {
+        [DataMember]
         public int NoOfHouses { get; set; }
+        [DataMember]
         public Dictionary<Gender, int> Population { get; set; }
+        [DataMember]
         public Dictionary<Gender, int> Children { get; set; }
+        [DataMember]
         public Dictionary<Gender, int> Literacy { get; set; }
 
+        [DataMember]
         public double SCs { get; set; } // %
+        [DataMember]
         public double STs { get; set; } // %
 
+        [DataMember]
         public Dictionary<Gender, int> Workers { get; set; } // Worker: somone who does business,job,service,cultivator or labor
+        [DataMember]
         public double MainWorkers { get; set; } // %
         public double MarginalWorkers { get; set; } // %
     }
 
+    [DataContract]
     public class Ward : RegionWithId
     {
+        [DataMember]
         public MunicipalCorp MunicipalCorp { get; set; }
     }
 
+    [DataContract]
     public class CensusTown : RegionWithId
     {
+        [DataMember]
         public CensusTownParams Params { get; set; }
-        public Block Block { get; set; }
-        
+        [DataMember]
+        public Block Block { get; set; }        
     }
 
+    [DataContract]
     public class MunicipalCorp : RegionWithId
     {
+        [DataMember]
         public int TotalPopulation { get; set; }
+        [DataMember]
         public HashSet<Ward> Wards { get; set; }
+        [DataMember]
         public Block Block { get; set; }
 
         #region Add Ward Info
@@ -251,12 +298,14 @@ namespace BiharElectionsLibrary
 
     #region Common Hierarchy
 
+    [DataContract]
     public class District : RegionWithId
     {
+        [DataMember]
         public Division Division { get; set; }
-
+        [DataMember]
         public HashSet<Block> Blocks { get; set; }
-
+        [DataMember]
         public HashSet<ParliamentaryConstituency> PCs { get; set; }
 
         public IEnumerable<AssemblyConstituency> ACs
@@ -325,9 +374,12 @@ namespace BiharElectionsLibrary
 
     }
 
+    [DataContract]
     public class Division : RegionWithId
     {
+        [DataMember]
         public State State { get; set; }
+        [DataMember]
         public HashSet<District> Districts { get; set; }
 
         public void MergeDistrictInfo(District district)
@@ -342,10 +394,11 @@ namespace BiharElectionsLibrary
         }
     }
 
+    [DataContract]
     public class State : Region
     {
+        [DataMember]
         public HashSet<Division> Divisions { get; set; }
-
         public IEnumerable<District> Districts
         {
             get { return Divisions.SelectMany(x => x.Districts); }
@@ -447,13 +500,17 @@ namespace BiharElectionsLibrary
 
     #region generic
 
+    [DataContract]
     public abstract class RegionWithId : Region
     {
+        [DataMember]
         public int No { get; set; }
     }
 
+    [DataContract]
     public abstract class Region
     {
+        [DataMember]
         public string Name { get; set; }
     }
 
