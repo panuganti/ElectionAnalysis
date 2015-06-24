@@ -81,7 +81,7 @@ namespace ScrapeCensusData
                         int id = Int32.Parse(x.Descendants("div").First(y => y.Attributes.Contains("cell mhide")).InnerText);
                         string name = linkNode.InnerText;
 
-                        if ( townOrVillage.Equals("Town") && name.Contains("Census Town"))
+                        if (townOrVillage.Equals("Town") && name.Contains("Census Town"))
                         {
                             AddCensusTownInfo(name, id, townUrl, newBlock);                            
                         }
