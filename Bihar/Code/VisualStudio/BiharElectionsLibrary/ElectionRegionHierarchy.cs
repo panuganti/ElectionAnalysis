@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Security.Policy;
+using System.Runtime.Serialization;
 using System.Text.RegularExpressions;
 
 namespace BiharElectionsLibrary
@@ -10,12 +10,14 @@ namespace BiharElectionsLibrary
   
     #region ElectionHierarchy
 
+    [DataContract]
     public class AssemblyConstituency : Constituency
     {
+        [DataMember]
         public HashSet<PollingBooth> Booths { get; set; }
-
+        [DataMember]
         public ParliamentaryConstituency PC { get; set; }
-
+        [DataMember]
         public HashSet<AssemblyConstituency> Neighbors { get; set; }
 
         public IEnumerable<House> Houses
@@ -134,18 +136,51 @@ namespace BiharElectionsLibrary
         public HashSet<Village> Villages { get; set; }
         public HashSet<CensusTown> CensusTowns { get; set; }
 
-        public HashSet<MunicipalCorp> MinicipalCorp { get; set; } // Very likely, there would be only 1
+        public HashSet<MunicipalCorp> MunicipalCorps { get; set; } // Very likely, there would be only 1
 
         public District District { get; set; }
+
+        #region Info Add methods
+
+        public MunicipalCorp AddMunicipalCorp(string name, int id)
+        {
+            if (!MunicipalCorps.Any(x => x.Name.Equals(name)))
+            {
+                var newMC = new MunicipalCorp {Block = this, Name = name, No = id};
+                MunicipalCorps.Add(newMC);
+                return newMC;
+            }
+            return null;            
+        }
+
+        public CensusTown AddCensusTown(string name, int id)
+        {
+            if (!CensusTowns.Any(x => x.Name.Equals(name)))
+            {
+                var newCensusTown = new CensusTown { Block = this, Name = name, No = id };
+                CensusTowns.Add(newCensusTown);
+                return newCensusTown;
+            }
+            return null;
+        }
+
+        public Village AddVillage(string name, int id)
+        {
+            if (!Villages.Any(x => x.Name.Equals(name)))
+            {
+                var newVillage = new Village { Block = this, Name = name, No = id };
+                Villages.Add(newVillage);
+                return newVillage;
+            }
+            return null;
+        }
+
+        #endregion Info Add methods
     }
 
     public class Village : RegionWithId
     {
         public Block Block { get; set; }
-
-        public int TotalPopulation { get; set; }
-        public int MalePopulation { get; set; }
-        public int FemalePopulation { get; set; }
 
         public VillageParameters Parameters { get; set; }
     }
@@ -195,6 +230,21 @@ namespace BiharElectionsLibrary
         public int TotalPopulation { get; set; }
         public HashSet<Ward> Wards { get; set; }
         public Block Block { get; set; }
+
+        #region Add Ward Info
+
+        public Ward AddWard(string name)
+        {
+            int no = Int32.Parse(new Regex(@"(\d+)").Match(name).Groups[1].Value);
+            if (!Wards.Any(x => x.No.Equals(no)))
+            {
+                var newWard = new Ward {No = no, Name = name, MunicipalCorp = this};
+                Wards.Add(newWard);
+                return newWard;
+            }
+            return null;
+        }
+        #endregion Add Ward Info
     }
 
     #endregion AdminHierarchy
@@ -229,6 +279,18 @@ namespace BiharElectionsLibrary
             get { return Houses.SelectMany(x => x.Voters); }
         }
 
+        #region Info Add methods
+
+        public Block AddBlock(string name, int id)
+        {
+            if (!Blocks.Any(x => x.Name.Equals(name)))
+            {
+                var newBlock = new Block {District = this, Name = name, No = id};
+                Blocks.Add(newBlock);
+                return newBlock;
+            }
+            return null;
+        }
 
         public void MergeDistrictInfo(District district)
         {
@@ -258,6 +320,9 @@ namespace BiharElectionsLibrary
                     x => x.Name == constituency.Name || (x.No != 0 && x.No == constituency.No)).Merge(constituency);
             }
         }
+
+        #endregion Info Add methods
+
     }
 
     public class Division : RegionWithId
