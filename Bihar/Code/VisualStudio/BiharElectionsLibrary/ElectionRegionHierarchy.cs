@@ -162,6 +162,10 @@ namespace BiharElectionsLibrary
 
         public MunicipalCorp AddMunicipalCorp(string name, int id)
         {
+            if (MunicipalCorps == null)
+            {
+                MunicipalCorps = new HashSet<MunicipalCorp>();
+            }
             if (!MunicipalCorps.Any(x => x.Name.Equals(name)))
             {
                 var newMC = new MunicipalCorp {Block = this, Name = name, No = id};
@@ -173,6 +177,10 @@ namespace BiharElectionsLibrary
 
         public CensusTown AddCensusTown(string name, int id)
         {
+            if (CensusTowns == null)
+            {
+                CensusTowns = new HashSet<CensusTown>();
+            }
             if (!CensusTowns.Any(x => x.Name.Equals(name)))
             {
                 var newCensusTown = new CensusTown { Block = this, Name = name, No = id };
@@ -184,6 +192,10 @@ namespace BiharElectionsLibrary
 
         public Village AddVillage(string name, int id)
         {
+            if (Villages == null)
+            {
+                Villages = new HashSet<Village>();
+            }
             if (!Villages.Any(x => x.Name.Equals(name)))
             {
                 var newVillage = new Village { Block = this, Name = name, No = id };
@@ -205,40 +217,105 @@ namespace BiharElectionsLibrary
         public VillageParameters Parameters { get; set; }
     }
 
+    #region Parameters of A Region
+
     [DataContract]
-    public class VillageParameters
+    public class Parameters
     {
         [DataMember]
         public int NoOfHouses { get; set; }
         [DataMember]
         public Dictionary<Gender, int> Population { get; set; }
         [DataMember]
-        public Dictionary<Gender, int> Children { get; set; }
+        public Dictionary<Gender, int> Children { get; set; }        
+    }
+
+    [DataContract]
+    public class DistrictParameters : Parameters
+    {
+        #region 2011 vs 2001
+        [DataMember]
+        public Dictionary<int, int> ActualPopulationByYear { get; set; }
+        [DataMember]
+        public Dictionary<Gender, Dictionary<int, int>> GenderWisePopulationByYear { get; set; }
+        [DataMember]
+        public Dictionary<int, double> PopulationGrowth { get; set; }
+        [DataMember]
+        public Dictionary<int, int> AreaInSqKm { get; set; }
+        [DataMember]
+        public Dictionary<int, int> Density { get; set; }
+        [DataMember]
+        public Dictionary<int, int> SexRatioByYear { get; set; }
+        [DataMember]
+        public Dictionary<int, int> ChildSexRatioByYear { get; set; }
+        [DataMember]
+        public Dictionary<int, double> AvgLiteracyByYear { get; set; }
+        [DataMember]
+        public Dictionary<Gender, Dictionary<int, double>> LiteracyByYear { get; set; }
+        [DataMember]
+        public Dictionary<int, int> TotalChildPopulation { get; set; }
+        [DataMember]
+        public Dictionary<Gender, Dictionary<int, int>> ChildPopulationByYear { get; set; }
+        [DataMember]
+        public Dictionary<int, int> TotalLiteratesByYear { get; set; }
+        [DataMember]
+        public Dictionary<Gender, Dictionary<int, int>> LiteratesByYear { get; set; }
+        #endregion 2011 vs 2001
+
+        #region Rural Vs Urban
+        [DataMember]
+        public Dictionary<LocationType, double> PopulatinPercent { get; set; }
+        [DataMember]
+        public Dictionary<LocationType, int> TotalPopulation { get; set; }
+        [DataMember]
+        public Dictionary<LocationType, int> SexRatio { get; set; }
+        [DataMember]
+        public Dictionary<LocationType, int> ChildSexRatio { get; set; }
+        [DataMember]
+        public Dictionary<LocationType, int> ChildPopulation { get; set; }
+        [DataMember]
+        public Dictionary<LocationType, double> AvgChildPercent { get; set; }
+        [DataMember]
+        public Dictionary<Gender, Dictionary<LocationType, double>> ChildPercent { get; set; }
+        [DataMember]
+        public Dictionary<LocationType, int> TotalLiterates { get; set; }
+        [DataMember]
+        public Dictionary<Gender, Dictionary<LocationType, int>> Literates { get; set; }
+        [DataMember]
+        public Dictionary<LocationType, double> AvgLiteracy { get; set; }
+        [DataMember]
+        public Dictionary<Gender, Dictionary<LocationType, double>> Literacy { get; set; }
+
+        #endregion Rural Vs Urban 
+    }
+
+    [DataContract]
+    public class VillageParameters : Parameters
+    {
         [DataMember]
         public Dictionary<Gender, int> SCs { get; set; }
         [DataMember]
         public Dictionary<Gender, int> STs { get; set; }
         [DataMember]
-        public Dictionary<Gender, int> Literacy { get; set; }
+        public Dictionary<Gender, double> LiteracyGenderWise { get; set; }
         [DataMember]
         public Dictionary<Gender, int> TotalWorkers { get; set; }
         [DataMember]
         public int MainWorkers { get; set; } // Earning 6 or more months
         [DataMember]
         public int MarginalWorkers { get; set; } // Less than 6 months earning
+        [DataMember]
+        public double Literacy { get; set; }
     }
 
     [DataContract]
-    public class CensusTownParams
+    public class CensusTownParams : Parameters
     {
         [DataMember]
-        public int NoOfHouses { get; set; }
+        public Dictionary<Gender, double> LiteracyByGender { get; set; }
+
         [DataMember]
-        public Dictionary<Gender, int> Population { get; set; }
-        [DataMember]
-        public Dictionary<Gender, int> Children { get; set; }
-        [DataMember]
-        public Dictionary<Gender, int> Literacy { get; set; }
+        public double Literacy { get; set; }
 
         [DataMember]
         public double SCs { get; set; } // %
@@ -246,11 +323,15 @@ namespace BiharElectionsLibrary
         public double STs { get; set; } // %
 
         [DataMember]
-        public Dictionary<Gender, int> Workers { get; set; } // Worker: somone who does business,job,service,cultivator or labor
+        public Dictionary<Gender, int> Workers { get; set; } 
+        // Worker: somone who does business,job,service,cultivator or labor
         [DataMember]
         public double MainWorkers { get; set; } // %
+        [DataMember]
         public double MarginalWorkers { get; set; } // %
     }
+
+    #endregion Parameters of A Region
 
     [DataContract]
     public class Ward : RegionWithId
@@ -282,6 +363,10 @@ namespace BiharElectionsLibrary
 
         public Ward AddWard(string name)
         {
+            if (Wards == null)
+            {
+                Wards = new HashSet<Ward>();
+            }
             int no = Int32.Parse(new Regex(@"(\d+)").Match(name).Groups[1].Value);
             if (!Wards.Any(x => x.No.Equals(no)))
             {
@@ -308,6 +393,8 @@ namespace BiharElectionsLibrary
         [DataMember]
         public HashSet<ParliamentaryConstituency> PCs { get; set; }
 
+        public DistrictParameters Params { get; set; }
+
         public IEnumerable<AssemblyConstituency> ACs
         {
             get { return PCs.SelectMany(x => x.Constituencies); }
@@ -332,6 +419,10 @@ namespace BiharElectionsLibrary
 
         public Block AddBlock(string name, int id)
         {
+            if (Blocks == null)
+            {
+                Blocks = new HashSet<Block>();
+            }
             if (!Blocks.Any(x => x.Name.Equals(name)))
             {
                 var newBlock = new Block {District = this, Name = name, No = id};
@@ -399,6 +490,8 @@ namespace BiharElectionsLibrary
     {
         [DataMember]
         public HashSet<Division> Divisions { get; set; }
+
+        #region ChildNodes
         public IEnumerable<District> Districts
         {
             get { return Divisions.SelectMany(x => x.Districts); }
@@ -429,12 +522,32 @@ namespace BiharElectionsLibrary
             get { return Houses.SelectMany(x => x.Voters); }
         }
 
+        public IEnumerable<Block> Blocks
+        {
+            get { return Districts.SelectMany(x => x.Blocks); }
+        }
+        public IEnumerable<Village> Villages
+        {
+            get { return Blocks.SelectMany(x => x.Villages); }
+        }
+
+        public IEnumerable<MunicipalCorp> MCs
+        {
+            get { return Blocks.SelectMany(x => x.MunicipalCorps); }
+        }
+
+        public IEnumerable<CensusTown> CensusTowns
+        {
+            get { return Blocks.SelectMany(x => x.CensusTowns); }
+        }
+        #endregion ChildNodes
+
         public void MergeDistrictInfo(District district)
         {
             Divisions.First(t => t.Districts.Any(x => x.Name.Equals(district.Name))).MergeDistrictInfo(district);
         }
 
-        public void PopulateWithACInfoFromFile(string filename)
+        public void LoadPCsAndACs(string filename)
         {
             // TODO: Some names have (SC) in them.. Remove that from the name
             // Assumes all divisions are already created
@@ -462,7 +575,8 @@ namespace BiharElectionsLibrary
                 {
                     Name = districtName,
                     PCs = new HashSet<ParliamentaryConstituency> { pc },
-                    Division = Divisions.First(x => x.Districts.Any(y => y.Name == districtName))
+                    Division = Divisions.First(x => x.Districts.Any(y => y.Name == districtName)),
+                    Params = new DistrictParameters()
                 };
                 acConstituency.PC = pc;
                 pc.District = district;
@@ -470,7 +584,7 @@ namespace BiharElectionsLibrary
             }
         }
 
-        public static State LoadDivisionsFromFile(string filename)
+        public static State LoadDivisionsAndDistrictsFromFile(string filename)
         {
             var state = new State { Name = "Bihar", Divisions = new HashSet<Division>() };
             string[] allLines = File.ReadAllLines(filename).Skip(1).ToArray();
@@ -488,7 +602,12 @@ namespace BiharElectionsLibrary
                     divisionId++;
                 }
                 var div = state.Divisions.First(t => t.Name == divisionName);
-                div.Districts.Add(new District { Name = Utils.GetNormalizedName(districtName), Division = div });
+                div.Districts.Add(new District
+                {
+                    Name = Utils.GetNormalizedName(districtName),
+                    Division = div,
+                    Params = new DistrictParameters()
+                });
             }
             return state;
         }

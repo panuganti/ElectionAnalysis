@@ -11,9 +11,10 @@ namespace BiharElectionsLibrary
     {
         public static string GetNormalizedName(string originalString)
         {
+            var str = originalString.Trim(new[] {'\n', '\t'});
             return
                 String.Join("_",
-                    originalString.Split(new[] {'&', '/', '-', ' ', '.'}, StringSplitOptions.RemoveEmptyEntries))
+                    str.Split(new[] { '&', '/', '-', ' ', '.' }, StringSplitOptions.RemoveEmptyEntries))
                     .Trim('_')
                     .ToLower();
         }

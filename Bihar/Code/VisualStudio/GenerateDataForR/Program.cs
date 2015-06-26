@@ -2,12 +2,27 @@
 using System.IO;
 using System.Linq;
 using BiharElectionsLibrary;
+using GenerateDataForR;
 
 namespace GetBihar2010Results
 {
     class Program
     {
         private static void Main(string[] args)
+        {
+            #region Config
+            const string stateDivisionsFilename = @"E:\NMW\SurveyAnalytics\Bihar\Data\AdminData\SubDivisions.txt";
+            const string acInfoFilename = @"E:\NMW\SurveyAnalytics\Bihar\Data\AdminData\AssemblyConstituencies.txt";
+            const string dataPath = @"E:\NMW\GitHub\ElectionAnalysis\Bihar\Data\CensusData\";
+            const string distListRelPath = "census/state/districtlist/bihar.html";
+            #endregion Config
+
+            var state = PopulateInfo.LoadElectionHierarchy(stateDivisionsFilename, acInfoFilename);
+            PopulateInfo.LoadCensusData(state, dataPath, distListRelPath);
+            Console.WriteLine("State has {0} villages",state.Villages.Count());
+        }
+
+        private static void OldMain()
         {
             const string fileWith2005Results =
                 @"E:\NMW\SurveyAnalytics\Bihar\Data\2005\Results\2005ElectionResults.tsv";
@@ -21,12 +36,13 @@ namespace GetBihar2010Results
             const string muslimPopulationFile = @"E:\NMW\SurveyAnalytics\Bihar\Data\2010\Results\MuslimPopulation.tsv";
             const string shapeFileDataFile = @"E:\NMW\SurveyAnalytics\Bihar\Data\AdminData\ShapefileData.tsv";
             const string outputDirPath = @"E:\NMW\SurveyAnalytics\Bihar\R_Analysis\VSOutputData";
+
             // Load all Files
             var results2005 = AssemblyConstituencyResult.Load2005ResultsFromFile(fileWith2005Results);
             var results2010 = AssemblyConstituencyResult.Load2010ResultsFromFile(fileWith2010Results);
             var results2014 = AssemblyConstituencyResult.Load2014ResultsFromFile(dirWith2014Results);
-            var stateHierarchy = State.LoadDivisionsFromFile(stateDivisionsFilename);
-            stateHierarchy.PopulateWithACInfoFromFile(acInfoFilename);
+            var stateHierarchy = State.LoadDivisionsAndDistrictsFromFile(stateDivisionsFilename);
+            stateHierarchy.LoadPCsAndACs(acInfoFilename);
             var muslimPopulationData = MuslimPopulationData.LoadFromFile(muslimPopulationFile);
             
             var shapeFileData = ShapeFileData.LoadFromFile(shapeFileDataFile);
