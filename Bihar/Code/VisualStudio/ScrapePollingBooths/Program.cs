@@ -12,7 +12,7 @@ namespace ScrapePollingBooths
     {
         static void Main(string[] args)
         {
-            for (int acNo = 1; acNo <= 243; acNo++)
+            for (int acNo = 2; acNo <= 2; acNo++)
             {
                 var output = HtmlUtilities.GetPostResponse(acNo);
                 var booths = HtmlUtilities.ParseResponse(output);
@@ -24,15 +24,6 @@ namespace ScrapePollingBooths
         public static void WriteToFile(Dictionary<int,string> Booths, string filename)
         {
             File.WriteAllText(filename, String.Join("\n", Booths.Select(x => String.Format("{0}\t{1}", x.Key, x.Value))));
-        }
-
-        public static ResponseState GetFirstResponse()
-        {
-            HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://210.212.18.115:8880/default2.aspx");
-            var response = request.GetResponse().GetResponseStream();
-            var reader = new StreamReader(response,Encoding.UTF8);
-            var responseState = HtmlUtilities.ParseResponse(reader.ReadToEnd());
-            return responseState;
         }
 
         public static string Scrape()
