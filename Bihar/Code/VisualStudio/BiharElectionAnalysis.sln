@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrapeVotersList", "ScrapeVotersList\ScrapeVotersList.csproj", "{508438AD-A11D-4D92-A7BD-0EEF0C9DA5DB}"
 EndProject
@@ -18,6 +18,20 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrapeCensusData", "ScrapeCensusData\ScrapeCensusData.csproj", "{4FBA3ED5-3A08-4616-BFA2-DF1ADB8087F0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerateDataForR", "GenerateDataForR\GenerateDataForR.csproj", "{048EF528-55FE-4E8F-84C7-5D8063938F3B}"
+EndProject
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrapeElectoralRolls", "ScrapeElectoralRolls\ScrapeElectoralRolls.csproj", "{83A28566-F192-4844-A9DB-254064DA34B6}"
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertExcelToTsv", "ConvertExcelToTsv\ConvertExcelToTsv.csproj", "{7DE8F403-1DF2-467D-897D-A94A530D154B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtractVoterInformation", "ExtractVoterInformation\ExtractVoterInformation.csproj", "{C2DD1EFA-C8B7-463E-A515-D106D43AD07A}"
+>>>>>>> Stashed changes
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertExcelToTsv", "ConvertExcelToTsv\ConvertExcelToTsv.csproj", "{7DE8F403-1DF2-467D-897D-A94A530D154B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtractVoterInformation", "ExtractVoterInformation\ExtractVoterInformation.csproj", "{C2DD1EFA-C8B7-463E-A515-D106D43AD07A}"
+>>>>>>> Stashed changes
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +71,27 @@ Global
 		{048EF528-55FE-4E8F-84C7-5D8063938F3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{048EF528-55FE-4E8F-84C7-5D8063938F3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{048EF528-55FE-4E8F-84C7-5D8063938F3B}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+		{83A28566-F192-4844-A9DB-254064DA34B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83A28566-F192-4844-A9DB-254064DA34B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83A28566-F192-4844-A9DB-254064DA34B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83A28566-F192-4844-A9DB-254064DA34B6}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+=======
+>>>>>>> Stashed changes
+		{7DE8F403-1DF2-467D-897D-A94A530D154B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DE8F403-1DF2-467D-897D-A94A530D154B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DE8F403-1DF2-467D-897D-A94A530D154B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DE8F403-1DF2-467D-897D-A94A530D154B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2DD1EFA-C8B7-463E-A515-D106D43AD07A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2DD1EFA-C8B7-463E-A515-D106D43AD07A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2DD1EFA-C8B7-463E-A515-D106D43AD07A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2DD1EFA-C8B7-463E-A515-D106D43AD07A}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
