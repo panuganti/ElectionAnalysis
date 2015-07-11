@@ -5,6 +5,15 @@ namespace GenerateDataForR
 {
     class PopulateInfo
     {
+        public static State GenerateState(string stateDivisionsFilename, 
+            string acInfoFilename, string censusDataDir, string districtsList)
+        {
+            var state = LoadElectionHierarchy(stateDivisionsFilename,
+                acInfoFilename);
+            LoadCensusData(state, censusDataDir, districtsList);
+            return state;
+        }
+
         public static State LoadElectionHierarchy(string stateDivisionsFilename, 
             string acInfoFilename)
         {
