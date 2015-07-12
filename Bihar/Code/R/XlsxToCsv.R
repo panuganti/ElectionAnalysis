@@ -1,5 +1,6 @@
 writeToCsv = function(i,dir="C:\\Business\\ElectionAnalysis\\Bihar\\Data\\Results\\2014PollingBoothWise\\")
 {
+    require(xlsx)
     print(i)
     paddedInt = sprintf("%03d",i)
     filename = paste(dir,"AC",paddedInt,".xlsx",sep="")
