@@ -1,4 +1,4 @@
-writeToCsv = function(i,dir="C:\\Business\\ElectionAnalysis\\Bihar\\Data\\Results\\2014PollingBoothWise\\")
+writeToCsv = function(i,dir="C:\\Business\\ElectionAnalysis\\Bihar\\Data\\Results\\2005FebPollingBoothWise\\")
 {
     require(xlsx)
     print(i)
