@@ -217,8 +217,10 @@ namespace GenerateDataForR
             var literacyRateRegex = new Regex(@"Literacy rate of ([a-zA-Z\s]+) is ([\d.]+) %");
             var literacyByGenderRegex = new Regex(@"Male literacy is around ([\d\.]+) % while female literacy rate is ([\d\.]+) %");
             var houseCountRegex = new Regex(@"has total administration over ([\d,]+) houses");
+            // TODO: (rapanuga) Handle patterns where STs don't exist
             var casteRegex = new Regex(
                 @"Schedule Caste \(SC\) constitutes ([\d\.]+) % while Schedule Tribe \(ST\) were ([\d\.]+) % of total population");
+
             var workersRegex = new Regex(@"Out of total population, ([\d,]+) were");
             var genderWorkersRegex = new Regex(@"Of this ([\d,]+) were males while ([\d,]+) were females");
             var marginalWorkerRegex =
@@ -231,15 +233,14 @@ namespace GenerateDataForR
 
             censusTownParams.Population = new Dictionary<Gender, int>
             {
-                {Gender.M, Int32.Parse(popRegex.Match(allSentences.First(x=> popRegex.Match(x).Success)).Groups[2].Value)},
-                {Gender.F, Int32.Parse(popRegex.Match(allSentences.First(x=> popRegex.Match(x).Success)).Groups[3].Value)},
+                {Gender.M, Int32.Parse(popRegex.Match(allSentences.First(x=> popRegex.Match(x).Success)).Groups[2].Value, NumberStyles.AllowThousands)},
+                {Gender.F, Int32.Parse(popRegex.Match(allSentences.First(x=> popRegex.Match(x).Success)).Groups[3].Value, NumberStyles.AllowThousands)},
             };
 
-            int totalChildren =
-                Int32.Parse(childPopRegex.Match(allSentences.First(x => childPopRegex.Match(x).Success)).Groups[1].Value);
-            int sexRatio =
-                Int32.Parse(
-                    childSexRatioRegex.Match(allSentences.First(x => childSexRatioRegex.Match(x).Success)).Groups[2].Value);
+            int totalChildren = Int32.Parse(childPopRegex.Match(allSentences.First(x => childPopRegex.Match(x).Success))
+                .Groups[1].Value, NumberStyles.AllowThousands);
+            int sexRatio = Int32.Parse(childSexRatioRegex.Match(allSentences.First(x => childSexRatioRegex.Match(x).Success))
+                    .Groups[2].Value, NumberStyles.AllowThousands);
 
             censusTownParams.Children = new Dictionary<Gender, int>
             {
@@ -251,24 +252,32 @@ namespace GenerateDataForR
                     literacyRateRegex.Match(allSentences.First(x => literacyRateRegex.Match(x).Success)).Groups[2].Value);
             censusTownParams.LiteracyByGender = new Dictionary<Gender, double>
             {
-                {Gender.M, double.Parse(literacyByGenderRegex.Match(allSentences.First(x=> literacyByGenderRegex.Match(x).Success)).Groups[1].Value)},
-                {Gender.F, double.Parse(literacyByGenderRegex.Match(allSentences.First(x=> literacyByGenderRegex.Match(x).Success)).Groups[2].Value)},
+                {Gender.M, double.Parse(literacyByGenderRegex.Match(allSentences
+                    .First(x=> literacyByGenderRegex.Match(x).Success)).Groups[1].Value)},
+                {Gender.F, double.Parse(literacyByGenderRegex.Match(allSentences
+                    .First(x=> literacyByGenderRegex.Match(x).Success)).Groups[2].Value)},
             };
 
             censusTownParams.NoOfHouses =
-                Int32.Parse(houseCountRegex.Match(allSentences.First(x => houseCountRegex.Match(x).Success)).Groups[1].Value);
+                Int32.Parse(houseCountRegex.Match(allSentences.First(x => houseCountRegex.Match(x).Success))
+                .Groups[1].Value, NumberStyles.AllowThousands);
 
+            // TODO: (rapanuga) Handle patterns where STs don't exist
             censusTownParams.SCs = double.Parse(casteRegex.Match(allSentences.First(x => casteRegex.Match(x).Success)).Groups[1].Value);
             censusTownParams.STs = double.Parse(casteRegex.Match(allSentences.First(x => casteRegex.Match(x).Success)).Groups[2].Value);
 
             censusTownParams.Workers = new Dictionary<Gender, int>
             {
-                {Gender.M, Int32.Parse(genderWorkersRegex.Match(allSentences.First(x=> genderWorkersRegex.Match(x).Success)).Groups[1].Value)},
-                {Gender.F, Int32.Parse(genderWorkersRegex.Match(allSentences.First(x=> genderWorkersRegex.Match(x).Success)).Groups[2].Value)},
+                {Gender.M, Int32.Parse(genderWorkersRegex.Match(allSentences.First(x=> genderWorkersRegex.Match(x).Success))
+                    .Groups[1].Value, NumberStyles.AllowThousands)},
+                {Gender.F, Int32.Parse(genderWorkersRegex.Match(allSentences.First(x=> genderWorkersRegex.Match(x).Success))
+                    .Groups[2].Value, NumberStyles.AllowThousands)},
             };
 
-            censusTownParams.MainWorkers = double.Parse(marginalWorkerRegex.Match(allSentences.First(x => marginalWorkerRegex.Match(x).Success)).Groups[1].Value);
-            censusTownParams.MarginalWorkers = double.Parse(marginalWorkerRegex.Match(allSentences.First(x => marginalWorkerRegex.Match(x).Success)).Groups[2].Value);
+            censusTownParams.MainWorkers = double.Parse(marginalWorkerRegex.Match(allSentences
+                .First(x => marginalWorkerRegex.Match(x).Success)).Groups[1].Value);
+            censusTownParams.MarginalWorkers = double.Parse(marginalWorkerRegex.Match(allSentences
+                .First(x => marginalWorkerRegex.Match(x).Success)).Groups[2].Value);
             town.Params = censusTownParams;
         }
 

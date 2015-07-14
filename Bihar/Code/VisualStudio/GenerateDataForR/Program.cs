@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Configuration;
 using System.IO;
 using System.Linq;
 using BiharElectionsLibrary;
@@ -11,15 +12,26 @@ namespace GetBihar2010Results
         private static void Main(string[] args)
         {
             #region Config
-            const string stateDivisionsFilename = @"E:\NMW\SurveyAnalytics\Bihar\Data\AdminData\SubDivisions.txt";
-            const string acInfoFilename = @"E:\NMW\SurveyAnalytics\Bihar\Data\AdminData\AssemblyConstituencies.txt";
-            const string dataPath = @"E:\NMW\GitHub\ElectionAnalysis\Bihar\Data\CensusData\";
-            const string distListRelPath = "census/state/districtlist/bihar.html";
+
+            string rootDir = File.ReadAllLines(@".\Config.ini").First();
+            string stateDivisionsFilename = Path.Combine(rootDir,ConfigurationManager.AppSettings["StateDivisionsFilename"]);
+            string acInfoFilename = Path.Combine(rootDir, ConfigurationManager.AppSettings["ACs"]);
+            string censusDataDir = Path.Combine(rootDir, ConfigurationManager.AppSettings["CensusDataDirectory"]);
+            string distListRelPath = Path.Combine(rootDir, ConfigurationManager.AppSettings["BiharDistrictsHtmlPage"]);
+            string stateJsonStore = Path.Combine(rootDir, ConfigurationManager.AppSettings["StateJson"]);
             #endregion Config
 
-            var state = PopulateInfo.LoadElectionHierarchy(stateDivisionsFilename, acInfoFilename);
-            PopulateInfo.LoadCensusData(state, dataPath, distListRelPath);
-            Console.WriteLine("State has {0} villages",state.Villages.Count());
+            #region Populate Info
+
+            State state = PopulateInfo.LoadElectionHierarchy(stateDivisionsFilename, acInfoFilename);
+            
+            PopulateInfo.LoadCensusData(state, censusDataDir, distListRelPath);
+            
+            #endregion Populate Info
+
+            #region Custom Execution
+            Console.WriteLine("State has {0} villages", state.Villages.Count());
+            #endregion Custom Execution
         }
 
         private static void OldMain()
