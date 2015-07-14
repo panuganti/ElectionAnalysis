@@ -13,7 +13,6 @@ namespace BiharElectionsLibrary
 
         public static string Hash(string word, HashType hashType)
         {
-            string hash;
             StringBuilder wordFilteredSB = new StringBuilder(); // remove non-alpha characters
 
             word = word.ToLower();

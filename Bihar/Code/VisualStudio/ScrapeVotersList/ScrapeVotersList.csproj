@@ -6,6 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{508438AD-A11D-4D92-A7BD-0EEF0C9DA5DB}</ProjectGuid>
     <OutputType>Exe</OutputType>
+    <BuildDir>..\..\..\..\..\Builds\</BuildDir>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ScrapeVotersList</RootNamespace>
     <AssemblyName>ScrapeVotersList</AssemblyName>
@@ -17,7 +18,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>${BuildDir}\${AssemblyName}\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -26,7 +27,7 @@
     <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
+    <OutputPath>${BuildDir}\${AssemblyName}\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
