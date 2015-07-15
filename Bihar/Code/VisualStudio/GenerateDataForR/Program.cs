@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using BiharElectionsLibrary;
 using GenerateDataForR;
+using Newtonsoft.Json;
 
 namespace GetBihar2010Results
 {
@@ -18,16 +19,73 @@ namespace GetBihar2010Results
             string acInfoFilename = Path.Combine(rootDir, ConfigurationManager.AppSettings["ACs"]);
             string censusDataDir = Path.Combine(rootDir, ConfigurationManager.AppSettings["CensusDataDirectory"]);
             string distListRelPath = Path.Combine(rootDir, ConfigurationManager.AppSettings["BiharDistrictsHtmlPage"]);
+
+            string ACBye2014 = Path.Combine(rootDir, ConfigurationManager.AppSettings["2014ByeACWiseResults"]);
+            string AC2014 = Path.Combine(rootDir, ConfigurationManager.AppSettings["2014ACWiseResults"]);
+            string AC2010 = Path.Combine(rootDir, ConfigurationManager.AppSettings["2010ACWiseResults"]);
+            string AC2009 = Path.Combine(rootDir, ConfigurationManager.AppSettings["2009ACWiseResults"]);
+            string AC2005 = Path.Combine(rootDir, ConfigurationManager.AppSettings["2005ACWiseResults"]);
+
+            string Booth2014 = Path.Combine(rootDir, ConfigurationManager.AppSettings["2014PollingBoothWiseResults"]);
+            string Booth2009 = Path.Combine(rootDir, ConfigurationManager.AppSettings["2009PollingBoothWiseResults"]);
+            string Booth2010 = Path.Combine(rootDir, ConfigurationManager.AppSettings["2010PollingBoothWiseResults"]);
+            string Booth2005 = Path.Combine(rootDir, ConfigurationManager.AppSettings["2005PollingBoothWiseResults"]);
+
+            string Qual2015 = Path.Combine(rootDir, ConfigurationManager.AppSettings["2015Qualitative"]);
+            string Qual2010Cand = Path.Combine(rootDir, ConfigurationManager.AppSettings["2010QualitativeCandParams"]);
+            string Qual2010Caste = Path.Combine(rootDir, ConfigurationManager.AppSettings["2010QualitativeCasteShares"]);
+            string Qual2010Dev = Path.Combine(rootDir, ConfigurationManager.AppSettings["2010QualitativeDevelopmentParams"]);
+            string Qual2010Issues = Path.Combine(rootDir, ConfigurationManager.AppSettings["2010QualitativeLocalIssues"]);
+            string Qual2010Party = Path.Combine(rootDir, ConfigurationManager.AppSettings["2010QualitativePartyParams"]);
+
+            string Exit2014 = Path.Combine(rootDir, ConfigurationManager.AppSettings["2014ExitPoll"]);
+            string Exit2010 = Path.Combine(rootDir, ConfigurationManager.AppSettings["2010ExitPoll"]);
+            string PrePoll2010 = Path.Combine(rootDir, ConfigurationManager.AppSettings["2010Prepoll"]);
+
+            string musPopDistWise = Path.Combine(rootDir, ConfigurationManager.AppSettings["MuslimPopulationDistrictWise"]);
+            string musPopACWise = Path.Combine(rootDir, ConfigurationManager.AppSettings["MuslimPopulationACWise"]);
+
             string stateJsonStore = Path.Combine(rootDir, ConfigurationManager.AppSettings["StateJson"]);
+            
             #endregion Config
 
             #region Populate Info
 
-            State state = PopulateInfo.LoadElectionHierarchy(stateDivisionsFilename, acInfoFilename);
-            
-            PopulateInfo.LoadCensusData(state, censusDataDir, distListRelPath);
+            State state;
+            if (File.Exists(stateJsonStore))
+            {
+                var json = File.ReadAllText(stateJsonStore);
+                state = JsonConvert.DeserializeObject<State>(json);
+            }
+            else
+            {
+
+                state = PopulateInfo.LoadElectionHierarchy(stateDivisionsFilename, acInfoFilename);
+                File.WriteAllText(stateJsonStore, JsonConvert.SerializeObject(state)); //
+            }
+            //PopulateInfo.LoadCensusData(state, censusDataDir, distListRelPath);
             
             #endregion Populate Info
+
+            #region Load Results
+
+            var results2005 = AssemblyConstituencyResult.Load2005ResultsFromFile(AC2005);
+            var results2010 = AssemblyConstituencyResult.Load2010ResultsFromFile(AC2010);
+            var results2014 = AssemblyConstituencyResult.Load2014ResultsFromFile(AC2014);
+
+            #endregion Load Results
+
+            #region Load CVoter Data
+
+            #endregion Load CVoter Data
+
+            #region Load Additional Info
+
+            var muslimPopulationData = MuslimPopulationData.LoadFromFile(musPopACWise);
+            // 
+
+            #endregion Load Additional Info
+
 
             #region Custom Execution
             Console.WriteLine("State has {0} villages", state.Villages.Count());
