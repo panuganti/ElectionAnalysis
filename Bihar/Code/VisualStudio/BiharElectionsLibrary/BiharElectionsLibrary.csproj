@@ -46,19 +46,25 @@
   <ItemGroup>
     <Compile Include="Candidate.cs" />
     <Compile Include="CasteUtils.cs" />
+    <Compile Include="CensusTownParameters.cs" />
     <Compile Include="DelimitationMapping.cs" />
+    <Compile Include="DistrictParameters.cs" />
     <Compile Include="ElectionRegionHierarchy.cs" />
     <Compile Include="AssemblyElectionResults.cs" />
     <Compile Include="EnumExtensions.cs" />
     <Compile Include="Enums.cs" />
     <Compile Include="ExitPoll.cs" />
     <Compile Include="LookUps.cs" />
+    <Compile Include="MunicipalParameters.cs" />
     <Compile Include="MuslimPopulationData.cs" />
+    <Compile Include="ParameterDictionaries.cs" />
     <Compile Include="PhoneticHash.cs" />
     <Compile Include="QualitativeData.cs" />
+    <Compile Include="RegionParameters.cs" />
     <Compile Include="ShapeFileData.cs" />
     <Compile Include="SurveyResponse.cs" />
     <Compile Include="Utils.cs" />
+    <Compile Include="VillageParameters.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
