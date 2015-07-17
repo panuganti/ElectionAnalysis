@@ -169,7 +169,7 @@ namespace ScrapeCensusData
              * m/f breakup from "Of this 956 were males while 338 were females"
              * main vs marginal from "Of total 1294 working population, 94.59 % were engaged in Main Work while 5.41 % of total workers were engaged in Marginal Work"
             */
-            town.Params = censusTownParams;
+            ParamDictionaries.CensusTownParams.Add(town,censusTownParams);
         }
 
         public void AddVillageInfo(string villageName, int id, string url, Block block)
@@ -216,7 +216,8 @@ namespace ScrapeCensusData
                 {
                 }
             }
-            village.Parameters = villageParams;
+
+            ParamDictionaries.VillageParams.Add(village,villageParams);
         }
 
         public IEnumerable<HtmlNode> GetNodesOfAClass(HtmlNode node, string className)

@@ -4,7 +4,6 @@ using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 using BiharElectionsLibrary;
 using HtmlAgilityPack;
 
@@ -14,9 +13,13 @@ namespace GenerateDataForR
     {
         private const string DomainName = "http://www.census2011.co.in/";
         private readonly string _baseDataPath;
+
         public PopulateCensusData(string baseDataPath)
         {
             _baseDataPath = baseDataPath;
+            ParamDictionaries.CensusTownParams = new Dictionary<CensusTown, CensusTownParams>();
+            ParamDictionaries.DistrictParams = new Dictionary<District, DistrictParameters>();
+            ParamDictionaries.VillageParams = new Dictionary<Village, VillageParameters>();
         }
 
         public HtmlDocument GetHtmlPage(string relativeUrl)
@@ -108,7 +111,8 @@ namespace GenerateDataForR
             {
                 string rowHeader = rowNode.ChildNodes[1].InnerText;
 
-            }            
+            }
+            ParamDictionaries.DistrictParams.Add(district,districtParams);
         }
 
         public void ParseBlocksListPage(HtmlDocument document, District district)
@@ -170,10 +174,10 @@ namespace GenerateDataForR
 
         public void AddMunicipalityInfo(string townName, int townId, string url, Block block)
         {
-            var newMC = block.AddMunicipalCorp(townName, townId);
-            if (newMC == null) { return; }
+            var newMc = block.AddMunicipalCorp(townName, townId);
+            if (newMc == null) { return; }
             var municipalityDocument =   GetHtmlPage(url);
-            ParseAndAddMunicipalityInfo(municipalityDocument, newMC);
+            ParseAndAddMunicipalityInfo(municipalityDocument, newMc);
         }
 
         public void ParseAndAddMunicipalityInfo(HtmlDocument doc, MunicipalCorp mc)
@@ -278,7 +282,8 @@ namespace GenerateDataForR
                 .First(x => marginalWorkerRegex.Match(x).Success)).Groups[1].Value);
             censusTownParams.MarginalWorkers = double.Parse(marginalWorkerRegex.Match(allSentences
                 .First(x => marginalWorkerRegex.Match(x).Success)).Groups[2].Value);
-            town.Params = censusTownParams;
+
+            ParamDictionaries.CensusTownParams.Add(town,censusTownParams);
         }
 
         public void AddVillageInfo(string villageName, int id, string url, Block block)
@@ -372,7 +377,7 @@ namespace GenerateDataForR
                         NumberStyles.AllowThousands);
                 }
             }
-            village.Parameters = villageParams;
+            ParamDictionaries.VillageParams.Add(village,villageParams);
         }
 
         public IEnumerable<HtmlNode> GetNodesOfAClass(HtmlNode node, string className)

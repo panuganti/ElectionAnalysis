@@ -64,7 +64,7 @@ namespace GetBihar2010Results
                     JsonConvert.SerializeObject(state, 
                     new JsonSerializerSettings {PreserveReferencesHandling = PreserveReferencesHandling.Objects})); //
             }
-            //PopulateInfo.LoadCensusData(state, censusDataDir, distListRelPath);
+            PopulateInfo.LoadCensusData(state, censusDataDir, distListRelPath);
             
             #endregion Populate Info
 

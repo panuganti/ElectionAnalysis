@@ -213,125 +213,7 @@ namespace BiharElectionsLibrary
     {
         [DataMember]
         public Block Block { get; set; }
-        [DataMember]
-        public VillageParameters Parameters { get; set; }
     }
-
-    #region Parameters of A Region
-
-    [DataContract]
-    public class Parameters
-    {
-        [DataMember]
-        public int NoOfHouses { get; set; }
-        [DataMember]
-        public Dictionary<Gender, int> Population { get; set; }
-        [DataMember]
-        public Dictionary<Gender, int> Children { get; set; }        
-    }
-
-    [DataContract]
-    public class DistrictParameters : Parameters
-    {
-        #region 2011 vs 2001
-        [DataMember]
-        public Dictionary<int, int> ActualPopulationByYear { get; set; }
-        [DataMember]
-        public Dictionary<Gender, Dictionary<int, int>> GenderWisePopulationByYear { get; set; }
-        [DataMember]
-        public Dictionary<int, double> PopulationGrowth { get; set; }
-        [DataMember]
-        public Dictionary<int, int> AreaInSqKm { get; set; }
-        [DataMember]
-        public Dictionary<int, int> Density { get; set; }
-        [DataMember]
-        public Dictionary<int, int> SexRatioByYear { get; set; }
-        [DataMember]
-        public Dictionary<int, int> ChildSexRatioByYear { get; set; }
-        [DataMember]
-        public Dictionary<int, double> AvgLiteracyByYear { get; set; }
-        [DataMember]
-        public Dictionary<Gender, Dictionary<int, double>> LiteracyByYear { get; set; }
-        [DataMember]
-        public Dictionary<int, int> TotalChildPopulation { get; set; }
-        [DataMember]
-        public Dictionary<Gender, Dictionary<int, int>> ChildPopulationByYear { get; set; }
-        [DataMember]
-        public Dictionary<int, int> TotalLiteratesByYear { get; set; }
-        [DataMember]
-        public Dictionary<Gender, Dictionary<int, int>> LiteratesByYear { get; set; }
-        #endregion 2011 vs 2001
-
-        #region Rural Vs Urban
-        [DataMember]
-        public Dictionary<LocationType, double> PopulatinPercent { get; set; }
-        [DataMember]
-        public Dictionary<LocationType, int> TotalPopulation { get; set; }
-        [DataMember]
-        public Dictionary<LocationType, int> SexRatio { get; set; }
-        [DataMember]
-        public Dictionary<LocationType, int> ChildSexRatio { get; set; }
-        [DataMember]
-        public Dictionary<LocationType, int> ChildPopulation { get; set; }
-        [DataMember]
-        public Dictionary<LocationType, double> AvgChildPercent { get; set; }
-        [DataMember]
-        public Dictionary<Gender, Dictionary<LocationType, double>> ChildPercent { get; set; }
-        [DataMember]
-        public Dictionary<LocationType, int> TotalLiterates { get; set; }
-        [DataMember]
-        public Dictionary<Gender, Dictionary<LocationType, int>> Literates { get; set; }
-        [DataMember]
-        public Dictionary<LocationType, double> AvgLiteracy { get; set; }
-        [DataMember]
-        public Dictionary<Gender, Dictionary<LocationType, double>> Literacy { get; set; }
-
-        #endregion Rural Vs Urban 
-    }
-
-    [DataContract]
-    public class VillageParameters : Parameters
-    {
-        [DataMember]
-        public Dictionary<Gender, int> SCs { get; set; }
-        [DataMember]
-        public Dictionary<Gender, int> STs { get; set; }
-        [DataMember]
-        public Dictionary<Gender, double> LiteracyGenderWise { get; set; }
-        [DataMember]
-        public Dictionary<Gender, int> TotalWorkers { get; set; }
-        [DataMember]
-        public int MainWorkers { get; set; } // Earning 6 or more months
-        [DataMember]
-        public int MarginalWorkers { get; set; } // Less than 6 months earning
-        [DataMember]
-        public double Literacy { get; set; }
-    }
-
-    [DataContract]
-    public class CensusTownParams : Parameters
-    {
-        [DataMember]
-        public Dictionary<Gender, double> LiteracyByGender { get; set; }
-
-        [DataMember]
-        public double Literacy { get; set; }
-
-        [DataMember]
-        public double SCs { get; set; } // %
-        [DataMember]
-        public double STs { get; set; } // %
-
-        [DataMember]
-        public Dictionary<Gender, int> Workers { get; set; } 
-        // Worker: somone who does business,job,service,cultivator or labor
-        [DataMember]
-        public double MainWorkers { get; set; } // %
-        [DataMember]
-        public double MarginalWorkers { get; set; } // %
-    }
-
-    #endregion Parameters of A Region
 
     [DataContract]
     public class Ward : RegionWithId
@@ -343,8 +225,6 @@ namespace BiharElectionsLibrary
     [DataContract]
     public class CensusTown : RegionWithId
     {
-        [DataMember]
-        public CensusTownParams Params { get; set; }
         [DataMember]
         public Block Block { get; set; }        
     }
