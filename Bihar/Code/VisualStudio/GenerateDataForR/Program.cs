@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Configuration;
 using System.IO;
 using System.Linq;
@@ -46,6 +47,13 @@ namespace GetBihar2010Results
             string musPopACWise = Path.Combine(rootDir, ConfigurationManager.AppSettings["MuslimPopulationACWise"]);
 
             string stateJsonStore = Path.Combine(rootDir, ConfigurationManager.AppSettings["StateJson"]);
+            string results2005Store = Path.Combine(rootDir, ConfigurationManager.AppSettings["Results2005Json"]);
+            string results2010Store = Path.Combine(rootDir, ConfigurationManager.AppSettings["Results2010Json"]);
+            string results2014Store = Path.Combine(rootDir, ConfigurationManager.AppSettings["Results2014Json"]);
+            string villageParamsJsonStore = Path.Combine(rootDir, ConfigurationManager.AppSettings["VillageParamsJson"]);
+            string districtParamsJsonStore = Path.Combine(rootDir, ConfigurationManager.AppSettings["DistrictParamsJson"]);
+            string censusTownParamsJsonStore = Path.Combine(rootDir, ConfigurationManager.AppSettings["CensusTownParamsJson"]);
+            
             
             #endregion Config
 
@@ -60,21 +68,102 @@ namespace GetBihar2010Results
             else
             {
                 state = PopulateInfo.LoadElectionHierarchy(stateDivisionsFilename, acInfoFilename);
+                PopulateInfo.LoadCensusData(state, censusDataDir, distListRelPath);
                 File.WriteAllText(stateJsonStore, 
                     JsonConvert.SerializeObject(state, 
                     new JsonSerializerSettings {PreserveReferencesHandling = PreserveReferencesHandling.Objects})); //
             }
-            PopulateInfo.LoadCensusData(state, censusDataDir, distListRelPath);
             
             #endregion Populate Info
 
             #region Load Results
 
-            var results2005 = AssemblyConstituencyResult.Load2005ResultsFromFile(AC2005);
-            var results2010 = AssemblyConstituencyResult.Load2010ResultsFromFile(AC2010);
-            var results2014 = AssemblyConstituencyResult.Load2014ResultsFromFile(AC2014);
+            List<AssemblyConstituencyResult> results2005;
+            if (bool.Parse(ConfigurationManager.AppSettings["LoadNonStateJsons"]) && File.Exists(results2005Store))
+            {
+                var json = File.ReadAllText(results2005Store);
+                results2005 = JsonConvert.DeserializeObject<List<AssemblyConstituencyResult>>(json);                
+            }
+            else
+            {
+                results2005 = AssemblyConstituencyResult.Load2005ResultsFromFile(AC2005);
+                File.WriteAllText(results2005Store,
+                JsonConvert.SerializeObject(results2005,
+                new JsonSerializerSettings
+                {
+                    //PreserveReferencesHandling = PreserveReferencesHandling.Objects
+                })); //
+            }
+
+            List<AssemblyConstituencyResult> results2010;
+            if (bool.Parse(ConfigurationManager.AppSettings["LoadNonStateJsons"]) && File.Exists(results2010Store))
+            {
+                var json = File.ReadAllText(results2010Store);
+                results2010 = JsonConvert.DeserializeObject<List<AssemblyConstituencyResult>>(json);
+            }
+            else
+            {
+                results2010 = AssemblyConstituencyResult.Load2010ResultsFromFile(AC2010);
+                File.WriteAllText(results2010Store,
+                    JsonConvert.SerializeObject(results2010,
+                        new JsonSerializerSettings {PreserveReferencesHandling = PreserveReferencesHandling.Objects}));
+            }
+            
+            List<AssemblyConstituencyResult> results2014;
+            if (bool.Parse(ConfigurationManager.AppSettings["LoadNonStateJsons"]) && File.Exists(results2010Store))
+            {
+                var json = File.ReadAllText(results2014Store);
+                results2014 = JsonConvert.DeserializeObject<List<AssemblyConstituencyResult>>(json);
+            }
+            else
+            {
+                results2014 = AssemblyConstituencyResult.Load2014ResultsFromFile(AC2014);
+                File.WriteAllText(results2014Store,
+                    JsonConvert.SerializeObject(results2014,
+                        new JsonSerializerSettings {PreserveReferencesHandling = PreserveReferencesHandling.Objects}));
+            }
 
             #endregion Load Results
+
+            VillageParameters villageParams;
+            if (bool.Parse(ConfigurationManager.AppSettings["LoadNonStateJsons"]) && File.Exists(villageParamsJsonStore))
+            {
+                var json = File.ReadAllText(villageParamsJsonStore);
+                villageParams = JsonConvert.DeserializeObject<VillageParameters>(json);                
+            }
+            else
+            {
+                File.WriteAllText(villageParamsJsonStore,
+                    JsonConvert.SerializeObject(ParamDictionaries.VillageParams,
+                    new JsonSerializerSettings { PreserveReferencesHandling = PreserveReferencesHandling.Objects })); //                
+            }
+
+            CensusTownParams censusTownParams;
+            if (bool.Parse(ConfigurationManager.AppSettings["LoadNonStateJsons"]) && File.Exists(censusTownParamsJsonStore))
+            {
+                var json = File.ReadAllText(censusTownParamsJsonStore);
+                censusTownParams = JsonConvert.DeserializeObject<CensusTownParams>(json);
+            }
+            else
+            {
+                File.WriteAllText(censusTownParamsJsonStore,
+                    JsonConvert.SerializeObject(ParamDictionaries.CensusTownParams,
+                    new JsonSerializerSettings { PreserveReferencesHandling = PreserveReferencesHandling.Objects })); //                
+            }
+
+            DistrictParameters districtParams;
+            if (bool.Parse(ConfigurationManager.AppSettings["LoadNonStateJsons"]) && File.Exists(districtParamsJsonStore))
+            {
+                var json = File.ReadAllText(districtParamsJsonStore);
+                districtParams = JsonConvert.DeserializeObject<DistrictParameters>(json);
+            }
+            else
+            {
+                File.WriteAllText(districtParamsJsonStore,
+                    JsonConvert.SerializeObject(ParamDictionaries.DistrictParams,
+                    new JsonSerializerSettings { PreserveReferencesHandling = PreserveReferencesHandling.Objects })); //                
+            }
+
 
             #region Load CVoter Data
 
@@ -89,7 +178,9 @@ namespace GetBihar2010Results
 
 
             #region Custom Execution
+
             Console.WriteLine("State has {0} villages", state.Villages.Count());
+
             #endregion Custom Execution
         }
 

@@ -2,11 +2,14 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Runtime.Serialization;
 
 namespace BiharElectionsLibrary
 {
+    [DataContract]
     public class AssemblyConstituencyResult : ConstituencyResult
     {
+        [DataMember]
         public AssemblyConstituency Constituency { get; set; }
 
         #region Load 2010 Results
@@ -185,16 +188,23 @@ namespace BiharElectionsLibrary
         #endregion Load 2014 Results
     }
 
+    [DataContract]
     public class ParliamentaryConstituencyResult : ConstituencyResult
     {
+        [DataMember]
         public ParliamentaryConstituency Constituency { get; set; }
     }
 
+    [DataContract]
     public abstract class ConstituencyResult
     {
+        [DataMember]
         public int YearOfElection { get; set; }
+        [DataMember]
         public Dictionary<Candidate, int> Votes { get; set; }
+        [DataMember]
         public int TotalVotes { get; set; }
+        [DataMember]
         public int NOTA { get; set; }
 
         public Candidate GetWinner()
@@ -208,18 +218,24 @@ namespace BiharElectionsLibrary
         }
     }
 
+    [DataContract]
     public class AssemblyElectionResults : ElectionResults
     {
+        [DataMember]
         public List<AssemblyConstituencyResult> ConstituencyResults { get; set; }
     }
 
+    [DataContract]
     public class ParliamentaryElectionResults : ElectionResults
     {
+        [DataMember]
         public List<ParliamentaryConstituencyResult> ConstituencyResults { get; set; }
     }
 
+    [DataContract]
     public abstract class ElectionResults
     {
+        [DataMember]
         public int PrimaryYearOfElection { get; set; }        
     }
 }

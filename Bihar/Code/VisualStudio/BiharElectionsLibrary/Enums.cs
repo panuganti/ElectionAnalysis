@@ -1,5 +1,8 @@
-﻿namespace BiharElectionsLibrary
+﻿using System.Runtime.Serialization;
+
+namespace BiharElectionsLibrary
 {
+    [DataContract]
     public enum RelationType
     {
         Father,
@@ -10,6 +13,7 @@
         NoRelation = 0
     }
 
+    [DataContract]
     public enum YesNo
     {
         Yes = 1,
@@ -17,6 +21,7 @@
         Others = 0
     }
 
+    [DataContract]
     public enum Gender
     {
         M,
@@ -25,6 +30,7 @@
         Error = 0
     }
 
+    [DataContract]
     public enum ConstituencyCasteCategory
     {
         // ReSharper disable InconsistentNaming
@@ -35,6 +41,7 @@
         // ReSharper restore InconsistentNaming
     }
 
+    [DataContract]
     public enum PoliticalParty
     {
         // ReSharper disable InconsistentNaming
@@ -66,6 +73,7 @@
         // ReSharper restore InconsistentNaming
     }
 
+    [DataContract]
     public enum PoliticalPartyParameter
     {
         PartyOrganizationStrength,
@@ -74,6 +82,7 @@
         Error = 0
     }
 
+    [DataContract]
     public enum DataIssues
     {
         CasteCategoryDataMissing,
@@ -81,6 +90,7 @@
         Error = 0
     }
 
+    [DataContract]
     public enum FamilyIncome
     {
         LT3K = 1,
@@ -93,6 +103,7 @@
         CantSay = 0
     }
 
+    [DataContract]
     public enum Occupation
     {
         StudentUnemployed = 1,
@@ -107,6 +118,7 @@
         Others = 0
     }
 
+    [DataContract]
     public enum EducationLevel
     {
         Illiterate = 0,
@@ -119,6 +131,7 @@
         Professional = 7,
     }
 
+    [DataContract]
     public enum CandidateParameter
     {
         Availability,
@@ -135,6 +148,7 @@
         Error = 0
     }
 
+    [DataContract]
     public enum DevelopmentIssueCategory
     {
         Electricity,
@@ -150,6 +164,7 @@
         Error = 0
     }
 
+    [DataContract]
     public enum CasteCategory
     {
         // ReSharper disable InconsistentNaming
@@ -167,6 +182,7 @@
         // ReSharper restore InconsistentNaming
     }
 
+    [DataContract]
     public enum Caste
     {
         // ReSharper disable InconsistentNaming
@@ -271,6 +287,7 @@
 
     #region QuantitativeEnums
 
+    [DataContract]
     public enum DecisiveFactor
     {
         LocalCandidate = 1,
@@ -282,6 +299,7 @@
         CantSay = 0
     }
 
+    [DataContract]
     public enum Issues
     {
         Development,
@@ -315,7 +333,8 @@
         Others,
         NoIssue = 0
     }
-    
+
+    [DataContract]
     public enum LocationType
     {
         Urban = 1,
@@ -326,6 +345,7 @@
     #endregion QuantitativeEnums
 
 
+    [DataContract]
     public enum LocalIssuesCategory
     {
         Corruption,
@@ -350,6 +370,7 @@
         Error = 0
     }
 
+    [DataContract]
     public enum Condition
     {
         Improved = 1,
@@ -358,6 +379,7 @@
         CantSay = 0
     }
 
+    [DataContract]
     public enum AdminHierarchy
     {
         PM,

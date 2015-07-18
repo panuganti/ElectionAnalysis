@@ -224,7 +224,10 @@ namespace GenerateDataForR
             // TODO: (rapanuga) Handle patterns where STs don't exist
             var casteRegex = new Regex(
                 @"Schedule Caste \(SC\) constitutes ([\d\.]+) % while Schedule Tribe \(ST\) were ([\d\.]+) % of total population");
-
+            var casteReverseRegex = new Regex(
+                @"Schedule Tribe \(ST\) constitutes ([\d\.]+) % while Schedule Caste \(SC\) were ([\d\.]+) % of total population");
+            var scOnlyRegex = new Regex(
+                @"Schedule Caste \(SC\) constitutes ([\d\.]+) % of total population");
             var workersRegex = new Regex(@"Out of total population, ([\d,]+) were");
             var genderWorkersRegex = new Regex(@"Of this ([\d,]+) were males while ([\d,]+) were females");
             var marginalWorkerRegex =
@@ -232,7 +235,6 @@ namespace GenerateDataForR
                     @"working population, ([\d\.]+) % were engaged in Main Work while ([\d\.]+) % of total workers were engaged in Marginal Work");
 
 
-            //Console.WriteLine(allSentences.Length);
             var censusTownParams = new CensusTownParams();
 
             censusTownParams.Population = new Dictionary<Gender, int>
@@ -267,8 +269,27 @@ namespace GenerateDataForR
                 .Groups[1].Value, NumberStyles.AllowThousands);
 
             // TODO: (rapanuga) Handle patterns where STs don't exist
-            censusTownParams.SCs = double.Parse(casteRegex.Match(allSentences.First(x => casteRegex.Match(x).Success)).Groups[1].Value);
-            censusTownParams.STs = double.Parse(casteRegex.Match(allSentences.First(x => casteRegex.Match(x).Success)).Groups[2].Value);
+            var matchSentence = allSentences.FirstOrDefault(x => casteRegex.Match(x).Success);
+            if (matchSentence == null)
+            {
+                matchSentence = allSentences.FirstOrDefault(x => scOnlyRegex.Match(x).Success);
+                if (matchSentence == null)
+                {
+                    matchSentence = allSentences.First(x => casteReverseRegex.Match(x).Success);
+                    censusTownParams.SCs = double.Parse(casteReverseRegex.Match(matchSentence).Groups[2].Value);
+                    censusTownParams.STs = double.Parse(casteReverseRegex.Match(matchSentence).Groups[1].Value);
+                }
+                else
+                {
+                    censusTownParams.SCs = double.Parse(scOnlyRegex.Match(matchSentence).Groups[1].Value);
+                    censusTownParams.STs = 0;                                                    
+                }
+            }
+            else
+            {
+                censusTownParams.SCs = double.Parse(casteRegex.Match(matchSentence).Groups[1].Value);
+                censusTownParams.STs = double.Parse(casteRegex.Match(matchSentence).Groups[2].Value);                
+            }
 
             censusTownParams.Workers = new Dictionary<Gender, int>
             {

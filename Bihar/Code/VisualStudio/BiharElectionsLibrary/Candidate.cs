@@ -1,16 +1,26 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime.Serialization;
 
 namespace BiharElectionsLibrary
 {
+    [DataContract]
     public class Candidate : IEqualityComparer<Candidate>
     {
+        [DataMember]
         public string Name { get; set; }
+        [DataMember]
         public Gender Gender { get; set; }
+        [DataMember]
         public ConstituencyCasteCategory ConstituencyCasteCategory { get; set; }
+        [DataMember]
         public int YearOfBirth { get; set; }
+        [DataMember]
         public PoliticalParty Party { get; set; }
+        [DataMember]
         public Dictionary<int, PoliticalParty> PreviousAffiliations { get; set; }
+
+        #region Methods
 
         public bool Equals(Candidate x, Candidate y)
         {
@@ -22,5 +32,7 @@ namespace BiharElectionsLibrary
         {
             throw new NotImplementedException();
         }
+
+        #endregion Methods
     }
 }
