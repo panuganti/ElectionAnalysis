@@ -13,6 +13,17 @@ namespace GetBihar2010Results
     {
         private static void Main(string[] args)
         {
+            Startup();
+            CustomExecution();
+        }
+
+        private static void CustomExecution()
+        {
+            //Console.WriteLine("State has {0} villages", state.Villages.Count()); 
+        }
+
+        private static void Startup()
+        {
             #region Config
 
             string rootDir = File.ReadAllLines(@".\Config.ini").First();
