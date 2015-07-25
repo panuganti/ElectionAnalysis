@@ -23,6 +23,8 @@
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="MapStyles.ts" />
+    <TypeScriptCompile Include="BiharMap.ts" />
     <TypeScriptCompile Include="app.ts" />
     <TypeScriptCompile Include="Scripts\typings\googlemaps\google.maps.d.ts" />
   </ItemGroup>
