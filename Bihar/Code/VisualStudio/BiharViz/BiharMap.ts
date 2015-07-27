@@ -51,7 +51,7 @@ module BiharElections {
             if (data.objects) { //topojson
                 $.each(data.objects, function (i, layer) {
                     var geojson = topojson.feature(data, layer);
-                    this.map.data.addGeoJson(data);
+                    this.map.data.addGeoJson(geojson);
                 });
                 console.log("Loading completed");
             } else { // geojson
