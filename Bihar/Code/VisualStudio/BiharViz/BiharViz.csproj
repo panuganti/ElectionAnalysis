@@ -24,6 +24,8 @@
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="EventHandler.ts" />
+    <TypeScriptCompile Include="DataLoader.ts" />
     <TypeScriptCompile Include="MapStyles.ts" />
     <TypeScriptCompile Include="BiharMap.ts" />
     <TypeScriptCompile Include="app.ts" />
