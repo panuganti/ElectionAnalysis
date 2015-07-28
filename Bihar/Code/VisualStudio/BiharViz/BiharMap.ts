@@ -8,6 +8,8 @@ module BiharElections {
         private map: google.maps.Map;
         private mapOptions: google.maps.MapOptions;
         private colors: string[];
+        private topojson: any;
+        private defaultCenter: google.maps.LatLng;
 
         public loadGeoJson: { (data: any): void } = (data) => this.addGeoJson(data);
         public getStyleCallback: { (feature: google.maps.Data.StyleOptions): void }
@@ -19,9 +21,10 @@ module BiharElections {
         }
 
         initialize() {
+            this.defaultCenter = new google.maps.LatLng(23, 84);
             this.mapOptions = {
                 zoom: 7,
-                center: new google.maps.LatLng(23, 84),
+                center: this.defaultCenter,
                 mapTypeId: google.maps.MapTypeId.TERRAIN,
                 minZoom: 4,
                 disableDefaultUI: true
@@ -37,25 +40,20 @@ module BiharElections {
         }
 
         loadGeoData() {
-            var center = this.map.getCenter();
-            this.mapOptions = {
-                center: center,
-                zoom: 11
-            };
+            this.map.setZoom(7);
             console.log("Loading geo data...");
             var url: string = "http://www.archishainnovators.com/GeoJsons/Bihar.Assembly.10k.topo.json";
-            var biharMap = this;
-            var geoJsonObject;
             $.getJSON(url, this.loadGeoJson);
         }
 
         addGeoJson(data: any) {
             // Note: remember to clear map (refer shape escape website)
-            var parent = this;
+            var parentThis = this;
+            this.topojson = data;
             if (data.objects) { //topojson
-                $.each(data.objects, function (i, layer) {
+                $.each(data.objects, (i, layer) => {
                     var geojson = topojson.feature(data, layer);
-                    parent.map.data.addGeoJson(geojson);
+                    parentThis.map.data.addGeoJson(geojson);
                 });
                 console.log("Loading completed");
             } else { // geojson
