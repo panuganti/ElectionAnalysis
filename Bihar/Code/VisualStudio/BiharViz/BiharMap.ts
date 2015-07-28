@@ -7,8 +7,11 @@ module BiharElections {
         private mapDiv: HTMLElement;
         private map: google.maps.Map;
         private mapOptions: google.maps.MapOptions;
+        private colors: string[];
 
         public loadGeoJson: { (data: any): void } = (data) => this.addGeoJson(data);
+        public getStyleCallback: { (feature: google.maps.Data.StyleOptions): void }
+                                            = (feature) => this.getStyle(feature);
 
         constructor(mapDiv: HTMLElement) {
             this.mapDiv = mapDiv;
@@ -17,7 +20,7 @@ module BiharElections {
 
         initialize() {
             this.mapOptions = {
-                zoom: 5,
+                zoom: 7,
                 center: new google.maps.LatLng(23, 84),
                 mapTypeId: google.maps.MapTypeId.TERRAIN,
                 minZoom: 4,
@@ -48,10 +51,11 @@ module BiharElections {
 
         addGeoJson(data: any) {
             // Note: remember to clear map (refer shape escape website)
+            var parent = this;
             if (data.objects) { //topojson
                 $.each(data.objects, function (i, layer) {
                     var geojson = topojson.feature(data, layer);
-                    this.map.data.addGeoJson(geojson);
+                    parent.map.data.addGeoJson(geojson);
                 });
                 console.log("Loading completed");
             } else { // geojson
@@ -60,15 +64,44 @@ module BiharElections {
             }
         }
 
-        loadStyles() {
+        //#region Toggle Data Layer
+        viewDataLayer() {
+            this.map.data.setStyle({ visible: true });
+        }
+
+        hideDataLayer() {
+            this.map.data.setStyle({ visible: false });
+        }
+        //#endregion Toggle Data Layer
+
+        //#region Colors
+        generateRainbowColors(numColors: number): string[] {
+            return ["Hello", "World"]; // TODO: Instead set this.colors
+        }
+
+        generateColorArray(color: string, noGradients: number) : string[] {
+            return ["Hello", "World"]; // TODO: Instead set this.colors 
+        }
+        // #endregion Colors
+
+        // TODO:
+        getStyle(feature: google.maps.Data.StyleOptions): google.maps.Data.StyleOptions {
+            // TODO: Lookup color based on feature (id) from colors generated
             var style: google.maps.Data.StyleOptions =
                 {
-                    fillColor: 'green',
+                    fillColor: 'green', // TODO: Lookup color
                     strokeWeight: 1,
                     fillOpacity: 0.3,
                     strokeOpacity: 0.3,
                 };
-            this.map.data.setStyle(style);
+            return style;
+        }
+
+        loadStyles() {
+            // TODO:
+            // 0. Decide what kind of styling we want
+            // 1. Generate colors array
+            this.map.data.setStyle(this.getStyleCallback);
         }
     }
 }

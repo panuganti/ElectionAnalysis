@@ -1,16 +1,10 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <title>Simple Map</title>
+    <title>Election Analysis</title>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <meta charset="utf-8">
-    <style>
-        html, body, #map-canvas {
-            height: 100%;
-            margin: 0;
-            padding: 0;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="app.css">
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="./topojson.js"></script>
@@ -19,6 +13,28 @@
     <script src="./app.js"> </script>
 </head>
 <body>
-    <div id="map-canvas"></div>
+    <!-- Map -->
+    <div id="mapCanvas"></div>
+    <div id="searchBox"></div>
+    <div id="notification"></div>
+    <div id="legend"></div>
+    <!-- Map -->
+    <!-- left Panel -->
+    <div id="leftPanel"></div>
+    <div id="instructions"></div>
+    <div id="filters"></div>
+    <div id="colors"></div>
+    <!-- left Panel -->
+
+    <!-- right Panel -->
+    <div id="rightPanel"></div>
+    <div id="info"></div>
+    <div id="result"></div>
+    <div id="localIssues"></div>
+    <div id="casteDistrib"></div>
+    <div id="casteCategoryDistrib"></div>
+    <div id="candidate"></div>
+    <div id="neighbors"></div>
+    <!-- right Panel -->
 </body>
 </html>
