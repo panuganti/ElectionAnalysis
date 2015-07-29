@@ -10,18 +10,40 @@ module BiharElections {
         private colors: string[];
         private topojson: any;
         private defaultCenter: google.maps.LatLng;
+        private geocoder: google.maps.Geocoder;
 
         public loadGeoJson: { (data: any): void } = (data) => this.addGeoJson(data);
         public getStyleCallback: { (feature: google.maps.Data.StyleOptions): void }
                                             = (feature) => this.getStyle(feature);
 
+        public getDefaultCenterCallback: { (results: any, status: any): void } = (results, status) => this.getDefaultCenter(results, status);
+
         constructor(mapDiv: HTMLElement) {
             this.mapDiv = mapDiv;
             this.initialize();
+    }
+
+        getDefaultCenter(results: any, status: any) {
+            if (status == google.maps.GeocoderStatus.OK) {
+                this.map.setCenter(results[0].geometry.location);
+            }
+            else {
+            }
+        }
+
+        geocode(address: string) {
+            var geocoderComponentRestrictions: google.maps.GeocoderComponentRestrictions = {};
+            var request: google.maps.GeocoderRequest = {
+                address: address,
+                componentRestrictions: geocoderComponentRestrictions
+            };
+            this.geocoder.geocode(request, this.getDefaultCenterCallback);
         }
 
         initialize() {
-            this.defaultCenter = new google.maps.LatLng(23, 84);
+            this.geocoder = new google.maps.Geocoder();
+            this.geocode("Patna, Bihar, India");
+
             this.mapOptions = {
                 zoom: 7,
                 center: this.defaultCenter,

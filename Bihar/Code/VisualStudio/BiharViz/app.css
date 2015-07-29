@@ -1,14 +1,103 @@
-﻿body {
+﻿html, body {
     font-family: 'Segoe UI', sans-serif;
-}
-
-span {
-    font-style: italic;
-}
-
-html, body, #mapCanvas {
     height: 100%;
     margin: 0;
     padding: 0;
+    overflow-y: hidden;
+} 
+
+#mapCanvas {
+    position: static;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#summaryResults {
+    position: fixed;
+    top: 0;
+    left: 30%;
+    height: 200px;
+    width: 600px;
+    margin-right:1px;
+    margin-top: 1px;
+    background-color: black;
+    opacity: 0.5;
+    box-shadow: 20px 20px 5px grey;
+}
+
+#searchBox {
+    position: fixed;
+    top: 30px;
+    left: 40px;
+    height: 30px;
+    width: 350px;
+    margin-right:1px;
+    margin-top: 1px;
+    background-color: #fff;            
+    opacity: 0.9;
+    box-shadow: 20px 20px 5px grey;
+}
+
+#notification {
+    position: fixed;
+    z-index:2;
+    top: 0;
+    left: 25%;
+    height: 25px;
+    width: 800px;
+    margin-right:1px;
+    margin-top: 10px;
+    opacity: 0;
+    display: none;
+    background-color: orange;
+    box-shadow: 10px 10px 5px grey;
+}
+
+#progressBar {
+    position: fixed;
+    z-index:2;
+    top: 40%;
+    left: 25%;
+    height: 25px;
+    width: 500px;
+    margin-right:1px;
+    margin-top: 10px;
+    opacity: 0;
+    display: none;
+    background-color: orange;
+    box-shadow: 10px 10px 5px grey;
+}
+
+#legend {
+    position: fixed;
+    z-index:2;
+    opacity: 0.4;
+    right: 5%;
+    top: 10%;
+    margin-right: 5px;
+    margin-top: 5px;
+    background-color: #fff;
+    box-shadow: 10px 10px 5px grey;
+}
+
+#filtersPanel {
+    position: fixed;
+    opacity: 0.8;
+    left:0;
+    top: 25%;
+    height: 70%;
+    background-color: #fff;
+    box-shadow: 10px 10px 5px grey;
+}
+
+#colorsPanel {
+    position: fixed;
+    opacity: 0.8;
+    left:0;
+    top: 25%;
+    height: 70%;
+    background-color: #fff;
+    box-shadow: 10px 10px 5px grey;
 }
 
