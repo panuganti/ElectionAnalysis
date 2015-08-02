@@ -7,41 +7,47 @@
     <link rel="stylesheet" type="text/css" href="app.css">
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="./topojson.js"></script>
-    <script src="./MapStyles.js"></script>
-    <script src="./BiharMap.js"></script>
-    <script src="./app.js"> </script>
+    <script src="http://code.angularjs.org/1.1.5/angular.min.js"> </script>
+    
+    <script src="./app/topojson.js"></script>
+        <script src="./app/MapStyles.js"></script>
+        <script src="./app/BiharMap.js"></script>
+        <script src="./app/Controller.js"></script>
+    <script src="./app/app.js"> </script>
+    <script>
+    </script>
 </head>
-<body>
-    <div id="mapCanvas"> </div>
+<body ng-app="BiharViz">
+        
+        <div id="mapCanvas"> </div>
         <!-- Map -->
-            <div id="summaryResults">
-                <div id="collapse"></div> 
-                <div id="NDA"></div>
-                <div id="JP"></div>
-                <div id="Others"></div>
-            </div>
-            <div id="searchBox"></div>
-            <div id="notification"> </div>
-            <div id="progressBar"> </div>
-            <div id="legend"></div>
-            <!-- Map -->
-            <!-- left Panel -->
-            <div id="filtersPanel"></div>
-            <div id="instructions"></div>
-            <div id="filters"></div>
-            <div id="colors"></div>
-            <!-- left Panel -->
-            <!-- right Panel -->
-            <div id="rightPanel"></div>
-            <div id="info"></div>
-            <div id="result"></div>
-            <div id="localIssues"></div>
-            <div id="casteDistrib"></div>
-            <div id="casteCategoryDistrib"></div>
-            <div id="candidate"></div>
-            <div id="neighbors"></div>
-            <!-- right Panel -->
-       
+        <div id="summaryResults">
+            <div id="collapse"></div>
+            <div id="NDA"></div>
+            <div id="JP"></div>
+            <div id="Others"></div>
+        </div>
+    <div id="searchBox" ng-controller="">Hello World {{vm}} {{message}} ...</div>
+        <div id="notification"> </div>
+        <div id="progressBar"> </div>
+        <div id="legend"></div>
+        <!-- Map -->
+        <!-- left Panel -->
+        <div id="filtersPanel"></div>
+        <div id="instructions"></div>
+        <div id="filters"></div>
+        <div id="colors"></div>
+        <!-- left Panel -->
+        <!-- right Panel -->
+        <div id="rightPanel"></div>
+        <div id="info"></div>
+        <div id="result"></div>
+        <div id="localIssues"></div>
+        <div id="casteDistrib"></div>
+        <div id="casteCategoryDistrib"></div>
+        <div id="candidate"></div>
+        <div id="neighbors"></div>
+        <!-- right Panel -->
+
 </body>
 </html>
