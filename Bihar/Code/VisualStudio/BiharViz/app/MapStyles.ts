@@ -1,4 +1,4 @@
-﻿/// <reference path="./Scripts/typings/googlemaps/google.maps.d.ts"/>
+﻿/// <reference path="../Scripts/typings/googlemaps/google.maps.d.ts"/>
 /// <reference path="./BiharMap.ts"/>
 
 module BiharElections {
