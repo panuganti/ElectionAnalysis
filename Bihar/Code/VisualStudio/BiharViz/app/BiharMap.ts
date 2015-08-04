@@ -58,13 +58,6 @@ module BiharElections {
             this.map = new google.maps.Map(this.mapDiv, this.mapOptions);
         }
 
-        setMapStyles() {
-            var mapType = new ArchishaMapStyle();
-            this.map.mapTypes.set(mapType.name, mapType.archishaMapType);
-            this.mapOptions.mapTypeId = mapType.name;
-            this.mapOptions.mapTypeControlOptions = { mapTypeIds: [mapType.name, google.maps.MapTypeId.TERRAIN] };
-        }
-
         loadGeoData() {
             this.map.setZoom(7);
             console.log("Loading geo data...");

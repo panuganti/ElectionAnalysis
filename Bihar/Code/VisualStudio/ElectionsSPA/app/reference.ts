@@ -5,7 +5,9 @@
 /// <reference path="directives/testme.html.ts" />
 /// <reference path="controllers/MainController.ts" />
 /// <reference path="controllers/TestController.ts" />
+/// <reference path="directives/BiharMap.ts" />
 /// <reference path="directives/testme.ts" />
+/// <reference path="directives/topojson.d.ts" />
 /// <reference path="services/LogService.ts" />
 /// <reference path="vendor.d.ts" />
 //grunt-end
