@@ -14,12 +14,13 @@ namespace GetBihar2010Results
         private static void Main(string[] args)
         {
             Startup();
-            CustomExecution();
         }
 
-        private static void CustomExecution()
+
+
+        private static void CustomExecution(List<AssemblyConstituencyResult> results)
         {
-            //Console.WriteLine("State has {0} villages", state.Villages.Count()); 
+            File.WriteAllText("./results2010.json", JsonConvert.SerializeObject(results));
         }
 
         private static void Startup()
@@ -67,6 +68,8 @@ namespace GetBihar2010Results
             
             
             #endregion Config
+
+            var legend = Colors.LoadColors();
 
             #region Populate Info
 
@@ -189,9 +192,7 @@ namespace GetBihar2010Results
 
 
             #region Custom Execution
-
-            Console.WriteLine("State has {0} villages", state.Villages.Count());
-
+            CustomExecution(results2010);
             #endregion Custom Execution
         }
 

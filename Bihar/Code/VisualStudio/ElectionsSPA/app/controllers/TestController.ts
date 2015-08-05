@@ -1,6 +1,6 @@
 module Controllers{
     export class TestController{
-        message = "foo";
+        message = "Search Constituency";
         constructor($scope){
             $scope.vm = this;
         }

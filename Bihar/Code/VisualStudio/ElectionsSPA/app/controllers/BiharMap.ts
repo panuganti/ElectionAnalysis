@@ -4,7 +4,9 @@
 
 module Controllers{
     export class BiharMap {
+        private http: ng.IHttpService;
         private mapDiv: HTMLElement;
+        private dataloader: DataLoader;
         private map: google.maps.Map;
         private mapOptions: google.maps.MapOptions;
         private colors: string[];
@@ -12,19 +14,52 @@ module Controllers{
         private defaultCenter: google.maps.LatLng;
         private geocoder: google.maps.Geocoder;
 
+        public mouseOverHandler: { (event: any): void } = (event) => this.mouseOver(event);
+        public mouseClickHandler: { (event: any): void } = (event) => this.mouseClick(event);
         public loadGeoJson: { (data: any): void } = (data) => this.addGeoJson(data);
         public getStyleCallback: { (feature: google.maps.Data.StyleOptions): void }
                                             = (feature) => this.getStyle(feature);
 
         public getDefaultCenterCallback: { (results: any, status: any): void } = (results, status) => this.getDefaultCenter(results, status);
 
-        constructor(mapDiv: HTMLElement) {
-            this.mapDiv = mapDiv;
+        constructor($scope, $http) {
+            this.http = $http;
+            this.mapDiv = document.getElementById('mapCanvas');
+            this.dataloader = new DataLoader($http);
             this.initialize();
         }
 
-        testAngular($scope) {
-            $scope.message = "hello";
+        initialize() {
+            this.mapOptions = {
+                zoom: 7,
+                center: this.defaultCenter,
+                mapTypeId: google.maps.MapTypeId.TERRAIN,
+                minZoom: 4,
+                disableDefaultUI: true
+            };
+            this.map = new google.maps.Map(this.mapDiv, this.mapOptions);
+            this.geocoder = new google.maps.Geocoder();
+            this.geocode("Patna, Bihar, India");
+            this.loadGeoData();
+            this.loadStyles();
+        }
+
+
+        mouseOver(event: any) {
+            var id = event.feature.getProperty('ac');
+            /*
+            1. Set small info window to visible
+            2. Display Name of constituency
+            3. Change color
+            */
+        }
+
+        mouseClick(event: any) {
+            var id = event.feature.getProperty('ac');
+            /*
+            1. Set info div to visible
+            2. Set values for the info div
+            */
         }
 
         getDefaultCenter(results: any, status: any) {
@@ -44,25 +79,9 @@ module Controllers{
             this.geocoder.geocode(request, this.getDefaultCenterCallback);
         }
 
-        initialize() {
-            this.geocoder = new google.maps.Geocoder();
-            this.geocode("Patna, Bihar, India");
-
-            this.mapOptions = {
-                zoom: 7,
-                center: this.defaultCenter,
-                mapTypeId: google.maps.MapTypeId.TERRAIN,
-                minZoom: 4,
-                disableDefaultUI: true
-            };
-            this.map = new google.maps.Map(this.mapDiv, this.mapOptions);
-        }
-
         loadGeoData() {
-            this.map.setZoom(7);
             console.log("Loading geo data...");
-            var url: string = "json/Bihar.Assembly.10k.topo.json";
-            $.getJSON(url, this.loadGeoJson);
+            this.dataloader.getACTopoShapeFile(this.loadGeoJson);
         }
 
         addGeoJson(data: any) {
@@ -79,7 +98,18 @@ module Controllers{
                 this.map.data.addGeoJson(data);
                 console.log("Loading completed");
             }
+            // Add changes and event handlers
+            this.map.setZoom(8);
+            // TODO: Set styles/colors
+            this.addEventHandler('mouseover', this.mouseOverHandler);
+            this.addEventHandler('mouseclick', this.mouseClickHandler);
         }
+
+        addEventHandler(eventType: string, callback: (ev: Event)=> any)
+        {
+            this.map.data.addListener(eventType, callback);
+        }
+
 
         //#region Toggle Data Layer
         viewDataLayer() {

@@ -1,7 +1,8 @@
 ﻿module Controllers {
     export class DataLoader {
-        private allACsJson: string = "";
-        private results2010: string = "";
+        private acShapeFile: string = "json/Bihar.Assembly.10k.topo.json";
+        private allACsJson: string = "json/allACs.json";
+        private results2010: string = "json/results2010.json";
         private results2014: string = "";
         private localIssues2015: string = "";
         private localIssues2010: string = "";
@@ -18,45 +19,54 @@
             this.http = $http;
         }
 
-        getAllAssemblyConstituencies(url: string, callback) {
-            this.http.get(allACsJson, headers: headers).success(callback);
+        getColorsJson(callback: (ev: Event)=> any) {
+        
         }
 
-        get2010Results(url: string, callback) {
-            this.http.get(results2010, headers: headers).success(callback);
+        getACTopoShapeFile(callback: (ev: Event)=> any) {
+            this.http.get(this.acShapeFile, this.headers).success(callback);
         }
 
-        get2014Results(url: string, callback) {
-            this.http.get(results2014, headers: headers).success(callback);
+        getAllAssemblyConstituencies(callback: (ev: Event)=> any) {
+            this.http.get(this.allACsJson, this.headers).success(callback);
         }
 
-        get2010LocalIssuesData(url: string, callback) {
-            this.http.get(localIssues2010, headers: headers).success(callback);
+        get2010Results(callback: (ev: Event)=> any) {
+            this.http.get(this.results2010, this.headers).success(callback);
         }
 
-        get2015LocalIssuesData(url: string, callback) {
-            this.http.get(localIssues2015, headers: headers).success(callback);
+        get2014Results(callback: (ev: Event)=> any) {
+            this.http.get(this.results2014, this.headers).success(callback);
         }
 
-        getCasteDistribution(url: string, callback) {
-            this.http.get(casteDistribution, headers: headers).success(callback);
+        get2010LocalIssuesData(callback: (ev: Event)=> any) {
+            this.http.get(this.localIssues2010, this.headers).success(callback);
         }
 
-        getCasteCategoryDistribution(url: string, callback) {
-            this.http.get(casteCategoryDistribution, headers: headers).success(callback);
+        get2015LocalIssuesData(callback: (ev: Event)=> any) {
+            this.http.get(this.localIssues2015, this.headers).success(callback);
         }
 
-        getCandidateData(url: string, callback) {
-            this.http.get(candidateInfo, headers: headers).success(callback);
+        getCasteDistribution(callback: (ev: Event)=> any) {
+            this.http.get(this.casteDistribution, this.headers).success(callback);
         }
 
-        getVIPConstituencies(url: string, callback) {
-            this.http.get(vipConstituencies, headers: headers).success(callback);
+        getCasteCategoryDistribution(callback: (ev: Event)=> any) {
+            this.http.get(this.casteCategoryDistribution, this.headers).success(callback);
         }
 
-        get2015Predictions(url: string, callback) {
-            this.http.get(predictions2015, headers: headers).success(callback);
+        getCandidateData(callback: (ev: Event)=> any) {
+            this.http.get(this.candidateInfo, this.headers).success(callback);
         }
+
+        getVIPConstituencies(callback: (ev: Event)=> any) {
+            this.http.get(this.vipConstituencies, this.headers).success(callback);
+        }
+
+        get2015Predictions(callback: (ev: Event)=> any) {
+            this.http.get(this.predictions2015, this.headers).success(callback);
+        }
+        
         //Note: Use linq.js to query within the data fetched
     }
 }
