@@ -1,0 +1,8 @@
+BJP	orange
+JP	green
+Others	black
+Congress	blue
+Communist	red
+RJD	darkgreen
+JDU	green
+NDA	yellow
