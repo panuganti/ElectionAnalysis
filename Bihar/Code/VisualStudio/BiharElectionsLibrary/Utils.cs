@@ -26,12 +26,12 @@ namespace BiharElectionsLibrary
 
             Candidate candidate = null;
             int count = 0;
-            var resultsInOrder = constituencyResults.Votes.OrderByDescending(t => t.Value);
-            foreach (var keyValuePair in resultsInOrder)
+            var resultsInOrder = constituencyResults.Votes.OrderByDescending(t => t.Votes);
+            foreach (var result in resultsInOrder)
             {
-                if (CheckNameSimilarity(keyValuePair.Key.Name, candidateName))
+                if (CheckNameSimilarity(result.Candidate.Name, candidateName))
                 {
-                    candidate = keyValuePair.Key;
+                    candidate = result.Candidate;
                     break;
                 }
                 count++;

@@ -52,8 +52,7 @@ namespace QualitativeDataAnalysis
             for (int acNo = 1; acNo <= 243; acNo++)
             {
                 int assemblyId = acNo;
-                var resultOfAConstituency =
-                    AssemblyConstituencyResult.Load2010ElectionResults(
+                var resultOfAConstituency = AssemblyConstituencyResult.Load2010ElectionResults(
                         resultInfo.Skip(1).Where(t => Int32.Parse(t.Split('\t')[5]) == assemblyId).ToArray());
                 results.Add(acNo,resultOfAConstituency);
                 var constituencyCandidatesInfo =
@@ -80,7 +79,7 @@ namespace QualitativeDataAnalysis
                     constituencyCasteShareData,
                     constituencyDevelopmentData,
                     constituencyLocalIssuesData,
-                    constituencyPartyData, resultOfAConstituency.Votes));
+                    constituencyPartyData, resultOfAConstituency.Votes.ToDictionary(x => x.Candidate, y => y.Votes)));
             }
 
             // Load Previous Results

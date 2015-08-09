@@ -5,7 +5,7 @@ using System.Runtime.Serialization;
 namespace BiharElectionsLibrary
 {
     [DataContract]
-    public class Candidate : IEqualityComparer<Candidate>
+    public class Candidate
     {
         [DataMember]
         public string Name { get; set; }

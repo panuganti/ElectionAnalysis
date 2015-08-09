@@ -19,11 +19,10 @@
             this.http = $http;
         }
 
-        getColorsJson(callback: (ev: Event)=> any) {
-        
+        getColorsJson(callback: (ev: Event)=> any) {        
         }
 
-        getACTopoShapeFile(callback: (ev: Event)=> any) {
+        getACTopoShapeFile(callback: (ev: Event) => any) {            
             this.http.get(this.acShapeFile, this.headers).success(callback);
         }
 
@@ -65,8 +64,7 @@
 
         get2015Predictions(callback: (ev: Event)=> any) {
             this.http.get(this.predictions2015, this.headers).success(callback);
-        }
-        
+        }        
         //Note: Use linq.js to query within the data fetched
     }
 }

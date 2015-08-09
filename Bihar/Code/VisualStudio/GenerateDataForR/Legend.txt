@@ -1,8 +1,14 @@
 BJP	orange
 JP	green
 Others	black
-Congress	blue
+INC	lightblue
 Communist	red
+CPI	red
 RJD	darkgreen
 JDU	green
 NDA	yellow
+IND	black
+LJP	yellow
+RLSP	darkyellow
+JMM	purple
+BSP	darkblue

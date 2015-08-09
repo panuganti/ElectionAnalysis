@@ -41,18 +41,21 @@ namespace BiharElectionsLibrary
                         Name = Utils.GetNormalizedName(columns[6]),
                         Category = Utils.GetCategory(columns[7])
                     };
-                    result.Votes = new Dictionary<Candidate, int>();
+                    result.Votes = new List<CandidateVotes>();
                     first = false;
                 }
-                result.Votes.Add(
-                    new Candidate
+                result.Votes.Add(new CandidateVotes
+                {
+                    Candidate = new Candidate
                     {
                         Name = Utils.GetNormalizedName(columns[8]),
                         YearOfBirth = 2010 - Int32.Parse(columns[11]),
-                        Gender = (Gender) Enum.Parse(typeof (Gender), columns[9]),
+                        Gender = (Gender)Enum.Parse(typeof(Gender), columns[9]),
                         ConstituencyCasteCategory = Utils.GetCategory(columns[10]),
                         Party = Utils.GetParty(columns[12]),
-                    }, Int32.Parse(columns[13]));
+                    },
+                    Votes = Int32.Parse(columns[13])
+                });
             }
             return result;
         }
@@ -87,25 +90,26 @@ namespace BiharElectionsLibrary
                     Category = Utils.GetCategory(cols[2])
                 };
 
-                newResult.Votes = new Dictionary<Candidate, int>
+                newResult.Votes = new List<CandidateVotes>
                 {
-                    {
-                        new Candidate
+                    new CandidateVotes {
+                        Candidate = new Candidate
                         {
                             Name = Utils.GetNormalizedName(cols[3]),
                             Gender = Utils.GetGender(cols[4]),
                             Party = Utils.GetParty(cols[5])
                         },
-                        Int32.Parse(cols[6])
+                        Votes = Int32.Parse(cols[6])
                     },
+                    new CandidateVotes 
                     {
-                        new Candidate
+                        Candidate = new Candidate
                         {
                             Name = Utils.GetNormalizedName(cols[7]),
                             Gender = Utils.GetGender(cols[8]),
                             Party = Utils.GetParty(cols[9])
                         },
-                        Int32.Parse(cols[10])
+                        Votes = Int32.Parse(cols[10])
                     }
                 };
                 results.Add(newResult);
@@ -169,13 +173,18 @@ namespace BiharElectionsLibrary
                             },
                         NOTA = Int32.Parse(cols[cols.Length - 3]),
                         YearOfElection = 2014,
-                        Votes = new Dictionary<Candidate, int>(),
+                        Votes = new List<CandidateVotes>(),
                         TotalVotes = Int32.Parse(cols[cols.Length - 1])
                     };
                     var colsWithVotes = cols.Skip(1).Take(cols.Length - 6).ToArray();
                     for (int i = 0; i < colsWithVotes.Length; i++)
                     {
-                        assemblyResult.Votes.Add(new Candidate { Name = Utils.GetNormalizedName(candidates[i])}, Int32.Parse(colsWithVotes[i]));
+                        var candidateVote = new CandidateVotes() 
+                        { 
+                            Candidate = new Candidate() { Name = Utils.GetNormalizedName(candidates[i]) }, 
+                            Votes = Int32.Parse(colsWithVotes[i]) 
+                        };
+                        assemblyResult.Votes.Add(candidateVote);
                     }
                     results2014.Add(assemblyResult);
                 }
@@ -196,12 +205,22 @@ namespace BiharElectionsLibrary
     }
 
     [DataContract]
+    public class CandidateVotes 
+    {
+        [DataMember]
+        public Candidate Candidate { get; set; }
+
+        [DataMember]
+        public int Votes { get; set; }
+    }
+
+    [DataContract]
     public abstract class ConstituencyResult
     {
         [DataMember]
         public int YearOfElection { get; set; }
         [DataMember]
-        public Dictionary<Candidate, int> Votes { get; set; }
+        public List<CandidateVotes> Votes { get; set; }
         [DataMember]
         public int TotalVotes { get; set; }
         [DataMember]
@@ -209,7 +228,7 @@ namespace BiharElectionsLibrary
 
         public Candidate GetWinner()
         {
-            return Votes.Aggregate((l, r) => l.Value > r.Value ? l : r).Key;
+            return Votes.Aggregate((l, r) => l.Votes > r.Votes ? l : r).Candidate;
         }
 
         public PoliticalParty GetWinningParty()

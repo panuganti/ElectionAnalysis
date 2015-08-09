@@ -1,1 +1,974 @@
-[{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":1,"Name":"valmiki_nagar"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":42289,"BiharElectionsLibrary.Candidate":27618,"BiharElectionsLibrary.Candidate":20886,"BiharElectionsLibrary.Candidate":17747,"BiharElectionsLibrary.Candidate":14047,"BiharElectionsLibrary.Candidate":8358,"BiharElectionsLibrary.Candidate":4428,"BiharElectionsLibrary.Candidate":1647,"BiharElectionsLibrary.Candidate":1610,"BiharElectionsLibrary.Candidate":1334,"BiharElectionsLibrary.Candidate":1114,"BiharElectionsLibrary.Candidate":1042,"BiharElectionsLibrary.Candidate":835,"BiharElectionsLibrary.Candidate":743},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":2,"Name":"ramnagar"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":51993,"BiharElectionsLibrary.Candidate":22211,"BiharElectionsLibrary.Candidate":20095,"BiharElectionsLibrary.Candidate":9080,"BiharElectionsLibrary.Candidate":4129,"BiharElectionsLibrary.Candidate":3825,"BiharElectionsLibrary.Candidate":2048,"BiharElectionsLibrary.Candidate":1863,"BiharElectionsLibrary.Candidate":1600,"BiharElectionsLibrary.Candidate":1497,"BiharElectionsLibrary.Candidate":1208,"BiharElectionsLibrary.Candidate":1083,"BiharElectionsLibrary.Candidate":1038,"BiharElectionsLibrary.Candidate":999,"BiharElectionsLibrary.Candidate":992,"BiharElectionsLibrary.Candidate":900,"BiharElectionsLibrary.Candidate":696},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":3,"Name":"narkatiaganj"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":45022,"BiharElectionsLibrary.Candidate":24794,"BiharElectionsLibrary.Candidate":22381,"BiharElectionsLibrary.Candidate":8243,"BiharElectionsLibrary.Candidate":4680,"BiharElectionsLibrary.Candidate":3980,"BiharElectionsLibrary.Candidate":1642,"BiharElectionsLibrary.Candidate":1475,"BiharElectionsLibrary.Candidate":1300,"BiharElectionsLibrary.Candidate":1238,"BiharElectionsLibrary.Candidate":923,"BiharElectionsLibrary.Candidate":817,"BiharElectionsLibrary.Candidate":706,"BiharElectionsLibrary.Candidate":635,"BiharElectionsLibrary.Candidate":446},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":4,"Name":"bagaha"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":67510,"BiharElectionsLibrary.Candidate":18455,"BiharElectionsLibrary.Candidate":18341,"BiharElectionsLibrary.Candidate":8150,"BiharElectionsLibrary.Candidate":6177,"BiharElectionsLibrary.Candidate":3272,"BiharElectionsLibrary.Candidate":1876,"BiharElectionsLibrary.Candidate":1673,"BiharElectionsLibrary.Candidate":1607,"BiharElectionsLibrary.Candidate":1540,"BiharElectionsLibrary.Candidate":1516,"BiharElectionsLibrary.Candidate":1503,"BiharElectionsLibrary.Candidate":910,"BiharElectionsLibrary.Candidate":722,"BiharElectionsLibrary.Candidate":690},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":5,"Name":"lauriya"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":38381,"BiharElectionsLibrary.Candidate":27500,"BiharElectionsLibrary.Candidate":22140,"BiharElectionsLibrary.Candidate":9582,"BiharElectionsLibrary.Candidate":4133,"BiharElectionsLibrary.Candidate":2850,"BiharElectionsLibrary.Candidate":2811,"BiharElectionsLibrary.Candidate":2014,"BiharElectionsLibrary.Candidate":2009,"BiharElectionsLibrary.Candidate":1620,"BiharElectionsLibrary.Candidate":922,"BiharElectionsLibrary.Candidate":814},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":6,"Name":"nautan"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":40894,"BiharElectionsLibrary.Candidate":18130,"BiharElectionsLibrary.Candidate":15764,"BiharElectionsLibrary.Candidate":8521,"BiharElectionsLibrary.Candidate":6484,"BiharElectionsLibrary.Candidate":4288,"BiharElectionsLibrary.Candidate":3930,"BiharElectionsLibrary.Candidate":2923,"BiharElectionsLibrary.Candidate":2079,"BiharElectionsLibrary.Candidate":1717,"BiharElectionsLibrary.Candidate":1707,"BiharElectionsLibrary.Candidate":1497,"BiharElectionsLibrary.Candidate":1204,"BiharElectionsLibrary.Candidate":1110,"BiharElectionsLibrary.Candidate":1019,"BiharElectionsLibrary.Candidate":840},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":7,"Name":"chanpatia"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":44835,"BiharElectionsLibrary.Candidate":21423,"BiharElectionsLibrary.Candidate":9131,"BiharElectionsLibrary.Candidate":7623,"BiharElectionsLibrary.Candidate":7441,"BiharElectionsLibrary.Candidate":4934,"BiharElectionsLibrary.Candidate":2996,"BiharElectionsLibrary.Candidate":2606,"BiharElectionsLibrary.Candidate":2032,"BiharElectionsLibrary.Candidate":1640,"BiharElectionsLibrary.Candidate":993,"BiharElectionsLibrary.Candidate":966,"BiharElectionsLibrary.Candidate":872,"BiharElectionsLibrary.Candidate":793,"BiharElectionsLibrary.Candidate":776,"BiharElectionsLibrary.Candidate":674,"BiharElectionsLibrary.Candidate":633,"BiharElectionsLibrary.Candidate":586},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":8,"Name":"bettiah"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":42010,"BiharElectionsLibrary.Candidate":13221,"BiharElectionsLibrary.Candidate":12499,"BiharElectionsLibrary.Candidate":11511,"BiharElectionsLibrary.Candidate":5580,"BiharElectionsLibrary.Candidate":3713,"BiharElectionsLibrary.Candidate":2932,"BiharElectionsLibrary.Candidate":2370,"BiharElectionsLibrary.Candidate":2203,"BiharElectionsLibrary.Candidate":1791,"BiharElectionsLibrary.Candidate":1551,"BiharElectionsLibrary.Candidate":1216,"BiharElectionsLibrary.Candidate":1178,"BiharElectionsLibrary.Candidate":1162,"BiharElectionsLibrary.Candidate":1092,"BiharElectionsLibrary.Candidate":986,"BiharElectionsLibrary.Candidate":678,"BiharElectionsLibrary.Candidate":470},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":9,"Name":"sikta"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":49229,"BiharElectionsLibrary.Candidate":40450,"BiharElectionsLibrary.Candidate":8779,"BiharElectionsLibrary.Candidate":5921,"BiharElectionsLibrary.Candidate":5010,"BiharElectionsLibrary.Candidate":3187,"BiharElectionsLibrary.Candidate":2018,"BiharElectionsLibrary.Candidate":1610,"BiharElectionsLibrary.Candidate":1386,"BiharElectionsLibrary.Candidate":1254,"BiharElectionsLibrary.Candidate":853,"BiharElectionsLibrary.Candidate":833,"BiharElectionsLibrary.Candidate":826,"BiharElectionsLibrary.Candidate":819,"BiharElectionsLibrary.Candidate":779,"BiharElectionsLibrary.Candidate":755,"BiharElectionsLibrary.Candidate":648,"BiharElectionsLibrary.Candidate":591},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":10,"Name":"raxaul"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":48686,"BiharElectionsLibrary.Candidate":38569,"BiharElectionsLibrary.Candidate":9691,"BiharElectionsLibrary.Candidate":7683,"BiharElectionsLibrary.Candidate":4009,"BiharElectionsLibrary.Candidate":3679,"BiharElectionsLibrary.Candidate":1138},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":11,"Name":"sugauli"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":39021,"BiharElectionsLibrary.Candidate":26642,"BiharElectionsLibrary.Candidate":10922,"BiharElectionsLibrary.Candidate":10697,"BiharElectionsLibrary.Candidate":8890,"BiharElectionsLibrary.Candidate":6062,"BiharElectionsLibrary.Candidate":5272,"BiharElectionsLibrary.Candidate":2236,"BiharElectionsLibrary.Candidate":2036,"BiharElectionsLibrary.Candidate":1589},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":12,"Name":"narkatia"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":31549,"BiharElectionsLibrary.Candidate":23861,"BiharElectionsLibrary.Candidate":14217,"BiharElectionsLibrary.Candidate":13813,"BiharElectionsLibrary.Candidate":10794,"BiharElectionsLibrary.Candidate":7527,"BiharElectionsLibrary.Candidate":3713,"BiharElectionsLibrary.Candidate":2698,"BiharElectionsLibrary.Candidate":2481,"BiharElectionsLibrary.Candidate":2026,"BiharElectionsLibrary.Candidate":1569,"BiharElectionsLibrary.Candidate":1224,"BiharElectionsLibrary.Candidate":1059,"BiharElectionsLibrary.Candidate":921,"BiharElectionsLibrary.Candidate":676,"BiharElectionsLibrary.Candidate":491,"BiharElectionsLibrary.Candidate":448},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":13,"Name":"harsidhi"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":48130,"BiharElectionsLibrary.Candidate":30066,"BiharElectionsLibrary.Candidate":6202,"BiharElectionsLibrary.Candidate":3353,"BiharElectionsLibrary.Candidate":3324,"BiharElectionsLibrary.Candidate":2449,"BiharElectionsLibrary.Candidate":2133,"BiharElectionsLibrary.Candidate":1722,"BiharElectionsLibrary.Candidate":953,"BiharElectionsLibrary.Candidate":881,"BiharElectionsLibrary.Candidate":829,"BiharElectionsLibrary.Candidate":707,"BiharElectionsLibrary.Candidate":656,"BiharElectionsLibrary.Candidate":651,"BiharElectionsLibrary.Candidate":636},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":14,"Name":"govindganj"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":33859,"BiharElectionsLibrary.Candidate":25454,"BiharElectionsLibrary.Candidate":13071,"BiharElectionsLibrary.Candidate":10277,"BiharElectionsLibrary.Candidate":3393,"BiharElectionsLibrary.Candidate":3094,"BiharElectionsLibrary.Candidate":2311,"BiharElectionsLibrary.Candidate":1918,"BiharElectionsLibrary.Candidate":1394,"BiharElectionsLibrary.Candidate":1041,"BiharElectionsLibrary.Candidate":863,"BiharElectionsLibrary.Candidate":725},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":15,"Name":"kesaria"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":34649,"BiharElectionsLibrary.Candidate":22966,"BiharElectionsLibrary.Candidate":12010,"BiharElectionsLibrary.Candidate":9325,"BiharElectionsLibrary.Candidate":3531,"BiharElectionsLibrary.Candidate":3212,"BiharElectionsLibrary.Candidate":2188,"BiharElectionsLibrary.Candidate":2166,"BiharElectionsLibrary.Candidate":1805,"BiharElectionsLibrary.Candidate":1332,"BiharElectionsLibrary.Candidate":1296},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":16,"Name":"kalyanpur"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":41163,"BiharElectionsLibrary.Candidate":25761,"BiharElectionsLibrary.Candidate":7400,"BiharElectionsLibrary.Candidate":6937,"BiharElectionsLibrary.Candidate":3858,"BiharElectionsLibrary.Candidate":3102,"BiharElectionsLibrary.Candidate":3060,"BiharElectionsLibrary.Candidate":1953,"BiharElectionsLibrary.Candidate":1016,"BiharElectionsLibrary.Candidate":956,"BiharElectionsLibrary.Candidate":914,"BiharElectionsLibrary.Candidate":751},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":17,"Name":"pipra"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":40099,"BiharElectionsLibrary.Candidate":28212,"BiharElectionsLibrary.Candidate":9254,"BiharElectionsLibrary.Candidate":6348,"BiharElectionsLibrary.Candidate":5287,"BiharElectionsLibrary.Candidate":4249,"BiharElectionsLibrary.Candidate":3472,"BiharElectionsLibrary.Candidate":3037,"BiharElectionsLibrary.Candidate":2749,"BiharElectionsLibrary.Candidate":2413,"BiharElectionsLibrary.Candidate":2255,"BiharElectionsLibrary.Candidate":2100,"BiharElectionsLibrary.Candidate":1845,"BiharElectionsLibrary.Candidate":1760,"BiharElectionsLibrary.Candidate":1543,"BiharElectionsLibrary.Candidate":1525,"BiharElectionsLibrary.Candidate":1449,"BiharElectionsLibrary.Candidate":1218,"BiharElectionsLibrary.Candidate":1196,"BiharElectionsLibrary.Candidate":886,"BiharElectionsLibrary.Candidate":819,"BiharElectionsLibrary.Candidate":642},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":18,"Name":"madhuban"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":40478,"BiharElectionsLibrary.Candidate":30356,"BiharElectionsLibrary.Candidate":15248,"BiharElectionsLibrary.Candidate":9087,"BiharElectionsLibrary.Candidate":2498,"BiharElectionsLibrary.Candidate":1448,"BiharElectionsLibrary.Candidate":1033,"BiharElectionsLibrary.Candidate":912,"BiharElectionsLibrary.Candidate":819,"BiharElectionsLibrary.Candidate":791},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":19,"Name":"motihari"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":51888,"BiharElectionsLibrary.Candidate":27358,"BiharElectionsLibrary.Candidate":9764,"BiharElectionsLibrary.Candidate":7723,"BiharElectionsLibrary.Candidate":6222,"BiharElectionsLibrary.Candidate":5138,"BiharElectionsLibrary.Candidate":2165,"BiharElectionsLibrary.Candidate":1509,"BiharElectionsLibrary.Candidate":1320,"BiharElectionsLibrary.Candidate":1315,"BiharElectionsLibrary.Candidate":1171,"BiharElectionsLibrary.Candidate":1035,"BiharElectionsLibrary.Candidate":1009,"BiharElectionsLibrary.Candidate":969,"BiharElectionsLibrary.Candidate":950,"BiharElectionsLibrary.Candidate":775,"BiharElectionsLibrary.Candidate":702,"BiharElectionsLibrary.Candidate":634,"BiharElectionsLibrary.Candidate":452},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":20,"Name":"chiraia"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":39459,"BiharElectionsLibrary.Candidate":24631,"BiharElectionsLibrary.Candidate":20287,"BiharElectionsLibrary.Candidate":7006,"BiharElectionsLibrary.Candidate":5430,"BiharElectionsLibrary.Candidate":5164,"BiharElectionsLibrary.Candidate":2484,"BiharElectionsLibrary.Candidate":2161,"BiharElectionsLibrary.Candidate":2046,"BiharElectionsLibrary.Candidate":1374,"BiharElectionsLibrary.Candidate":700,"BiharElectionsLibrary.Candidate":664,"BiharElectionsLibrary.Candidate":527},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":21,"Name":"dhaka"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":48100,"BiharElectionsLibrary.Candidate":46451,"BiharElectionsLibrary.Candidate":13418,"BiharElectionsLibrary.Candidate":4464,"BiharElectionsLibrary.Candidate":4385,"BiharElectionsLibrary.Candidate":3504,"BiharElectionsLibrary.Candidate":2221,"BiharElectionsLibrary.Candidate":1386,"BiharElectionsLibrary.Candidate":1258,"BiharElectionsLibrary.Candidate":914,"BiharElectionsLibrary.Candidate":534},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":22,"Name":"sheohar"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":40447,"BiharElectionsLibrary.Candidate":38816,"BiharElectionsLibrary.Candidate":24838,"BiharElectionsLibrary.Candidate":2690,"BiharElectionsLibrary.Candidate":2065,"BiharElectionsLibrary.Candidate":1910,"BiharElectionsLibrary.Candidate":1583,"BiharElectionsLibrary.Candidate":1426,"BiharElectionsLibrary.Candidate":1207,"BiharElectionsLibrary.Candidate":1074,"BiharElectionsLibrary.Candidate":1073,"BiharElectionsLibrary.Candidate":775,"BiharElectionsLibrary.Candidate":749,"BiharElectionsLibrary.Candidate":692,"BiharElectionsLibrary.Candidate":593},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":23,"Name":"riga"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":48633,"BiharElectionsLibrary.Candidate":26306,"BiharElectionsLibrary.Candidate":18562,"BiharElectionsLibrary.Candidate":7937,"BiharElectionsLibrary.Candidate":5147,"BiharElectionsLibrary.Candidate":2375,"BiharElectionsLibrary.Candidate":1318,"BiharElectionsLibrary.Candidate":1188,"BiharElectionsLibrary.Candidate":1149,"BiharElectionsLibrary.Candidate":1068,"BiharElectionsLibrary.Candidate":1005,"BiharElectionsLibrary.Candidate":967,"BiharElectionsLibrary.Candidate":865,"BiharElectionsLibrary.Candidate":835,"BiharElectionsLibrary.Candidate":819,"BiharElectionsLibrary.Candidate":812,"BiharElectionsLibrary.Candidate":761,"BiharElectionsLibrary.Candidate":724,"BiharElectionsLibrary.Candidate":565,"BiharElectionsLibrary.Candidate":514,"BiharElectionsLibrary.Candidate":472},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":24,"Name":"bathnaha"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":49181,"BiharElectionsLibrary.Candidate":35889,"BiharElectionsLibrary.Candidate":8631,"BiharElectionsLibrary.Candidate":4617,"BiharElectionsLibrary.Candidate":3219,"BiharElectionsLibrary.Candidate":3143,"BiharElectionsLibrary.Candidate":1994,"BiharElectionsLibrary.Candidate":1708,"BiharElectionsLibrary.Candidate":1492,"BiharElectionsLibrary.Candidate":1037,"BiharElectionsLibrary.Candidate":812},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":25,"Name":"parihar"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":32987,"BiharElectionsLibrary.Candidate":28769,"BiharElectionsLibrary.Candidate":20388,"BiharElectionsLibrary.Candidate":13535,"BiharElectionsLibrary.Candidate":5101,"BiharElectionsLibrary.Candidate":2654,"BiharElectionsLibrary.Candidate":2313,"BiharElectionsLibrary.Candidate":2182,"BiharElectionsLibrary.Candidate":1871,"BiharElectionsLibrary.Candidate":1684,"BiharElectionsLibrary.Candidate":1215,"BiharElectionsLibrary.Candidate":1100,"BiharElectionsLibrary.Candidate":916,"BiharElectionsLibrary.Candidate":760},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":26,"Name":"sursand"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":38542,"BiharElectionsLibrary.Candidate":37356,"BiharElectionsLibrary.Candidate":15158,"BiharElectionsLibrary.Candidate":13173,"BiharElectionsLibrary.Candidate":3286,"BiharElectionsLibrary.Candidate":2746,"BiharElectionsLibrary.Candidate":2519,"BiharElectionsLibrary.Candidate":1409,"BiharElectionsLibrary.Candidate":1302,"BiharElectionsLibrary.Candidate":984},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":27,"Name":"bajpatti"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":44726,"BiharElectionsLibrary.Candidate":41306,"BiharElectionsLibrary.Candidate":10428,"BiharElectionsLibrary.Candidate":5574,"BiharElectionsLibrary.Candidate":2501,"BiharElectionsLibrary.Candidate":2472,"BiharElectionsLibrary.Candidate":1982,"BiharElectionsLibrary.Candidate":1917,"BiharElectionsLibrary.Candidate":1397,"BiharElectionsLibrary.Candidate":1389,"BiharElectionsLibrary.Candidate":932,"BiharElectionsLibrary.Candidate":802,"BiharElectionsLibrary.Candidate":692},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":28,"Name":"sitamarhi"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":51664,"BiharElectionsLibrary.Candidate":46443,"BiharElectionsLibrary.Candidate":8055,"BiharElectionsLibrary.Candidate":3870,"BiharElectionsLibrary.Candidate":3658,"BiharElectionsLibrary.Candidate":2139,"BiharElectionsLibrary.Candidate":1701,"BiharElectionsLibrary.Candidate":997},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":29,"Name":"runisaidpur"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":36125,"BiharElectionsLibrary.Candidate":25366,"BiharElectionsLibrary.Candidate":14125,"BiharElectionsLibrary.Candidate":10114,"BiharElectionsLibrary.Candidate":6289,"BiharElectionsLibrary.Candidate":4494,"BiharElectionsLibrary.Candidate":3703,"BiharElectionsLibrary.Candidate":3553,"BiharElectionsLibrary.Candidate":2740,"BiharElectionsLibrary.Candidate":1335,"BiharElectionsLibrary.Candidate":1129},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":30,"Name":"belsand"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":38139,"BiharElectionsLibrary.Candidate":18559,"BiharElectionsLibrary.Candidate":13996,"BiharElectionsLibrary.Candidate":8301,"BiharElectionsLibrary.Candidate":6661,"BiharElectionsLibrary.Candidate":4463,"BiharElectionsLibrary.Candidate":3064,"BiharElectionsLibrary.Candidate":2161,"BiharElectionsLibrary.Candidate":1528,"BiharElectionsLibrary.Candidate":1412},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":31,"Name":"harlakhi"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":30281,"BiharElectionsLibrary.Candidate":23622,"BiharElectionsLibrary.Candidate":20572,"BiharElectionsLibrary.Candidate":18276,"BiharElectionsLibrary.Candidate":8748,"BiharElectionsLibrary.Candidate":4784,"BiharElectionsLibrary.Candidate":2480,"BiharElectionsLibrary.Candidate":2283,"BiharElectionsLibrary.Candidate":1238},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":32,"Name":"benipatti"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":31198,"BiharElectionsLibrary.Candidate":18556,"BiharElectionsLibrary.Candidate":13334,"BiharElectionsLibrary.Candidate":9693,"BiharElectionsLibrary.Candidate":2558,"BiharElectionsLibrary.Candidate":2438,"BiharElectionsLibrary.Candidate":2181,"BiharElectionsLibrary.Candidate":2021,"BiharElectionsLibrary.Candidate":1814,"BiharElectionsLibrary.Candidate":1643,"BiharElectionsLibrary.Candidate":1569,"BiharElectionsLibrary.Candidate":1436,"BiharElectionsLibrary.Candidate":1391,"BiharElectionsLibrary.Candidate":1297,"BiharElectionsLibrary.Candidate":1207,"BiharElectionsLibrary.Candidate":1183,"BiharElectionsLibrary.Candidate":1176,"BiharElectionsLibrary.Candidate":941,"BiharElectionsLibrary.Candidate":760,"BiharElectionsLibrary.Candidate":742,"BiharElectionsLibrary.Candidate":530},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":33,"Name":"khajauli"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":44959,"BiharElectionsLibrary.Candidate":34246,"BiharElectionsLibrary.Candidate":17816,"BiharElectionsLibrary.Candidate":6841,"BiharElectionsLibrary.Candidate":4068,"BiharElectionsLibrary.Candidate":2348,"BiharElectionsLibrary.Candidate":2076,"BiharElectionsLibrary.Candidate":2041,"BiharElectionsLibrary.Candidate":1800,"BiharElectionsLibrary.Candidate":1584,"BiharElectionsLibrary.Candidate":1329,"BiharElectionsLibrary.Candidate":1251,"BiharElectionsLibrary.Candidate":1075,"BiharElectionsLibrary.Candidate":968,"BiharElectionsLibrary.Candidate":876,"BiharElectionsLibrary.Candidate":867},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":34,"Name":"babubarhi"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":51772,"BiharElectionsLibrary.Candidate":46859,"BiharElectionsLibrary.Candidate":12667,"BiharElectionsLibrary.Candidate":5825,"BiharElectionsLibrary.Candidate":2877,"BiharElectionsLibrary.Candidate":2685,"BiharElectionsLibrary.Candidate":2061,"BiharElectionsLibrary.Candidate":1705,"BiharElectionsLibrary.Candidate":1301},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":35,"Name":"bisfi"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":47169,"BiharElectionsLibrary.Candidate":37668,"BiharElectionsLibrary.Candidate":8064,"BiharElectionsLibrary.Candidate":7204,"BiharElectionsLibrary.Candidate":3358,"BiharElectionsLibrary.Candidate":2309,"BiharElectionsLibrary.Candidate":1408,"BiharElectionsLibrary.Candidate":1220,"BiharElectionsLibrary.Candidate":1094,"BiharElectionsLibrary.Candidate":1057,"BiharElectionsLibrary.Candidate":995,"BiharElectionsLibrary.Candidate":955,"BiharElectionsLibrary.Candidate":891,"BiharElectionsLibrary.Candidate":871,"BiharElectionsLibrary.Candidate":842},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":36,"Name":"madhubani"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":44817,"BiharElectionsLibrary.Candidate":44229,"BiharElectionsLibrary.Candidate":10291,"BiharElectionsLibrary.Candidate":6046,"BiharElectionsLibrary.Candidate":3286,"BiharElectionsLibrary.Candidate":2036,"BiharElectionsLibrary.Candidate":1912,"BiharElectionsLibrary.Candidate":1348,"BiharElectionsLibrary.Candidate":1266,"BiharElectionsLibrary.Candidate":1233,"BiharElectionsLibrary.Candidate":1015,"BiharElectionsLibrary.Candidate":900,"BiharElectionsLibrary.Candidate":757,"BiharElectionsLibrary.Candidate":678,"BiharElectionsLibrary.Candidate":641,"BiharElectionsLibrary.Candidate":623},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":37,"Name":"rajnagar"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":40584,"BiharElectionsLibrary.Candidate":38125,"BiharElectionsLibrary.Candidate":13367,"BiharElectionsLibrary.Candidate":2997,"BiharElectionsLibrary.Candidate":2784,"BiharElectionsLibrary.Candidate":2226,"BiharElectionsLibrary.Candidate":2169,"BiharElectionsLibrary.Candidate":2058,"BiharElectionsLibrary.Candidate":1271,"BiharElectionsLibrary.Candidate":1175},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":38,"Name":"jhanjharpur"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":57652,"BiharElectionsLibrary.Candidate":36971,"BiharElectionsLibrary.Candidate":5869,"BiharElectionsLibrary.Candidate":4492,"BiharElectionsLibrary.Candidate":4018,"BiharElectionsLibrary.Candidate":1900,"BiharElectionsLibrary.Candidate":1865,"BiharElectionsLibrary.Candidate":1574,"BiharElectionsLibrary.Candidate":1426,"BiharElectionsLibrary.Candidate":788,"BiharElectionsLibrary.Candidate":746},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":39,"Name":"phulparas"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":36113,"BiharElectionsLibrary.Candidate":23769,"BiharElectionsLibrary.Candidate":9108,"BiharElectionsLibrary.Candidate":8066,"BiharElectionsLibrary.Candidate":6477,"BiharElectionsLibrary.Candidate":6437,"BiharElectionsLibrary.Candidate":5544,"BiharElectionsLibrary.Candidate":5416,"BiharElectionsLibrary.Candidate":4677,"BiharElectionsLibrary.Candidate":4035,"BiharElectionsLibrary.Candidate":3358,"BiharElectionsLibrary.Candidate":2316,"BiharElectionsLibrary.Candidate":2099,"BiharElectionsLibrary.Candidate":1785,"BiharElectionsLibrary.Candidate":1567,"BiharElectionsLibrary.Candidate":1521,"BiharElectionsLibrary.Candidate":1324,"BiharElectionsLibrary.Candidate":1195,"BiharElectionsLibrary.Candidate":1007,"BiharElectionsLibrary.Candidate":960},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":40,"Name":"laukaha"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":47849,"BiharElectionsLibrary.Candidate":30283,"BiharElectionsLibrary.Candidate":15034,"BiharElectionsLibrary.Candidate":15019,"BiharElectionsLibrary.Candidate":6435,"BiharElectionsLibrary.Candidate":6021,"BiharElectionsLibrary.Candidate":3121,"BiharElectionsLibrary.Candidate":2998,"BiharElectionsLibrary.Candidate":2752,"BiharElectionsLibrary.Candidate":2387,"BiharElectionsLibrary.Candidate":1896,"BiharElectionsLibrary.Candidate":1851,"BiharElectionsLibrary.Candidate":885,"BiharElectionsLibrary.Candidate":859},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":41,"Name":"nirmali"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":70150,"BiharElectionsLibrary.Candidate":24140,"BiharElectionsLibrary.Candidate":23985,"BiharElectionsLibrary.Candidate":3099,"BiharElectionsLibrary.Candidate":3033,"BiharElectionsLibrary.Candidate":1473,"BiharElectionsLibrary.Candidate":1384,"BiharElectionsLibrary.Candidate":1330,"BiharElectionsLibrary.Candidate":1125,"BiharElectionsLibrary.Candidate":738},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":42,"Name":"pipra"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":44883,"BiharElectionsLibrary.Candidate":30197,"BiharElectionsLibrary.Candidate":19298,"BiharElectionsLibrary.Candidate":7647,"BiharElectionsLibrary.Candidate":4012,"BiharElectionsLibrary.Candidate":3482,"BiharElectionsLibrary.Candidate":2425,"BiharElectionsLibrary.Candidate":1997,"BiharElectionsLibrary.Candidate":1955,"BiharElectionsLibrary.Candidate":1780,"BiharElectionsLibrary.Candidate":1713,"BiharElectionsLibrary.Candidate":1445,"BiharElectionsLibrary.Candidate":1239,"BiharElectionsLibrary.Candidate":1231,"BiharElectionsLibrary.Candidate":1101,"BiharElectionsLibrary.Candidate":828},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":43,"Name":"supaul"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":55179,"BiharElectionsLibrary.Candidate":39779,"BiharElectionsLibrary.Candidate":14251,"BiharElectionsLibrary.Candidate":5293,"BiharElectionsLibrary.Candidate":1808,"BiharElectionsLibrary.Candidate":1567,"BiharElectionsLibrary.Candidate":1272,"BiharElectionsLibrary.Candidate":1258,"BiharElectionsLibrary.Candidate":936},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":44,"Name":"tribeniganj"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":63729,"BiharElectionsLibrary.Candidate":44706,"BiharElectionsLibrary.Candidate":8605,"BiharElectionsLibrary.Candidate":3025,"BiharElectionsLibrary.Candidate":2000,"BiharElectionsLibrary.Candidate":1473,"BiharElectionsLibrary.Candidate":1384,"BiharElectionsLibrary.Candidate":1263,"BiharElectionsLibrary.Candidate":999,"BiharElectionsLibrary.Candidate":865,"BiharElectionsLibrary.Candidate":822,"BiharElectionsLibrary.Candidate":784,"BiharElectionsLibrary.Candidate":514},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":45,"Name":"chhatapur"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":66895,"BiharElectionsLibrary.Candidate":43165,"BiharElectionsLibrary.Candidate":5334,"BiharElectionsLibrary.Candidate":4391,"BiharElectionsLibrary.Candidate":2915,"BiharElectionsLibrary.Candidate":2239,"BiharElectionsLibrary.Candidate":2198,"BiharElectionsLibrary.Candidate":1971,"BiharElectionsLibrary.Candidate":1527,"BiharElectionsLibrary.Candidate":1079,"BiharElectionsLibrary.Candidate":981,"BiharElectionsLibrary.Candidate":873,"BiharElectionsLibrary.Candidate":683,"BiharElectionsLibrary.Candidate":580,"BiharElectionsLibrary.Candidate":567,"BiharElectionsLibrary.Candidate":538,"BiharElectionsLibrary.Candidate":452,"BiharElectionsLibrary.Candidate":331},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":46,"Name":"narpatganj"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":61106,"BiharElectionsLibrary.Candidate":54169,"BiharElectionsLibrary.Candidate":8782,"BiharElectionsLibrary.Candidate":6022,"BiharElectionsLibrary.Candidate":3418,"BiharElectionsLibrary.Candidate":3408,"BiharElectionsLibrary.Candidate":2418,"BiharElectionsLibrary.Candidate":2327,"BiharElectionsLibrary.Candidate":1948,"BiharElectionsLibrary.Candidate":1451,"BiharElectionsLibrary.Candidate":1264,"BiharElectionsLibrary.Candidate":1187,"BiharElectionsLibrary.Candidate":922,"BiharElectionsLibrary.Candidate":671},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":47,"Name":"raniganj"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":65111,"BiharElectionsLibrary.Candidate":41458,"BiharElectionsLibrary.Candidate":9955,"BiharElectionsLibrary.Candidate":3883,"BiharElectionsLibrary.Candidate":3692,"BiharElectionsLibrary.Candidate":2990,"BiharElectionsLibrary.Candidate":2125,"BiharElectionsLibrary.Candidate":1977},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":48,"Name":"forbesganj"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":70463,"BiharElectionsLibrary.Candidate":43636,"BiharElectionsLibrary.Candidate":8185,"BiharElectionsLibrary.Candidate":4300,"BiharElectionsLibrary.Candidate":2534,"BiharElectionsLibrary.Candidate":2386,"BiharElectionsLibrary.Candidate":2145,"BiharElectionsLibrary.Candidate":1953,"BiharElectionsLibrary.Candidate":1885,"BiharElectionsLibrary.Candidate":1454,"BiharElectionsLibrary.Candidate":1379,"BiharElectionsLibrary.Candidate":743,"BiharElectionsLibrary.Candidate":678,"BiharElectionsLibrary.Candidate":601,"BiharElectionsLibrary.Candidate":574,"BiharElectionsLibrary.Candidate":555,"BiharElectionsLibrary.Candidate":494},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":49,"Name":"araria"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":49532,"BiharElectionsLibrary.Candidate":31471,"BiharElectionsLibrary.Candidate":18344,"BiharElectionsLibrary.Candidate":11846,"BiharElectionsLibrary.Candidate":4612,"BiharElectionsLibrary.Candidate":3123,"BiharElectionsLibrary.Candidate":2222,"BiharElectionsLibrary.Candidate":1374,"BiharElectionsLibrary.Candidate":1226,"BiharElectionsLibrary.Candidate":1204,"BiharElectionsLibrary.Candidate":1170,"BiharElectionsLibrary.Candidate":1151,"BiharElectionsLibrary.Candidate":704,"BiharElectionsLibrary.Candidate":575},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":50,"Name":"jokihat"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":44027,"BiharElectionsLibrary.Candidate":18697,"BiharElectionsLibrary.Candidate":15053,"BiharElectionsLibrary.Candidate":13942,"BiharElectionsLibrary.Candidate":6036,"BiharElectionsLibrary.Candidate":4460,"BiharElectionsLibrary.Candidate":3965,"BiharElectionsLibrary.Candidate":3643,"BiharElectionsLibrary.Candidate":3585,"BiharElectionsLibrary.Candidate":3234,"BiharElectionsLibrary.Candidate":2534,"BiharElectionsLibrary.Candidate":2083,"BiharElectionsLibrary.Candidate":1734,"BiharElectionsLibrary.Candidate":1619},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":51,"Name":"sikti"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":42076,"BiharElectionsLibrary.Candidate":32202,"BiharElectionsLibrary.Candidate":20280,"BiharElectionsLibrary.Candidate":13509,"BiharElectionsLibrary.Candidate":12496,"BiharElectionsLibrary.Candidate":3969,"BiharElectionsLibrary.Candidate":1781,"BiharElectionsLibrary.Candidate":1780,"BiharElectionsLibrary.Candidate":1631,"BiharElectionsLibrary.Candidate":1545,"BiharElectionsLibrary.Candidate":1328,"BiharElectionsLibrary.Candidate":1221,"BiharElectionsLibrary.Candidate":1139},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":52,"Name":"bahadurganj"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":30551,"BiharElectionsLibrary.Candidate":26752,"BiharElectionsLibrary.Candidate":9062,"BiharElectionsLibrary.Candidate":6878,"BiharElectionsLibrary.Candidate":5862,"BiharElectionsLibrary.Candidate":5146,"BiharElectionsLibrary.Candidate":4717,"BiharElectionsLibrary.Candidate":4437,"BiharElectionsLibrary.Candidate":3406,"BiharElectionsLibrary.Candidate":3244,"BiharElectionsLibrary.Candidate":3036,"BiharElectionsLibrary.Candidate":2963,"BiharElectionsLibrary.Candidate":2487,"BiharElectionsLibrary.Candidate":1417,"BiharElectionsLibrary.Candidate":1362,"BiharElectionsLibrary.Candidate":1126},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":53,"Name":"thakurganj"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":36372,"BiharElectionsLibrary.Candidate":29409,"BiharElectionsLibrary.Candidate":15652,"BiharElectionsLibrary.Candidate":11462,"BiharElectionsLibrary.Candidate":10715,"BiharElectionsLibrary.Candidate":9030,"BiharElectionsLibrary.Candidate":6653,"BiharElectionsLibrary.Candidate":4748,"BiharElectionsLibrary.Candidate":1740,"BiharElectionsLibrary.Candidate":1573,"BiharElectionsLibrary.Candidate":1173},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":54,"Name":"kishanganj"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":38867,"BiharElectionsLibrary.Candidate":38603,"BiharElectionsLibrary.Candidate":22074,"BiharElectionsLibrary.Candidate":8291,"BiharElectionsLibrary.Candidate":3687,"BiharElectionsLibrary.Candidate":3626,"BiharElectionsLibrary.Candidate":1800,"BiharElectionsLibrary.Candidate":1498,"BiharElectionsLibrary.Candidate":1299,"BiharElectionsLibrary.Candidate":1198,"BiharElectionsLibrary.Candidate":1159,"BiharElectionsLibrary.Candidate":1121,"BiharElectionsLibrary.Candidate":652},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":55,"Name":"kochadhaman"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":37376,"BiharElectionsLibrary.Candidate":28351,"BiharElectionsLibrary.Candidate":9861,"BiharElectionsLibrary.Candidate":6966,"BiharElectionsLibrary.Candidate":6646,"BiharElectionsLibrary.Candidate":3897,"BiharElectionsLibrary.Candidate":1831,"BiharElectionsLibrary.Candidate":1567,"BiharElectionsLibrary.Candidate":1510,"BiharElectionsLibrary.Candidate":1318,"BiharElectionsLibrary.Candidate":979,"BiharElectionsLibrary.Candidate":901,"BiharElectionsLibrary.Candidate":619,"BiharElectionsLibrary.Candidate":607,"BiharElectionsLibrary.Candidate":607},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":56,"Name":"amour"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":57774,"BiharElectionsLibrary.Candidate":38946,"BiharElectionsLibrary.Candidate":16323,"BiharElectionsLibrary.Candidate":4452,"BiharElectionsLibrary.Candidate":2746,"BiharElectionsLibrary.Candidate":2227,"BiharElectionsLibrary.Candidate":1188,"BiharElectionsLibrary.Candidate":1041},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":57,"Name":"baisi"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":39939,"BiharElectionsLibrary.Candidate":30689,"BiharElectionsLibrary.Candidate":27263,"BiharElectionsLibrary.Candidate":18986,"BiharElectionsLibrary.Candidate":1992,"BiharElectionsLibrary.Candidate":1255,"BiharElectionsLibrary.Candidate":1251,"BiharElectionsLibrary.Candidate":1229},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":58,"Name":"kasba"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":63025,"BiharElectionsLibrary.Candidate":58570,"BiharElectionsLibrary.Candidate":4011,"BiharElectionsLibrary.Candidate":2776,"BiharElectionsLibrary.Candidate":1806,"BiharElectionsLibrary.Candidate":1266,"BiharElectionsLibrary.Candidate":705,"BiharElectionsLibrary.Candidate":657,"BiharElectionsLibrary.Candidate":602,"BiharElectionsLibrary.Candidate":482},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":59,"Name":"banmankhi"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":67950,"BiharElectionsLibrary.Candidate":23060,"BiharElectionsLibrary.Candidate":11888,"BiharElectionsLibrary.Candidate":10515,"BiharElectionsLibrary.Candidate":2444,"BiharElectionsLibrary.Candidate":2078,"BiharElectionsLibrary.Candidate":2019,"BiharElectionsLibrary.Candidate":1997,"BiharElectionsLibrary.Candidate":1824,"BiharElectionsLibrary.Candidate":1407,"BiharElectionsLibrary.Candidate":1338},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":60,"Name":"rupauli"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":64887,"BiharElectionsLibrary.Candidate":27171,"BiharElectionsLibrary.Candidate":17745,"BiharElectionsLibrary.Candidate":7095,"BiharElectionsLibrary.Candidate":5625,"BiharElectionsLibrary.Candidate":2586,"BiharElectionsLibrary.Candidate":2052,"BiharElectionsLibrary.Candidate":2038,"BiharElectionsLibrary.Candidate":1928,"BiharElectionsLibrary.Candidate":1776,"BiharElectionsLibrary.Candidate":1708,"BiharElectionsLibrary.Candidate":1617,"BiharElectionsLibrary.Candidate":1367,"BiharElectionsLibrary.Candidate":898,"BiharElectionsLibrary.Candidate":662},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":61,"Name":"dhamdaha"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":64323,"BiharElectionsLibrary.Candidate":19626,"BiharElectionsLibrary.Candidate":19554,"BiharElectionsLibrary.Candidate":9148,"BiharElectionsLibrary.Candidate":6156,"BiharElectionsLibrary.Candidate":3293,"BiharElectionsLibrary.Candidate":3062,"BiharElectionsLibrary.Candidate":2850,"BiharElectionsLibrary.Candidate":2471,"BiharElectionsLibrary.Candidate":2389,"BiharElectionsLibrary.Candidate":2375,"BiharElectionsLibrary.Candidate":2154,"BiharElectionsLibrary.Candidate":2100,"BiharElectionsLibrary.Candidate":1919,"BiharElectionsLibrary.Candidate":1313,"BiharElectionsLibrary.Candidate":1216,"BiharElectionsLibrary.Candidate":808,"BiharElectionsLibrary.Candidate":743,"BiharElectionsLibrary.Candidate":615},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":62,"Name":"purnia"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":54605,"BiharElectionsLibrary.Candidate":39006,"BiharElectionsLibrary.Candidate":23061,"BiharElectionsLibrary.Candidate":3555,"BiharElectionsLibrary.Candidate":2475,"BiharElectionsLibrary.Candidate":1830,"BiharElectionsLibrary.Candidate":1552,"BiharElectionsLibrary.Candidate":1515,"BiharElectionsLibrary.Candidate":1095,"BiharElectionsLibrary.Candidate":946,"BiharElectionsLibrary.Candidate":936,"BiharElectionsLibrary.Candidate":651,"BiharElectionsLibrary.Candidate":620},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":63,"Name":"katihar"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":58718,"BiharElectionsLibrary.Candidate":38111,"BiharElectionsLibrary.Candidate":17015,"BiharElectionsLibrary.Candidate":2647,"BiharElectionsLibrary.Candidate":2570,"BiharElectionsLibrary.Candidate":1965,"BiharElectionsLibrary.Candidate":1954,"BiharElectionsLibrary.Candidate":1051,"BiharElectionsLibrary.Candidate":654,"BiharElectionsLibrary.Candidate":599},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":64,"Name":"kadwa"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":38225,"BiharElectionsLibrary.Candidate":19858,"BiharElectionsLibrary.Candidate":18167,"BiharElectionsLibrary.Candidate":13084,"BiharElectionsLibrary.Candidate":7967,"BiharElectionsLibrary.Candidate":4984,"BiharElectionsLibrary.Candidate":2751,"BiharElectionsLibrary.Candidate":1853,"BiharElectionsLibrary.Candidate":1411,"BiharElectionsLibrary.Candidate":1392,"BiharElectionsLibrary.Candidate":1282,"BiharElectionsLibrary.Candidate":1257,"BiharElectionsLibrary.Candidate":1220,"BiharElectionsLibrary.Candidate":1058,"BiharElectionsLibrary.Candidate":1048,"BiharElectionsLibrary.Candidate":866,"BiharElectionsLibrary.Candidate":828,"BiharElectionsLibrary.Candidate":616,"BiharElectionsLibrary.Candidate":579,"BiharElectionsLibrary.Candidate":575,"BiharElectionsLibrary.Candidate":563,"BiharElectionsLibrary.Candidate":377},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":65,"Name":"balrampur"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":48136,"BiharElectionsLibrary.Candidate":45432,"BiharElectionsLibrary.Candidate":16474,"BiharElectionsLibrary.Candidate":7795,"BiharElectionsLibrary.Candidate":4486,"BiharElectionsLibrary.Candidate":4333,"BiharElectionsLibrary.Candidate":3538,"BiharElectionsLibrary.Candidate":3283,"BiharElectionsLibrary.Candidate":2867,"BiharElectionsLibrary.Candidate":2569,"BiharElectionsLibrary.Candidate":1781,"BiharElectionsLibrary.Candidate":1672,"BiharElectionsLibrary.Candidate":1591,"BiharElectionsLibrary.Candidate":1361,"BiharElectionsLibrary.Candidate":1070,"BiharElectionsLibrary.Candidate":859},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":66,"Name":"pranpur"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":43660,"BiharElectionsLibrary.Candidate":42944,"BiharElectionsLibrary.Candidate":13925,"BiharElectionsLibrary.Candidate":12915,"BiharElectionsLibrary.Candidate":10083,"BiharElectionsLibrary.Candidate":3544,"BiharElectionsLibrary.Candidate":2313,"BiharElectionsLibrary.Candidate":1836,"BiharElectionsLibrary.Candidate":1599,"BiharElectionsLibrary.Candidate":1551,"BiharElectionsLibrary.Candidate":939,"BiharElectionsLibrary.Candidate":806,"BiharElectionsLibrary.Candidate":567,"BiharElectionsLibrary.Candidate":545,"BiharElectionsLibrary.Candidate":535,"BiharElectionsLibrary.Candidate":464},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":67,"Name":"manihari"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":44938,"BiharElectionsLibrary.Candidate":40773,"BiharElectionsLibrary.Candidate":18466,"BiharElectionsLibrary.Candidate":3668,"BiharElectionsLibrary.Candidate":3242,"BiharElectionsLibrary.Candidate":3162,"BiharElectionsLibrary.Candidate":2243,"BiharElectionsLibrary.Candidate":2233,"BiharElectionsLibrary.Candidate":1457,"BiharElectionsLibrary.Candidate":1416,"BiharElectionsLibrary.Candidate":1229,"BiharElectionsLibrary.Candidate":960,"BiharElectionsLibrary.Candidate":902,"BiharElectionsLibrary.Candidate":781,"BiharElectionsLibrary.Candidate":669},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":68,"Name":"barari"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":58104,"BiharElectionsLibrary.Candidate":30936,"BiharElectionsLibrary.Candidate":21221,"BiharElectionsLibrary.Candidate":10822,"BiharElectionsLibrary.Candidate":5219,"BiharElectionsLibrary.Candidate":3853,"BiharElectionsLibrary.Candidate":1926,"BiharElectionsLibrary.Candidate":1147,"BiharElectionsLibrary.Candidate":1065,"BiharElectionsLibrary.Candidate":960,"BiharElectionsLibrary.Candidate":837,"BiharElectionsLibrary.Candidate":704},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":69,"Name":"korha"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":71020,"BiharElectionsLibrary.Candidate":18576,"BiharElectionsLibrary.Candidate":15956,"BiharElectionsLibrary.Candidate":9000,"BiharElectionsLibrary.Candidate":3814,"BiharElectionsLibrary.Candidate":3191,"BiharElectionsLibrary.Candidate":2195,"BiharElectionsLibrary.Candidate":1291,"BiharElectionsLibrary.Candidate":1215,"BiharElectionsLibrary.Candidate":1122,"BiharElectionsLibrary.Candidate":1062},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":70,"Name":"alamnagar"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":64967,"BiharElectionsLibrary.Candidate":22622,"BiharElectionsLibrary.Candidate":21612,"BiharElectionsLibrary.Candidate":11915,"BiharElectionsLibrary.Candidate":6774,"BiharElectionsLibrary.Candidate":4920,"BiharElectionsLibrary.Candidate":4248,"BiharElectionsLibrary.Candidate":3912,"BiharElectionsLibrary.Candidate":2961,"BiharElectionsLibrary.Candidate":2887,"BiharElectionsLibrary.Candidate":2582,"BiharElectionsLibrary.Candidate":2530,"BiharElectionsLibrary.Candidate":1310,"BiharElectionsLibrary.Candidate":870},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":71,"Name":"bihariganj"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":79062,"BiharElectionsLibrary.Candidate":29065,"BiharElectionsLibrary.Candidate":27554,"BiharElectionsLibrary.Candidate":2531,"BiharElectionsLibrary.Candidate":2527,"BiharElectionsLibrary.Candidate":1729,"BiharElectionsLibrary.Candidate":1646,"BiharElectionsLibrary.Candidate":1321,"BiharElectionsLibrary.Candidate":1274,"BiharElectionsLibrary.Candidate":1262,"BiharElectionsLibrary.Candidate":1245,"BiharElectionsLibrary.Candidate":1223,"BiharElectionsLibrary.Candidate":1140,"BiharElectionsLibrary.Candidate":1041},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":72,"Name":"singheshwar"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":72282,"BiharElectionsLibrary.Candidate":57086,"BiharElectionsLibrary.Candidate":5969,"BiharElectionsLibrary.Candidate":3227,"BiharElectionsLibrary.Candidate":3033,"BiharElectionsLibrary.Candidate":1860,"BiharElectionsLibrary.Candidate":1839},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":73,"Name":"madhepura"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":72481,"BiharElectionsLibrary.Candidate":60537,"BiharElectionsLibrary.Candidate":8345,"BiharElectionsLibrary.Candidate":3232,"BiharElectionsLibrary.Candidate":3117,"BiharElectionsLibrary.Candidate":1886,"BiharElectionsLibrary.Candidate":1475,"BiharElectionsLibrary.Candidate":1424,"BiharElectionsLibrary.Candidate":770},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":74,"Name":"sonbarsa"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":56633,"BiharElectionsLibrary.Candidate":25188,"BiharElectionsLibrary.Candidate":10433,"BiharElectionsLibrary.Candidate":4633,"BiharElectionsLibrary.Candidate":2423,"BiharElectionsLibrary.Candidate":2366,"BiharElectionsLibrary.Candidate":1930,"BiharElectionsLibrary.Candidate":1492,"BiharElectionsLibrary.Candidate":1476,"BiharElectionsLibrary.Candidate":1452,"BiharElectionsLibrary.Candidate":1411,"BiharElectionsLibrary.Candidate":1403,"BiharElectionsLibrary.Candidate":1289,"BiharElectionsLibrary.Candidate":1230,"BiharElectionsLibrary.Candidate":1214,"BiharElectionsLibrary.Candidate":1134,"BiharElectionsLibrary.Candidate":1073,"BiharElectionsLibrary.Candidate":1054,"BiharElectionsLibrary.Candidate":909,"BiharElectionsLibrary.Candidate":805},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":75,"Name":"saharsa"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":55687,"BiharElectionsLibrary.Candidate":47708,"BiharElectionsLibrary.Candidate":14908,"BiharElectionsLibrary.Candidate":11191,"BiharElectionsLibrary.Candidate":6065,"BiharElectionsLibrary.Candidate":2534,"BiharElectionsLibrary.Candidate":2459,"BiharElectionsLibrary.Candidate":2199,"BiharElectionsLibrary.Candidate":2085,"BiharElectionsLibrary.Candidate":2016,"BiharElectionsLibrary.Candidate":1659,"BiharElectionsLibrary.Candidate":1354,"BiharElectionsLibrary.Candidate":976,"BiharElectionsLibrary.Candidate":932},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":76,"Name":"simri_bakhtiarpur"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":57980,"BiharElectionsLibrary.Candidate":39138,"BiharElectionsLibrary.Candidate":21464,"BiharElectionsLibrary.Candidate":2924,"BiharElectionsLibrary.Candidate":2056,"BiharElectionsLibrary.Candidate":1818,"BiharElectionsLibrary.Candidate":1714,"BiharElectionsLibrary.Candidate":1675,"BiharElectionsLibrary.Candidate":1611,"BiharElectionsLibrary.Candidate":1185},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":77,"Name":"mahishi"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":39158,"BiharElectionsLibrary.Candidate":37441,"BiharElectionsLibrary.Candidate":20304,"BiharElectionsLibrary.Candidate":4548,"BiharElectionsLibrary.Candidate":3667,"BiharElectionsLibrary.Candidate":2006,"BiharElectionsLibrary.Candidate":1850,"BiharElectionsLibrary.Candidate":1637,"BiharElectionsLibrary.Candidate":1457,"BiharElectionsLibrary.Candidate":1167,"BiharElectionsLibrary.Candidate":1036,"BiharElectionsLibrary.Candidate":946,"BiharElectionsLibrary.Candidate":910,"BiharElectionsLibrary.Candidate":600,"BiharElectionsLibrary.Candidate":563},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":78,"Name":"kusheshwar_asthan"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":28576,"BiharElectionsLibrary.Candidate":23064,"BiharElectionsLibrary.Candidate":17142,"BiharElectionsLibrary.Candidate":7549,"BiharElectionsLibrary.Candidate":3084,"BiharElectionsLibrary.Candidate":2185,"BiharElectionsLibrary.Candidate":1940,"BiharElectionsLibrary.Candidate":1774,"BiharElectionsLibrary.Candidate":1744,"BiharElectionsLibrary.Candidate":1678,"BiharElectionsLibrary.Candidate":886,"BiharElectionsLibrary.Candidate":853},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":79,"Name":"gora_bauram"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":33258,"BiharElectionsLibrary.Candidate":22656,"BiharElectionsLibrary.Candidate":14396,"BiharElectionsLibrary.Candidate":5306,"BiharElectionsLibrary.Candidate":4265,"BiharElectionsLibrary.Candidate":2057,"BiharElectionsLibrary.Candidate":1386,"BiharElectionsLibrary.Candidate":1246,"BiharElectionsLibrary.Candidate":1120,"BiharElectionsLibrary.Candidate":1108,"BiharElectionsLibrary.Candidate":967,"BiharElectionsLibrary.Candidate":959,"BiharElectionsLibrary.Candidate":902,"BiharElectionsLibrary.Candidate":854},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":80,"Name":"benipur"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":43222,"BiharElectionsLibrary.Candidate":29265,"BiharElectionsLibrary.Candidate":10184,"BiharElectionsLibrary.Candidate":9239,"BiharElectionsLibrary.Candidate":3039,"BiharElectionsLibrary.Candidate":2814,"BiharElectionsLibrary.Candidate":2235,"BiharElectionsLibrary.Candidate":2200,"BiharElectionsLibrary.Candidate":1975,"BiharElectionsLibrary.Candidate":1903,"BiharElectionsLibrary.Candidate":1099},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":81,"Name":"alinagar"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":37923,"BiharElectionsLibrary.Candidate":32934,"BiharElectionsLibrary.Candidate":11208,"BiharElectionsLibrary.Candidate":6762,"BiharElectionsLibrary.Candidate":3514,"BiharElectionsLibrary.Candidate":2964,"BiharElectionsLibrary.Candidate":2660,"BiharElectionsLibrary.Candidate":1524,"BiharElectionsLibrary.Candidate":1315,"BiharElectionsLibrary.Candidate":1084},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":82,"Name":"darbhanga_rural"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":29776,"BiharElectionsLibrary.Candidate":26100,"BiharElectionsLibrary.Candidate":12485,"BiharElectionsLibrary.Candidate":6965,"BiharElectionsLibrary.Candidate":4245,"BiharElectionsLibrary.Candidate":4240,"BiharElectionsLibrary.Candidate":3145,"BiharElectionsLibrary.Candidate":2665,"BiharElectionsLibrary.Candidate":2477,"BiharElectionsLibrary.Candidate":2444,"BiharElectionsLibrary.Candidate":1685,"BiharElectionsLibrary.Candidate":1677,"BiharElectionsLibrary.Candidate":1604,"BiharElectionsLibrary.Candidate":1321,"BiharElectionsLibrary.Candidate":916},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":83,"Name":"darbhanga"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":64136,"BiharElectionsLibrary.Candidate":36582,"BiharElectionsLibrary.Candidate":7561,"BiharElectionsLibrary.Candidate":2768,"BiharElectionsLibrary.Candidate":1487,"BiharElectionsLibrary.Candidate":1333,"BiharElectionsLibrary.Candidate":1154,"BiharElectionsLibrary.Candidate":1033,"BiharElectionsLibrary.Candidate":980,"BiharElectionsLibrary.Candidate":962,"BiharElectionsLibrary.Candidate":600},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":84,"Name":"hayaghat"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":32023,"BiharElectionsLibrary.Candidate":25998,"BiharElectionsLibrary.Candidate":5940,"BiharElectionsLibrary.Candidate":4668,"BiharElectionsLibrary.Candidate":4570,"BiharElectionsLibrary.Candidate":4239,"BiharElectionsLibrary.Candidate":3820,"BiharElectionsLibrary.Candidate":1865,"BiharElectionsLibrary.Candidate":1805,"BiharElectionsLibrary.Candidate":1462,"BiharElectionsLibrary.Candidate":1285,"BiharElectionsLibrary.Candidate":1187,"BiharElectionsLibrary.Candidate":1147,"BiharElectionsLibrary.Candidate":921},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":85,"Name":"bahadurpur"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":27320,"BiharElectionsLibrary.Candidate":26677,"BiharElectionsLibrary.Candidate":12444,"BiharElectionsLibrary.Candidate":6889,"BiharElectionsLibrary.Candidate":6397,"BiharElectionsLibrary.Candidate":6266,"BiharElectionsLibrary.Candidate":5325,"BiharElectionsLibrary.Candidate":2963,"BiharElectionsLibrary.Candidate":2806,"BiharElectionsLibrary.Candidate":2785,"BiharElectionsLibrary.Candidate":2616,"BiharElectionsLibrary.Candidate":2558,"BiharElectionsLibrary.Candidate":2272,"BiharElectionsLibrary.Candidate":1513,"BiharElectionsLibrary.Candidate":1309,"BiharElectionsLibrary.Candidate":1303,"BiharElectionsLibrary.Candidate":1179,"BiharElectionsLibrary.Candidate":1033,"BiharElectionsLibrary.Candidate":953,"BiharElectionsLibrary.Candidate":907},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":86,"Name":"keoti"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":45791,"BiharElectionsLibrary.Candidate":45762,"BiharElectionsLibrary.Candidate":5679,"BiharElectionsLibrary.Candidate":2833,"BiharElectionsLibrary.Candidate":1985,"BiharElectionsLibrary.Candidate":1917,"BiharElectionsLibrary.Candidate":1546,"BiharElectionsLibrary.Candidate":991,"BiharElectionsLibrary.Candidate":636,"BiharElectionsLibrary.Candidate":606,"BiharElectionsLibrary.Candidate":584,"BiharElectionsLibrary.Candidate":415},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":87,"Name":"jale"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":42590,"BiharElectionsLibrary.Candidate":25648,"BiharElectionsLibrary.Candidate":18333,"BiharElectionsLibrary.Candidate":4028,"BiharElectionsLibrary.Candidate":3047,"BiharElectionsLibrary.Candidate":2690,"BiharElectionsLibrary.Candidate":2423,"BiharElectionsLibrary.Candidate":2270,"BiharElectionsLibrary.Candidate":1876,"BiharElectionsLibrary.Candidate":1468,"BiharElectionsLibrary.Candidate":1426,"BiharElectionsLibrary.Candidate":1221,"BiharElectionsLibrary.Candidate":973},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":88,"Name":"gaighat"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":56386,"BiharElectionsLibrary.Candidate":40399,"BiharElectionsLibrary.Candidate":6742,"BiharElectionsLibrary.Candidate":4148,"BiharElectionsLibrary.Candidate":3434,"BiharElectionsLibrary.Candidate":2979,"BiharElectionsLibrary.Candidate":2936,"BiharElectionsLibrary.Candidate":2740,"BiharElectionsLibrary.Candidate":2403,"BiharElectionsLibrary.Candidate":2200,"BiharElectionsLibrary.Candidate":1105,"BiharElectionsLibrary.Candidate":983,"BiharElectionsLibrary.Candidate":955,"BiharElectionsLibrary.Candidate":919,"BiharElectionsLibrary.Candidate":759,"BiharElectionsLibrary.Candidate":668},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":89,"Name":"aurai"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":38422,"BiharElectionsLibrary.Candidate":26681,"BiharElectionsLibrary.Candidate":13507,"BiharElectionsLibrary.Candidate":12859,"BiharElectionsLibrary.Candidate":7061,"BiharElectionsLibrary.Candidate":2771,"BiharElectionsLibrary.Candidate":2412,"BiharElectionsLibrary.Candidate":2201,"BiharElectionsLibrary.Candidate":1959,"BiharElectionsLibrary.Candidate":1656,"BiharElectionsLibrary.Candidate":1549,"BiharElectionsLibrary.Candidate":1405,"BiharElectionsLibrary.Candidate":1211,"BiharElectionsLibrary.Candidate":1128,"BiharElectionsLibrary.Candidate":1062,"BiharElectionsLibrary.Candidate":782},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":90,"Name":"minapur"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":42286,"BiharElectionsLibrary.Candidate":36884,"BiharElectionsLibrary.Candidate":15346,"BiharElectionsLibrary.Candidate":6766,"BiharElectionsLibrary.Candidate":4898,"BiharElectionsLibrary.Candidate":4156,"BiharElectionsLibrary.Candidate":2906,"BiharElectionsLibrary.Candidate":2352,"BiharElectionsLibrary.Candidate":2298,"BiharElectionsLibrary.Candidate":1687,"BiharElectionsLibrary.Candidate":1590,"BiharElectionsLibrary.Candidate":1069,"BiharElectionsLibrary.Candidate":978,"BiharElectionsLibrary.Candidate":918},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":91,"Name":"bochaha"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":61885,"BiharElectionsLibrary.Candidate":37758,"BiharElectionsLibrary.Candidate":5289,"BiharElectionsLibrary.Candidate":3987,"BiharElectionsLibrary.Candidate":3703,"BiharElectionsLibrary.Candidate":2725,"BiharElectionsLibrary.Candidate":1126,"BiharElectionsLibrary.Candidate":1099,"BiharElectionsLibrary.Candidate":1067,"BiharElectionsLibrary.Candidate":952,"BiharElectionsLibrary.Candidate":918,"BiharElectionsLibrary.Candidate":848,"BiharElectionsLibrary.Candidate":521,"BiharElectionsLibrary.Candidate":462},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":92,"Name":"sakra"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":55486,"BiharElectionsLibrary.Candidate":42441,"BiharElectionsLibrary.Candidate":6242,"BiharElectionsLibrary.Candidate":3065,"BiharElectionsLibrary.Candidate":2816,"BiharElectionsLibrary.Candidate":2112,"BiharElectionsLibrary.Candidate":1431,"BiharElectionsLibrary.Candidate":1131,"BiharElectionsLibrary.Candidate":859},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":93,"Name":"kurhani"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":36757,"BiharElectionsLibrary.Candidate":35187,"BiharElectionsLibrary.Candidate":12083,"BiharElectionsLibrary.Candidate":9896,"BiharElectionsLibrary.Candidate":6812,"BiharElectionsLibrary.Candidate":5506,"BiharElectionsLibrary.Candidate":2634,"BiharElectionsLibrary.Candidate":2617,"BiharElectionsLibrary.Candidate":2419,"BiharElectionsLibrary.Candidate":2008,"BiharElectionsLibrary.Candidate":1721,"BiharElectionsLibrary.Candidate":1500,"BiharElectionsLibrary.Candidate":1467,"BiharElectionsLibrary.Candidate":1403,"BiharElectionsLibrary.Candidate":1402,"BiharElectionsLibrary.Candidate":1378,"BiharElectionsLibrary.Candidate":1338,"BiharElectionsLibrary.Candidate":1263,"BiharElectionsLibrary.Candidate":864,"BiharElectionsLibrary.Candidate":861,"BiharElectionsLibrary.Candidate":849},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":94,"Name":"muzaffarpur"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":72301,"BiharElectionsLibrary.Candidate":25862,"BiharElectionsLibrary.Candidate":10786,"BiharElectionsLibrary.Candidate":3683,"BiharElectionsLibrary.Candidate":1305,"BiharElectionsLibrary.Candidate":1147,"BiharElectionsLibrary.Candidate":960,"BiharElectionsLibrary.Candidate":789,"BiharElectionsLibrary.Candidate":570,"BiharElectionsLibrary.Candidate":554,"BiharElectionsLibrary.Candidate":540,"BiharElectionsLibrary.Candidate":477,"BiharElectionsLibrary.Candidate":461,"BiharElectionsLibrary.Candidate":455,"BiharElectionsLibrary.Candidate":403,"BiharElectionsLibrary.Candidate":398,"BiharElectionsLibrary.Candidate":395,"BiharElectionsLibrary.Candidate":361,"BiharElectionsLibrary.Candidate":350},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":95,"Name":"kanti"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":39648,"BiharElectionsLibrary.Candidate":31233,"BiharElectionsLibrary.Candidate":29768,"BiharElectionsLibrary.Candidate":3107,"BiharElectionsLibrary.Candidate":1913,"BiharElectionsLibrary.Candidate":1831,"BiharElectionsLibrary.Candidate":1773,"BiharElectionsLibrary.Candidate":1733,"BiharElectionsLibrary.Candidate":1501,"BiharElectionsLibrary.Candidate":1403,"BiharElectionsLibrary.Candidate":1330,"BiharElectionsLibrary.Candidate":1247,"BiharElectionsLibrary.Candidate":1157,"BiharElectionsLibrary.Candidate":1043,"BiharElectionsLibrary.Candidate":1040,"BiharElectionsLibrary.Candidate":809,"BiharElectionsLibrary.Candidate":635,"BiharElectionsLibrary.Candidate":608,"BiharElectionsLibrary.Candidate":546,"BiharElectionsLibrary.Candidate":530,"BiharElectionsLibrary.Candidate":527,"BiharElectionsLibrary.Candidate":523,"BiharElectionsLibrary.Candidate":447,"BiharElectionsLibrary.Candidate":359},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":96,"Name":"baruraj"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":42783,"BiharElectionsLibrary.Candidate":28466,"BiharElectionsLibrary.Candidate":14274,"BiharElectionsLibrary.Candidate":5841,"BiharElectionsLibrary.Candidate":5412,"BiharElectionsLibrary.Candidate":4161,"BiharElectionsLibrary.Candidate":2390,"BiharElectionsLibrary.Candidate":2087,"BiharElectionsLibrary.Candidate":1744,"BiharElectionsLibrary.Candidate":1572,"BiharElectionsLibrary.Candidate":1088,"BiharElectionsLibrary.Candidate":1018,"BiharElectionsLibrary.Candidate":1013,"BiharElectionsLibrary.Candidate":790},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":97,"Name":"paroo"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":53609,"BiharElectionsLibrary.Candidate":34582,"BiharElectionsLibrary.Candidate":11337,"BiharElectionsLibrary.Candidate":4077,"BiharElectionsLibrary.Candidate":4058,"BiharElectionsLibrary.Candidate":2846,"BiharElectionsLibrary.Candidate":2496,"BiharElectionsLibrary.Candidate":2475,"BiharElectionsLibrary.Candidate":2200,"BiharElectionsLibrary.Candidate":1716,"BiharElectionsLibrary.Candidate":1167,"BiharElectionsLibrary.Candidate":1165,"BiharElectionsLibrary.Candidate":826,"BiharElectionsLibrary.Candidate":565,"BiharElectionsLibrary.Candidate":552,"BiharElectionsLibrary.Candidate":478},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":98,"Name":"sahebganj"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":46606,"BiharElectionsLibrary.Candidate":41690,"BiharElectionsLibrary.Candidate":14020,"BiharElectionsLibrary.Candidate":3407,"BiharElectionsLibrary.Candidate":2073,"BiharElectionsLibrary.Candidate":1840,"BiharElectionsLibrary.Candidate":1713,"BiharElectionsLibrary.Candidate":1654,"BiharElectionsLibrary.Candidate":1494,"BiharElectionsLibrary.Candidate":1375,"BiharElectionsLibrary.Candidate":1256,"BiharElectionsLibrary.Candidate":1167,"BiharElectionsLibrary.Candidate":1106,"BiharElectionsLibrary.Candidate":877,"BiharElectionsLibrary.Candidate":731},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":99,"Name":"baikunthpur"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":70105,"BiharElectionsLibrary.Candidate":33581,"BiharElectionsLibrary.Candidate":3924,"BiharElectionsLibrary.Candidate":3829,"BiharElectionsLibrary.Candidate":2600,"BiharElectionsLibrary.Candidate":2377,"BiharElectionsLibrary.Candidate":1863,"BiharElectionsLibrary.Candidate":1798,"BiharElectionsLibrary.Candidate":1135,"BiharElectionsLibrary.Candidate":1012,"BiharElectionsLibrary.Candidate":970,"BiharElectionsLibrary.Candidate":884,"BiharElectionsLibrary.Candidate":723,"BiharElectionsLibrary.Candidate":533},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":100,"Name":"barauli"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":45234,"BiharElectionsLibrary.Candidate":34820,"BiharElectionsLibrary.Candidate":10591,"BiharElectionsLibrary.Candidate":5657,"BiharElectionsLibrary.Candidate":4768,"BiharElectionsLibrary.Candidate":2866,"BiharElectionsLibrary.Candidate":2200,"BiharElectionsLibrary.Candidate":2095,"BiharElectionsLibrary.Candidate":1510,"BiharElectionsLibrary.Candidate":1230,"BiharElectionsLibrary.Candidate":1096,"BiharElectionsLibrary.Candidate":1067,"BiharElectionsLibrary.Candidate":924,"BiharElectionsLibrary.Candidate":805},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":101,"Name":"gopalganj"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":58010,"BiharElectionsLibrary.Candidate":42117,"BiharElectionsLibrary.Candidate":8488,"BiharElectionsLibrary.Candidate":4025,"BiharElectionsLibrary.Candidate":3036,"BiharElectionsLibrary.Candidate":2808,"BiharElectionsLibrary.Candidate":2726,"BiharElectionsLibrary.Candidate":1237,"BiharElectionsLibrary.Candidate":1213,"BiharElectionsLibrary.Candidate":1102,"BiharElectionsLibrary.Candidate":1086,"BiharElectionsLibrary.Candidate":809,"BiharElectionsLibrary.Candidate":687},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":102,"Name":"kuchaikote"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":51815,"BiharElectionsLibrary.Candidate":32297,"BiharElectionsLibrary.Candidate":15615,"BiharElectionsLibrary.Candidate":4924,"BiharElectionsLibrary.Candidate":4793,"BiharElectionsLibrary.Candidate":4487,"BiharElectionsLibrary.Candidate":2638,"BiharElectionsLibrary.Candidate":2572,"BiharElectionsLibrary.Candidate":2377,"BiharElectionsLibrary.Candidate":1393,"BiharElectionsLibrary.Candidate":1216,"BiharElectionsLibrary.Candidate":1035,"BiharElectionsLibrary.Candidate":808,"BiharElectionsLibrary.Candidate":669},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":103,"Name":"bhorey"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":61401,"BiharElectionsLibrary.Candidate":17831,"BiharElectionsLibrary.Candidate":14798,"BiharElectionsLibrary.Candidate":8800,"BiharElectionsLibrary.Candidate":4000,"BiharElectionsLibrary.Candidate":3743,"BiharElectionsLibrary.Candidate":2660,"BiharElectionsLibrary.Candidate":1898,"BiharElectionsLibrary.Candidate":1587,"BiharElectionsLibrary.Candidate":1409,"BiharElectionsLibrary.Candidate":895,"BiharElectionsLibrary.Candidate":768},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":104,"Name":"hathua"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":50708,"BiharElectionsLibrary.Candidate":27861,"BiharElectionsLibrary.Candidate":7929,"BiharElectionsLibrary.Candidate":6164,"BiharElectionsLibrary.Candidate":4688,"BiharElectionsLibrary.Candidate":3281,"BiharElectionsLibrary.Candidate":3109,"BiharElectionsLibrary.Candidate":2912,"BiharElectionsLibrary.Candidate":2325,"BiharElectionsLibrary.Candidate":2082,"BiharElectionsLibrary.Candidate":1613,"BiharElectionsLibrary.Candidate":1516,"BiharElectionsLibrary.Candidate":1243,"BiharElectionsLibrary.Candidate":1112,"BiharElectionsLibrary.Candidate":996,"BiharElectionsLibrary.Candidate":700,"BiharElectionsLibrary.Candidate":695,"BiharElectionsLibrary.Candidate":670},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":105,"Name":"siwan"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":51637,"BiharElectionsLibrary.Candidate":39096,"BiharElectionsLibrary.Candidate":4051,"BiharElectionsLibrary.Candidate":3391,"BiharElectionsLibrary.Candidate":2218,"BiharElectionsLibrary.Candidate":1648,"BiharElectionsLibrary.Candidate":1394,"BiharElectionsLibrary.Candidate":1376,"BiharElectionsLibrary.Candidate":1268,"BiharElectionsLibrary.Candidate":1182,"BiharElectionsLibrary.Candidate":1133,"BiharElectionsLibrary.Candidate":1126,"BiharElectionsLibrary.Candidate":934,"BiharElectionsLibrary.Candidate":905,"BiharElectionsLibrary.Candidate":869,"BiharElectionsLibrary.Candidate":778,"BiharElectionsLibrary.Candidate":731,"BiharElectionsLibrary.Candidate":719,"BiharElectionsLibrary.Candidate":528,"BiharElectionsLibrary.Candidate":473,"BiharElectionsLibrary.Candidate":459,"BiharElectionsLibrary.Candidate":386,"BiharElectionsLibrary.Candidate":273,"BiharElectionsLibrary.Candidate":246},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":106,"Name":"ziradei"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":29442,"BiharElectionsLibrary.Candidate":20522,"BiharElectionsLibrary.Candidate":12555,"BiharElectionsLibrary.Candidate":8737,"BiharElectionsLibrary.Candidate":4407,"BiharElectionsLibrary.Candidate":2486,"BiharElectionsLibrary.Candidate":2442,"BiharElectionsLibrary.Candidate":2379,"BiharElectionsLibrary.Candidate":2253,"BiharElectionsLibrary.Candidate":2113,"BiharElectionsLibrary.Candidate":1968,"BiharElectionsLibrary.Candidate":1790,"BiharElectionsLibrary.Candidate":1769,"BiharElectionsLibrary.Candidate":1767,"BiharElectionsLibrary.Candidate":1499,"BiharElectionsLibrary.Candidate":1495,"BiharElectionsLibrary.Candidate":1449,"BiharElectionsLibrary.Candidate":1305,"BiharElectionsLibrary.Candidate":1067,"BiharElectionsLibrary.Candidate":833,"BiharElectionsLibrary.Candidate":832,"BiharElectionsLibrary.Candidate":816,"BiharElectionsLibrary.Candidate":784,"BiharElectionsLibrary.Candidate":708,"BiharElectionsLibrary.Candidate":649,"BiharElectionsLibrary.Candidate":626,"BiharElectionsLibrary.Candidate":475,"BiharElectionsLibrary.Candidate":446,"BiharElectionsLibrary.Candidate":429},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":107,"Name":"darauli"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":40993,"BiharElectionsLibrary.Candidate":33987,"BiharElectionsLibrary.Candidate":15697,"BiharElectionsLibrary.Candidate":3356,"BiharElectionsLibrary.Candidate":3241,"BiharElectionsLibrary.Candidate":3121,"BiharElectionsLibrary.Candidate":2571,"BiharElectionsLibrary.Candidate":2514,"BiharElectionsLibrary.Candidate":2152,"BiharElectionsLibrary.Candidate":1959,"BiharElectionsLibrary.Candidate":1915,"BiharElectionsLibrary.Candidate":1910,"BiharElectionsLibrary.Candidate":1830,"BiharElectionsLibrary.Candidate":1781},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":108,"Name":"raghunathpur"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":33474,"BiharElectionsLibrary.Candidate":18362,"BiharElectionsLibrary.Candidate":15557,"BiharElectionsLibrary.Candidate":11179,"BiharElectionsLibrary.Candidate":6635,"BiharElectionsLibrary.Candidate":3383,"BiharElectionsLibrary.Candidate":3180,"BiharElectionsLibrary.Candidate":3064,"BiharElectionsLibrary.Candidate":1915,"BiharElectionsLibrary.Candidate":1884,"BiharElectionsLibrary.Candidate":1484,"BiharElectionsLibrary.Candidate":1221,"BiharElectionsLibrary.Candidate":1146,"BiharElectionsLibrary.Candidate":1009},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":109,"Name":"daraundha"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":49115,"BiharElectionsLibrary.Candidate":17980,"BiharElectionsLibrary.Candidate":8399,"BiharElectionsLibrary.Candidate":4067,"BiharElectionsLibrary.Candidate":3930,"BiharElectionsLibrary.Candidate":3076,"BiharElectionsLibrary.Candidate":2745,"BiharElectionsLibrary.Candidate":2547,"BiharElectionsLibrary.Candidate":2197,"BiharElectionsLibrary.Candidate":2185,"BiharElectionsLibrary.Candidate":2055,"BiharElectionsLibrary.Candidate":1906,"BiharElectionsLibrary.Candidate":1726,"BiharElectionsLibrary.Candidate":1664,"BiharElectionsLibrary.Candidate":1298,"BiharElectionsLibrary.Candidate":1269,"BiharElectionsLibrary.Candidate":1130,"BiharElectionsLibrary.Candidate":1001,"BiharElectionsLibrary.Candidate":790,"BiharElectionsLibrary.Candidate":742,"BiharElectionsLibrary.Candidate":532,"BiharElectionsLibrary.Candidate":515},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":110,"Name":"barharia"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":53707,"BiharElectionsLibrary.Candidate":28586,"BiharElectionsLibrary.Candidate":5568,"BiharElectionsLibrary.Candidate":3198,"BiharElectionsLibrary.Candidate":3015,"BiharElectionsLibrary.Candidate":2745,"BiharElectionsLibrary.Candidate":2435,"BiharElectionsLibrary.Candidate":2364,"BiharElectionsLibrary.Candidate":2107,"BiharElectionsLibrary.Candidate":1931,"BiharElectionsLibrary.Candidate":1928,"BiharElectionsLibrary.Candidate":1604,"BiharElectionsLibrary.Candidate":1405,"BiharElectionsLibrary.Candidate":1266,"BiharElectionsLibrary.Candidate":988,"BiharElectionsLibrary.Candidate":925,"BiharElectionsLibrary.Candidate":688,"BiharElectionsLibrary.Candidate":661},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":111,"Name":"goriyakothi"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":42533,"BiharElectionsLibrary.Candidate":28512,"BiharElectionsLibrary.Candidate":11782,"BiharElectionsLibrary.Candidate":10192,"BiharElectionsLibrary.Candidate":5036,"BiharElectionsLibrary.Candidate":3781,"BiharElectionsLibrary.Candidate":2993,"BiharElectionsLibrary.Candidate":2757,"BiharElectionsLibrary.Candidate":2082,"BiharElectionsLibrary.Candidate":2076,"BiharElectionsLibrary.Candidate":1701,"BiharElectionsLibrary.Candidate":1447,"BiharElectionsLibrary.Candidate":1430,"BiharElectionsLibrary.Candidate":1428,"BiharElectionsLibrary.Candidate":1336,"BiharElectionsLibrary.Candidate":1249,"BiharElectionsLibrary.Candidate":1002,"BiharElectionsLibrary.Candidate":912,"BiharElectionsLibrary.Candidate":868,"BiharElectionsLibrary.Candidate":682,"BiharElectionsLibrary.Candidate":571,"BiharElectionsLibrary.Candidate":502},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":112,"Name":"maharajganj"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":40232,"BiharElectionsLibrary.Candidate":20232,"BiharElectionsLibrary.Candidate":8819,"BiharElectionsLibrary.Candidate":8324,"BiharElectionsLibrary.Candidate":6996,"BiharElectionsLibrary.Candidate":3466,"BiharElectionsLibrary.Candidate":3447,"BiharElectionsLibrary.Candidate":2603,"BiharElectionsLibrary.Candidate":2456,"BiharElectionsLibrary.Candidate":1994,"BiharElectionsLibrary.Candidate":1882,"BiharElectionsLibrary.Candidate":1759,"BiharElectionsLibrary.Candidate":1610,"BiharElectionsLibrary.Candidate":1602,"BiharElectionsLibrary.Candidate":1509,"BiharElectionsLibrary.Candidate":1128,"BiharElectionsLibrary.Candidate":981,"BiharElectionsLibrary.Candidate":731,"BiharElectionsLibrary.Candidate":672,"BiharElectionsLibrary.Candidate":632},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":113,"Name":"ekma"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":55474,"BiharElectionsLibrary.Candidate":26273,"BiharElectionsLibrary.Candidate":3226,"BiharElectionsLibrary.Candidate":2611,"BiharElectionsLibrary.Candidate":1989,"BiharElectionsLibrary.Candidate":1740,"BiharElectionsLibrary.Candidate":1584,"BiharElectionsLibrary.Candidate":1458,"BiharElectionsLibrary.Candidate":1431,"BiharElectionsLibrary.Candidate":1376,"BiharElectionsLibrary.Candidate":1268,"BiharElectionsLibrary.Candidate":1029,"BiharElectionsLibrary.Candidate":794,"BiharElectionsLibrary.Candidate":779,"BiharElectionsLibrary.Candidate":725,"BiharElectionsLibrary.Candidate":668,"BiharElectionsLibrary.Candidate":354,"BiharElectionsLibrary.Candidate":194},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":114,"Name":"manjhi"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":28687,"BiharElectionsLibrary.Candidate":20783,"BiharElectionsLibrary.Candidate":8423,"BiharElectionsLibrary.Candidate":7012,"BiharElectionsLibrary.Candidate":6640,"BiharElectionsLibrary.Candidate":5441,"BiharElectionsLibrary.Candidate":4884,"BiharElectionsLibrary.Candidate":4030,"BiharElectionsLibrary.Candidate":3385,"BiharElectionsLibrary.Candidate":2189,"BiharElectionsLibrary.Candidate":2168,"BiharElectionsLibrary.Candidate":1827,"BiharElectionsLibrary.Candidate":1651,"BiharElectionsLibrary.Candidate":1507,"BiharElectionsLibrary.Candidate":1501,"BiharElectionsLibrary.Candidate":1211,"BiharElectionsLibrary.Candidate":1067,"BiharElectionsLibrary.Candidate":992,"BiharElectionsLibrary.Candidate":804,"BiharElectionsLibrary.Candidate":778,"BiharElectionsLibrary.Candidate":721,"BiharElectionsLibrary.Candidate":527,"BiharElectionsLibrary.Candidate":493},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":115,"Name":"baniapur"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":45259,"BiharElectionsLibrary.Candidate":41684,"BiharElectionsLibrary.Candidate":7676,"BiharElectionsLibrary.Candidate":4114,"BiharElectionsLibrary.Candidate":3677,"BiharElectionsLibrary.Candidate":3202,"BiharElectionsLibrary.Candidate":1940,"BiharElectionsLibrary.Candidate":1453,"BiharElectionsLibrary.Candidate":1001,"BiharElectionsLibrary.Candidate":905,"BiharElectionsLibrary.Candidate":689,"BiharElectionsLibrary.Candidate":587},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":116,"Name":"taraiya"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":26600,"BiharElectionsLibrary.Candidate":19630,"BiharElectionsLibrary.Candidate":16338,"BiharElectionsLibrary.Candidate":13368,"BiharElectionsLibrary.Candidate":4628,"BiharElectionsLibrary.Candidate":3554,"BiharElectionsLibrary.Candidate":3280,"BiharElectionsLibrary.Candidate":3277,"BiharElectionsLibrary.Candidate":2353,"BiharElectionsLibrary.Candidate":1580,"BiharElectionsLibrary.Candidate":1313,"BiharElectionsLibrary.Candidate":1286,"BiharElectionsLibrary.Candidate":1124,"BiharElectionsLibrary.Candidate":970,"BiharElectionsLibrary.Candidate":803},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":117,"Name":"marhaura"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":26374,"BiharElectionsLibrary.Candidate":20750,"BiharElectionsLibrary.Candidate":14342,"BiharElectionsLibrary.Candidate":9789,"BiharElectionsLibrary.Candidate":4028,"BiharElectionsLibrary.Candidate":3410,"BiharElectionsLibrary.Candidate":2057,"BiharElectionsLibrary.Candidate":1737,"BiharElectionsLibrary.Candidate":1566,"BiharElectionsLibrary.Candidate":1392,"BiharElectionsLibrary.Candidate":1351,"BiharElectionsLibrary.Candidate":1186,"BiharElectionsLibrary.Candidate":1177,"BiharElectionsLibrary.Candidate":1100,"BiharElectionsLibrary.Candidate":838,"BiharElectionsLibrary.Candidate":834,"BiharElectionsLibrary.Candidate":785,"BiharElectionsLibrary.Candidate":731,"BiharElectionsLibrary.Candidate":722,"BiharElectionsLibrary.Candidate":705,"BiharElectionsLibrary.Candidate":620,"BiharElectionsLibrary.Candidate":601,"BiharElectionsLibrary.Candidate":525,"BiharElectionsLibrary.Candidate":522,"BiharElectionsLibrary.Candidate":507,"BiharElectionsLibrary.Candidate":494,"BiharElectionsLibrary.Candidate":463,"BiharElectionsLibrary.Candidate":442,"BiharElectionsLibrary.Candidate":317},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":118,"Name":"chapra"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":61045,"BiharElectionsLibrary.Candidate":25174,"BiharElectionsLibrary.Candidate":7626,"BiharElectionsLibrary.Candidate":4322,"BiharElectionsLibrary.Candidate":2063,"BiharElectionsLibrary.Candidate":1306,"BiharElectionsLibrary.Candidate":1297,"BiharElectionsLibrary.Candidate":1189,"BiharElectionsLibrary.Candidate":1178,"BiharElectionsLibrary.Candidate":1059,"BiharElectionsLibrary.Candidate":1048,"BiharElectionsLibrary.Candidate":958,"BiharElectionsLibrary.Candidate":956,"BiharElectionsLibrary.Candidate":892,"BiharElectionsLibrary.Candidate":840,"BiharElectionsLibrary.Candidate":839,"BiharElectionsLibrary.Candidate":765,"BiharElectionsLibrary.Candidate":525,"BiharElectionsLibrary.Candidate":369,"BiharElectionsLibrary.Candidate":352,"BiharElectionsLibrary.Candidate":339,"BiharElectionsLibrary.Candidate":264},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":119,"Name":"garkha"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":41033,"BiharElectionsLibrary.Candidate":39246,"BiharElectionsLibrary.Candidate":12793,"BiharElectionsLibrary.Candidate":4898,"BiharElectionsLibrary.Candidate":2028,"BiharElectionsLibrary.Candidate":1391,"BiharElectionsLibrary.Candidate":833,"BiharElectionsLibrary.Candidate":758,"BiharElectionsLibrary.Candidate":650},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":120,"Name":"amnour"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":29508,"BiharElectionsLibrary.Candidate":18991,"BiharElectionsLibrary.Candidate":15547,"BiharElectionsLibrary.Candidate":11000,"BiharElectionsLibrary.Candidate":4306,"BiharElectionsLibrary.Candidate":3091,"BiharElectionsLibrary.Candidate":2732,"BiharElectionsLibrary.Candidate":2129,"BiharElectionsLibrary.Candidate":1751,"BiharElectionsLibrary.Candidate":1737,"BiharElectionsLibrary.Candidate":1631,"BiharElectionsLibrary.Candidate":1254,"BiharElectionsLibrary.Candidate":1219,"BiharElectionsLibrary.Candidate":1068,"BiharElectionsLibrary.Candidate":660},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":121,"Name":"parsa"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":44828,"BiharElectionsLibrary.Candidate":40139,"BiharElectionsLibrary.Candidate":4619,"BiharElectionsLibrary.Candidate":3700,"BiharElectionsLibrary.Candidate":2385,"BiharElectionsLibrary.Candidate":1846,"BiharElectionsLibrary.Candidate":1176,"BiharElectionsLibrary.Candidate":1114,"BiharElectionsLibrary.Candidate":859,"BiharElectionsLibrary.Candidate":482},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":122,"Name":"sonepur"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":64676,"BiharElectionsLibrary.Candidate":43991,"BiharElectionsLibrary.Candidate":2884,"BiharElectionsLibrary.Candidate":2028,"BiharElectionsLibrary.Candidate":1995,"BiharElectionsLibrary.Candidate":1552,"BiharElectionsLibrary.Candidate":1106,"BiharElectionsLibrary.Candidate":960,"BiharElectionsLibrary.Candidate":645,"BiharElectionsLibrary.Candidate":479},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":123,"Name":"hajipur"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":55315,"BiharElectionsLibrary.Candidate":38706,"BiharElectionsLibrary.Candidate":11226,"BiharElectionsLibrary.Candidate":3380,"BiharElectionsLibrary.Candidate":3036,"BiharElectionsLibrary.Candidate":2361,"BiharElectionsLibrary.Candidate":2360,"BiharElectionsLibrary.Candidate":2000,"BiharElectionsLibrary.Candidate":1788,"BiharElectionsLibrary.Candidate":1774,"BiharElectionsLibrary.Candidate":1417,"BiharElectionsLibrary.Candidate":1216,"BiharElectionsLibrary.Candidate":1080,"BiharElectionsLibrary.Candidate":1031,"BiharElectionsLibrary.Candidate":962,"BiharElectionsLibrary.Candidate":915,"BiharElectionsLibrary.Candidate":911,"BiharElectionsLibrary.Candidate":815,"BiharElectionsLibrary.Candidate":620,"BiharElectionsLibrary.Candidate":594,"BiharElectionsLibrary.Candidate":532,"BiharElectionsLibrary.Candidate":530,"BiharElectionsLibrary.Candidate":446,"BiharElectionsLibrary.Candidate":417},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":124,"Name":"lalganj"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":58210,"BiharElectionsLibrary.Candidate":34065,"BiharElectionsLibrary.Candidate":22771,"BiharElectionsLibrary.Candidate":9833,"BiharElectionsLibrary.Candidate":4257,"BiharElectionsLibrary.Candidate":2835,"BiharElectionsLibrary.Candidate":2512,"BiharElectionsLibrary.Candidate":1628,"BiharElectionsLibrary.Candidate":1495,"BiharElectionsLibrary.Candidate":1126,"BiharElectionsLibrary.Candidate":904,"BiharElectionsLibrary.Candidate":861,"BiharElectionsLibrary.Candidate":785,"BiharElectionsLibrary.Candidate":760,"BiharElectionsLibrary.Candidate":632},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":125,"Name":"vaishali"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":60950,"BiharElectionsLibrary.Candidate":48122,"BiharElectionsLibrary.Candidate":5097,"BiharElectionsLibrary.Candidate":3168,"BiharElectionsLibrary.Candidate":2963,"BiharElectionsLibrary.Candidate":2699,"BiharElectionsLibrary.Candidate":2482,"BiharElectionsLibrary.Candidate":2472,"BiharElectionsLibrary.Candidate":2472,"BiharElectionsLibrary.Candidate":1522,"BiharElectionsLibrary.Candidate":1219,"BiharElectionsLibrary.Candidate":1073,"BiharElectionsLibrary.Candidate":746},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":126,"Name":"mahua"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":46309,"BiharElectionsLibrary.Candidate":24384,"BiharElectionsLibrary.Candidate":5928,"BiharElectionsLibrary.Candidate":3911,"BiharElectionsLibrary.Candidate":3623,"BiharElectionsLibrary.Candidate":3491,"BiharElectionsLibrary.Candidate":2969,"BiharElectionsLibrary.Candidate":2343,"BiharElectionsLibrary.Candidate":2179,"BiharElectionsLibrary.Candidate":1889,"BiharElectionsLibrary.Candidate":1594,"BiharElectionsLibrary.Candidate":1521,"BiharElectionsLibrary.Candidate":1472,"BiharElectionsLibrary.Candidate":1450,"BiharElectionsLibrary.Candidate":1206,"BiharElectionsLibrary.Candidate":1137,"BiharElectionsLibrary.Candidate":938,"BiharElectionsLibrary.Candidate":927,"BiharElectionsLibrary.Candidate":915,"BiharElectionsLibrary.Candidate":893,"BiharElectionsLibrary.Candidate":826,"BiharElectionsLibrary.Candidate":823,"BiharElectionsLibrary.Candidate":784,"BiharElectionsLibrary.Candidate":723,"BiharElectionsLibrary.Candidate":705,"BiharElectionsLibrary.Candidate":664,"BiharElectionsLibrary.Candidate":626,"BiharElectionsLibrary.Candidate":469,"BiharElectionsLibrary.Candidate":392,"BiharElectionsLibrary.Candidate":301,"BiharElectionsLibrary.Candidate":283},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":127,"Name":"raja_pakar"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":43212,"BiharElectionsLibrary.Candidate":32997,"BiharElectionsLibrary.Candidate":4180,"BiharElectionsLibrary.Candidate":1939,"BiharElectionsLibrary.Candidate":1872,"BiharElectionsLibrary.Candidate":1842,"BiharElectionsLibrary.Candidate":1776,"BiharElectionsLibrary.Candidate":1756,"BiharElectionsLibrary.Candidate":1727,"BiharElectionsLibrary.Candidate":1482,"BiharElectionsLibrary.Candidate":1460,"BiharElectionsLibrary.Candidate":1271,"BiharElectionsLibrary.Candidate":1026,"BiharElectionsLibrary.Candidate":1017,"BiharElectionsLibrary.Candidate":998,"BiharElectionsLibrary.Candidate":874,"BiharElectionsLibrary.Candidate":864,"BiharElectionsLibrary.Candidate":742,"BiharElectionsLibrary.Candidate":636,"BiharElectionsLibrary.Candidate":462,"BiharElectionsLibrary.Candidate":443,"BiharElectionsLibrary.Candidate":383},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":128,"Name":"raghopur"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":64222,"BiharElectionsLibrary.Candidate":51216,"BiharElectionsLibrary.Candidate":3877,"BiharElectionsLibrary.Candidate":3844,"BiharElectionsLibrary.Candidate":3824,"BiharElectionsLibrary.Candidate":1841,"BiharElectionsLibrary.Candidate":1524,"BiharElectionsLibrary.Candidate":1091,"BiharElectionsLibrary.Candidate":775,"BiharElectionsLibrary.Candidate":718,"BiharElectionsLibrary.Candidate":709},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":129,"Name":"manhar"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":29754,"BiharElectionsLibrary.Candidate":27265,"BiharElectionsLibrary.Candidate":20855,"BiharElectionsLibrary.Candidate":18397,"BiharElectionsLibrary.Candidate":4679,"BiharElectionsLibrary.Candidate":3240,"BiharElectionsLibrary.Candidate":3172,"BiharElectionsLibrary.Candidate":3011,"BiharElectionsLibrary.Candidate":2087,"BiharElectionsLibrary.Candidate":1127,"BiharElectionsLibrary.Candidate":1112,"BiharElectionsLibrary.Candidate":1092,"BiharElectionsLibrary.Candidate":1059,"BiharElectionsLibrary.Candidate":848,"BiharElectionsLibrary.Candidate":737,"BiharElectionsLibrary.Candidate":537},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":130,"Name":"patepur"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":53762,"BiharElectionsLibrary.Candidate":37095,"BiharElectionsLibrary.Candidate":4263,"BiharElectionsLibrary.Candidate":3946,"BiharElectionsLibrary.Candidate":3520,"BiharElectionsLibrary.Candidate":2453,"BiharElectionsLibrary.Candidate":2157,"BiharElectionsLibrary.Candidate":2039,"BiharElectionsLibrary.Candidate":1585,"BiharElectionsLibrary.Candidate":1207,"BiharElectionsLibrary.Candidate":1133,"BiharElectionsLibrary.Candidate":1060,"BiharElectionsLibrary.Candidate":691},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":131,"Name":"kalyanpur"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":62124,"BiharElectionsLibrary.Candidate":31927,"BiharElectionsLibrary.Candidate":13344,"BiharElectionsLibrary.Candidate":5407,"BiharElectionsLibrary.Candidate":3818,"BiharElectionsLibrary.Candidate":3704,"BiharElectionsLibrary.Candidate":2367,"BiharElectionsLibrary.Candidate":1925,"BiharElectionsLibrary.Candidate":1699,"BiharElectionsLibrary.Candidate":1496,"BiharElectionsLibrary.Candidate":1150},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":132,"Name":"warisnagar"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":46245,"BiharElectionsLibrary.Candidate":26745,"BiharElectionsLibrary.Candidate":13195,"BiharElectionsLibrary.Candidate":8597,"BiharElectionsLibrary.Candidate":8481,"BiharElectionsLibrary.Candidate":7916,"BiharElectionsLibrary.Candidate":7059,"BiharElectionsLibrary.Candidate":2837,"BiharElectionsLibrary.Candidate":1662,"BiharElectionsLibrary.Candidate":1612,"BiharElectionsLibrary.Candidate":1532,"BiharElectionsLibrary.Candidate":1525,"BiharElectionsLibrary.Candidate":1463,"BiharElectionsLibrary.Candidate":1309,"BiharElectionsLibrary.Candidate":1003,"BiharElectionsLibrary.Candidate":989,"BiharElectionsLibrary.Candidate":773,"BiharElectionsLibrary.Candidate":700,"BiharElectionsLibrary.Candidate":686,"BiharElectionsLibrary.Candidate":666,"BiharElectionsLibrary.Candidate":637,"BiharElectionsLibrary.Candidate":545},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":133,"Name":"samastipur"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":42852,"BiharElectionsLibrary.Candidate":41025,"BiharElectionsLibrary.Candidate":10938,"BiharElectionsLibrary.Candidate":8028,"BiharElectionsLibrary.Candidate":2975,"BiharElectionsLibrary.Candidate":2579,"BiharElectionsLibrary.Candidate":2127,"BiharElectionsLibrary.Candidate":1454,"BiharElectionsLibrary.Candidate":979,"BiharElectionsLibrary.Candidate":956,"BiharElectionsLibrary.Candidate":726,"BiharElectionsLibrary.Candidate":711,"BiharElectionsLibrary.Candidate":663,"BiharElectionsLibrary.Candidate":416,"BiharElectionsLibrary.Candidate":380},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":134,"Name":"ujiarpur"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":42791,"BiharElectionsLibrary.Candidate":29760,"BiharElectionsLibrary.Candidate":19145,"BiharElectionsLibrary.Candidate":11160,"BiharElectionsLibrary.Candidate":8777,"BiharElectionsLibrary.Candidate":5133,"BiharElectionsLibrary.Candidate":3624,"BiharElectionsLibrary.Candidate":3142,"BiharElectionsLibrary.Candidate":2183,"BiharElectionsLibrary.Candidate":1713,"BiharElectionsLibrary.Candidate":1257,"BiharElectionsLibrary.Candidate":1223,"BiharElectionsLibrary.Candidate":892},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":135,"Name":"morwa"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":40271,"BiharElectionsLibrary.Candidate":33421,"BiharElectionsLibrary.Candidate":6995,"BiharElectionsLibrary.Candidate":5668,"BiharElectionsLibrary.Candidate":3094,"BiharElectionsLibrary.Candidate":2897,"BiharElectionsLibrary.Candidate":1989,"BiharElectionsLibrary.Candidate":1425,"BiharElectionsLibrary.Candidate":1313,"BiharElectionsLibrary.Candidate":1122,"BiharElectionsLibrary.Candidate":970,"BiharElectionsLibrary.Candidate":952,"BiharElectionsLibrary.Candidate":881,"BiharElectionsLibrary.Candidate":762,"BiharElectionsLibrary.Candidate":742,"BiharElectionsLibrary.Candidate":655,"BiharElectionsLibrary.Candidate":609,"BiharElectionsLibrary.Candidate":605,"BiharElectionsLibrary.Candidate":599},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":136,"Name":"sarairanjan"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":53946,"BiharElectionsLibrary.Candidate":36389,"BiharElectionsLibrary.Candidate":8652,"BiharElectionsLibrary.Candidate":4486,"BiharElectionsLibrary.Candidate":3520,"BiharElectionsLibrary.Candidate":3328,"BiharElectionsLibrary.Candidate":2954,"BiharElectionsLibrary.Candidate":2430,"BiharElectionsLibrary.Candidate":2090,"BiharElectionsLibrary.Candidate":913},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":137,"Name":"mohiuddinnagar"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":51756,"BiharElectionsLibrary.Candidate":37405,"BiharElectionsLibrary.Candidate":3806,"BiharElectionsLibrary.Candidate":3511,"BiharElectionsLibrary.Candidate":2465,"BiharElectionsLibrary.Candidate":2076,"BiharElectionsLibrary.Candidate":1446,"BiharElectionsLibrary.Candidate":756,"BiharElectionsLibrary.Candidate":679,"BiharElectionsLibrary.Candidate":622,"BiharElectionsLibrary.Candidate":580},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":138,"Name":"bibhutpur"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":46469,"BiharElectionsLibrary.Candidate":34168,"BiharElectionsLibrary.Candidate":23422,"BiharElectionsLibrary.Candidate":7093,"BiharElectionsLibrary.Candidate":2984,"BiharElectionsLibrary.Candidate":2827,"BiharElectionsLibrary.Candidate":2033,"BiharElectionsLibrary.Candidate":1196,"BiharElectionsLibrary.Candidate":1139},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":139,"Name":"rosera"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":57930,"BiharElectionsLibrary.Candidate":45811,"BiharElectionsLibrary.Candidate":13914,"BiharElectionsLibrary.Candidate":4369,"BiharElectionsLibrary.Candidate":3011,"BiharElectionsLibrary.Candidate":2873},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":140,"Name":"hasanpur"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":36767,"BiharElectionsLibrary.Candidate":33476,"BiharElectionsLibrary.Candidate":11479,"BiharElectionsLibrary.Candidate":9995,"BiharElectionsLibrary.Candidate":9345,"BiharElectionsLibrary.Candidate":8819,"BiharElectionsLibrary.Candidate":1810,"BiharElectionsLibrary.Candidate":1690,"BiharElectionsLibrary.Candidate":1349,"BiharElectionsLibrary.Candidate":1217,"BiharElectionsLibrary.Candidate":746},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":141,"Name":"cheria_bariarpur"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":32807,"BiharElectionsLibrary.Candidate":31746,"BiharElectionsLibrary.Candidate":14581,"BiharElectionsLibrary.Candidate":13450,"BiharElectionsLibrary.Candidate":7071,"BiharElectionsLibrary.Candidate":6116,"BiharElectionsLibrary.Candidate":3508,"BiharElectionsLibrary.Candidate":1635,"BiharElectionsLibrary.Candidate":1368,"BiharElectionsLibrary.Candidate":1111,"BiharElectionsLibrary.Candidate":809},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":142,"Name":"bachhwara"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":33770,"BiharElectionsLibrary.Candidate":21683,"BiharElectionsLibrary.Candidate":19301,"BiharElectionsLibrary.Candidate":19080,"BiharElectionsLibrary.Candidate":15241,"BiharElectionsLibrary.Candidate":4653,"BiharElectionsLibrary.Candidate":3014,"BiharElectionsLibrary.Candidate":2247,"BiharElectionsLibrary.Candidate":2050,"BiharElectionsLibrary.Candidate":1712,"BiharElectionsLibrary.Candidate":1415,"BiharElectionsLibrary.Candidate":1104,"BiharElectionsLibrary.Candidate":931,"BiharElectionsLibrary.Candidate":898,"BiharElectionsLibrary.Candidate":802,"BiharElectionsLibrary.Candidate":783,"BiharElectionsLibrary.Candidate":743,"BiharElectionsLibrary.Candidate":511},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":143,"Name":"teghra"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":38694,"BiharElectionsLibrary.Candidate":32848,"BiharElectionsLibrary.Candidate":21581,"BiharElectionsLibrary.Candidate":19767,"BiharElectionsLibrary.Candidate":3108,"BiharElectionsLibrary.Candidate":1947,"BiharElectionsLibrary.Candidate":1854,"BiharElectionsLibrary.Candidate":1784,"BiharElectionsLibrary.Candidate":1754},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":144,"Name":"matihani"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":60530,"BiharElectionsLibrary.Candidate":36702,"BiharElectionsLibrary.Candidate":16667,"BiharElectionsLibrary.Candidate":13440,"BiharElectionsLibrary.Candidate":13110,"BiharElectionsLibrary.Candidate":2712,"BiharElectionsLibrary.Candidate":2179,"BiharElectionsLibrary.Candidate":1696,"BiharElectionsLibrary.Candidate":1438,"BiharElectionsLibrary.Candidate":898},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":145,"Name":"sahebpur_kamal"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":46391,"BiharElectionsLibrary.Candidate":35280,"BiharElectionsLibrary.Candidate":9578,"BiharElectionsLibrary.Candidate":4553,"BiharElectionsLibrary.Candidate":3217,"BiharElectionsLibrary.Candidate":1849,"BiharElectionsLibrary.Candidate":1670,"BiharElectionsLibrary.Candidate":1639,"BiharElectionsLibrary.Candidate":1419,"BiharElectionsLibrary.Candidate":1014,"BiharElectionsLibrary.Candidate":709,"BiharElectionsLibrary.Candidate":675},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":146,"Name":"begusarai"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":50602,"BiharElectionsLibrary.Candidate":30984,"BiharElectionsLibrary.Candidate":19929,"BiharElectionsLibrary.Candidate":8309,"BiharElectionsLibrary.Candidate":4809,"BiharElectionsLibrary.Candidate":2970,"BiharElectionsLibrary.Candidate":2564,"BiharElectionsLibrary.Candidate":2539,"BiharElectionsLibrary.Candidate":2228,"BiharElectionsLibrary.Candidate":1548,"BiharElectionsLibrary.Candidate":1430,"BiharElectionsLibrary.Candidate":1158},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":147,"Name":"bakhri"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":43871,"BiharElectionsLibrary.Candidate":25459,"BiharElectionsLibrary.Candidate":20836,"BiharElectionsLibrary.Candidate":11737,"BiharElectionsLibrary.Candidate":4292,"BiharElectionsLibrary.Candidate":3384,"BiharElectionsLibrary.Candidate":2624,"BiharElectionsLibrary.Candidate":2616,"BiharElectionsLibrary.Candidate":1528,"BiharElectionsLibrary.Candidate":1314,"BiharElectionsLibrary.Candidate":968},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":148,"Name":"alauli"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":53775,"BiharElectionsLibrary.Candidate":36252,"BiharElectionsLibrary.Candidate":4017,"BiharElectionsLibrary.Candidate":3878,"BiharElectionsLibrary.Candidate":3594,"BiharElectionsLibrary.Candidate":2885,"BiharElectionsLibrary.Candidate":2792,"BiharElectionsLibrary.Candidate":1162},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":149,"Name":"khagaria"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":48841,"BiharElectionsLibrary.Candidate":21988,"BiharElectionsLibrary.Candidate":15237,"BiharElectionsLibrary.Candidate":6373,"BiharElectionsLibrary.Candidate":4553,"BiharElectionsLibrary.Candidate":3974,"BiharElectionsLibrary.Candidate":3459,"BiharElectionsLibrary.Candidate":2129,"BiharElectionsLibrary.Candidate":1764,"BiharElectionsLibrary.Candidate":1592,"BiharElectionsLibrary.Candidate":1087,"BiharElectionsLibrary.Candidate":1005,"BiharElectionsLibrary.Candidate":968,"BiharElectionsLibrary.Candidate":481,"BiharElectionsLibrary.Candidate":377},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":150,"Name":"beldaur"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":45990,"BiharElectionsLibrary.Candidate":30252,"BiharElectionsLibrary.Candidate":14655,"BiharElectionsLibrary.Candidate":13593,"BiharElectionsLibrary.Candidate":10367,"BiharElectionsLibrary.Candidate":6433,"BiharElectionsLibrary.Candidate":3504,"BiharElectionsLibrary.Candidate":1824,"BiharElectionsLibrary.Candidate":1470,"BiharElectionsLibrary.Candidate":1462,"BiharElectionsLibrary.Candidate":1385,"BiharElectionsLibrary.Candidate":1085,"BiharElectionsLibrary.Candidate":925},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":151,"Name":"parbatta"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":60428,"BiharElectionsLibrary.Candidate":59620,"BiharElectionsLibrary.Candidate":10385,"BiharElectionsLibrary.Candidate":2796,"BiharElectionsLibrary.Candidate":2210,"BiharElectionsLibrary.Candidate":2108,"BiharElectionsLibrary.Candidate":1327,"BiharElectionsLibrary.Candidate":1125,"BiharElectionsLibrary.Candidate":635,"BiharElectionsLibrary.Candidate":528},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":152,"Name":"bihpur"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":48027,"BiharElectionsLibrary.Candidate":47562,"BiharElectionsLibrary.Candidate":7335,"BiharElectionsLibrary.Candidate":4346,"BiharElectionsLibrary.Candidate":2098,"BiharElectionsLibrary.Candidate":1850,"BiharElectionsLibrary.Candidate":1667,"BiharElectionsLibrary.Candidate":1145,"BiharElectionsLibrary.Candidate":926,"BiharElectionsLibrary.Candidate":845,"BiharElectionsLibrary.Candidate":687,"BiharElectionsLibrary.Candidate":497},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":153,"Name":"gopalpur"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":53876,"BiharElectionsLibrary.Candidate":28816,"BiharElectionsLibrary.Candidate":9360,"BiharElectionsLibrary.Candidate":4413,"BiharElectionsLibrary.Candidate":3854,"BiharElectionsLibrary.Candidate":3164,"BiharElectionsLibrary.Candidate":2717,"BiharElectionsLibrary.Candidate":2009,"BiharElectionsLibrary.Candidate":1667,"BiharElectionsLibrary.Candidate":1351,"BiharElectionsLibrary.Candidate":1223,"BiharElectionsLibrary.Candidate":1216,"BiharElectionsLibrary.Candidate":504,"BiharElectionsLibrary.Candidate":446},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":154,"Name":"pirpainti"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":48493,"BiharElectionsLibrary.Candidate":42741,"BiharElectionsLibrary.Candidate":9149,"BiharElectionsLibrary.Candidate":5300,"BiharElectionsLibrary.Candidate":4344,"BiharElectionsLibrary.Candidate":4058,"BiharElectionsLibrary.Candidate":3330,"BiharElectionsLibrary.Candidate":2359,"BiharElectionsLibrary.Candidate":1806,"BiharElectionsLibrary.Candidate":1389,"BiharElectionsLibrary.Candidate":1323,"BiharElectionsLibrary.Candidate":1223,"BiharElectionsLibrary.Candidate":993,"BiharElectionsLibrary.Candidate":946,"BiharElectionsLibrary.Candidate":872,"BiharElectionsLibrary.Candidate":762},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":155,"Name":"kahalgaon"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":44936,"BiharElectionsLibrary.Candidate":36001,"BiharElectionsLibrary.Candidate":26226,"BiharElectionsLibrary.Candidate":8477,"BiharElectionsLibrary.Candidate":7656,"BiharElectionsLibrary.Candidate":3235,"BiharElectionsLibrary.Candidate":1496,"BiharElectionsLibrary.Candidate":1250,"BiharElectionsLibrary.Candidate":1192,"BiharElectionsLibrary.Candidate":1083,"BiharElectionsLibrary.Candidate":732},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":156,"Name":"bhagalpur"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":49164,"BiharElectionsLibrary.Candidate":38104,"BiharElectionsLibrary.Candidate":19479,"BiharElectionsLibrary.Candidate":2535,"BiharElectionsLibrary.Candidate":2007,"BiharElectionsLibrary.Candidate":1466,"BiharElectionsLibrary.Candidate":791,"BiharElectionsLibrary.Candidate":747,"BiharElectionsLibrary.Candidate":732,"BiharElectionsLibrary.Candidate":477,"BiharElectionsLibrary.Candidate":407,"BiharElectionsLibrary.Candidate":303,"BiharElectionsLibrary.Candidate":286,"BiharElectionsLibrary.Candidate":245,"BiharElectionsLibrary.Candidate":244},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":157,"Name":"sultanganj"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":34652,"BiharElectionsLibrary.Candidate":29807,"BiharElectionsLibrary.Candidate":9020,"BiharElectionsLibrary.Candidate":8045,"BiharElectionsLibrary.Candidate":6198,"BiharElectionsLibrary.Candidate":6153,"BiharElectionsLibrary.Candidate":5016,"BiharElectionsLibrary.Candidate":2595,"BiharElectionsLibrary.Candidate":2558,"BiharElectionsLibrary.Candidate":2543,"BiharElectionsLibrary.Candidate":2133,"BiharElectionsLibrary.Candidate":2087,"BiharElectionsLibrary.Candidate":1778,"BiharElectionsLibrary.Candidate":1451,"BiharElectionsLibrary.Candidate":1412,"BiharElectionsLibrary.Candidate":1412,"BiharElectionsLibrary.Candidate":1233,"BiharElectionsLibrary.Candidate":1079,"BiharElectionsLibrary.Candidate":929,"BiharElectionsLibrary.Candidate":825,"BiharElectionsLibrary.Candidate":749,"BiharElectionsLibrary.Candidate":730,"BiharElectionsLibrary.Candidate":598,"BiharElectionsLibrary.Candidate":549},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":158,"Name":"nathnagar"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":42094,"BiharElectionsLibrary.Candidate":37367,"BiharElectionsLibrary.Candidate":16623,"BiharElectionsLibrary.Candidate":6738,"BiharElectionsLibrary.Candidate":4757,"BiharElectionsLibrary.Candidate":4280,"BiharElectionsLibrary.Candidate":2403,"BiharElectionsLibrary.Candidate":1969,"BiharElectionsLibrary.Candidate":1518,"BiharElectionsLibrary.Candidate":954,"BiharElectionsLibrary.Candidate":892,"BiharElectionsLibrary.Candidate":846,"BiharElectionsLibrary.Candidate":766,"BiharElectionsLibrary.Candidate":594,"BiharElectionsLibrary.Candidate":450},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":159,"Name":"amarpur"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":47300,"BiharElectionsLibrary.Candidate":29293,"BiharElectionsLibrary.Candidate":9583,"BiharElectionsLibrary.Candidate":7898,"BiharElectionsLibrary.Candidate":5160,"BiharElectionsLibrary.Candidate":3776,"BiharElectionsLibrary.Candidate":3667,"BiharElectionsLibrary.Candidate":3049,"BiharElectionsLibrary.Candidate":1785,"BiharElectionsLibrary.Candidate":1143,"BiharElectionsLibrary.Candidate":1033,"BiharElectionsLibrary.Candidate":920,"BiharElectionsLibrary.Candidate":840,"BiharElectionsLibrary.Candidate":545},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":160,"Name":"dhuraiya"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":40261,"BiharElectionsLibrary.Candidate":31919,"BiharElectionsLibrary.Candidate":25265,"BiharElectionsLibrary.Candidate":4894,"BiharElectionsLibrary.Candidate":3203,"BiharElectionsLibrary.Candidate":2459,"BiharElectionsLibrary.Candidate":2263,"BiharElectionsLibrary.Candidate":1435,"BiharElectionsLibrary.Candidate":1059},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":161,"Name":"banka"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":29047,"BiharElectionsLibrary.Candidate":26637,"BiharElectionsLibrary.Candidate":17902,"BiharElectionsLibrary.Candidate":8610,"BiharElectionsLibrary.Candidate":6762,"BiharElectionsLibrary.Candidate":5169,"BiharElectionsLibrary.Candidate":2827,"BiharElectionsLibrary.Candidate":2806,"BiharElectionsLibrary.Candidate":1631,"BiharElectionsLibrary.Candidate":1520,"BiharElectionsLibrary.Candidate":921,"BiharElectionsLibrary.Candidate":882,"BiharElectionsLibrary.Candidate":815,"BiharElectionsLibrary.Candidate":620,"BiharElectionsLibrary.Candidate":542},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":162,"Name":"katoria"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":32332,"BiharElectionsLibrary.Candidate":23569,"BiharElectionsLibrary.Candidate":10823,"BiharElectionsLibrary.Candidate":6216,"BiharElectionsLibrary.Candidate":4517,"BiharElectionsLibrary.Candidate":3270,"BiharElectionsLibrary.Candidate":2471,"BiharElectionsLibrary.Candidate":1989},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":163,"Name":"belhar"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":33776,"BiharElectionsLibrary.Candidate":26160,"BiharElectionsLibrary.Candidate":11155,"BiharElectionsLibrary.Candidate":10051,"BiharElectionsLibrary.Candidate":9125,"BiharElectionsLibrary.Candidate":8925,"BiharElectionsLibrary.Candidate":6690,"BiharElectionsLibrary.Candidate":3922,"BiharElectionsLibrary.Candidate":2938,"BiharElectionsLibrary.Candidate":2568,"BiharElectionsLibrary.Candidate":1583,"BiharElectionsLibrary.Candidate":1458,"BiharElectionsLibrary.Candidate":1089,"BiharElectionsLibrary.Candidate":905},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":164,"Name":"tarapur"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":44582,"BiharElectionsLibrary.Candidate":30704,"BiharElectionsLibrary.Candidate":18282,"BiharElectionsLibrary.Candidate":9167,"BiharElectionsLibrary.Candidate":4089,"BiharElectionsLibrary.Candidate":3019,"BiharElectionsLibrary.Candidate":1776,"BiharElectionsLibrary.Candidate":1612,"BiharElectionsLibrary.Candidate":1415,"BiharElectionsLibrary.Candidate":1340,"BiharElectionsLibrary.Candidate":1145,"BiharElectionsLibrary.Candidate":969,"BiharElectionsLibrary.Candidate":521,"BiharElectionsLibrary.Candidate":512},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":165,"Name":"munger"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":55086,"BiharElectionsLibrary.Candidate":37473,"BiharElectionsLibrary.Candidate":11408,"BiharElectionsLibrary.Candidate":7626,"BiharElectionsLibrary.Candidate":3641,"BiharElectionsLibrary.Candidate":2306,"BiharElectionsLibrary.Candidate":2270,"BiharElectionsLibrary.Candidate":1409,"BiharElectionsLibrary.Candidate":1269,"BiharElectionsLibrary.Candidate":1233,"BiharElectionsLibrary.Candidate":1140,"BiharElectionsLibrary.Candidate":933,"BiharElectionsLibrary.Candidate":771,"BiharElectionsLibrary.Candidate":747,"BiharElectionsLibrary.Candidate":550,"BiharElectionsLibrary.Candidate":529,"BiharElectionsLibrary.Candidate":375,"BiharElectionsLibrary.Candidate":335,"BiharElectionsLibrary.Candidate":310,"BiharElectionsLibrary.Candidate":238},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":166,"Name":"jamalpur"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":48337,"BiharElectionsLibrary.Candidate":27195,"BiharElectionsLibrary.Candidate":11954,"BiharElectionsLibrary.Candidate":9267,"BiharElectionsLibrary.Candidate":2416,"BiharElectionsLibrary.Candidate":2175,"BiharElectionsLibrary.Candidate":2066,"BiharElectionsLibrary.Candidate":1712,"BiharElectionsLibrary.Candidate":1644,"BiharElectionsLibrary.Candidate":1482,"BiharElectionsLibrary.Candidate":1208,"BiharElectionsLibrary.Candidate":1029,"BiharElectionsLibrary.Candidate":973,"BiharElectionsLibrary.Candidate":910,"BiharElectionsLibrary.Candidate":874,"BiharElectionsLibrary.Candidate":842,"BiharElectionsLibrary.Candidate":663},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":167,"Name":"suryagarha"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":49511,"BiharElectionsLibrary.Candidate":46583,"BiharElectionsLibrary.Candidate":5690,"BiharElectionsLibrary.Candidate":5274,"BiharElectionsLibrary.Candidate":5078,"BiharElectionsLibrary.Candidate":2646,"BiharElectionsLibrary.Candidate":2212,"BiharElectionsLibrary.Candidate":2067,"BiharElectionsLibrary.Candidate":1943,"BiharElectionsLibrary.Candidate":1930,"BiharElectionsLibrary.Candidate":1423,"BiharElectionsLibrary.Candidate":1400,"BiharElectionsLibrary.Candidate":1152,"BiharElectionsLibrary.Candidate":1054,"BiharElectionsLibrary.Candidate":521},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":168,"Name":"lakhisarai"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":78457,"BiharElectionsLibrary.Candidate":18837,"BiharElectionsLibrary.Candidate":16635,"BiharElectionsLibrary.Candidate":12255,"BiharElectionsLibrary.Candidate":3033,"BiharElectionsLibrary.Candidate":2320,"BiharElectionsLibrary.Candidate":2006,"BiharElectionsLibrary.Candidate":1948,"BiharElectionsLibrary.Candidate":1909,"BiharElectionsLibrary.Candidate":1905,"BiharElectionsLibrary.Candidate":1604,"BiharElectionsLibrary.Candidate":1324,"BiharElectionsLibrary.Candidate":1163,"BiharElectionsLibrary.Candidate":1136,"BiharElectionsLibrary.Candidate":776},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":169,"Name":"sheikhpura"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":31507,"BiharElectionsLibrary.Candidate":24165,"BiharElectionsLibrary.Candidate":18473,"BiharElectionsLibrary.Candidate":8714,"BiharElectionsLibrary.Candidate":6662,"BiharElectionsLibrary.Candidate":3009,"BiharElectionsLibrary.Candidate":2631,"BiharElectionsLibrary.Candidate":2498,"BiharElectionsLibrary.Candidate":2315,"BiharElectionsLibrary.Candidate":1155,"BiharElectionsLibrary.Candidate":1075,"BiharElectionsLibrary.Candidate":982},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":170,"Name":"barbigha"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":24136,"BiharElectionsLibrary.Candidate":21089,"BiharElectionsLibrary.Candidate":20149,"BiharElectionsLibrary.Candidate":15318,"BiharElectionsLibrary.Candidate":4203,"BiharElectionsLibrary.Candidate":1827,"BiharElectionsLibrary.Candidate":1596,"BiharElectionsLibrary.Candidate":1325,"BiharElectionsLibrary.Candidate":1080,"BiharElectionsLibrary.Candidate":893,"BiharElectionsLibrary.Candidate":798},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":171,"Name":"asthawan"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":54176,"BiharElectionsLibrary.Candidate":34606,"BiharElectionsLibrary.Candidate":4286,"BiharElectionsLibrary.Candidate":4276,"BiharElectionsLibrary.Candidate":2111,"BiharElectionsLibrary.Candidate":1983,"BiharElectionsLibrary.Candidate":979,"BiharElectionsLibrary.Candidate":959,"BiharElectionsLibrary.Candidate":885,"BiharElectionsLibrary.Candidate":865,"BiharElectionsLibrary.Candidate":522,"BiharElectionsLibrary.Candidate":519,"BiharElectionsLibrary.Candidate":492,"BiharElectionsLibrary.Candidate":320},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":172,"Name":"biharsharif"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":77880,"BiharElectionsLibrary.Candidate":54168,"BiharElectionsLibrary.Candidate":3810,"BiharElectionsLibrary.Candidate":3708,"BiharElectionsLibrary.Candidate":2498,"BiharElectionsLibrary.Candidate":1947,"BiharElectionsLibrary.Candidate":1821,"BiharElectionsLibrary.Candidate":1196,"BiharElectionsLibrary.Candidate":804,"BiharElectionsLibrary.Candidate":755,"BiharElectionsLibrary.Candidate":714,"BiharElectionsLibrary.Candidate":314,"BiharElectionsLibrary.Candidate":299,"BiharElectionsLibrary.Candidate":276},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":173,"Name":"rajgir"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":50648,"BiharElectionsLibrary.Candidate":23697,"BiharElectionsLibrary.Candidate":6599,"BiharElectionsLibrary.Candidate":4713,"BiharElectionsLibrary.Candidate":2945,"BiharElectionsLibrary.Candidate":2895,"BiharElectionsLibrary.Candidate":2136,"BiharElectionsLibrary.Candidate":1744,"BiharElectionsLibrary.Candidate":1675,"BiharElectionsLibrary.Candidate":1131,"BiharElectionsLibrary.Candidate":991,"BiharElectionsLibrary.Candidate":784,"BiharElectionsLibrary.Candidate":750,"BiharElectionsLibrary.Candidate":624,"BiharElectionsLibrary.Candidate":471},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":174,"Name":"islampur"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":56332,"BiharElectionsLibrary.Candidate":32524,"BiharElectionsLibrary.Candidate":8369,"BiharElectionsLibrary.Candidate":6021,"BiharElectionsLibrary.Candidate":4581,"BiharElectionsLibrary.Candidate":2326,"BiharElectionsLibrary.Candidate":1249,"BiharElectionsLibrary.Candidate":1244,"BiharElectionsLibrary.Candidate":1056,"BiharElectionsLibrary.Candidate":706},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":175,"Name":"hilsa"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":54974,"BiharElectionsLibrary.Candidate":41772,"BiharElectionsLibrary.Candidate":5472,"BiharElectionsLibrary.Candidate":4550,"BiharElectionsLibrary.Candidate":4521,"BiharElectionsLibrary.Candidate":3760,"BiharElectionsLibrary.Candidate":2480,"BiharElectionsLibrary.Candidate":2244,"BiharElectionsLibrary.Candidate":1397,"BiharElectionsLibrary.Candidate":1239,"BiharElectionsLibrary.Candidate":1187,"BiharElectionsLibrary.Candidate":589,"BiharElectionsLibrary.Candidate":492,"BiharElectionsLibrary.Candidate":479,"BiharElectionsLibrary.Candidate":454,"BiharElectionsLibrary.Candidate":433},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":176,"Name":"nalanda"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":58067,"BiharElectionsLibrary.Candidate":37030,"BiharElectionsLibrary.Candidate":7433,"BiharElectionsLibrary.Candidate":3443,"BiharElectionsLibrary.Candidate":3357,"BiharElectionsLibrary.Candidate":1688,"BiharElectionsLibrary.Candidate":1505,"BiharElectionsLibrary.Candidate":1438,"BiharElectionsLibrary.Candidate":1292,"BiharElectionsLibrary.Candidate":1230,"BiharElectionsLibrary.Candidate":1191,"BiharElectionsLibrary.Candidate":1022,"BiharElectionsLibrary.Candidate":979,"BiharElectionsLibrary.Candidate":647,"BiharElectionsLibrary.Candidate":582},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":177,"Name":"harnaut"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":56827,"BiharElectionsLibrary.Candidate":41785,"BiharElectionsLibrary.Candidate":4542,"BiharElectionsLibrary.Candidate":3668,"BiharElectionsLibrary.Candidate":2797,"BiharElectionsLibrary.Candidate":2169,"BiharElectionsLibrary.Candidate":1489,"BiharElectionsLibrary.Candidate":1417,"BiharElectionsLibrary.Candidate":1406,"BiharElectionsLibrary.Candidate":1381,"BiharElectionsLibrary.Candidate":1183,"BiharElectionsLibrary.Candidate":1000,"BiharElectionsLibrary.Candidate":439},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":178,"Name":"mokama"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":51564,"BiharElectionsLibrary.Candidate":42610,"BiharElectionsLibrary.Candidate":4511,"BiharElectionsLibrary.Candidate":4258,"BiharElectionsLibrary.Candidate":4177,"BiharElectionsLibrary.Candidate":4009,"BiharElectionsLibrary.Candidate":2646,"BiharElectionsLibrary.Candidate":1769,"BiharElectionsLibrary.Candidate":1431},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":179,"Name":"barh"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":53129,"BiharElectionsLibrary.Candidate":33734,"BiharElectionsLibrary.Candidate":10114,"BiharElectionsLibrary.Candidate":2989,"BiharElectionsLibrary.Candidate":2570,"BiharElectionsLibrary.Candidate":1539,"BiharElectionsLibrary.Candidate":1525,"BiharElectionsLibrary.Candidate":1517,"BiharElectionsLibrary.Candidate":1468,"BiharElectionsLibrary.Candidate":1164,"BiharElectionsLibrary.Candidate":1146,"BiharElectionsLibrary.Candidate":781,"BiharElectionsLibrary.Candidate":598,"BiharElectionsLibrary.Candidate":418,"BiharElectionsLibrary.Candidate":319},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":180,"Name":"bakhtiarpur"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":52782,"BiharElectionsLibrary.Candidate":38037,"BiharElectionsLibrary.Candidate":7834,"BiharElectionsLibrary.Candidate":3384,"BiharElectionsLibrary.Candidate":3250,"BiharElectionsLibrary.Candidate":2692,"BiharElectionsLibrary.Candidate":2652,"BiharElectionsLibrary.Candidate":1354,"BiharElectionsLibrary.Candidate":1289},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":181,"Name":"digha"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":81247,"BiharElectionsLibrary.Candidate":20785,"BiharElectionsLibrary.Candidate":9215,"BiharElectionsLibrary.Candidate":6909,"BiharElectionsLibrary.Candidate":2742,"BiharElectionsLibrary.Candidate":1919,"BiharElectionsLibrary.Candidate":1653,"BiharElectionsLibrary.Candidate":1127,"BiharElectionsLibrary.Candidate":1101,"BiharElectionsLibrary.Candidate":1025,"BiharElectionsLibrary.Candidate":979,"BiharElectionsLibrary.Candidate":865,"BiharElectionsLibrary.Candidate":581,"BiharElectionsLibrary.Candidate":492,"BiharElectionsLibrary.Candidate":334},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":182,"Name":"bankipur"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":78771,"BiharElectionsLibrary.Candidate":17931,"BiharElectionsLibrary.Candidate":6018,"BiharElectionsLibrary.Candidate":1259,"BiharElectionsLibrary.Candidate":940,"BiharElectionsLibrary.Candidate":847,"BiharElectionsLibrary.Candidate":534,"BiharElectionsLibrary.Candidate":495,"BiharElectionsLibrary.Candidate":485,"BiharElectionsLibrary.Candidate":461,"BiharElectionsLibrary.Candidate":438,"BiharElectionsLibrary.Candidate":390,"BiharElectionsLibrary.Candidate":294,"BiharElectionsLibrary.Candidate":241,"BiharElectionsLibrary.Candidate":205},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":183,"Name":"kumhrarh"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":83425,"BiharElectionsLibrary.Candidate":15617,"BiharElectionsLibrary.Candidate":9254,"BiharElectionsLibrary.Candidate":1618,"BiharElectionsLibrary.Candidate":874,"BiharElectionsLibrary.Candidate":870,"BiharElectionsLibrary.Candidate":833,"BiharElectionsLibrary.Candidate":657,"BiharElectionsLibrary.Candidate":492,"BiharElectionsLibrary.Candidate":490,"BiharElectionsLibrary.Candidate":482,"BiharElectionsLibrary.Candidate":460,"BiharElectionsLibrary.Candidate":266,"BiharElectionsLibrary.Candidate":252,"BiharElectionsLibrary.Candidate":214},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":184,"Name":"patna_sahib"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":91419,"BiharElectionsLibrary.Candidate":26082,"BiharElectionsLibrary.Candidate":8271,"BiharElectionsLibrary.Candidate":1493,"BiharElectionsLibrary.Candidate":1230,"BiharElectionsLibrary.Candidate":1173,"BiharElectionsLibrary.Candidate":1113,"BiharElectionsLibrary.Candidate":854,"BiharElectionsLibrary.Candidate":484,"BiharElectionsLibrary.Candidate":459,"BiharElectionsLibrary.Candidate":439,"BiharElectionsLibrary.Candidate":352,"BiharElectionsLibrary.Candidate":349,"BiharElectionsLibrary.Candidate":335,"BiharElectionsLibrary.Candidate":248},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":185,"Name":"fatwah"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":50218,"BiharElectionsLibrary.Candidate":40562,"BiharElectionsLibrary.Candidate":4299,"BiharElectionsLibrary.Candidate":3533,"BiharElectionsLibrary.Candidate":3479,"BiharElectionsLibrary.Candidate":1652,"BiharElectionsLibrary.Candidate":1379,"BiharElectionsLibrary.Candidate":1051,"BiharElectionsLibrary.Candidate":982,"BiharElectionsLibrary.Candidate":970,"BiharElectionsLibrary.Candidate":797,"BiharElectionsLibrary.Candidate":733,"BiharElectionsLibrary.Candidate":706,"BiharElectionsLibrary.Candidate":609,"BiharElectionsLibrary.Candidate":428,"BiharElectionsLibrary.Candidate":376},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":186,"Name":"danapur"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":59425,"BiharElectionsLibrary.Candidate":41506,"BiharElectionsLibrary.Candidate":11495,"BiharElectionsLibrary.Candidate":3608,"BiharElectionsLibrary.Candidate":2969,"BiharElectionsLibrary.Candidate":1303,"BiharElectionsLibrary.Candidate":1112,"BiharElectionsLibrary.Candidate":1006,"BiharElectionsLibrary.Candidate":629,"BiharElectionsLibrary.Candidate":621,"BiharElectionsLibrary.Candidate":551,"BiharElectionsLibrary.Candidate":474,"BiharElectionsLibrary.Candidate":351},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":187,"Name":"maner"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":57818,"BiharElectionsLibrary.Candidate":48217,"BiharElectionsLibrary.Candidate":5540,"BiharElectionsLibrary.Candidate":4764,"BiharElectionsLibrary.Candidate":2308,"BiharElectionsLibrary.Candidate":2307,"BiharElectionsLibrary.Candidate":2122,"BiharElectionsLibrary.Candidate":1949,"BiharElectionsLibrary.Candidate":1514,"BiharElectionsLibrary.Candidate":1155,"BiharElectionsLibrary.Candidate":1135,"BiharElectionsLibrary.Candidate":916,"BiharElectionsLibrary.Candidate":891,"BiharElectionsLibrary.Candidate":862,"BiharElectionsLibrary.Candidate":452,"BiharElectionsLibrary.Candidate":392},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":188,"Name":"phulwari"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":67390,"BiharElectionsLibrary.Candidate":46210,"BiharElectionsLibrary.Candidate":8005,"BiharElectionsLibrary.Candidate":3178,"BiharElectionsLibrary.Candidate":2398,"BiharElectionsLibrary.Candidate":1858,"BiharElectionsLibrary.Candidate":1757,"BiharElectionsLibrary.Candidate":926,"BiharElectionsLibrary.Candidate":876,"BiharElectionsLibrary.Candidate":838,"BiharElectionsLibrary.Candidate":661,"BiharElectionsLibrary.Candidate":486,"BiharElectionsLibrary.Candidate":457,"BiharElectionsLibrary.Candidate":416},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":189,"Name":"masaurhi"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":56977,"BiharElectionsLibrary.Candidate":51945,"BiharElectionsLibrary.Candidate":14532,"BiharElectionsLibrary.Candidate":4412,"BiharElectionsLibrary.Candidate":2515,"BiharElectionsLibrary.Candidate":2509,"BiharElectionsLibrary.Candidate":1802,"BiharElectionsLibrary.Candidate":1752,"BiharElectionsLibrary.Candidate":1660,"BiharElectionsLibrary.Candidate":1119,"BiharElectionsLibrary.Candidate":1102,"BiharElectionsLibrary.Candidate":999,"BiharElectionsLibrary.Candidate":672,"BiharElectionsLibrary.Candidate":654},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":190,"Name":"paliganj"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":43692,"BiharElectionsLibrary.Candidate":33450,"BiharElectionsLibrary.Candidate":16748,"BiharElectionsLibrary.Candidate":6977,"BiharElectionsLibrary.Candidate":3290,"BiharElectionsLibrary.Candidate":2785,"BiharElectionsLibrary.Candidate":2779,"BiharElectionsLibrary.Candidate":1667,"BiharElectionsLibrary.Candidate":1294,"BiharElectionsLibrary.Candidate":993,"BiharElectionsLibrary.Candidate":640,"BiharElectionsLibrary.Candidate":600,"BiharElectionsLibrary.Candidate":588,"BiharElectionsLibrary.Candidate":396},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":191,"Name":"bikram"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":38965,"BiharElectionsLibrary.Candidate":36613,"BiharElectionsLibrary.Candidate":11812,"BiharElectionsLibrary.Candidate":11264,"BiharElectionsLibrary.Candidate":9974,"BiharElectionsLibrary.Candidate":4004,"BiharElectionsLibrary.Candidate":3254,"BiharElectionsLibrary.Candidate":3030,"BiharElectionsLibrary.Candidate":2708,"BiharElectionsLibrary.Candidate":2562,"BiharElectionsLibrary.Candidate":2040,"BiharElectionsLibrary.Candidate":1963,"BiharElectionsLibrary.Candidate":1089,"BiharElectionsLibrary.Candidate":1049,"BiharElectionsLibrary.Candidate":811,"BiharElectionsLibrary.Candidate":634},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":192,"Name":"sandesh"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":29988,"BiharElectionsLibrary.Candidate":23166,"BiharElectionsLibrary.Candidate":16779,"BiharElectionsLibrary.Candidate":15095,"BiharElectionsLibrary.Candidate":10219,"BiharElectionsLibrary.Candidate":2824,"BiharElectionsLibrary.Candidate":2256,"BiharElectionsLibrary.Candidate":2190,"BiharElectionsLibrary.Candidate":2067,"BiharElectionsLibrary.Candidate":1445,"BiharElectionsLibrary.Candidate":1273,"BiharElectionsLibrary.Candidate":967,"BiharElectionsLibrary.Candidate":892,"BiharElectionsLibrary.Candidate":794,"BiharElectionsLibrary.Candidate":755,"BiharElectionsLibrary.Candidate":618,"BiharElectionsLibrary.Candidate":578,"BiharElectionsLibrary.Candidate":567,"BiharElectionsLibrary.Candidate":393},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":193,"Name":"barhara"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":46102,"BiharElectionsLibrary.Candidate":45019,"BiharElectionsLibrary.Candidate":6084,"BiharElectionsLibrary.Candidate":3672,"BiharElectionsLibrary.Candidate":1690,"BiharElectionsLibrary.Candidate":1656,"BiharElectionsLibrary.Candidate":1361,"BiharElectionsLibrary.Candidate":1192,"BiharElectionsLibrary.Candidate":1110,"BiharElectionsLibrary.Candidate":1070,"BiharElectionsLibrary.Candidate":993,"BiharElectionsLibrary.Candidate":410,"BiharElectionsLibrary.Candidate":387,"BiharElectionsLibrary.Candidate":303},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":194,"Name":"arrah"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":56504,"BiharElectionsLibrary.Candidate":37564,"BiharElectionsLibrary.Candidate":5314,"BiharElectionsLibrary.Candidate":2717,"BiharElectionsLibrary.Candidate":1855,"BiharElectionsLibrary.Candidate":1175,"BiharElectionsLibrary.Candidate":1041,"BiharElectionsLibrary.Candidate":1004,"BiharElectionsLibrary.Candidate":892,"BiharElectionsLibrary.Candidate":851,"BiharElectionsLibrary.Candidate":814,"BiharElectionsLibrary.Candidate":723,"BiharElectionsLibrary.Candidate":504,"BiharElectionsLibrary.Candidate":478,"BiharElectionsLibrary.Candidate":455,"BiharElectionsLibrary.Candidate":373,"BiharElectionsLibrary.Candidate":366,"BiharElectionsLibrary.Candidate":336,"BiharElectionsLibrary.Candidate":246,"BiharElectionsLibrary.Candidate":238},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":195,"Name":"agiaon"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":29257,"BiharElectionsLibrary.Candidate":24008,"BiharElectionsLibrary.Candidate":21739,"BiharElectionsLibrary.Candidate":4024,"BiharElectionsLibrary.Candidate":2946,"BiharElectionsLibrary.Candidate":2008,"BiharElectionsLibrary.Candidate":1728,"BiharElectionsLibrary.Candidate":1697,"BiharElectionsLibrary.Candidate":1333,"BiharElectionsLibrary.Candidate":1261,"BiharElectionsLibrary.Candidate":975,"BiharElectionsLibrary.Candidate":878,"BiharElectionsLibrary.Candidate":511},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":196,"Name":"tarari"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":48413,"BiharElectionsLibrary.Candidate":34093,"BiharElectionsLibrary.Candidate":30111,"BiharElectionsLibrary.Candidate":8318,"BiharElectionsLibrary.Candidate":1847,"BiharElectionsLibrary.Candidate":1565,"BiharElectionsLibrary.Candidate":1427,"BiharElectionsLibrary.Candidate":1110,"BiharElectionsLibrary.Candidate":902},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":197,"Name":"jagdishpur"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":55560,"BiharElectionsLibrary.Candidate":45374,"BiharElectionsLibrary.Candidate":16129,"BiharElectionsLibrary.Candidate":3784,"BiharElectionsLibrary.Candidate":2352,"BiharElectionsLibrary.Candidate":1961,"BiharElectionsLibrary.Candidate":1360,"BiharElectionsLibrary.Candidate":1125,"BiharElectionsLibrary.Candidate":1068,"BiharElectionsLibrary.Candidate":901,"BiharElectionsLibrary.Candidate":647},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":198,"Name":"shahpur"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":44795,"BiharElectionsLibrary.Candidate":36584,"BiharElectionsLibrary.Candidate":11274,"BiharElectionsLibrary.Candidate":10166,"BiharElectionsLibrary.Candidate":3100,"BiharElectionsLibrary.Candidate":2348,"BiharElectionsLibrary.Candidate":1639,"BiharElectionsLibrary.Candidate":1288},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":199,"Name":"barhampur"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":46196,"BiharElectionsLibrary.Candidate":25854,"BiharElectionsLibrary.Candidate":13901,"BiharElectionsLibrary.Candidate":10083,"BiharElectionsLibrary.Candidate":4735,"BiharElectionsLibrary.Candidate":4180,"BiharElectionsLibrary.Candidate":2497,"BiharElectionsLibrary.Candidate":2445,"BiharElectionsLibrary.Candidate":2070,"BiharElectionsLibrary.Candidate":1898,"BiharElectionsLibrary.Candidate":1353,"BiharElectionsLibrary.Candidate":1185,"BiharElectionsLibrary.Candidate":1118,"BiharElectionsLibrary.Candidate":1069,"BiharElectionsLibrary.Candidate":1036,"BiharElectionsLibrary.Candidate":1030,"BiharElectionsLibrary.Candidate":968,"BiharElectionsLibrary.Candidate":748,"BiharElectionsLibrary.Candidate":676,"BiharElectionsLibrary.Candidate":669,"BiharElectionsLibrary.Candidate":613,"BiharElectionsLibrary.Candidate":478,"BiharElectionsLibrary.Candidate":451,"BiharElectionsLibrary.Candidate":443,"BiharElectionsLibrary.Candidate":287},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":200,"Name":"buxar"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":48062,"BiharElectionsLibrary.Candidate":27879,"BiharElectionsLibrary.Candidate":12643,"BiharElectionsLibrary.Candidate":9317,"BiharElectionsLibrary.Candidate":5119,"BiharElectionsLibrary.Candidate":4474,"BiharElectionsLibrary.Candidate":4260,"BiharElectionsLibrary.Candidate":3783,"BiharElectionsLibrary.Candidate":2068,"BiharElectionsLibrary.Candidate":1412,"BiharElectionsLibrary.Candidate":1284,"BiharElectionsLibrary.Candidate":1065,"BiharElectionsLibrary.Candidate":948,"BiharElectionsLibrary.Candidate":712,"BiharElectionsLibrary.Candidate":657,"BiharElectionsLibrary.Candidate":586,"BiharElectionsLibrary.Candidate":566,"BiharElectionsLibrary.Candidate":545,"BiharElectionsLibrary.Candidate":543,"BiharElectionsLibrary.Candidate":504,"BiharElectionsLibrary.Candidate":416,"BiharElectionsLibrary.Candidate":400,"BiharElectionsLibrary.Candidate":331,"BiharElectionsLibrary.Candidate":271,"BiharElectionsLibrary.Candidate":257},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":201,"Name":"dumraon"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":42538,"BiharElectionsLibrary.Candidate":22692,"BiharElectionsLibrary.Candidate":17956,"BiharElectionsLibrary.Candidate":8851,"BiharElectionsLibrary.Candidate":6573,"BiharElectionsLibrary.Candidate":6551,"BiharElectionsLibrary.Candidate":5889,"BiharElectionsLibrary.Candidate":3220,"BiharElectionsLibrary.Candidate":3100,"BiharElectionsLibrary.Candidate":2765,"BiharElectionsLibrary.Candidate":1676,"BiharElectionsLibrary.Candidate":1150,"BiharElectionsLibrary.Candidate":954,"BiharElectionsLibrary.Candidate":701},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":202,"Name":"rajpur"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":54802,"BiharElectionsLibrary.Candidate":39563,"BiharElectionsLibrary.Candidate":18389,"BiharElectionsLibrary.Candidate":5614,"BiharElectionsLibrary.Candidate":3912,"BiharElectionsLibrary.Candidate":3715,"BiharElectionsLibrary.Candidate":2933,"BiharElectionsLibrary.Candidate":2546,"BiharElectionsLibrary.Candidate":1741,"BiharElectionsLibrary.Candidate":1234,"BiharElectionsLibrary.Candidate":1230,"BiharElectionsLibrary.Candidate":921,"BiharElectionsLibrary.Candidate":678,"BiharElectionsLibrary.Candidate":567},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":203,"Name":"ramgarh"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":30787,"BiharElectionsLibrary.Candidate":27809,"BiharElectionsLibrary.Candidate":18551,"BiharElectionsLibrary.Candidate":17334,"BiharElectionsLibrary.Candidate":9390,"BiharElectionsLibrary.Candidate":4352,"BiharElectionsLibrary.Candidate":3915,"BiharElectionsLibrary.Candidate":2122,"BiharElectionsLibrary.Candidate":1434,"BiharElectionsLibrary.Candidate":1197,"BiharElectionsLibrary.Candidate":1104,"BiharElectionsLibrary.Candidate":1100,"BiharElectionsLibrary.Candidate":1041,"BiharElectionsLibrary.Candidate":959,"BiharElectionsLibrary.Candidate":788,"BiharElectionsLibrary.Candidate":773,"BiharElectionsLibrary.Candidate":562},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":204,"Name":"mohania"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":38918,"BiharElectionsLibrary.Candidate":36393,"BiharElectionsLibrary.Candidate":14613,"BiharElectionsLibrary.Candidate":11533,"BiharElectionsLibrary.Candidate":2848,"BiharElectionsLibrary.Candidate":2347,"BiharElectionsLibrary.Candidate":2102,"BiharElectionsLibrary.Candidate":1940,"BiharElectionsLibrary.Candidate":578,"BiharElectionsLibrary.Candidate":537},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":205,"Name":"bhabua"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":31246,"BiharElectionsLibrary.Candidate":30799,"BiharElectionsLibrary.Candidate":12133,"BiharElectionsLibrary.Candidate":8300,"BiharElectionsLibrary.Candidate":7448,"BiharElectionsLibrary.Candidate":5364,"BiharElectionsLibrary.Candidate":5054,"BiharElectionsLibrary.Candidate":4355,"BiharElectionsLibrary.Candidate":2753,"BiharElectionsLibrary.Candidate":2328,"BiharElectionsLibrary.Candidate":1339,"BiharElectionsLibrary.Candidate":1313,"BiharElectionsLibrary.Candidate":1219,"BiharElectionsLibrary.Candidate":1006,"BiharElectionsLibrary.Candidate":871,"BiharElectionsLibrary.Candidate":652,"BiharElectionsLibrary.Candidate":588,"BiharElectionsLibrary.Candidate":582,"BiharElectionsLibrary.Candidate":518,"BiharElectionsLibrary.Candidate":441,"BiharElectionsLibrary.Candidate":407,"BiharElectionsLibrary.Candidate":381},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":206,"Name":"chainpur"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":46510,"BiharElectionsLibrary.Candidate":32930,"BiharElectionsLibrary.Candidate":19552,"BiharElectionsLibrary.Candidate":17682,"BiharElectionsLibrary.Candidate":7412,"BiharElectionsLibrary.Candidate":4079,"BiharElectionsLibrary.Candidate":2022,"BiharElectionsLibrary.Candidate":1926,"BiharElectionsLibrary.Candidate":1517,"BiharElectionsLibrary.Candidate":1062,"BiharElectionsLibrary.Candidate":928,"BiharElectionsLibrary.Candidate":897,"BiharElectionsLibrary.Candidate":879,"BiharElectionsLibrary.Candidate":803,"BiharElectionsLibrary.Candidate":732,"BiharElectionsLibrary.Candidate":606,"BiharElectionsLibrary.Candidate":565,"BiharElectionsLibrary.Candidate":548,"BiharElectionsLibrary.Candidate":423,"BiharElectionsLibrary.Candidate":405,"BiharElectionsLibrary.Candidate":361,"BiharElectionsLibrary.Candidate":193},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":207,"Name":"chenari"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":44586,"BiharElectionsLibrary.Candidate":41685,"BiharElectionsLibrary.Candidate":21390,"BiharElectionsLibrary.Candidate":9111,"BiharElectionsLibrary.Candidate":4436,"BiharElectionsLibrary.Candidate":1262,"BiharElectionsLibrary.Candidate":1254,"BiharElectionsLibrary.Candidate":1045,"BiharElectionsLibrary.Candidate":1014,"BiharElectionsLibrary.Candidate":1014},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":208,"Name":"sasaram"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":50856,"BiharElectionsLibrary.Candidate":45445,"BiharElectionsLibrary.Candidate":9990,"BiharElectionsLibrary.Candidate":7412,"BiharElectionsLibrary.Candidate":6523,"BiharElectionsLibrary.Candidate":3937,"BiharElectionsLibrary.Candidate":2322,"BiharElectionsLibrary.Candidate":2039,"BiharElectionsLibrary.Candidate":1845,"BiharElectionsLibrary.Candidate":1570,"BiharElectionsLibrary.Candidate":1004,"BiharElectionsLibrary.Candidate":989,"BiharElectionsLibrary.Candidate":951,"BiharElectionsLibrary.Candidate":930,"BiharElectionsLibrary.Candidate":870,"BiharElectionsLibrary.Candidate":793,"BiharElectionsLibrary.Candidate":791,"BiharElectionsLibrary.Candidate":765,"BiharElectionsLibrary.Candidate":724,"BiharElectionsLibrary.Candidate":642,"BiharElectionsLibrary.Candidate":549,"BiharElectionsLibrary.Candidate":520,"BiharElectionsLibrary.Candidate":513,"BiharElectionsLibrary.Candidate":437,"BiharElectionsLibrary.Candidate":405,"BiharElectionsLibrary.Candidate":336,"BiharElectionsLibrary.Candidate":316,"BiharElectionsLibrary.Candidate":309,"BiharElectionsLibrary.Candidate":263,"BiharElectionsLibrary.Candidate":249,"BiharElectionsLibrary.Candidate":217},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":209,"Name":"kargahar"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":54190,"BiharElectionsLibrary.Candidate":40993,"BiharElectionsLibrary.Candidate":21292,"BiharElectionsLibrary.Candidate":11035,"BiharElectionsLibrary.Candidate":3794,"BiharElectionsLibrary.Candidate":3715,"BiharElectionsLibrary.Candidate":2280,"BiharElectionsLibrary.Candidate":2032,"BiharElectionsLibrary.Candidate":2002,"BiharElectionsLibrary.Candidate":1442,"BiharElectionsLibrary.Candidate":1196,"BiharElectionsLibrary.Candidate":1151,"BiharElectionsLibrary.Candidate":921,"BiharElectionsLibrary.Candidate":867,"BiharElectionsLibrary.Candidate":818,"BiharElectionsLibrary.Candidate":764,"BiharElectionsLibrary.Candidate":680,"BiharElectionsLibrary.Candidate":567},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":210,"Name":"dinara"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":47176,"BiharElectionsLibrary.Candidate":30566,"BiharElectionsLibrary.Candidate":10098,"BiharElectionsLibrary.Candidate":8387,"BiharElectionsLibrary.Candidate":6214,"BiharElectionsLibrary.Candidate":3568,"BiharElectionsLibrary.Candidate":3349,"BiharElectionsLibrary.Candidate":2700,"BiharElectionsLibrary.Candidate":1699,"BiharElectionsLibrary.Candidate":1495,"BiharElectionsLibrary.Candidate":1116,"BiharElectionsLibrary.Candidate":875,"BiharElectionsLibrary.Candidate":813,"BiharElectionsLibrary.Candidate":712,"BiharElectionsLibrary.Candidate":620,"BiharElectionsLibrary.Candidate":466,"BiharElectionsLibrary.Candidate":419},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":211,"Name":"nokha"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":39020,"BiharElectionsLibrary.Candidate":27297,"BiharElectionsLibrary.Candidate":9295,"BiharElectionsLibrary.Candidate":8158,"BiharElectionsLibrary.Candidate":6420,"BiharElectionsLibrary.Candidate":5842,"BiharElectionsLibrary.Candidate":4916,"BiharElectionsLibrary.Candidate":4117,"BiharElectionsLibrary.Candidate":2002,"BiharElectionsLibrary.Candidate":1723,"BiharElectionsLibrary.Candidate":957,"BiharElectionsLibrary.Candidate":951,"BiharElectionsLibrary.Candidate":831,"BiharElectionsLibrary.Candidate":744,"BiharElectionsLibrary.Candidate":743,"BiharElectionsLibrary.Candidate":702,"BiharElectionsLibrary.Candidate":594,"BiharElectionsLibrary.Candidate":546,"BiharElectionsLibrary.Candidate":534,"BiharElectionsLibrary.Candidate":526,"BiharElectionsLibrary.Candidate":406,"BiharElectionsLibrary.Candidate":380},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":212,"Name":"dehri"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":43634,"BiharElectionsLibrary.Candidate":33819,"BiharElectionsLibrary.Candidate":27508,"BiharElectionsLibrary.Candidate":4582,"BiharElectionsLibrary.Candidate":4040,"BiharElectionsLibrary.Candidate":2252,"BiharElectionsLibrary.Candidate":1936,"BiharElectionsLibrary.Candidate":1833,"BiharElectionsLibrary.Candidate":819,"BiharElectionsLibrary.Candidate":779,"BiharElectionsLibrary.Candidate":595,"BiharElectionsLibrary.Candidate":548,"BiharElectionsLibrary.Candidate":404,"BiharElectionsLibrary.Candidate":324,"BiharElectionsLibrary.Candidate":312,"BiharElectionsLibrary.Candidate":262},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":213,"Name":"karakat"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":49751,"BiharElectionsLibrary.Candidate":38336,"BiharElectionsLibrary.Candidate":23179,"BiharElectionsLibrary.Candidate":3711,"BiharElectionsLibrary.Candidate":2232,"BiharElectionsLibrary.Candidate":2206,"BiharElectionsLibrary.Candidate":2051,"BiharElectionsLibrary.Candidate":1282,"BiharElectionsLibrary.Candidate":1034,"BiharElectionsLibrary.Candidate":943,"BiharElectionsLibrary.Candidate":852,"BiharElectionsLibrary.Candidate":822,"BiharElectionsLibrary.Candidate":737,"BiharElectionsLibrary.Candidate":648},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":214,"Name":"arwal"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":23984,"BiharElectionsLibrary.Candidate":19782,"BiharElectionsLibrary.Candidate":15513,"BiharElectionsLibrary.Candidate":5196,"BiharElectionsLibrary.Candidate":4548,"BiharElectionsLibrary.Candidate":4541,"BiharElectionsLibrary.Candidate":2622,"BiharElectionsLibrary.Candidate":2595,"BiharElectionsLibrary.Candidate":2534,"BiharElectionsLibrary.Candidate":2171,"BiharElectionsLibrary.Candidate":1862,"BiharElectionsLibrary.Candidate":1724,"BiharElectionsLibrary.Candidate":1586,"BiharElectionsLibrary.Candidate":1519,"BiharElectionsLibrary.Candidate":1136,"BiharElectionsLibrary.Candidate":1055,"BiharElectionsLibrary.Candidate":703,"BiharElectionsLibrary.Candidate":572,"BiharElectionsLibrary.Candidate":403,"BiharElectionsLibrary.Candidate":396,"BiharElectionsLibrary.Candidate":318},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":215,"Name":"kurtha"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":37633,"BiharElectionsLibrary.Candidate":28140,"BiharElectionsLibrary.Candidate":5461,"BiharElectionsLibrary.Candidate":5362,"BiharElectionsLibrary.Candidate":4065,"BiharElectionsLibrary.Candidate":2297,"BiharElectionsLibrary.Candidate":1893,"BiharElectionsLibrary.Candidate":1396,"BiharElectionsLibrary.Candidate":1171,"BiharElectionsLibrary.Candidate":1078,"BiharElectionsLibrary.Candidate":962,"BiharElectionsLibrary.Candidate":938,"BiharElectionsLibrary.Candidate":928,"BiharElectionsLibrary.Candidate":553},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":216,"Name":"jahanabad"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":35508,"BiharElectionsLibrary.Candidate":26941,"BiharElectionsLibrary.Candidate":13239,"BiharElectionsLibrary.Candidate":6447,"BiharElectionsLibrary.Candidate":5085,"BiharElectionsLibrary.Candidate":5012,"BiharElectionsLibrary.Candidate":3658,"BiharElectionsLibrary.Candidate":3176,"BiharElectionsLibrary.Candidate":2481,"BiharElectionsLibrary.Candidate":1830,"BiharElectionsLibrary.Candidate":1292,"BiharElectionsLibrary.Candidate":1287,"BiharElectionsLibrary.Candidate":958,"BiharElectionsLibrary.Candidate":938,"BiharElectionsLibrary.Candidate":759,"BiharElectionsLibrary.Candidate":593,"BiharElectionsLibrary.Candidate":531,"BiharElectionsLibrary.Candidate":478,"BiharElectionsLibrary.Candidate":399},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":217,"Name":"ghosi"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":40364,"BiharElectionsLibrary.Candidate":26088,"BiharElectionsLibrary.Candidate":14929,"BiharElectionsLibrary.Candidate":12203,"BiharElectionsLibrary.Candidate":2328,"BiharElectionsLibrary.Candidate":2267,"BiharElectionsLibrary.Candidate":2180,"BiharElectionsLibrary.Candidate":1667,"BiharElectionsLibrary.Candidate":1271,"BiharElectionsLibrary.Candidate":826},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":218,"Name":"makhdumpur"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":38463,"BiharElectionsLibrary.Candidate":33378,"BiharElectionsLibrary.Candidate":4625,"BiharElectionsLibrary.Candidate":3487,"BiharElectionsLibrary.Candidate":2708,"BiharElectionsLibrary.Candidate":1937,"BiharElectionsLibrary.Candidate":1821,"BiharElectionsLibrary.Candidate":1257,"BiharElectionsLibrary.Candidate":850,"BiharElectionsLibrary.Candidate":586,"BiharElectionsLibrary.Candidate":549,"BiharElectionsLibrary.Candidate":524},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":219,"Name":"goh"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":47378,"BiharElectionsLibrary.Candidate":46684,"BiharElectionsLibrary.Candidate":8418,"BiharElectionsLibrary.Candidate":3407,"BiharElectionsLibrary.Candidate":2640,"BiharElectionsLibrary.Candidate":2093,"BiharElectionsLibrary.Candidate":1734,"BiharElectionsLibrary.Candidate":1508,"BiharElectionsLibrary.Candidate":1445,"BiharElectionsLibrary.Candidate":1208,"BiharElectionsLibrary.Candidate":1027,"BiharElectionsLibrary.Candidate":875,"BiharElectionsLibrary.Candidate":871,"BiharElectionsLibrary.Candidate":777},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":220,"Name":"obra"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":36816,"BiharElectionsLibrary.Candidate":36014,"BiharElectionsLibrary.Candidate":18463,"BiharElectionsLibrary.Candidate":16856,"BiharElectionsLibrary.Candidate":13201,"BiharElectionsLibrary.Candidate":2383,"BiharElectionsLibrary.Candidate":1784,"BiharElectionsLibrary.Candidate":1428,"BiharElectionsLibrary.Candidate":1316,"BiharElectionsLibrary.Candidate":1119,"BiharElectionsLibrary.Candidate":870},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":221,"Name":"nabinagar"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":36860,"BiharElectionsLibrary.Candidate":25026,"BiharElectionsLibrary.Candidate":11850,"BiharElectionsLibrary.Candidate":7415,"BiharElectionsLibrary.Candidate":5705,"BiharElectionsLibrary.Candidate":2898,"BiharElectionsLibrary.Candidate":2649,"BiharElectionsLibrary.Candidate":1868,"BiharElectionsLibrary.Candidate":1424,"BiharElectionsLibrary.Candidate":1359,"BiharElectionsLibrary.Candidate":1162,"BiharElectionsLibrary.Candidate":1152,"BiharElectionsLibrary.Candidate":847,"BiharElectionsLibrary.Candidate":837,"BiharElectionsLibrary.Candidate":763},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":222,"Name":"kutumba"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":42559,"BiharElectionsLibrary.Candidate":28649,"BiharElectionsLibrary.Candidate":8477,"BiharElectionsLibrary.Candidate":3535,"BiharElectionsLibrary.Candidate":2837,"BiharElectionsLibrary.Candidate":2075,"BiharElectionsLibrary.Candidate":1914,"BiharElectionsLibrary.Candidate":1375,"BiharElectionsLibrary.Candidate":1087,"BiharElectionsLibrary.Candidate":952},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":223,"Name":"aurangabad"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":41176,"BiharElectionsLibrary.Candidate":34934,"BiharElectionsLibrary.Candidate":13012,"BiharElectionsLibrary.Candidate":3595,"BiharElectionsLibrary.Candidate":3434,"BiharElectionsLibrary.Candidate":2952,"BiharElectionsLibrary.Candidate":1646,"BiharElectionsLibrary.Candidate":1589,"BiharElectionsLibrary.Candidate":1410,"BiharElectionsLibrary.Candidate":1399,"BiharElectionsLibrary.Candidate":1341,"BiharElectionsLibrary.Candidate":1264,"BiharElectionsLibrary.Candidate":1071,"BiharElectionsLibrary.Candidate":1056,"BiharElectionsLibrary.Candidate":915,"BiharElectionsLibrary.Candidate":532},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":224,"Name":"rafiganj"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":58501,"BiharElectionsLibrary.Candidate":34816,"BiharElectionsLibrary.Candidate":6273,"BiharElectionsLibrary.Candidate":4162,"BiharElectionsLibrary.Candidate":3039,"BiharElectionsLibrary.Candidate":2394,"BiharElectionsLibrary.Candidate":1918,"BiharElectionsLibrary.Candidate":1360,"BiharElectionsLibrary.Candidate":1152,"BiharElectionsLibrary.Candidate":885,"BiharElectionsLibrary.Candidate":871,"BiharElectionsLibrary.Candidate":841,"BiharElectionsLibrary.Candidate":658,"BiharElectionsLibrary.Candidate":573,"BiharElectionsLibrary.Candidate":543},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":225,"Name":"gurua"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":46767,"BiharElectionsLibrary.Candidate":35331,"BiharElectionsLibrary.Candidate":8155,"BiharElectionsLibrary.Candidate":8121,"BiharElectionsLibrary.Candidate":4419,"BiharElectionsLibrary.Candidate":3324,"BiharElectionsLibrary.Candidate":2469,"BiharElectionsLibrary.Candidate":1965,"BiharElectionsLibrary.Candidate":1948,"BiharElectionsLibrary.Candidate":1914,"BiharElectionsLibrary.Candidate":1704,"BiharElectionsLibrary.Candidate":1458,"BiharElectionsLibrary.Candidate":1411,"BiharElectionsLibrary.Candidate":929,"BiharElectionsLibrary.Candidate":757},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":226,"Name":"sherghati"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":25447,"BiharElectionsLibrary.Candidate":18944,"BiharElectionsLibrary.Candidate":18623,"BiharElectionsLibrary.Candidate":15007,"BiharElectionsLibrary.Candidate":3389,"BiharElectionsLibrary.Candidate":3207,"BiharElectionsLibrary.Candidate":3052,"BiharElectionsLibrary.Candidate":2775,"BiharElectionsLibrary.Candidate":2487,"BiharElectionsLibrary.Candidate":2280,"BiharElectionsLibrary.Candidate":2057,"BiharElectionsLibrary.Candidate":1908,"BiharElectionsLibrary.Candidate":1904,"BiharElectionsLibrary.Candidate":1770,"BiharElectionsLibrary.Candidate":1236,"BiharElectionsLibrary.Candidate":1215,"BiharElectionsLibrary.Candidate":1033,"BiharElectionsLibrary.Candidate":764,"BiharElectionsLibrary.Candidate":598},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":227,"Name":"imamganj"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":44126,"BiharElectionsLibrary.Candidate":42915,"BiharElectionsLibrary.Candidate":4478,"BiharElectionsLibrary.Candidate":4368,"BiharElectionsLibrary.Candidate":3578,"BiharElectionsLibrary.Candidate":2565,"BiharElectionsLibrary.Candidate":2375,"BiharElectionsLibrary.Candidate":1885,"BiharElectionsLibrary.Candidate":1563,"BiharElectionsLibrary.Candidate":1235},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":228,"Name":"barachatti"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":57550,"BiharElectionsLibrary.Candidate":33804,"BiharElectionsLibrary.Candidate":3496,"BiharElectionsLibrary.Candidate":3011,"BiharElectionsLibrary.Candidate":2934,"BiharElectionsLibrary.Candidate":2675,"BiharElectionsLibrary.Candidate":2599,"BiharElectionsLibrary.Candidate":2168,"BiharElectionsLibrary.Candidate":1514,"BiharElectionsLibrary.Candidate":1367,"BiharElectionsLibrary.Candidate":1294,"BiharElectionsLibrary.Candidate":1276,"BiharElectionsLibrary.Candidate":1009},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":229,"Name":"bodh_gaya"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":54160,"BiharElectionsLibrary.Candidate":42947,"BiharElectionsLibrary.Candidate":4737,"BiharElectionsLibrary.Candidate":3709,"BiharElectionsLibrary.Candidate":3473,"BiharElectionsLibrary.Candidate":3309,"BiharElectionsLibrary.Candidate":3180,"BiharElectionsLibrary.Candidate":2972,"BiharElectionsLibrary.Candidate":2104,"BiharElectionsLibrary.Candidate":1422},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":230,"Name":"gaya_town"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":55618,"BiharElectionsLibrary.Candidate":27201,"BiharElectionsLibrary.Candidate":7664,"BiharElectionsLibrary.Candidate":4098,"BiharElectionsLibrary.Candidate":1356,"BiharElectionsLibrary.Candidate":1005,"BiharElectionsLibrary.Candidate":953,"BiharElectionsLibrary.Candidate":902,"BiharElectionsLibrary.Candidate":516,"BiharElectionsLibrary.Candidate":488,"BiharElectionsLibrary.Candidate":444,"BiharElectionsLibrary.Candidate":418,"BiharElectionsLibrary.Candidate":368,"BiharElectionsLibrary.Candidate":359,"BiharElectionsLibrary.Candidate":292,"BiharElectionsLibrary.Candidate":285,"BiharElectionsLibrary.Candidate":272,"BiharElectionsLibrary.Candidate":255,"BiharElectionsLibrary.Candidate":241,"BiharElectionsLibrary.Candidate":211,"BiharElectionsLibrary.Candidate":207},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":231,"Name":"tikari"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":67706,"BiharElectionsLibrary.Candidate":49165,"BiharElectionsLibrary.Candidate":3606,"BiharElectionsLibrary.Candidate":2824,"BiharElectionsLibrary.Candidate":2357,"BiharElectionsLibrary.Candidate":1859,"BiharElectionsLibrary.Candidate":1716,"BiharElectionsLibrary.Candidate":950,"BiharElectionsLibrary.Candidate":658,"BiharElectionsLibrary.Candidate":554,"BiharElectionsLibrary.Candidate":515},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":232,"Name":"belaganj"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":53079,"BiharElectionsLibrary.Candidate":48441,"BiharElectionsLibrary.Candidate":8942,"BiharElectionsLibrary.Candidate":2710,"BiharElectionsLibrary.Candidate":1943,"BiharElectionsLibrary.Candidate":1838,"BiharElectionsLibrary.Candidate":1663,"BiharElectionsLibrary.Candidate":1478,"BiharElectionsLibrary.Candidate":1132,"BiharElectionsLibrary.Candidate":577},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":233,"Name":"atri"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":55633,"BiharElectionsLibrary.Candidate":35023,"BiharElectionsLibrary.Candidate":6345,"BiharElectionsLibrary.Candidate":4402,"BiharElectionsLibrary.Candidate":2881,"BiharElectionsLibrary.Candidate":2433,"BiharElectionsLibrary.Candidate":1814,"BiharElectionsLibrary.Candidate":1592,"BiharElectionsLibrary.Candidate":1484,"BiharElectionsLibrary.Candidate":1368,"BiharElectionsLibrary.Candidate":1222,"BiharElectionsLibrary.Candidate":940,"BiharElectionsLibrary.Candidate":752,"BiharElectionsLibrary.Candidate":590,"BiharElectionsLibrary.Candidate":544},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":234,"Name":"wazirganj"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":38893,"BiharElectionsLibrary.Candidate":21127,"BiharElectionsLibrary.Candidate":13693,"BiharElectionsLibrary.Candidate":10394,"BiharElectionsLibrary.Candidate":8377,"BiharElectionsLibrary.Candidate":7043,"BiharElectionsLibrary.Candidate":5919,"BiharElectionsLibrary.Candidate":4173,"BiharElectionsLibrary.Candidate":2442,"BiharElectionsLibrary.Candidate":2308,"BiharElectionsLibrary.Candidate":1620,"BiharElectionsLibrary.Candidate":1173,"BiharElectionsLibrary.Candidate":1093,"BiharElectionsLibrary.Candidate":853,"BiharElectionsLibrary.Candidate":839,"BiharElectionsLibrary.Candidate":829,"BiharElectionsLibrary.Candidate":780,"BiharElectionsLibrary.Candidate":517},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":235,"Name":"rajauli"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":51020,"BiharElectionsLibrary.Candidate":36930,"BiharElectionsLibrary.Candidate":6299,"BiharElectionsLibrary.Candidate":4949,"BiharElectionsLibrary.Candidate":2639,"BiharElectionsLibrary.Candidate":1460,"BiharElectionsLibrary.Candidate":1336,"BiharElectionsLibrary.Candidate":1140,"BiharElectionsLibrary.Candidate":730,"BiharElectionsLibrary.Candidate":604,"BiharElectionsLibrary.Candidate":546,"BiharElectionsLibrary.Candidate":474},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":236,"Name":"hisua"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":43110,"BiharElectionsLibrary.Candidate":39132,"BiharElectionsLibrary.Candidate":20820,"BiharElectionsLibrary.Candidate":4540,"BiharElectionsLibrary.Candidate":4035,"BiharElectionsLibrary.Candidate":3818,"BiharElectionsLibrary.Candidate":2507,"BiharElectionsLibrary.Candidate":1797,"BiharElectionsLibrary.Candidate":1690,"BiharElectionsLibrary.Candidate":1093,"BiharElectionsLibrary.Candidate":860,"BiharElectionsLibrary.Candidate":562,"BiharElectionsLibrary.Candidate":466},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":237,"Name":"nawada"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":46568,"BiharElectionsLibrary.Candidate":40231,"BiharElectionsLibrary.Candidate":16018,"BiharElectionsLibrary.Candidate":3766,"BiharElectionsLibrary.Candidate":2334,"BiharElectionsLibrary.Candidate":2136,"BiharElectionsLibrary.Candidate":1713,"BiharElectionsLibrary.Candidate":1631,"BiharElectionsLibrary.Candidate":1254,"BiharElectionsLibrary.Candidate":1123,"BiharElectionsLibrary.Candidate":686,"BiharElectionsLibrary.Candidate":444,"BiharElectionsLibrary.Candidate":321,"BiharElectionsLibrary.Candidate":298,"BiharElectionsLibrary.Candidate":274,"BiharElectionsLibrary.Candidate":222},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":238,"Name":"gobindpur"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":45589,"BiharElectionsLibrary.Candidate":24702,"BiharElectionsLibrary.Candidate":12284,"BiharElectionsLibrary.Candidate":2802,"BiharElectionsLibrary.Candidate":2640,"BiharElectionsLibrary.Candidate":2557,"BiharElectionsLibrary.Candidate":1979,"BiharElectionsLibrary.Candidate":1722,"BiharElectionsLibrary.Candidate":1333,"BiharElectionsLibrary.Candidate":1268,"BiharElectionsLibrary.Candidate":849,"BiharElectionsLibrary.Candidate":835,"BiharElectionsLibrary.Candidate":803,"BiharElectionsLibrary.Candidate":715},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":239,"Name":"warsaliganj"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":42381,"BiharElectionsLibrary.Candidate":36953,"BiharElectionsLibrary.Candidate":11181,"BiharElectionsLibrary.Candidate":10406,"BiharElectionsLibrary.Candidate":6333,"BiharElectionsLibrary.Candidate":4325,"BiharElectionsLibrary.Candidate":3186,"BiharElectionsLibrary.Candidate":1249,"BiharElectionsLibrary.Candidate":1247,"BiharElectionsLibrary.Candidate":1210,"BiharElectionsLibrary.Candidate":1098,"BiharElectionsLibrary.Candidate":708,"BiharElectionsLibrary.Candidate":584},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":240,"Name":"sikandra"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":39829,"BiharElectionsLibrary.Candidate":27468,"BiharElectionsLibrary.Candidate":8888,"BiharElectionsLibrary.Candidate":7499,"BiharElectionsLibrary.Candidate":3704,"BiharElectionsLibrary.Candidate":3625,"BiharElectionsLibrary.Candidate":3283,"BiharElectionsLibrary.Candidate":2814,"BiharElectionsLibrary.Candidate":2260,"BiharElectionsLibrary.Candidate":2020,"BiharElectionsLibrary.Candidate":1412,"BiharElectionsLibrary.Candidate":1022},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":241,"Name":"jamui"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":60130,"BiharElectionsLibrary.Candidate":35663,"BiharElectionsLibrary.Candidate":11687,"BiharElectionsLibrary.Candidate":4639,"BiharElectionsLibrary.Candidate":2502,"BiharElectionsLibrary.Candidate":1718,"BiharElectionsLibrary.Candidate":1624,"BiharElectionsLibrary.Candidate":1242,"BiharElectionsLibrary.Candidate":1168,"BiharElectionsLibrary.Candidate":852,"BiharElectionsLibrary.Candidate":558},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":242,"Name":"jhajha"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":48080,"BiharElectionsLibrary.Candidate":37876,"BiharElectionsLibrary.Candidate":8736,"BiharElectionsLibrary.Candidate":8286,"BiharElectionsLibrary.Candidate":4430,"BiharElectionsLibrary.Candidate":3066,"BiharElectionsLibrary.Candidate":2927,"BiharElectionsLibrary.Candidate":1781,"BiharElectionsLibrary.Candidate":1664,"BiharElectionsLibrary.Candidate":1475,"BiharElectionsLibrary.Candidate":968,"BiharElectionsLibrary.Candidate":947,"BiharElectionsLibrary.Candidate":772,"BiharElectionsLibrary.Candidate":770,"BiharElectionsLibrary.Candidate":607,"BiharElectionsLibrary.Candidate":604,"BiharElectionsLibrary.Candidate":580,"BiharElectionsLibrary.Candidate":541},"TotalVotes":0,"NOTA":0},{"Constituency":{"Booths":null,"PC":null,"Neighbors":null,"Category":0,"No":243,"Name":"chakai"},"YearOfElection":2010,"Votes":{"BiharElectionsLibrary.Candidate":21809,"BiharElectionsLibrary.Candidate":21621,"BiharElectionsLibrary.Candidate":20261,"BiharElectionsLibrary.Candidate":16427,"BiharElectionsLibrary.Candidate":8506,"BiharElectionsLibrary.Candidate":4614,"BiharElectionsLibrary.Candidate":4302,"BiharElectionsLibrary.Candidate":3508,"BiharElectionsLibrary.Candidate":2729,"BiharElectionsLibrary.Candidate":1798,"BiharElectionsLibrary.Candidate":1355,"BiharElectionsLibrary.Candidate":1329},"TotalVotes":0,"NOTA":0}]
+[
+	{
+		"Id": 1,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 2,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 3,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 4,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 5,
+		"WinningColor": "black"
+	},
+	{
+		"Id": 6,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 7,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 8,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 9,
+		"WinningColor": "black"
+	},
+	{
+		"Id": 10,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 11,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 12,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 13,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 14,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 15,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 16,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 17,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 18,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 19,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 20,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 21,
+		"WinningColor": "black"
+	},
+	{
+		"Id": 22,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 23,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 24,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 25,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 26,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 27,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 28,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 29,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 30,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 31,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 32,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 33,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 34,
+		"WinningColor": "darkgreen"
+	},
+	{
+		"Id": 35,
+		"WinningColor": "darkgreen"
+	},
+	{
+		"Id": 36,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 37,
+		"WinningColor": "darkgreen"
+	},
+	{
+		"Id": 38,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 39,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 40,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 41,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 42,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 43,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 44,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 45,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 46,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 47,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 48,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 49,
+		"WinningColor": "yellow"
+	},
+	{
+		"Id": 50,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 51,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 52,
+		"WinningColor": "blue"
+	},
+	{
+		"Id": 53,
+		"WinningColor": "yellow"
+	},
+	{
+		"Id": 54,
+		"WinningColor": "blue"
+	},
+	{
+		"Id": 55,
+		"WinningColor": "darkgreen"
+	},
+	{
+		"Id": 56,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 57,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 58,
+		"WinningColor": "blue"
+	},
+	{
+		"Id": 59,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 60,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 61,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 62,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 63,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 64,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 65,
+		"WinningColor": "black"
+	},
+	{
+		"Id": 66,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 67,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 68,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 69,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 70,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 71,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 72,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 73,
+		"WinningColor": "darkgreen"
+	},
+	{
+		"Id": 74,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 75,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 76,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 77,
+		"WinningColor": "darkgreen"
+	},
+	{
+		"Id": 78,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 79,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 80,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 81,
+		"WinningColor": "darkgreen"
+	},
+	{
+		"Id": 82,
+		"WinningColor": "darkgreen"
+	},
+	{
+		"Id": 83,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 84,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 85,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 86,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 87,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 88,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 89,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 90,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 91,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 92,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 93,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 94,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 95,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 96,
+		"WinningColor": "darkgreen"
+	},
+	{
+		"Id": 97,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 98,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 99,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 100,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 101,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 102,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 103,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 104,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 105,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 106,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 107,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 108,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 109,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 110,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 111,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 112,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 113,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 114,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 115,
+		"WinningColor": "darkgreen"
+	},
+	{
+		"Id": 116,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 117,
+		"WinningColor": "darkgreen"
+	},
+	{
+		"Id": 118,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 119,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 120,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 121,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 122,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 123,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 124,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 125,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 126,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 127,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 128,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 129,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 130,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 131,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 132,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 133,
+		"WinningColor": "darkgreen"
+	},
+	{
+		"Id": 134,
+		"WinningColor": "darkgreen"
+	},
+	{
+		"Id": 135,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 136,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 137,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 138,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 139,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 140,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 141,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 142,
+		"WinningColor": "red"
+	},
+	{
+		"Id": 143,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 144,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 145,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 146,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 147,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 148,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 149,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 150,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 151,
+		"WinningColor": "darkgreen"
+	},
+	{
+		"Id": 152,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 153,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 154,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 155,
+		"WinningColor": "blue"
+	},
+	{
+		"Id": 156,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 157,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 158,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 159,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 160,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 161,
+		"WinningColor": "darkgreen"
+	},
+	{
+		"Id": 162,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 163,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 164,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 165,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 166,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 167,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 168,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 169,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 170,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 171,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 172,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 173,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 174,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 175,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 176,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 177,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 178,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 179,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 180,
+		"WinningColor": "darkgreen"
+	},
+	{
+		"Id": 181,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 182,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 183,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 184,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 185,
+		"WinningColor": "darkgreen"
+	},
+	{
+		"Id": 186,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 187,
+		"WinningColor": "darkgreen"
+	},
+	{
+		"Id": 188,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 189,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 190,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 191,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 192,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 193,
+		"WinningColor": "darkgreen"
+	},
+	{
+		"Id": 194,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 195,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 196,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 197,
+		"WinningColor": "darkgreen"
+	},
+	{
+		"Id": 198,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 199,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 200,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 201,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 202,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 203,
+		"WinningColor": "darkgreen"
+	},
+	{
+		"Id": 204,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 205,
+		"WinningColor": "yellow"
+	},
+	{
+		"Id": 206,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 207,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 208,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 209,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 210,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 211,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 212,
+		"WinningColor": "black"
+	},
+	{
+		"Id": 213,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 214,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 215,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 216,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 217,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 218,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 219,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 220,
+		"WinningColor": "black"
+	},
+	{
+		"Id": 221,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 222,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 223,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 224,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 225,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 226,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 227,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 228,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 229,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 230,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 231,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 232,
+		"WinningColor": "darkgreen"
+	},
+	{
+		"Id": 233,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 234,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 235,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 236,
+		"WinningColor": "orange"
+	},
+	{
+		"Id": 237,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 238,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 239,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 240,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 241,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 242,
+		"WinningColor": "green"
+	},
+	{
+		"Id": 243,
+		"WinningColor": "purple"
+	}
+]

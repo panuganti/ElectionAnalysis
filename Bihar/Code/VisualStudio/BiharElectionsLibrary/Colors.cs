@@ -17,13 +17,21 @@ namespace BiharElectionsLibrary
         [DataMember]
         public string Color { get; set; }
 
+        private static List<Colors> _colors {get; set;}
+        public static string GetColor(string name)
+        {
+            if (_colors == null) { LoadColors();}
+            return _colors.First(t => t.Name.ToLower() == name.ToLower()).Color;
+        }
+
         public static List<Colors> LoadColors()
         {
             var lines = File.ReadAllLines("./Legend.txt");
-            return lines.Select(t => 
+            _colors =  lines.Select(t => 
             {
                 var parts = t.Split('\t'); return new Colors { Name = parts[0], Color = parts[1] };
             }).ToList();
+            return _colors;
         }
     }
 }

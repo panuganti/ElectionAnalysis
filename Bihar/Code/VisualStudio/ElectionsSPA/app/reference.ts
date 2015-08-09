@@ -3,9 +3,13 @@
 
 //grunt-start
 /// <reference path="directives/testme.html.ts" />
+/// <reference path="controllers/AcStyleMap.ts" />
+/// <reference path="controllers/Alliance.ts" />
 /// <reference path="controllers/BiharMap.ts" />
+/// <reference path="controllers/Constituency.ts" />
 /// <reference path="controllers/DataLoader.ts" />
 /// <reference path="controllers/MainController.ts" />
+/// <reference path="controllers/Party.ts" />
 /// <reference path="controllers/TestController.ts" />
 /// <reference path="directives/testme.ts" />
 /// <reference path="directives/topojson.d.ts" />

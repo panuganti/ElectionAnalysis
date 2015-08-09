@@ -1,5 +1,5 @@
-module Controllers{
-    export class MainController{
+module Controllers {
+    export class MainControl {
         message = "asdf";
         constructor($scope,logService:LogService){
             $scope.vm = this;

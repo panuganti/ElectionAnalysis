@@ -811,6 +811,9 @@
     <TypeScriptCompile Include="Scripts\typings\googlemaps\google.maps.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\jquery\jquery.d.ts" />
     <TypeScriptCompile Include="app\topojson.d.ts" />
+    <TypeScriptCompile Include="Scripts\typings\linq\linq.3.0.3-Beta4.d.ts" />
+    <TypeScriptCompile Include="Scripts\typings\linq\linq.d.ts" />
+    <TypeScriptCompile Include="Scripts\typings\linq\linq.jquery.d.ts" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

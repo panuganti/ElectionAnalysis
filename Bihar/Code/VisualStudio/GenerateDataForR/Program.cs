@@ -6,9 +6,19 @@ using System.Linq;
 using BiharElectionsLibrary;
 using GenerateDataForR;
 using Newtonsoft.Json;
+using System.Runtime.Serialization;
 
 namespace GetBihar2010Results
 {
+    [DataContract]
+    public class ConstituencyResult
+    {
+        [DataMember]
+        public int Id { get; set; }
+        [DataMember]
+        public string WinningColor { get; set; }
+    }
+
     class Program
     {
         private static void Main(string[] args)
@@ -17,10 +27,12 @@ namespace GetBihar2010Results
         }
 
 
-
         private static void CustomExecution(List<AssemblyConstituencyResult> results)
         {
-            File.WriteAllText("./results2010.json", JsonConvert.SerializeObject(results));
+            File.WriteAllText("./results2010.json", JsonConvert.SerializeObject(results.Select(t=> new ConstituencyResult {
+                Id = t.Constituency.No,
+                WinningColor = Colors.GetColor(t.GetWinningParty().ToString())
+            })));
         }
 
         private static void Startup()
