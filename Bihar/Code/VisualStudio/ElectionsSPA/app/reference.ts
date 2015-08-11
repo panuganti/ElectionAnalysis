@@ -13,6 +13,7 @@
 /// <reference path="controllers/TestController.ts" />
 /// <reference path="directives/testme.ts" />
 /// <reference path="directives/topojson.d.ts" />
+/// <reference path="models/map.ts" />
 /// <reference path="services/ColorService.ts" />
 /// <reference path="services/LogService.ts" />
 /// <reference path="vendor.d.ts" />

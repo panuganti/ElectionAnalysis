@@ -10,17 +10,16 @@ module Controllers {
         private infoDiv: HTMLElement;
         private dataloader: DataLoader;
         private map: google.maps.Map;
-        private mapOptions: google.maps.MapOptions;
         private colors: string[];
         private topojson: any;
         private defaultCenter: google.maps.LatLng;
         private geocoder: google.maps.Geocoder;
         private defaultColorMap: AcStyleMap; 
+        private mapInstance: Models.Map;
 
         public load2010ResultsHandler: { (response: any) } = (response) => this.load2010ResultsCallback(response);
         public mouseOverHandler: { (event: any): void } = (event) => this.mouseOver(event);
         public mouseClickHandler: { (event: any): void } = (event) => this.mouseClick(event);
-        public loadGeoJson: { (data: any): void } = (data) => this.addGeoJson(data);
         public getStyleCallback: { (feature: google.maps.Data.StyleOptions): void }
         = (feature) => this.getStyle(feature);
 
@@ -29,21 +28,15 @@ module Controllers {
         constructor($scope, $http) {
             $scope.vm = this;
             this.http = $http;
-            this.mapDiv = document.getElementById('mapCanvas');
+            this.mapInstance = Models.Map.Instance;
+            this.mapDiv = this.mapInstance.MapDiv;
             this.infoDiv = document.getElementById('info');
             this.dataloader = new DataLoader(this.http);
             this.initialize();
         }
         
         initialize() {
-            this.mapOptions = {
-                zoom: 7,
-                center: this.defaultCenter,
-                mapTypeId: google.maps.MapTypeId.TERRAIN,
-                minZoom: 4,
-                disableDefaultUI: true
-            };
-            this.map = new google.maps.Map(this.mapDiv, this.mapOptions);
+            this.map = this.mapInstance.Map;
             this.geocoder = new google.maps.Geocoder();
             this.geocode("Patna, Bihar, India");
             this.loadGeoData();
@@ -98,25 +91,7 @@ module Controllers {
 
         loadGeoData() {
             console.log("Loading geo data...");
-            this.dataloader.getACTopoShapeFile(this.loadGeoJson);
-        }
-
-        addGeoJson(data: any) {
-            // Note: remember to clear map (refer shape escape website)
-            var parentThis = this;
-            this.topojson = data;
-            if (data.objects) { //topojson
-                $.each(data.objects, (i, layer) => {
-                    var geojson = topojson.feature(data, layer);
-                    parentThis.map.data.addGeoJson(geojson);
-                });
-                console.log("Loading completed");
-            } 
-            // Add changes and event handlers
-            this.map.setZoom(8);
-            // TODO: Set styles/colors
-            this.addEventHandler('mouseover', this.mouseOverHandler);
-            this.addEventHandler('mouseclick', this.mouseClickHandler);
+            this.dataloader.getACTopoShapeFile(this.mapInstance.loadGeoJson);
         }
 
         addEventHandler(eventType: string, callback: (ev: Event) => any) {
