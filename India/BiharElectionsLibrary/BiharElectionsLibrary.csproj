@@ -44,31 +44,33 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Candidate.cs" />
-    <Compile Include="CasteUtils.cs" />
-    <Compile Include="CensusTownParameters.cs" />
-    <Compile Include="Colors.cs" />
+    <Compile Include="Hierarchy\Candidate.cs" />
+    <Compile Include="Utils\CasteUtils.cs" />
+    <Compile Include="Census\CensusTownParameters.cs" />
+    <Compile Include="Utils\Colors.cs" />
     <Compile Include="DelimitationMapping.cs" />
-    <Compile Include="DistrictParameters.cs" />
-    <Compile Include="ElectionRegionHierarchy.cs" />
-    <Compile Include="AssemblyElectionResults.cs" />
-    <Compile Include="EnumExtensions.cs" />
-    <Compile Include="Enums.cs" />
-    <Compile Include="ExitPoll.cs" />
-    <Compile Include="LookUps.cs" />
-    <Compile Include="MunicipalParameters.cs" />
+    <Compile Include="Census\DistrictParameters.cs" />
+    <Compile Include="Hierarchy\ElectionRegionHierarchy.cs" />
+    <Compile Include="Results\AssemblyElectionResults.cs" />
+    <Compile Include="Utils\EnumExtensions.cs" />
+    <Compile Include="Hierarchy\Enums.cs" />
+    <Compile Include="CVoter\ExitPoll.cs" />
+    <Compile Include="Utils\LookUps.cs" />
+    <Compile Include="Census\MunicipalParameters.cs" />
     <Compile Include="MuslimPopulationData.cs" />
     <Compile Include="OutputData.cs" />
-    <Compile Include="ParameterDictionaries.cs" />
-    <Compile Include="PhoneticHash.cs" />
-    <Compile Include="QualitativeData.cs" />
-    <Compile Include="RegionParameters.cs" />
-    <Compile Include="ShapeFileData.cs" />
-    <Compile Include="SurveyResponse.cs" />
-    <Compile Include="Utils.cs" />
-    <Compile Include="VillageParameters.cs" />
+    <Compile Include="Census\ParameterDictionaries.cs" />
+    <Compile Include="Utils\PhoneticHash.cs" />
+    <Compile Include="CVoter\QualitativeData.cs" />
+    <Compile Include="Utils\PCResultsLoader.cs" />
+    <Compile Include="Census\RegionParameters.cs" />
+    <Compile Include="Hierarchy\ShapeFileData.cs" />
+    <Compile Include="CVoter\SurveyResponse.cs" />
+    <Compile Include="Utils\Utils.cs" />
+    <Compile Include="Census\VillageParameters.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Conflators\" />
     <Folder Include="Properties\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

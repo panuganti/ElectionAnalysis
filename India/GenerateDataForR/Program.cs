@@ -50,6 +50,7 @@ namespace GetBihar2010Results
             string AC2010 = Path.Combine(rootDir, ConfigurationManager.AppSettings["2010ACWiseResults"]);
             string AC2009 = Path.Combine(rootDir, ConfigurationManager.AppSettings["2009ACWiseResults"]);
             string AC2005 = Path.Combine(rootDir, ConfigurationManager.AppSettings["2005ACWiseResults"]);
+            string PC2015 = Path.Combine(rootDir, ConfigurationManager.AppSettings["2015PCResults"]);
 
             string Booth2014 = Path.Combine(rootDir, ConfigurationManager.AppSettings["2014PollingBoothWiseResults"]);
             string Booth2009 = Path.Combine(rootDir, ConfigurationManager.AppSettings["2009PollingBoothWiseResults"]);
@@ -103,6 +104,8 @@ namespace GetBihar2010Results
             #endregion Populate Info
 
             #region Load Results
+
+
             /*
             List<AssemblyConstituencyResult> results2005;
             if (bool.Parse(ConfigurationManager.AppSettings["LoadNonStateJsons"]) && File.Exists(results2005Store))
@@ -151,6 +154,8 @@ namespace GetBihar2010Results
                     JsonConvert.SerializeObject(results2014,
                         new JsonSerializerSettings {PreserveReferencesHandling = PreserveReferencesHandling.Objects}));
             }
+
+            var pcResults = PCResultsLoader.Load2015PCResults(PC2015, state);
 
             #endregion Load Results
 

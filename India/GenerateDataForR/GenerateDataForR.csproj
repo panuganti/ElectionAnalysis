@@ -34,7 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="HtmlAgilityPack">
-      <HintPath>..\..\ToolsAndLibraries\HtmlAgilityPack.1.4.6\Net40\HtmlAgilityPack.dll</HintPath>
+      <HintPath>..\ToolsAndLibraries\HtmlAgilityPack.1.4.6\Net40\HtmlAgilityPack.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\..\ToolsAndLibraries\Newtonsoft.Json.dll</HintPath>
