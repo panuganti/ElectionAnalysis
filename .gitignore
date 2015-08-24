@@ -3,39 +3,19 @@
 
 #Temporary... Only for VSCode
 ElectionsSPA/.tscache/
-India/
 US/
 CommonData/
 
 #Ignore rajkiran's old directories
 US/packages
-#Bihar/Code/VisualStudio/BiharViz/
-#Bihar/Code/VisualStudio/ScrapeElectoralRolls/Properties/
-#Bihar/Code/VisualStudio/node_modules/
 CommonData/
-#Bihar/Data/
-#Bihar/Code/VisualStudio/packages/
 US/Twitter/USElectionAnalysis/packages/
-#Bihar/Code/VisualStudio/ElectionsSPA/.*
 US/Twitter/USElectionAnalysis/GetTweetsOnATopic/Properties/
 US/Twitter/USElectionAnalysis/USElectionAnalysis/packages.config
 US/Twitter/USElectionAnalysis/USElectionAnalysis/App.config
 US/Twitter/USElectionAnalysis/GetTweetsOnATopic/Properties/
-#Bihar/Code/VisualStudio/GenerateDataForR/App.config.bkp
-#Bihar/Code/VisualStudio/ScrapeElectoralRolls/App.config
-#Bihar/Code/VisualStudio/ScrapeKarnatakaCasteData/App.config
-#Bihar/Code/VisualStudio/ScrapeKarnatakaCasteData/Properties/
 US/Twitter/USElectionAnalysis/USElectionAnalysis/Properties/
-#Karnataka/
-#US/Twitter/USElectionAnalysis/GetTweetsOnATopic/App.config
 
-#added after sync with working files
-#Bihar/Code/VisualStudio/ElectionsSPA/app/directives/testme.html.ts
-#Bihar/Code/VisualStudio/ElectionsSPA/app/reference.ts
-#Bihar/Code/VisualStudio/ElectionsSPA/node_modules/
-#Bihar/Code/VisualStudio/ElectionsSPA/app/out.js
-#Bihar/Code/VisualStudio/ElectionsSPA/app/out.js.map
-#Bihar/Code/VisualStudio/ElectionsSPA/.tscache/
 
 # User-specific files
 *.suo
