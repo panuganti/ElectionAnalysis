@@ -645,28 +645,49 @@ namespace BiharElectionsLibrary
 
         public static PoliticalParty GetParty(string partyName)
         {
-            var partyNameLower = partyName.Replace("(","").Replace(")","").ToLower();
+            var partyNameLower = partyName.Replace("(", "").Replace(")", "").ToLower();
             PoliticalParty politicalParty;
             var parsed = Enum.TryParse(partyNameLower, true, out politicalParty);
+            if (parsed) return politicalParty;
 
-            if (!parsed)
+            switch (partyName)
             {
-                if (partyNameLower == "jd(u)" || partyNameLower == "jd u")
-                {
+                case "Bharatiya Janta Party":
+                    return PoliticalParty.bjp;
+                case "Janata Dal (United)":
                     return PoliticalParty.jdu;
-                }
-                if (partyNameLower.StartsWith("cp"))
-                {
+                case "Rashtriya Janata Dal":
+                    return PoliticalParty.rjd;
+                case "Communist Party Of India (MARXIST)":
+                case "Communist Party Of India (MARXIST-LENINIST) (LIBERATION)":
+                case "All India Forward Bloc":
                     return PoliticalParty.cpi;
-                }
-                if (partyNameLower.Contains("new") || partyNameLower.Contains("now"))
-                {
-                    //Console.WriteLine("Error for {0}", partyName);
-                    return PoliticalParty.Error;
-                }
-                return PoliticalParty.others;
+                case "Bahujan Samaj Party":
+                    return PoliticalParty.bsp;
+                case "Independent":
+                    return PoliticalParty.ind;
+                case "Aam Aadmi Party":
+                    return PoliticalParty.aap;
+                case "Samajwadi Party":
+                    return PoliticalParty.sp;
+                case "Lok Dal":
+                    return PoliticalParty.ld;
             }
-            return politicalParty;
+
+            if (partyNameLower == "jd(u)" || partyNameLower == "jd u")
+            {
+                return PoliticalParty.jdu;
+            }
+            if (partyNameLower.StartsWith("cp"))
+            {
+                return PoliticalParty.cpi;
+            }
+            if (partyNameLower.Contains("new") || partyNameLower.Contains("now"))
+            {
+                //Console.WriteLine("Error for {0}", partyName);
+                return PoliticalParty.Error;
+            }
+            return PoliticalParty.others;
         }
         
         public static ConstituencyCasteCategory GetCategory(string casteCategory)

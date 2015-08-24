@@ -58,6 +58,7 @@ namespace BiharElectionsLibrary
         ncp,
         aap,
         jmm,
+        ld,
         
         // Alliances
         nda,

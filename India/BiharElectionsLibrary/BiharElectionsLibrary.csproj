@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Conflators\ResultsConflator.cs" />
     <Compile Include="Hierarchy\Candidate.cs" />
     <Compile Include="Utils\CasteUtils.cs" />
     <Compile Include="Census\CensusTownParameters.cs" />
@@ -62,7 +63,7 @@
     <Compile Include="Census\ParameterDictionaries.cs" />
     <Compile Include="Utils\PhoneticHash.cs" />
     <Compile Include="CVoter\QualitativeData.cs" />
-    <Compile Include="Utils\PCResultsLoader.cs" />
+    <Compile Include="Utils\ResultsLoader.cs" />
     <Compile Include="Census\RegionParameters.cs" />
     <Compile Include="Hierarchy\ShapeFileData.cs" />
     <Compile Include="CVoter\SurveyResponse.cs" />
@@ -70,7 +71,6 @@
     <Compile Include="Census\VillageParameters.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Conflators\" />
     <Folder Include="Properties\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

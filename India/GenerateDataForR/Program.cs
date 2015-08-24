@@ -115,7 +115,7 @@ namespace GetBihar2010Results
             }
             else
             {
-                results2005 = AssemblyConstituencyResult.Load2005ResultsFromFile(AC2005);
+                results2005 = ResultsLoader.Load2005ResultsFromFile(AC2005);
                 File.WriteAllText(results2005Store,
                 JsonConvert.SerializeObject(results2005,
                 new JsonSerializerSettings
@@ -132,7 +132,7 @@ namespace GetBihar2010Results
             }
             else
             {
-                results2010 = AssemblyConstituencyResult.Load2010ResultsFromFile(AC2010);
+                results2010 = ResultsLoader.Load2010ResultsFromFile(AC2010);
                 File.WriteAllText(results2010Store,
                     JsonConvert.SerializeObject(results2010,
                         new JsonSerializerSettings {PreserveReferencesHandling = PreserveReferencesHandling.Objects}));
@@ -146,7 +146,7 @@ namespace GetBihar2010Results
             }
             else
             {
-                results2014 = AssemblyConstituencyResult.Load2014ResultsFromFile(AC2014);
+                results2014 = ResultsLoader.Load2014ResultsFromFile(AC2014);
                 var intList = state.ACs.Select(t => t.No).ToArray();
                 var resultList = results2014.Select(t => t.Constituency.No).ToArray();
                 var diffList = intList.Except(resultList).Select(t => state.ACs.First(x => x.No == t).PC.No).Distinct().ToArray();
@@ -155,7 +155,8 @@ namespace GetBihar2010Results
                         new JsonSerializerSettings {PreserveReferencesHandling = PreserveReferencesHandling.Objects}));
             }
 
-            var pcResults = PCResultsLoader.Load2015PCResults(PC2015, state);
+            var pcResults = ResultsLoader.Load2015PCResults(PC2015, state);
+            var results = ResultsConflator.Conflate2015Results(results2014, pcResults, state);
 
             #endregion Load Results
 
