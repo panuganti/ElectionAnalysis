@@ -8,11 +8,11 @@ ElectionsSPA/.tscache/
 US/packages
 CommonData/
 US/Twitter/USElectionAnalysis/packages/
-US/Twitter/USElectionAnalysis/GetTweetsOnATopic/Properties/
+#US/Twitter/USElectionAnalysis/GetTweetsOnATopic/Properties/
 US/Twitter/USElectionAnalysis/USElectionAnalysis/packages.config
 US/Twitter/USElectionAnalysis/USElectionAnalysis/App.config
-US/Twitter/USElectionAnalysis/GetTweetsOnATopic/Properties/
-US/Twitter/USElectionAnalysis/USElectionAnalysis/Properties/
+#US/Twitter/USElectionAnalysis/GetTweetsOnATopic/Properties/
+#US/Twitter/USElectionAnalysis/USElectionAnalysis/Properties/
 
 
 # User-specific files
