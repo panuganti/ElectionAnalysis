@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using HtmlAgilityPack;
 using System.Net;
 using System.IO.Compression;
 using System.IO;
@@ -14,19 +9,35 @@ namespace ScrapeIndiaVotes
     {
         static void Main(string[] args)
         {
-            int startPC = 7824;
-            int electionId = 16;
-            int stateId = 58;
-            string dirPath = @"J:\ArchishaData\ElectionData\RawData\IndiaVotes";
+            const int startPC = 7824;
+            const int electionId = 16;
+            const int stateId = 58;
+            const string dirPath = @"I:\ArchishaData\ElectionData\RawData\IndiaVotes";
+            ParseACWiseIndiaVotesPage.ParsePage("");
+            /*
             for(int pcNo = 1; pcNo<=40; pcNo++)
             {
-                File.WriteAllText(String.Format(@"{0}\\{1}_{2}_{3}.html", dirPath, electionId, stateId, pcNo), GetPostResponse(pcNo, startPC, electionId, stateId));
+                //File.WriteAllText(String.Format(@"{0}\\{1}_{2}_{3}.html", dirPath, electionId, stateId, pcNo), GetPCResult(pcNo, startPC, electionId, stateId));
+                File.WriteAllText(String.Format(@"{0}\\AcWise\\{1}_{2}_{3}.html", dirPath, electionId, stateId, pcNo), GetACWiseResultsOfPC(pcNo, startPC, electionId, stateId));
             }
+            */
+
         }
 
-        public static string GetPostResponse(int pcNo, int startPC, int electionId, int stateId)
+        public static string GetPCResult(int pcNo, int startPC, int electionId, int stateId)
         {
-            var request = (HttpWebRequest)WebRequest.Create(String.Format("http://www.indiavotes.com/pc/detail/{0}/{1}/{2}", startPC + pcNo, stateId, electionId));
+            return ScrapeIndiaVotes(String.Format("http://www.indiavotes.com/pc/detail/{0}/{1}/{2}", startPC + pcNo, stateId, electionId));
+        }
+
+        public static string GetACWiseResultsOfPC(int pcNo, int startPC, int electionId, int stateId)
+        {
+            return ScrapeIndiaVotes(String.Format("http://www.indiavotes.com/pc/acwisedetails/{0}/{1}/{2}", stateId, startPC + pcNo, electionId));
+        }
+
+
+        public static string ScrapeIndiaVotes(string scrapeUrl)
+        {
+            var request = (HttpWebRequest)WebRequest.Create(scrapeUrl);
             request.Headers.Add("Accept-Encoding", "gzip, deflate");
             request.Headers.Add("X-Requested-With", "XMLHttpRequest");
             request.Host = "www.indiavotes.com";

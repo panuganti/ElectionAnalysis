@@ -6,6 +6,9 @@ module.exports = function (grunt) {
     // Configure grunt here
     grunt.initConfig({
         ts: {
+            options: {
+               compiler: './node_modules/typescript/bin/tsc'  
+            },
             dev: {                          // a particular target
                 src: ["app/**/*.ts"], // The source typescript files, http://gruntjs.com/configuring-tasks#files
                 html: ["app/**/*.html"], // The source html files, https://github.com/basarat/grunt-ts#html-2-typescript-support
