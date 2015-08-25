@@ -3,6 +3,7 @@
 
 #Temporary... Only for VSCode
 ElectionsSPA/.tscache/
+ElectionsSPA/node_modules/
 
 #Ignore rajkiran's old directories
 US/packages
