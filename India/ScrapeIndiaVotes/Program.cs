@@ -39,10 +39,6 @@ namespace ScrapeIndiaVotes
             request.Headers.Add("X-Requested-With", "XMLHttpRequest");
             request.Host = "www.indiavotes.com";
 
-            /* Write body data to requestStream
-            Stream dataStream = request.GetRequestStream();
-            dataStream.Close();
-             */
             try
             {
                 // Get the response.
