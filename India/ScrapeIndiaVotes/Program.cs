@@ -12,14 +12,13 @@ namespace ScrapeIndiaVotes
             const int startPC = 7824;
             const int electionId = 16;
             const int stateId = 58;
-            const string dirPath = @"D:\ArchishaData\ElectionData\RawData\IndiaVotes";
+            const string dirPath = @"I:\ArchishaData\ElectionData\RawData\IndiaVotes";
 
             for(int pcNo = 1; pcNo<=40; pcNo++)
             {
                 string filename = String.Format(@"{0}\\AcWise\\{1}_{2}_{3}.html", dirPath, electionId, stateId, pcNo);
                 ParseACWiseIndiaVotesPage.ParsePage(filename, Path.Combine(dirPath, "AcWise"));
             }
-
         }
 
         public static string GetPCResult(int pcNo, int startPC, int electionId, int stateId)

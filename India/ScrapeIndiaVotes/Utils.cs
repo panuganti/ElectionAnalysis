@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using HtmlAgilityPack;
 
 namespace ScrapeIndiaVotes
@@ -18,11 +15,14 @@ namespace ScrapeIndiaVotes
                 table.Headers = node.Descendants("th").Select(t=>t.InnerText).ToList();
             }
 
-            var rowNodes = node.Descendants("tr");
+            var rowNodes = node.Descendants("tbody").First().ChildNodes;
             table.Rows = new List<List<string>>();
             foreach (var rowNode in rowNodes)
             {
-                table.Rows.Add(rowNode.Descendants("td").Select(t => t.InnerText).ToList());
+                if (rowNode.Name == "tr")
+                {
+                    table.Rows.Add(rowNode.Descendants("td").Select(t => t.InnerText).ToList());
+                }
             }
             return table;
         }

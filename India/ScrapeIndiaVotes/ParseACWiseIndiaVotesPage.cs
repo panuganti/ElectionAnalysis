@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Text.RegularExpressions;
 using HtmlAgilityPack;
 
 namespace ScrapeIndiaVotes
@@ -17,20 +18,18 @@ namespace ScrapeIndiaVotes
             var m1Div = doc.GetElementbyId("m1");
             var allTableNodes = m1Div.Descendants("table").ToArray();
             // Alternative tables .. one of class grid and another grid sortable
-            for (int i=0; i<allTableNodes.Count()/2; i++)
+            for (int i = 0; i < allTableNodes.Count() / 2; i++)
             {
-                var filename = Path.Combine(dirPath, String.Format("{0}.txt", ParseGridTable(allTableNodes[i * 2])));
+                var filename = Path.Combine(dirPath, String.Format("{0}.txt", ParseGridTable(allTableNodes[i*2])));
                 ParseGridSortableTable(allTableNodes[i*2 + 1], filename);
             }
-
         }
 
         private static string ParseGridTable(HtmlNode gridNode)
         {
+            var regex = new Regex(@"AC Name: ([a-zA-z\(\)\s]+)");
             var nodes = gridNode.Descendants("td").ToArray();
-            var acName = nodes[0].InnerText;
-            var totalAcVotes = nodes[1].InnerText;
-            return acName;
+            return regex.Match(nodes[0].InnerText).Groups[1].Value; 
         }
 
         private static void ParseGridSortableTable(HtmlNode gridSortableNode, string filename)
