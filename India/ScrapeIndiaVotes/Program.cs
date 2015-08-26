@@ -10,16 +10,23 @@ namespace ScrapeIndiaVotes
         static void Main(string[] args)
         {
             const int startPC = 7824;
-            const int electionId = 16;
+            const int electionId = 212;
             const int stateId = 58;
             const string dirPath = @"I:\ArchishaData\ElectionData\RawData\IndiaVotes";
-            const string outDir = @"I:\ArchishaData\ElectionData\Bihar\Results\2014ACWise";
+            const string outDir = @"I:\ArchishaData\ElectionData\RawData\IndiaVotes\2010BiharAC\";
 
-            for(int pcNo = 1; pcNo<=40; pcNo++)
+            for(int acNo = 1; acNo<=243; acNo++)
             {
-                string filename = String.Format(@"{0}\\AcWise\\{1}_{2}_{3}.html", dirPath, electionId, stateId, pcNo);
-                ParseACWiseIndiaVotesPage.ParsePage(filename, Path.Combine(outDir, "AcWise"));
+                var response = GetACResult(stateId, electionId, acNo, 31403);
+                string filename = String.Format(@"{0}\\{1}_{2}_{3}.html", outDir, electionId, stateId, acNo);
+                File.WriteAllText(filename,response);
+                //ParseACWiseIndiaVotesPage.ParsePage(filename, Path.Combine(outDir, "AcWise"));
             }
+        }
+
+        public static string GetACResult(int stateId, int electionId, int acNo, int startAC)
+        {
+            return ScrapeIndiaVotes(String.Format("http://www.indiavotes.com/ac/details/{0}/{1}/{2}", stateId, startAC + acNo, electionId));            
         }
 
         public static string GetPCResult(int pcNo, int startPC, int electionId, int stateId)
