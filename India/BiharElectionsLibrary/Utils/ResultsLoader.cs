@@ -3,19 +3,17 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BiharElectionsLibrary
 {
     public static class ResultsLoader
     {
-        public static List<ParliamentaryConstituencyResult> Load2015PCResults(string dirPath, State state)
+        public static List<PCResult> Load2015PCResults(string dirPath, State state)
         {
-            var results = new List<ParliamentaryConstituencyResult>();
+            var results = new List<PCResult>();
             for(int pcNo=1; pcNo<=40; pcNo++)
             {
-                var result = new ParliamentaryConstituencyResult();
+                var result = new PCResult();
                 string fileName = Path.Combine(dirPath,String.Format("{0}.tsv",pcNo));
                 string[] lines = File.ReadAllLines(fileName);
                 string[] headers = lines[0].Split('\t');
@@ -38,9 +36,9 @@ namespace BiharElectionsLibrary
 
 
         #region Load 2010 Results
-        public static List<AssemblyConstituencyResult> Load2010ResultsFromFile(string filename)
+        public static List<ACResult> Load2010ResultsFromFile(string filename)
         {
-            var all2010Results = new List<AssemblyConstituencyResult>();
+            var all2010Results = new List<ACResult>();
             string[] resultInfo = File.ReadAllLines(filename);
             for (int acNo = 1; acNo <= 243; acNo++)
             {
@@ -50,9 +48,9 @@ namespace BiharElectionsLibrary
             return all2010Results;
         }
 
-        public static AssemblyConstituencyResult Load2010ElectionResults(string[] constituencyResults)
+        public static ACResult Load2010ElectionResults(string[] constituencyResults)
         {
-            var result = new AssemblyConstituencyResult();
+            var result = new ACResult();
             bool first = true;
             foreach (
                 string[] columns in constituencyResults.Select(constituencyResult => constituencyResult.Split('\t')))
@@ -88,14 +86,14 @@ namespace BiharElectionsLibrary
         #endregion Load 2010 Results
 
         #region Load 2005 Results
-        public static List<AssemblyConstituencyResult> Load2005ResultsForAConstituency(string[] constituencyResults)
+        public static List<ACResult> Load2005ResultsForAConstituency(string[] constituencyResults)
         {
-            var results = new List<AssemblyConstituencyResult>();
+            var results = new List<ACResult>();
             bool first = true;
             int acNo = 0;
             foreach (var constituencyResult in constituencyResults)
             {
-                var newResult = new AssemblyConstituencyResult();
+                var newResult = new ACResult();
                 string[] cols = constituencyResult.Split('\t');
 
                 if (first)
@@ -142,9 +140,9 @@ namespace BiharElectionsLibrary
             return results;
         }
 
-        public static List<AssemblyConstituencyResult> Load2005ResultsFromFile(string filename)
+        public static List<ACResult> Load2005ResultsFromFile(string filename)
         {
-            var all2005Results = new List<AssemblyConstituencyResult>();
+            var all2005Results = new List<ACResult>();
             string[] resultInfo = File.ReadAllLines(filename).Skip(1).ToArray();
             bool first = true;
             string prevConstituencyName = "";
@@ -172,9 +170,9 @@ namespace BiharElectionsLibrary
 
         #region Load 2014 Results
 
-        public static List<AssemblyConstituencyResult> Load2014ResultsFromFile(string dirPath)
+        public static List<ACResult> Load2014ResultsFromFile(string dirPath)
         {
-            var results2014 = new List<AssemblyConstituencyResult>();
+            var results2014 = new List<ACResult>();
 
             var allFiles = Directory.GetFiles(dirPath);
             foreach (var file in allFiles)
@@ -188,7 +186,7 @@ namespace BiharElectionsLibrary
                     if (resultLine.StartsWith("Total")) { break; }
                     var cols = resultLine.Split('\t').Select(x => x.Trim('"')).ToArray();
 
-                    var assemblyResult = new AssemblyConstituencyResult()
+                    var assemblyResult = new ACResult()
                     {
                         Constituency =
                             new AssemblyConstituency()
@@ -220,6 +218,27 @@ namespace BiharElectionsLibrary
 
 
         #endregion Load 2014 Results
-    
+
+        #region Load 2014 results from IndiaVotes Data
+
+        public static List<ACResult> Load2014ResultsFromIndiaVotesData(string dirPath)
+        {
+            var results = new List<ACResult>();
+            var allFiles = Directory.GetFiles(dirPath);
+            foreach (var filename in allFiles)
+            {
+                var acName = filename.Split('.')[0];
+                var lines = File.ReadAllLines(filename).Skip(1);
+                var acResult = new ACResult()
+                {
+                    YearOfElection = 2014,
+                    Constituency = new AssemblyConstituency() {Name = acName}
+                    
+                }
+            }
+            return results;
+        }
+
+        #endregion Load 2014 results from IndiaVotes Data
     }
 }

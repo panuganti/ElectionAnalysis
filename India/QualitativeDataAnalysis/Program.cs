@@ -47,12 +47,12 @@ namespace QualitativeDataAnalysis
 
             // Build Qualitative Data
 
-            var results = new Dictionary<int, AssemblyConstituencyResult>();
+            var results = new Dictionary<int, ACResult>();
             var constituencies = new List<Constituency>();
             for (int acNo = 1; acNo <= 243; acNo++)
             {
                 int assemblyId = acNo;
-                var resultOfAConstituency = AssemblyConstituencyResult.Load2010ElectionResults(
+                var resultOfAConstituency = ACResult.Load2010ElectionResults(
                         resultInfo.Skip(1).Where(t => Int32.Parse(t.Split('\t')[5]) == assemblyId).ToArray());
                 results.Add(acNo,resultOfAConstituency);
                 var constituencyCandidatesInfo =
@@ -83,7 +83,7 @@ namespace QualitativeDataAnalysis
             }
 
             // Load Previous Results
-            var results2005 = AssemblyConstituencyResult.Load2005ResultsFromFile(bihar2005Results);
+            var results2005 = ACResult.Load2005ResultsFromFile(bihar2005Results);
 
             // Data Integrity Checks
             foreach (var constituency in constituencies)

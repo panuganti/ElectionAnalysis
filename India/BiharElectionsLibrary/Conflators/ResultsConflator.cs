@@ -1,15 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BiharElectionsLibrary
 {
     public class ResultsConflator
     {
-        public static List<AssemblyConstituencyResult> Conflate2015Results(
-            List<AssemblyConstituencyResult> ACResults, List<ParliamentaryConstituencyResult> PCResults,
+        public static List<ACResult> Conflate2015Results(
+            List<ACResult> ACResults, List<PCResult> PCResults,
             State state)
         {
             foreach (var result in ACResults)

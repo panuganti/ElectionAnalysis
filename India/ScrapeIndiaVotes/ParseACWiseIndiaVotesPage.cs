@@ -12,7 +12,9 @@ namespace ScrapeIndiaVotes
         public static void ParsePage(string htmlFile, string dirPath)
         {
             var doc = new HtmlWeb().Load(htmlFile);
-
+            var pcNameText = doc.DocumentNode.ChildNodes.First(t => t.Name == "h2").ChildNodes.First(t=>t.Name == "span").InnerText;
+            var regex = new Regex(@"([\w\s]+)2014");
+            var pcName = regex.Match(pcNameText).Groups[1].Value.Trim();
             // class f1 for overall # results
             // m1 for ac wise tables
             var m1Div = doc.GetElementbyId("m1");
@@ -20,7 +22,8 @@ namespace ScrapeIndiaVotes
             // Alternative tables .. one of class grid and another grid sortable
             for (int i = 0; i < allTableNodes.Count() / 2; i++)
             {
-                var filename = Path.Combine(dirPath, String.Format("{0}.txt", ParseGridTable(allTableNodes[i*2])));
+                var filename = Path.Combine(dirPath, String.Format("{0} {1}.txt", 
+                    ParseGridTable(allTableNodes[i*2]).Trim().Replace(" ","_"), pcName.Trim().Replace(" ","_")));
                 ParseGridSortableTable(allTableNodes[i*2 + 1], filename);
             }
         }
@@ -35,6 +38,10 @@ namespace ScrapeIndiaVotes
         private static void ParseGridSortableTable(HtmlNode gridSortableNode, string filename)
         {
             var table = Utils.ExtractTableFromDiv(gridSortableNode);
+            if (File.Exists(filename))
+            {
+                Console.Write("File already exists");
+            }
             using (var writer = new StreamWriter(filename))
             {
                 // Print header

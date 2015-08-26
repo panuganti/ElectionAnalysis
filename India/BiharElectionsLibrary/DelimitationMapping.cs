@@ -8,8 +8,8 @@ namespace BiharElectionsLibrary
     {
         public Dictionary<Constituency, Constituency> DelimitatioinMapping2010To2005 { get; set; }
 
-        public static DelimitationMapping GenerateDelimitationMapping(List<AssemblyConstituencyResult> results2010,
-            List<AssemblyConstituencyResult> results2005)
+        public static DelimitationMapping GenerateDelimitationMapping(List<ACResult> results2010,
+            List<ACResult> results2005)
         {
 
             var delimitationMapping = new Dictionary<Constituency, Constituency>();

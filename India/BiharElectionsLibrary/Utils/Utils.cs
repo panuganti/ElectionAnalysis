@@ -20,7 +20,7 @@ namespace BiharElectionsLibrary
         }
 
         public static string GetCandidatePositionRating(int acNo, string candidateName,
-            Dictionary<int, AssemblyConstituencyResult> results)
+            Dictionary<int, ACResult> results)
         {
             var constituencyResults = results[acNo];
 

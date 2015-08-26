@@ -27,7 +27,7 @@ namespace GetBihar2010Results
         }
 
 
-        private static void CustomExecution(List<AssemblyConstituencyResult> results)
+        private static void CustomExecution(List<ACResult> results)
         {
             File.WriteAllText("./results2010.json", JsonConvert.SerializeObject(results.Select(t=> new ConstituencyResult {
                 Id = t.Constituency.No,
@@ -107,11 +107,11 @@ namespace GetBihar2010Results
 
 
             /*
-            List<AssemblyConstituencyResult> results2005;
+            List<ACResult> results2005;
             if (bool.Parse(ConfigurationManager.AppSettings["LoadNonStateJsons"]) && File.Exists(results2005Store))
             {
                 var json = File.ReadAllText(results2005Store);
-                results2005 = JsonConvert.DeserializeObject<List<AssemblyConstituencyResult>>(json);                
+                results2005 = JsonConvert.DeserializeObject<List<ACResult>>(json);                
             }
             else
             {
@@ -124,11 +124,11 @@ namespace GetBihar2010Results
                 })); //
             }
 
-            List<AssemblyConstituencyResult> results2010;
+            List<ACResult> results2010;
             if (bool.Parse(ConfigurationManager.AppSettings["LoadNonStateJsons"]) && File.Exists(results2010Store))
             {
                 var json = File.ReadAllText(results2010Store);
-                results2010 = JsonConvert.DeserializeObject<List<AssemblyConstituencyResult>>(json);
+                results2010 = JsonConvert.DeserializeObject<List<ACResult>>(json);
             }
             else
             {
@@ -138,11 +138,11 @@ namespace GetBihar2010Results
                         new JsonSerializerSettings {PreserveReferencesHandling = PreserveReferencesHandling.Objects}));
             }
             */
-            List<AssemblyConstituencyResult> results2014;
+            List<ACResult> results2014;
             if (bool.Parse(ConfigurationManager.AppSettings["LoadNonStateJsons"]) && File.Exists(results2014Store))
             {
                 var json = File.ReadAllText(results2014Store);
-                results2014 = JsonConvert.DeserializeObject<List<AssemblyConstituencyResult>>(json);
+                results2014 = JsonConvert.DeserializeObject<List<ACResult>>(json);
             }
             else
             {
@@ -230,9 +230,9 @@ namespace GetBihar2010Results
                 @"E:\NMW\SurveyAnalytics\Bihar\Data\2014\Results_ACWise\InTsv";
 
             // Load all Files
-            var results2005 = AssemblyConstituencyResult.Load2005ResultsFromFile(fileWith2005Results);
-            var results2010 = AssemblyConstituencyResult.Load2010ResultsFromFile(fileWith2010Results);
-            var results2014 = AssemblyConstituencyResult.Load2014ResultsFromFile(dirWith2014Results);
+            var results2005 = ACResult.Load2005ResultsFromFile(fileWith2005Results);
+            var results2010 = ACResult.Load2010ResultsFromFile(fileWith2010Results);
+            var results2014 = ACResult.Load2014ResultsFromFile(dirWith2014Results);
             var stateHierarchy = State.LoadDivisionsAndDistrictsFromFile(stateDivisionsFilename);
             stateHierarchy.LoadPCsAndACs(acInfoFilename);
             */

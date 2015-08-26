@@ -1,20 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
 
 namespace BiharElectionsLibrary
 {
     [DataContract]
-    public class AssemblyConstituencyResult : ConstituencyResult
+    public class ACResult : ConstituencyResult
     {
         [DataMember]
         public AssemblyConstituency Constituency { get; set; }
     }
 
     [DataContract]
-    public class ParliamentaryConstituencyResult : ConstituencyResult
+    public class PCResult : ConstituencyResult
     {
         [DataMember]
         public ParliamentaryConstituency Constituency { get; set; }
@@ -57,14 +55,14 @@ namespace BiharElectionsLibrary
     public class AssemblyElectionResults : ElectionResults
     {
         [DataMember]
-        public List<AssemblyConstituencyResult> ConstituencyResults { get; set; }
+        public List<ACResult> ConstituencyResults { get; set; }
     }
 
     [DataContract]
     public class ParliamentaryElectionResults : ElectionResults
     {
         [DataMember]
-        public List<ParliamentaryConstituencyResult> ConstituencyResults { get; set; }
+        public List<PCResult> ConstituencyResults { get; set; }
     }
 
     [DataContract]
