@@ -108,7 +108,8 @@ namespace GetBihar2010Results
 
 
             var indiaVotesResults2014 = ResultsLoader.Load2014ResultsFromIndiaVotesData(indiaVotesResults);
-
+            var constPartyResults = indiaVotesResults2014.Select(t => new {Constituency = t.Constituency.Name, Party = t.GetWinningParty()}).ToArray();
+            File.WriteAllLines(@"E:\nmw\GitHub\ElectionAnalysis\India\GenerateDataForR\output.txt",constPartyResults.Select(t=>String.Format("{0}\t{1}",t.Constituency, t.Party)).ToArray());
             /*
             List<ACResult> results2005;
             if (bool.Parse(ConfigurationManager.AppSettings["LoadNonStateJsons"]) && File.Exists(results2005Store))

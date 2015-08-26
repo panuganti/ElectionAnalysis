@@ -652,12 +652,22 @@ namespace BiharElectionsLibrary
 
             switch (partyName)
             {
+                case "Indian National Congress":
+                    return PoliticalParty.inc;
                 case "Bharatiya Janta Party":
                     return PoliticalParty.bjp;
                 case "Janata Dal (United)":
                     return PoliticalParty.jdu;
                 case "Rashtriya Janata Dal":
                     return PoliticalParty.rjd;
+                case "Rashtriya Lok Samta Party":
+                    return PoliticalParty.rslp;
+                case "Lok Jan Shakti Party":
+                    return PoliticalParty.ljp;
+                case "Nationalist Congress Party":
+                    return PoliticalParty.ncp;
+                case "Communist Party Of India":
+                    return PoliticalParty.cpi;
                 case "Communist Party Of India (MARXIST)":
                 case "Communist Party Of India (MARXIST-LENINIST) (LIBERATION)":
                 case "All India Forward Bloc":
