@@ -79,6 +79,7 @@ namespace GetBihar2010Results
             string districtParamsJsonStore = Path.Combine(rootDir, ConfigurationManager.AppSettings["DistrictParamsJson"]);
             string censusTownParamsJsonStore = Path.Combine(rootDir, ConfigurationManager.AppSettings["CensusTownParamsJson"]);
             
+            string indiaVotesResults = Path.Combine(rootDir, ConfigurationManager.AppSettings["2014ACWiseResultsIndiaVotes"]);
             
             #endregion Config
 
@@ -105,6 +106,8 @@ namespace GetBihar2010Results
 
             #region Load Results
 
+
+            var indiaVotesResults2014 = ResultsLoader.Load2014ResultsFromIndiaVotesData(indiaVotesResults);
 
             /*
             List<ACResult> results2005;

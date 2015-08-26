@@ -227,14 +227,27 @@ namespace BiharElectionsLibrary
             var allFiles = Directory.GetFiles(dirPath);
             foreach (var filename in allFiles)
             {
-                var acName = filename.Split('.')[0];
+                var acPcName = Path.GetFileNameWithoutExtension(filename);
+                var acName = acPcName.Split(' ')[0];
+                var pcName = acPcName.Split(' ')[1];
                 var lines = File.ReadAllLines(filename).Skip(1);
-                var acResult = new ACResult()
+                var acResult = new ACResult
                 {
                     YearOfElection = 2014,
-                    Constituency = new AssemblyConstituency() {Name = acName}
-                    
+                    Constituency =
+                        new AssemblyConstituency {Name = acName, PC = new ParliamentaryConstituency() {Name = pcName}},
+                    Votes = new List<CandidateVotes>()
+                };
+                foreach (var line in lines)
+                {
+                    var parts = line.Split('\t');
+                    acResult.Votes.Add(new CandidateVotes()
+                    {
+                        Candidate = new Candidate {Name = parts[0], Party = Utils.GetParty(parts[1])},
+                        Votes = int.Parse(parts[2], NumberStyles.AllowThousands)
+                    });
                 }
+                results.Add(acResult);
             }
             return results;
         }
