@@ -34,6 +34,9 @@
   </PropertyGroup>
   -->
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\ToolsAndLibraries\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.Serialization" />
@@ -45,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Conflators\ResultsConflator.cs" />
+    <Compile Include="DataLoaders\HierarchyLoader.cs" />
     <Compile Include="Hierarchy\Candidate.cs" />
     <Compile Include="Utils\CasteUtils.cs" />
     <Compile Include="Census\CensusTownParameters.cs" />
@@ -63,7 +67,7 @@
     <Compile Include="Census\ParameterDictionaries.cs" />
     <Compile Include="Utils\PhoneticHash.cs" />
     <Compile Include="CVoter\QualitativeData.cs" />
-    <Compile Include="Utils\ResultsLoader.cs" />
+    <Compile Include="DataLoaders\ResultsLoader.cs" />
     <Compile Include="Census\RegionParameters.cs" />
     <Compile Include="Hierarchy\ShapeFileData.cs" />
     <Compile Include="CVoter\SurveyResponse.cs" />

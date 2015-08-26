@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.Text.RegularExpressions;
+using Newtonsoft.Json;
 
 namespace BiharElectionsLibrary
 {
@@ -14,10 +14,16 @@ namespace BiharElectionsLibrary
     public class AssemblyConstituency : Constituency
     {
         [DataMember]
+        [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
         public HashSet<PollingBooth> Booths { get; set; }
         [DataMember]
+        [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
         public ParliamentaryConstituency PC { get; set; }
         [DataMember]
+        [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
+        public District District { get; set; }
+        [DataMember]
+        [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
         public HashSet<AssemblyConstituency> Neighbors { get; set; }
 
         public IEnumerable<House> Houses
@@ -29,67 +35,27 @@ namespace BiharElectionsLibrary
         {
             get { return Houses.SelectMany(x => x.Voters); }
         }
-
-        public void Merge(AssemblyConstituency ac)
-        {
-            if (Name == null && ac.Name != null)
-            {
-                Name = ac.Name;
-            }
-            if (No == 0 && ac.No != 0)
-            {
-                No = ac.No;
-            }
-            if (ac.Category != ConstituencyCasteCategory.Error && Category == ConstituencyCasteCategory.Error)
-            {
-                Category = ac.Category;
-            }
-        }
     }
 
     [DataContract]
     public class ParliamentaryConstituency : Constituency
     {
         [DataMember]
+        [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
         public District District { get; set; }
         [DataMember]
-        public HashSet<AssemblyConstituency> Constituencies { get; set; }
+        [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
+        public HashSet<AssemblyConstituency> ACs { get; set; }
         [DataMember]
+        [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
         public HashSet<ParliamentaryConstituency> Neighbors { get; set; }
-
-        public void Merge(ParliamentaryConstituency pc)
-        {
-            if (Name == null && pc.Name != null)
-            {
-                Name = pc.Name;
-            }
-            if (No == 0 && pc.No != 0)
-            {
-                No = pc.No;
-            }
-            foreach (var constituency in pc.Constituencies)
-            {
-                if (Constituencies == null)
-                {
-                    Constituencies = new HashSet<AssemblyConstituency> { constituency };
-                }
-                if (!(Constituencies.Any(
-                    x => x.Name == constituency.Name || (x.No != 0 && x.No == constituency.No))))
-                {
-                    constituency.PC = this;
-                    Constituencies.Add(constituency);
-                    return;
-                }
-                Constituencies.First(x => x.Name == constituency.Name || (x.No != 0 && x.No == constituency.No))
-                    .Merge(constituency);
-            }
-        }
     }
 
     [DataContract]
     public class Constituency : RegionWithId
     {
         [DataMember]
+        [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
         public ConstituencyCasteCategory Category { get; set; }
     }
 
@@ -97,8 +63,10 @@ namespace BiharElectionsLibrary
     public class PollingBooth : RegionWithId
     {
         [DataMember]
+        [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
         public HashSet<House> Houses { get; set; }
         [DataMember]
+        [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
         public AssemblyConstituency AC { get; set; }
     }
 
@@ -106,8 +74,10 @@ namespace BiharElectionsLibrary
     public class House : RegionWithId
     {
         [DataMember]
+        [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
         public PollingBooth Booth { get; set; }
         [DataMember]
+        [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
         public HashSet<Voter> Voters { get; set; }
     }
 
@@ -115,10 +85,13 @@ namespace BiharElectionsLibrary
     public class Voter : Person
     {
         [DataMember]
+        [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
         public House House { get; set; }
         [DataMember]
+        [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
         public int Age { get; set; }
         [DataMember]
+        [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
         public List<Relative> Relatives { get; set; }
     }
 
@@ -126,9 +99,10 @@ namespace BiharElectionsLibrary
     public class Person : Region
     {
         [DataMember]
+        [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
         public Caste Caste { get; set; }
-
         [DataMember]
+        [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
         public Gender Gender { get; set; }
 
     }
@@ -137,8 +111,10 @@ namespace BiharElectionsLibrary
     public class Relative
     {
         [DataMember]
+        [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
         public RelationType RelationType { get; set; }
         [DataMember]
+        [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
         public Person Person { get; set; }
     }
 
@@ -150,12 +126,16 @@ namespace BiharElectionsLibrary
     public class Block : RegionWithId
     {
         [DataMember]
+        [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
         public HashSet<Village> Villages { get; set; }
         [DataMember]
+        [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
         public HashSet<CensusTown> CensusTowns { get; set; }
         [DataMember]
+        [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
         public HashSet<MunicipalCorp> MunicipalCorps { get; set; } // Very likely, there would be only 1
         [DataMember]
+        [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
         public District District { get; set; }
 
         #region Info Add methods
@@ -212,6 +192,7 @@ namespace BiharElectionsLibrary
     public class Village : RegionWithId
     {
         [DataMember]
+        [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
         public Block Block { get; set; }
     }
 
@@ -219,6 +200,7 @@ namespace BiharElectionsLibrary
     public class Ward : RegionWithId
     {
         [DataMember]
+        [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
         public MunicipalCorp MunicipalCorp { get; set; }
     }
 
@@ -226,6 +208,7 @@ namespace BiharElectionsLibrary
     public class CensusTown : RegionWithId
     {
         [DataMember]
+        [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
         public Block Block { get; set; }        
     }
 
@@ -233,10 +216,13 @@ namespace BiharElectionsLibrary
     public class MunicipalCorp : RegionWithId
     {
         [DataMember]
+        [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
         public int TotalPopulation { get; set; }
         [DataMember]
+        [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
         public HashSet<Ward> Wards { get; set; }
         [DataMember]
+        [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
         public Block Block { get; set; }
 
         #region Add Ward Info
@@ -267,18 +253,17 @@ namespace BiharElectionsLibrary
     public class District : RegionWithId
     {
         [DataMember]
+        [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
         public Division Division { get; set; }
         [DataMember]
+        [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
         public HashSet<Block> Blocks { get; set; }
         [DataMember]
-        public HashSet<ParliamentaryConstituency> PCs { get; set; }
-
+        [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
+        public HashSet<AssemblyConstituency> ACs { get; set; }
+        [DataMember]
+        [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
         public DistrictParameters Params { get; set; }
-
-        public IEnumerable<AssemblyConstituency> ACs
-        {
-            get { return PCs.SelectMany(x => x.Constituencies); }
-        }
 
         public IEnumerable<PollingBooth> Booths
         {
@@ -312,35 +297,6 @@ namespace BiharElectionsLibrary
             return null;
         }
 
-        public void MergeDistrictInfo(District district)
-        {
-            if (Name == null && district.Name != null)
-            {
-                Name = district.Name;
-            }
-            if (No == 0 && district.No != 0)
-            {
-                No = district.No;
-            }
-            foreach (var constituency in district.PCs)
-            {
-                if (PCs == null)
-                {
-                    PCs = new HashSet<ParliamentaryConstituency> { constituency };
-                }
-                if (!PCs.Any(
-                    x => x.Name == constituency.Name || (x.No != 0 && x.No == constituency.No)))
-                {
-                    constituency.District = this;
-                    PCs.Add(constituency);
-
-                    return;
-                }
-                PCs.First(
-                    x => x.Name == constituency.Name || (x.No != 0 && x.No == constituency.No)).Merge(constituency);
-            }
-        }
-
         #endregion Info Add methods
 
     }
@@ -349,27 +305,23 @@ namespace BiharElectionsLibrary
     public class Division : RegionWithId
     {
         [DataMember]
+        [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
         public State State { get; set; }
         [DataMember]
+        [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
         public HashSet<District> Districts { get; set; }
-
-        public void MergeDistrictInfo(District district)
-        {
-            if (!Districts.Any(x => x.Name.Equals(district.Name)))
-            {
-                district.Division = this;
-                Districts.Add(district);
-                return;
-            }
-            Districts.First(x => x.Name.Equals(district.Name)).MergeDistrictInfo(district);
-        }
     }
 
     [DataContract]
     public class State : Region
     {
         [DataMember]
+        [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
         public HashSet<Division> Divisions { get; set; }
+
+        [DataMember]
+        [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
+        public HashSet<ParliamentaryConstituency> PCs { get; set; } // TODO: Move it to Division class
 
         #region ChildNodes
         public IEnumerable<District> Districts
@@ -377,14 +329,9 @@ namespace BiharElectionsLibrary
             get { return Divisions.SelectMany(x => x.Districts); }
         }
 
-        public IEnumerable<ParliamentaryConstituency> PCs
-        {
-            get { return Districts.SelectMany(x => x.PCs); }
-        }
-
         public IEnumerable<AssemblyConstituency> ACs
         {
-            get { return PCs.SelectMany(x => x.Constituencies); }
+            get { return PCs.SelectMany(x => x.ACs); }
         }
 
         public IEnumerable<PollingBooth> Booths
@@ -421,79 +368,7 @@ namespace BiharElectionsLibrary
             get { return Blocks.SelectMany(x => x.CensusTowns); }
         }
         #endregion ChildNodes
-
-        public void MergeDistrictInfo(District district)
-        {
-            Divisions.First(t => t.Districts.Any(x => x.Name.Equals(district.Name))).MergeDistrictInfo(district);
-        }
-
-        public void LoadPCsAndACs(string filename)
-        {
-            // TODO: Some names have (SC) in them.. Remove that from the name
-            // Assumes all divisions are already created
-            var acNameRegex = new Regex(@"([A-Za-z,\s]+)\(Vidhan Sabha constituency\)");
-            string[] allLines = File.ReadAllLines(filename).Skip(1).ToArray();
-            foreach (var line in allLines)
-            {
-                string[] cols = line.Split('\t');
-                int acNo = Int32.Parse(cols[0]);
-                string acName = acNameRegex.Match(cols[1].Trim()).Groups[1].Value.Split(',')[0];
-                string acNameNormalized = Utils.GetNormalizedName(acName);
-                var category = Utils.GetCategory(cols[2].Replace("None", "Gen"));
-                string districtName = Utils.GetNormalizedName(cols[3]);
-                int pcNo = Int32.Parse(cols[4].Split(' ')[0]);
-                string pcName = Utils.GetNormalizedName(String.Join(" ", cols[4].Split(' ').Skip(1)));
-
-                var acConstituency = new AssemblyConstituency { Category = category, Name = acNameNormalized, No = acNo };
-                var pc = new ParliamentaryConstituency
-                {
-                    Name = pcName,
-                    No = pcNo,
-                    Constituencies = new HashSet<AssemblyConstituency> { acConstituency }
-                };
-                var district = new District
-                {
-                    Name = districtName,
-                    PCs = new HashSet<ParliamentaryConstituency> { pc },
-                    Division = Divisions.First(x => x.Districts.Any(y => y.Name == districtName)),
-                    Params = new DistrictParameters()
-                };
-                acConstituency.PC = pc;
-                pc.District = district;
-                MergeDistrictInfo(district);
-            }
-        }
-
-        public static State LoadDivisionsAndDistrictsFromFile(string filename)
-        {
-            var state = new State { Name = "Bihar", Divisions = new HashSet<Division>() };
-            string[] allLines = File.ReadAllLines(filename).Skip(1).ToArray();
-            int divisionId = 1;
-            foreach (var line in allLines)
-            {
-                string[] cols = line.Split('\t');
-                string districtName = Utils.GetNormalizedName(cols[0]);
-                string divisionName = Utils.GetNormalizedName(cols[1]);
-
-                if (!state.Divisions.Any(t => t.Name.Equals(divisionName)))
-                {
-                    var division = new Division { Name = divisionName, Districts = new HashSet<District>(), State = state, No = divisionId };
-                    state.Divisions.Add(division);
-                    divisionId++;
-                }
-                var div = state.Divisions.First(t => t.Name == divisionName);
-                div.Districts.Add(new District
-                {
-                    Name = Utils.GetNormalizedName(districtName),
-                    Division = div,
-                    Params = new DistrictParameters()
-                });
-            }
-            return state;
-        }
     }
-
-
 
     #endregion Common Hierarchy
 
@@ -503,6 +378,7 @@ namespace BiharElectionsLibrary
     public abstract class RegionWithId : Region
     {
         [DataMember]
+        [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
         public int No { get; set; }
     }
 
@@ -510,6 +386,7 @@ namespace BiharElectionsLibrary
     public abstract class Region
     {
         [DataMember]
+        [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
         public string Name { get; set; }
     }
 

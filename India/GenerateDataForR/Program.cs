@@ -29,7 +29,7 @@ namespace GetBihar2010Results
 
         private static void CustomExecution(List<ACResult> results, State state)
         {
-            var filename = @"D:\ArchishaData\ElectionData\Bihar\Website\results2014AcWise.json";
+            var filename = @"I:\ArchishaData\ElectionData\Bihar\Website\results2014AcWise.json";
             var outputData = ResultsConflator.Conflate2014Results(results, state);
             File.WriteAllText(filename, JsonConvert.SerializeObject(outputData));
         }
@@ -86,20 +86,11 @@ namespace GetBihar2010Results
 
             #region Populate Info
 
-            State state;
-            if (File.Exists(stateJsonStore))
-            {
-                var json = File.ReadAllText(stateJsonStore);
-                state = JsonConvert.DeserializeObject<State>(json);
-            }
-            else
-            {
-                state = PopulateInfo.LoadElectionHierarchy(stateDivisionsFilename, acInfoFilename);
-                PopulateInfo.LoadCensusData(state, censusDataDir, distListRelPath);
+            State state = PopulateInfo.LoadElectionHierarchy(stateDivisionsFilename, acInfoFilename);
+                //PopulateInfo.LoadCensusData(state, censusDataDir, distListRelPath);
                 File.WriteAllText(stateJsonStore, 
-                    JsonConvert.SerializeObject(state, 
-                    new JsonSerializerSettings {PreserveReferencesHandling = PreserveReferencesHandling.Objects})); //
-            }
+                    JsonConvert.SerializeObject(state,
+                    new JsonSerializerSettings { PreserveReferencesHandling = PreserveReferencesHandling.Objects, Formatting = Formatting.Indented})); //
             
             #endregion Populate Info
 
