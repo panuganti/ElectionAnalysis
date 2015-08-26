@@ -27,12 +27,11 @@ namespace GetBihar2010Results
         }
 
 
-        private static void CustomExecution(List<ACResult> results)
+        private static void CustomExecution(List<ACResult> results, State state)
         {
-            File.WriteAllText("./results2010.json", JsonConvert.SerializeObject(results.Select(t=> new ConstituencyResult {
-                Id = t.Constituency.No,
-                WinningColor = Colors.GetColor(t.GetWinningParty().ToString())
-            })));
+            var filename = @"D:\ArchishaData\ElectionData\Bihar\Website\results2014AcWise.json";
+            var outputData = ResultsConflator.Conflate2014Results(results, state);
+            File.WriteAllText(filename, JsonConvert.SerializeObject(outputData));
         }
 
         private static void Startup()
@@ -108,8 +107,8 @@ namespace GetBihar2010Results
 
 
             var indiaVotesResults2014 = ResultsLoader.Load2014ResultsFromIndiaVotesData(indiaVotesResults);
-            var constPartyResults = indiaVotesResults2014.Select(t => new {Constituency = t.Constituency.Name, Party = t.GetWinningParty()}).ToArray();
-            File.WriteAllLines(@"E:\nmw\GitHub\ElectionAnalysis\India\GenerateDataForR\output.txt",constPartyResults.Select(t=>String.Format("{0}\t{1}",t.Constituency, t.Party)).ToArray());
+            CustomExecution(indiaVotesResults2014, state);
+            return;
             /*
             List<ACResult> results2005;
             if (bool.Parse(ConfigurationManager.AppSettings["LoadNonStateJsons"]) && File.Exists(results2005Store))
@@ -160,7 +159,7 @@ namespace GetBihar2010Results
             }
 
             var pcResults = ResultsLoader.Load2015PCResults(PC2015, state);
-            var results = ResultsConflator.Conflate2015Results(results2014, pcResults, state);
+            var results = ResultsConflator.Conflate2014Results(results2014, state);
 
             #endregion Load Results
 
