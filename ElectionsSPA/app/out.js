@@ -37,23 +37,15 @@ var Controllers;
     })();
     Controllers.AcStyleMap = AcStyleMap;
 })(Controllers || (Controllers = {}));
-var Alliance;
-(function (Alliance) {
-    Alliance[Alliance["NDA"] = 0] = "NDA";
-    Alliance[Alliance["UPA"] = 1] = "UPA";
-    Alliance[Alliance["JP"] = 2] = "JP";
-    Alliance[Alliance["IND"] = 3] = "IND";
-    Alliance[Alliance["LEFT"] = 4] = "LEFT";
-    Alliance[Alliance["O"] = 5] = "O";
-})(Alliance || (Alliance = {}));
 var Controllers;
 (function (Controllers) {
     var DataLoader = (function () {
         function DataLoader($http) {
             this.acShapeFile = "json/Bihar.Assembly.10k.topo.json";
             this.allACsJson = "json/allACs.json";
+            this.results2009 = "json/results2009AcWise.json";
             this.results2010 = "json/results2010.json";
-            this.results2014 = "";
+            this.results2014 = "json/results2014AcWise.json";
             this.localIssues2015 = "";
             this.localIssues2010 = "";
             this.casteDistribution = "";
@@ -61,6 +53,7 @@ var Controllers;
             this.candidateInfo = "";
             this.vipConstituencies = "";
             this.predictions2015 = "";
+            this.neighbors = "json/Neighbors.txt";
             this.headers = { 'Authorization': 'OAuth AIzaSyD4of1Mljc1T1HU0pREX7fvfUKZX-lx2HQ' };
             this.http = $http;
         }
@@ -189,18 +182,6 @@ var Controllers;
     })();
     Controllers.MapCtrl = MapCtrl;
 })(Controllers || (Controllers = {}));
-var Party;
-(function (Party) {
-    Party[Party["BJP"] = 0] = "BJP";
-    Party[Party["JDU"] = 1] = "JDU";
-    Party[Party["RJD"] = 2] = "RJD";
-    Party[Party["INC"] = 3] = "INC";
-    Party[Party["LJP"] = 4] = "LJP";
-    Party[Party["IND"] = 5] = "IND";
-    Party[Party["BSP"] = 6] = "BSP";
-    Party[Party["CPI"] = 7] = "CPI";
-    Party[Party["O"] = 8] = "O";
-})(Party || (Party = {}));
 var Controllers;
 (function (Controllers) {
     var SearchBoxCtrl = (function () {
@@ -219,6 +200,42 @@ directives.directive('testme', function () {
         template: testme.html
     };
 });
+var Alliance;
+(function (Alliance) {
+    Alliance[Alliance["NDA"] = 0] = "NDA";
+    Alliance[Alliance["UPA"] = 1] = "UPA";
+    Alliance[Alliance["JP"] = 2] = "JP";
+    Alliance[Alliance["IND"] = 3] = "IND";
+    Alliance[Alliance["LEFT"] = 4] = "LEFT";
+    Alliance[Alliance["O"] = 5] = "O";
+})(Alliance || (Alliance = {}));
+var Party;
+(function (Party) {
+    Party[Party["BJP"] = 0] = "BJP";
+    Party[Party["JDU"] = 1] = "JDU";
+    Party[Party["RJD"] = 2] = "RJD";
+    Party[Party["INC"] = 3] = "INC";
+    Party[Party["LJP"] = 4] = "LJP";
+    Party[Party["IND"] = 5] = "IND";
+    Party[Party["BSP"] = 6] = "BSP";
+    Party[Party["CPI"] = 7] = "CPI";
+    Party[Party["O"] = 8] = "O";
+})(Party || (Party = {}));
+/// <reference path="../reference.ts" />
+var Models;
+(function (Models) {
+    "use strict";
+    var ResultsLoader = (function () {
+        function ResultsLoader() {
+        }
+        ResultsLoader.LoadResultsFromJson = function (json) {
+            var resultsObj = JSON.parse(json);
+            return resultsObj;
+        };
+        return ResultsLoader;
+    })();
+    Models.ResultsLoader = ResultsLoader;
+})(Models || (Models = {}));
 /// <reference path="../reference.ts" />
 var Models;
 (function (Models) {
@@ -294,6 +311,45 @@ var Models;
     })();
     Models.Map = Map;
 })(Models || (Models = {}));
+/// <reference path="../reference.ts" />
+var Models;
+(function (Models) {
+    var Neighbors = (function () {
+        function Neighbors() {
+            if (Neighbors._instance)
+                return;
+            Neighbors._instance = this;
+        }
+        Object.defineProperty(Neighbors, "Instance", {
+            get: function () {
+                if (!(this._instance)) {
+                    throw new Error("Neighbors data not yet instantiated.");
+                }
+                return this._instance;
+            },
+            enumerable: true,
+            configurable: true
+        });
+        Object.defineProperty(Neighbors, "NeighborsMap", {
+            get: function () {
+                return this._neighborsDict;
+            },
+            enumerable: true,
+            configurable: true
+        });
+        Neighbors.BuildNeighbors = function (data) {
+            this._instance = new Neighbors();
+            var lines = data.split('\n');
+            for (var index = 0; index < lines.length; index++) {
+                this._neighborsDict[index] = lines[index].split(',');
+            }
+            return this._instance;
+        };
+        Neighbors._neighborsDict = {};
+        return Neighbors;
+    })();
+    Models.Neighbors = Neighbors;
+})(Models || (Models = {}));
 var ColorService = (function () {
     function ColorService($http) {
         var _this = this;
@@ -335,20 +391,23 @@ services.service('logService', LogService);
 /// <reference path="../reference.ts" />
 angular.module('controllers', []).controller(Controllers);
 /// <reference path="./reference.ts" />
+"use strict";
 angular.module('ElectionVisualization', ['controllers', 'services', 'directives']);
 /// <reference path="services/services.ts" />
 /// <reference path="directives/directives.ts" />
 /// <reference path="directives/testme.html.ts" />
 /// <reference path="controllers/AcStyleMap.ts" />
-/// <reference path="controllers/Alliance.ts" />
 /// <reference path="controllers/Constituency.ts" />
 /// <reference path="controllers/DataLoader.ts" />
 /// <reference path="controllers/MainController.ts" />
 /// <reference path="controllers/MapCtrl.ts" />
-/// <reference path="controllers/Party.ts" />
 /// <reference path="controllers/SearchBoxCtrl.ts" />
 /// <reference path="directives/testme.ts" />
+/// <reference path="models/Alliance.ts" />
+/// <reference path="models/Party.ts" />
+/// <reference path="models/acresult.ts" />
 /// <reference path="models/map.ts" />
+/// <reference path="models/neighbors.ts" />
 /// <reference path="services/ColorService.ts" />
 /// <reference path="services/LogService.ts" />
 /// <reference path="vendor.d.ts" />

@@ -55,8 +55,7 @@ module Models {
 					minZoom: 4,
 					disableDefaultUI: true
 				};
-				this._instance._map = new google.maps.Map(this._instance._mapDiv,
-														this._instance._mapOptions);
+				this._instance._map = new google.maps.Map(this._instance._mapDiv,this._instance._mapOptions);
 			}
             return this._instance;
         }

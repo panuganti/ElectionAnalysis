@@ -29,9 +29,9 @@ namespace GetBihar2010Results
 
         private static void CustomExecution(List<ACResult> results, State state)
         {
-            var filename = @"I:\ArchishaData\ElectionData\Bihar\Website\results2014AcWise.json";
-            var outputData = ResultsConflator.Conflate2014Results(results, state);
-            File.WriteAllText(filename, JsonConvert.SerializeObject(outputData));
+            var filename = @"I:\ArchishaData\ElectionData\Bihar\Website\results2010AcWise.json";
+            var outputData = ResultsConflator.ConflateResultsAndDistrictInfo(results, state);
+            File.WriteAllText(filename, JsonConvert.SerializeObject(outputData, Formatting.Indented));
         }
 
         private static void Startup()
@@ -78,7 +78,9 @@ namespace GetBihar2010Results
             string districtParamsJsonStore = Path.Combine(rootDir, ConfigurationManager.AppSettings["DistrictParamsJson"]);
             string censusTownParamsJsonStore = Path.Combine(rootDir, ConfigurationManager.AppSettings["CensusTownParamsJson"]);
             
-            string indiaVotesResults = Path.Combine(rootDir, ConfigurationManager.AppSettings["2014ACWiseResultsIndiaVotes"]);
+            string indiaVotesResults2014Dir = Path.Combine(rootDir, ConfigurationManager.AppSettings["2014ACWiseResultsIndiaVotes"]);
+            string indiaVotesResults2010Dir = Path.Combine(rootDir, ConfigurationManager.AppSettings["2010ACWiseResultsIndiaVotes"]);
+            string indiaVotesResults2009Dir = Path.Combine(rootDir, ConfigurationManager.AppSettings["2009ACWiseResultsIndiaVotes"]);
             
             #endregion Config
 
@@ -97,8 +99,11 @@ namespace GetBihar2010Results
             #region Load Results
 
 
-            var indiaVotesResults2014 = ResultsLoader.Load2014ResultsFromIndiaVotesData(indiaVotesResults);
-            CustomExecution(indiaVotesResults2014, state);
+            //var indiaVotesResults2014 = ResultsLoader.LoadResultsFromIndiaVotesData(indiaVotesResults2014Dir, 2014);
+            //var indiaVotesResults2009 = ResultsLoader.LoadResultsFromIndiaVotesData(indiaVotesResults2009Dir, 2009);
+                var indiaVotesResults2010 = ResultsLoader.LoadACResultsFromIndiaVotesData(indiaVotesResults2010Dir, 2010);
+
+            CustomExecution(indiaVotesResults2010, state);
             return;
             /*
             List<ACResult> results2005;
@@ -150,7 +155,7 @@ namespace GetBihar2010Results
             }
 
             var pcResults = ResultsLoader.Load2015PCResults(PC2015, state);
-            var results = ResultsConflator.Conflate2014Results(results2014, state);
+            var results = ResultsConflator.ConflateResults(results2014, state);
 
             #endregion Load Results
 

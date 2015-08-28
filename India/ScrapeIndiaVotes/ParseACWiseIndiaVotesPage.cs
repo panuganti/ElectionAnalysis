@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
@@ -9,11 +8,33 @@ namespace ScrapeIndiaVotes
 {
     class ParseACWiseIndiaVotesPage
     {
-        public static void ParsePage(string htmlFile, string dirPath)
+        public static void ParseAcResultsPage(string htmlFile, string dirPath)
+        {
+            var doc = new HtmlWeb().Load(htmlFile);
+            var acName =
+                doc.DocumentNode.ChildNodes.First(t => t.Name == "h2")
+                    .ChildNodes.First(t => t.Name == "span")
+                    .InnerText.Trim();
+            var distName =
+                doc.DocumentNode.Descendants()
+                    .First(t => t.Attributes.Contains("class") && t.Attributes["class"].Value == "searchBoxRight")
+                    .Descendants("p")
+                    .First(t => t.InnerText.Contains("District"))
+                    .Descendants("a")
+                    .First()
+                    .InnerText;
+            var m1Div = doc.GetElementbyId("m1");
+            var tableNode = m1Div.Descendants("table").First();
+            var filename = Path.Combine(dirPath,
+                String.Format("{0} {1}.txt", acName.Trim().Replace(" ", "_"), distName.Trim().Replace(" ", "_")));
+            ParseAndWriteGridSortableTable(tableNode, filename);
+        }
+
+        public static void ParseAcWiseResultsPage(string htmlFile, string dirPath, int year)
         {
             var doc = new HtmlWeb().Load(htmlFile);
             var pcNameText = doc.DocumentNode.ChildNodes.First(t => t.Name == "h2").ChildNodes.First(t=>t.Name == "span").InnerText;
-            var regex = new Regex(@"([\w\s]+)2014");
+            var regex = new Regex(String.Format(@"([\w\s]+){0}", year));
             var pcName = regex.Match(pcNameText).Groups[1].Value.Trim();
             // class f1 for overall # results
             // m1 for ac wise tables
@@ -24,7 +45,7 @@ namespace ScrapeIndiaVotes
             {
                 var filename = Path.Combine(dirPath, String.Format("{0} {1}.txt", 
                     ParseGridTable(allTableNodes[i*2]).Trim().Replace(" ","_"), pcName.Trim().Replace(" ","_")));
-                ParseGridSortableTable(allTableNodes[i*2 + 1], filename);
+                ParseAndWriteGridSortableTable(allTableNodes[i*2 + 1], filename);
             }
         }
 
@@ -35,7 +56,7 @@ namespace ScrapeIndiaVotes
             return regex.Match(nodes[0].InnerText).Groups[1].Value; 
         }
 
-        private static void ParseGridSortableTable(HtmlNode gridSortableNode, string filename)
+        private static void ParseAndWriteGridSortableTable(HtmlNode gridSortableNode, string filename)
         {
             var table = Utils.ExtractTableFromDiv(gridSortableNode);
             if (File.Exists(filename))
@@ -52,17 +73,6 @@ namespace ScrapeIndiaVotes
                     writer.WriteLine(String.Join("\t", row));
                 }
             }
-        }
-
-        private static HtmlNode GetNodeOfAClass(HtmlNode node, string className)
-        {
-            var divNode = node.Descendants("div");
-            return divNode.First(d => d.Attributes.Contains("class") && d.Attributes["class"].Value.Equals(className));
-        }
-        private static IEnumerable<HtmlNode> GetNodesOfAClass(HtmlNode node, string className)
-        {
-            return node.Descendants("div")
-                    .Where(d => d.Attributes.Contains("class") && d.Attributes["class"].Value.Equals(className));
         }
     }
 }

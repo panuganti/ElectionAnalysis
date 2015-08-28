@@ -2,8 +2,10 @@
     export class DataLoader {
         private acShapeFile: string = "json/Bihar.Assembly.10k.topo.json";
         private allACsJson: string = "json/allACs.json";
+        private results2009: string = "json/results2009AcWise.json";
+        //private results2010: string = "json/results2010AcWise.json";
         private results2010: string = "json/results2010.json";
-        private results2014: string = "";
+        private results2014: string = "json/results2014AcWise.json";
         private localIssues2015: string = "";
         private localIssues2010: string = "";
         private casteDistribution: string = "";
@@ -11,6 +13,7 @@
         private candidateInfo: string = "";
         private vipConstituencies: string = "";
         private predictions2015: string = "";
+        private neighbors: string = "json/Neighbors.txt";
 
         private http: ng.IHttpService;
         private headers: any = {'Authorization': 'OAuth AIzaSyD4of1Mljc1T1HU0pREX7fvfUKZX-lx2HQ'}

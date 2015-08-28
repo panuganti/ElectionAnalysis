@@ -219,9 +219,9 @@ namespace BiharElectionsLibrary
 
         #endregion Load 2014 Results
 
-        #region Load 2014 results from IndiaVotes Data
+        #region Load AcWise results from IndiaVotes Data
 
-        public static List<ACResult> Load2014ResultsFromIndiaVotesData(string dirPath)
+        public static List<ACResult> LoadResultsFromIndiaVotesData(string dirPath, int year)
         {
             var results = new List<ACResult>();
             var allFiles = Directory.GetFiles(dirPath);
@@ -233,9 +233,9 @@ namespace BiharElectionsLibrary
                 var lines = File.ReadAllLines(filename).Skip(1);
                 var acResult = new ACResult
                 {
-                    YearOfElection = 2014,
+                    YearOfElection = year,
                     Constituency =
-                        new AssemblyConstituency {Name = acName, PC = new ParliamentaryConstituency() {Name = pcName}},
+                        new AssemblyConstituency {Name = acName, PC = new ParliamentaryConstituency {Name = pcName}},
                     Votes = new List<CandidateVotes>()
                 };
                 foreach (var line in lines)
@@ -252,6 +252,43 @@ namespace BiharElectionsLibrary
             return results;
         }
 
-        #endregion Load 2014 results from IndiaVotes Data
+        #endregion Load AcWise results from IndiaVotes Data
+
+
+        #region Load AcWise results from IndiaVotes Data
+
+        public static List<ACResult> LoadACResultsFromIndiaVotesData(string dirPath, int year)
+        {
+            var results = new List<ACResult>();
+            var allFiles = Directory.GetFiles(dirPath);
+            foreach (var filename in allFiles)
+            {
+                var acPcName = Path.GetFileNameWithoutExtension(filename);
+                var acName = acPcName.Split(' ')[0];
+                var district = acPcName.Split(' ')[1].Split('(')[0];
+                var lines = File.ReadAllLines(filename).Skip(1);
+                var acResult = new ACResult
+                {
+                    YearOfElection = year,
+                    Constituency =
+                        new AssemblyConstituency { Name = acName, District = new District { Name = district } },
+                    Votes = new List<CandidateVotes>()
+                };
+                foreach (var line in lines)
+                {
+                    var parts = line.Split('\t');
+                    acResult.Votes.Add(new CandidateVotes()
+                    {
+                        Candidate = new Candidate { Name = parts[0], Party = Utils.GetParty(parts[1]) },
+                        Votes = int.Parse(parts[2], NumberStyles.AllowThousands)
+                    });
+                }
+                results.Add(acResult);
+            }
+            return results;
+        }
+
+        #endregion Load AcWise results from IndiaVotes Data
+
     }
 }
