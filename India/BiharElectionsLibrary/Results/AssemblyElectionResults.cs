@@ -23,9 +23,10 @@ namespace BiharElectionsLibrary
     {
         [DataMember]
         public Candidate Candidate { get; set; }
-
         [DataMember]
         public int Votes { get; set; }
+        [DataMember]
+        public int Position { get; set; }
     }
 
     [DataContract]

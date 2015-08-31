@@ -6,37 +6,52 @@ var testme;
 (function (testme) {
     testme.html = '<div>Hey wassup yo!</div>';
 })(testme || (testme = {}));
-/// <reference path="../../vendor/types/googlemaps/google.maps.d.ts"/>
+/// <reference path="../reference.ts" />
 var Controllers;
 (function (Controllers) {
     var AcStyleMap = (function () {
         function AcStyleMap() {
-        }
-        AcStyleMap.prototype.parseJson = function (json) {
-            var results = [];
-            var defaultStyle = {
+            this.defaultStyle = {
                 strokeWeight: 1,
                 fillOpacity: 0.5,
                 strokeOpacity: 0.3
             };
-            json.forEach(function (element) {
-                var result = new AcStyleMap();
-                for (var prop in element)
-                    result[prop] = element[prop];
-                result.Style = {
-                    fillColor: result.WinningColor,
-                    strokeWeight: defaultStyle.strokeWeight,
-                    fillOpacity: defaultStyle.fillOpacity,
-                    strokeOpacity: defaultStyle.strokeOpacity
+            this.colorMap = {
+                "bjp": "orange",
+                "jdu": "lightgreen",
+                "rjd": "darkgreen",
+                "inc": "lightblue",
+                "ljp": "yellow",
+                "rlsp": "yellow",
+                "cpi": "red",
+                "ind": "black",
+                "jmm": "purple"
+            };
+        }
+        AcStyleMap.prototype.GenerateStyleMaps = function (acResults) {
+            var _this = this;
+            var en = Enumerable.From(acResults);
+            var acStyleMaps = [];
+            acResults.forEach(function (element) {
+                var styleMap = new AcStyleMap();
+                var votes = Enumerable.From(en.Where(function (t) { return t.Id == element.Id; }).First().Votes);
+                var party = votes.First(function (t) { return t.Position == 1; }).Party;
+                styleMap.Id = element.Id;
+                styleMap.Style = {
+                    strokeWeight: _this.defaultStyle.strokeWeight,
+                    fillOpacity: _this.defaultStyle.fillOpacity,
+                    strokeOpacity: _this.defaultStyle.strokeOpacity,
+                    fillColor: _this.colorMap[party]
                 };
-                results.push(result);
+                acStyleMaps.push(styleMap);
             });
-            return results;
+            return acStyleMaps;
         };
         return AcStyleMap;
     })();
     Controllers.AcStyleMap = AcStyleMap;
 })(Controllers || (Controllers = {}));
+/// <reference path="../reference.ts" />
 var Controllers;
 (function (Controllers) {
     var DataLoader = (function () {
@@ -44,7 +59,7 @@ var Controllers;
             this.acShapeFile = "json/Bihar.Assembly.10k.topo.json";
             this.allACsJson = "json/allACs.json";
             this.results2009 = "json/results2009AcWise.json";
-            this.results2010 = "json/results2010.json";
+            this.results2010 = "json/results2014AcWise.json";
             this.results2014 = "json/results2014AcWise.json";
             this.localIssues2015 = "";
             this.localIssues2010 = "";
@@ -170,13 +185,13 @@ var Controllers;
             this.dataloader.get2010Results(this.loadResultsHandler);
         };
         MapCtrl.prototype.loadResultsCallback = function (response) {
-            var results = new Controllers.AcStyleMap().parseJson(response);
+            var acStyleMap = new Controllers.AcStyleMap();
+            var acResults = response;
+            var styleMaps = Enumerable.From(acStyleMap.GenerateStyleMaps(acResults));
             this.mapInstance.setStyle(function (feature) {
                 var id = feature.getProperty('ac');
-                var winner = $.grep(results, function (e) { return e.Id == id; })[0];
-                return winner.Style;
+                return styleMaps.First(function (t) { return t.Id == id; }).Style;
             });
-            return results;
         };
         return MapCtrl;
     })();
@@ -224,17 +239,18 @@ var Party;
 /// <reference path="../reference.ts" />
 var Models;
 (function (Models) {
-    "use strict";
-    var ResultsLoader = (function () {
-        function ResultsLoader() {
+    var Result = (function () {
+        function Result() {
         }
-        ResultsLoader.LoadResultsFromJson = function (json) {
-            var resultsObj = JSON.parse(json);
-            return resultsObj;
-        };
-        return ResultsLoader;
+        return Result;
     })();
-    Models.ResultsLoader = ResultsLoader;
+    Models.Result = Result;
+    var CandidateVote = (function () {
+        function CandidateVote() {
+        }
+        return CandidateVote;
+    })();
+    Models.CandidateVote = CandidateVote;
 })(Models || (Models = {}));
 /// <reference path="../reference.ts" />
 var Models;
@@ -405,7 +421,7 @@ angular.module('ElectionVisualization', ['controllers', 'services', 'directives'
 /// <reference path="directives/testme.ts" />
 /// <reference path="models/Alliance.ts" />
 /// <reference path="models/Party.ts" />
-/// <reference path="models/acresult.ts" />
+/// <reference path="models/Result.ts" />
 /// <reference path="models/map.ts" />
 /// <reference path="models/neighbors.ts" />
 /// <reference path="services/ColorService.ts" />

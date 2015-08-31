@@ -10,15 +10,6 @@ using System.Runtime.Serialization;
 
 namespace GetBihar2010Results
 {
-    [DataContract]
-    public class ConstituencyResult
-    {
-        [DataMember]
-        public int Id { get; set; }
-        [DataMember]
-        public string WinningColor { get; set; }
-    }
-
     class Program
     {
         private static void Main(string[] args)
@@ -29,8 +20,8 @@ namespace GetBihar2010Results
 
         private static void CustomExecution(List<ACResult> results, State state)
         {
-            var filename = @"I:\ArchishaData\ElectionData\Bihar\Website\results2010AcWise.json";
-            var outputData = ResultsConflator.ConflateResultsAndDistrictInfo(results, state);
+            var filename = @"J:\ArchishaData\ElectionData\Bihar\Website\results2014AcWise.json";
+            var outputData = ResultsConflator.ConflateResults(results, state);
             File.WriteAllText(filename, JsonConvert.SerializeObject(outputData, Formatting.Indented));
         }
 
@@ -100,10 +91,10 @@ namespace GetBihar2010Results
 
 
             //var indiaVotesResults2014 = ResultsLoader.LoadResultsFromIndiaVotesData(indiaVotesResults2014Dir, 2014);
-            //var indiaVotesResults2009 = ResultsLoader.LoadResultsFromIndiaVotesData(indiaVotesResults2009Dir, 2009);
-                var indiaVotesResults2010 = ResultsLoader.LoadACResultsFromIndiaVotesData(indiaVotesResults2010Dir, 2010);
+            var indiaVotesResults2014 = ResultsLoader.LoadResultsFromIndiaVotesData(indiaVotesResults2014Dir, 2014);
+            // var indiaVotesResults2010 = ResultsLoader.LoadACResultsFromIndiaVotesData(indiaVotesResults2010Dir, 2010);
 
-            CustomExecution(indiaVotesResults2010, state);
+            CustomExecution(indiaVotesResults2014, state);
             return;
             /*
             List<ACResult> results2005;

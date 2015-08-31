@@ -279,8 +279,9 @@ namespace BiharElectionsLibrary
                     var parts = line.Split('\t');
                     acResult.Votes.Add(new CandidateVotes()
                     {
-                        Candidate = new Candidate { Name = parts[0], Party = Utils.GetParty(parts[1]) },
-                        Votes = int.Parse(parts[2], NumberStyles.AllowThousands)
+                        Candidate = new Candidate { Name = parts[1], Party = Utils.GetParty(parts[4]) },
+                        Votes = int.Parse(parts[2], NumberStyles.AllowThousands),
+                        Position = int.Parse(parts[0])
                     });
                 }
                 results.Add(acResult);

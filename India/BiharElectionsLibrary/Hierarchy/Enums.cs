@@ -1,8 +1,11 @@
-﻿using System.Runtime.Serialization;
+﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Converters;
+using System.Runtime.Serialization;
 
 namespace BiharElectionsLibrary
 {
     [DataContract]
+    [JsonConverter(typeof(StringEnumConverter))]
     public enum RelationType
     {
         Father,
@@ -14,6 +17,7 @@ namespace BiharElectionsLibrary
     }
 
     [DataContract]
+    [JsonConverter(typeof(StringEnumConverter))]
     public enum YesNo
     {
         Yes = 1,
@@ -22,6 +26,7 @@ namespace BiharElectionsLibrary
     }
 
     [DataContract]
+    [JsonConverter(typeof(StringEnumConverter))]
     public enum Gender
     {
         M,
@@ -31,6 +36,7 @@ namespace BiharElectionsLibrary
     }
 
     [DataContract]
+    [JsonConverter(typeof(StringEnumConverter))]
     public enum ConstituencyCasteCategory
     {
         // ReSharper disable InconsistentNaming
@@ -42,6 +48,7 @@ namespace BiharElectionsLibrary
     }
 
     [DataContract]
+    [JsonConverter(typeof(StringEnumConverter))]
     public enum PoliticalParty
     {
         // ReSharper disable InconsistentNaming
@@ -75,6 +82,7 @@ namespace BiharElectionsLibrary
     }
 
     [DataContract]
+    [JsonConverter(typeof(StringEnumConverter))]
     public enum PoliticalPartyParameter
     {
         PartyOrganizationStrength,
@@ -84,6 +92,7 @@ namespace BiharElectionsLibrary
     }
 
     [DataContract]
+    [JsonConverter(typeof(StringEnumConverter))]
     public enum DataIssues
     {
         CasteCategoryDataMissing,
@@ -92,6 +101,7 @@ namespace BiharElectionsLibrary
     }
 
     [DataContract]
+    [JsonConverter(typeof(StringEnumConverter))]
     public enum FamilyIncome
     {
         LT3K = 1,
@@ -105,6 +115,7 @@ namespace BiharElectionsLibrary
     }
 
     [DataContract]
+    [JsonConverter(typeof(StringEnumConverter))]
     public enum Occupation
     {
         StudentUnemployed = 1,
@@ -120,6 +131,7 @@ namespace BiharElectionsLibrary
     }
 
     [DataContract]
+    [JsonConverter(typeof(StringEnumConverter))]
     public enum EducationLevel
     {
         Illiterate = 0,
@@ -133,6 +145,7 @@ namespace BiharElectionsLibrary
     }
 
     [DataContract]
+    [JsonConverter(typeof(StringEnumConverter))]
     public enum CandidateParameter
     {
         Availability,
@@ -150,6 +163,7 @@ namespace BiharElectionsLibrary
     }
 
     [DataContract]
+    [JsonConverter(typeof(StringEnumConverter))]
     public enum DevelopmentIssueCategory
     {
         Electricity,
@@ -166,6 +180,7 @@ namespace BiharElectionsLibrary
     }
 
     [DataContract]
+    [JsonConverter(typeof(StringEnumConverter))]
     public enum CasteCategory
     {
         // ReSharper disable InconsistentNaming
@@ -184,6 +199,7 @@ namespace BiharElectionsLibrary
     }
 
     [DataContract]
+    [JsonConverter(typeof(StringEnumConverter))]
     public enum Caste
     {
         // ReSharper disable InconsistentNaming
@@ -289,6 +305,7 @@ namespace BiharElectionsLibrary
     #region QuantitativeEnums
 
     [DataContract]
+    [JsonConverter(typeof(StringEnumConverter))]
     public enum DecisiveFactor
     {
         LocalCandidate = 1,
@@ -301,6 +318,7 @@ namespace BiharElectionsLibrary
     }
 
     [DataContract]
+    [JsonConverter(typeof(StringEnumConverter))]
     public enum Issues
     {
         Development,
@@ -336,6 +354,7 @@ namespace BiharElectionsLibrary
     }
 
     [DataContract]
+    [JsonConverter(typeof(StringEnumConverter))]
     public enum LocationType
     {
         Urban = 1,
@@ -347,6 +366,7 @@ namespace BiharElectionsLibrary
 
 
     [DataContract]
+    [JsonConverter(typeof(StringEnumConverter))]
     public enum LocalIssuesCategory
     {
         Corruption,
@@ -372,6 +392,7 @@ namespace BiharElectionsLibrary
     }
 
     [DataContract]
+    [JsonConverter(typeof(StringEnumConverter))]
     public enum Condition
     {
         Improved = 1,
@@ -381,6 +402,7 @@ namespace BiharElectionsLibrary
     }
 
     [DataContract]
+    [JsonConverter(typeof(StringEnumConverter))]
     public enum AdminHierarchy
     {
         PM,

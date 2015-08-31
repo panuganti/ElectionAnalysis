@@ -88,13 +88,13 @@ module Controllers {
         }
 
         loadResultsCallback(response) {
-            var results = new AcStyleMap().parseJson(response);
+            var acStyleMap = new AcStyleMap();
+            var acResults: Models.Result[] = response;
+            var styleMaps = Enumerable.From(acStyleMap.GenerateStyleMaps(acResults));
             this.mapInstance.setStyle(function(feature) {
                 var id = feature.getProperty('ac');
-                var winner = $.grep(results, function(e) { return e.Id == id; })[0];
-                return winner.Style;
+                return styleMaps.First(t=>t.Id == id).Style;
             });
-            return results;
         }        
     }
 }

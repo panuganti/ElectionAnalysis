@@ -23,5 +23,7 @@ namespace BiharElectionsLibrary
         public PoliticalParty Party { get; set; }
         [DataMember]
         public int Votes { get; set; }
+        [DataMember]
+        public int Position { get; set; }
     }
 }

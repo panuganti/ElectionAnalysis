@@ -15,18 +15,23 @@ namespace BiharElectionsLibrary
                 if (!pc.Any()) { throw new Exception("can't find ac"); }
                 
                 var ac = pc.OrderBy(t => Utils.LevenshteinDistance(t.Name,Utils.GetNormalizedName(acresult.Constituency.Name))).First();
-
                 var result = new Result { 
                     Name = acresult.Constituency.Name, 
                     Id = ac.No, 
                     Votes = new List<CandidateVote>() 
                 };
-                result.Votes = acresult.Votes.Select(t=> 
-                    new CandidateVote { 
-                        Name = t.Candidate.Name, 
-                        Party = t.Candidate.Party,
-                        Votes = t.Votes
-                }).ToList();
+                int position = 0;
+                result.Votes = acresult.Votes.OrderByDescending(t=>t.Votes).Select(t=> 
+                    {
+                        position++;
+                        return new CandidateVote
+                        {
+                            Name = t.Candidate.Name,
+                            Party = t.Candidate.Party,
+                            Votes = t.Votes,
+                            Position = position
+                        };
+                    }).ToList();
                 results.Add(result);
             }
             return results;
@@ -53,7 +58,8 @@ namespace BiharElectionsLibrary
                     {
                         Name = t.Candidate.Name,
                         Party = t.Candidate.Party,
-                        Votes = t.Votes
+                        Votes = t.Votes,
+                        Position = t.Position
                     }).ToList();
                 results.Add(result);
             }

@@ -2,6 +2,7 @@ module.exports = function (grunt) {
 
     // load the task
     grunt.loadNpmTasks("grunt-ts");
+    grunt.loadNpmTasks('grunt-nuget-install');
 
     // Configure grunt here
     grunt.initConfig({
@@ -13,6 +14,9 @@ module.exports = function (grunt) {
                 out: 'app/out.js',         // If specified, generate an out.js file which is the merged js file
                 watch: 'app'
             },
+        },
+        nuget_install: {
+            //file: 'Client.Project.sln',
         }
     });
 
