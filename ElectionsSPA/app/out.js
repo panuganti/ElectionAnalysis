@@ -32,7 +32,7 @@ var Controllers;
             var _this = this;
             var en = Enumerable.From(acResults);
             var acStyleMaps = [];
-            acResults.forEach(function (element) {
+            en.Select(function (element) {
                 var styleMap = new AcStyleMap();
                 var votes = Enumerable.From(en.Where(function (t) { return t.Id == element.Id; }).First().Votes);
                 var party = votes.First(function (t) { return t.Position == 1; }).Party;
@@ -56,44 +56,45 @@ var Controllers;
 (function (Controllers) {
     var DataLoader = (function () {
         function DataLoader($http) {
-            this.acShapeFile = "json/Bihar.Assembly.10k.topo.json";
-            this.allACsJson = "json/allACs.json";
-            this.results2009 = "json/results2009AcWise.json";
-            this.results2010 = "json/results2014AcWise.json";
-            this.results2014 = "json/results2014AcWise.json";
-            this.localIssues2015 = "";
-            this.localIssues2010 = "";
-            this.casteDistribution = "";
+            this._acShapeFile = "json/Bihar.Assembly.10k.topo.json";
+            this._allACsJson = "json/allACs.json";
+            this._results2009 = "json/results2009AcWise.json";
+            this._results2010 = "json/results2014AcWise.json";
+            this._results2014 = "json/results2014AcWise.json";
+            this._localIssues2015 = "";
+            this._localIssues2010 = "";
+            this._casteDistribution = "";
             this.casteCategoryDistribution = "";
             this.candidateInfo = "";
             this.vipConstituencies = "";
-            this.predictions2015 = "";
-            this.neighbors = "json/Neighbors.txt";
+            this._predictions2015 = "";
+            this._neighbors = "json/Neighbors.txt";
             this.headers = { 'Authorization': 'OAuth AIzaSyD4of1Mljc1T1HU0pREX7fvfUKZX-lx2HQ' };
             this.http = $http;
         }
         DataLoader.prototype.getColorsJson = function (callback) {
         };
         DataLoader.prototype.getACTopoShapeFile = function (callback) {
-            this.http.get(this.acShapeFile, this.headers).success(callback);
+            this.http.get(this._acShapeFile, this.headers).success(callback);
+            _;
         };
         DataLoader.prototype.getAllAssemblyConstituencies = function (callback) {
-            this.http.get(this.allACsJson, this.headers).success(callback);
+            this.http.get(this._allACsJson, this.headers).success(callback);
         };
         DataLoader.prototype.get2010Results = function (callback) {
-            this.http.get(this.results2010, this.headers).success(callback);
+            this.http.get(this._results2010, this.headers).success(callback);
         };
         DataLoader.prototype.get2014Results = function (callback) {
-            this.http.get(this.results2014, this.headers).success(callback);
+            this.http.get(this._results2014, this.headers).success(callback);
         };
         DataLoader.prototype.get2010LocalIssuesData = function (callback) {
-            this.http.get(this.localIssues2010, this.headers).success(callback);
+            this.http.get(this._localIssues2010, this.headers).success(callback);
         };
         DataLoader.prototype.get2015LocalIssuesData = function (callback) {
-            this.http.get(this.localIssues2015, this.headers).success(callback);
+            this.http.get(this._localIssues2015, this.headers).success(callback);
         };
         DataLoader.prototype.getCasteDistribution = function (callback) {
-            this.http.get(this.casteDistribution, this.headers).success(callback);
+            this.http.get(this._casteDistribution, this.headers).success(callback);
         };
         DataLoader.prototype.getCasteCategoryDistribution = function (callback) {
             this.http.get(this.casteCategoryDistribution, this.headers).success(callback);
@@ -105,7 +106,7 @@ var Controllers;
             this.http.get(this.vipConstituencies, this.headers).success(callback);
         };
         DataLoader.prototype.get2015Predictions = function (callback) {
-            this.http.get(this.predictions2015, this.headers).success(callback);
+            this.http.get(this._predictions2015, this.headers).success(callback);
         };
         return DataLoader;
     })();
