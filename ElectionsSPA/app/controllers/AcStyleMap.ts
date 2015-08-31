@@ -24,7 +24,7 @@ module Controllers {
         public GenerateStyleMaps(acResults: Models.Result[]): AcStyleMap[]{
             let en = Enumerable.From(acResults);
             let acStyleMaps: AcStyleMap[] = [];
-            acResults.forEach(element => {
+            en.Select(element => {
                 let styleMap = new AcStyleMap();
                 let votes = Enumerable.From(en.Where(t=> t.Id == element.Id).First().Votes)
                 let party = votes.First(t=>t.Position == 1).Party;
