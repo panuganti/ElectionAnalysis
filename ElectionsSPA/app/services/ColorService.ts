@@ -13,10 +13,10 @@ class ColorService{
 	 }
 
 	returnColorJson(data: any) { 
-		var colorsObj = angular.fromJson(data);
-		for (var i = 0; i < colorsObj.Colors.length; i++)
+		let colorsObj = angular.fromJson(data);
+		for (let i = 0; i < colorsObj.Colors.length; i++)
 		{	
-			var color = colorsObj.Colors[i];
+			let color = colorsObj.Colors[i];
 			this.colorMap[color.Name] = color.Color;
 		}
 		return this.colorMap;

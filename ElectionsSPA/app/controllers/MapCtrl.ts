@@ -49,13 +49,13 @@ module Controllers {
 
         mouseOver(event: any) {
             this.setInfoDivVisibility("inline");
-            var id = event.feature.getProperty('ac');
+            let id = event.feature.getProperty('ac');
             console.log("In mouseOver with id:" + id );
         }
 
         mouseClick(event: any) {
             this.setInfoDivVisibility("inline");
-            var id = event.feature.getProperty('ac');            
+            let id = event.feature.getProperty('ac');            
             console.log("In mouseclick with id:" + id);
         }
 
@@ -68,8 +68,8 @@ module Controllers {
         }
 
         geocode(address: string) {
-            var geocoderComponentRestrictions: google.maps.GeocoderComponentRestrictions = {};
-            var request: google.maps.GeocoderRequest = {
+            let geocoderComponentRestrictions: google.maps.GeocoderComponentRestrictions = {};
+            let request: google.maps.GeocoderRequest = {
                 address: address,
                 componentRestrictions: geocoderComponentRestrictions
             };
@@ -88,11 +88,11 @@ module Controllers {
         }
 
         loadResultsCallback(response) {
-            var acStyleMap = new AcStyleMap();
-            var acResults: Models.Result[] = response;
-            var styleMaps = Enumerable.From(acStyleMap.GenerateStyleMaps(acResults));
+            let acStyleMap = new AcStyleMap();
+            let acResults: Models.Result[] = response;
+            let styleMaps = Enumerable.From(acStyleMap.GenerateStyleMaps(acResults));
             this.mapInstance.setStyle(function(feature) {
-                var id = feature.getProperty('ac');
+                let id = feature.getProperty('ac');
                 return styleMaps.First(t=>t.Id == id).Style;
             });
         }        

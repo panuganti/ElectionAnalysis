@@ -22,12 +22,12 @@ module Controllers {
         };
                         
         public GenerateStyleMaps(acResults: Models.Result[]): AcStyleMap[]{
-            var en = Enumerable.From(acResults);
-            var acStyleMaps: AcStyleMap[] = [];
+            let en = Enumerable.From(acResults);
+            let acStyleMaps: AcStyleMap[] = [];
             acResults.forEach(element => {
-                var styleMap = new AcStyleMap();
-                var votes = Enumerable.From(en.Where(t=> t.Id == element.Id).First().Votes)
-                var party = votes.First(t=>t.Position == 1).Party;
+                let styleMap = new AcStyleMap();
+                let votes = Enumerable.From(en.Where(t=> t.Id == element.Id).First().Votes)
+                let party = votes.First(t=>t.Position == 1).Party;
                 styleMap.Id = element.Id;
                 styleMap.Style = {
                     strokeWeight: this.defaultStyle.strokeWeight,

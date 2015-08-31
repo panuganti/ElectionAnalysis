@@ -10,10 +10,10 @@ module Models {
 
 		addGeoJson(data: any) {
             // Note: remember to clear map (refer shape escape website)
-            var parentThis = this;
+            let parentThis = this;
             if (data.objects) { 
                 $.each(data.objects, (i, layer) => {
-                    var geojson = topojson.feature(data, layer);
+                    let geojson = topojson.feature(data, layer);
                     parentThis._map.data.addGeoJson(geojson);
                 });
                 console.log("Loading completed");
@@ -45,7 +45,7 @@ module Models {
         		
 		public static get Instance() {
 			if (!(this._instance)) {
-				var mapDiv = document.getElementById('mapCanvas');
+				let mapDiv = document.getElementById('mapCanvas');
 				this._instance = new Map(mapDiv);
 				this._instance._defaultCenter = new google.maps.LatLng(23, 84);
 				this._instance._mapOptions = {

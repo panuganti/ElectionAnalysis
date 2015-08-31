@@ -20,8 +20,8 @@ module Models {
 		
 		public static BuildNeighbors(data) {
 			this._instance = new Neighbors();
-			var lines = data.split('\n');
-			for (var index = 0; index < lines.length; index++) {
+			let lines = data.split('\n');
+			for (let index = 0; index < lines.length; index++) {
 				this._neighborsDict[index] = lines[index].split(',');
 			}
 			return this._instance;
