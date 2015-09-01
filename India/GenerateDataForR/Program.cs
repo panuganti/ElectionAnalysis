@@ -7,6 +7,8 @@ using BiharElectionsLibrary;
 using GenerateDataForR;
 using Newtonsoft.Json;
 using System.Runtime.Serialization;
+using CVoterContracts;
+using CVoterLibrary;
 
 namespace GetBihar2010Results
 {
@@ -72,6 +74,8 @@ namespace GetBihar2010Results
             string indiaVotesResults2014Dir = Path.Combine(rootDir, ConfigurationManager.AppSettings["2014ACWiseResultsIndiaVotes"]);
             string indiaVotesResults2010Dir = Path.Combine(rootDir, ConfigurationManager.AppSettings["2010ACWiseResultsIndiaVotes"]);
             string indiaVotesResults2009Dir = Path.Combine(rootDir, ConfigurationManager.AppSettings["2009ACWiseResultsIndiaVotes"]);
+
+            string cVoter2015QualitativeDir = Path.Combine(rootDir, ConfigurationManager.AppSettings["cVoter2015QualitativeDir"]);
             
             #endregion Config
 
@@ -193,7 +197,7 @@ namespace GetBihar2010Results
 
             #region Load CVoter Data
 
-
+            var qualitativeDataTuple = DataLoader.LoadDataFromDir(cVoter2015QualitativeDir);
 
             #endregion Load CVoter Data
 
