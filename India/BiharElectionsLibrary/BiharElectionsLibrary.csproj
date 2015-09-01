@@ -34,6 +34,9 @@
   </PropertyGroup>
   -->
   <ItemGroup>
+    <Reference Include="HtmlAgilityPack">
+      <HintPath>..\ToolsAndLibraries\HtmlAgilityPack.1.4.6\Net40\HtmlAgilityPack.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\ToolsAndLibraries\Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -71,6 +74,7 @@
     <Compile Include="Census\RegionParameters.cs" />
     <Compile Include="Hierarchy\ShapeFileData.cs" />
     <Compile Include="CVoter\SurveyResponse.cs" />
+    <Compile Include="Utils\TableExtractor.cs" />
     <Compile Include="Utils\Utils.cs" />
     <Compile Include="Census\VillageParameters.cs" />
   </ItemGroup>
