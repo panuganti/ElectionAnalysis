@@ -76,7 +76,6 @@ var Controllers;
         };
         DataLoader.prototype.getACTopoShapeFile = function (callback) {
             this.http.get(this._acShapeFile, this.headers).success(callback);
-            _;
         };
         DataLoader.prototype.getAllAssemblyConstituencies = function (callback) {
             this.http.get(this._allACsJson, this.headers).success(callback);

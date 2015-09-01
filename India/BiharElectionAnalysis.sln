@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrapeVotersList", "ScrapeVotersList\ScrapeVotersList.csproj", "{508438AD-A11D-4D92-A7BD-0EEF0C9DA5DB}"
 EndProject
@@ -20,6 +20,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerateDataForR", "GenerateDataForR\GenerateDataForR.csproj", "{048EF528-55FE-4E8F-84C7-5D8063938F3B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrapeIndiaVotes", "ScrapeIndiaVotes\ScrapeIndiaVotes.csproj", "{EC8B94C5-B373-4E41-A8F7-B68755BE2D16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectionDataContracts", "ElectionDataContracts\ElectionDataContracts.csproj", "{0E6482A5-5061-49EC-812B-5010C6A13259}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CVoterLibrary", "CVoterLibrary\CVoterLibrary.csproj", "{3C67F338-CAF8-417B-B1A7-4F0B83A9DECE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CVoterContracts", "CVoterContracts\CVoterContracts.csproj", "{37F5193B-AE96-4DE8-91D1-39448249CEFA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,6 +95,30 @@ Global
 		{EC8B94C5-B373-4E41-A8F7-B68755BE2D16}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EC8B94C5-B373-4E41-A8F7-B68755BE2D16}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{EC8B94C5-B373-4E41-A8F7-B68755BE2D16}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{0E6482A5-5061-49EC-812B-5010C6A13259}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E6482A5-5061-49EC-812B-5010C6A13259}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E6482A5-5061-49EC-812B-5010C6A13259}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{0E6482A5-5061-49EC-812B-5010C6A13259}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{0E6482A5-5061-49EC-812B-5010C6A13259}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E6482A5-5061-49EC-812B-5010C6A13259}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E6482A5-5061-49EC-812B-5010C6A13259}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{0E6482A5-5061-49EC-812B-5010C6A13259}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{3C67F338-CAF8-417B-B1A7-4F0B83A9DECE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C67F338-CAF8-417B-B1A7-4F0B83A9DECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C67F338-CAF8-417B-B1A7-4F0B83A9DECE}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{3C67F338-CAF8-417B-B1A7-4F0B83A9DECE}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{3C67F338-CAF8-417B-B1A7-4F0B83A9DECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C67F338-CAF8-417B-B1A7-4F0B83A9DECE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C67F338-CAF8-417B-B1A7-4F0B83A9DECE}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{3C67F338-CAF8-417B-B1A7-4F0B83A9DECE}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{37F5193B-AE96-4DE8-91D1-39448249CEFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37F5193B-AE96-4DE8-91D1-39448249CEFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37F5193B-AE96-4DE8-91D1-39448249CEFA}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{37F5193B-AE96-4DE8-91D1-39448249CEFA}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{37F5193B-AE96-4DE8-91D1-39448249CEFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37F5193B-AE96-4DE8-91D1-39448249CEFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37F5193B-AE96-4DE8-91D1-39448249CEFA}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{37F5193B-AE96-4DE8-91D1-39448249CEFA}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

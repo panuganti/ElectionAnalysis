@@ -91,11 +91,9 @@ namespace GetBihar2010Results
 
 
             //var indiaVotesResults2014 = ResultsLoader.LoadResultsFromIndiaVotesData(indiaVotesResults2014Dir, 2014);
-            var indiaVotesResults2014 = ResultsLoader.LoadResultsFromIndiaVotesData(indiaVotesResults2014Dir, 2014);
+            //var indiaVotesResults2014 = ResultsLoader.LoadResultsFromIndiaVotesData(indiaVotesResults2014Dir, 2014);
             // var indiaVotesResults2010 = ResultsLoader.LoadACResultsFromIndiaVotesData(indiaVotesResults2010Dir, 2010);
 
-            CustomExecution(indiaVotesResults2014, state);
-            return;
             /*
             List<ACResult> results2005;
             if (bool.Parse(ConfigurationManager.AppSettings["LoadNonStateJsons"]) && File.Exists(results2005Store))
@@ -127,7 +125,7 @@ namespace GetBihar2010Results
                     JsonConvert.SerializeObject(results2010,
                         new JsonSerializerSettings {PreserveReferencesHandling = PreserveReferencesHandling.Objects}));
             }
-            */
+            
             List<ACResult> results2014;
             if (bool.Parse(ConfigurationManager.AppSettings["LoadNonStateJsons"]) && File.Exists(results2014Store))
             {
@@ -147,10 +145,11 @@ namespace GetBihar2010Results
 
             var pcResults = ResultsLoader.Load2015PCResults(PC2015, state);
             var results = ResultsConflator.ConflateResults(results2014, state);
-
+            */
             #endregion Load Results
-
-            VillageParameters villageParams;
+            /*
+             #region Load Census Data
+                VillageParameters villageParams;
             if (bool.Parse(ConfigurationManager.AppSettings["LoadNonStateJsons"]) && File.Exists(villageParamsJsonStore))
             {
                 var json = File.ReadAllText(villageParamsJsonStore);
@@ -188,9 +187,13 @@ namespace GetBihar2010Results
                     JsonConvert.SerializeObject(ParamDictionaries.DistrictParams,
                     new JsonSerializerSettings { PreserveReferencesHandling = PreserveReferencesHandling.Objects })); //                
             }
-
+            
+            #endregion Load Census Data
+            */
 
             #region Load CVoter Data
+
+
 
             #endregion Load CVoter Data
 

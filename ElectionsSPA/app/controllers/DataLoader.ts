@@ -28,7 +28,7 @@ module Controllers {
 
         getACTopoShapeFile(callback: (ev: Event) => any) {            
             this.http.get(this._acShapeFile, this.headers).success(callback);
-        _}
+        }
 
         getAllAssemblyConstituencies(callback: (ev: Event)=> any) {
             this.http.get(this._allACsJson, this.headers).success(callback);
