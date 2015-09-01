@@ -60,6 +60,14 @@
       <Project>{92b370c7-179a-4fd7-981a-1af1d66db55e}</Project>
       <Name>BiharElectionsLibrary</Name>
     </ProjectReference>
+    <ProjectReference Include="..\CVoterContracts\CVoterContracts.csproj">
+      <Project>{37f5193b-ae96-4de8-91d1-39448249cefa}</Project>
+      <Name>CVoterContracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CVoterLibrary\CVoterLibrary.csproj">
+      <Project>{3c67f338-caf8-417b-b1a7-4f0b83a9dece}</Project>
+      <Name>CVoterLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config">
