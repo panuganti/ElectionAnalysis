@@ -71,8 +71,13 @@ namespace CVoterLibrary
             acData1.PartyRatings = ParsePartyParamsData(tableDivs[6]);
             acData2.PartyRatings = ParsePartyParamsData(tableDivs[7]);
             // next two are caste params
-            acData1.CasteShares = ParseCasteShareData(tableDivs[8]);
-            acData2.CasteShares = ParseCasteShareData(tableDivs[9]);
+            var tuple = ParseCasteShareData(tableDivs[8]);
+            acData1.CasteShares = tuple.Item1;
+            acData1.PartyCasteShares = tuple.Item2;
+            tuple = ParseCasteShareData(tableDivs[8]);
+            acData2.CasteShares = tuple.Item1;
+            acData2.PartyCasteShares = tuple.Item2;
+            // TODO: Handle cases of empty tables...
         }
 
         public static List<Rating> ParseLocalIssuesData(HtmlNode localIssuesNode)
@@ -131,9 +136,27 @@ namespace CVoterLibrary
             return ratings;
         }
 
-        public static List<CasteShare> ParseCasteShareData(HtmlNode casteSharesNode)
+        public static Tuple<CasteShare, List<PartyCasteShare>> ParseCasteShareData(HtmlNode casteSharesNode)
         {
-            throw new NotImplementedException();
+            var table = TableExtractor.ExtractTableFromDiv(casteSharesNode);
+            var casteShare = new CasteShare { CasteShares = new List<Rating>(), PerCents = new List<Rating>() };
+            var partyCasteShares = new List<PartyCasteShare>();
+            var headers = table.Headers.Skip(3).ToArray();
+            foreach(var header in headers)
+            {
+                partyCasteShares.Add(new PartyCasteShare { PartyName = header, PerCents = new List<Rating>()});
+            }
+
+            foreach (var row in table.Rows)
+            {
+                casteShare.CasteShares.Add(new Rating { Feature = row[0], Score = int.Parse(row[1]) });
+                casteShare.PerCents.Add(new Rating { Feature = row[0], Score = int.Parse(row[2]) });
+                for (int i=0; i < headers.Length; i++)
+                {
+                    partyCasteShares[i].PerCents.Add(new Rating { Feature = row[0], Score = int.Parse(row[i+3])});
+                }
+            }
+            return new Tuple<CasteShare,List<PartyCasteShare>>(casteShare, partyCasteShares);
         }
     }
 }

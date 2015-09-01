@@ -16,7 +16,8 @@ namespace CVoterContracts
         public List<Rating> DevParams { get; set; }
         public List<CandidateRating> CandidateRatings { get; set; }
         public List<PartyRating> PartyRatings { get; set; }
-        public List<CasteShare> CasteShares { get; set; }
+        public CasteShare CasteShares { get; set; }
+        public List<PartyCasteShare> PartyCasteShares { get; set; }
     }
 
     public class Rating
