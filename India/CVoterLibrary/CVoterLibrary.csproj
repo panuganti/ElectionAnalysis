@@ -52,9 +52,9 @@
       <Project>{37f5193b-ae96-4de8-91d1-39448249cefa}</Project>
       <Name>CVoterContracts</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Utils\Utils.csproj">
-      <Project>{373ed4dc-1286-48da-a180-4ec189c1129f}</Project>
-      <Name>Utils</Name>
+    <ProjectReference Include="..\HtmlUtils\HtmlUtils.csproj">
+      <Project>{373ED4DC-1286-48DA-A180-4EC189C1129F}</Project>
+      <Name>HtmlUtils</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

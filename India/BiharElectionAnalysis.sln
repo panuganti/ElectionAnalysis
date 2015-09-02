@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrapeVotersList", "ScrapeVotersList\ScrapeVotersList.csproj", "{508438AD-A11D-4D92-A7BD-0EEF0C9DA5DB}"
 EndProject
@@ -27,7 +27,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CVoterLibrary", "CVoterLibr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CVoterContracts", "CVoterContracts\CVoterContracts.csproj", "{37F5193B-AE96-4DE8-91D1-39448249CEFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils", "Utils\Utils.csproj", "{373ED4DC-1286-48DA-A180-4EC189C1129F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlUtils", "HtmlUtils\HtmlUtils.csproj", "{373ED4DC-1286-48DA-A180-4EC189C1129F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

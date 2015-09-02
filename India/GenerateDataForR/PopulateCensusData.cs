@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using BiharElectionsLibrary;
 using HtmlAgilityPack;
+using Utils = BiharElectionsLibrary.Utils;
 
 namespace GenerateDataForR
 {
@@ -74,11 +75,11 @@ namespace GenerateDataForR
                 {
                     var districtNode = tableNodes[i].Descendants("a").First();
                     var subDistrictNode = tableNodes[i].Descendants("a").Skip(1).First();
-                    var districtName = Utils.GetNormalizedName(districtNode.InnerText);
+                    var districtName = BiharElectionsLibrary.Utils.GetNormalizedName(districtNode.InnerText);
                     Console.WriteLine("Populating District: {0}", districtName);
                     var district = state.Districts.FirstOrDefault(x => x.Name.Equals(districtName)) ??
                                    state.Districts.First(
-                                       x => Utils.LevenshteinDistance(x.Name, districtName) < 2);
+                                       x => BiharElectionsLibrary.Utils.LevenshteinDistance(x.Name, districtName) < 2);
                     var districtInfoLink = districtNode.Attributes["href"].Value;
                     // TODO: Parse Cities & Metropolitan areas
                     var districtInfoDoc = GetHtmlPage(districtInfoLink);
@@ -123,7 +124,7 @@ namespace GenerateDataForR
             foreach (var rowNode in rowNodes)
             {
                 var linkNode = rowNode.Descendants("a").First(); // There is only one
-                string blockName = Utils.GetNormalizedName(linkNode.InnerText);
+                string blockName = BiharElectionsLibrary.Utils.GetNormalizedName(linkNode.InnerText);
                 int blockId = Int32.Parse(
                         rowNode.Descendants("div")
                             .First(
