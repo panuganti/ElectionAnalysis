@@ -21,7 +21,9 @@ namespace HtmlUtils
             {
                 if (rowNode.Name == "tr")
                 {
-                    table.Rows.Add(rowNode.Descendants("td").Select(t => t.InnerText).ToList());
+                    var row = rowNode.Descendants("td").Select(t => t.InnerText).ToList();
+                    if (!row.Any()) { continue; }
+                    table.Rows.Add(row);
                 }
             }
             return table;

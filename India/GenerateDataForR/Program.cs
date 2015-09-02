@@ -20,11 +20,12 @@ namespace GetBihar2010Results
         }
 
 
-        private static void CustomExecution(List<ACResult> results, State state)
+        private static void CustomExecution(CVoterContracts.QualitativeData data1, CVoterContracts.QualitativeData data2)
         {
-            var filename = @"J:\ArchishaData\ElectionData\Bihar\Website\results2014AcWise.json";
-            var outputData = ResultsConflator.ConflateResults(results, state);
-            File.WriteAllText(filename, JsonConvert.SerializeObject(outputData, Formatting.Indented));
+            var filename1 = @"D:\ArchishaData\ElectionData\Bihar\Website\cvoterQualitative2010.json";
+            var filename2 = @"D:\ArchishaData\ElectionData\Bihar\Website\cvoterQualitative2015.json";
+            File.WriteAllText(filename1, JsonConvert.SerializeObject(data1, Formatting.Indented));
+            File.WriteAllText(filename2, JsonConvert.SerializeObject(data2, Formatting.Indented));
         }
 
         private static void Startup()
@@ -198,7 +199,7 @@ namespace GetBihar2010Results
             #region Load CVoter Data
 
             var qualitativeDataTuple = DataLoader.LoadDataFromDir(cVoter2015QualitativeDir);
-
+            CustomExecution(qualitativeDataTuple.Item1, qualitativeDataTuple.Item2);
             #endregion Load CVoter Data
 
             #region Load Additional Info
