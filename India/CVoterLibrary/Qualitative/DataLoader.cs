@@ -49,7 +49,6 @@ namespace CVoterLibrary
             acData1.No = acDict[key];
             acData2.No = acData1.No;
             // Read each table of the file
-            Console.WriteLine(acData1.Name);
             ParsePage(doc, acData1, acData2);
             return new Tuple<AcQualitative,AcQualitative>(acData1,acData2); // Two AcDatas are returned
         }
@@ -96,8 +95,8 @@ namespace CVoterLibrary
             if (!table.Headers.Any()) { return new List<Rating>(); }
             return table.Rows.Select(row => 
                 {
-                    int rating;
-                    if (!int.TryParse(row[1], out rating)) { return null; }
+                    double rating;
+                    if (!double.TryParse(row[1], out rating)) { return null; }
                     return new Rating { Feature = row[0], Score = rating };
                 }
                 ).Where(t=>t != null).ToList();
@@ -109,8 +108,8 @@ namespace CVoterLibrary
             if (!table.Headers.Any()) { return new List<Rating>(); }
             return table.Rows.Select(row => 
                 {
-                    int rating;
-                    if (!int.TryParse(row[1], out rating)) { return null; }
+                    double rating;
+                    if (!double.TryParse(row[1], out rating)) { return null; }
                     return new Rating { Feature = row[0], Score = rating };
                 }).Where(t=>t != null).ToList();
         }
@@ -126,8 +125,8 @@ namespace CVoterLibrary
                 var candRating = new CandidateRating { Name = row[1].Trim(), PartyName = row[0].Replace("\n", "").Trim(), Ratings = new List<Rating>() };
                 for (int i = 0; i < headers.Length; i++ )
                 {
-                    int rating;
-                    if (!int.TryParse(row[i + 2], out rating)) { continue; }
+                    double rating;
+                    if (!double.TryParse(row[i + 2], out rating)) { continue; }
                     candRating.Ratings.Add(new Rating { Feature = headers[i], Score = rating });
                 }
                     ratings.Add(candRating);
@@ -146,8 +145,8 @@ namespace CVoterLibrary
                 var partyRating = new PartyRating { PartyName = row[0].Replace("\n","").Trim(), Ratings = new List<Rating>() };
                 for (int i = 0; i < headers.Length; i++)
                 {
-                    int rating;
-                    if (!int.TryParse(row[i + 1], out rating)) { continue;  }
+                    double rating;
+                    if (!double.TryParse(row[i + 1], out rating)) { continue; }
                     partyRating.Ratings.Add(new Rating { Feature = headers[i], Score = rating });
                 }
                 ratings.Add(partyRating);
@@ -164,8 +163,8 @@ namespace CVoterLibrary
             if (headers.Length < 1) { return new Tuple<CasteShare, List<PartyCasteShare>>(casteShare, partyCasteShares); }
             foreach (var row in table.Rows)
             {
-                int rating;
-                if (int.TryParse(row[1], out rating))
+                double rating;
+                if (double.TryParse(row[1], out rating))
                 {
                     casteShare.CasteShares.Add(new Rating { Feature = row[0], Score = rating });
                 }

@@ -39,7 +39,7 @@ namespace CVoterContracts
         [DataMember]
         public string Feature { get; set; }
         [DataMember]
-        public int Score { get; set; }
+        public double Score { get; set; }
     }
 
     [DataContract]

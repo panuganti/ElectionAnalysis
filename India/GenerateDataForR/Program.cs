@@ -20,12 +20,12 @@ namespace GetBihar2010Results
         }
 
 
-        private static void CustomExecution(CVoterContracts.QualitativeData data1, CVoterContracts.QualitativeData data2)
+        private static void CustomExecution(CandidateSelector selector, State state)
         {
-            var filename1 = @"D:\ArchishaData\ElectionData\Bihar\Website\cvoterQualitative2010.json";
-            var filename2 = @"D:\ArchishaData\ElectionData\Bihar\Website\cvoterQualitative2015.json";
-            File.WriteAllText(filename1, JsonConvert.SerializeObject(data1, Formatting.Indented));
-            File.WriteAllText(filename2, JsonConvert.SerializeObject(data2, Formatting.Indented));
+            const string filename = @"I:\ArchishaData\ElectionData\Bihar\CandidateSelection\CandidateSelection2015.tsv";
+            var bestCandidates = selector.WinnableCandidates();
+            selector.PrintCandidateSelection(bestCandidates, state, filename);
+            Console.WriteLine("TotalCount: {0}, BJP Count: {1}, MultipleCandidates Count: {2}", bestCandidates.Count(), bestCandidates.Count(t => t.BestCandidate.PartyName.ToLower() == "bjp"), bestCandidates.Count(t => t.CandidatesConsidered.Count() > 1));
         }
 
         private static void Startup()
@@ -199,7 +199,8 @@ namespace GetBihar2010Results
             #region Load CVoter Data
 
             var qualitativeDataTuple = DataLoader.LoadDataFromDir(cVoter2015QualitativeDir);
-            CustomExecution(qualitativeDataTuple.Item1, qualitativeDataTuple.Item2);
+            var candidateSelector = new CandidateSelector(qualitativeDataTuple.Item2);
+            CustomExecution(candidateSelector, state);
             #endregion Load CVoter Data
 
             #region Load Additional Info

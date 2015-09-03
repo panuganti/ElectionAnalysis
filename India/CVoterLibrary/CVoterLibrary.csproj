@@ -42,12 +42,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Qualitative\CandidateSelector.cs" />
     <Compile Include="Qualitative\DataLoader.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BiharElectionsLibrary\BiharElectionsLibrary.csproj">
+      <Project>{92B370C7-179A-4FD7-981A-1AF1D66DB55E}</Project>
+      <Name>BiharElectionsLibrary</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CVoterContracts\CVoterContracts.csproj">
       <Project>{37f5193b-ae96-4de8-91d1-39448249cefa}</Project>
       <Name>CVoterContracts</Name>
