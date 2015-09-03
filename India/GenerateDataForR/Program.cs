@@ -20,10 +20,11 @@ namespace GetBihar2010Results
         }
 
 
-        private static void CustomExecution(CandidateSelector selector, State state)
+        private static void CustomExecution(CandidateSelector selector, State state, List<Result> results2010)
         {
-            const string filename = @"I:\ArchishaData\ElectionData\Bihar\CandidateSelection\CandidateSelection2015.tsv";
+            const string filename = @"D:\ArchishaData\ElectionData\Bihar\CandidateSelection\CandidateSelection2015Ext.tsv";
             var bestCandidates = selector.WinnableCandidates();
+            selector.FillUpRestOfCandidates(bestCandidates, results2010);
             selector.PrintCandidateSelection(bestCandidates, state, filename);
             Console.WriteLine("TotalCount: {0}, BJP Count: {1}, MultipleCandidates Count: {2}", bestCandidates.Count(), bestCandidates.Count(t => t.BestCandidate.PartyName.ToLower() == "bjp"), bestCandidates.Count(t => t.CandidatesConsidered.Count() > 1));
         }
@@ -97,7 +98,8 @@ namespace GetBihar2010Results
 
             //var indiaVotesResults2014 = ResultsLoader.LoadResultsFromIndiaVotesData(indiaVotesResults2014Dir, 2014);
             //var indiaVotesResults2014 = ResultsLoader.LoadResultsFromIndiaVotesData(indiaVotesResults2014Dir, 2014);
-            // var indiaVotesResults2010 = ResultsLoader.LoadACResultsFromIndiaVotesData(indiaVotesResults2010Dir, 2010);
+             var indiaVotesResults2010 = ResultsLoader.LoadACResultsFromIndiaVotesData(indiaVotesResults2010Dir, 2010);
+             var conflatedResults = ResultsConflator.ConflateResultsAndDistrictInfo(indiaVotesResults2010, state);
 
             /*
             List<ACResult> results2005;
@@ -200,7 +202,7 @@ namespace GetBihar2010Results
 
             var qualitativeDataTuple = DataLoader.LoadDataFromDir(cVoter2015QualitativeDir);
             var candidateSelector = new CandidateSelector(qualitativeDataTuple.Item2);
-            CustomExecution(candidateSelector, state);
+            CustomExecution(candidateSelector, state, conflatedResults);
             #endregion Load CVoter Data
 
             #region Load Additional Info
@@ -210,10 +212,6 @@ namespace GetBihar2010Results
 
             #endregion Load Additional Info
 
-
-            #region Custom Execution
-            //CustomExecution(results2014);
-            #endregion Custom Execution
         }
 
         private static void OldMain()

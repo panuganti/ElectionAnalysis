@@ -69,6 +69,31 @@ namespace CVoterLibrary
             }
         }
 
+        public void FillUpRestOfCandidates(List<CandidateSelection> bestCandidates, List<Result> results2010)
+        {
+            var validParties = new List<string> { "bjp", "rlsp", "ham", "ljp" };
+            var acIds = bestCandidates.Select(t => t.AC.No).Distinct().ToArray();
+            var allAcIds = results2010.Select(t => t.Id).ToArray();
+            var restOfIds = allAcIds.Except(acIds).ToArray();
+            foreach(var restOfId in restOfIds)
+            {
+                var result = results2010.First(t => t.Id == restOfId);
+                var bestCand = result.Votes.Where(t => validParties.Contains(t.Party.ToString())).ToArray();
+                if (!bestCand.Any()) { Console.WriteLine("Cannot find suitable Cand for {0}", result.Name);  continue; }
+                var candSelect = new CandidateSelection
+                {
+                   AC = new AssemblyConstituency { Name = result.Name, No = result.Id},
+                   BestCandidate = new CandidateRating()
+                   {
+                       Name = bestCand.OrderByDescending(t => t.Votes).First().Name,
+                       PartyName = bestCand.OrderByDescending(t => t.Votes).First().Party.ToString()
+                   },
+               };
+                 candSelect.CandidatesConsidered = new List<CandidateRating>() {candSelect.BestCandidate};
+                 bestCandidates.Add(candSelect);
+            }
+        }
+
         private readonly QualitativeData _data;
     }
 
