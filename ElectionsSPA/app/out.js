@@ -32,7 +32,7 @@ var Controllers;
             var _this = this;
             var en = Enumerable.From(acResults);
             var acStyleMaps = [];
-            en.Select(function (element) {
+            en.ForEach(function (element) {
                 var styleMap = new AcStyleMap();
                 var votes = Enumerable.From(en.Where(function (t) { return t.Id == element.Id; }).First().Votes);
                 var party = votes.First(function (t) { return t.Position == 1; }).Party;
@@ -129,11 +129,13 @@ var Controllers;
     var MapCtrl = (function () {
         function MapCtrl($scope, $http) {
             var _this = this;
+            this.acName = "Ac Name";
             this.loadResultsHandler = function (response) { return _this.loadResultsCallback(response); };
             this.mouseOverHandler = function (event) { return _this.mouseOver(event); };
             this.mouseClickHandler = function (event) { return _this.mouseClick(event); };
             this.getDefaultCenterCallback = function (results, status) { return _this.getDefaultCenter(results, status); };
-            $scope.vm = this;
+            $scope.vMap = this;
+            this.scope = $scope;
             this.http = $http;
             this.mapInstance = Models.Map.Instance;
             this.infoDiv = document.getElementById('info');
@@ -155,12 +157,18 @@ var Controllers;
         MapCtrl.prototype.mouseOver = function (event) {
             this.setInfoDivVisibility("inline");
             var id = event.feature.getProperty('ac');
-            console.log("In mouseOver with id:" + id);
+            var name = event.feature.getProperty('ac_name');
+            this.acName = name;
+            this.scope.$apply();
+            console.log("In mouseOver with id:" + id + " " + name);
         };
         MapCtrl.prototype.mouseClick = function (event) {
             this.setInfoDivVisibility("inline");
             var id = event.feature.getProperty('ac');
-            console.log("In mouseclick with id:" + id);
+            var name = event.feature.getProperty('ac_name');
+            this.acName = name;
+            this.scope.$apply();
+            console.log("In mouseOver with id:" + id + " " + name);
         };
         MapCtrl.prototype.getDefaultCenter = function (results, status) {
             if (status == google.maps.GeocoderStatus.OK) {
@@ -187,7 +195,8 @@ var Controllers;
         MapCtrl.prototype.loadResultsCallback = function (response) {
             var acStyleMap = new Controllers.AcStyleMap();
             var acResults = response;
-            var styleMaps = Enumerable.From(acStyleMap.GenerateStyleMaps(acResults));
+            var styleMapsArray = acStyleMap.GenerateStyleMaps(acResults);
+            var styleMaps = Enumerable.From(styleMapsArray);
             this.mapInstance.setStyle(function (feature) {
                 var id = feature.getProperty('ac');
                 return styleMaps.First(function (t) { return t.Id == id; }).Style;

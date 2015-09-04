@@ -22,9 +22,9 @@
 </head>
 <body ng-app="ElectionVisualization" ng-controller="MapCtrl" >
         <div id="mapCanvas"> </div>
-         <div id="summaryResults"></div> 
+        <!--- <div id="summaryResults"></div> --> 
          <div id="info"> 
-                
+             {{vMap.acName}}   
          </div>
 
     <div id="searchBox" ng-controller ="SearchBoxCtrl">  {{vm.message}}

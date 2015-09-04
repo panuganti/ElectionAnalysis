@@ -4,6 +4,7 @@
 module Controllers {
     export class MapCtrl {
         private http: ng.IHttpService;
+        private scope: ng.IScope;
         private infoDiv: HTMLElement;
         private dataloader: DataLoader;
         private colors: string[];
@@ -12,6 +13,7 @@ module Controllers {
         private geocoder: google.maps.Geocoder;
         private defaultColorMap: AcStyleMap; 
         private mapInstance: Models.Map;
+        acName = "Ac Name";
 
         public loadResultsHandler: { (response: any) } = (response) => this.loadResultsCallback(response);
         public mouseOverHandler: { (event: any): void } = (event) => this.mouseOver(event);
@@ -20,7 +22,8 @@ module Controllers {
         public getDefaultCenterCallback: { (results: any, status: any): void } = (results, status) => this.getDefaultCenter(results, status);
 
         constructor($scope, $http) {
-            $scope.vm = this;
+            $scope.vMap = this;
+            this.scope = $scope;
             this.http = $http;
             
             this.mapInstance = Models.Map.Instance;
@@ -50,13 +53,19 @@ module Controllers {
         mouseOver(event: any) {
             this.setInfoDivVisibility("inline");
             let id = event.feature.getProperty('ac');
-            console.log("In mouseOver with id:" + id );
+            let name = event.feature.getProperty('ac_name');
+            this.acName = name;
+            this.scope.$apply();
+            console.log("In mouseOver with id:" + id + " " + name);
         }
 
         mouseClick(event: any) {
             this.setInfoDivVisibility("inline");
             let id = event.feature.getProperty('ac');            
-            console.log("In mouseclick with id:" + id);
+            let name = event.feature.getProperty('ac_name');
+            this.acName = name;
+            this.scope.$apply();
+            console.log("In mouseOver with id:" + id + " " + name);
         }
 
         getDefaultCenter(results: any, status: any) {
@@ -90,7 +99,8 @@ module Controllers {
         loadResultsCallback(response) {
             let acStyleMap = new AcStyleMap();
             let acResults: Models.Result[] = response;
-            let styleMaps = Enumerable.From(acStyleMap.GenerateStyleMaps(acResults));
+            let styleMapsArray = acStyleMap.GenerateStyleMaps(acResults)
+            let styleMaps = Enumerable.From(styleMapsArray);
             this.mapInstance.setStyle(function(feature) {
                 let id = feature.getProperty('ac');
                 return styleMaps.First(t=>t.Id == id).Style;

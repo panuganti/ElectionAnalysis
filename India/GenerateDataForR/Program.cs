@@ -23,10 +23,13 @@ namespace GetBihar2010Results
         private static void CustomExecution(CandidateSelector selector, State state, List<Result> results2010)
         {
             const string filename = @"D:\ArchishaData\ElectionData\Bihar\CandidateSelection\CandidateSelection2015Ext.tsv";
+            const string logFile = @"D:\ArchishaData\ElectionData\Bihar\CandidateSelection\log.txt";
             var bestCandidates = selector.WinnableCandidates();
-            selector.FillUpRestOfCandidates(bestCandidates, results2010);
+            selector.FillUpRestOfCandidates(bestCandidates, results2010, logFile);
             selector.PrintCandidateSelection(bestCandidates, state, filename);
-            Console.WriteLine("TotalCount: {0}, BJP Count: {1}, MultipleCandidates Count: {2}", bestCandidates.Count(), bestCandidates.Count(t => t.BestCandidate.PartyName.ToLower() == "bjp"), bestCandidates.Count(t => t.CandidatesConsidered.Count() > 1));
+            Console.WriteLine("TotalCount: {0}, BJP Count: {1}, MultipleCandidates Count: {2}", 
+                bestCandidates.Count(), bestCandidates.Count(t => t.BestCandidate.PartyName.ToLower() == "bjp"), 
+                                                    bestCandidates.Count(t => t.CandidatesConsidered.Count() > 1));
         }
 
         private static void Startup()
