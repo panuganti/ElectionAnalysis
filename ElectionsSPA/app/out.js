@@ -206,13 +206,18 @@ var Controllers;
     })();
     Controllers.MapCtrl = MapCtrl;
 })(Controllers || (Controllers = {}));
+/// <reference path="../reference.ts" />
 var Controllers;
 (function (Controllers) {
     var SearchBoxCtrl = (function () {
         function SearchBoxCtrl($scope) {
             this.placeholder = "Search Constituency";
             $scope.searchBox = this;
+            this.scope = $scope;
         }
+        SearchBoxCtrl.prototype.getTopChoices = function () {
+            this.dropDownList = ["hello", "world"];
+        };
         return SearchBoxCtrl;
     })();
     Controllers.SearchBoxCtrl = SearchBoxCtrl;
