@@ -5,7 +5,8 @@
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <meta charset="utf-8">
 
-    <link rel="stylesheet" type="text/css" href="css/app.css">
+    <!-- CSS -->
+    <link rel="stylesheet/less" type="text/css" href="css/app.less">
     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css">
 
     <!--Scripts-->
@@ -15,6 +16,7 @@
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="vendor/topojson.js"></script>
     <script src="vendor/linq.min.js"></script>
+    <script src="vendor/less.min.js"></script>
 
     <!--our code -->
     <script src="app/out.js"></script>
@@ -27,7 +29,10 @@
              {{vMap.acName}}   
          </div>
 
-    <div id="searchBox" ng-controller ="SearchBoxCtrl">  {{vm.message}}
+    <div id="searchBox" ng-controller ="SearchBoxCtrl">  
+        <input autofocus="autofocus" type="text" placeholder="{{searchBox.placeholder}}"  data-ng-model="searchBox.userQuery" >  </input>
+        <div id="SearchResult"  > </div>
+        
     </div>
     
     <testme></testme>

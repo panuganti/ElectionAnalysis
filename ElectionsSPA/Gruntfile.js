@@ -3,7 +3,8 @@ module.exports = function (grunt) {
     // load the task
     grunt.loadNpmTasks("grunt-ts");
     grunt.loadNpmTasks('grunt-nuget-install');
-
+    grunt.loadNpmTasks('grunt-contrib-uglify');
+    
     // Configure grunt here
     grunt.initConfig({
         ts: {
@@ -17,6 +18,12 @@ module.exports = function (grunt) {
         },
         nuget_install: {
             //file: 'Client.Project.sln',
+        },
+        uglify: {
+            build: {
+                src: 'app/out.js',
+                dest: 'js/out.min.js'
+            }
         }
     });
 

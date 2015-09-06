@@ -1,8 +1,10 @@
 module Controllers{
     export class SearchBoxCtrl {
-        message = "Search Constituency";
+        userQuery: string
+        
+        placeholder: string = "Search Constituency";
         constructor($scope){
-            $scope.vm = this;
+            $scope.searchBox = this;
         }
     }
 }

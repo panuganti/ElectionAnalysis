@@ -6,6 +6,11 @@
     overflow-y: hidden;
 } 
 
+input[type="text"] {
+     width: 100%; 
+     height: 100%;
+}
+
 #info {
     position: fixed;
     top: 0;
@@ -45,7 +50,7 @@
     position: fixed;
     top: 30px;
     left: 40px;
-    height: 30px;
+    height: 50px;
     width: 350px;
     margin-right:1px;
     margin-top: 1px;

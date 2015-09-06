@@ -210,8 +210,8 @@ var Controllers;
 (function (Controllers) {
     var SearchBoxCtrl = (function () {
         function SearchBoxCtrl($scope) {
-            this.message = "Search Constituency";
-            $scope.vm = this;
+            this.placeholder = "Search Constituency";
+            $scope.searchBox = this;
         }
         return SearchBoxCtrl;
     })();
