@@ -93,13 +93,12 @@ module Controllers {
         // #region 2010 results
         
         load2010results() {            
-            this.dataloader.get2010Results().then(this.loadResultsHandler);
+            var pResults2010 = this.dataloader.get2010ResultsAsync();
+            pResults2010.then(this.loadResultsHandler);
         }
 
-        loadResultsCallback(response) {
-            let acStyleMap = new AcStyleMap();
-            let acResults: Models.Result[] = response;
-            let styleMapsArray = acStyleMap.GenerateStyleMaps(acResults)
+        loadResultsCallback(acResults) {
+            let styleMapsArray = new AcStyleMap().GenerateStyleMaps(acResults);
             let styleMaps = Enumerable.From(styleMapsArray);
             this.mapInstance.setStyle(function(feature) {
                 let id = feature.getProperty('ac');

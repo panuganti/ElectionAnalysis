@@ -82,7 +82,7 @@ var Controllers;
         DataLoader.prototype.getAllAssemblyConstituencies = function (callback) {
             this.http.get(this._allACsJson, this.headers).success(callback);
         };
-        DataLoader.prototype.get2010Results = function () {
+        DataLoader.prototype.get2010ResultsAsync = function () {
             var deferred = this.q.defer();
             if (this._results2010 !== null) {
                 deferred.resolve(this._results2010);
@@ -197,12 +197,11 @@ var Controllers;
             this.dataloader.getACTopoShapeFile(this.mapInstance.loadGeoJson);
         };
         MapCtrl.prototype.load2010results = function () {
-            this.dataloader.get2010Results().then(this.loadResultsHandler);
+            var pResults2010 = this.dataloader.get2010ResultsAsync();
+            pResults2010.then(this.loadResultsHandler);
         };
-        MapCtrl.prototype.loadResultsCallback = function (response) {
-            var acStyleMap = new Controllers.AcStyleMap();
-            var acResults = response;
-            var styleMapsArray = acStyleMap.GenerateStyleMaps(acResults);
+        MapCtrl.prototype.loadResultsCallback = function (acResults) {
+            var styleMapsArray = new Controllers.AcStyleMap().GenerateStyleMaps(acResults);
             var styleMaps = Enumerable.From(styleMapsArray);
             this.mapInstance.setStyle(function (feature) {
                 var id = feature.getProperty('ac');
