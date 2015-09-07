@@ -4,7 +4,7 @@ module Controllers {
         private _acShapeFile: string = "json/Bihar.Assembly.10k.topo.json";
         private _allACsJson: string = "json/allACs.json";
         private _results2009: string = "json/results2009AcWise.json";
-        private _results2010: string = "json/results2014AcWise.json";
+        private _results2010Json: string = "json/results2014AcWise.json";
         //private results2010: string = "json/results2010.json";
         private _results2014: string = "json/results2014AcWise.json";
         private _localIssues2015: string = "";
@@ -16,11 +16,14 @@ module Controllers {
         private _predictions2015: string = "";
         private _neighbors: string = "json/Neighbors.txt";
 
+        private _results2010 = null;
         private http: ng.IHttpService;
+        private q: ng.IQService;
         private headers: any = {'Authorization': 'OAuth AIzaSyD4of1Mljc1T1HU0pREX7fvfUKZX-lx2HQ'}
 
-        constructor($http) {
+        constructor($http, $q) {
             this.http = $http;
+            this.q = $q;
         }
 
         getColorsJson(callback: (ev: Event)=> any) {        
@@ -34,8 +37,11 @@ module Controllers {
             this.http.get(this._allACsJson, this.headers).success(callback);
         }
 
-        get2010Results(callback: (ev: Event)=> any) {
-            this.http.get(this._results2010, this.headers).success(callback);
+        get2010Results() {
+            var deferred = this.q.defer();
+            if (this._results2010 !== null) { deferred.resolve(this._results2010);}
+            this.http.get(this._results2010Json, this.headers).success((data) => deferred.resolve(data));
+            return deferred.promise;
         }
 
         get2014Results(callback: (ev: Event)=> any) {

@@ -21,14 +21,14 @@ module Controllers {
 
         public getDefaultCenterCallback: { (results: any, status: any): void } = (results, status) => this.getDefaultCenter(results, status);
 
-        constructor($scope, $http) {
+        constructor($scope, $http, $q) {
             $scope.vMap = this;
             this.scope = $scope;
             this.http = $http;
             
             this.mapInstance = Models.Map.Instance;
             this.infoDiv = document.getElementById('info');
-            this.dataloader = new DataLoader(this.http);
+            this.dataloader = new DataLoader(this.http, $q);
             this.geocoder = new google.maps.Geocoder();
             
             this.initialize();
@@ -93,7 +93,7 @@ module Controllers {
         // #region 2010 results
         
         load2010results() {            
-            this.dataloader.get2010Results(this.loadResultsHandler);
+            this.dataloader.get2010Results().then(this.loadResultsHandler);
         }
 
         loadResultsCallback(response) {

@@ -55,11 +55,11 @@ var Controllers;
 var Controllers;
 (function (Controllers) {
     var DataLoader = (function () {
-        function DataLoader($http) {
+        function DataLoader($http, $q) {
             this._acShapeFile = "json/Bihar.Assembly.10k.topo.json";
             this._allACsJson = "json/allACs.json";
             this._results2009 = "json/results2009AcWise.json";
-            this._results2010 = "json/results2014AcWise.json";
+            this._results2010Json = "json/results2014AcWise.json";
             this._results2014 = "json/results2014AcWise.json";
             this._localIssues2015 = "";
             this._localIssues2010 = "";
@@ -69,8 +69,10 @@ var Controllers;
             this.vipConstituencies = "";
             this._predictions2015 = "";
             this._neighbors = "json/Neighbors.txt";
+            this._results2010 = null;
             this.headers = { 'Authorization': 'OAuth AIzaSyD4of1Mljc1T1HU0pREX7fvfUKZX-lx2HQ' };
             this.http = $http;
+            this.q = $q;
         }
         DataLoader.prototype.getColorsJson = function (callback) {
         };
@@ -80,8 +82,13 @@ var Controllers;
         DataLoader.prototype.getAllAssemblyConstituencies = function (callback) {
             this.http.get(this._allACsJson, this.headers).success(callback);
         };
-        DataLoader.prototype.get2010Results = function (callback) {
-            this.http.get(this._results2010, this.headers).success(callback);
+        DataLoader.prototype.get2010Results = function () {
+            var deferred = this.q.defer();
+            if (this._results2010 !== null) {
+                deferred.resolve(this._results2010);
+            }
+            this.http.get(this._results2010Json, this.headers).success(function (data) { return deferred.resolve(data); });
+            return deferred.promise;
         };
         DataLoader.prototype.get2014Results = function (callback) {
             this.http.get(this._results2014, this.headers).success(callback);
@@ -127,7 +134,7 @@ var Controllers;
 var Controllers;
 (function (Controllers) {
     var MapCtrl = (function () {
-        function MapCtrl($scope, $http) {
+        function MapCtrl($scope, $http, $q) {
             var _this = this;
             this.acName = "Ac Name";
             this.loadResultsHandler = function (response) { return _this.loadResultsCallback(response); };
@@ -139,7 +146,7 @@ var Controllers;
             this.http = $http;
             this.mapInstance = Models.Map.Instance;
             this.infoDiv = document.getElementById('info');
-            this.dataloader = new Controllers.DataLoader(this.http);
+            this.dataloader = new Controllers.DataLoader(this.http, $q);
             this.geocoder = new google.maps.Geocoder();
             this.initialize();
         }
@@ -190,7 +197,7 @@ var Controllers;
             this.dataloader.getACTopoShapeFile(this.mapInstance.loadGeoJson);
         };
         MapCtrl.prototype.load2010results = function () {
-            this.dataloader.get2010Results(this.loadResultsHandler);
+            this.dataloader.get2010Results().then(this.loadResultsHandler);
         };
         MapCtrl.prototype.loadResultsCallback = function (response) {
             var acStyleMap = new Controllers.AcStyleMap();
@@ -381,10 +388,10 @@ var Models;
     Models.Neighbors = Neighbors;
 })(Models || (Models = {}));
 var ColorService = (function () {
-    function ColorService($http) {
+    function ColorService($http, $q) {
         var _this = this;
         this.loadColorJson = function (data) { return _this.returnColorJson(data); };
-        this.dataloader = new Controllers.DataLoader($http);
+        this.dataloader = new Controllers.DataLoader($http, $q);
     }
     ColorService.prototype.returnColorJson = function (data) {
         var colorsObj = angular.fromJson(data);

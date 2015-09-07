@@ -8,8 +8,8 @@ class ColorService{
 
     public loadColorJson: { (data: any): void } = (data) => this.returnColorJson(data);
 
-	 constructor($http)  {
-	 	this.dataloader = new Controllers.DataLoader($http);
+	 constructor($http, $q)  {
+	 	this.dataloader = new Controllers.DataLoader($http, $q);
 	 }
 
 	returnColorJson(data: any) { 
