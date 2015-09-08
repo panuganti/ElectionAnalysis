@@ -15,7 +15,8 @@ module Controllers {
         }
 
         getTopChoices() {
-            this.dropDownList = ["hello", "world"];
+            console.log('hello' + this.userQuery);
+            //this.dropDownList = ["hello", "world"];
         }
     }
 }

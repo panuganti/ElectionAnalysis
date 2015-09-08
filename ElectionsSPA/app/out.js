@@ -13,29 +13,46 @@ var Controllers;
         function AcStyleMap() {
             this.defaultStyle = {
                 strokeWeight: 1,
-                fillOpacity: 0.5,
-                strokeOpacity: 0.3
+                fillOpacity: 1,
+                strokeOpacity: 0.3,
+                strokeColor: "white"
             };
-            this.colorMap = {
-                "bjp": "orange",
-                "jdu": "lightgreen",
-                "rjd": "darkgreen",
-                "inc": "lightblue",
-                "ljp": "yellow",
-                "rlsp": "yellow",
-                "cpi": "red",
-                "ind": "black",
-                "jmm": "purple"
-            };
+            this.resultsSummary = {};
+            this.initializeColorMap();
+            this.initializeAlliance();
         }
+        AcStyleMap.prototype.initializeColorMap = function () {
+            this.colorMap = {};
+            this.colorMap["bjp"] = "orange";
+            this.colorMap["jdu"] = "lightgreen";
+            this.colorMap["rjd"] = "darkgreen";
+            this.colorMap["inc"] = "lightblue";
+            this.colorMap["ljp"] = "yellow";
+            this.colorMap["rlsp"] = "brown";
+            this.colorMap["cpi"] = "darkred";
+            this.colorMap["ind"] = "black";
+            this.colorMap["jmm"] = "purple";
+        };
+        AcStyleMap.prototype.initializeAlliance = function () {
+            this.allianceMap = {};
+            this.allianceMap["bjp"] = "BJP+";
+            this.allianceMap["ljp"] = "BJP+";
+            this.allianceMap["rlsp"] = "BJP+";
+            this.allianceMap["ham"] = "BJP+";
+            this.allianceMap["rjd"] = "JP+";
+            this.allianceMap["jdu"] = "JP+";
+            this.allianceMap["sp"] = "JP+";
+            this.allianceMap["inc"] = "JP+";
+            this.allianceMap["cpi"] = "O";
+        };
         AcStyleMap.prototype.GenerateStyleMaps = function (acResults) {
             var _this = this;
             var en = Enumerable.From(acResults);
             var acStyleMaps = [];
             en.ForEach(function (element) {
-                var styleMap = new AcStyleMap();
                 var votes = Enumerable.From(en.Where(function (t) { return t.Id == element.Id; }).First().Votes);
                 var party = votes.First(function (t) { return t.Position == 1; }).Party;
+                var styleMap = new AcStyleMap();
                 styleMap.Id = element.Id;
                 styleMap.Style = {
                     strokeWeight: _this.defaultStyle.strokeWeight,
@@ -46,6 +63,28 @@ var Controllers;
                 acStyleMaps.push(styleMap);
             });
             return acStyleMaps;
+        };
+        AcStyleMap.prototype.GenerateResultsSummary = function (acResults) {
+            var resultsSummary = {};
+            resultsSummary["BJP+"] = 0;
+            resultsSummary["JP+"] = 0;
+            resultsSummary["O"] = 0;
+            var en = Enumerable.From(acResults);
+            var allianceMap = this.allianceMap;
+            acResults.forEach(function (element) {
+                var votes = Enumerable.From(en.Where(function (t) { return t.Id == element.Id; }).First().Votes);
+                var party = votes.First(function (v) { return v.Position == 1; }).Party;
+                if (allianceMap[party] == undefined || allianceMap[party] == "O") {
+                    resultsSummary["O"] = resultsSummary["O"] + 1;
+                }
+                if (allianceMap[party] == "BJP+") {
+                    resultsSummary["BJP+"] = resultsSummary["BJP+"] + 1;
+                }
+                if (allianceMap[party] == "JP+") {
+                    resultsSummary["JP+"] = resultsSummary["JP+"] + 1;
+                }
+            });
+            return resultsSummary;
         };
         return AcStyleMap;
     })();
@@ -58,9 +97,10 @@ var Controllers;
         function DataLoader($http, $q) {
             this._acShapeFile = "json/Bihar.Assembly.10k.topo.json";
             this._allACsJson = "json/allACs.json";
-            this._results2009 = "json/results2009AcWise.json";
-            this._results2010Json = "json/results2014AcWise.json";
-            this._results2014 = "json/results2014AcWise.json";
+            this._results2009Json = "json/results2009AcWise.json";
+            this._results2010Json = "json/results2010AcWise.json";
+            this._results2014Json = "json/results2014AcWise.json";
+            this._results2015Json = "json/results2015AcWise.json";
             this._localIssues2015 = "";
             this._localIssues2010 = "";
             this._casteDistribution = "";
@@ -69,7 +109,10 @@ var Controllers;
             this.vipConstituencies = "";
             this._predictions2015 = "";
             this._neighbors = "json/Neighbors.txt";
+            this._results2015 = null;
             this._results2010 = null;
+            this._results2014 = null;
+            this._results2009 = null;
             this.headers = { 'Authorization': 'OAuth AIzaSyD4of1Mljc1T1HU0pREX7fvfUKZX-lx2HQ' };
             this.http = $http;
             this.q = $q;
@@ -87,11 +130,52 @@ var Controllers;
             if (this._results2010 !== null) {
                 deferred.resolve(this._results2010);
             }
-            this.http.get(this._results2010Json, this.headers).success(function (data) { return deferred.resolve(data); });
+            this.http.get(this._results2010Json, this.headers)
+                .success(function (data) { return deferred.resolve(data); });
             return deferred.promise;
         };
-        DataLoader.prototype.get2014Results = function (callback) {
-            this.http.get(this._results2014, this.headers).success(callback);
+        DataLoader.prototype.get2014ResultsAsync = function () {
+            var deferred = this.q.defer();
+            if (this._results2014 !== null) {
+                deferred.resolve(this._results2014);
+            }
+            this.http.get(this._results2014Json, this.headers)
+                .success(function (data) { return deferred.resolve(data); });
+            return deferred.promise;
+        };
+        DataLoader.prototype.getResultsAsync = function (year) {
+            var deferred = this.q.defer();
+            switch (year) {
+                case "2009":
+                    if (this._results2009 !== null) {
+                        deferred.resolve(this._results2009);
+                    }
+                    this.http.get(this._results2009Json, this.headers)
+                        .success(function (data) { return deferred.resolve(data); });
+                    break;
+                case "2010":
+                    if (this._results2010 !== null) {
+                        deferred.resolve(this._results2010);
+                    }
+                    this.http.get(this._results2010Json, this.headers)
+                        .success(function (data) { return deferred.resolve(data); });
+                    break;
+                case "2014":
+                    if (this._results2014 !== null) {
+                        deferred.resolve(this._results2014);
+                    }
+                    this.http.get(this._results2010Json, this.headers)
+                        .success(function (data) { return deferred.resolve(data); });
+                    break;
+                case "2015":
+                    if (this._results2015 !== null) {
+                        deferred.resolve(this._results2015);
+                    }
+                    this.http.get(this._results2015Json, this.headers)
+                        .success(function (data) { return deferred.resolve(data); });
+                    break;
+            }
+            return deferred.promise;
         };
         DataLoader.prototype.get2010LocalIssuesData = function (callback) {
             this.http.get(this._localIssues2010, this.headers).success(callback);
@@ -130,12 +214,12 @@ var Controllers;
     })();
     Controllers.MainControl = MainControl;
 })(Controllers || (Controllers = {}));
-/// <reference path="../reference.ts" />
 var Controllers;
 (function (Controllers) {
     var MapCtrl = (function () {
         function MapCtrl($scope, $http, $q) {
             var _this = this;
+            this.years = ["2014", "2010", "2009"];
             this.acName = "Ac Name";
             this.loadResultsHandler = function (response) { return _this.loadResultsCallback(response); };
             this.mouseOverHandler = function (event) { return _this.mouseOver(event); };
@@ -148,6 +232,8 @@ var Controllers;
             this.infoDiv = document.getElementById('info');
             this.dataloader = new Controllers.DataLoader(this.http, $q);
             this.geocoder = new google.maps.Geocoder();
+            this.acStyleMap = new Controllers.AcStyleMap();
+            this.defaultColorMap = this.acStyleMap.colorMap;
             this.initialize();
         }
         MapCtrl.prototype.initialize = function () {
@@ -155,7 +241,7 @@ var Controllers;
             this.loadGeoData();
             this.mapInstance.addEventHandler('mouseover', this.mouseOverHandler);
             this.mapInstance.addEventHandler('mouseclick', this.mouseClickHandler);
-            this.load2010results();
+            this.loadResults("2010");
             this.setInfoDivVisibility("none");
         };
         MapCtrl.prototype.setInfoDivVisibility = function (display) {
@@ -196,22 +282,27 @@ var Controllers;
             console.log("Loading geo data...");
             this.dataloader.getACTopoShapeFile(this.mapInstance.loadGeoJson);
         };
-        MapCtrl.prototype.load2010results = function () {
-            var pResults2010 = this.dataloader.get2010ResultsAsync();
-            pResults2010.then(this.loadResultsHandler);
+        MapCtrl.prototype.loadResults = function (year) {
+            var pResults = this.dataloader.getResultsAsync(year);
+            pResults.then(this.loadResultsHandler);
         };
         MapCtrl.prototype.loadResultsCallback = function (acResults) {
-            var styleMapsArray = new Controllers.AcStyleMap().GenerateStyleMaps(acResults);
+            var styleMapsArray = this.acStyleMap.GenerateStyleMaps(acResults);
+            this.resultsSummary = this.acStyleMap.GenerateResultsSummary(acResults);
             var styleMaps = Enumerable.From(styleMapsArray);
             this.mapInstance.setStyle(function (feature) {
                 var id = feature.getProperty('ac');
                 return styleMaps.First(function (t) { return t.Id == id; }).Style;
             });
         };
+        MapCtrl.prototype.yearSelectionChanged = function () {
+            console.log(this.yearSelected);
+        };
         return MapCtrl;
     })();
     Controllers.MapCtrl = MapCtrl;
 })(Controllers || (Controllers = {}));
+/// <reference path="../reference.ts" />
 /// <reference path="../reference.ts" />
 var Controllers;
 (function (Controllers) {
@@ -222,7 +313,7 @@ var Controllers;
             this.scope = $scope;
         }
         SearchBoxCtrl.prototype.getTopChoices = function () {
-            this.dropDownList = ["hello", "world"];
+            console.log('hello' + this.userQuery);
         };
         return SearchBoxCtrl;
     })();

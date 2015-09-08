@@ -1,5 +1,12 @@
 @white: #fff;
 
+@font-face {
+  font-family: 'Helvetica Nueue';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Helvetica Nueue'), local('Helvetica Nueue'), url('http://themes.googleusercontent.com/static/fonts/opensans/v5/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
+}
+
 html, body {
     font-family: 'Segoe', sans-serif;
     height: 100%;
@@ -13,6 +20,20 @@ input[type="text"] {
      height: 100%;
 }
 
+#yearSelection {
+    position: fixed;
+    bottom:10px;
+    left: 10%;
+    width: 200px;
+    background-color: #fff;
+    display: block;
+}
+
+#yearSelection > select {
+        height: auto;
+        width: 100%;
+}
+
 #mapCanvas {
     position: static;
     height: 100%;
@@ -22,15 +43,24 @@ input[type="text"] {
 
 #summaryResults {
     position: fixed;
-    top: 0;
+    bottom: 0;
     left: 30%;
-    height: 200px;
-    width: 600px;
-    margin-right:1px;
-    margin-top: 10px;
+    height: 60px;
+    line-height: 60px;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 10px;
     background-color: black;
-    opacity: 0.5;
-    box-shadow: 20px 20px 5px grey;
+    opacity: 0.8;
+    color: white;
+    text-align: center;
+    .span {
+        display: inline-block;
+        vertical-align: middle;
+        line-height: normal;
+        font-size: 10pt;
+        font-family: 'Helvetica Nueue',arial,sans-serif;
+    }
 }
 
 #result {
@@ -72,6 +102,31 @@ input[type="text"] {
     box-shadow: 0 2px 4px rgba(0,0,0,0.2),0 -1px 0px rgba(0,0,0,0.02);
     display: block;
 }
+
+.legendColorBox {   
+    float: left;
+    width: 20px;
+    height: 20px;
+    border-width: 0px; // Keep it 0 ..else, the arrangement is becoming awkward
+    border-style: solid;
+    border-color: rgba(1,1,1,.0);
+    display: block;
+}
+
+#legend {
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+    height: 200px;
+    width: 100px;
+    opacity: 0.9;
+    color: #fff;
+    background-color: black; 
+    .li {
+        display: block;
+    }
+}
+
 
 #searchBox {
     position: fixed;
@@ -115,19 +170,6 @@ input[type="text"] {
     background-color: orange;
     box-shadow: 10px 10px 5px grey;
 }
-
-#legend {
-    position: fixed;
-    z-index:2;
-    opacity: 0.4;
-    right: 5%;
-    top: 10%;
-    margin-right: 5px;
-    margin-top: 5px;
-    background-color: #fff;
-    box-shadow: 10px 10px 5px grey;
-}
-
 
 #filtersPanel {
     position: fixed;

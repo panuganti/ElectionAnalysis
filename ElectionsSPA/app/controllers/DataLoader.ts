@@ -3,10 +3,10 @@ module Controllers {
     export class DataLoader {
         private _acShapeFile: string = "json/Bihar.Assembly.10k.topo.json";
         private _allACsJson: string = "json/allACs.json";
-        private _results2009: string = "json/results2009AcWise.json";
-        private _results2010Json: string = "json/results2014AcWise.json";
-        //private results2010: string = "json/results2010.json";
-        private _results2014: string = "json/results2014AcWise.json";
+        private _results2009Json: string = "json/results2009AcWise.json";
+        private _results2010Json: string = "json/results2010AcWise.json";
+        private _results2014Json: string = "json/results2014AcWise.json";
+        private _results2015Json: string = "json/results2015AcWise.json";
         private _localIssues2015: string = "";
         private _localIssues2010: string = "";
         private _casteDistribution: string = "";
@@ -16,7 +16,11 @@ module Controllers {
         private _predictions2015: string = "";
         private _neighbors: string = "json/Neighbors.txt";
 
+        private _results2015 = null;
         private _results2010 = null;
+        private _results2014 = null;
+        private _results2009 = null;
+        
         private http: ng.IHttpService;
         private q: ng.IQService;
         private headers: any = { 'Authorization': 'OAuth AIzaSyD4of1Mljc1T1HU0pREX7fvfUKZX-lx2HQ' }
@@ -40,14 +44,47 @@ module Controllers {
         get2010ResultsAsync(): ng.IPromise<string[]> {
             var deferred = this.q.defer();
             if (this._results2010 !== null) { deferred.resolve(this._results2010); }
-            this.http.get(this._results2010Json, this.headers).success((data) => deferred.resolve(data));
+            this.http.get(this._results2010Json, this.headers)
+                     .success((data) => deferred.resolve(data));
             return deferred.promise;
         }
 
-        get2014Results(callback: (ev: Event) => any) {
-            this.http.get(this._results2014, this.headers).success(callback);
+        get2014ResultsAsync(): ng.IPromise<string[]> {
+            var deferred = this.q.defer();
+            if (this._results2014 !== null) { deferred.resolve(this._results2014); }
+            this.http.get(this._results2014Json, this.headers)
+                     .success((data) => deferred.resolve(data));
+            return deferred.promise;
         }
 
+        getResultsAsync(year: string): ng.IPromise<string[]> {
+            var deferred = this.q.defer();
+            switch (year)
+            {
+                case "2009":
+                    if (this._results2009 !== null) { deferred.resolve(this._results2009); }
+                    this.http.get(this._results2009Json, this.headers)
+                     .success((data) => deferred.resolve(data));
+                    break;
+                case "2010":
+                    if (this._results2010 !== null) { deferred.resolve(this._results2010); }
+                    this.http.get(this._results2010Json, this.headers)
+                     .success((data) => deferred.resolve(data));
+                    break;
+                case "2014":
+                    if (this._results2014 !== null) { deferred.resolve(this._results2014); }
+                    this.http.get(this._results2010Json, this.headers)
+                     .success((data) => deferred.resolve(data));
+                    break;
+                case "2015":    
+                    if (this._results2015 !== null) { deferred.resolve(this._results2015); }
+                    this.http.get(this._results2015Json, this.headers)
+                     .success((data) => deferred.resolve(data));
+                    break;
+            }
+            return deferred.promise;
+        }
+        
         get2010LocalIssuesData(callback: (ev: Event) => any) {
             this.http.get(this._localIssues2010, this.headers).success(callback);
         }
