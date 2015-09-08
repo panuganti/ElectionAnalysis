@@ -73,7 +73,7 @@ module Controllers {
                     break;
                 case "2014":
                     if (this._results2014 !== null) { deferred.resolve(this._results2014); }
-                    this.http.get(this._results2010Json, this.headers)
+                    this.http.get(this._results2014Json, this.headers)
                      .success((data) => deferred.resolve(data));
                     break;
                 case "2015":    

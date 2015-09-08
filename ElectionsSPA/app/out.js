@@ -164,7 +164,7 @@ var Controllers;
                     if (this._results2014 !== null) {
                         deferred.resolve(this._results2014);
                     }
-                    this.http.get(this._results2010Json, this.headers)
+                    this.http.get(this._results2014Json, this.headers)
                         .success(function (data) { return deferred.resolve(data); });
                     break;
                 case "2015":
@@ -296,7 +296,7 @@ var Controllers;
             });
         };
         MapCtrl.prototype.yearSelectionChanged = function () {
-            console.log(this.yearSelected);
+            this.loadResults(this.yearSelected);
         };
         return MapCtrl;
     })();

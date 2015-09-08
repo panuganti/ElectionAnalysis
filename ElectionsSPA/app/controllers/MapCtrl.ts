@@ -108,7 +108,7 @@
         }
         
         yearSelectionChanged() {
-            console.log(this.yearSelected);
+            this.loadResults(this.yearSelected);
         }
     }
     
