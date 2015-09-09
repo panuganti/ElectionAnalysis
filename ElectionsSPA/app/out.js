@@ -113,6 +113,7 @@ var Controllers;
             this._results2010 = null;
             this._results2014 = null;
             this._results2009 = null;
+            this._acs = null;
             this.headers = { 'Authorization': 'OAuth AIzaSyD4of1Mljc1T1HU0pREX7fvfUKZX-lx2HQ' };
             this.http = $http;
             this.q = $q;
@@ -122,25 +123,12 @@ var Controllers;
         DataLoader.prototype.getACTopoShapeFile = function (callback) {
             this.http.get(this._acShapeFile, this.headers).success(callback);
         };
-        DataLoader.prototype.getAllAssemblyConstituencies = function (callback) {
-            this.http.get(this._allACsJson, this.headers).success(callback);
-        };
-        DataLoader.prototype.get2010ResultsAsync = function () {
+        DataLoader.prototype.getAllAssemblyConstituencies = function () {
             var deferred = this.q.defer();
-            if (this._results2010 !== null) {
-                deferred.resolve(this._results2010);
+            if (this._acs !== null) {
+                deferred.resolve(this._acs);
             }
-            this.http.get(this._results2010Json, this.headers)
-                .success(function (data) { return deferred.resolve(data); });
-            return deferred.promise;
-        };
-        DataLoader.prototype.get2014ResultsAsync = function () {
-            var deferred = this.q.defer();
-            if (this._results2014 !== null) {
-                deferred.resolve(this._results2014);
-            }
-            this.http.get(this._results2014Json, this.headers)
-                .success(function (data) { return deferred.resolve(data); });
+            this.http.get(this._allACsJson, this.headers).success(function (data) { return deferred.resolve(data); });
             return deferred.promise;
         };
         DataLoader.prototype.getResultsAsync = function (year) {
@@ -195,9 +183,6 @@ var Controllers;
         DataLoader.prototype.getVIPConstituencies = function (callback) {
             this.http.get(this.vipConstituencies, this.headers).success(callback);
         };
-        DataLoader.prototype.get2015Predictions = function (callback) {
-            this.http.get(this._predictions2015, this.headers).success(callback);
-        };
         return DataLoader;
     })();
     Controllers.DataLoader = DataLoader;
@@ -217,20 +202,21 @@ var Controllers;
 var Controllers;
 (function (Controllers) {
     var MapCtrl = (function () {
-        function MapCtrl($scope, $http, $q) {
+        function MapCtrl($scope, $http, $q, $timeout) {
             var _this = this;
             this.years = ["2014", "2010", "2009"];
             this.acName = "Ac Name";
             this.loadResultsHandler = function (response) { return _this.loadResultsCallback(response); };
-            this.mouseOverHandler = function (event) { return _this.mouseOver(event); };
             this.mouseClickHandler = function (event) { return _this.mouseClick(event); };
             this.getDefaultCenterCallback = function (results, status) { return _this.getDefaultCenter(results, status); };
             $scope.vMap = this;
             this.scope = $scope;
             this.http = $http;
+            this.q = $q;
+            this.timeout = $timeout;
             this.mapInstance = Models.Map.Instance;
             this.infoDiv = document.getElementById('info');
-            this.dataloader = new Controllers.DataLoader(this.http, $q);
+            this.dataloader = new Controllers.DataLoader(this.http, this.q);
             this.geocoder = new google.maps.Geocoder();
             this.acStyleMap = new Controllers.AcStyleMap();
             this.defaultColorMap = this.acStyleMap.colorMap;
@@ -239,29 +225,18 @@ var Controllers;
         MapCtrl.prototype.initialize = function () {
             this.geocode("Patna, Bihar, India");
             this.loadGeoData();
-            this.mapInstance.addEventHandler('mouseover', this.mouseOverHandler);
-            this.mapInstance.addEventHandler('mouseclick', this.mouseClickHandler);
+            this.mapInstance.addEventHandler('mouseover', this.mouseClickHandler);
             this.loadResults("2010");
             this.setInfoDivVisibility("none");
         };
         MapCtrl.prototype.setInfoDivVisibility = function (display) {
             this.infoDiv.style.display = display;
         };
-        MapCtrl.prototype.mouseOver = function (event) {
-            this.setInfoDivVisibility("inline");
-            var id = event.feature.getProperty('ac');
-            var name = event.feature.getProperty('ac_name');
-            this.acName = name;
-            this.scope.$apply();
-            console.log("In mouseOver with id:" + id + " " + name);
-        };
         MapCtrl.prototype.mouseClick = function (event) {
-            this.setInfoDivVisibility("inline");
             var id = event.feature.getProperty('ac');
-            var name = event.feature.getProperty('ac_name');
             this.acName = name;
-            this.scope.$apply();
-            console.log("In mouseOver with id:" + id + " " + name);
+            this.displayInfo(id);
+            console.log("In click with id:" + id + " " + name);
         };
         MapCtrl.prototype.getDefaultCenter = function (results, status) {
             if (status == google.maps.GeocoderStatus.OK) {
@@ -298,22 +273,73 @@ var Controllers;
         MapCtrl.prototype.yearSelectionChanged = function () {
             this.loadResults(this.yearSelected);
         };
+        MapCtrl.prototype.displayInfo = function (id) {
+            var _this = this;
+            this.setInfoDivVisibility("inline");
+            var p2014 = this.dataloader.getResultsAsync("2014");
+            var p2010 = this.dataloader.getResultsAsync("2010");
+            var p2009 = this.dataloader.getResultsAsync("2009");
+            var pR = this.q.all([p2009, p2010, p2014]);
+            pR.then(function (_a) {
+                var d1 = _a[0], d2 = _a[1], d3 = _a[2];
+                return _this.loadResultsForAC(d1, d2, d3, id);
+            });
+        };
+        MapCtrl.prototype.loadResultsForAC = function (d1, d2, d3, id) {
+            console.log('in load results');
+            var r2014 = d1;
+            var r2010 = d2;
+            var r2009 = d3;
+            var en2014 = Enumerable.From(r2014);
+            var en2010 = Enumerable.From(r2010);
+            var en2009 = Enumerable.From(r2009);
+            var title = id;
+            var results2014 = en2014.First(function (t) { return t.Id == id; });
+            var results2010 = en2010.First(function (t) { return t.Id == id; });
+            var results2009 = en2009.First(function (t) { return t.Id == id; });
+            var info = new Info(title, results2009, results2010, results2014);
+            this.info = info;
+        };
         return MapCtrl;
     })();
     Controllers.MapCtrl = MapCtrl;
+    var Info = (function () {
+        function Info(Title, Results2009, Results2010, Results2014) {
+            this.Title = Title;
+            this.Results2009 = Results2009;
+            this.Results2010 = Results2010;
+            this.Results2014 = Results2014;
+        }
+        return Info;
+    })();
+    Controllers.Info = Info;
 })(Controllers || (Controllers = {}));
 /// <reference path="../reference.ts" />
 /// <reference path="../reference.ts" />
 var Controllers;
 (function (Controllers) {
     var SearchBoxCtrl = (function () {
-        function SearchBoxCtrl($scope) {
+        function SearchBoxCtrl($scope, $http, $q) {
             this.placeholder = "Search Constituency";
             $scope.searchBox = this;
             this.scope = $scope;
+            this.dataloader = new Controllers.DataLoader($http, $q);
         }
-        SearchBoxCtrl.prototype.getTopChoices = function () {
-            console.log('hello' + this.userQuery);
+        SearchBoxCtrl.prototype.userQueryChanged = function () {
+            var _this = this;
+            var pACs = this.dataloader.getAllAssemblyConstituencies();
+            pACs.then(function (data) { return _this.displayTopSearchResults(data); });
+        };
+        SearchBoxCtrl.prototype.displayTopSearchResults = function (data) {
+            var acs = data;
+            var userQ = this.userQuery.trim();
+            var en = Enumerable.From(acs);
+            if (userQ.length == 0) {
+                this.dropDownList = [];
+                return;
+            }
+            var candidates = en.Where(function (t) { return t.Name.indexOf(userQ, 0) === 0; }).Take(5);
+            this.dropDownList = candidates.ToArray();
         };
         return SearchBoxCtrl;
     })();

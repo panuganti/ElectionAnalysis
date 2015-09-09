@@ -2,7 +2,11 @@
     export class MapCtrl {
         private http: ng.IHttpService;
         private scope: ng.IScope;
+        private q: ng.IQService;
+        private timeout: ng.ITimeoutService;
+        
         private infoDiv: HTMLElement;
+        private info: Info;
         private dataloader: DataLoader;
         private colors: string[];
         private topojson: any;
@@ -17,19 +21,20 @@
         acName = "Ac Name";
 
         public loadResultsHandler: { (response: any) } = (response) => this.loadResultsCallback(response);
-        public mouseOverHandler: { (event: any): void } = (event) => this.mouseOver(event);
         public mouseClickHandler: { (event: any): void } = (event) => this.mouseClick(event);
 
         public getDefaultCenterCallback: { (results: any, status: any): void } = (results, status) => this.getDefaultCenter(results, status);
 
-        constructor($scope, $http, $q) {
+        constructor($scope, $http, $q, $timeout) {
             $scope.vMap = this;
             this.scope = $scope;
             this.http = $http;
+            this.q = $q;
+            this.timeout = $timeout;
             
             this.mapInstance = Models.Map.Instance;
             this.infoDiv = document.getElementById('info');
-            this.dataloader = new DataLoader(this.http, $q);
+            this.dataloader = new DataLoader(this.http, this.q);
             this.geocoder = new google.maps.Geocoder();
             this.acStyleMap = new AcStyleMap();
             this.defaultColorMap = this.acStyleMap.colorMap;
@@ -40,8 +45,7 @@
         initialize() {
             this.geocode("Patna, Bihar, India");
             this.loadGeoData();
-            this.mapInstance.addEventHandler('mouseover', this.mouseOverHandler);
-            this.mapInstance.addEventHandler('mouseclick', this.mouseClickHandler);
+            this.mapInstance.addEventHandler('mouseover', this.mouseClickHandler);
             
             this.loadResults("2010");
             this.setInfoDivVisibility("none");
@@ -52,22 +56,11 @@
             this.infoDiv.style.display = display;
         }
 
-        mouseOver(event: any) {
-            this.setInfoDivVisibility("inline");
-            let id = event.feature.getProperty('ac');
-            let name = event.feature.getProperty('ac_name');
-            this.acName = name;
-            this.scope.$apply();
-            console.log("In mouseOver with id:" + id + " " + name);
-        }
-
         mouseClick(event: any) {
-            this.setInfoDivVisibility("inline");
             let id = event.feature.getProperty('ac');            
-            let name = event.feature.getProperty('ac_name');
             this.acName = name;
-            this.scope.$apply();
-            console.log("In mouseOver with id:" + id + " " + name);
+            this.displayInfo(id);
+            console.log("In click with id:" + id + " " + name);
         }
 
         getDefaultCenter(results: any, status: any) {
@@ -93,7 +86,7 @@
         }
         
         loadResults(year: string) {            
-            var pResults = this.dataloader.getResultsAsync(year);
+            let pResults = this.dataloader.getResultsAsync(year);
             pResults.then(this.loadResultsHandler);
         }
 
@@ -110,10 +103,42 @@
         yearSelectionChanged() {
             this.loadResults(this.yearSelected);
         }
+        
+        displayInfo(id: string) {
+            this.setInfoDivVisibility("inline");
+            let p2014 = this.dataloader.getResultsAsync("2014");
+            let p2010 = this.dataloader.getResultsAsync("2010");
+            let p2009 = this.dataloader.getResultsAsync("2009");
+            let pR: ng.IPromise<any[]>  = this.q.all([p2009, p2010, p2014]);
+            pR.then(([d1, d2, d3]) => this.loadResultsForAC(d1, d2, d3, id));
+        }
+        
+        loadResultsForAC(d1,d2,d3, id) {
+            console.log('in load results');
+            let r2014: Models.Result[] = d1;
+            let r2010: Models.Result[] = d2;
+            let r2009: Models.Result[] = d3;
+            var en2014 = Enumerable.From(r2014);
+            var en2010 = Enumerable.From(r2010);
+            var en2009 = Enumerable.From(r2009);
+            var title = id;
+            var results2014 = en2014.First(t=> t.Id == id);
+            var results2010 = en2010.First(t=> t.Id == id);
+            var results2009 = en2009.First(t=> t.Id == id);
+            var info: Info = new Info(title, results2009, results2010, results2014);
+            this.info = info;
+        }
     }
+    
+    
     
     export interface ResultsSummary {
         [alliance: string]: number;
+    }
+    
+    export class Info {
+        constructor(public Title: string, public Results2009: Models.Result, public Results2010: Models.Result, public Results2014: Models.Result)
+        {}
     }
 }
 /// <reference path="../reference.ts" />
