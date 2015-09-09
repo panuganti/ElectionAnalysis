@@ -64,54 +64,53 @@ module Models {
 
 		public static getDefaultMapType() {
 			var defaultMapType = new google.maps.StyledMapType([
-				{
-					featureType: 'all',
+ 				{
+					featureType: 'water',
+					elementType: 'geometry',
 					stylers: [
-						{ visibility: 'off' },
+						{ hue: '#0000ff' },
+						{ saturation: 50 },
+						{ lightness: -50 }
 					]
-				}
-				/*, {
+				},				    
+				{
 					featureType: 'road.arterial',
 					elementType: 'all',
 					stylers: [
-						{ hue: '#2200ff' },
-						{ lightness: -40 },
-						{ visibility: 'simplified' },
-						{ saturation: 30 }
+						{ visibility: 'off' },
 					]
 				}, {
 					featureType: 'road.local',
 					elementType: 'all',
 					stylers: [
-						{ hue: '#f6ff00' },
-						{ saturation: 50 },
-						{ gamma: 0.7 },
-						{ visibility: 'simplified' }
+						{ visibility: 'off' },
 					]
-				}, {
-					featureType: 'water',
+				},
+				{
+					featureType: 'road.highway',
 					elementType: 'geometry',
 					stylers: [
-						{ saturation: 40 },
-						{ lightness: 40 }
-					]
-				}, {
-					featureType: 'road.highway',
-					elementType: 'labels',
-					stylers: [
+						{ hue: '#ff0000' },
+						{ lightness: 50 },
 						{ visibility: 'on' },
 						{ saturation: 98 }
 					]
-				}, {
-					featureType: 'administrative.locality',
+				},
+				{
+					featureType: 'road.highway',
 					elementType: 'labels',
 					stylers: [
-						{ hue: '#0022ff' },
-						{ saturation: 50 },
-						{ lightness: -10 },
-						{ gamma: 0.90 }
+						{ visibility: 'off' },
 					]
-				}, {
+				},
+				{
+					featureType: 'administrative',
+					elementType: 'labels',
+					stylers: [
+						{ visibility: 'on' },
+					]
+				},
+				{
 					featureType: 'transit.line',
 					elementType: 'geometry',
 					stylers: [
@@ -119,7 +118,7 @@ module Models {
 						{ visibility: 'on' },
 						{ lightness: -70 }
 					]
-				}*/
+				}				   
 			], { name: 'customtype' });
 			return defaultMapType;
 		}

@@ -454,9 +454,58 @@ var Models;
         Map.getDefaultMapType = function () {
             var defaultMapType = new google.maps.StyledMapType([
                 {
-                    featureType: 'all',
+                    featureType: 'water',
+                    elementType: 'geometry',
+                    stylers: [
+                        { hue: '#0000ff' },
+                        { saturation: 50 },
+                        { lightness: -50 }
+                    ]
+                },
+                {
+                    featureType: 'road.arterial',
+                    elementType: 'all',
                     stylers: [
                         { visibility: 'off' },
+                    ]
+                }, {
+                    featureType: 'road.local',
+                    elementType: 'all',
+                    stylers: [
+                        { visibility: 'off' },
+                    ]
+                },
+                {
+                    featureType: 'road.highway',
+                    elementType: 'geometry',
+                    stylers: [
+                        { hue: '#ff0000' },
+                        { lightness: 50 },
+                        { visibility: 'on' },
+                        { saturation: 98 }
+                    ]
+                },
+                {
+                    featureType: 'road.highway',
+                    elementType: 'labels',
+                    stylers: [
+                        { visibility: 'off' },
+                    ]
+                },
+                {
+                    featureType: 'administrative',
+                    elementType: 'labels',
+                    stylers: [
+                        { visibility: 'on' },
+                    ]
+                },
+                {
+                    featureType: 'transit.line',
+                    elementType: 'geometry',
+                    stylers: [
+                        { hue: '#ff0000' },
+                        { visibility: 'on' },
+                        { lightness: -70 }
                     ]
                 }
             ], { name: 'customtype' });
