@@ -225,7 +225,7 @@ var Controllers;
         MapCtrl.prototype.initialize = function () {
             this.geocode("Patna, Bihar, India");
             this.loadGeoData();
-            this.mapInstance.addEventHandler('mouseover', this.mouseClickHandler);
+            this.mapInstance.addEventHandler('click', this.mouseClickHandler);
             this.loadResults("2010");
             this.setInfoDivVisibility("none");
         };
@@ -234,9 +234,11 @@ var Controllers;
         };
         MapCtrl.prototype.mouseClick = function (event) {
             var id = event.feature.getProperty('ac');
+            var name = event.feature.getProperty('ac_name');
             this.acName = name;
+            this.scope.$apply();
             this.displayInfo(id);
-            console.log("In click with id:" + id + " " + name);
+            console.log("In click with id:" + id + " " + this.acName);
         };
         MapCtrl.prototype.getDefaultCenter = function (results, status) {
             if (status == google.maps.GeocoderStatus.OK) {
@@ -293,11 +295,12 @@ var Controllers;
             var en2014 = Enumerable.From(r2014);
             var en2010 = Enumerable.From(r2010);
             var en2009 = Enumerable.From(r2009);
-            var title = id;
             var results2014 = en2014.First(function (t) { return t.Id == id; });
             var results2010 = en2010.First(function (t) { return t.Id == id; });
             var results2009 = en2009.First(function (t) { return t.Id == id; });
+            var title = results2014.Name;
             var info = new Info(title, results2009, results2010, results2014);
+            this.setInfoDivVisibility("inline");
             this.info = info;
         };
         return MapCtrl;
