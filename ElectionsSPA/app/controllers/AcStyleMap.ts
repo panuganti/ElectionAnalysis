@@ -8,7 +8,7 @@ module Controllers {
         public allianceMap: Alliance;
         public defaultStyle: google.maps.Data.StyleOptions = {
                 strokeWeight: 1,
-                fillOpacity: 1,
+                fillOpacity: 0.8,
                 strokeOpacity: 0.3,
                 strokeColor: "white"
         };          

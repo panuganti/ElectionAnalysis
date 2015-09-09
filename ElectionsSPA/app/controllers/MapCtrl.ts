@@ -57,8 +57,6 @@
         }
 
         mouseClick(event: any) {
-           
-            //this.setInfoDivVisibility("inline");
             let id = event.feature.getProperty('ac');            
             let name = event.feature.getProperty('ac_name');
             this.acName = name;

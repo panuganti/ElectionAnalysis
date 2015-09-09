@@ -13,7 +13,7 @@ var Controllers;
         function AcStyleMap() {
             this.defaultStyle = {
                 strokeWeight: 1,
-                fillOpacity: 1,
+                fillOpacity: 0.8,
                 strokeOpacity: 0.3,
                 strokeColor: "white"
             };
@@ -438,17 +438,30 @@ var Models;
                     this._instance._mapOptions = {
                         zoom: 8,
                         center: this._instance._defaultCenter,
-                        mapTypeId: google.maps.MapTypeId.TERRAIN,
                         minZoom: 4,
                         disableDefaultUI: true
                     };
+                    var mapType = this.getDefaultMapType();
                     this._instance._map = new google.maps.Map(this._instance._mapDiv, this._instance._mapOptions);
+                    this._instance._map.mapTypes.set('customtype', mapType);
+                    this._instance._map.setMapTypeId('customtype');
                 }
                 return this._instance;
             },
             enumerable: true,
             configurable: true
         });
+        Map.getDefaultMapType = function () {
+            var defaultMapType = new google.maps.StyledMapType([
+                {
+                    featureType: 'all',
+                    stylers: [
+                        { visibility: 'off' },
+                    ]
+                }
+            ], { name: 'customtype' });
+            return defaultMapType;
+        };
         Object.defineProperty(Map.prototype, "Map", {
             get: function () {
                 return this._map;
