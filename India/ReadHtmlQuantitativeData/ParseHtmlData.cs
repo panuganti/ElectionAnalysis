@@ -21,10 +21,9 @@ namespace ReadHtmlQuantitativeData
         {
             var parsedData = new ParsedData();
 
-            HtmlAgilityPack.HtmlDocument htmlDoc = new HtmlAgilityPack.HtmlDocument();
+            var htmlDoc = new HtmlAgilityPack.HtmlDocument {OptionFixNestedTags = true};
             // There are various options, set as needed
-            htmlDoc.OptionFixNestedTags = true;
-            
+
             // filePath is a path to a file containing the html
             htmlDoc.Load(filename, Encoding.UTF8);
             // ParseErrors is an ArrayList containing any errors from the Load statement

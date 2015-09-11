@@ -7,8 +7,8 @@
     <ProjectGuid>{373ED4DC-1286-48DA-A180-4EC189C1129F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Utils</RootNamespace>
-    <AssemblyName>Utils</AssemblyName>
+    <RootNamespace>HtmlUtils</RootNamespace>
+    <AssemblyName>HtmlUtils</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

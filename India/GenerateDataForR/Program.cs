@@ -18,17 +18,9 @@ namespace GetBihar2010Results
         }
 
 
-        private static void CustomExecution(CandidateSelector selector, State state, List<Result> results2010)
+        private static void CustomExecution(List<Stability> stabilitys)
         {
-            const string filename = @"I:\ArchishaData\ElectionData\Bihar\CandidateSelection\CandidateSelectionExt3.tsv";
-            const string logFile = @"I:\ArchishaData\ElectionData\Bihar\CandidateSelection\log.txt";
-            var bestCandidates = selector.WinnableCandidates();
-            selector.FillUpRestOfCandidates(bestCandidates, results2010, logFile);
-            selector.FillUpCurrentCandidate(bestCandidates, results2010, logFile);
-            selector.PrintCandidateSelection(bestCandidates, state, filename);
-            Console.WriteLine("TotalCount: {0}, BJP Count: {1}, MultipleCandidates Count: {2}", 
-                bestCandidates.Count(), bestCandidates.Count(t => t.BestCandidate.PartyName.ToLower() == "bjp"), 
-                                                    bestCandidates.Count(t => t.CandidatesConsidered.Count() > 1));
+            const string filename = @"I:\ArchishaData\ElectionData\Bihar\Website\Stability.tsv";
         }
 
         private static void Startup()
@@ -98,10 +90,10 @@ namespace GetBihar2010Results
             #region Load Results
 
 
-            //var indiaVotesResults2014 = ResultsLoader.LoadResultsFromIndiaVotesData(indiaVotesResults2014Dir, 2014);
-            //var indiaVotesResults2014 = ResultsLoader.LoadResultsFromIndiaVotesData(indiaVotesResults2014Dir, 2014);
-             var indiaVotesResults2010 = ResultsLoader.LoadACResultsFromIndiaVotesData(indiaVotesResults2010Dir, 2010);
-             var conflatedResults = ResultsConflator.ConflateResultsAndDistrictInfo(indiaVotesResults2010, state);
+            var indiaVotesResults2014 = ResultsLoader.LoadResultsFromIndiaVotesData(indiaVotesResults2014Dir, 2014);
+            var indiaVotesResults2009 = ResultsLoader.LoadResultsFromIndiaVotesData(indiaVotesResults2009Dir, 2009);
+            var indiaVotesResults2010 = ResultsLoader.LoadACResultsFromIndiaVotesData(indiaVotesResults2010Dir, 2010);
+            var conflatedResults = ResultsConflator.ConflateResultsAndDistrictInfo(indiaVotesResults2010, state);
 
             /*
             List<ACResult> results2005;
@@ -202,9 +194,23 @@ namespace GetBihar2010Results
 
             #region Load CVoter Data
 
+            #region CandidateSelection
             var qualitativeDataTuple = DataLoader.LoadDataFromDir(cVoter2015QualitativeDir);
             var candidateSelector = new CandidateSelector(qualitativeDataTuple.Item2);
-            CustomExecution(candidateSelector, state, conflatedResults);
+            var bestCandidates = candidateSelector.WinnableCandidates();
+            candidateSelector.FillUpRestOfCandidates(bestCandidates, conflatedResults);
+            candidateSelector.FillUpCurrentCandidate(bestCandidates, conflatedResults);
+            //candidateSelector.PrintCandidateSelection(bestCandidates, state, filename);
+
+            #endregion CandidateSelection
+
+            #region Stability
+            var features = new Features(indiaVotesResults2009, indiaVotesResults2010, indiaVotesResults2014);
+            var stability = features.StabilityFeatures();
+
+            #endregion Stability
+
+            CustomExecution(stability);
             #endregion Load CVoter Data
 
             #region Load Additional Info

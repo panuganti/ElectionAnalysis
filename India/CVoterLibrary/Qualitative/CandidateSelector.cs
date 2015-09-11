@@ -71,9 +71,8 @@ namespace CVoterLibrary
             }
         }
 
-        public void FillUpRestOfCandidates(List<CandidateSelection> bestCandidates, List<Result> results2010, string filename)
+        public void FillUpRestOfCandidates(List<CandidateSelection> bestCandidates, List<Result> results2010)
         {
-            StreamWriter writer = new StreamWriter(filename);
             var validParties = new List<string> { "bjp", "rlsp", "ham", "ljp" };
             var acIds = bestCandidates.Select(t => t.AC.No).Distinct().ToArray();
             var allAcIds = results2010.Select(t => t.Id).ToArray();
@@ -95,11 +94,9 @@ namespace CVoterLibrary
                  candSelect.CandidatesConsidered = new List<CandidateRating>() {candSelect.BestCandidate};
                  bestCandidates.Add(candSelect);
             }
-            writer.Close();
         }
 
-        public void FillUpCurrentCandidate(List<CandidateSelection> candidateSelections, List<Result> results2010,
-            string filename)
+        public void FillUpCurrentCandidate(List<CandidateSelection> candidateSelections, List<Result> results2010)
         {
             foreach (var selection in candidateSelections)
             {
@@ -107,9 +104,9 @@ namespace CVoterLibrary
                 var winner = result.Votes.OrderByDescending(t => t.Votes).First();
                 selection.CurrentMLA = winner.Name;
                 selection.WinningParty = winner.Party.ToString();
-                selection.IsCurrentBest = BiharElectionsLibrary.Utils
-                    .LevenshteinDistance(BiharElectionsLibrary.Utils.GetNormalizedName(selection.BestCandidate.Name.Split('(')[0].Trim()), 
-                    BiharElectionsLibrary.Utils.GetNormalizedName(selection.CurrentMLA)) < 3;
+                selection.IsCurrentBest = Utils
+                    .LevenshteinDistance(Utils.GetNormalizedName(selection.BestCandidate.Name.Split('(')[0].Trim()), 
+                    Utils.GetNormalizedName(selection.CurrentMLA)) < 3;
             }
         }
 
