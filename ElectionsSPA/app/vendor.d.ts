@@ -4,4 +4,3 @@
 /// <reference path="../vendor/types/topojson/topojson.d.ts"/>
 /// <reference path="../vendor/types/linq/linq.d.ts" />
 /// <reference path="../vendor/types/linq/linq.jquery.d.ts" />
-/// <reference path="../vendor/types/googlevisualization/google.visualization.d.ts" />

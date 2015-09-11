@@ -187,6 +187,52 @@ var Controllers;
     })();
     Controllers.DataLoader = DataLoader;
 })(Controllers || (Controllers = {}));
+/// <reference path="../reference.ts" />
+var Controllers;
+(function (Controllers) {
+    var InfoCtrl = (function () {
+        function InfoCtrl($scope, $http, $q, $timeout) {
+            $scope.vMap = this;
+            this.scope = $scope;
+            this.http = $http;
+            this.q = $q;
+            this.timeout = $timeout;
+            this.dataloader = new Controllers.DataLoader(this.http, this.q);
+            this.infoDiv = document.getElementById('info');
+        }
+        InfoCtrl.prototype.displayInfo = function (id) {
+            var _this = this;
+            var p2014 = this.dataloader.getResultsAsync("2014");
+            var p2010 = this.dataloader.getResultsAsync("2010");
+            var p2009 = this.dataloader.getResultsAsync("2009");
+            var pR = this.q.all([p2009, p2010, p2014]);
+            pR.then(function (_a) {
+                var d1 = _a[0], d2 = _a[1], d3 = _a[2];
+                return _this.loadResultsForAC(d1, d2, d3, id);
+            });
+        };
+        InfoCtrl.prototype.loadResultsForAC = function (d1, d2, d3, id) {
+            console.log('in load results');
+            var r2014 = d1;
+            var r2010 = d2;
+            var r2009 = d3;
+            var en2014 = Enumerable.From(r2014);
+            var en2010 = Enumerable.From(r2010);
+            var en2009 = Enumerable.From(r2009);
+            var results2014 = en2014.First(function (t) { return t.Id == id; });
+            var results2010 = en2010.First(function (t) { return t.Id == id; });
+            var results2009 = en2009.First(function (t) { return t.Id == id; });
+            var title = results2014.Name;
+            this.info = new Models.Info(title, results2009, results2010, results2014);
+            this.setInfoDivVisibility("inline");
+        };
+        InfoCtrl.prototype.setInfoDivVisibility = function (display) {
+            this.infoDiv.style.display = display;
+        };
+        return InfoCtrl;
+    })();
+    Controllers.InfoCtrl = InfoCtrl;
+})(Controllers || (Controllers = {}));
 var Controllers;
 (function (Controllers) {
     var MainControl = (function () {
@@ -199,6 +245,7 @@ var Controllers;
     })();
     Controllers.MainControl = MainControl;
 })(Controllers || (Controllers = {}));
+/// <reference path="../reference.ts" />
 var Controllers;
 (function (Controllers) {
     var MapCtrl = (function () {
@@ -299,25 +346,14 @@ var Controllers;
             var results2010 = en2010.First(function (t) { return t.Id == id; });
             var results2009 = en2009.First(function (t) { return t.Id == id; });
             var title = results2014.Name;
-            var info = new Info(title, results2009, results2010, results2014);
+            var info = new Models.Info(title, results2009, results2010, results2014);
             this.setInfoDivVisibility("inline");
             this.info = info;
         };
         return MapCtrl;
     })();
     Controllers.MapCtrl = MapCtrl;
-    var Info = (function () {
-        function Info(Title, Results2009, Results2010, Results2014) {
-            this.Title = Title;
-            this.Results2009 = Results2009;
-            this.Results2010 = Results2010;
-            this.Results2014 = Results2014;
-        }
-        return Info;
-    })();
-    Controllers.Info = Info;
 })(Controllers || (Controllers = {}));
-/// <reference path="../reference.ts" />
 /// <reference path="../reference.ts" />
 var Controllers;
 (function (Controllers) {
@@ -364,33 +400,19 @@ var Alliance;
     Alliance[Alliance["LEFT"] = 4] = "LEFT";
     Alliance[Alliance["O"] = 5] = "O";
 })(Alliance || (Alliance = {}));
-var Party;
-(function (Party) {
-    Party[Party["BJP"] = 0] = "BJP";
-    Party[Party["JDU"] = 1] = "JDU";
-    Party[Party["RJD"] = 2] = "RJD";
-    Party[Party["INC"] = 3] = "INC";
-    Party[Party["LJP"] = 4] = "LJP";
-    Party[Party["IND"] = 5] = "IND";
-    Party[Party["BSP"] = 6] = "BSP";
-    Party[Party["CPI"] = 7] = "CPI";
-    Party[Party["O"] = 8] = "O";
-})(Party || (Party = {}));
 /// <reference path="../reference.ts" />
 var Models;
 (function (Models) {
-    var Result = (function () {
-        function Result() {
+    var Info = (function () {
+        function Info(Title, Results2009, Results2010, Results2014) {
+            this.Title = Title;
+            this.Results2009 = Results2009;
+            this.Results2010 = Results2010;
+            this.Results2014 = Results2014;
         }
-        return Result;
+        return Info;
     })();
-    Models.Result = Result;
-    var CandidateVote = (function () {
-        function CandidateVote() {
-        }
-        return CandidateVote;
-    })();
-    Models.CandidateVote = CandidateVote;
+    Models.Info = Info;
 })(Models || (Models = {}));
 /// <reference path="../reference.ts" />
 var Models;
@@ -568,6 +590,111 @@ var Models;
     })();
     Models.Neighbors = Neighbors;
 })(Models || (Models = {}));
+var Party;
+(function (Party) {
+    Party[Party["BJP"] = 0] = "BJP";
+    Party[Party["JDU"] = 1] = "JDU";
+    Party[Party["RJD"] = 2] = "RJD";
+    Party[Party["INC"] = 3] = "INC";
+    Party[Party["LJP"] = 4] = "LJP";
+    Party[Party["IND"] = 5] = "IND";
+    Party[Party["BSP"] = 6] = "BSP";
+    Party[Party["CPI"] = 7] = "CPI";
+    Party[Party["O"] = 8] = "O";
+})(Party || (Party = {}));
+/// <reference path="../reference.ts" />
+var __extends = (this && this.__extends) || function (d, b) {
+    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+    function __() { this.constructor = d; }
+    __.prototype = b.prototype;
+    d.prototype = new __();
+};
+var Models;
+(function (Models) {
+    var Result = (function () {
+        function Result() {
+        }
+        Object.defineProperty(Result.prototype, "Winner", {
+            get: function () {
+                var en = Enumerable.From(this.Votes);
+                return en.Aggregate(function (l, r) { return l.Votes > r.Votes ? l : r; }).Name;
+            },
+            enumerable: true,
+            configurable: true
+        });
+        Object.defineProperty(Result.prototype, "WinningParty", {
+            get: function () {
+                var en = Enumerable.From(this.Votes);
+                return en.Aggregate(function (l, r) { return l.Votes > r.Votes ? l : r; }).Party;
+            },
+            enumerable: true,
+            configurable: true
+        });
+        return Result;
+    })();
+    Models.Result = Result;
+    var CandidateVote = (function (_super) {
+        __extends(CandidateVote, _super);
+        function CandidateVote() {
+            _super.apply(this, arguments);
+        }
+        return CandidateVote;
+    })(Candidate);
+    Models.CandidateVote = CandidateVote;
+    var Candidate = (function () {
+        function Candidate() {
+        }
+        return Candidate;
+    })();
+    Models.Candidate = Candidate;
+})(Models || (Models = {}));
+/// <reference path="../reference.ts" />
+var Models;
+(function (Models) {
+    var ResultsHolder = (function () {
+        function ResultsHolder(Results2009, Results2010, Results2014) {
+            this.Results2009 = Results2009;
+            this.Results2010 = Results2010;
+            this.Results2014 = Results2014;
+            this._stability = null;
+        }
+        Object.defineProperty(ResultsHolder.prototype, "Stability", {
+            get: function () {
+                if (this._stability !== null) {
+                    return this._stability;
+                }
+                var en2014 = Enumerable.From(this.Results2014);
+                var en2010 = Enumerable.From(this.Results2010);
+                var en2009 = Enumerable.From(this.Results2009);
+                var stability = en2014.Select(function (t) {
+                    var winningParty2009 = en2009.First(function (x) { return x.Id == t.Id; }).WinningParty;
+                    var winningParty2010 = en2009.First(function (y) { return y.Id == t.Id; }).WinningParty;
+                    var stability = new Models.Stability();
+                    stability.Id = t.Id;
+                    stability.Stability = t.WinningParty == winningParty2009 && t.WinningParty == winningParty2010;
+                    stability.Party = t.WinningParty;
+                    return stability;
+                }).ToArray();
+                this._stability = stability;
+                return this._stability;
+            },
+            enumerable: true,
+            configurable: true
+        });
+        return ResultsHolder;
+    })();
+    Models.ResultsHolder = ResultsHolder;
+})(Models || (Models = {}));
+/// <reference path="../reference.ts" />
+var Models;
+(function (Models) {
+    var Stability = (function () {
+        function Stability() {
+        }
+        return Stability;
+    })();
+    Models.Stability = Stability;
+})(Models || (Models = {}));
 var ColorService = (function () {
     function ColorService($http, $q) {
         var _this = this;
@@ -617,15 +744,19 @@ angular.module('ElectionVisualization', ['controllers', 'services', 'directives'
 /// <reference path="controllers/AcStyleMap.ts" />
 /// <reference path="controllers/Constituency.ts" />
 /// <reference path="controllers/DataLoader.ts" />
+/// <reference path="controllers/InfoController.ts" />
 /// <reference path="controllers/MainController.ts" />
 /// <reference path="controllers/MapCtrl.ts" />
 /// <reference path="controllers/SearchBoxCtrl.ts" />
 /// <reference path="directives/testme.ts" />
 /// <reference path="models/Alliance.ts" />
+/// <reference path="models/Info.ts" />
+/// <reference path="models/Map.ts" />
+/// <reference path="models/Neighbors.ts" />
 /// <reference path="models/Party.ts" />
 /// <reference path="models/Result.ts" />
-/// <reference path="models/map.ts" />
-/// <reference path="models/neighbors.ts" />
+/// <reference path="models/ResultsHolder.ts" />
+/// <reference path="models/Stability.ts" />
 /// <reference path="services/ColorService.ts" />
 /// <reference path="services/LogService.ts" />
 /// <reference path="vendor.d.ts" />
