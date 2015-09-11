@@ -6,6 +6,7 @@ using System.Linq;
 using BiharElectionsLibrary;
 using CVoterContracts;
 using QualitativeData = CVoterContracts.QualitativeData;
+using Utils = BiharElectionsLibrary.Utils;
 
 namespace CVoterLibrary
 {
@@ -51,7 +52,7 @@ namespace CVoterLibrary
             }
             using (var writer = new StreamWriter(filename))
             {
-                writer.WriteLine("{0}\t{1}\t{2}\t{3}\t{4}","AC","District","Our Recommendation (Best Candidate)","Party","Candidates We Considered In Our Survey");
+                writer.WriteLine("{0}\t{1}\t{2}\t{3}\t{4}\t{5}\t{6}","AC","District","Our Recommendation (Best Candidate)","Party","CurrentMLA","IsIncumbent", "Candidates We Considered In Our Survey");
                 foreach (var district in state.Districts)
                 {
                     foreach (var ac in district.ACs)
@@ -61,8 +62,9 @@ namespace CVoterLibrary
                         {
                             continue;
                         }
-                        writer.WriteLine("{0}\t{1}\t{2}\t{3}\t{4}", candidate.AC.Name, CultureInfo.CurrentCulture.TextInfo.ToTitleCase(district.Name.ToLower()),
+                        writer.WriteLine("{0}\t{1}\t{2}\t{3}\t{4}\t{5}\t{6}", candidate.AC.Name, CultureInfo.CurrentCulture.TextInfo.ToTitleCase(district.Name.ToLower()),
                             CultureInfo.CurrentCulture.TextInfo.ToTitleCase(candidate.BestCandidate.Name.Split('(')[0].ToLower()), candidate.BestCandidate.PartyName,
+                            candidate.CurrentMLA,candidate.IsCurrentBest,
                             String.Join(",  ",candidate.CandidatesConsidered.Select(t=> String.Format("{0}({1})", CultureInfo.CurrentCulture.TextInfo.ToTitleCase(t.Name.Split('(')[0].ToLower()), t.PartyName))));
                     }
                 }
@@ -96,6 +98,21 @@ namespace CVoterLibrary
             writer.Close();
         }
 
+        public void FillUpCurrentCandidate(List<CandidateSelection> candidateSelections, List<Result> results2010,
+            string filename)
+        {
+            foreach (var selection in candidateSelections)
+            {
+                var result = results2010.First(t => t.Id == selection.AC.No);
+                var winner = result.Votes.OrderByDescending(t => t.Votes).First();
+                selection.CurrentMLA = winner.Name;
+                selection.WinningParty = winner.Party.ToString();
+                selection.IsCurrentBest = BiharElectionsLibrary.Utils
+                    .LevenshteinDistance(BiharElectionsLibrary.Utils.GetNormalizedName(selection.BestCandidate.Name.Split('(')[0].Trim()), 
+                    BiharElectionsLibrary.Utils.GetNormalizedName(selection.CurrentMLA)) < 3;
+            }
+        }
+
         private readonly QualitativeData _data;
     }
 
@@ -104,5 +121,9 @@ namespace CVoterLibrary
         public AssemblyConstituency AC { get; set; }
         public CandidateRating BestCandidate { get; set; }
         public IEnumerable<CandidateRating> CandidatesConsidered { get; set; }
+        public string CurrentMLA { get; set; }
+        public string WinningParty { get; set; }
+
+        public bool IsCurrentBest { get; set; }
     }
 }

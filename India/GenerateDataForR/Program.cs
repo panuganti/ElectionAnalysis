@@ -6,8 +6,6 @@ using System.Linq;
 using BiharElectionsLibrary;
 using GenerateDataForR;
 using Newtonsoft.Json;
-using System.Runtime.Serialization;
-using CVoterContracts;
 using CVoterLibrary;
 
 namespace GetBihar2010Results
@@ -22,10 +20,11 @@ namespace GetBihar2010Results
 
         private static void CustomExecution(CandidateSelector selector, State state, List<Result> results2010)
         {
-            const string filename = @"D:\ArchishaData\ElectionData\Bihar\CandidateSelection\CandidateSelection2015Ext.tsv";
-            const string logFile = @"D:\ArchishaData\ElectionData\Bihar\CandidateSelection\log.txt";
+            const string filename = @"I:\ArchishaData\ElectionData\Bihar\CandidateSelection\CandidateSelectionExt3.tsv";
+            const string logFile = @"I:\ArchishaData\ElectionData\Bihar\CandidateSelection\log.txt";
             var bestCandidates = selector.WinnableCandidates();
             selector.FillUpRestOfCandidates(bestCandidates, results2010, logFile);
+            selector.FillUpCurrentCandidate(bestCandidates, results2010, logFile);
             selector.PrintCandidateSelection(bestCandidates, state, filename);
             Console.WriteLine("TotalCount: {0}, BJP Count: {1}, MultipleCandidates Count: {2}", 
                 bestCandidates.Count(), bestCandidates.Count(t => t.BestCandidate.PartyName.ToLower() == "bjp"), 

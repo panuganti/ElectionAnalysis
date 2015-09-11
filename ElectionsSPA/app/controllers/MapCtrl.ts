@@ -1,4 +1,5 @@
-﻿module Controllers {
+﻿/// <reference path="../reference.ts" />
+module Controllers {
     export class MapCtrl {
         private http: ng.IHttpService;
         private scope: ng.IScope;
@@ -144,4 +145,3 @@
         {}
     }
 }
-/// <reference path="../reference.ts" />
