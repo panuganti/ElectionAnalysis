@@ -4,8 +4,8 @@
 #Temporary... Only for VSCode
 ElectionsSPA/.tscache/
 ElectionsSPA/node_modules/
-ElectionsSPA/app/*.js
-ElectionsSPA/app/*.js.map
+ElectionsSPA/*.js
+ElectionsSPA/*.js.map
 
 #Ignore rajkiran's old directories
 US/packages
