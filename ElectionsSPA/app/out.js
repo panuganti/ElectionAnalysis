@@ -427,6 +427,90 @@ var Models;
     })();
     Models.InfoData = InfoData;
 })(Models || (Models = {}));
+var Party;
+(function (Party) {
+    Party[Party["BJP"] = 0] = "BJP";
+    Party[Party["JDU"] = 1] = "JDU";
+    Party[Party["RJD"] = 2] = "RJD";
+    Party[Party["INC"] = 3] = "INC";
+    Party[Party["LJP"] = 4] = "LJP";
+    Party[Party["IND"] = 5] = "IND";
+    Party[Party["BSP"] = 6] = "BSP";
+    Party[Party["CPI"] = 7] = "CPI";
+    Party[Party["O"] = 8] = "O";
+})(Party || (Party = {}));
+/// <reference path="../reference.ts" />
+var Models;
+(function (Models) {
+    var Result = (function () {
+        function Result() {
+        }
+        Result.prototype.GetWinner = function () {
+            var en = Enumerable.From(this.Votes);
+            return en.First(function (t) { return t.Position == 1; }).Name;
+        };
+        Result.prototype.GetWinningParty = function () {
+            var en = Enumerable.From(this.Votes);
+            return en.First(function (t) { return t.Position == 1; }).Party;
+        };
+        return Result;
+    })();
+    Models.Result = Result;
+    var CandidateVote = (function () {
+        function CandidateVote() {
+        }
+        return CandidateVote;
+    })();
+    Models.CandidateVote = CandidateVote;
+})(Models || (Models = {}));
+/// <reference path="../reference.ts" />
+var Models;
+(function (Models) {
+    var ResultsHolder = (function () {
+        function ResultsHolder(Results2009, Results2010, Results2014) {
+            this.Results2009 = Results2009;
+            this.Results2010 = Results2010;
+            this.Results2014 = Results2014;
+            this._stability = null;
+        }
+        Object.defineProperty(ResultsHolder.prototype, "Stability", {
+            get: function () {
+                if (this._stability !== null) {
+                    return this._stability;
+                }
+                var en2014 = Enumerable.From(this.Results2014);
+                var en2010 = Enumerable.From(this.Results2010);
+                var en2009 = Enumerable.From(this.Results2009);
+                var stability = en2014.Select(function (t) {
+                    var ac2009 = en2009.First(function (x) { return x.Id == t.Id; });
+                    var winningParty2009 = ac2009.Votes[0].Party;
+                    var winningParty2010 = en2010.First(function (y) { return y.Id == t.Id; }).Votes[0].Party;
+                    var stability = new Models.Stability();
+                    stability.Id = t.Id;
+                    stability.Stability = t.Votes[0].Party === winningParty2009 && t.Votes[0].Party == winningParty2010;
+                    stability.Party = t.Votes[0].Party;
+                    return stability;
+                }).ToArray();
+                this._stability = stability;
+                return this._stability;
+            },
+            enumerable: true,
+            configurable: true
+        });
+        return ResultsHolder;
+    })();
+    Models.ResultsHolder = ResultsHolder;
+})(Models || (Models = {}));
+/// <reference path="../reference.ts" />
+var Models;
+(function (Models) {
+    var Stability = (function () {
+        function Stability() {
+        }
+        return Stability;
+    })();
+    Models.Stability = Stability;
+})(Models || (Models = {}));
 /// <reference path="../reference.ts" />
 var Models;
 (function (Models) {
@@ -603,90 +687,7 @@ var Models;
     })();
     Models.Neighbors = Neighbors;
 })(Models || (Models = {}));
-var Party;
-(function (Party) {
-    Party[Party["BJP"] = 0] = "BJP";
-    Party[Party["JDU"] = 1] = "JDU";
-    Party[Party["RJD"] = 2] = "RJD";
-    Party[Party["INC"] = 3] = "INC";
-    Party[Party["LJP"] = 4] = "LJP";
-    Party[Party["IND"] = 5] = "IND";
-    Party[Party["BSP"] = 6] = "BSP";
-    Party[Party["CPI"] = 7] = "CPI";
-    Party[Party["O"] = 8] = "O";
-})(Party || (Party = {}));
 /// <reference path="../reference.ts" />
-var Models;
-(function (Models) {
-    var Result = (function () {
-        function Result() {
-        }
-        Result.prototype.GetWinner = function () {
-            var en = Enumerable.From(this.Votes);
-            return en.First(function (t) { return t.Position == 1; }).Name;
-        };
-        Result.prototype.GetWinningParty = function () {
-            var en = Enumerable.From(this.Votes);
-            return en.First(function (t) { return t.Position == 1; }).Party;
-        };
-        return Result;
-    })();
-    Models.Result = Result;
-    var CandidateVote = (function () {
-        function CandidateVote() {
-        }
-        return CandidateVote;
-    })();
-    Models.CandidateVote = CandidateVote;
-})(Models || (Models = {}));
-/// <reference path="../reference.ts" />
-var Models;
-(function (Models) {
-    var ResultsHolder = (function () {
-        function ResultsHolder(Results2009, Results2010, Results2014) {
-            this.Results2009 = Results2009;
-            this.Results2010 = Results2010;
-            this.Results2014 = Results2014;
-            this._stability = null;
-        }
-        Object.defineProperty(ResultsHolder.prototype, "Stability", {
-            get: function () {
-                if (this._stability !== null) {
-                    return this._stability;
-                }
-                var en2014 = Enumerable.From(this.Results2014);
-                var en2010 = Enumerable.From(this.Results2010);
-                var en2009 = Enumerable.From(this.Results2009);
-                var stability = en2014.Select(function (t) {
-                    var ac2009 = en2009.First(function (x) { return x.Id == t.Id; });
-                    var winningParty2009 = ac2009.Votes[0].Party;
-                    var winningParty2010 = en2009.First(function (y) { return y.Id == t.Id; }).Votes[0].Party;
-                    var stability = new Models.Stability();
-                    stability.Id = t.Id;
-                    stability.Stability = t.Votes[0].Party === winningParty2009 && t.Votes[0].Party == winningParty2010;
-                    stability.Party = t.Votes[0].Party;
-                    return stability;
-                }).ToArray();
-                this._stability = stability;
-                return this._stability;
-            },
-            enumerable: true,
-            configurable: true
-        });
-        return ResultsHolder;
-    })();
-    Models.ResultsHolder = ResultsHolder;
-})(Models || (Models = {}));
-/// <reference path="../reference.ts" />
-var Models;
-(function (Models) {
-    var Stability = (function () {
-        function Stability() {
-        }
-        return Stability;
-    })();
-    Models.Stability = Stability;
-})(Models || (Models = {}));
 var ColorService = (function () {
     function ColorService($http, $q) {
         var _this = this;
@@ -712,6 +713,9 @@ var ColorService = (function () {
     };
     ColorService.prototype.getAllianceColor = function (alliance) {
         return this.colorMap[alliance];
+    };
+    ColorService.prototype.getColor = function () {
+        var colors = colorbrewer.RdYlGn[5];
     };
     return ColorService;
 })();
@@ -743,12 +747,12 @@ angular.module('ElectionVisualization', ['controllers', 'services', 'directives'
 /// <reference path="directives/testme.ts" />
 /// <reference path="models/Alliance.ts" />
 /// <reference path="models/InfoData.ts" />
-/// <reference path="models/Map.ts" />
-/// <reference path="models/Neighbors.ts" />
 /// <reference path="models/Party.ts" />
 /// <reference path="models/Result.ts" />
 /// <reference path="models/ResultsHolder.ts" />
 /// <reference path="models/Stability.ts" />
+/// <reference path="models/map.ts" />
+/// <reference path="models/neighbors.ts" />
 /// <reference path="services/ColorService.ts" />
 /// <reference path="services/LogService.ts" />
 /// <reference path="vendor.d.ts" />

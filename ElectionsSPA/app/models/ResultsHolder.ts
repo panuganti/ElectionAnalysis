@@ -13,7 +13,7 @@ module Models {
 			let stability = en2014.Select(t=> {
 				let ac2009: Models.Result = en2009.First(x => x.Id == t.Id)
 				let winningParty2009 = ac2009.Votes[0].Party;
-				let winningParty2010 = en2009.First(y => y.Id == t.Id).Votes[0].Party;
+				let winningParty2010 = en2010.First(y => y.Id == t.Id).Votes[0].Party;
 				let stability = new Stability();
 				stability.Id = t.Id;
 				stability.Stability = t.Votes[0].Party === winningParty2009 && t.Votes[0].Party == winningParty2010;

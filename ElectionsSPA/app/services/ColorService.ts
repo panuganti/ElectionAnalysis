@@ -1,3 +1,4 @@
+/// <reference path="../reference.ts" />
 interface ColorsMap {
 	[name: string] : string;
 }
@@ -38,6 +39,10 @@ class ColorService{
     getAllianceColor(alliance: string) {
     	return this.colorMap[alliance];
     }
+	
+	getColor() {
+		var colors = colorbrewer.RdYlGn[5];
+	}
 }
 
 services.service('colorService',ColorService);

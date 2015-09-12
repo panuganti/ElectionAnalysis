@@ -69,8 +69,7 @@ module Controllers {
             let en = Enumerable.From(stabilities);
             en.ForEach( element => {
               let styleMap = new AcStyleMap();
-              styleMap.Id = element.Id;
-              
+              styleMap.Id = element.Id;              
               styleMap.Style = {
                 strokeWeight: this.defaultStyle.strokeWeight,
                 fillOpacity: this.defaultStyle.fillOpacity,
