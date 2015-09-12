@@ -6,6 +6,7 @@
 /// <reference path="controllers/AcStyleMap.ts" />
 /// <reference path="controllers/Constituency.ts" />
 /// <reference path="controllers/DataLoader.ts" />
+/// <reference path="controllers/InfoCtrl.ts" />
 /// <reference path="controllers/MainController.ts" />
 /// <reference path="controllers/MapCtrl.ts" />
 /// <reference path="controllers/SearchBoxCtrl.ts" />

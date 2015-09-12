@@ -187,6 +187,52 @@ var Controllers;
     })();
     Controllers.DataLoader = DataLoader;
 })(Controllers || (Controllers = {}));
+/// <reference path="../reference.ts" />
+var Controllers;
+(function (Controllers) {
+    var InfoCtrl = (function () {
+        function InfoCtrl($scope, $http, $q, $timeout) {
+            $scope.vMap = this;
+            this.scope = $scope;
+            this.http = $http;
+            this.q = $q;
+            this.timeout = $timeout;
+            this.dataloader = new Controllers.DataLoader(this.http, this.q);
+            this.infoDiv = document.getElementById('info');
+        }
+        InfoCtrl.prototype.displayInfo = function (id) {
+            var _this = this;
+            var p2014 = this.dataloader.getResultsAsync("2014");
+            var p2010 = this.dataloader.getResultsAsync("2010");
+            var p2009 = this.dataloader.getResultsAsync("2009");
+            var pR = this.q.all([p2009, p2010, p2014]);
+            pR.then(function (_a) {
+                var d1 = _a[0], d2 = _a[1], d3 = _a[2];
+                return _this.loadResultsForAC(d1, d2, d3, id);
+            });
+        };
+        InfoCtrl.prototype.loadResultsForAC = function (d1, d2, d3, id) {
+            console.log('in load results');
+            var r2014 = d1;
+            var r2010 = d2;
+            var r2009 = d3;
+            var en2014 = Enumerable.From(r2014);
+            var en2010 = Enumerable.From(r2010);
+            var en2009 = Enumerable.From(r2009);
+            var results2014 = en2014.First(function (t) { return t.Id == id; });
+            var results2010 = en2010.First(function (t) { return t.Id == id; });
+            var results2009 = en2009.First(function (t) { return t.Id == id; });
+            var title = results2014.Name;
+            this.info = new Models.InfoData(title, results2009, results2010, results2014);
+            this.setInfoDivVisibility("inline");
+        };
+        InfoCtrl.prototype.setInfoDivVisibility = function (display) {
+            this.infoDiv.style.display = display;
+        };
+        return InfoCtrl;
+    })();
+    Controllers.InfoCtrl = InfoCtrl;
+})(Controllers || (Controllers = {}));
 var Controllers;
 (function (Controllers) {
     var MainControl = (function () {
@@ -684,6 +730,7 @@ angular.module('ElectionVisualization', ['controllers', 'services', 'directives'
 /// <reference path="controllers/AcStyleMap.ts" />
 /// <reference path="controllers/Constituency.ts" />
 /// <reference path="controllers/DataLoader.ts" />
+/// <reference path="controllers/InfoCtrl.ts" />
 /// <reference path="controllers/MainController.ts" />
 /// <reference path="controllers/MapCtrl.ts" />
 /// <reference path="controllers/SearchBoxCtrl.ts" />
