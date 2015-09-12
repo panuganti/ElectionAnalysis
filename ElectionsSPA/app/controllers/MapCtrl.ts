@@ -5,10 +5,11 @@ module Controllers {
         private scope: ng.IScope;
         private q: ng.IQService;
         private timeout: ng.ITimeoutService;
-        
-        private infoDiv: HTMLElement;
-        private info: Models.InfoData;
+
+        // Controllers
         private dataloader: DataLoader;
+        private infoCtrl: InfoCtrl;
+        
         private colors: string[];
         private topojson: any;
         private defaultCenter: google.maps.LatLng;
@@ -33,9 +34,10 @@ module Controllers {
             this.q = $q;
             this.timeout = $timeout;
             
-            this.mapInstance = Models.Map.Instance;
-            this.infoDiv = document.getElementById('info');
             this.dataloader = new DataLoader(this.http, this.q);
+            this.infoCtrl = new InfoCtrl(this.scope, this.http, this.q, this.timeout);
+            
+            this.mapInstance = Models.Map.Instance;
             this.geocoder = new google.maps.Geocoder();
             this.acStyleMap = new AcStyleMap();
             this.defaultColorMap = this.acStyleMap.colorMap;
@@ -49,20 +51,15 @@ module Controllers {
             this.mapInstance.addEventHandler('click', this.mouseClickHandler);
             
             this.loadResults("2010");
-            this.setInfoDivVisibility("none");
+            this.infoCtrl.setInfoDivVisibility("none");
         }
         
-        setInfoDivVisibility(display: string)
-        {
-            this.infoDiv.style.display = display;
-        }
-
         mouseClick(event: any) {
             let id = event.feature.getProperty('ac');            
             let name = event.feature.getProperty('ac_name');
             this.acName = name;
             this.scope.$apply();
-            this.displayInfo(id);
+            this.infoCtrl.displayInfo(id);
             console.log("In click with id:" + id + " " + this.acName);
         }
 
@@ -105,33 +102,7 @@ module Controllers {
         
         yearSelectionChanged() {
             this.loadResults(this.yearSelected);
-        }
-        
-        displayInfo(id: string) {
-            this.setInfoDivVisibility("inline");
-            let p2014 = this.dataloader.getResultsAsync("2014");
-            let p2010 = this.dataloader.getResultsAsync("2010");
-            let p2009 = this.dataloader.getResultsAsync("2009");
-            let pR: ng.IPromise<any[]>  = this.q.all([p2009, p2010, p2014]);
-            pR.then(([d1, d2, d3]) => this.loadResultsForAC(d1, d2, d3, id));
-        }
-        
-        loadResultsForAC(d1,d2,d3, id) {
-            console.log('in load results');
-            let r2014: Models.Result[] = d1;
-            let r2010: Models.Result[] = d2;
-            let r2009: Models.Result[] = d3;
-            var en2014 = Enumerable.From(r2014);
-            var en2010 = Enumerable.From(r2010);
-            var en2009 = Enumerable.From(r2009);
-            var results2014 = en2014.First(t=> t.Id == id);
-            var results2010 = en2010.First(t=> t.Id == id);
-            var results2009 = en2009.First(t=> t.Id == id);
-            var title = results2014.Name;
-            var info: Models.InfoData = new Models.InfoData(title, results2009, results2010, results2014);
-            this.setInfoDivVisibility("inline");
-            this.info = info;
-        }
+        }        
     }
     
     export interface ResultsSummary {

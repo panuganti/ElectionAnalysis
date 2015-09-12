@@ -192,7 +192,7 @@ var Controllers;
 (function (Controllers) {
     var InfoCtrl = (function () {
         function InfoCtrl($scope, $http, $q, $timeout) {
-            $scope.vMap = this;
+            $scope.vInfo = this;
             this.scope = $scope;
             this.http = $http;
             this.q = $q;
@@ -261,9 +261,9 @@ var Controllers;
             this.http = $http;
             this.q = $q;
             this.timeout = $timeout;
-            this.mapInstance = Models.Map.Instance;
-            this.infoDiv = document.getElementById('info');
             this.dataloader = new Controllers.DataLoader(this.http, this.q);
+            this.infoCtrl = new Controllers.InfoCtrl(this.scope, this.http, this.q, this.timeout);
+            this.mapInstance = Models.Map.Instance;
             this.geocoder = new google.maps.Geocoder();
             this.acStyleMap = new Controllers.AcStyleMap();
             this.defaultColorMap = this.acStyleMap.colorMap;
@@ -274,17 +274,14 @@ var Controllers;
             this.loadGeoData();
             this.mapInstance.addEventHandler('click', this.mouseClickHandler);
             this.loadResults("2010");
-            this.setInfoDivVisibility("none");
-        };
-        MapCtrl.prototype.setInfoDivVisibility = function (display) {
-            this.infoDiv.style.display = display;
+            this.infoCtrl.setInfoDivVisibility("none");
         };
         MapCtrl.prototype.mouseClick = function (event) {
             var id = event.feature.getProperty('ac');
             var name = event.feature.getProperty('ac_name');
             this.acName = name;
             this.scope.$apply();
-            this.displayInfo(id);
+            this.infoCtrl.displayInfo(id);
             console.log("In click with id:" + id + " " + this.acName);
         };
         MapCtrl.prototype.getDefaultCenter = function (results, status) {
@@ -321,34 +318,6 @@ var Controllers;
         };
         MapCtrl.prototype.yearSelectionChanged = function () {
             this.loadResults(this.yearSelected);
-        };
-        MapCtrl.prototype.displayInfo = function (id) {
-            var _this = this;
-            this.setInfoDivVisibility("inline");
-            var p2014 = this.dataloader.getResultsAsync("2014");
-            var p2010 = this.dataloader.getResultsAsync("2010");
-            var p2009 = this.dataloader.getResultsAsync("2009");
-            var pR = this.q.all([p2009, p2010, p2014]);
-            pR.then(function (_a) {
-                var d1 = _a[0], d2 = _a[1], d3 = _a[2];
-                return _this.loadResultsForAC(d1, d2, d3, id);
-            });
-        };
-        MapCtrl.prototype.loadResultsForAC = function (d1, d2, d3, id) {
-            console.log('in load results');
-            var r2014 = d1;
-            var r2010 = d2;
-            var r2009 = d3;
-            var en2014 = Enumerable.From(r2014);
-            var en2010 = Enumerable.From(r2010);
-            var en2009 = Enumerable.From(r2009);
-            var results2014 = en2014.First(function (t) { return t.Id == id; });
-            var results2010 = en2010.First(function (t) { return t.Id == id; });
-            var results2009 = en2009.First(function (t) { return t.Id == id; });
-            var title = results2014.Name;
-            var info = new Models.InfoData(title, results2009, results2010, results2014);
-            this.setInfoDivVisibility("inline");
-            this.info = info;
         };
         return MapCtrl;
     })();

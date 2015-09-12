@@ -12,8 +12,10 @@ module Controllers {
 		private info : Models.InfoData;
         private infoDiv: HTMLElement;
 
+        //constructor() {}        
+        
         constructor($scope, $http, $q, $timeout) {
-            $scope.vMap = this;
+            $scope.vInfo = this;
             this.scope = $scope;
             this.http = $http;
             this.q = $q;
@@ -31,6 +33,7 @@ module Controllers {
             pR.then(([d1, d2, d3]) => this.loadResultsForAC(d1, d2, d3, id));
         }
 
+        
         loadResultsForAC(d1,d2,d3, id) {
             console.log('in load results');
             let r2014: Models.Result[] = d1;
