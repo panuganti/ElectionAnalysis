@@ -199,6 +199,7 @@ var Controllers;
     })();
     Controllers.MainControl = MainControl;
 })(Controllers || (Controllers = {}));
+/// <reference path="../reference.ts" />
 var Controllers;
 (function (Controllers) {
     var MapCtrl = (function () {
@@ -299,25 +300,14 @@ var Controllers;
             var results2010 = en2010.First(function (t) { return t.Id == id; });
             var results2009 = en2009.First(function (t) { return t.Id == id; });
             var title = results2014.Name;
-            var info = new Info(title, results2009, results2010, results2014);
+            var info = new Models.InfoData(title, results2009, results2010, results2014);
             this.setInfoDivVisibility("inline");
             this.info = info;
         };
         return MapCtrl;
     })();
     Controllers.MapCtrl = MapCtrl;
-    var Info = (function () {
-        function Info(Title, Results2009, Results2010, Results2014) {
-            this.Title = Title;
-            this.Results2009 = Results2009;
-            this.Results2010 = Results2010;
-            this.Results2014 = Results2014;
-        }
-        return Info;
-    })();
-    Controllers.Info = Info;
 })(Controllers || (Controllers = {}));
-/// <reference path="../reference.ts" />
 /// <reference path="../reference.ts" />
 var Controllers;
 (function (Controllers) {
@@ -364,33 +354,19 @@ var Alliance;
     Alliance[Alliance["LEFT"] = 4] = "LEFT";
     Alliance[Alliance["O"] = 5] = "O";
 })(Alliance || (Alliance = {}));
-var Party;
-(function (Party) {
-    Party[Party["BJP"] = 0] = "BJP";
-    Party[Party["JDU"] = 1] = "JDU";
-    Party[Party["RJD"] = 2] = "RJD";
-    Party[Party["INC"] = 3] = "INC";
-    Party[Party["LJP"] = 4] = "LJP";
-    Party[Party["IND"] = 5] = "IND";
-    Party[Party["BSP"] = 6] = "BSP";
-    Party[Party["CPI"] = 7] = "CPI";
-    Party[Party["O"] = 8] = "O";
-})(Party || (Party = {}));
 /// <reference path="../reference.ts" />
 var Models;
 (function (Models) {
-    var Result = (function () {
-        function Result() {
+    var InfoData = (function () {
+        function InfoData(Title, Results2009, Results2010, Results2014) {
+            this.Title = Title;
+            this.Results2009 = Results2009;
+            this.Results2010 = Results2010;
+            this.Results2014 = Results2014;
         }
-        return Result;
+        return InfoData;
     })();
-    Models.Result = Result;
-    var CandidateVote = (function () {
-        function CandidateVote() {
-        }
-        return CandidateVote;
-    })();
-    Models.CandidateVote = CandidateVote;
+    Models.InfoData = InfoData;
 })(Models || (Models = {}));
 /// <reference path="../reference.ts" />
 var Models;
@@ -568,6 +544,34 @@ var Models;
     })();
     Models.Neighbors = Neighbors;
 })(Models || (Models = {}));
+var Party;
+(function (Party) {
+    Party[Party["BJP"] = 0] = "BJP";
+    Party[Party["JDU"] = 1] = "JDU";
+    Party[Party["RJD"] = 2] = "RJD";
+    Party[Party["INC"] = 3] = "INC";
+    Party[Party["LJP"] = 4] = "LJP";
+    Party[Party["IND"] = 5] = "IND";
+    Party[Party["BSP"] = 6] = "BSP";
+    Party[Party["CPI"] = 7] = "CPI";
+    Party[Party["O"] = 8] = "O";
+})(Party || (Party = {}));
+/// <reference path="../reference.ts" />
+var Models;
+(function (Models) {
+    var Result = (function () {
+        function Result() {
+        }
+        return Result;
+    })();
+    Models.Result = Result;
+    var CandidateVote = (function () {
+        function CandidateVote() {
+        }
+        return CandidateVote;
+    })();
+    Models.CandidateVote = CandidateVote;
+})(Models || (Models = {}));
 var ColorService = (function () {
     function ColorService($http, $q) {
         var _this = this;
@@ -622,10 +626,11 @@ angular.module('ElectionVisualization', ['controllers', 'services', 'directives'
 /// <reference path="controllers/SearchBoxCtrl.ts" />
 /// <reference path="directives/testme.ts" />
 /// <reference path="models/Alliance.ts" />
+/// <reference path="models/InfoData.ts" />
+/// <reference path="models/Map.ts" />
+/// <reference path="models/Neighbors.ts" />
 /// <reference path="models/Party.ts" />
 /// <reference path="models/Result.ts" />
-/// <reference path="models/map.ts" />
-/// <reference path="models/neighbors.ts" />
 /// <reference path="services/ColorService.ts" />
 /// <reference path="services/LogService.ts" />
 /// <reference path="vendor.d.ts" />

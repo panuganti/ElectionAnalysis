@@ -7,7 +7,7 @@ module Controllers {
         private timeout: ng.ITimeoutService;
         
         private infoDiv: HTMLElement;
-        private info: Info;
+        private info: Models.InfoData;
         private dataloader: DataLoader;
         private colors: string[];
         private topojson: any;
@@ -128,20 +128,13 @@ module Controllers {
             var results2010 = en2010.First(t=> t.Id == id);
             var results2009 = en2009.First(t=> t.Id == id);
             var title = results2014.Name;
-            var info: Info = new Info(title, results2009, results2010, results2014);
+            var info: Models.InfoData = new Models.InfoData(title, results2009, results2010, results2014);
             this.setInfoDivVisibility("inline");
             this.info = info;
         }
     }
     
-    
-    
     export interface ResultsSummary {
         [alliance: string]: number;
-    }
-    
-    export class Info {
-        constructor(public Title: string, public Results2009: Models.Result, public Results2010: Models.Result, public Results2014: Models.Result)
-        {}
-    }
+    }    
 }
