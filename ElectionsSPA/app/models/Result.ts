@@ -4,18 +4,18 @@ module Models {
 	export class Result {		
 		Id: number;
 		Name: string;
-		Votes: CandidateVote[]
+		Votes: CandidateVote[];
 		
 		constructor() { }
 		
-		get Winner(): string {
+		GetWinner(): string {
 			var en = Enumerable.From(this.Votes);
-			return en.Aggregate((l, r) => l.Votes > r.Votes ? l : r).Name;
+			return en.First(t=>t.Position == 1).Name;
 		}
 		
-		get WinningParty(): string {
+		GetWinningParty(): string {
 			var en = Enumerable.From(this.Votes);
-			return en.Aggregate((l, r) => l.Votes > r.Votes ? l : r).Party;
+			return en.First(t=>t.Position == 1).Party;
 		}
 	}
 		

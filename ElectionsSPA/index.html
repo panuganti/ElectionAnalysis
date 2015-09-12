@@ -84,7 +84,12 @@
         <select data-ng-model="vMap.yearSelected", ng-change="vMap.yearSelectionChanged()" ng-options="year as year for year in vMap.years">
             <option value="" disabled selected> Select Year </option>
         </select>
-        
+    </div>
+    
+    <div id="displayModeSelection"> 
+        <select data-ng-model="vMap.displayMode", ng-change="vMap.displayModeChanged()" ng-options="mode as mode for mode in vMap.displayModes">
+            <option value="" disabled selected> Chose Mode .. </option>
+        </select>        
     </div>
     
     <div id="search" ng-controller="SearchBoxCtrl">  

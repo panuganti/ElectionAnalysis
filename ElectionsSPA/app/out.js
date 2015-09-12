@@ -64,6 +64,23 @@ var Controllers;
             });
             return acStyleMaps;
         };
+        AcStyleMap.prototype.GenerateDisplayModeStyleMaps = function (stabilities) {
+            var _this = this;
+            var acStyleMaps = [];
+            var en = Enumerable.From(stabilities);
+            en.ForEach(function (element) {
+                var styleMap = new AcStyleMap();
+                styleMap.Id = element.Id;
+                styleMap.Style = {
+                    strokeWeight: _this.defaultStyle.strokeWeight,
+                    fillOpacity: _this.defaultStyle.fillOpacity,
+                    strokeOpacity: _this.defaultStyle.strokeOpacity,
+                    fillColor: element.Stability ? _this.colorMap[element.Party] : _this.colorMap["ind"]
+                };
+                acStyleMaps.push(styleMap);
+            });
+            return acStyleMaps;
+        };
         AcStyleMap.prototype.GenerateResultsSummary = function (acResults) {
             var resultsSummary = {};
             resultsSummary["BJP+"] = 0;
@@ -251,8 +268,9 @@ var Controllers;
     var MapCtrl = (function () {
         function MapCtrl($scope, $http, $q, $timeout) {
             var _this = this;
-            this.years = ["2014", "2010", "2009"];
             this.acName = "Ac Name";
+            this.years = ["2014", "2010", "2009"];
+            this.displayModes = ["Regular", "Stable"];
             this.loadResultsHandler = function (response) { return _this.loadResultsCallback(response); };
             this.mouseClickHandler = function (event) { return _this.mouseClick(event); };
             this.getDefaultCenterCallback = function (results, status) { return _this.getDefaultCenter(results, status); };
@@ -316,8 +334,34 @@ var Controllers;
                 return styleMaps.First(function (t) { return t.Id == id; }).Style;
             });
         };
+        MapCtrl.prototype.changeDisplayMode = function () {
+            var _this = this;
+            var p2014 = this.dataloader.getResultsAsync("2014");
+            var p2010 = this.dataloader.getResultsAsync("2010");
+            var p2009 = this.dataloader.getResultsAsync("2009");
+            this.q.all([p2014, p2010, p2009]).then(function (data) { return _this.loadDisplayMode(data[0], data[1], data[2]); });
+        };
+        MapCtrl.prototype.loadDisplayMode = function (ac2014, ac2010, ac2009) {
+            var resultsHolder = new Models.ResultsHolder(ac2009, ac2010, ac2014);
+            var stability = resultsHolder.Stability;
+            var styleMaps = Enumerable.From(this.acStyleMap.GenerateDisplayModeStyleMaps(stability));
+            this.mapInstance.setStyle(function (feature) {
+                var id = feature.getProperty('ac');
+                return styleMaps.First(function (t) { return t.Id == id; }).Style;
+            });
+        };
         MapCtrl.prototype.yearSelectionChanged = function () {
             this.loadResults(this.yearSelected);
+        };
+        MapCtrl.prototype.displayModeChanged = function () {
+            switch (this.displayMode) {
+                case "Regular":
+                    break;
+                case "Stable":
+                    this.changeDisplayMode();
+                    break;
+                default:
+            }
         };
         return MapCtrl;
     })();
@@ -577,22 +621,14 @@ var Models;
     var Result = (function () {
         function Result() {
         }
-        Object.defineProperty(Result.prototype, "Winner", {
-            get: function () {
-                var en = Enumerable.From(this.Votes);
-                return en.Aggregate(function (l, r) { return l.Votes > r.Votes ? l : r; }).Name;
-            },
-            enumerable: true,
-            configurable: true
-        });
-        Object.defineProperty(Result.prototype, "WinningParty", {
-            get: function () {
-                var en = Enumerable.From(this.Votes);
-                return en.Aggregate(function (l, r) { return l.Votes > r.Votes ? l : r; }).Party;
-            },
-            enumerable: true,
-            configurable: true
-        });
+        Result.prototype.GetWinner = function () {
+            var en = Enumerable.From(this.Votes);
+            return en.First(function (t) { return t.Position == 1; }).Name;
+        };
+        Result.prototype.GetWinningParty = function () {
+            var en = Enumerable.From(this.Votes);
+            return en.First(function (t) { return t.Position == 1; }).Party;
+        };
         return Result;
     })();
     Models.Result = Result;
@@ -622,12 +658,13 @@ var Models;
                 var en2010 = Enumerable.From(this.Results2010);
                 var en2009 = Enumerable.From(this.Results2009);
                 var stability = en2014.Select(function (t) {
-                    var winningParty2009 = en2009.First(function (x) { return x.Id == t.Id; }).WinningParty;
-                    var winningParty2010 = en2009.First(function (y) { return y.Id == t.Id; }).WinningParty;
+                    var ac2009 = en2009.First(function (x) { return x.Id == t.Id; });
+                    var winningParty2009 = ac2009.Votes[0].Party;
+                    var winningParty2010 = en2009.First(function (y) { return y.Id == t.Id; }).Votes[0].Party;
                     var stability = new Models.Stability();
                     stability.Id = t.Id;
-                    stability.Stability = t.WinningParty == winningParty2009 && t.WinningParty == winningParty2010;
-                    stability.Party = t.WinningParty;
+                    stability.Stability = t.Votes[0].Party === winningParty2009 && t.Votes[0].Party == winningParty2010;
+                    stability.Party = t.Votes[0].Party;
                     return stability;
                 }).ToArray();
                 this._stability = stability;

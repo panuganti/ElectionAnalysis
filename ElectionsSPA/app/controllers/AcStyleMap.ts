@@ -64,6 +64,25 @@ module Controllers {
             return acStyleMaps;
         }
         
+        public GenerateDisplayModeStyleMaps(stabilities: Models.Stability[]) : AcStyleMap[] {
+            let acStyleMaps: AcStyleMap[] = [];
+            let en = Enumerable.From(stabilities);
+            en.ForEach( element => {
+              let styleMap = new AcStyleMap();
+              styleMap.Id = element.Id;
+              
+              styleMap.Style = {
+                strokeWeight: this.defaultStyle.strokeWeight,
+                fillOpacity: this.defaultStyle.fillOpacity,
+                strokeOpacity: this.defaultStyle.strokeOpacity,
+                fillColor: element.Stability ? this.colorMap[element.Party] : this.colorMap["ind"]
+              };
+              acStyleMaps.push(styleMap);
+            }
+            );
+            return acStyleMaps;          
+        }
+        
         public GenerateResultsSummary(acResults: Models.Result[]): ResultsSummary {
             var resultsSummary: ResultsSummary = {};
             resultsSummary["BJP+"] = 0;
