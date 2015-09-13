@@ -13,13 +13,14 @@ var Controllers;
         function AcStyleMap() {
             this.defaultStyle = {
                 strokeWeight: 1,
-                fillOpacity: 0.8,
+                fillOpacity: 0.9,
                 strokeOpacity: 0.3,
                 strokeColor: "white"
             };
             this.resultsSummary = {};
             this.initializeColorMap();
             this.initializeAlliance();
+            this.initializeAllianceColorMap();
         }
         AcStyleMap.prototype.initializeColorMap = function () {
             this.colorMap = {};
@@ -38,27 +39,46 @@ var Controllers;
             this.allianceMap["bjp"] = "BJP+";
             this.allianceMap["ljp"] = "BJP+";
             this.allianceMap["rlsp"] = "BJP+";
+            this.allianceMap["rslp"] = "BJP+";
             this.allianceMap["ham"] = "BJP+";
             this.allianceMap["rjd"] = "JP+";
             this.allianceMap["jdu"] = "JP+";
             this.allianceMap["sp"] = "JP+";
             this.allianceMap["inc"] = "JP+";
             this.allianceMap["cpi"] = "O";
+            this.allianceMap["ind"] = "O";
+            this.allianceMap["jmm"] = "O";
+            this.allianceMap["ncp"] = "O";
+            this.allianceMap["bsp"] = "O";
+            this.allianceMap["others"] = "O";
+        };
+        AcStyleMap.prototype.initializeAllianceColorMap = function () {
+            this.allianceColorMap = {};
+            this.allianceColorMap["BJP+"] = "orange";
+            this.allianceColorMap["JP+"] = "green";
+            this.allianceColorMap["O"] = "black";
         };
         AcStyleMap.prototype.GenerateStyleMaps = function (acResults) {
             var _this = this;
+            var colorService = new ColorService();
             var en = Enumerable.From(acResults);
             var acStyleMaps = [];
             en.ForEach(function (element) {
                 var votes = Enumerable.From(en.Where(function (t) { return t.Id == element.Id; }).First().Votes);
                 var party = votes.First(function (t) { return t.Position == 1; }).Party;
+                var alliance = _this.allianceMap[party];
+                var partyColor = _this.allianceColorMap[alliance];
                 var styleMap = new AcStyleMap();
                 styleMap.Id = element.Id;
+                var totalVotes = votes.Select(function (t) { return t.Votes; }).ToArray().reduce(function (a, b) { return a + b; });
+                var margin = votes.First(function (t) { return t.Position == 1; }).Votes - votes.First(function (t) { return t.Position == 2; }).Votes;
+                var marginPercent = Math.ceil((margin) * 100 / totalVotes);
+                var color = colorService.getColor(partyColor, marginPercent, 1, 25);
                 styleMap.Style = {
                     strokeWeight: _this.defaultStyle.strokeWeight,
                     fillOpacity: _this.defaultStyle.fillOpacity,
                     strokeOpacity: _this.defaultStyle.strokeOpacity,
-                    fillColor: _this.colorMap[party]
+                    fillColor: color
                 };
                 acStyleMaps.push(styleMap);
             });
@@ -689,10 +709,9 @@ var Models;
 })(Models || (Models = {}));
 /// <reference path="../reference.ts" />
 var ColorService = (function () {
-    function ColorService($http, $q) {
+    function ColorService() {
         var _this = this;
         this.loadColorJson = function (data) { return _this.returnColorJson(data); };
-        this.dataloader = new Controllers.DataLoader($http, $q);
     }
     ColorService.prototype.returnColorJson = function (data) {
         var colorsObj = angular.fromJson(data);
@@ -706,7 +725,6 @@ var ColorService = (function () {
         if (this.colorMap != null) {
             return this.colorMap;
         }
-        this.dataloader.getColorsJson(this.loadColorJson);
     };
     ColorService.prototype.getPartyColor = function (party) {
         return this.colorMap[party];
@@ -714,8 +732,33 @@ var ColorService = (function () {
     ColorService.prototype.getAllianceColor = function (alliance) {
         return this.colorMap[alliance];
     };
-    ColorService.prototype.getColor = function () {
-        var colors = colorbrewer.RdYlGn[5];
+    ColorService.prototype.getColor = function (color, value, min, max, nLevels) {
+        if (min === void 0) { min = 0; }
+        if (max === void 0) { max = 100; }
+        if (nLevels === void 0) { nLevels = 9; }
+        var colors = colorbrewer.Oranges[nLevels];
+        switch (color) {
+            case "orange":
+                colors = colorbrewer.Oranges[nLevels];
+                break;
+            case "green":
+                colors = colorbrewer.Greens[nLevels];
+                break;
+            case "red":
+                colors = colorbrewer.Reds[nLevels];
+                break;
+            case "black":
+                colors = colorbrewer.Greys[nLevels];
+                break;
+            case "blue":
+                colors = colorbrewer.Blues[nLevels];
+                break;
+            default:
+                throw new Error("color not supported: " + color);
+        }
+        var colorScale = d3.scale.quantize()
+            .domain([min - 10, max]).range(colors);
+        return colorScale(value);
     };
     return ColorService;
 })();
@@ -732,7 +775,6 @@ services.service('logService', LogService);
 /// <reference path="../reference.ts" />
 angular.module('controllers', []).controller(Controllers);
 /// <reference path="./reference.ts" />
-"use strict";
 angular.module('ElectionVisualization', ['controllers', 'services', 'directives']);
 /// <reference path="services/services.ts" />
 /// <reference path="directives/directives.ts" />

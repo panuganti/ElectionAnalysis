@@ -1,4 +1,4 @@
 /// <reference path="./reference.ts" />
 
-"use strict";
+//"use strict";
 angular.module('ElectionVisualization',['controllers','services','directives']);

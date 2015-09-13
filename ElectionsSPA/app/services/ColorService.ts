@@ -5,12 +5,12 @@ interface ColorsMap {
 
 class ColorService{
 	private colorMap: ColorsMap;
-	private dataloader: any;
+	//private dataloader: any;
 
     public loadColorJson: { (data: any): void } = (data) => this.returnColorJson(data);
 
-	 constructor($http, $q)  {
-	 	this.dataloader = new Controllers.DataLoader($http, $q);
+	 constructor()  {
+	 //	this.dataloader = new Controllers.DataLoader($http, $q);
 	 }
 
 	returnColorJson(data: any) { 
@@ -29,7 +29,7 @@ class ColorService{
 		{
 			return this.colorMap;
 		}
-	 	this.dataloader.getColorsJson(this.loadColorJson);	
+	 	//this.dataloader.getColorsJson(this.loadColorJson);	
 	}
 
     getPartyColor(party: string) {
@@ -40,8 +40,25 @@ class ColorService{
     	return this.colorMap[alliance];
     }
 	
-	getColor() {
-		var colors = colorbrewer.RdYlGn[5];
+	getColor(color: string, value: number, min = 0, max = 100, nLevels = 9): any {
+		let colors: string[] = colorbrewer.Oranges[nLevels];
+		switch (color) {
+			case "orange":
+				colors = colorbrewer.Oranges[nLevels]; break;
+			case "green":
+				colors = colorbrewer.Greens[nLevels]; break;
+			case "red":
+				colors = colorbrewer.Reds[nLevels]; break;
+			case "black":
+				colors = colorbrewer.Greys[nLevels]; break;
+			case "blue":
+				colors = colorbrewer.Blues[nLevels]; break;
+			default:
+				throw new Error("color not supported: " + color)							    
+		}
+		var colorScale = d3.scale.quantize()
+			.domain([min-10, max]).range(colors);
+		return colorScale(value);
 	}
 }
 

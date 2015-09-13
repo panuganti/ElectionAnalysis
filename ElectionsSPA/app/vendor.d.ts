@@ -6,3 +6,4 @@
 /// <reference path="../vendor/types/linq/linq.jquery.d.ts" />
 /// <reference path="../vendor/types/googlevisualization/google.visualization.d.ts" />
 /// <reference path="../vendor/types/colorbrewer/colorbrewer.d.ts" />
+/// <reference path="../vendor/types/d3/d3.d.ts" />
