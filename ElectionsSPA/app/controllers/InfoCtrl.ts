@@ -48,6 +48,10 @@ module Controllers {
                         var title = results2014.Name;
                         this.info = new Models.InfoData(title, results2009, results2010, results2014);
                         this.setInfoDivVisibility("inline");
+                        if (this.scope.$$phase)
+                        {
+                            this.scope.$apply();
+                        }
                 }
 
                 setInfoDivVisibility(display: string) {

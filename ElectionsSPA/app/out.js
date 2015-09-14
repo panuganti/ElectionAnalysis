@@ -262,6 +262,9 @@ var Controllers;
             var title = results2014.Name;
             this.info = new Models.InfoData(title, results2009, results2010, results2014);
             this.setInfoDivVisibility("inline");
+            if (this.scope.$$phase) {
+                this.scope.$apply();
+            }
         };
         InfoCtrl.prototype.setInfoDivVisibility = function (display) {
             this.infoDiv.style.display = display;
@@ -318,7 +321,6 @@ var Controllers;
             var id = event.feature.getProperty('ac');
             var name = event.feature.getProperty('ac_name');
             this.acName = name;
-            this.scope.$apply();
             this.infoCtrl.displayInfo(id);
             console.log("In click with id:" + id + " " + this.acName);
         };

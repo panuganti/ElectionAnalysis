@@ -63,7 +63,6 @@ module Controllers {
             let id = event.feature.getProperty('ac');            
             let name = event.feature.getProperty('ac_name');
             this.acName = name;
-            this.scope.$apply();
             this.infoCtrl.displayInfo(id);
             console.log("In click with id:" + id + " " + this.acName);
         }
