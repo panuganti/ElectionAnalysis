@@ -52,7 +52,7 @@ namespace CVoterLibrary
             }
             using (var writer = new StreamWriter(filename))
             {
-                writer.WriteLine("{0}\t{1}\t{2}\t{3}\t{4}\t{5}\t{6}","AC","District","Our Recommendation (Best Candidate)","Party","CurrentMLA","IsIncumbent", "Candidates We Considered In Our Survey");
+                writer.WriteLine("{7}\t{0}\t{1}\t{2}\t{3}\t{4}\t{5}\t{6}","AC","District","Our Recommendation (Best Candidate)","Party","CurrentMLA","IsIncumbent", "Candidates We Considered In Our Survey", "AcNo");
                 foreach (var district in state.Districts)
                 {
                     foreach (var ac in district.ACs)
@@ -62,10 +62,11 @@ namespace CVoterLibrary
                         {
                             continue;
                         }
-                        writer.WriteLine("{0}\t{1}\t{2}\t{3}\t{4}\t{5}\t{6}", candidate.AC.Name, CultureInfo.CurrentCulture.TextInfo.ToTitleCase(district.Name.ToLower()),
+                        writer.WriteLine("{7}\t{0}\t{1}\t{2}\t{3}\t{4}\t{5}\t{6}", candidate.AC.Name, CultureInfo.CurrentCulture.TextInfo.ToTitleCase(district.Name.ToLower()),
                             CultureInfo.CurrentCulture.TextInfo.ToTitleCase(candidate.BestCandidate.Name.Split('(')[0].ToLower()), candidate.BestCandidate.PartyName,
                             candidate.CurrentMLA,candidate.IsCurrentBest,
-                            String.Join(",  ",candidate.CandidatesConsidered.Select(t=> String.Format("{0}({1})", CultureInfo.CurrentCulture.TextInfo.ToTitleCase(t.Name.Split('(')[0].ToLower()), t.PartyName))));
+                            String.Join(",  ",candidate.CandidatesConsidered.Select(t=> String.Format("{0}({1})", CultureInfo.CurrentCulture.TextInfo.ToTitleCase(t.Name.Split('(')[0].ToLower()), t.PartyName))),
+                            candidate.AC.No);
                     }
                 }
             }
@@ -81,7 +82,10 @@ namespace CVoterLibrary
             {
                 var result = results2010.First(t => t.Id == restOfId);
                 var bestCand = result.Votes.Where(t => validParties.Contains(t.Party.ToString())).ToArray();
-                if (!bestCand.Any()) { writer.WriteLine("Cannot find suitable Cand for {0}: {1}", result.Name, restOfId);  continue; }
+                if (!bestCand.Any()) { 
+                    //writer.WriteLine("Cannot find suitable Cand for {0}: {1}", result.Name, restOfId);  
+                    continue; 
+                }
                 var candSelect = new CandidateSelection
                 {
                    AC = new AssemblyConstituency { Name = result.Name, No = result.Id},
@@ -120,7 +124,6 @@ namespace CVoterLibrary
         public IEnumerable<CandidateRating> CandidatesConsidered { get; set; }
         public string CurrentMLA { get; set; }
         public string WinningParty { get; set; }
-
         public bool IsCurrentBest { get; set; }
     }
 }

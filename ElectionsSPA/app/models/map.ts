@@ -16,7 +16,6 @@ module Models {
                     let geojson = topojson.feature(data, layer);
                     parentThis._map.data.addGeoJson(geojson);
                 });
-                console.log("Loading completed");
             }
 		}
 

@@ -23,6 +23,12 @@ namespace GetBihar2010Results
             const string filename = @"I:\ArchishaData\ElectionData\Bihar\Website\Stability.tsv";
         }
 
+        private static void ExtractFeatures()
+        {
+
+        }
+
+
         private static void Startup()
         {
             #region Config

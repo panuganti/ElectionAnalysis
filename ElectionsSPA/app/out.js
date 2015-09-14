@@ -249,22 +249,22 @@ var Controllers;
             });
         };
         InfoCtrl.prototype.loadResultsForAC = function (d1, d2, d3, id) {
-            console.log('in load results');
-            var r2014 = d1;
-            var r2010 = d2;
-            var r2009 = d3;
-            var en2014 = Enumerable.From(r2014);
-            var en2010 = Enumerable.From(r2010);
-            var en2009 = Enumerable.From(r2009);
-            var results2014 = en2014.First(function (t) { return t.Id == id; });
-            var results2010 = en2010.First(function (t) { return t.Id == id; });
-            var results2009 = en2009.First(function (t) { return t.Id == id; });
-            var title = results2014.Name;
-            this.info = new Models.InfoData(title, results2009, results2010, results2014);
-            this.setInfoDivVisibility("inline");
-            if (this.scope.$$phase) {
-                this.scope.$apply();
-            }
+            var _this = this;
+            this.timeout(function () {
+                console.log('in load results');
+                var r2014 = d1;
+                var r2010 = d2;
+                var r2009 = d3;
+                var en2014 = Enumerable.From(r2014);
+                var en2010 = Enumerable.From(r2010);
+                var en2009 = Enumerable.From(r2009);
+                var results2014 = en2014.First(function (t) { return t.Id == id; });
+                var results2010 = en2010.First(function (t) { return t.Id == id; });
+                var results2009 = en2009.First(function (t) { return t.Id == id; });
+                var title = results2014.Name;
+                _this.info = new Models.InfoData(title, results2009, results2010, results2014);
+                _this.setInfoDivVisibility("inline");
+            }, 500);
         };
         InfoCtrl.prototype.setInfoDivVisibility = function (display) {
             this.infoDiv.style.display = display;
@@ -552,7 +552,6 @@ var Models;
                     var geojson = topojson.feature(data, layer);
                     parentThis._map.data.addGeoJson(geojson);
                 });
-                console.log("Loading completed");
             }
         };
         Map.prototype.setCenter = function (center) {

@@ -35,6 +35,7 @@ module Controllers {
 
 
                 loadResultsForAC(d1, d2, d3, id) {
+                    this.timeout(() => {
                         console.log('in load results');
                         let r2014: Models.Result[] = d1;
                         let r2010: Models.Result[] = d2;
@@ -48,10 +49,7 @@ module Controllers {
                         var title = results2014.Name;
                         this.info = new Models.InfoData(title, results2009, results2010, results2014);
                         this.setInfoDivVisibility("inline");
-                        if (this.scope.$$phase)
-                        {
-                            this.scope.$apply();
-                        }
+                    },500);    
                 }
 
                 setInfoDivVisibility(display: string) {
