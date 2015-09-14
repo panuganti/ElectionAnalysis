@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using CVoterContracts;
 using QualitativeData = CVoterContracts.QualitativeData;
+using System.Text;
 
 namespace BiharElectionsLibrary
 {
@@ -53,8 +54,9 @@ namespace BiharElectionsLibrary
             return stabilityData;
         }
 
-        public void Extract2010Features()
+        public List<FeatureVector> Extract2010Features()
         {
+            var extraction = new List<FeatureVector>();
             // acNo, candidate, result, <features>
             for (int i = 1; i <= 243; i++)
             {
@@ -70,13 +72,32 @@ namespace BiharElectionsLibrary
                     featureVector.party = candidate.PartyName;
                     featureVector.winnability = candidate.Ratings.First(t => t.Feature.ToLower().Equals("winability")).Score.ToString();
                     featureVector.availability = candidate.Ratings.First(t => t.Feature.ToLower().Equals("availability")).Score.ToString();
+                    extraction.Add(featureVector);
                 }
             }
+            return extraction;
         }
 
-        public void Extract2015Features()
+        public List<FeatureVector> Extract2015Features()
         {
-
+            var extraction = new List<FeatureVector>();
+            for (int i = 1; i <= 243; i++)
+            {
+                var result2014 = _results2014.First(t => t.Constituency.No == i);
+                var qualitativeData = _qualitative2015.AcQualitatives.First(t => t.No == i);
+                var candidateData = qualitativeData.CandidateRatings;
+                foreach (var candidate in candidateData)
+                {
+                    var featureVector = new FeatureVector();
+                    featureVector.acNo = i.ToString();
+                    featureVector.candidateName = candidate.Name;
+                    featureVector.party = candidate.PartyName;
+                    featureVector.winnability = candidate.Ratings.First(t => t.Feature.ToLower().Equals("winability")).Score.ToString();
+                    featureVector.availability = candidate.Ratings.First(t => t.Feature.ToLower().Equals("availability")).Score.ToString();
+                    extraction.Add(featureVector);
+                }
+            }
+            return extraction;
         }
     }
 
@@ -88,6 +109,16 @@ namespace BiharElectionsLibrary
         public string result { get; set; }
         public string winnability { get; set; }
         public string availability { get; set; }
+
+        public string ToString()
+        {
+            var sb = new StringBuilder();
+            foreach (var prop in this.GetType().GetProperties())
+            {
+                sb.Append(String.Format("\t{0}", prop.GetValue(this, null).ToString()));
+            }
+            return sb.ToString();
+        }
     }
 
     public class Stability

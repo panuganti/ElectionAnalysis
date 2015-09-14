@@ -216,6 +216,25 @@ namespace GetBihar2010Results
 
             #endregion Stability
 
+            #region Feature Extraction
+            var extractor = new Features(indiaVotesResults2009, indiaVotesResults2010, indiaVotesResults2014, qualitativeDataTuple);
+            var extraction2010 = extractor.Extract2010Features();
+            var extraction2015 = extractor.Extract2015Features();
+            var writer = new StreamWriter("");
+            foreach (var featureVector in extraction2010)
+            {
+                featureVector.ToString();
+            }
+            writer.Close();
+
+            var writer = new StreamWriter("");
+            foreach (var featureVector in extraction2015)
+            {
+                featureVector.ToString();
+            }
+            writer.Close();
+            #endregion Feature Extraction
+
             CustomExecution(stability);
             #endregion Load CVoter Data
 
