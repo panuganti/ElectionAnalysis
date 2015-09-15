@@ -61,8 +61,8 @@ namespace CVoterLibrary
                 return t.Attributes.Contains("value") && int.TryParse(t.Attributes["value"].Value, out n);
             }).ToArray();
 
-            return optionNodes.ToDictionary(x => String.Format("{0}_{1}", x.InnerText.Replace(" ", ""), x.Attributes["value"].Value),
-                y => int.Parse(y.Attributes["value"].Value));
+            return optionNodes.Select(x => new { Key = String.Format("{0}_{1}", x.InnerText.Replace(" ", ""), x.Attributes["value"].Value),
+                Value = int.Parse(x.Attributes["value"].Value)}).Distinct().ToDictionary(x=>x.Key, y=>y.Value);
         }
 
         public static void ParsePage(HtmlDocument doc, AcQualitative acData1, AcQualitative acData2)

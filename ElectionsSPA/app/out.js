@@ -449,6 +449,45 @@ var Models;
     })();
     Models.InfoData = InfoData;
 })(Models || (Models = {}));
+/// <reference path="../reference.ts" />
+var Models;
+(function (Models) {
+    var Neighbors = (function () {
+        function Neighbors() {
+            if (Neighbors._instance)
+                return;
+            Neighbors._instance = this;
+        }
+        Object.defineProperty(Neighbors, "Instance", {
+            get: function () {
+                if (!(this._instance)) {
+                    throw new Error("Neighbors data not yet instantiated.");
+                }
+                return this._instance;
+            },
+            enumerable: true,
+            configurable: true
+        });
+        Object.defineProperty(Neighbors, "NeighborsMap", {
+            get: function () {
+                return this._neighborsDict;
+            },
+            enumerable: true,
+            configurable: true
+        });
+        Neighbors.BuildNeighbors = function (data) {
+            this._instance = new Neighbors();
+            var lines = data.split('\n');
+            for (var index = 0; index < lines.length; index++) {
+                this._neighborsDict[index] = lines[index].split(',');
+            }
+            return this._instance;
+        };
+        Neighbors._neighborsDict = {};
+        return Neighbors;
+    })();
+    Models.Neighbors = Neighbors;
+})(Models || (Models = {}));
 var Party;
 (function (Party) {
     Party[Party["BJP"] = 0] = "BJP";
@@ -670,45 +709,6 @@ var Models;
     Models.Map = Map;
 })(Models || (Models = {}));
 /// <reference path="../reference.ts" />
-var Models;
-(function (Models) {
-    var Neighbors = (function () {
-        function Neighbors() {
-            if (Neighbors._instance)
-                return;
-            Neighbors._instance = this;
-        }
-        Object.defineProperty(Neighbors, "Instance", {
-            get: function () {
-                if (!(this._instance)) {
-                    throw new Error("Neighbors data not yet instantiated.");
-                }
-                return this._instance;
-            },
-            enumerable: true,
-            configurable: true
-        });
-        Object.defineProperty(Neighbors, "NeighborsMap", {
-            get: function () {
-                return this._neighborsDict;
-            },
-            enumerable: true,
-            configurable: true
-        });
-        Neighbors.BuildNeighbors = function (data) {
-            this._instance = new Neighbors();
-            var lines = data.split('\n');
-            for (var index = 0; index < lines.length; index++) {
-                this._neighborsDict[index] = lines[index].split(',');
-            }
-            return this._instance;
-        };
-        Neighbors._neighborsDict = {};
-        return Neighbors;
-    })();
-    Models.Neighbors = Neighbors;
-})(Models || (Models = {}));
-/// <reference path="../reference.ts" />
 var ColorService = (function () {
     function ColorService() {
         var _this = this;
@@ -790,12 +790,12 @@ angular.module('ElectionVisualization', ['controllers', 'services', 'directives'
 /// <reference path="directives/testme.ts" />
 /// <reference path="models/Alliance.ts" />
 /// <reference path="models/InfoData.ts" />
+/// <reference path="models/Neighbors.ts" />
 /// <reference path="models/Party.ts" />
 /// <reference path="models/Result.ts" />
 /// <reference path="models/ResultsHolder.ts" />
 /// <reference path="models/Stability.ts" />
 /// <reference path="models/map.ts" />
-/// <reference path="models/neighbors.ts" />
 /// <reference path="services/ColorService.ts" />
 /// <reference path="services/LogService.ts" />
 /// <reference path="vendor.d.ts" />

@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Configuration;
 using System.IO;
 using System.Linq;
@@ -99,7 +98,9 @@ namespace GetBihar2010Results
             var indiaVotesResults2014 = ResultsLoader.LoadResultsFromIndiaVotesData(indiaVotesResults2014Dir, 2014);
             var indiaVotesResults2009 = ResultsLoader.LoadResultsFromIndiaVotesData(indiaVotesResults2009Dir, 2009);
             var indiaVotesResults2010 = ResultsLoader.LoadACResultsFromIndiaVotesData(indiaVotesResults2010Dir, 2010);
-            var conflatedResults = ResultsConflator.ConflateResultsAndDistrictInfo(indiaVotesResults2010, state);
+            List<Result> conflatedResults2009 = ResultsConflator.ConflateResults(indiaVotesResults2009, state);
+            List<Result> conflatedResults2010 = ResultsConflator.ConflateResultsAndDistrictInfo(indiaVotesResults2010, state);
+            List<Result> conflatedResults2014 = ResultsConflator.ConflateResults(indiaVotesResults2014, state);
 
             /*
             List<ACResult> results2005;
@@ -204,33 +205,39 @@ namespace GetBihar2010Results
             var qualitativeDataTuple = DataLoader.LoadDataFromDir(cVoter2015QualitativeDir);
             var candidateSelector = new CandidateSelector(qualitativeDataTuple.Item2);
             var bestCandidates = candidateSelector.WinnableCandidates();
-            candidateSelector.FillUpRestOfCandidates(bestCandidates, conflatedResults);
-            candidateSelector.FillUpCurrentCandidate(bestCandidates, conflatedResults);
+            candidateSelector.FillUpRestOfCandidates(bestCandidates, conflatedResults2010);
+            candidateSelector.FillUpCurrentCandidate(bestCandidates, conflatedResults2010);
             //candidateSelector.PrintCandidateSelection(bestCandidates, state, filename);
 
             #endregion CandidateSelection
 
             #region Stability
-            var features = new Features(indiaVotesResults2009, indiaVotesResults2010, indiaVotesResults2014);
+            var features = new Features(conflatedResults2009, conflatedResults2010, conflatedResults2014, qualitativeDataTuple);
             var stability = features.StabilityFeatures();
 
             #endregion Stability
 
             #region Feature Extraction
-            var extractor = new Features(indiaVotesResults2009, indiaVotesResults2010, indiaVotesResults2014, qualitativeDataTuple);
+            var extractor = new Features(conflatedResults2009, conflatedResults2010, conflatedResults2014, qualitativeDataTuple);
             var extraction2010 = extractor.Extract2010Features();
             var extraction2015 = extractor.Extract2015Features();
-            var writer = new StreamWriter("");
+            var writer = new StreamWriter(@"I:\ArchishaData\ElectionData\Bihar\Predictions\Extraction2010.tsv");
+            var headers = extraction2010.First().GetHeaders();
+            writer.WriteLine(headers);
             foreach (var featureVector in extraction2010)
             {
-                featureVector.ToString();
+                var featureString = featureVector.ToString();
+                writer.WriteLine(featureString);
             }
             writer.Close();
 
-            var writer = new StreamWriter("");
+            writer = new StreamWriter(@"I:\ArchishaData\ElectionData\Bihar\Predictions\Extraction2015.tsv");
+            var headers2015 = extraction2015.First().GetHeaders();
+            writer.WriteLine(headers2015);
             foreach (var featureVector in extraction2015)
             {
-                featureVector.ToString();
+                var featureString = featureVector.ToString();
+                writer.WriteLine(featureString);
             }
             writer.Close();
             #endregion Feature Extraction

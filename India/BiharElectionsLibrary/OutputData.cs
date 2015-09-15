@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using System.Runtime.Serialization;
 
 namespace BiharElectionsLibrary
@@ -12,6 +13,16 @@ namespace BiharElectionsLibrary
         public string Name { get; set; }
         [DataMember]
         public List<CandidateVote> Votes { get; set; }
+
+        public string GetWinner()
+        {
+            return Votes.Aggregate((l, r) => l.Votes > r.Votes ? l : r).Name;
+        }
+
+        public PoliticalParty GetWinningParty()
+        {
+            return Votes.Aggregate((l, r) => l.Votes > r.Votes ? l : r).Party;
+        }
     }
 
     [DataContract]
