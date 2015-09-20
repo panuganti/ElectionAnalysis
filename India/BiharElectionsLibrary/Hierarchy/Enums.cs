@@ -29,8 +29,8 @@ namespace BiharElectionsLibrary
     [JsonConverter(typeof(StringEnumConverter))]
     public enum Gender
     {
-        M,
-        F,
+        M = 1,
+        F = 2,
         O,
         Error = 0
     }
