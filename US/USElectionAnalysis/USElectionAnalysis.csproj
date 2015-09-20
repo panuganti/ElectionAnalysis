@@ -33,8 +33,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Autofac, Version=3.5.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
-      <HintPath>..\packages\Autofac.3.5.2\lib\net40\Autofac.dll</HintPath>
+    <Reference Include="Autofac, Version=4.0.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Autofac.4.0.0-beta7-130\lib\net45\Autofac.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.Threading.Tasks, Version=1.0.12.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
@@ -49,8 +49,8 @@
       <HintPath>..\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.Extensions.Desktop.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -71,40 +71,40 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="Tweetinvi, Version=0.9.8.2, Culture=neutral, PublicKeyToken=7247f14397bf67b9, processorArchitecture=MSIL">
-      <HintPath>..\packages\TweetinviAPI.0.9.8.2\lib\Tweetinvi.dll</HintPath>
+    <Reference Include="Tweetinvi, Version=0.9.9.6, Culture=neutral, PublicKeyToken=7247f14397bf67b9, processorArchitecture=MSIL">
+      <HintPath>..\packages\TweetinviAPI.0.9.9.6\lib\net45\Tweetinvi.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Tweetinvi.Controllers, Version=0.9.8.2, Culture=neutral, PublicKeyToken=7247f14397bf67b9, processorArchitecture=MSIL">
-      <HintPath>..\packages\TweetinviAPI.0.9.8.2\lib\Tweetinvi.Controllers.dll</HintPath>
+    <Reference Include="Tweetinvi.Controllers, Version=0.9.9.6, Culture=neutral, PublicKeyToken=7247f14397bf67b9, processorArchitecture=MSIL">
+      <HintPath>..\packages\TweetinviAPI.0.9.9.6\lib\net45\Tweetinvi.Controllers.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Tweetinvi.Core, Version=0.9.8.2, Culture=neutral, PublicKeyToken=7247f14397bf67b9, processorArchitecture=MSIL">
-      <HintPath>..\packages\TweetinviAPI.0.9.8.2\lib\Tweetinvi.Core.dll</HintPath>
+    <Reference Include="Tweetinvi.Core, Version=0.9.9.6, Culture=neutral, PublicKeyToken=7247f14397bf67b9, processorArchitecture=MSIL">
+      <HintPath>..\packages\TweetinviAPI.0.9.9.6\lib\net45\Tweetinvi.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Tweetinvi.Credentials, Version=0.9.8.2, Culture=neutral, PublicKeyToken=7247f14397bf67b9, processorArchitecture=MSIL">
-      <HintPath>..\packages\TweetinviAPI.0.9.8.2\lib\Tweetinvi.Credentials.dll</HintPath>
+    <Reference Include="Tweetinvi.Credentials, Version=0.9.9.6, Culture=neutral, PublicKeyToken=7247f14397bf67b9, processorArchitecture=MSIL">
+      <HintPath>..\packages\TweetinviAPI.0.9.9.6\lib\net45\Tweetinvi.Credentials.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Tweetinvi.Factories, Version=0.9.8.2, Culture=neutral, PublicKeyToken=7247f14397bf67b9, processorArchitecture=MSIL">
-      <HintPath>..\packages\TweetinviAPI.0.9.8.2\lib\Tweetinvi.Factories.dll</HintPath>
+    <Reference Include="Tweetinvi.Factories, Version=0.9.9.6, Culture=neutral, PublicKeyToken=7247f14397bf67b9, processorArchitecture=MSIL">
+      <HintPath>..\packages\TweetinviAPI.0.9.9.6\lib\net45\Tweetinvi.Factories.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Tweetinvi.Logic, Version=0.9.8.2, Culture=neutral, PublicKeyToken=7247f14397bf67b9, processorArchitecture=MSIL">
-      <HintPath>..\packages\TweetinviAPI.0.9.8.2\lib\Tweetinvi.Logic.dll</HintPath>
+    <Reference Include="Tweetinvi.Logic, Version=0.9.9.6, Culture=neutral, PublicKeyToken=7247f14397bf67b9, processorArchitecture=MSIL">
+      <HintPath>..\packages\TweetinviAPI.0.9.9.6\lib\net45\Tweetinvi.Logic.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Tweetinvi.Security, Version=0.9.8.2, Culture=neutral, PublicKeyToken=7247f14397bf67b9, processorArchitecture=MSIL">
-      <HintPath>..\packages\TweetinviAPI.0.9.8.2\lib\Tweetinvi.Security.dll</HintPath>
+    <Reference Include="Tweetinvi.Security, Version=0.9.9.6, Culture=neutral, PublicKeyToken=7247f14397bf67b9, processorArchitecture=MSIL">
+      <HintPath>..\packages\TweetinviAPI.0.9.9.6\lib\net45\Tweetinvi.Security.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Tweetinvi.Streams, Version=0.9.8.2, Culture=neutral, PublicKeyToken=7247f14397bf67b9, processorArchitecture=MSIL">
-      <HintPath>..\packages\TweetinviAPI.0.9.8.2\lib\Tweetinvi.Streams.dll</HintPath>
+    <Reference Include="Tweetinvi.Streams, Version=0.9.9.6, Culture=neutral, PublicKeyToken=7247f14397bf67b9, processorArchitecture=MSIL">
+      <HintPath>..\packages\TweetinviAPI.0.9.9.6\lib\net45\Tweetinvi.Streams.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Tweetinvi.WebLogic, Version=0.9.8.2, Culture=neutral, PublicKeyToken=7247f14397bf67b9, processorArchitecture=MSIL">
-      <HintPath>..\packages\TweetinviAPI.0.9.8.2\lib\Tweetinvi.WebLogic.dll</HintPath>
+    <Reference Include="Tweetinvi.WebLogic, Version=0.9.9.6, Culture=neutral, PublicKeyToken=7247f14397bf67b9, processorArchitecture=MSIL">
+      <HintPath>..\packages\TweetinviAPI.0.9.9.6\lib\net45\Tweetinvi.WebLogic.dll</HintPath>
       <Private>True</Private>
     </Reference>
   </ItemGroup>

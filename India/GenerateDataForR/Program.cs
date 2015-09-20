@@ -207,7 +207,8 @@ namespace GetBihar2010Results
             var bestCandidates = candidateSelector.WinnableCandidates();
             candidateSelector.FillUpRestOfCandidates(bestCandidates, conflatedResults2010);
             candidateSelector.FillUpCurrentCandidate(bestCandidates, conflatedResults2010);
-            //candidateSelector.PrintCandidateSelection(bestCandidates, state, filename);
+            var filename = @"I:\ArchishaData\ElectionData\Bihar\CandidateSelection\CandidateSelection2015Ext4.tsv";
+            candidateSelector.PrintCandidateSelection(bestCandidates, state, filename);
 
             #endregion CandidateSelection
 
