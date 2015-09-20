@@ -30,7 +30,7 @@ namespace CVoterLibrary
                 var candidates =
                     acQualitative.CandidateRatings.Where(
                         t => interestedParties.Contains(t.PartyName.ToLower()) &&
-                            t.Ratings.Any(r => r.Feature.ToLower().Equals("winability"))).ToArray();
+                             t.Ratings.Any(r => r.Feature.ToLower().Equals("winability"))).ToArray();
                 if (candidates.Length == 0)
                 {
                     continue;
@@ -38,7 +38,12 @@ namespace CVoterLibrary
                 var bestCandidate =
                     candidates.OrderByDescending(
                         r => r.Ratings.First(t => t.Feature.ToLower().Equals("winability")).Score).First();
-                bestCandidates.Add(new CandidateSelection() {AC = new AssemblyConstituency(){Name = acQualitative.Name, No = acQualitative.No}, BestCandidate = bestCandidate, CandidatesConsidered = candidates});
+                bestCandidates.Add(new CandidateSelection
+                {
+                    AC = new AssemblyConstituency {Name = acQualitative.Name, No = acQualitative.No},
+                    BestCandidate = bestCandidate,
+                    CandidatesConsidered = candidates
+                });
             }
             return bestCandidates;
         }
@@ -52,7 +57,9 @@ namespace CVoterLibrary
             }
             using (var writer = new StreamWriter(filename))
             {
-                writer.WriteLine("{7}\t{0}\t{1}\t{2}\t{3}\t{4}\t{5}\t{6}","AC","District","Our Recommendation (Best Candidate)","Party","CurrentMLA","IsIncumbent", "Candidates We Considered In Our Survey", "AcNo");
+                writer.WriteLine("{7}\t{0}\t{1}\t{2}\t{3}\t{4}\t{5}\t{6}", "AC", "District",
+                    "Our Recommendation (Best Candidate)", "Party", "CurrentMLA", "IsIncumbent",
+                    "Candidates We Considered In Our Survey", "AcNo");
                 foreach (var district in state.Districts)
                 {
                     foreach (var ac in district.ACs)
@@ -62,11 +69,15 @@ namespace CVoterLibrary
                         {
                             continue;
                         }
-                        writer.WriteLine("{7}\t{0}\t{1}\t{2}\t{3}\t{4}\t{5}\t{6}", candidate.AC.Name, CultureInfo.CurrentCulture.TextInfo.ToTitleCase(district.Name.ToLower()),
-                            CultureInfo.CurrentCulture.TextInfo.ToTitleCase(candidate.BestCandidate.Name.Split('(')[0].ToLower()), candidate.BestCandidate.PartyName,
-                            candidate.CurrentMLA,candidate.IsCurrentBest,
-                            String.Join(",  ",candidate.CandidatesConsidered.Select(t=> String.Format("{0}({1})", CultureInfo.CurrentCulture.TextInfo.ToTitleCase(t.Name.Split('(')[0].ToLower()), t.PartyName))),
-                            candidate.AC.No);
+                        writer.WriteLine("{7}\t{0}\t{1}\t{2}\t{3}\t{4}\t{5}\t{6}", candidate.AC.Name,
+                            CultureInfo.CurrentCulture.TextInfo.ToTitleCase(district.Name.ToLower()),
+                            CultureInfo.CurrentCulture.TextInfo.ToTitleCase(
+                                candidate.BestCandidate.Name.Split('(')[0].ToLower()), candidate.BestCandidate.PartyName,
+                            candidate.CurrentMLA, candidate.IsCurrentBest,
+                            String.Join(",  ", candidate.CandidatesConsidered.Select(
+                                        t => String.Format("{0}({1})",
+                                            CultureInfo.CurrentCulture.TextInfo.ToTitleCase(
+                                                t.Name.Split('(')[0].ToLower()), t.PartyName))), candidate.AC.No);
                     }
                 }
             }
