@@ -17,6 +17,7 @@ US/Twitter/USElectionAnalysis/USElectionAnalysis/App.config
 #US/Twitter/USElectionAnalysis/GetTweetsOnATopic/Properties/
 #US/Twitter/USElectionAnalysis/USElectionAnalysis/Properties/
 US/Judging/node_modules/*
+US/Judging/.tscache/*
 
 # User-specific files
 *.suo
