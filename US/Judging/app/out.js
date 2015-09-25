@@ -2,7 +2,7 @@
 var Controllers;
 (function (Controllers) {
     var TweetJudgingCtrl = (function () {
-        function TweetJudgingCtrl($scope, $http, $q) {
+        function TweetJudgingCtrl($scope, $http, $q, $compile) {
             this.message = "hello";
             this.judge = "";
             this.gender = "";
@@ -12,8 +12,18 @@ var Controllers;
             this.scope = $scope;
             this.http = $http;
             this.q = $q;
+            this.compile = $compile;
+            this.loadinfodiv();
             this.initialize();
         }
+        TweetJudgingCtrl.prototype.loadinfodiv = function () {
+            var div = document.getElementById("judgerInfo");
+            return {
+                link: function (scope, element, attrs) {
+                    element.replaceWith(this.compile('Your Name: <input type="text" ng-model="vMain.judge"> {{vMain.judge}} <a href="" ng-click="vMain.submit()">Submit</a>')(scope));
+                }
+            };
+        };
         TweetJudgingCtrl.prototype.initialize = function () {
             var _this = this;
             var deferred = this.q.defer();

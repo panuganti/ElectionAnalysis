@@ -4,18 +4,32 @@ module Controllers {
     private http: ng.IHttpService;
     private scope: ng.IScope;
     private q: ng.IQService;
+    private compile: ng.ICompileService;
     message = "hello";
     judge = "";
     gender = "";
     judgement = "";
     tweetCategory = "";
 
-    constructor($scope, $http, $q) {
+    constructor($scope, $http, $q, $compile) {
       $scope.vMain = this;
       this.scope = $scope;
       this.http = $http;
       this.q = $q;
+      this.compile = $compile;
+      this.loadinfodiv();
       this.initialize();
+    }
+
+    loadinfodiv() {
+      let div = document.getElementById("judgerInfo");
+        return {
+    link: function(scope, element, attrs) {
+              element.replaceWith(this.compile
+              ('Your Name: <input type="text" ng-model="vMain.judge"> {{vMain.judge}} <a href="" ng-click="vMain.submit()">Submit</a>')
+              (scope));
+    }
+    }
     }
 
     initialize() {
@@ -28,7 +42,7 @@ module Controllers {
       let html: string = data;
       let div = document.getElementById("twitterPage");
       div.innerHTML = html;
-      //this.scope.$apply();
+      
     }
 
     addElementsToProfileCard()

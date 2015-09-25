@@ -566,12 +566,10 @@ s,
   <style type="text/css"></style><script type="text/javascript" src="chrome-extension://bfbmjmiodbnnpllbbbfblcplfjjepjdn/js/injected.js"></script><style type="text/css" id="hidden-dms"></style>
   
 <!--  -->
-
-
 </head>
-<body  id="body" ng-app="TweetJudging" ng-controller="TweetJudgingCtrl">
-	<div id="judgerInfo"> Your Name: <input type="text" ng-model="vMain.judge">
-  <a href="" ng-click="vMain.submit()">Submit</a>
+<body  id="body" ng-app="TweetJudging" ng-controller="TweetJudgingCtrl" onload="onload()">
+	<div id="judgerInfo">
+    'Your Name: <input type="text" ng-model="vMain.judge"> {{vMain.judge}} <a href="" ng-click="vMain.submit()">Submit</a> 
    </div>
 	<div id="twitterPage" style="width:60%; margin:5%">
   </div>
