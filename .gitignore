@@ -16,7 +16,7 @@ US/Twitter/USElectionAnalysis/USElectionAnalysis/packages.config
 US/Twitter/USElectionAnalysis/USElectionAnalysis/App.config
 #US/Twitter/USElectionAnalysis/GetTweetsOnATopic/Properties/
 #US/Twitter/USElectionAnalysis/USElectionAnalysis/Properties/
-
+US\Judging\node_modules
 
 # User-specific files
 *.suo
