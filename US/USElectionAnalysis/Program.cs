@@ -30,8 +30,8 @@ namespace USElectionAnalysis
             string[] candidates = File.ReadAllLines(republicanCandidates);
             var handles = new List<string>();
             var writer = new StreamWriter(output,append:true);
-            int startCount = 10;
-            int endcount = 12;
+            const int startCount = 6;
+            const int endcount = 10;
             int count = 0;
             foreach (var candidate in candidates)
             {
@@ -58,27 +58,28 @@ namespace USElectionAnalysis
             WebRequest request = WebRequest.Create(String.Format("https://www.twitter.com/{0}", screenName));
             WebResponse response = request.GetResponse();
             Stream dataStream = response.GetResponseStream();
-            var htmlDoc = new HtmlDocument {OptionFixNestedTags = true};
+            var writer = new StreamWriter(Path.Combine(outputDir, String.Format("./{0}.html", screenName)));
+            var htmlDoc = new HtmlDocument { OptionFixNestedTags = true };
             htmlDoc.Load(dataStream);
+            /*
             var timelineNode = htmlDoc.GetElementbyId("timeline");
             var miniProfileCard =
                 htmlDoc.DocumentNode.Descendants("div")
                     .First(t => t.Attributes.Contains("class") && t.Attributes["class"].Value == "ProfileCardMini");
-            var writer = new StreamWriter(Path.Combine(outputDir, String.Format("./{0}.html", screenName)));
             writer.WriteLine(timelineNode.OuterHtml);
             writer.WriteLine(miniProfileCard.OuterHtml);
+             */
+            writer.WriteLine(htmlDoc.DocumentNode.OuterHtml);
             response.Close();
             writer.Close();
         }
 
         public static void ModifyProfileDiv(HtmlNode node)
         {
-            
         }
 
         public static void ModifyTimeline(HtmlNode node)
-        {
-            
+        {            
         }
 
         public static void GetHandlesTweetingAboutQuery(string candidate, TwitterCommunicator twitter)
