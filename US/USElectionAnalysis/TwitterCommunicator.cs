@@ -43,7 +43,7 @@ namespace USElectionAnalysis
                 while (count < maxResults)
                 {
                     var searchParams = Search.CreateTweetSearchParameter(query);
-                    searchParams.MaximumNumberOfResults = 1000;
+                    searchParams.MaximumNumberOfResults = maxResults;
                     searchParams.MaxId = maxId;
                     var tweets = Search.SearchTweets(searchParams).ToArray();
                     if (!tweets.Any())
@@ -59,8 +59,8 @@ namespace USElectionAnalysis
             }
             catch (Exception)
             {
-                Console.WriteLine("Exception hit.. waiting for 15 mins..");
-                Task.WaitAll(Task.Delay(new TimeSpan(0,0,15,0)));
+                Console.WriteLine("Exception hit.. waiting for 2 mins..");
+                Task.WaitAll(Task.Delay(new TimeSpan(0,0,2,0)));
                 return SearchForTweets(query, maxResults);
             }
         }

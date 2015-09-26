@@ -24,13 +24,13 @@ namespace USElectionAnalysis
 
         public static void GetRepublicanHandles(TwitterCommunicator twitter)
         {
-            const string republicanCandidates = @"I:\ArchishaData\ElectionData\US\RepublicanCandidates.txt";
-            const string output = @"I:\ArchishaData\ElectionData\US\RepublicanHandles.txt";
-            const string outputDirPath = @"E:\NMW\GitHub\ElectionAnalysis\US\Judging\Profiles\";
+            const string republicanCandidates = @"D:\ArchishaData\ElectionData\US\DemocraticCandidates.txt";
+            const string output = @"D:\ArchishaData\ElectionData\US\DemocraticHandles.txt";
+            const string outputDirPath = @"D:\ArchishaData\ElectionData\US\DemocraticProfiles\";
             string[] candidates = File.ReadAllLines(republicanCandidates);
             var handles = new List<string>();
             var writer = new StreamWriter(output,append:true);
-            const int startCount = 6;
+            const int startCount = 9;
             const int endcount = 10;
             int count = 0;
             foreach (var candidate in candidates)

@@ -15,6 +15,7 @@ module Controllers {
     
     // Responses
     judge = "";
+    profile = "";
     tweetInclination = [];
     genderSelected = "";
     partySelected = "";  
@@ -60,6 +61,10 @@ module Controllers {
       
     skipAndLoadNext(data: any) {
         let lastScreenNameForJudge = data;
+        if (lastScreenNameForJudge == "none") {
+          this.loadNext(this.allHandles[0]);
+          return;
+        }
         let lastScreenNameMatched = false;
         for (var handle in this.allHandles)
         {
@@ -75,6 +80,7 @@ module Controllers {
       let deferred = this.q.defer();
       var pPage = this.http.get("./" + screenName + ".html").success((data) => deferred.resolve(data));
       pPage.then((response) => this.divLoader(response.data));
+      this.profile = screenName;
     }
 
     divLoader(data) {
@@ -86,7 +92,7 @@ module Controllers {
       divElement.append(input);
         
       // reset the values for this div
-      this.resetJudgements();  
+      this.resetJudgements();
     }
     
     resetJudgements()
@@ -114,16 +120,16 @@ module Controllers {
         this.gender = this.genderSelected;
         this.judgement = this.partySelected;
         this.tweetInclination.forEach(element => this.tweetCategory = this.tweetCategory + element);
-        this.submitJudgement(this.judge, this.gender, this.judgement, this.tweetCategory);
+        this.submitJudgement(this.judge, this.profile, this.gender, this.judgement, this.tweetCategory);
         
         if (this.judge.length > 2) {
             this.showInput = false;
         }    
     }
 
-    submitJudgement(judge: string, gender: string, judgement: string, tweetCategory: string) {
-      this.http.get("https://script.google.com/macros/s/AKfycbz2ZMnHuSR4GmTjsuIo6cmh433RRpPRH7TwMaJhbAUr/dev?judge=" + judge 
-      + "&gender=" + gender + "&judgement=" + judgement + "&tweetCategory=" + tweetCategory)
+    submitJudgement(judge: string, profile: string, gender: string, judgement: string, tweetCategory: string) {
+      this.http.get("https://script.google.com/macros/s/AKfycbz2ZMnHuSR4GmTjsuIo6cmh433RRpPRH7TwMaJhbAUr/dev?getJudgements=false&judge=" + judge 
+      + "&profile=" + profile + "&gender=" + gender + "&judgement=" + judgement + "&tweetCategory=" + tweetCategory)
       .then(() => this.displaySuccess());
     }
 
@@ -133,27 +139,3 @@ module Controllers {
     }      
   }
 }
-
-/* I've created this directive as an example of $compile in action. 
-app.directive('addInput', ['$compile', function ($compile) { // inject $compile service as dependency
-    return {
-        restrict: 'A',
-        link: function (scope, element, attrs) {
-            // click on the button to add new input field
-            element.find('button').bind('click', function () {
-                // I'm using Angular syntax. Using jQuery will have the same effect
-                // Create input element
-                var input = angular.element('<div><input type="text" ng-model="telephone[' + scope.inputCounter + ']"></div>');
-                // Compile the HTML and assign to scope
-                var compile = $compile(input)(scope);
-
-                // Append input to div
-               element.append(input);
-
-                // Increment the counter for the next input to be added
-                scope.inputCounter++;
-            });
-        }
-    }
-}]);
-*/

@@ -11,6 +11,7 @@ var Controllers;
             this.allHandles = [];
             this.allHandlesText = "";
             this.judge = "";
+            this.profile = "";
             this.tweetInclination = [];
             this.genderSelected = "";
             this.partySelected = "";
@@ -49,6 +50,10 @@ var Controllers;
         };
         TweetJudgingCtrl.prototype.skipAndLoadNext = function (data) {
             var lastScreenNameForJudge = data;
+            if (lastScreenNameForJudge == "none") {
+                this.loadNext(this.allHandles[0]);
+                return;
+            }
             var lastScreenNameMatched = false;
             for (var handle in this.allHandles) {
                 if (lastScreenNameMatched == true) {
@@ -65,6 +70,7 @@ var Controllers;
             var deferred = this.q.defer();
             var pPage = this.http.get("./" + screenName + ".html").success(function (data) { return deferred.resolve(data); });
             pPage.then(function (response) { return _this.divLoader(response.data); });
+            this.profile = screenName;
         };
         TweetJudgingCtrl.prototype.divLoader = function (data) {
             var html = data;
@@ -94,15 +100,15 @@ var Controllers;
             this.gender = this.genderSelected;
             this.judgement = this.partySelected;
             this.tweetInclination.forEach(function (element) { return _this.tweetCategory = _this.tweetCategory + element; });
-            this.submitJudgement(this.judge, this.gender, this.judgement, this.tweetCategory);
+            this.submitJudgement(this.judge, this.profile, this.gender, this.judgement, this.tweetCategory);
             if (this.judge.length > 2) {
                 this.showInput = false;
             }
         };
-        TweetJudgingCtrl.prototype.submitJudgement = function (judge, gender, judgement, tweetCategory) {
+        TweetJudgingCtrl.prototype.submitJudgement = function (judge, profile, gender, judgement, tweetCategory) {
             var _this = this;
-            this.http.get("https://script.google.com/macros/s/AKfycbz2ZMnHuSR4GmTjsuIo6cmh433RRpPRH7TwMaJhbAUr/dev?judge=" + judge
-                + "&gender=" + gender + "&judgement=" + judgement + "&tweetCategory=" + tweetCategory)
+            this.http.get("https://script.google.com/macros/s/AKfycbz2ZMnHuSR4GmTjsuIo6cmh433RRpPRH7TwMaJhbAUr/dev?getJudgements=false&judge=" + judge
+                + "&profile=" + profile + "&gender=" + gender + "&judgement=" + judgement + "&tweetCategory=" + tweetCategory)
                 .then(function () { return _this.displaySuccess(); });
         };
         TweetJudgingCtrl.prototype.displaySuccess = function () {
