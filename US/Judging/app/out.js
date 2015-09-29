@@ -10,6 +10,9 @@ var Controllers;
             this.showInput = true;
             this.allHandles = [];
             this.allHandlesText = "";
+            this.parties = ["NotRelevant", "ProDemocratic", "ProRepublican", "AntiDemocratic", "AntiRepublican", "Spam"];
+            this.NotRelevant = "NotRelevant";
+            this.genders = ["Male", "Female", "FakePic", "GenericPic"];
             this.judge = "";
             this.profile = "";
             this.tweetInclination = [];
@@ -26,7 +29,7 @@ var Controllers;
         }
         TweetJudgingCtrl.prototype.loadinfodiv = function () {
             var div = document.getElementById("judgerInfo");
-            var input = angular.element('<div> Your Name: <input type="text" ng-model="vMain.judge" ng-show="vMain.showInput"> <span ng-show="!vMain.showInput"> {{vMain.judge}} </span>  <a href="" ng-click="vMain.submit()">Submit</a> <span> {{vMain.successMesg}}</span> </div>');
+            var input = angular.element('<div> Your Name: <input type="text" ng-model="vMain.judge" ng-show="vMain.showInput"> <span ng-show="!vMain.showInput"> {{vMain.judge}} </span>  <a href="" ng-click="vMain.submit()" ng-show="vMain.showInput">Submit</a> <a href="" ng-click="vMain.recordJudgement()" ng-show="!vMain.showInput">RecordJudgement</a>  <span ng-show="!vMain.showInput"> {{vMain.successMesg}}</span> </div>');
             var compileFn = this.compile(input);
             compileFn(this.scope);
             var divElement = angular.element(div);
@@ -41,7 +44,6 @@ var Controllers;
         TweetJudgingCtrl.prototype.loadAllHandles = function (data) {
             var allText = data;
             this.allHandles = allText.match(/[^\r\n]+/g);
-            this.loadNext(this.allHandles[0]);
         };
         TweetJudgingCtrl.prototype.checkAndLoadNext = function () {
             var _this = this;
@@ -55,7 +57,8 @@ var Controllers;
                 return;
             }
             var lastScreenNameMatched = false;
-            for (var handle in this.allHandles) {
+            for (var _i = 0, _a = this.allHandles; _i < _a.length; _i++) {
+                var handle = _a[_i];
                 if (lastScreenNameMatched == true) {
                     this.loadNext(handle);
                     break;
@@ -68,23 +71,22 @@ var Controllers;
         TweetJudgingCtrl.prototype.loadNext = function (screenName) {
             var _this = this;
             var deferred = this.q.defer();
-            var pPage = this.http.get("./" + screenName + ".html").success(function (data) { return deferred.resolve(data); });
+            var pPage = this.http.get("./profiles/" + screenName + ".html").success(function (data) { return deferred.resolve(data); });
             pPage.then(function (response) { return _this.divLoader(response.data); });
             this.profile = screenName;
         };
         TweetJudgingCtrl.prototype.divLoader = function (data) {
             var html = data;
             var div = document.getElementById("twitterPage");
-            var input = angular.element(data);
-            this.compile(input)(this.scope);
-            var divElement = angular.element(div);
-            divElement.append(input);
+            div.innerHTML = html;
+            this.compile(div)(this.scope);
             this.resetJudgements();
         };
         TweetJudgingCtrl.prototype.resetJudgements = function () {
             this.tweetCategory = "";
             this.gender = "";
             this.judgement = "";
+            this.tweetInclination = [];
         };
         TweetJudgingCtrl.prototype.addElementsToProfileCard = function () {
             var profileDiv = document.getElementsByClassName("ProfileCardMini");
@@ -96,23 +98,32 @@ var Controllers;
             });
         };
         TweetJudgingCtrl.prototype.submit = function () {
-            var _this = this;
-            this.gender = this.genderSelected;
-            this.judgement = this.partySelected;
-            this.tweetInclination.forEach(function (element) { return _this.tweetCategory = _this.tweetCategory + element; });
-            this.submitJudgement(this.judge, this.profile, this.gender, this.judgement, this.tweetCategory);
             if (this.judge.length > 2) {
                 this.showInput = false;
             }
+            this.checkAndLoadNext();
+        };
+        TweetJudgingCtrl.prototype.recordJudgement = function () {
+            this.gender = this.genderSelected;
+            this.judgement = this.partySelected;
+            for (var i = 0; i < this.tweetInclination.length; i++) {
+                if (this.tweetInclination[i] == null) {
+                    this.tweetInclination[i] = "NotJudged";
+                }
+                this.tweetCategory = this.tweetCategory + ";" + this.tweetInclination[i];
+            }
+            this.submitJudgement(this.judge, this.profile, this.gender, this.judgement, this.tweetCategory);
         };
         TweetJudgingCtrl.prototype.submitJudgement = function (judge, profile, gender, judgement, tweetCategory) {
             var _this = this;
-            this.http.get("https://script.google.com/macros/s/AKfycbz2ZMnHuSR4GmTjsuIo6cmh433RRpPRH7TwMaJhbAUr/dev?getJudgements=false&judge=" + judge
-                + "&profile=" + profile + "&gender=" + gender + "&judgement=" + judgement + "&tweetCategory=" + tweetCategory)
-                .then(function () { return _this.displaySuccess(); });
+            var deferred = this.q.defer();
+            var submitJudgement = this.http.get("https://script.google.com/macros/s/AKfycbz2ZMnHuSR4GmTjsuIo6cmh433RRpPRH7TwMaJhbAUr/dev?getJudgements=false&judge=" + judge
+                + "&profile=" + profile + "&gender=" + gender + "&judgement=" + judgement + "&tweetCategory=" + tweetCategory).success(function (data) { return deferred.resolve(data); });
+            submitJudgement.then(function (response) { return _this.displaySuccess(response.data); });
+            this.skipAndLoadNext(this.profile);
         };
-        TweetJudgingCtrl.prototype.displaySuccess = function () {
-            this.successMesg = "Successfully Submitted. Next profile loaded";
+        TweetJudgingCtrl.prototype.displaySuccess = function (data) {
+            this.successMesg = "Success...";
         };
         return TweetJudgingCtrl;
     })();

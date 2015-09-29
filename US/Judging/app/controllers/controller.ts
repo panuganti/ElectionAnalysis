@@ -13,6 +13,10 @@ module Controllers {
     allHandles = [];
     allHandlesText: string = "";  
     
+    parties = ["NotRelevant", "ProDemocratic", "ProRepublican", "AntiDemocratic", "AntiRepublican", "Spam"];
+    NotRelevant = "NotRelevant";
+    genders = ["Male", "Female", "FakePic", "GenericPic"];  
+      
     // Responses
     judge = "";
     profile = "";
@@ -34,7 +38,7 @@ module Controllers {
 
     loadinfodiv() {
         let div = document.getElementById("judgerInfo");
-        var input = angular.element('<div> Your Name: <input type="text" ng-model="vMain.judge" ng-show="vMain.showInput"> <span ng-show="!vMain.showInput"> {{vMain.judge}} </span>  <a href="" ng-click="vMain.submit()">Submit</a> <span> {{vMain.successMesg}}</span> </div>');
+        var input = angular.element('<div> Your Name: <input type="text" ng-model="vMain.judge" ng-show="vMain.showInput"> <span ng-show="!vMain.showInput"> {{vMain.judge}} </span>  <a href="" ng-click="vMain.submit()" ng-show="vMain.showInput">Submit</a> <a href="" ng-click="vMain.recordJudgement()" ng-show="!vMain.showInput">RecordJudgement</a>  <span ng-show="!vMain.showInput"> {{vMain.successMesg}}</span> </div>');
         var compileFn = this.compile(input);
         compileFn(this.scope);
         var divElement = angular.element(div);
@@ -51,7 +55,7 @@ module Controllers {
         var allText: string = data;
         this.allHandles = allText.match(/[^\r\n]+/g);
         // TODO: Check until what point judge has judged
-        this.loadNext(this.allHandles[0]);
+        //this.loadNext(this.allHandles[0]);
      }
     
     checkAndLoadNext() {
@@ -66,7 +70,7 @@ module Controllers {
           return;
         }
         let lastScreenNameMatched = false;
-        for (var handle in this.allHandles)
+        for (let handle of this.allHandles)
         {
             if (lastScreenNameMatched == true) {
                 this.loadNext(handle);
@@ -78,7 +82,7 @@ module Controllers {
       
     loadNext(screenName: string) {
       let deferred = this.q.defer();
-      var pPage = this.http.get("./" + screenName + ".html").success((data) => deferred.resolve(data));
+      var pPage = this.http.get("./profiles/" + screenName + ".html").success((data) => deferred.resolve(data));
       pPage.then((response) => this.divLoader(response.data));
       this.profile = screenName;
     }
@@ -86,10 +90,12 @@ module Controllers {
     divLoader(data) {
       let html: string = data;
       let div = document.getElementById("twitterPage");
-      var input = angular.element(data);
-      this.compile(input)(this.scope);
-      var divElement = angular.element(div);
-      divElement.append(input);
+      div.innerHTML = html;  
+      //var input = angular.element(data);
+      this.compile(div)(this.scope);
+      //var divElement = angular.element(div);        
+      //divElement.add(input);  
+      //divElement.append(input);
         
       // reset the values for this div
       this.resetJudgements();
@@ -100,6 +106,7 @@ module Controllers {
         this.tweetCategory = "";
         this.gender = "";
         this.judgement = "";
+        this.tweetInclination = [];
     }  
 
     addElementsToProfileCard()
@@ -117,25 +124,35 @@ module Controllers {
     }
     
     submit() {
-        this.gender = this.genderSelected;
-        this.judgement = this.partySelected;
-        this.tweetInclination.forEach(element => this.tweetCategory = this.tweetCategory + element);
-        this.submitJudgement(this.judge, this.profile, this.gender, this.judgement, this.tweetCategory);
-        
         if (this.judge.length > 2) {
             this.showInput = false;
+        }   
+        this.checkAndLoadNext();
+    }
+      
+    recordJudgement() {
+        this.gender = this.genderSelected;
+        this.judgement = this.partySelected;
+        for (var i = 0; i < this.tweetInclination.length; i++)
+        {
+            if (this.tweetInclination[i] == null)
+            { this.tweetInclination[i] = "NotJudged";}    
+            this.tweetCategory = this.tweetCategory + ";" + this.tweetInclination[i];            
         }    
+        this.submitJudgement(this.judge, this.profile, this.gender, this.judgement, this.tweetCategory);        
     }
 
     submitJudgement(judge: string, profile: string, gender: string, judgement: string, tweetCategory: string) {
-      this.http.get("https://script.google.com/macros/s/AKfycbz2ZMnHuSR4GmTjsuIo6cmh433RRpPRH7TwMaJhbAUr/dev?getJudgements=false&judge=" + judge 
-      + "&profile=" + profile + "&gender=" + gender + "&judgement=" + judgement + "&tweetCategory=" + tweetCategory)
-      .then(() => this.displaySuccess());
-    }
-
-    displaySuccess()
-    { 
-        this.successMesg = "Successfully Submitted. Next profile loaded";
-    }      
+      let deferred = this.q.defer();
+        var submitJudgement = this.http.get("https://script.google.com/macros/s/AKfycbz2ZMnHuSR4GmTjsuIo6cmh433RRpPRH7TwMaJhbAUr/dev?getJudgements=false&judge=" + judge
+            + "&profile=" + profile + "&gender=" + gender + "&judgement=" + judgement + "&tweetCategory=" + tweetCategory).success((data) => deferred.resolve(data));
+          submitJudgement.then((response) => this.displaySuccess(response.data));
+         this.skipAndLoadNext(this.profile);      
+  }
+    
+    displaySuccess(data)
+    {
+        this.successMesg = "Success...";
+    }  
   }
 }
