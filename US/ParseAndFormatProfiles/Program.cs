@@ -47,11 +47,7 @@ namespace ParseAndFormatProfiles
                     writer.Close();
                     profilesWriter.WriteLine(screenName);
                     count++; 
-                    if (count > 25)
-                    {
-                        profilesWriter.Close();
-                        return;
-                    }
+                    Console.WriteLine("count: {0}:", count);
                 }
                 catch (Exception)
                 {

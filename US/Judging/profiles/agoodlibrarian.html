@@ -1,4 +1,4 @@
-<div class="ProfileCanopy-navBar">
+<div class="ProfileCanopy-navBar">Overall Judgement: <select name="party" ng-model="vMain.partySelected" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{{party}}</select><br>Gender: <select name="gender" ng-model="vMain.genderSelected" ng-selected="vMain.NotRelevant" ng-options="gender for gender in vMain.genders">{{party}}</select>
       
       <div class="AppContainer">
         <div class="Grid Grid--withGutter">
@@ -110,6 +110,43 @@
         </div>
       </div>
     </div>
+<div class="ProfileHeaderCard">
+  <h1 class="ProfileHeaderCard-name">
+    <a href="/agoodlibrarian" class="ProfileHeaderCard-nameLink u-textInheritColor js-nav
+">Melissa Torres</a>
+  </h1>
+
+  <h2 class="ProfileHeaderCard-screenname u-inlineBlock u-dir" dir="ltr">
+    <a class="ProfileHeaderCard-screennameLink u-linkComplex js-nav" href="/agoodlibrarian">@<span class="u-linkComplex-target">agoodlibrarian</span></a>
+  </h2>
+
+    <p class="ProfileHeaderCard-bio u-dir" dir="ltr">Archives. Libraries. Organization. Metadata. Coffee. Twinkly stars. Knock-knock jokes. Plaid on plaid.</p>
+
+      <div class="ProfileHeaderCard-location">
+        <span class="Icon Icon--geo Icon--medium"></span>
+        <span class="ProfileHeaderCard-locationText u-dir" dir="ltr">
+            Houston, Texas
+        </span>
+      </div>
+
+      <div class="ProfileHeaderCard-url  u-hidden">
+        <span class="Icon Icon--url Icon--medium"></span>
+        <span class="ProfileHeaderCard-urlText u-dir" dir="ltr">
+</span>
+      </div>
+
+      <div class="ProfileHeaderCard-joinDate">
+        <span class="Icon Icon--clock Icon--small"></span>
+        <span class="ProfileHeaderCard-joinDateText js-tooltip u-dir" dir="ltr" title="7:39 AM - 20 Nov 2012">Joined November 2012</span>
+      </div>
+
+    <div class="ProfileHeaderCard-birthdate u-hidden">
+      <span class="Icon Icon--balloon Icon--medium"></span>
+      <span class="ProfileHeaderCard-birthdateText u-dir" dir="ltr">
+</span>
+    </div>
+
+</div>
 <div id="timeline">
         <div class="stream-container  " data-max-position="647441696377049089" data-min-position="646353471831044100">
 
@@ -120,7 +157,7 @@
         <ol class="stream-items js-navigable-stream" id="stream-items-id">
           
       <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="647441696377049089" id="stream-item-tweet-647441696377049089" data-item-type="tweet">
+" data-item-id="647441696377049089" id="stream-item-tweet-647441696377049089" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[0]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
       
 
 
@@ -360,7 +397,7 @@
 </li>
 
       <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="647421068659920897" id="stream-item-tweet-647421068659920897" data-item-type="tweet">
+" data-item-id="647421068659920897" id="stream-item-tweet-647421068659920897" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[1]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
       
 
 
@@ -561,7 +598,7 @@
 </li>
 
       <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="647403903588401152" id="stream-item-tweet-647403903588401152" data-item-type="tweet">
+" data-item-id="647403903588401152" id="stream-item-tweet-647403903588401152" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[2]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
       
 
 
@@ -812,7 +849,7 @@
 </li>
 
       <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="647403652496289797" id="stream-item-tweet-647403652496289797" data-item-type="tweet">
+" data-item-id="647403652496289797" id="stream-item-tweet-647403652496289797" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[3]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
       
 
 
@@ -1013,7 +1050,7 @@
 </li>
 
       <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="647403518446301184" id="stream-item-tweet-647403518446301184" data-item-type="tweet">
+" data-item-id="647403518446301184" id="stream-item-tweet-647403518446301184" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[4]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
       
 
 
@@ -1214,7 +1251,7 @@
 </li>
 
       <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="647167332482060288" id="stream-item-tweet-647167332482060288" data-item-type="tweet">
+" data-item-id="647167332482060288" id="stream-item-tweet-647167332482060288" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[5]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
       
 
 
@@ -1454,7 +1491,7 @@
 </li>
 
       <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="647128487027826688" id="stream-item-tweet-647128487027826688" data-item-type="tweet">
+" data-item-id="647128487027826688" id="stream-item-tweet-647128487027826688" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[6]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
       
 
 
@@ -1665,7 +1702,7 @@
 </li>
 
       <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="647101550951731200" id="stream-item-tweet-647101550951731200" data-item-type="tweet">
+" data-item-id="647101550951731200" id="stream-item-tweet-647101550951731200" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[7]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
       
 
 
@@ -1866,7 +1903,7 @@
 </li>
 
       <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="647085839231483904" id="stream-item-tweet-647085839231483904" data-item-type="tweet">
+" data-item-id="647085839231483904" id="stream-item-tweet-647085839231483904" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[8]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
       
 
 
@@ -2067,7 +2104,7 @@
 </li>
 
       <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="647056698792775680" id="stream-item-tweet-647056698792775680" data-item-type="tweet">
+" data-item-id="647056698792775680" id="stream-item-tweet-647056698792775680" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[9]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
       
 
 
@@ -2268,7 +2305,7 @@
 </li>
 
       <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="647023904209309697" id="stream-item-tweet-647023904209309697" data-item-type="tweet">
+" data-item-id="647023904209309697" id="stream-item-tweet-647023904209309697" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[10]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
       
 
 
@@ -2469,7 +2506,7 @@
 </li>
 
       <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="647023832998350848" id="stream-item-tweet-647023832998350848" data-item-type="tweet">
+" data-item-id="647023832998350848" id="stream-item-tweet-647023832998350848" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[11]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
       
 
 
@@ -2670,7 +2707,7 @@
 </li>
 
       <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="646786081774395393" id="stream-item-tweet-646786081774395393" data-item-type="tweet">
+" data-item-id="646786081774395393" id="stream-item-tweet-646786081774395393" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[12]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
       
 
 
@@ -2737,20 +2774,14 @@ media-forward
                 <div class="cards-media-container js-media-container"><div data-card-url="//twitter.com/agoodlibrarian/status/646786081774395393/photo/1" data-card-type="photo" class="cards-base cards-multimedia" data-element-context="platform_photo_card">
 
   <a class="media media-thumbnail twitter-timeline-link media-forward is-preview " data-url="https://pbs.twimg.com/media/CPnYg1ZU8AE_ftd.jpg:large" data-resolved-url-large="https://pbs.twimg.com/media/CPnYg1ZU8AE_ftd.jpg:large" href="//twitter.com/agoodlibrarian/status/646786081774395393/photo/1">
-    <div class=" is-preview">
-        <div class="js-media-img-placeholder" data-img-src="https://pbs.twimg.com/media/CPnYg1ZU8AE_ftd.jpg" data-img-offset="-320.0px" data-img-alt="Embedded image permalink" data-width="100%" style="min-height:1810px">
-        </div>
-    </div>
-  </a>
-
-  <div class="cards-content">
+    <div class=" is-preview"><img src="https://pbs.twimg.com/media/cpnyg1zu8ae> src=" "="">
     <div class="byline">
       
     </div>
     
   </div>
   
-</div>
+</a></div>
 
 
 
@@ -2919,7 +2950,7 @@ media-forward
 </li>
 
       <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="646736279992958979" id="stream-item-tweet-646736279992958979" data-item-type="tweet">
+" data-item-id="646736279992958979" id="stream-item-tweet-646736279992958979" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[13]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
       
 
 
@@ -3004,10 +3035,7 @@ media-forward
                 <div class="cards-media-container js-media-container"><div data-card-url="//twitter.com/widestance/status/646736279992958979/photo/1" data-card-type="photo" class="cards-base cards-multimedia" data-element-context="platform_photo_card">
 
   <a class="media media-thumbnail twitter-timeline-link media-forward is-preview " data-url="https://pbs.twimg.com/media/CPmrNzkWEAAkoc3.jpg:large" data-resolved-url-large="https://pbs.twimg.com/media/CPmrNzkWEAAkoc3.jpg:large" href="//twitter.com/widestance/status/646736279992958979/photo/1">
-    <div class=" is-preview">
-        <div class="js-media-img-placeholder" data-img-src="https://pbs.twimg.com/media/CPmrNzkWEAAkoc3.jpg" data-img-offset="-0.0px" data-img-alt="Embedded image permalink" data-width="100%" style="min-height:576px">
-        </div>
-    </div>
+    <div class=" is-preview"><img src="https://pbs.twimg.com/media/CPmrNzkWEAAkoc3.jpg"></div>
   </a>
 
   <div class="cards-content">
@@ -3186,7 +3214,7 @@ media-forward
 </li>
 
       <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="646680132317384705" id="stream-item-tweet-646680132317384705" data-item-type="tweet">
+" data-item-id="646680132317384705" id="stream-item-tweet-646680132317384705" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[14]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
       
 
 
@@ -3444,7 +3472,7 @@ media-forward
 </li>
 
       <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="646674772978339840" id="stream-item-tweet-646674772978339840" data-item-type="tweet">
+" data-item-id="646674772978339840" id="stream-item-tweet-646674772978339840" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[15]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
       
 
 
@@ -3645,7 +3673,7 @@ media-forward
 </li>
 
       <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="646662860433571841" id="stream-item-tweet-646662860433571841" data-item-type="tweet">
+" data-item-id="646662860433571841" id="stream-item-tweet-646662860433571841" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[16]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
       
 
 
@@ -3846,7 +3874,7 @@ media-forward
 </li>
 
       <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="646385186691792896" id="stream-item-tweet-646385186691792896" data-item-type="tweet">
+" data-item-id="646385186691792896" id="stream-item-tweet-646385186691792896" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[17]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
       
 
 
@@ -4047,7 +4075,7 @@ media-forward
 </li>
 
       <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="646353471831044100" id="stream-item-tweet-646353471831044100" data-item-type="tweet">
+" data-item-id="646353471831044100" id="stream-item-tweet-646353471831044100" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[18]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
       
 
 

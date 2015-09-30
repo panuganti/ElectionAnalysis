@@ -10,7 +10,7 @@ var Controllers;
             this.showInput = true;
             this.allHandles = [];
             this.allHandlesText = "";
-            this.parties = ["NotRelevant", "ProDemocratic", "ProRepublican", "AntiDemocratic", "AntiRepublican", "Spam"];
+            this.parties = ["NotRelevant", "JustReporting", "ProDemocratic", "ProRepublican", "AntiDemocratic", "AntiRepublican", "CantSay", "Spam"];
             this.NotRelevant = "NotRelevant";
             this.genders = ["Male", "Female", "FakePic", "GenericPic"];
             this.judge = "";

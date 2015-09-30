@@ -13,7 +13,7 @@ module Controllers {
     allHandles = [];
     allHandlesText: string = "";  
     
-    parties = ["NotRelevant", "ProDemocratic", "ProRepublican", "AntiDemocratic", "AntiRepublican", "Spam"];
+    parties = ["NotRelevant", "JustReporting", "ProDemocratic", "ProRepublican", "AntiDemocratic", "AntiRepublican", "CantSay", "Spam"];
     NotRelevant = "NotRelevant";
     genders = ["Male", "Female", "FakePic", "GenericPic"];  
       
