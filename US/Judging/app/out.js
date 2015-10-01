@@ -2,7 +2,7 @@
 var Controllers;
 (function (Controllers) {
     var TweetJudgingCtrl = (function () {
-        function TweetJudgingCtrl($scope, $http, $q, $compile) {
+        function TweetJudgingCtrl($scope, $http, $q, $compile, $timeout) {
             this.message = "hello";
             this.gender = "";
             this.judgement = "";
@@ -19,17 +19,22 @@ var Controllers;
             this.genderSelected = "";
             this.partySelected = "";
             this.successMesg = "";
+            this.showRecordJudgement = false;
+            this.overallJudementSelection = false;
+            this.genderJudementSelection = false;
+            this.tweetJugementSelection = false;
             $scope.vMain = this;
             this.scope = $scope;
             this.http = $http;
             this.q = $q;
+            this.timeout = $timeout;
             this.compile = $compile;
             this.loadinfodiv();
             this.init();
         }
         TweetJudgingCtrl.prototype.loadinfodiv = function () {
             var div = document.getElementById("judgerInfo");
-            var input = angular.element('<div> Your Name: <input type="text" ng-model="vMain.judge" ng-show="vMain.showInput"> <span ng-show="!vMain.showInput"> {{vMain.judge}} </span>  <a href="" ng-click="vMain.submit()" ng-show="vMain.showInput">Submit</a> <a href="" ng-click="vMain.recordJudgement()" ng-show="!vMain.showInput">RecordJudgement</a>  <span ng-show="!vMain.showInput"> {{vMain.successMesg}}</span> </div>');
+            var input = angular.element('<div> Your Name: <input type="text" ng-model="vMain.judge" ng-show="vMain.showInput"> <span ng-show="!vMain.showInput"> {{vMain.judge}} </span>  <a href="" ng-click="vMain.submit()" ng-show="vMain.showInput">Submit</a> <a href="" ng-click="vMain.recordJudgement()" ng-show="!vMain.showInput &&vMain.showRecordJudgement">RecordJudgement</a>  <span ng-show="!vMain.showInput"> {{vMain.successMesg}}</span> </div>');
             var compileFn = this.compile(input);
             compileFn(this.scope);
             var divElement = angular.element(div);
@@ -44,6 +49,23 @@ var Controllers;
         TweetJudgingCtrl.prototype.loadAllHandles = function (data) {
             var allText = data;
             this.allHandles = allText.match(/[^\r\n]+/g);
+        };
+        TweetJudgingCtrl.prototype.overallJudgementSelected = function () {
+            this.overallJudementSelection = true;
+            this.checkIfRecordJudgementCanBeShown();
+        };
+        TweetJudgingCtrl.prototype.genderJudgementSelected = function () {
+            this.genderJudementSelection = true;
+            this.checkIfRecordJudgementCanBeShown();
+        };
+        TweetJudgingCtrl.prototype.tweetJudgementSelected = function () {
+            this.tweetJugementSelection = true;
+            this.checkIfRecordJudgementCanBeShown();
+        };
+        TweetJudgingCtrl.prototype.checkIfRecordJudgementCanBeShown = function () {
+            if (this.overallJudementSelection && this.genderJudementSelection && this.tweetJugementSelection) {
+                this.showRecordJudgement = true;
+            }
         };
         TweetJudgingCtrl.prototype.checkAndLoadNext = function () {
             var _this = this;
@@ -87,6 +109,9 @@ var Controllers;
             this.gender = "";
             this.judgement = "";
             this.tweetInclination = [];
+            this.showRecordJudgement = false;
+            this.genderSelected = "reset";
+            this.partySelected = "reset";
         };
         TweetJudgingCtrl.prototype.addElementsToProfileCard = function () {
             var profileDiv = document.getElementsByClassName("ProfileCardMini");
@@ -120,6 +145,8 @@ var Controllers;
             var submitJudgement = this.http.get("https://script.google.com/macros/s/AKfycbz2ZMnHuSR4GmTjsuIo6cmh433RRpPRH7TwMaJhbAUr/dev?getJudgements=false&judge=" + judge
                 + "&profile=" + profile + "&gender=" + gender + "&judgement=" + judgement + "&tweetCategory=" + tweetCategory).success(function (data) { return deferred.resolve(data); });
             submitJudgement.then(function (response) { return _this.displaySuccess(response.data); });
+            this.genderSelected = "reset";
+            this.partySelected = "reset";
             this.skipAndLoadNext(this.profile);
         };
         TweetJudgingCtrl.prototype.displaySuccess = function (data) {

@@ -5,6 +5,7 @@ module Controllers {
     private scope: ng.IScope;
     private q: ng.IQService;
     private compile: ng.ICompileService;
+    private timeout: ng.ITimeoutService;  
     message = "hello";
     gender = "";
     judgement = "";
@@ -23,14 +24,20 @@ module Controllers {
     tweetInclination = [];
     genderSelected = "";
     partySelected = "";  
-    
     successMesg = "";  
-
-    constructor($scope, $http, $q, $compile) {
+    
+    // Show/Hide RecordJugement
+    showRecordJudgement = false;
+    overallJudementSelection = false;
+    genderJudementSelection = false;
+    tweetJugementSelection = false;  
+      
+    constructor($scope, $http, $q, $compile, $timeout) {
       $scope.vMain = this;
       this.scope = $scope;
       this.http = $http;
       this.q = $q;
+      this.timeout = $timeout;  
       this.compile = $compile;
       this.loadinfodiv();
       this.init();
@@ -38,7 +45,7 @@ module Controllers {
 
     loadinfodiv() {
         let div = document.getElementById("judgerInfo");
-        var input = angular.element('<div> Your Name: <input type="text" ng-model="vMain.judge" ng-show="vMain.showInput"> <span ng-show="!vMain.showInput"> {{vMain.judge}} </span>  <a href="" ng-click="vMain.submit()" ng-show="vMain.showInput">Submit</a> <a href="" ng-click="vMain.recordJudgement()" ng-show="!vMain.showInput">RecordJudgement</a>  <span ng-show="!vMain.showInput"> {{vMain.successMesg}}</span> </div>');
+        var input = angular.element('<div> Your Name: <input type="text" ng-model="vMain.judge" ng-show="vMain.showInput"> <span ng-show="!vMain.showInput"> {{vMain.judge}} </span>  <a href="" ng-click="vMain.submit()" ng-show="vMain.showInput">Submit</a> <a href="" ng-click="vMain.recordJudgement()" ng-show="!vMain.showInput &&vMain.showRecordJudgement">RecordJudgement</a>  <span ng-show="!vMain.showInput"> {{vMain.successMesg}}</span> </div>');
         var compileFn = this.compile(input);
         compileFn(this.scope);
         var divElement = angular.element(div);
@@ -54,10 +61,34 @@ module Controllers {
     loadAllHandles(data) {
         var allText: string = data;
         this.allHandles = allText.match(/[^\r\n]+/g);
-        // TODO: Check until what point judge has judged
-        //this.loadNext(this.allHandles[0]);
-     }
+    }
+     
+    overallJudgementSelected()
+    {
+        this.overallJudementSelection = true;
+        this.checkIfRecordJudgementCanBeShown();
+    }  
     
+    genderJudgementSelected() 
+    {
+        this.genderJudementSelection = true
+        this.checkIfRecordJudgementCanBeShown();
+    }  
+    
+    tweetJudgementSelected() 
+    {
+        this.tweetJugementSelection = true;
+        this.checkIfRecordJudgementCanBeShown();
+    }  
+      
+    checkIfRecordJudgementCanBeShown() {
+        if (this.overallJudementSelection && this.genderJudementSelection && this.tweetJugementSelection)
+        {
+            this.showRecordJudgement = true;
+        }    
+    }
+      
+      
     checkAndLoadNext() {
         this.http.get("https://script.google.com/macros/s/AKfycbz2ZMnHuSR4GmTjsuIo6cmh433RRpPRH7TwMaJhbAUr/dev?getJudgements=true&judge=" + this.judge)
         .then((response) => this.skipAndLoadNext(response.data));   
@@ -107,6 +138,9 @@ module Controllers {
         this.gender = "";
         this.judgement = "";
         this.tweetInclination = [];
+        this.showRecordJudgement = false;
+        this.genderSelected = "reset";
+        this.partySelected = "reset";         
     }  
 
     addElementsToProfileCard()
@@ -147,6 +181,8 @@ module Controllers {
         var submitJudgement = this.http.get("https://script.google.com/macros/s/AKfycbz2ZMnHuSR4GmTjsuIo6cmh433RRpPRH7TwMaJhbAUr/dev?getJudgements=false&judge=" + judge
             + "&profile=" + profile + "&gender=" + gender + "&judgement=" + judgement + "&tweetCategory=" + tweetCategory).success((data) => deferred.resolve(data));
           submitJudgement.then((response) => this.displaySuccess(response.data));
+        this.genderSelected = "reset";
+        this.partySelected = "reset";
          this.skipAndLoadNext(this.profile);      
   }
     

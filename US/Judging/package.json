@@ -7,6 +7,6 @@
     "linq": "~3.0.5",
     "less": "~2.5.1",
     "colorbrewer": "~0.0.2",
-    "google-spreadsheet": "~1.0.1"
+    "angular": "~1.4.7"
   }
 }

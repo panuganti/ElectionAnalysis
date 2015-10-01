@@ -59,15 +59,15 @@ namespace ParseAndFormatProfiles
 
         static void ModifyProfileDiv(HtmlNode node)
         {
-            string format = "Overall Judgement: <select name=\"party\" ng-model=\"vMain.partySelected\" ng-selected=\"vMain.NotRelevant\" ng-options=\"party for party in vMain.parties\" >{{party}}</select>";
-            string genderHtml = "<br>Gender: <select name=\"gender\" ng-model=\"vMain.genderSelected\" ng-selected=\"vMain.NotRelevant\" ng-options=\"gender for gender in vMain.genders\" >{{party}}</select>";
+            string format = "Overall Judgement: <select name=\"party\" ng-change=\"vMain.overallJudgementSelected()\" ng-model=\"vMain.partySelected\" ng-selected=\"vMain.NotRelevant\" ng-options=\"party for party in vMain.parties\" >{{party}}</select>";
+            string genderHtml = "<br>Gender: <select name=\"gender\" ng-change=\"vMain.genderJudgementSelected()\" ng-model=\"vMain.genderSelected\" ng-selected=\"vMain.NotRelevant\" ng-options=\"gender for gender in vMain.genders\" >{{party}}</select>";
             node.InnerHtml = format + genderHtml + node.InnerHtml;            
 
         }
 
         static void ModifyTimelineDiv(HtmlNode node)
         {
-            string format = "Tweet Judgement: <select name=\"party\" ng-model=\"vMain.tweetInclination[{0}]\" ng-selected=\"vMain.NotRelevant\" ng-options=\"party for party in vMain.parties\" >{{party}}</select>";
+            string format = "Tweet Judgement: <select name=\"party\" ng-model=\"vMain.tweetInclination[{0}]\" ng-change=\"vMain.tweetJudgementSelected()\" ng-selected=\"vMain.NotRelevant\" ng-options=\"party for party in vMain.parties\" >{{party}}</select>";
             var tweetNodesList = node.Descendants("li").Where(t => t.Attributes.Contains("class") && t.Attributes["class"].Value.Contains("js-stream-item stream-item stream-item expanding-stream-item")).ToArray();
             int count = 0;
             foreach (var tweetNode in tweetNodesList)

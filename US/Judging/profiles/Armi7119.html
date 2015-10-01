@@ -1,4 +1,4 @@
-<div class="ProfileCanopy-navBar">Overall Judgement: <select name="party" ng-model="vMain.partySelected" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{{party}}</select><br>Gender: <select name="gender" ng-model="vMain.genderSelected" ng-selected="vMain.NotRelevant" ng-options="gender for gender in vMain.genders">{{party}}</select>
+<div class="ProfileCanopy-navBar">Overall Judgement: <select name="party" ng-change="vMain.overallJudgementSelected()" ng-model="vMain.partySelected" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{{party}}</select><br>Gender: <select name="gender" ng-change="vMain.genderJudgementSelected()" ng-model="vMain.genderSelected" ng-selected="vMain.NotRelevant" ng-options="gender for gender in vMain.genders">{{party}}</select>
       
       <div class="AppContainer">
         <div class="Grid Grid--withGutter">
@@ -152,7 +152,7 @@
         <ol class="stream-items js-navigable-stream" id="stream-items-id">
           
       <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="647260059827875840" id="stream-item-tweet-647260059827875840" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[0]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
+" data-item-id="647260059827875840" id="stream-item-tweet-647260059827875840" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[0]" ng-change="vMain.tweetJudgementSelected()" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
       
 
 
@@ -410,7 +410,7 @@ media-forward
 </li>
 
       <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="647374515287232512" id="stream-item-tweet-647374515287232512" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[1]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
+" data-item-id="647374515287232512" id="stream-item-tweet-647374515287232512" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[1]" ng-change="vMain.tweetJudgementSelected()" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
       
 
 
@@ -674,7 +674,7 @@ media-forward
 </li>
 
       <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="647546768213852160" id="stream-item-tweet-647546768213852160" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[2]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
+" data-item-id="647546768213852160" id="stream-item-tweet-647546768213852160" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[2]" ng-change="vMain.tweetJudgementSelected()" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
       
 
 
@@ -938,7 +938,7 @@ media-forward
 </li>
 
       <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="647464906699075584" id="stream-item-tweet-647464906699075584" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[3]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
+" data-item-id="647464906699075584" id="stream-item-tweet-647464906699075584" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[3]" ng-change="vMain.tweetJudgementSelected()" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
       
 
 
@@ -1028,7 +1028,7 @@ media-forward
       <div class="popup-tagged-users-list hidden">
         <ol class="activity-popup-users">
             </ol></div></div></div></div></div></li><li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="647464906699075584" id="stream-item-tweet-647464906699075584" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[4]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
+" data-item-id="647464906699075584" id="stream-item-tweet-647464906699075584" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[4]" ng-change="vMain.tweetJudgementSelected()" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
     
 <div class="account  js-actionable-user js-profile-popup-actionable " data-screen-name="TrucksHorsesDog" data-user-id="62815642" data-feedback-token="" data-impression-id="">
 
@@ -1098,7 +1098,7 @@ media-forward
 </li>
 
   <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="647464906699075584" id="stream-item-tweet-647464906699075584" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[5]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
+" data-item-id="647464906699075584" id="stream-item-tweet-647464906699075584" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[5]" ng-change="vMain.tweetJudgementSelected()" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
     
 <div class="account  js-actionable-user js-profile-popup-actionable " data-screen-name="jstines3" data-user-id="101395252" data-feedback-token="" data-impression-id="">
 
@@ -1168,7 +1168,7 @@ media-forward
 </li>
 
   <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="647464906699075584" id="stream-item-tweet-647464906699075584" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[6]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
+" data-item-id="647464906699075584" id="stream-item-tweet-647464906699075584" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[6]" ng-change="vMain.tweetJudgementSelected()" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
     
 <div class="account  js-actionable-user js-profile-popup-actionable " data-screen-name="KarrattiPaul" data-user-id="474202929" data-feedback-token="" data-impression-id="">
 
@@ -1238,7 +1238,7 @@ media-forward
 </li>
 
   <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="647464906699075584" id="stream-item-tweet-647464906699075584" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[7]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
+" data-item-id="647464906699075584" id="stream-item-tweet-647464906699075584" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[7]" ng-change="vMain.tweetJudgementSelected()" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
     
 <div class="account  js-actionable-user js-profile-popup-actionable " data-screen-name="Babbsgirl2" data-user-id="2685199019" data-feedback-token="" data-impression-id="">
 
@@ -1308,7 +1308,7 @@ media-forward
 </li>
 
   <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="647464906699075584" id="stream-item-tweet-647464906699075584" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[8]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
+" data-item-id="647464906699075584" id="stream-item-tweet-647464906699075584" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[8]" ng-change="vMain.tweetJudgementSelected()" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
     
 <div class="account  js-actionable-user js-profile-popup-actionable " data-screen-name="SMolloyDVM" data-user-id="1358290958" data-feedback-token="" data-impression-id="">
 
@@ -1378,7 +1378,7 @@ media-forward
 </li>
 
   <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="647464906699075584" id="stream-item-tweet-647464906699075584" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[9]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
+" data-item-id="647464906699075584" id="stream-item-tweet-647464906699075584" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[9]" ng-change="vMain.tweetJudgementSelected()" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
     
 <div class="account  js-actionable-user js-profile-popup-actionable " data-screen-name="FreedomChild3" data-user-id="2716100047" data-feedback-token="" data-impression-id="">
 
@@ -1448,7 +1448,7 @@ media-forward
 </li>
 
   <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="647464906699075584" id="stream-item-tweet-647464906699075584" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[10]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
+" data-item-id="647464906699075584" id="stream-item-tweet-647464906699075584" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[10]" ng-change="vMain.tweetJudgementSelected()" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
     
 <div class="account  js-actionable-user js-profile-popup-actionable " data-screen-name="LeahR77" data-user-id="393190233" data-feedback-token="" data-impression-id="">
 
@@ -1710,7 +1710,7 @@ media-forward
 
 
       <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="647459162998370304" id="stream-item-tweet-647459162998370304" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[11]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
+" data-item-id="647459162998370304" id="stream-item-tweet-647459162998370304" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[11]" ng-change="vMain.tweetJudgementSelected()" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
       
 
 
@@ -1929,7 +1929,7 @@ media-forward
 </li>
 
       <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="647431118187159553" id="stream-item-tweet-647431118187159553" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[12]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
+" data-item-id="647431118187159553" id="stream-item-tweet-647431118187159553" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[12]" ng-change="vMain.tweetJudgementSelected()" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
       
 
 
@@ -2158,7 +2158,7 @@ media-forward
 </li>
 
       <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="647174724468936704" id="stream-item-tweet-647174724468936704" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[13]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
+" data-item-id="647174724468936704" id="stream-item-tweet-647174724468936704" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[13]" ng-change="vMain.tweetJudgementSelected()" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
       
 
 
@@ -2377,7 +2377,7 @@ media-forward
 </li>
 
       <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="647198901276180481" id="stream-item-tweet-647198901276180481" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[14]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
+" data-item-id="647198901276180481" id="stream-item-tweet-647198901276180481" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[14]" ng-change="vMain.tweetJudgementSelected()" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
       
 
 
@@ -2628,7 +2628,7 @@ media-forward
 </li>
 
       <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="646802065017147392" id="stream-item-tweet-646802065017147392" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[15]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
+" data-item-id="646802065017147392" id="stream-item-tweet-646802065017147392" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[15]" ng-change="vMain.tweetJudgementSelected()" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
       
 
 
@@ -2857,7 +2857,7 @@ media-forward
 </li>
 
       <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="640169726300278784" id="stream-item-tweet-640169726300278784" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[16]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
+" data-item-id="640169726300278784" id="stream-item-tweet-640169726300278784" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[16]" ng-change="vMain.tweetJudgementSelected()" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
       
 
 
@@ -3118,7 +3118,7 @@ media-forward
 </li>
 
       <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="647012917725032448" id="stream-item-tweet-647012917725032448" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[17]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
+" data-item-id="647012917725032448" id="stream-item-tweet-647012917725032448" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[17]" ng-change="vMain.tweetJudgementSelected()" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
       
 
 
@@ -3337,7 +3337,7 @@ media-forward
 </li>
 
       <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="646338667011665921" id="stream-item-tweet-646338667011665921" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[18]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
+" data-item-id="646338667011665921" id="stream-item-tweet-646338667011665921" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[18]" ng-change="vMain.tweetJudgementSelected()" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
       
 
 
@@ -3609,7 +3609,7 @@ media-forward
 </li>
 
       <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="646849466692075520" id="stream-item-tweet-646849466692075520" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[19]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
+" data-item-id="646849466692075520" id="stream-item-tweet-646849466692075520" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[19]" ng-change="vMain.tweetJudgementSelected()" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
       
 
 
@@ -3870,7 +3870,7 @@ media-forward
 </li>
 
       <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="646836458926424066" id="stream-item-tweet-646836458926424066" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[20]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
+" data-item-id="646836458926424066" id="stream-item-tweet-646836458926424066" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[20]" ng-change="vMain.tweetJudgementSelected()" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
       
 
 
@@ -4134,7 +4134,7 @@ media-forward
 </li>
 
       <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="646794552062312449" id="stream-item-tweet-646794552062312449" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[21]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
+" data-item-id="646794552062312449" id="stream-item-tweet-646794552062312449" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[21]" ng-change="vMain.tweetJudgementSelected()" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
       
 
 
@@ -4224,7 +4224,7 @@ media-forward
       <div class="popup-tagged-users-list hidden">
         <ol class="activity-popup-users">
             </ol></div></div></div></div></div></li><li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="646794552062312449" id="stream-item-tweet-646794552062312449" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[22]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
+" data-item-id="646794552062312449" id="stream-item-tweet-646794552062312449" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[22]" ng-change="vMain.tweetJudgementSelected()" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
     
 <div class="account  js-actionable-user js-profile-popup-actionable " data-screen-name="seanhannity" data-user-id="41634520" data-feedback-token="" data-impression-id="">
 
@@ -4294,7 +4294,7 @@ media-forward
 </li>
 
   <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="646794552062312449" id="stream-item-tweet-646794552062312449" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[23]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
+" data-item-id="646794552062312449" id="stream-item-tweet-646794552062312449" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[23]" ng-change="vMain.tweetJudgementSelected()" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
     
 <div class="account  js-actionable-user js-profile-popup-actionable " data-screen-name="DineshDSouza" data-user-id="91882544" data-feedback-token="" data-impression-id="">
 
@@ -4364,7 +4364,7 @@ media-forward
 </li>
 
   <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="646794552062312449" id="stream-item-tweet-646794552062312449" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[24]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
+" data-item-id="646794552062312449" id="stream-item-tweet-646794552062312449" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[24]" ng-change="vMain.tweetJudgementSelected()" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
     
 <div class="account  js-actionable-user js-profile-popup-actionable " data-screen-name="FoxNews" data-user-id="1367531" data-feedback-token="" data-impression-id="">
 
@@ -4434,7 +4434,7 @@ media-forward
 </li>
 
   <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="646794552062312449" id="stream-item-tweet-646794552062312449" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[25]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
+" data-item-id="646794552062312449" id="stream-item-tweet-646794552062312449" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[25]" ng-change="vMain.tweetJudgementSelected()" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
     
 <div class="account  js-actionable-user js-profile-popup-actionable " data-screen-name="CarmineZozzora" data-user-id="2167674121" data-feedback-token="" data-impression-id="">
 
@@ -4504,7 +4504,7 @@ media-forward
 </li>
 
   <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="646794552062312449" id="stream-item-tweet-646794552062312449" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[26]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
+" data-item-id="646794552062312449" id="stream-item-tweet-646794552062312449" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[26]" ng-change="vMain.tweetJudgementSelected()" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
     
 <div class="account  js-actionable-user js-profile-popup-actionable " data-screen-name="BlissTabitha" data-user-id="999453985" data-feedback-token="" data-impression-id="">
 
@@ -4574,7 +4574,7 @@ media-forward
 </li>
 
   <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="646794552062312449" id="stream-item-tweet-646794552062312449" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[27]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
+" data-item-id="646794552062312449" id="stream-item-tweet-646794552062312449" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[27]" ng-change="vMain.tweetJudgementSelected()" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
     
 <div class="account  js-actionable-user js-profile-popup-actionable " data-screen-name="peady63" data-user-id="3012706790" data-feedback-token="" data-impression-id="">
 
@@ -4644,7 +4644,7 @@ media-forward
 </li>
 
   <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="646794552062312449" id="stream-item-tweet-646794552062312449" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[28]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
+" data-item-id="646794552062312449" id="stream-item-tweet-646794552062312449" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[28]" ng-change="vMain.tweetJudgementSelected()" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
     
 <div class="account  js-actionable-user js-profile-popup-actionable " data-screen-name="Braveheart_USA" data-user-id="972909709" data-feedback-token="" data-impression-id="">
 
@@ -4714,7 +4714,7 @@ media-forward
 </li>
 
   <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="646794552062312449" id="stream-item-tweet-646794552062312449" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[29]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
+" data-item-id="646794552062312449" id="stream-item-tweet-646794552062312449" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[29]" ng-change="vMain.tweetJudgementSelected()" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
     
 <div class="account  js-actionable-user js-profile-popup-actionable " data-screen-name="LibertyBell1000" data-user-id="2449650492" data-feedback-token="" data-impression-id="">
 
@@ -4784,7 +4784,7 @@ media-forward
 </li>
 
   <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="646794552062312449" id="stream-item-tweet-646794552062312449" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[30]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
+" data-item-id="646794552062312449" id="stream-item-tweet-646794552062312449" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[30]" ng-change="vMain.tweetJudgementSelected()" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
     
 <div class="account  js-actionable-user js-profile-popup-actionable " data-screen-name="ericbolling" data-user-id="14839147" data-feedback-token="" data-impression-id="">
 
@@ -5046,7 +5046,7 @@ media-forward
 
 
       <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="646768677824647168" id="stream-item-tweet-646768677824647168" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[31]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
+" data-item-id="646768677824647168" id="stream-item-tweet-646768677824647168" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[31]" ng-change="vMain.tweetJudgementSelected()" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
       
 
 
@@ -5320,7 +5320,7 @@ media-forward
 </li>
 
       <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="646798797457223680" id="stream-item-tweet-646798797457223680" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[32]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
+" data-item-id="646798797457223680" id="stream-item-tweet-646798797457223680" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[32]" ng-change="vMain.tweetJudgementSelected()" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
       
 
 
@@ -5539,7 +5539,7 @@ media-forward
 </li>
 
       <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="646279976422113280" id="stream-item-tweet-646279976422113280" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[33]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
+" data-item-id="646279976422113280" id="stream-item-tweet-646279976422113280" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[33]" ng-change="vMain.tweetJudgementSelected()" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
       
 
 
@@ -5629,7 +5629,7 @@ media-forward
       <div class="popup-tagged-users-list hidden">
         <ol class="activity-popup-users">
             </ol></div></div></div></div></div></li><li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="646279976422113280" id="stream-item-tweet-646279976422113280" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[34]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
+" data-item-id="646279976422113280" id="stream-item-tweet-646279976422113280" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[34]" ng-change="vMain.tweetJudgementSelected()" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
     
 <div class="account  js-actionable-user js-profile-popup-actionable " data-screen-name="PatVPeters" data-user-id="33611715" data-feedback-token="" data-impression-id="">
 
@@ -5699,7 +5699,7 @@ media-forward
 </li>
 
   <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="646279976422113280" id="stream-item-tweet-646279976422113280" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[35]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
+" data-item-id="646279976422113280" id="stream-item-tweet-646279976422113280" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[35]" ng-change="vMain.tweetJudgementSelected()" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
     
 <div class="account  js-actionable-user js-profile-popup-actionable " data-screen-name="GloJean31" data-user-id="2980733593" data-feedback-token="" data-impression-id="">
 
@@ -5769,7 +5769,7 @@ media-forward
 </li>
 
   <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="646279976422113280" id="stream-item-tweet-646279976422113280" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[36]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
+" data-item-id="646279976422113280" id="stream-item-tweet-646279976422113280" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[36]" ng-change="vMain.tweetJudgementSelected()" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
     
 <div class="account  js-actionable-user js-profile-popup-actionable " data-screen-name="speramus_n_deum" data-user-id="3294049086" data-feedback-token="" data-impression-id="">
 
@@ -5839,7 +5839,7 @@ media-forward
 </li>
 
   <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="646279976422113280" id="stream-item-tweet-646279976422113280" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[37]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
+" data-item-id="646279976422113280" id="stream-item-tweet-646279976422113280" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[37]" ng-change="vMain.tweetJudgementSelected()" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
     
 <div class="account  js-actionable-user js-profile-popup-actionable " data-screen-name="Braveheart_USA" data-user-id="972909709" data-feedback-token="" data-impression-id="">
 
@@ -5909,7 +5909,7 @@ media-forward
 </li>
 
   <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="646279976422113280" id="stream-item-tweet-646279976422113280" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[38]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
+" data-item-id="646279976422113280" id="stream-item-tweet-646279976422113280" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[38]" ng-change="vMain.tweetJudgementSelected()" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
     
 <div class="account  js-actionable-user js-profile-popup-actionable " data-screen-name="racist_you" data-user-id="3102151506" data-feedback-token="" data-impression-id="">
 
@@ -5979,7 +5979,7 @@ media-forward
 </li>
 
   <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="646279976422113280" id="stream-item-tweet-646279976422113280" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[39]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
+" data-item-id="646279976422113280" id="stream-item-tweet-646279976422113280" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[39]" ng-change="vMain.tweetJudgementSelected()" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
     
 <div class="account  js-actionable-user js-profile-popup-actionable " data-screen-name="BlissTabitha" data-user-id="999453985" data-feedback-token="" data-impression-id="">
 
@@ -6049,7 +6049,7 @@ media-forward
 </li>
 
   <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="646279976422113280" id="stream-item-tweet-646279976422113280" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[40]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
+" data-item-id="646279976422113280" id="stream-item-tweet-646279976422113280" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[40]" ng-change="vMain.tweetJudgementSelected()" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
     
 <div class="account  js-actionable-user js-profile-popup-actionable " data-screen-name="ladyright1970" data-user-id="3699834797" data-feedback-token="" data-impression-id="">
 
@@ -6119,7 +6119,7 @@ media-forward
 </li>
 
   <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="646279976422113280" id="stream-item-tweet-646279976422113280" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[41]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
+" data-item-id="646279976422113280" id="stream-item-tweet-646279976422113280" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[41]" ng-change="vMain.tweetJudgementSelected()" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
     
 <div class="account  js-actionable-user js-profile-popup-actionable " data-screen-name="Trump4Pres2016" data-user-id="3404721273" data-feedback-token="" data-impression-id="">
 
@@ -6189,7 +6189,7 @@ media-forward
 </li>
 
   <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="646279976422113280" id="stream-item-tweet-646279976422113280" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[42]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
+" data-item-id="646279976422113280" id="stream-item-tweet-646279976422113280" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[42]" ng-change="vMain.tweetJudgementSelected()" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
     
 <div class="account  js-actionable-user js-profile-popup-actionable " data-screen-name="LibertyBell1000" data-user-id="2449650492" data-feedback-token="" data-impression-id="">
 
@@ -6259,7 +6259,7 @@ media-forward
 </li>
 
   <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="646279976422113280" id="stream-item-tweet-646279976422113280" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[43]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
+" data-item-id="646279976422113280" id="stream-item-tweet-646279976422113280" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[43]" ng-change="vMain.tweetJudgementSelected()" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
     
 <div class="account  js-actionable-user js-profile-popup-actionable " data-screen-name="BocaLegend" data-user-id="334603161" data-feedback-token="" data-impression-id="">
 
@@ -6668,7 +6668,7 @@ media-forward
   </ul>
 </li>
       <li class="js-stream-item stream-item stream-item expanding-stream-item
-" data-item-id="646086981307379712" id="stream-item-tweet-646086981307379712" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[44]" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
+" data-item-id="646086981307379712" id="stream-item-tweet-646086981307379712" data-item-type="tweet">Tweet Judgement: <select name="party" ng-model="vMain.tweetInclination[44]" ng-change="vMain.tweetJudgementSelected()" ng-selected="vMain.NotRelevant" ng-options="party for party in vMain.parties">{party}</select>
       
 
 
