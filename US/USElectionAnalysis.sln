@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PredictTweetSentiment", "Pr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParseAndFormatProfiles", "ParseAndFormatProfiles\ParseAndFormatProfiles.csproj", "{7A745FB7-B469-4C8A-87CA-246674AA088F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnalyzeJudgements", "AnalyzeJudgements\AnalyzeJudgements.csproj", "{5A728815-F5B1-46F3-96D8-8C25087F7B2A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{7A745FB7-B469-4C8A-87CA-246674AA088F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A745FB7-B469-4C8A-87CA-246674AA088F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A745FB7-B469-4C8A-87CA-246674AA088F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A728815-F5B1-46F3-96D8-8C25087F7B2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A728815-F5B1-46F3-96D8-8C25087F7B2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A728815-F5B1-46F3-96D8-8C25087F7B2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A728815-F5B1-46F3-96D8-8C25087F7B2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
