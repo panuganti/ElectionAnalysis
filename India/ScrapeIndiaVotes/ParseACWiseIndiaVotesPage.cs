@@ -15,6 +15,7 @@ namespace ScrapeIndiaVotes
                 doc.DocumentNode.ChildNodes.First(t => t.Name == "h2")
                     .ChildNodes.First(t => t.Name == "span")
                     .InnerText.Trim();
+            /*
             var distName =
                 doc.DocumentNode.Descendants()
                     .First(t => t.Attributes.Contains("class") && t.Attributes["class"].Value == "searchBoxRight")
@@ -23,10 +24,12 @@ namespace ScrapeIndiaVotes
                     .Descendants("a")
                     .First()
                     .InnerText;
+             */
             var m1Div = doc.GetElementbyId("m1");
             var tableNode = m1Div.Descendants("table").First();
             var filename = Path.Combine(dirPath,
-                String.Format("{0} {1}.txt", acName.Trim().Replace(" ", "_"), distName.Trim().Replace(" ", "_")));
+//                String.Format("{0} {1}.txt", acName.Trim().Replace(" ", "_"), distName.Trim().Replace(" ", "_")));
+                String.Format("{0}.txt", acName.Trim().Replace(" ", "_")));
             ParseAndWriteGridSortableTable(tableNode, filename);
         }
 
@@ -61,7 +64,9 @@ namespace ScrapeIndiaVotes
             var table = Utils.ExtractTableFromDiv(gridSortableNode);
             if (File.Exists(filename))
             {
-                Console.Write("File already exists");
+                Console.WriteLine("File already exists {0}", filename);
+                filename = filename + "_1.txt";
+                //throw new Exception("");
             }
             using (var writer = new StreamWriter(filename))
             {

@@ -4,11 +4,9 @@ using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
-using BiharElectionsLibrary;
 using HtmlAgilityPack;
-using Utils = BiharElectionsLibrary.Utils;
 
-namespace GenerateDataForR
+namespace BiharElectionsLibrary
 {
     class PopulateCensusData
     {

@@ -9,13 +9,14 @@ namespace BiharElectionsLibrary
 {
     public class Features
     {
+        private readonly List<Result> _results2005;
         private readonly List<Result> _results2009;
         private readonly List<Result> _results2010;
         private readonly List<Result> _results2014;
         private readonly CVoterContracts.QualitativeData _qualitative2010;
         private readonly CVoterContracts.QualitativeData _qualitative2015;
 
-        private Dictionary<string, string> FeatureVector { get; set; }
+        private Dictionary<string, string> FeatureVectorDict { get; set; }
 
         public Features(List<Result> results2009, List<Result> results2010, List<Result> results2014, Tuple<CVoterContracts.QualitativeData, CVoterContracts.QualitativeData> qualitativeData)
         {
@@ -24,7 +25,7 @@ namespace BiharElectionsLibrary
             _results2014 = results2014;
             _qualitative2010 = qualitativeData.Item1;
             _qualitative2015 = qualitativeData.Item2;
-            FeatureVector = new Dictionary<string, string>();
+            FeatureVectorDict = new Dictionary<string, string>();
         }
 
         public List<Stability> StabilityFeatures()
@@ -68,16 +69,20 @@ namespace BiharElectionsLibrary
                 var result2010 = _results2010.First(t => t.Id == acId);
                 var qualitativeData = _qualitative2010.AcQualitatives.Where(t=>t.No == acId).ToArray();
                 if (!qualitativeData.Any()) { continue;}
-                
+
+                var winner = _results2009.First(t => t.Id == acId).GetWinner();
                 foreach (CandidateVote candidateVote in result2010.Votes)
                 {
                     totalCount++;
                     CandidateVote vote = candidateVote;
-                    var featureVector = new FeatureVector();
-                    featureVector.ACNo = i.ToString(CultureInfo.InvariantCulture);
-                    featureVector.CandidateName = candidateVote.Name;
-                    featureVector.Party = candidateVote.Party.ToString();
-                    featureVector.Result = candidateVote.Position.ToString();
+                    var featureVector = new FeatureVector
+                    {
+                        ACNo = i.ToString(CultureInfo.InvariantCulture),
+                        CandidateName = candidateVote.Name,
+                        Party = candidateVote.Party.ToString(),
+                        Result = FeatureVector.ParseLabel(candidateVote.Position),
+                        IsIncumbent = winner == candidateVote.Name ?  1.ToString() : 0.ToString()
+                    };
                     var possibleCandidates = allCandidateRatings.Where(t => t.Name.ToLower() == vote.Name.ToLower()).ToArray();
                     if (!possibleCandidates.Any())
                     {
@@ -166,7 +171,15 @@ namespace BiharElectionsLibrary
             var availability = rating.Ratings.Where(t => t.Feature.ToLower().Equals("availability")).ToArray();
             featureVector.Availability = availability.Any()
                 ? availability.First().Score.ToString(CultureInfo.InvariantCulture)
-                : 0.ToString(CultureInfo.InvariantCulture);            
+                : 0.ToString(CultureInfo.InvariantCulture);
+            var partyLeaders = rating.Ratings.Where(t => t.Feature.ToLower().Equals("Understing with Party Leaders".ToLower())).ToArray();
+            featureVector.UnderstandingWithPartyLeaders = partyLeaders.Any()
+                ? partyLeaders.First().Score.ToString(CultureInfo.InvariantCulture)
+                : 0.ToString(CultureInfo.InvariantCulture);
+            var localLeadersSupport = rating.Ratings.Where(t => t.Feature.ToLower().Equals("Respect in Local Leaders".ToLower())).ToArray();
+            featureVector.RespectWithLocalLeaders = localLeadersSupport.Any()
+                ? localLeadersSupport.First().Score.ToString(CultureInfo.InvariantCulture)
+                : 0.ToString(CultureInfo.InvariantCulture);
         }
 
         public List<FeatureVector> Extract2015Features()
@@ -180,10 +193,14 @@ namespace BiharElectionsLibrary
                 var candidateData = qualitativeData.First().CandidateRatings;
                 foreach (var candidate in candidateData)
                 {
-                    var featureVector = new FeatureVector();
-                    featureVector.ACNo = i.ToString(CultureInfo.InvariantCulture);
-                    featureVector.CandidateName = candidate.Name;
-                    featureVector.Party = candidate.PartyName;
+                    var featureVector = new FeatureVector
+                    {
+                        ACNo = i.ToString(CultureInfo.InvariantCulture),
+                        CandidateName = candidate.Name,
+                        Party = candidate.PartyName
+                    };
+
+                    #region Candidate Features
                     var winnability = candidate.Ratings.Where(t => t.Feature.ToLower().Equals("winability")).ToArray();
                     featureVector.Winnability = winnability.Any() ? 
                         winnability.First().Score.ToString(CultureInfo.InvariantCulture) : 0.ToString();
@@ -191,6 +208,12 @@ namespace BiharElectionsLibrary
                         candidate.Ratings.Where(t => t.Feature.ToLower().Equals("availability")).ToArray();
                     featureVector.Availability = availability.Any() ? 
                         availability.First().Score.ToString(CultureInfo.InvariantCulture) : 0.ToString();
+                    var partyLeaders =
+                        candidate.Ratings.Where(t => t.Feature.ToLower().Equals("Understanding with Party Leaders".ToLower())).ToArray();
+                    featureVector.UnderstandingWithPartyLeaders = partyLeaders.Any() ?
+                        partyLeaders.First().Score.ToString(CultureInfo.InvariantCulture) : 0.ToString();
+                    #endregion Candidate Features
+
                     extraction.Add(featureVector);
                 }
             }
@@ -203,9 +226,34 @@ namespace BiharElectionsLibrary
         public string ACNo {get; set;}
         public string CandidateName { get; set; }
         public string Party {get; set;}
-        public string Result { get; set; }
+        public Label Result { get; set; }
+
+        #region CandidateFeatures
         public string Winnability { get; set; }
         public string Availability { get; set; }
+        public string UnderstandingWithPartyLeaders { get; set; }
+        public string RespectWithLocalLeaders { get; set; }
+        public string IsIncumbent { get; set; }
+        #endregion CandidateFeatures
+
+        #region PartyFeatures
+        public string StrengthOfParty { get; set; }
+        public string BoothManagement { get; set; }
+
+        #endregion PartyFeatures
+
+        #region CasteFeatures
+
+        #endregion CasteFeatures
+
+        #region DevelopmentFeatures
+        public string Electricity { get; set; }
+        public string Water { get; set; }
+        public string LawAndOrder { get; set; }
+        public string Road { get; set; }
+        public string EmploymentGrowth { get; set; }
+        #endregion DevelopmentFeatures
+        // Add IsLocalIncumbent, IsCMIncumbent, IsPMIncumbent
 
         public string GetHeaders()
         {
@@ -226,6 +274,23 @@ namespace BiharElectionsLibrary
             }
             return sb.ToString().Trim('\t');
         }
+
+        public static Label ParseLabel(int position)
+        {
+            switch (position)
+            {
+                case 1:
+                    return Label.Perfect;
+                case 2:
+                    return Label.Excellent;
+                case 3:
+                    return Label.Good;
+                case 4:
+                    return Label.Fair;
+                default:
+                    return Label.Bad;
+            }
+        }
     }
 
     public class Stability
@@ -233,5 +298,14 @@ namespace BiharElectionsLibrary
         public int AcId { get; set; }
         public string Party { get; set; }
         public bool IsStable { get; set; }
+    }
+
+    public enum Label
+    {
+        Perfect = 1,
+        Excellent = 2,
+        Good = 3,
+        Fair = 4,
+        Bad = 5
     }
 }

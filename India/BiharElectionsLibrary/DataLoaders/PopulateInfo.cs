@@ -1,8 +1,8 @@
 ﻿using BiharElectionsLibrary;
 
-namespace GenerateDataForR
+namespace BiharElectionsLibrary
 {
-    class PopulateInfo
+    public class PopulateInfo
     {
         public static State LoadElectionHierarchy(string stateDivisionsFilename, 
             string acInfoFilename)

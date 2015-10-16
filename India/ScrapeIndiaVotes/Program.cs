@@ -9,21 +9,20 @@ namespace ScrapeIndiaVotes
     {
         static void Main(string[] args)
         {
-            const int startPC = 7242;
-            const int electionId = 15;
+            const int startPC = 33590;
+            const int electionId = 228;
             const int stateId = 58;
-            const string dirPath = @"I:\ArchishaData\ElectionData\RawData\IndiaVotes\2009BiharPC\AcWise";
-            const string outDir = @"I:\ArchishaData\ElectionData\Bihar\Results\2009ACWise\AcWise";
+            const string dirPath = @"I:\ArchishaData\ElectionData\RawData\IndiaVotes\2005BiharAC";
+            const string outDir = @"I:\ArchishaData\ElectionData\Bihar\Results\2005ACWise\";
 
-            for(int pcNo = 1; pcNo<=40; pcNo++)
+            for(int pcNo = 1; pcNo<=243; pcNo++)
             {
                 string filename = String.Format(@"{0}\\{1}_{2}_{3}.html", dirPath, electionId, stateId, pcNo);
-                //ParseACWiseIndiaVotesPage.ParseAcResultsPage(filename, Path.Combine(outDir, "Parsed"));
-                ParseACWiseIndiaVotesPage.ParseAcWiseResultsPage(filename, outDir, 2009);
-                /*
-                var response = GetACWiseResultsOfPC(stateId, electionId, pcNo, startPC);
-                File.WriteAllText(filename,response);
-                 */
+                ParseACWiseIndiaVotesPage.ParseAcResultsPage(filename, Path.Combine(outDir, "Parsed"));
+                //ParseACWiseIndiaVotesPage.ParseAcWiseResultsPage(filename, outDir, 2009);
+                
+                //var response = GetACResult(stateId, electionId, pcNo, startPC);
+                //File.WriteAllText(filename,response);                 
             }
         }
 
@@ -61,7 +60,7 @@ namespace ScrapeIndiaVotes
 
                 // Open the stream using a StreamReader for easy access.
 
-                StreamReader reader = new StreamReader(responseStream);
+                var reader = new StreamReader(responseStream);
                 // Read the content.
                 string responseFromServer = reader.ReadToEnd();
 

@@ -6,6 +6,7 @@ using BiharElectionsLibrary;
 using GenerateDataForR;
 using Newtonsoft.Json;
 using CVoterLibrary;
+using PopulateInfo = BiharElectionsLibrary.PopulateInfo;
 
 namespace GetBihar2010Results
 {
@@ -75,6 +76,7 @@ namespace GetBihar2010Results
             string indiaVotesResults2014Dir = Path.Combine(rootDir, ConfigurationManager.AppSettings["2014ACWiseResultsIndiaVotes"]);
             string indiaVotesResults2010Dir = Path.Combine(rootDir, ConfigurationManager.AppSettings["2010ACWiseResultsIndiaVotes"]);
             string indiaVotesResults2009Dir = Path.Combine(rootDir, ConfigurationManager.AppSettings["2009ACWiseResultsIndiaVotes"]);
+            //string indiaVotesResults2005Dir = Path.Combine(rootDir, ConfigurationManager.AppSettings["2005ACWiseResultsIndiaVotes"]);
 
             string cVoter2015QualitativeDir = Path.Combine(rootDir, ConfigurationManager.AppSettings["cVoter2015QualitativeDir"]);
             
@@ -94,10 +96,10 @@ namespace GetBihar2010Results
 
             #region Load Results
 
-
             var indiaVotesResults2014 = ResultsLoader.LoadResultsFromIndiaVotesData(indiaVotesResults2014Dir, 2014);
             var indiaVotesResults2009 = ResultsLoader.LoadResultsFromIndiaVotesData(indiaVotesResults2009Dir, 2009);
             var indiaVotesResults2010 = ResultsLoader.LoadACResultsFromIndiaVotesData(indiaVotesResults2010Dir, 2010);
+            var indiaVotesResults2005 = ResultsLoader.LoadACResultsFromIndiaVotesData(indiaVotesResults2005Dir, 2005);
             List<Result> conflatedResults2009 = ResultsConflator.ConflateResults(indiaVotesResults2009, state);
             List<Result> conflatedResults2010 = ResultsConflator.ConflateResultsAndDistrictInfo(indiaVotesResults2010, state);
             List<Result> conflatedResults2014 = ResultsConflator.ConflateResults(indiaVotesResults2014, state);
@@ -201,22 +203,25 @@ namespace GetBihar2010Results
 
             #region Load CVoter Data
 
+            
             #region CandidateSelection
             var qualitativeDataTuple = DataLoader.LoadDataFromDir(cVoter2015QualitativeDir);
             var candidateSelector = new CandidateSelector(qualitativeDataTuple.Item2);
             var bestCandidates = candidateSelector.WinnableCandidates();
             candidateSelector.FillUpRestOfCandidates(bestCandidates, conflatedResults2010);
             candidateSelector.FillUpCurrentCandidate(bestCandidates, conflatedResults2010);
-            var filename = @"I:\ArchishaData\ElectionData\Bihar\CandidateSelection\CandidateSelection2015Ext4.tsv";
+            const string filename = @"I:\ArchishaData\ElectionData\Bihar\CandidateSelection\CandidateSelection2015Ext4.tsv";
             candidateSelector.PrintCandidateSelection(bestCandidates, state, filename);
 
             #endregion CandidateSelection
+            
 
             #region Stability
             var features = new Features(conflatedResults2009, conflatedResults2010, conflatedResults2014, qualitativeDataTuple);
             var stability = features.StabilityFeatures();
 
             #endregion Stability
+            
 
             #region Feature Extraction
             var extractor = new Features(conflatedResults2009, conflatedResults2010, conflatedResults2014, qualitativeDataTuple);

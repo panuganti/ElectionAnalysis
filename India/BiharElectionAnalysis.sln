@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CVoterContracts", "CVoterCo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlUtils", "HtmlUtils\HtmlUtils.csproj", "{373ED4DC-1286-48DA-A180-4EC189C1129F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtractFeatures", "ExtractFeatures\ExtractFeatures.csproj", "{3308BFA8-A827-47E3-9D27-027F082929CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,14 @@ Global
 		{373ED4DC-1286-48DA-A180-4EC189C1129F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{373ED4DC-1286-48DA-A180-4EC189C1129F}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{373ED4DC-1286-48DA-A180-4EC189C1129F}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{3308BFA8-A827-47E3-9D27-027F082929CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3308BFA8-A827-47E3-9D27-027F082929CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3308BFA8-A827-47E3-9D27-027F082929CF}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{3308BFA8-A827-47E3-9D27-027F082929CF}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{3308BFA8-A827-47E3-9D27-027F082929CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3308BFA8-A827-47E3-9D27-027F082929CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3308BFA8-A827-47E3-9D27-027F082929CF}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{3308BFA8-A827-47E3-9D27-027F082929CF}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
