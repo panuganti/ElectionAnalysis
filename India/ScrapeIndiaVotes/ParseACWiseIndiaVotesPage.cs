@@ -11,7 +11,8 @@ namespace ScrapeIndiaVotes
         public static void ParseAcResultsPage(string htmlFile, string dirPath)
         {
             var doc = new HtmlWeb().Load(htmlFile);
-            var acName =
+            var id = Path.GetFileNameWithoutExtension(htmlFile).Split('_')[2];
+            var acName = 
                 doc.DocumentNode.ChildNodes.First(t => t.Name == "h2")
                     .ChildNodes.First(t => t.Name == "span")
                     .InnerText.Trim();
@@ -29,7 +30,7 @@ namespace ScrapeIndiaVotes
             var tableNode = m1Div.Descendants("table").First();
             var filename = Path.Combine(dirPath,
 //                String.Format("{0} {1}.txt", acName.Trim().Replace(" ", "_"), distName.Trim().Replace(" ", "_")));
-                String.Format("{0}.txt", acName.Trim().Replace(" ", "_")));
+                String.Format("{0}_{1}.txt", acName.Trim().Replace(" ", "_"), id));
             ParseAndWriteGridSortableTable(tableNode, filename);
         }
 

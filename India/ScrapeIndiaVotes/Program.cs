@@ -12,8 +12,8 @@ namespace ScrapeIndiaVotes
             const int startPC = 33590;
             const int electionId = 228;
             const int stateId = 58;
-            const string dirPath = @"I:\ArchishaData\ElectionData\RawData\IndiaVotes\2005BiharAC";
-            const string outDir = @"I:\ArchishaData\ElectionData\Bihar\Results\2005ACWise\";
+            const string dirPath = @"D:\ArchishaData\ElectionData\RawData\IndiaVotes\2005BiharAC";
+            const string outDir = @"D:\ArchishaData\ElectionData\Bihar\Results\2005ACWise\";
 
             for(int pcNo = 1; pcNo<=243; pcNo++)
             {
