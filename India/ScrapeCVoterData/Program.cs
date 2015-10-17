@@ -11,7 +11,7 @@ namespace ScrapeCVoterData
     {
         static void Main(string[] args)
         {
-            string outPath = "";
+            string outPath = @"D:\ArchishaData\ElectionData\RawData\CVoter\QualitativeData";
             for (int i=1; i<=243; i++)
             {
                 var response = new HtmlUtils.HttpRequests().GetPostResponse(i);

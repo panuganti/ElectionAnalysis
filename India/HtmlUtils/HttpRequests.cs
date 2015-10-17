@@ -43,11 +43,8 @@ namespace HtmlUtils
                 // Get the stream containing content returned by the server.
                 dataStream = response.GetResponseStream();
 
-                var responseStream = new GZipStream(dataStream, CompressionMode.Decompress);
-
                 // Open the stream using a StreamReader for easy access.
-
-                StreamReader reader = new StreamReader(responseStream);
+                StreamReader reader = new StreamReader(dataStream);
                 // Read the content.
                 string responseFromServer = reader.ReadToEnd();
 
