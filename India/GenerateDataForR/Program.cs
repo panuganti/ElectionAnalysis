@@ -99,7 +99,7 @@ namespace GetBihar2010Results
             var indiaVotesResults2014 = ResultsLoader.LoadResultsFromIndiaVotesData(indiaVotesResults2014Dir, 2014);
             var indiaVotesResults2009 = ResultsLoader.LoadResultsFromIndiaVotesData(indiaVotesResults2009Dir, 2009);
             var indiaVotesResults2010 = ResultsLoader.LoadACResultsFromIndiaVotesData(indiaVotesResults2010Dir, 2010);
-            var indiaVotesResults2005 = ResultsLoader.LoadACResultsFromIndiaVotesData(indiaVotesResults2005Dir, 2005);
+            //var indiaVotesResults2005 = ResultsLoader.LoadACResultsFromIndiaVotesData(indiaVotesResults2005Dir, 2005);
             List<Result> conflatedResults2009 = ResultsConflator.ConflateResults(indiaVotesResults2009, state);
             List<Result> conflatedResults2010 = ResultsConflator.ConflateResultsAndDistrictInfo(indiaVotesResults2010, state);
             List<Result> conflatedResults2014 = ResultsConflator.ConflateResults(indiaVotesResults2014, state);
