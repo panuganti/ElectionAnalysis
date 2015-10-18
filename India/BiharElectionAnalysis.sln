@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtractFeatures", "ExtractF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrapeCVoterData", "ScrapeCVoterData\ScrapeCVoterData.csproj", "{364E4CC6-ABB2-415A-B746-453799E625E0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParseCandidateList", "ParseCandidateList\ParseCandidateList.csproj", "{BD2C3B6B-52D1-4231-9A01-56A37AFD314D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -149,6 +151,14 @@ Global
 		{364E4CC6-ABB2-415A-B746-453799E625E0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{364E4CC6-ABB2-415A-B746-453799E625E0}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{364E4CC6-ABB2-415A-B746-453799E625E0}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{BD2C3B6B-52D1-4231-9A01-56A37AFD314D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD2C3B6B-52D1-4231-9A01-56A37AFD314D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD2C3B6B-52D1-4231-9A01-56A37AFD314D}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{BD2C3B6B-52D1-4231-9A01-56A37AFD314D}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{BD2C3B6B-52D1-4231-9A01-56A37AFD314D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD2C3B6B-52D1-4231-9A01-56A37AFD314D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD2C3B6B-52D1-4231-9A01-56A37AFD314D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{BD2C3B6B-52D1-4231-9A01-56A37AFD314D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
