@@ -84,7 +84,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
-    <Folder Include="Scraping\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CVoterContracts\CVoterContracts.csproj">

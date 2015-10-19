@@ -27,7 +27,7 @@ namespace ReadHtmlQuantitativeData
             // filePath is a path to a file containing the html
             htmlDoc.Load(filename, Encoding.UTF8);
             // ParseErrors is an ArrayList containing any errors from the Load statement
-            if (htmlDoc.ParseErrors != null && htmlDoc.ParseErrors.Count() > 0)
+            if (htmlDoc.ParseErrors != null && htmlDoc.ParseErrors.Any())
             {
                 // Handle any parse errors as required
                 //throw new Exception("Cannot parse");
