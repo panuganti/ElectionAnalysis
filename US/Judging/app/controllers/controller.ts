@@ -24,7 +24,11 @@ module Controllers {
     tweetInclination = [];
     genderSelected = "";
     partySelected = "";  
-    successMesg = "";  
+    successMesg = "";
+     
+     // Timer
+    start: number = 0;
+    end: number = 0;  
     
     // Show/Hide RecordJugement
     showRecordJudgement = false;
@@ -140,7 +144,8 @@ module Controllers {
         this.tweetInclination = [];
         this.showRecordJudgement = false;
         this.genderSelected = "reset";
-        this.partySelected = "reset";         
+        this.partySelected = "reset";  
+        this.start = Date.now();
     }  
 
     addElementsToProfileCard()
@@ -177,9 +182,12 @@ module Controllers {
     }
 
     submitJudgement(judge: string, profile: string, gender: string, judgement: string, tweetCategory: string) {
-      let deferred = this.q.defer();
+        let deferred = this.q.defer();
+        var elapsed = (Date.now() - this.start) / 1000;
+        var datenow = new Date();
         var submitJudgement = this.http.get("https://script.google.com/macros/s/AKfycbz2ZMnHuSR4GmTjsuIo6cmh433RRpPRH7TwMaJhbAUr/dev?getJudgements=false&judge=" + judge
-            + "&profile=" + profile + "&gender=" + gender + "&judgement=" + judgement + "&tweetCategory=" + tweetCategory).success((data) => deferred.resolve(data));
+            + "&profile=" + profile + "&gender=" + gender + "&judgement=" + judgement + "&tweetCategory=" + tweetCategory + "&elapsed=" + elapsed + "&timenow=" + datenow)
+            .success((data) => deferred.resolve(data));
           submitJudgement.then((response) => this.displaySuccess(response.data));
         this.genderSelected = "reset";
         this.partySelected = "reset";

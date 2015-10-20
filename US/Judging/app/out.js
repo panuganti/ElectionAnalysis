@@ -19,6 +19,8 @@ var Controllers;
             this.genderSelected = "";
             this.partySelected = "";
             this.successMesg = "";
+            this.start = 0;
+            this.end = 0;
             this.showRecordJudgement = false;
             this.overallJudementSelection = false;
             this.genderJudementSelection = false;
@@ -112,6 +114,7 @@ var Controllers;
             this.showRecordJudgement = false;
             this.genderSelected = "reset";
             this.partySelected = "reset";
+            this.start = Date.now();
         };
         TweetJudgingCtrl.prototype.addElementsToProfileCard = function () {
             var profileDiv = document.getElementsByClassName("ProfileCardMini");
@@ -142,8 +145,11 @@ var Controllers;
         TweetJudgingCtrl.prototype.submitJudgement = function (judge, profile, gender, judgement, tweetCategory) {
             var _this = this;
             var deferred = this.q.defer();
+            var elapsed = (Date.now() - this.start) / 1000;
+            var datenow = new Date();
             var submitJudgement = this.http.get("https://script.google.com/macros/s/AKfycbz2ZMnHuSR4GmTjsuIo6cmh433RRpPRH7TwMaJhbAUr/dev?getJudgements=false&judge=" + judge
-                + "&profile=" + profile + "&gender=" + gender + "&judgement=" + judgement + "&tweetCategory=" + tweetCategory).success(function (data) { return deferred.resolve(data); });
+                + "&profile=" + profile + "&gender=" + gender + "&judgement=" + judgement + "&tweetCategory=" + tweetCategory + "&elapsed=" + elapsed + "&timenow=" + datenow)
+                .success(function (data) { return deferred.resolve(data); });
             submitJudgement.then(function (response) { return _this.displaySuccess(response.data); });
             this.genderSelected = "reset";
             this.partySelected = "reset";
