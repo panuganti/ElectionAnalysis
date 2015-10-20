@@ -1,11 +1,9 @@
-combineQualData = function(i,combinedData,path="D:\\ArchishaData\\ElectionData\\Bihar\\CVoterData\\2010\\QualitativeTables\\")
+combineQualData = function(i,combinedData,fileExt,path="I:\\ArchishaData\\ElectionData\\Bihar\\CVoterData\\2015\\QualitativeTables\\")
 {
-    print(i)
-    file = paste(path,i,"_casteShares.txt",sep="");
-    print(file)
+    file = paste(path,i,fileExt,sep="");
     if (length(readLines(file)) > 1)
     {
-    data = read.csv(file,header=TRUE,sep="\t",colClasses="character");
+        data = read.csv(file,header=TRUE,sep="\t",colClasses="character");
         data = cbind(toString(i),data);
         names(data)[1] = "acId";
         combinedData = rbind(combinedData,data);
