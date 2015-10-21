@@ -1,0 +1,7 @@
+﻿
+Extraction2010 = EXTRACT AcNo:string, CandidateName:string, Party:string, Result:string, Winnability:string, Availability:string FROM @"I:/ArchishaData/ElectionData/Bihar/Predictions/Extraction2010.tsv" USING DefaultTextExtractor();
+CandParams2010 = EXTRACT AcId:string, CandidateName:string, Party:string, Availability:string, Effectiveness:string, Popularity:string, ReligiousInfluence:string, MusclePower:string, FinancialStatus:string, PartyLeadersSupport:string, RespectWithLocalLeaders:string, Winnability:string FROM @"I:/ArchishaData/ElectionData/Bihar/CVoterData/2010/Qualitative/CombinedQualitativeData/CandParams.txt" USING DefaultTextExtractor();
+
+NewExtraction = SELECT Extraction2010.AcNo AS AcNo, Extraction2010.CandidateName AS CandidateName, Extraction2010.Party AS Party, Extraction2010.Result, Extraction2010.Winnability, Extraction2010.Availability, CandParams2010.Effectiveness, CandParams2010.Popularity, CandParams2010.ReligiousInfluence, CandParams2010.MusclePower, CandParams2010.FinancialStatus, CandParams2010.PartyLeadersSupport, CandParams2010.RespectWithLocalLeaders FROM Extraction2010 LEFT OUTER JOIN CandParams2010 ON (AcNo == AcId AND Extraction2010.CandidateName == CandParams2010.CandidateName);
+
+OUTPUT NewExtraction TO @"I:/ArchishaData/ElectionData/Bihar/CVoterData/2010/Qualitative/CombinedQualitativeData/Extraction2010Temp.txt" USING DefaultTextOutputter();
