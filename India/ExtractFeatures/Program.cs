@@ -14,7 +14,8 @@ namespace ExtractFeatures
         static void Main(string[] args)
         {
             //ExtractAcFeatures();
-            ProcessCasteShareData();
+            //ProcessCasteShareData();
+
         }
 
         private static void ExtractCandidateFeatures()
@@ -26,6 +27,66 @@ namespace ExtractFeatures
                     return new {AcNo = parts[0], CandidateName = parts[1], Availability = parts[2], Honesty = parts[3], Effectiveness = parts[4], Popularity = parts[5], ReligiousInfluence = parts[6], MusclePower = parts[7], FinancialStatus = parts[8], PartyLeadersSupport = parts[9], LocalLeadersSupport = parts[10], Winability = parts[11]};
                 });
 
+        }
+
+        private static void ExtractPartyFeatureVector()
+        {
+
+            const string acFeatureVectorFile = @"I:\ArchishaData\ElectionData\Bihar\Predictions\AcFeatureVector.tsv";
+            const string casteShareParamsPurifiedFile =
+                @"I:\ArchishaData\ElectionData\Bihar\Predictions\casteShareParamsPurified.tsv";
+            const string extractionFile = @"I:\ArchishaData\ElectionData\Bihar\Predictions\Extraction2010.tsv";
+            const string candParamsFile = @"I:\ArchishaData\ElectionData\Bihar\Predictions\CandParamsPurified.txt";
+            const string partyParamsFile = @"I:\ArchishaData\ElectionData\Bihar\Predictions\PartyParamsRefined.tsv";
+
+            var allResults = File.ReadAllLines(extractionFile).Skip(1).Select(
+                t =>
+                {
+                    var parts = t.Split('\t');
+                    return new { AcNo = parts[0], CandidateName = parts[1], Party = parts[2], Result = parts[3]};
+                }).ToArray();
+
+            // 1. Dev & Local are combined for every AcId
+            var acFeatures = File.ReadAllLines(acFeatureVectorFile).Skip(1).Select(
+                t =>
+                {
+                    var parts = t.Split('\t');
+                    return new { AcNo = parts[0], Params = String.Join("\t",parts.Skip(1))};
+                }).ToArray();
+
+            var casteShareFeatures = File.ReadAllLines(casteShareParamsPurifiedFile).Select(
+                t =>
+                {
+                    var parts = t.Split('\t');
+                    return new { AcNo = parts[0], Caste = parts[1], Percent = parts[2], Party = parts[3], PartyPercent = parts[4]};
+                }).ToArray();
+
+            var paramFeatures = File.ReadAllLines(partyParamsFile).Skip(1).Select(
+                t =>
+                {
+                    var parts = t.Split('\t');
+                    return new { AcNo = parts[0], Party = parts[1], Params = String.Join("\t",parts.Skip(2)) };
+                }).ToArray();
+
+            var partyFeatures = File.ReadAllLines(candParamsFile).Skip(1).Select(
+                t =>
+                {
+                    var parts = t.Split('\t');
+                    return new { AcNo = parts[0], CandidateName = parts[1], Party = parts[2], ActualParty = parts[parts.Length - 1], ActualAcNo = parts[parts.Length - 1], Params = String.Join("\t", parts.Skip(1).Take(parts.Length - 5)) };
+                }).ToArray();
+
+            // 1.5 Join results & acfeatures
+            var results_dev_local = allResults.Select(x =>
+            {
+                return new {AcNo = x.AcNo, CandName = x.CandidateName, Party = x.Party, Result = x.Result};
+            }
+                );
+            //  2. Next join data for every Ac, Party
+
+
+            // 3. Join for every Ac, Party, Cand
+
+            // 4. Look for combined featuers
         }
 
         private static void ExtractAcFeatures()
