@@ -14,7 +14,7 @@ namespace ExtractFeatures
         static void Main(string[] args)
         {
             //ExtractAcFeatures();
-            //ProcessCasteShareData();
+            ProcessCasteShareData();
 
         }
 
@@ -74,13 +74,17 @@ namespace ExtractFeatures
                     var parts = t.Split('\t');
                     return new { AcNo = parts[0], CandidateName = parts[1], Party = parts[2], ActualParty = parts[parts.Length - 1], ActualAcNo = parts[parts.Length - 1], Params = String.Join("\t", parts.Skip(1).Take(parts.Length - 5)) };
                 }).ToArray();
-
+            /*
             // 1.5 Join results & acfeatures
             var results_dev_local = allResults.Select(x =>
             {
-                return new {AcNo = x.AcNo, CandName = x.CandidateName, Party = x.Party, Result = x.Result};
+                var acFeatureV = acFeatures.Where(y => y.AcNo == x.AcNo);
+                var Params =
+                acFeatureV.Any() ? acFeatureV.First() : String.Join("\t", );
+                return new {AcNo = x.AcNo, CandName = x.CandidateName, Party = x.Party, Result = x.Result, AcParams = acFeatureV.};
             }
                 );
+             */
             //  2. Next join data for every Ac, Party
 
 
@@ -230,14 +234,16 @@ namespace ExtractFeatures
         static void ProcessCasteShareData()
         {
             const string casteShareParamsRefinedFile =
-                @"J:\ArchishaData\ElectionData\Bihar\CVoterData\2010\Qualitative\CombinedQualitativeData\CasteSharesRefined.tsv";
-            const string casteShareParamsPurifiedFile =
-                @"J:\ArchishaData\ElectionData\Bihar\CVoterData\2010\Qualitative\CombinedQualitativeData\casteShareParamsPurified.tsv";
+                @"I:\ArchishaData\ElectionData\Bihar\CVoterData\2010\Qualitative\CombinedQualitativeData\CasteSharesRefined.tsv";
+            const string casteSharePerAcParamsFile =
+                @"I:\ArchishaData\ElectionData\Bihar\CVoterData\2010\Qualitative\CombinedQualitativeData\casteSharePerAcParams.tsv";
+            const string casteSharePerAcPartyParamsFile =
+                @"I:\ArchishaData\ElectionData\Bihar\CVoterData\2010\Qualitative\CombinedQualitativeData\casteSharePerAcPartyParams.tsv";
             var allOrigCasteShares = File.ReadAllLines(casteShareParamsRefinedFile).Skip(1).Select(
                 t =>
                 {
                     var parts = t.Split('\t');
-                return new { AcNo = parts[0], Caste = parts[1], Pop = parts[3], Percent = double.Parse(parts[4]), BJP = double.Parse(parts[5]), INC = double.Parse(parts[6]), RJD = double.Parse(parts[7]), JDU = double.Parse(parts[8]), LJP = double.Parse(parts[9]), Others = double.Parse(parts[10]) }; // Form this file first
+                return new { AcNo = parts[0], Caste = Category(parts[1]), Pop = parts[3], Percent = double.Parse(parts[4]), BJP = double.Parse(parts[5]), INC = double.Parse(parts[6]), RJD = double.Parse(parts[7]), JDU = double.Parse(parts[8]), LJP = double.Parse(parts[9]), Others = double.Parse(parts[10]) }; // Form this file first
                 });
             var allCasteSharesSum = allOrigCasteShares.Select(x => new { AcNo = x.AcNo, Caste = x.Caste, Pop = x.Pop, Percent = x.Percent, BJP = x.BJP, INC = x.INC, RJD = x.RJD, JDU = x.JDU, LJP = x.LJP, Others = x.Others, Sum = x.BJP + x.INC + x.RJD + x.JDU + x.LJP + x.Others});
             var allCasteShares = allCasteSharesSum.Where(x => x.Sum > 100).Select(x => new { AcNo = x.AcNo, Caste = x.Caste, Pop = x.Pop, Percent = x.Percent, BJP = 100*x.BJP/x.Sum, INC = 100*x.INC/x.Sum, RJD = 100*x.RJD / x.Sum, JDU = 100*x.JDU / x.Sum, LJP = 100*x.LJP / x.Sum, Others = 100*x.Others/x.Sum }).ToList();
@@ -247,24 +253,96 @@ namespace ExtractFeatures
             var nGrouped = acCasteShares.Where(t => t.GroupBy(x=>x.Caste).Any(x=> x.Count()==2)).Select(x => x.Key).ToArray();
             var nPopGt100 = acCasteShares.Where(t => t.Sum(x => x.Percent) > 100).Select(x => new { Ac = x.Key, Sum = x.Sum(c => c.Percent) }).ToArray();
             var nPopEq0 = acCasteShares.Where(t => t.Sum(x => x.Percent) == 0).Select(x => x.Key).ToArray();
-            File.WriteAllLines(casteShareParamsPurifiedFile, acCasteShares.SelectMany(acs =>
+            var formattedData = acCasteShares.SelectMany(acs =>
             {
                 var sum = acs.Sum(x => x.Percent);
                 var sumPop = acs.Sum(x => double.Parse(x.Pop));
-                var localCasteShare = sum == 0 ? acs.Select(y => new { AcNo = y.AcNo, Caste = y.Caste, Pop = y.Pop, Percent = (double.Parse(y.Pop) * 100 / sumPop), BJP = y.BJP, INC = y.INC, RJD = y.RJD, JDU = y.JDU, LJP = y.LJP, Others = y.Others }) : acs; // derive % from total
+                var localCasteShare = sum == 0
+                    ? acs.Select(
+                        y =>
+                            new
+                            {
+                                AcNo = y.AcNo,
+                                Caste = y.Caste,
+                                Pop = y.Pop,
+                                Percent = (double.Parse(y.Pop)*100/sumPop),
+                                BJP = y.BJP,
+                                INC = y.INC,
+                                RJD = y.RJD,
+                                JDU = y.JDU,
+                                LJP = y.LJP,
+                                Others = y.Others
+                            })
+                    : acs; // derive % from total
                 sum = sum == 0 ? 100 : sum;
                 var casteGroups = localCasteShare.GroupBy(x => x.Caste);
-                return casteGroups.Select(x => new { AcNo = x.First().AcNo, Caste = x.Key, Pop = x.First().Pop, Percent = x.Sum(z => z.Percent) * 100 / sum, BJP = x.Sum(z => z.BJP) / x.Count(), INC = x.Sum(z => z.INC) / x.Count(), RJD = x.Sum(z => z.RJD) / x.Count(), JDU = x.Sum(z => z.JDU) / x.Count(), LJP = x.Sum(z => z.LJP) / x.Count(), Others = x.Sum(z => z.Others) });
-            }).OrderBy(x=> int.Parse(x.AcNo)).SelectMany(t=> { 
-                    var arr = new List<string>();
-                    arr.Add(String.Join("\t",new string []{ t.AcNo, t.Caste, t.Percent.ToString(), "bjp", t.BJP.ToString() }));
-                    arr.Add(String.Join("\t", new string[] { t.AcNo, t.Caste, t.Percent.ToString(), "inc", t.INC.ToString() }));
-                    arr.Add(String.Join("\t", new string[] { t.AcNo, t.Caste, t.Percent.ToString(), "rjd", t.RJD.ToString() }));
-                    arr.Add(String.Join("\t", new string[] { t.AcNo, t.Caste, t.Percent.ToString(), "jdu", t.JDU.ToString() }));
-                    arr.Add(String.Join("\t", new string[] { t.AcNo, t.Caste, t.Percent.ToString(), "ljp", t.LJP.ToString() }));
-                    arr.Add(String.Join("\t", new string[] { t.AcNo, t.Caste, t.Percent.ToString(), "others", t.Others.ToString() }));
-                    return arr;
+                return
+                    casteGroups.Select(
+                        x =>
+                            new
+                            {
+                                AcNo = x.First().AcNo,
+                                Caste = x.Key,
+                                Pop = x.First().Pop,
+                                Percent = x.Sum(z => z.Percent)*100/sum,
+                                BJP = x.Sum(z => z.BJP*z.Percent)/x.Sum(z => z.Percent),
+                                INC = x.Sum(z => z.INC*z.Percent)/x.Sum(z => z.Percent),
+                                RJD = x.Sum(z => z.RJD*z.Percent)/x.Sum(z => z.Percent),
+                                JDU = x.Sum(z => z.JDU*z.Percent)/x.Sum(z => z.Percent),
+                                LJP = x.Sum(z => z.LJP*z.Percent)/x.Sum(z => z.Percent),
+                                Others = x.Sum(z => z.Others*z.Percent)/x.Sum(z => z.Percent)
+                            });
+            }).OrderBy(x => int.Parse(x.AcNo));
+            
+            File.WriteAllLines(casteSharePerAcParamsFile, 
+            formattedData.SelectMany(t=> { 
+                    arr.Add(String.Join("\t",new[]{ t.AcNo, t.Caste, t.Percent.ToString(), "bjp", t.BJP.ToString() }));
+                    arr.Add(String.Join("\t", new [] { t.AcNo, t.Caste, t.Percent.ToString(), "inc", t.INC.ToString() }));
+                    arr.Add(String.Join("\t", new [] { t.AcNo, t.Caste, t.Percent.ToString(), "rjd", t.RJD.ToString() }));
+                    arr.Add(String.Join("\t", new [] { t.AcNo, t.Caste, t.Percent.ToString(), "jdu", t.JDU.ToString() }));
+                    arr.Add(String.Join("\t", new [] { t.AcNo, t.Caste, t.Percent.ToString(), "ljp", t.LJP.ToString() }));
+                    arr.Add(String.Join("\t", new [] { t.AcNo, t.Caste, t.Percent.ToString(), "others", t.Others.ToString() }));
                 }));            
+        }
+
+        public static string Category(string caste)
+        {
+            switch (caste.ToLower())
+            {
+                case "yadav":
+                case "dalit":
+                case "muslim":
+                case "obc":
+                case "others":
+                    return caste.ToLower();
+                case "bhumihar":
+                case "brahmin":
+                case "rajput":
+                case "baniya":
+                case "thakur":
+                case "kayastha":
+                case "sahni":
+                case "chaudhary":
+                case "chauhan":
+                    return "uch";
+                case "kushwaha":
+                case "sc":
+                case "bind":
+                case "paswan":
+                case "kahar":
+                case "mallaha":
+                case "mandal":
+                case "st":
+                    return "dalit";
+                case "kurmi":
+                case "dhanuk":
+                case "dhanuk/bin":
+                case "nunia":
+                case "ebc":
+                    return "obc";
+                default:
+                    throw new Exception();
+            }
         }
     }
 }
