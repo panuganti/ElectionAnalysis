@@ -12,7 +12,7 @@ namespace ExtractFeatures
         {
             const string dirPath = @"J:\ArchishaData\ElectionData\Bihar\CVoterData\2015\Qualitative\CombinedQualitativeData\CandParams.txt";
             const string aimim = "AIMIMCandidates.txt";
-            const string 
+         //   const string 
         }
     }
 }
