@@ -260,11 +260,7 @@ namespace ExtractFeatures
             {
                 var sum = acs.Sum(x => x.Percent);
                 var sumPop = acs.Sum(x => double.Parse(x.Pop));
-                var localCasteShare = sum == 0
-                    ? acs.Select(
-                        y =>
-                            new
-                            {
+                var localCasteShare = sum == 0 ? acs.Select(y => new {
                                 AcNo = y.AcNo,
                                 Caste = y.Caste,
                                 Pop = y.Pop,
@@ -279,11 +275,7 @@ namespace ExtractFeatures
                     : acs; // derive % from total
                 sum = sum == 0 ? 100 : sum;
                 var casteGroups = localCasteShare.GroupBy(x => x.Caste);
-                return
-                    casteGroups.Select(
-                        x =>
-                            new
-                            {
+                return  casteGroups.Select(x => new {
                                 AcNo = x.First().AcNo,
                                 Caste = x.Key,
                                 Pop = x.First().Pop,
