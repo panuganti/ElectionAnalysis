@@ -14,8 +14,10 @@ namespace ExtractFeatures
         static void Main(string[] args)
         {
             //ExtractAcFeatures();
-            ProcessCasteShareData2015();
+            //ProcessCasteShareData2015();
             //ExtractAcFeatures();
+            PrePoll.ExtractPrePollFeatures2010();
+            PrePoll.ExtractPrePollFeatures2015();
         }
 
         private static void ExtractCandidateFeatures()
@@ -437,5 +439,6 @@ namespace ExtractFeatures
                     throw new Exception();
             }
         }
+        
     }
 }

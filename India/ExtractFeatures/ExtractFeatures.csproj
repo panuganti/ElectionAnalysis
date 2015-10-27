@@ -42,9 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CasteShareProcessing.cs" />
-    <Compile Include="CandidateLists.cs" />
-    <Compile Include="DevLocalParams.cs" />
+    <Compile Include="PrePoll.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
