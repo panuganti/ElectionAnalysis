@@ -15,9 +15,9 @@ namespace ExtractFeatures
         {
             //ExtractAcFeatures();
             //ProcessCasteShareData2015();
-            //ExtractAcFeatures();
-            PrePoll.ExtractPrePollFeatures2010();
-            PrePoll.ExtractPrePollFeatures2015();
+            ExtractAcFeatures();
+            //PrePoll.ExtractPrePollFeatures2010();
+            //PrePoll.ExtractPrePollFeatures2015();
         }
 
         private static void ExtractCandidateFeatures()
@@ -99,13 +99,16 @@ namespace ExtractFeatures
         // USED for Dev and Local
         private static void ExtractAcFeatures()
         {
-            /* 2010 Filenames
-             */
-
-            // 2015 Filenames
+            // 2010 Filenames
+            const string devParamsRefinedFile = @"I:\ArchishaData\ElectionData\Bihar\CVoterData\2010\Qualitative\CombinedQualitativeData\DevParamsRefined.tsv";
+            const string localParamsRefinedFile = @"I:\ArchishaData\ElectionData\Bihar\CVoterData\2010\Qualitative\CombinedQualitativeData\LocalIssuesRefined.tsv";
+            const string acFeatureVectorFile = @"I:\ArchishaData\ElectionData\Bihar\Predictions2010\dev_local.tsv";
+             
+            /* 2015 Filenames
             const string devParamsRefinedFile = @"I:\ArchishaData\ElectionData\Bihar\Predictions2015\DevParams2015Refined.tsv";
             const string localParamsRefinedFile = @"I:\ArchishaData\ElectionData\Bihar\Predictions2015\LocalIssues2015Refined.tsv";
             const string acFeatureVectorFile = @"I:\ArchishaData\ElectionData\Bihar\Predictions2015\AcFeatureVector.tsv";
+             */
             var allDevParams = File.ReadAllLines(devParamsRefinedFile).Skip(1).Select(
                 t =>
                 {
