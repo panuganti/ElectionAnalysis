@@ -18,6 +18,7 @@ namespace ExtractFeatures
                 var parts = x.Split(',');
                 return new { AcNo = parts[3], Gender = intParse(parts[25]), Age = intParse(parts[26]), Education = parseEduOccuIncome(parts[27]), Occupation = parseEduOccuIncome(parts[28]), FamilyIncome = parseEduOccuIncome(parts[29]), CasteCategory = CasteCategoryMapping(parts[30]), Caste = parts[31], LastAssemblyVote = intParse(parts[32]), VoteVS = intParse(parts[33]), LastPCVote = intParse(parts[34]), PCVote = intParse(parts[35]), UrbanRural = UrbanRural2010(parts[52]), LivingStd = intParse(parts[47]), ViewsAboutState = intParse(parts[48]), Weight = doubleParse(parts[53]) };
             });
+            // Features a) nSamples, b) Avg(weight), c) sum(weight), d) VSnSwingAwayBJP, VSnSwingAwayRJD, e) PCnSwingAwayBJP, PCnSwingAwayRJD
             var outlines = new List<string>();
             outlines.Add(String.Join("\t", new[] { "AcNo", "Gender", "Age", "Education", "Occupation", "FamilyIncome", "CasteCategory", "PrevVS", "VS", "PrevPC", "PC", "UrbanRural", "LivingStd", "Views", "Weight" }));
             outlines.AddRange(prepoll2010.Select(x =>

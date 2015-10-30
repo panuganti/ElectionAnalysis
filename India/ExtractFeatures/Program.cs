@@ -14,8 +14,9 @@ namespace ExtractFeatures
         static void Main(string[] args)
         {
             //ExtractAcFeatures();
+            ProcessCasteShareData();
             //ProcessCasteShareData2015();
-            ExtractAcFeatures();
+            //ExtractAcFeatures();
             //PrePoll.ExtractPrePollFeatures2010();
             //PrePoll.ExtractPrePollFeatures2015();
         }
@@ -254,29 +255,23 @@ namespace ExtractFeatures
 
         static void ProcessCasteShareData()
         {
-            /* 2010
+            // 2010
             const string casteShareParamsRefinedFile =
-                @"D:\ArchishaData\ElectionData\Bihar\CVoterData\2010\Qualitative\CombinedQualitativeData\CasteSharesRefined.tsv";
+                @"I:\ArchishaData\ElectionData\Bihar\CVoterData\2010\Qualitative\CombinedQualitativeData\CasteSharesRefined.tsv";
             const string casteSharePerAcPartyParamsFile =
-                @"D:\ArchishaData\ElectionData\Bihar\CVoterData\2010\Qualitative\CombinedQualitativeData\casteSharePerAcPartyParams.tsv";
-             */
-            // 2015
-            const string casteShareParamsRefinedFile =
-                @"I:\ArchishaData\ElectionData\Bihar\Predictions2015\CasteShares2015Refined.tsv";
-            const string casteSharePerAcPartyParamsFile =
-                @"I:\ArchishaData\ElectionData\Bihar\Predictions2015\casteSharePerAcPartyParams2015.tsv";
-             //
+                @"I:\ArchishaData\ElectionData\Bihar\CVoterData\2010\Qualitative\CombinedQualitativeData\CasteShares_bjp_rjd_inc_others.tsv";
+             
             var allOrigCasteShares = File.ReadAllLines(casteShareParamsRefinedFile).Skip(1).Select(
                 t =>
                 {
                     var parts = t.Split('\t');
                 return new { AcNo = parts[0], Caste = Category(parts[1]), Pop = parts[3], Percent = double.Parse(parts[4]), BJP = double.Parse(parts[5]), INC = double.Parse(parts[6]), RJD = double.Parse(parts[7]), JDU = double.Parse(parts[8]), LJP = double.Parse(parts[9]), Others = double.Parse(parts[10]) }; // Form this file first
                 });
-            var allCasteSharesSum = allOrigCasteShares.Select(x => new { AcNo = x.AcNo, Caste = x.Caste, Pop = x.Pop, Percent = x.Percent, BJP = x.BJP, INC = x.INC, RJD = x.RJD, JDU = x.JDU, LJP = x.LJP, Others = x.Others, Sum = x.BJP + x.INC + x.RJD + x.JDU + x.LJP + x.Others});
+            var allCasteSharesSum = allOrigCasteShares.Select(x => new { AcNo = x.AcNo, Caste = x.Caste, Pop = x.Pop, Percent = x.Percent, BJP = x.BJP, INC = x.INC, RJD = x.RJD, JDU = x.JDU, LJP = x.LJP, Others = x.Others, Sum = x.BJP + x.INC + x.RJD + x.JDU + x.LJP + x.Others}).ToArray();
             var allCasteShares = allCasteSharesSum.Where(x => x.Sum > 100).Select(x => new { AcNo = x.AcNo, Caste = x.Caste, Pop = x.Pop, Percent = x.Percent, BJP = 100*x.BJP/x.Sum, INC = 100*x.INC/x.Sum, RJD = 100*x.RJD / x.Sum, JDU = 100*x.JDU / x.Sum, LJP = 100*x.LJP / x.Sum, Others = 100*x.Others/x.Sum }).ToList();
             var allCasteSharesSumLT100 = allCasteSharesSum.Where(x => x.Sum <= 100).Select(x => new { AcNo = x.AcNo, Caste = x.Caste, Pop = x.Pop, Percent = x.Percent, BJP = x.BJP, INC = x.INC, RJD = x.RJD, JDU = x.JDU, LJP = x.LJP, Others = 100 - x.BJP - x.INC - x.RJD - x.JDU - x.LJP});
             allCasteShares.AddRange(allCasteSharesSumLT100);
-            var acCasteShares = allCasteShares.GroupBy(t => t.AcNo);
+            var acCasteShares = allCasteShares.GroupBy(t => t.AcNo).ToArray();
             var nGrouped = acCasteShares.Where(t => t.GroupBy(x=>x.Caste).Any(x=> x.Count()==2)).Select(x => x.Key).ToArray();
             var nPopGt100 = acCasteShares.Where(t => t.Sum(x => x.Percent) > 100).Select(x => new { Ac = x.Key, Sum = x.Sum(c => c.Percent) }).ToArray();
             var nPopEq0 = acCasteShares.Where(t => t.Sum(x => x.Percent) == 0).Select(x => x.Key).ToArray();
@@ -307,24 +302,18 @@ namespace ExtractFeatures
                                 Caste = x.Key,
                                 Pop = x.First().Pop,
                                 Percent = x.Sum(z => z.Percent) * 100 / sum,
-                                BJP = x.Sum(z => z.BJP * z.Percent) / x.Sum(z => z.Percent),
-                                INC = x.Sum(z => z.INC * z.Percent) / x.Sum(z => z.Percent),
-                                RJD = x.Sum(z => z.RJD * z.Percent) / x.Sum(z => z.Percent),
-                                JDU = x.Sum(z => z.JDU * z.Percent) / x.Sum(z => z.Percent),
-                                LJP = x.Sum(z => z.LJP * z.Percent) / x.Sum(z => z.Percent),
-                                Others = x.Sum(z => z.Others * z.Percent) / x.Sum(z => z.Percent)
+                                BJP = x.Sum(z => z.BJP * z.Percent) / x.Sum(z => z.Percent) + x.Sum(z => z.JDU * z.Percent) / x.Sum(z => z.Percent),
+                                RJD = x.Sum(z => z.RJD * z.Percent) / x.Sum(z => z.Percent) + x.Sum(z => z.LJP * z.Percent) / x.Sum(z => z.Percent),
+                                Others = x.Sum(z => z.Others * z.Percent) / x.Sum(z => z.Percent) + x.Sum(z => z.INC * z.Percent) / x.Sum(z => z.Percent)
                             });
             })
             .SelectMany(x =>
             {
                 var xyz = new List<string>();
                 xyz.Add(String.Join("\t", new string[] { x.First().AcNo, "bjp", x.Any(y => y.Caste == "uch") ? x.First(y => y.Caste == "uch").Percent.ToString() : 0.ToString(), x.Any(y => y.Caste == "yadav") ? x.First(y => y.Caste == "yadav").Percent.ToString() : 0.ToString(), x.Any(y => y.Caste == "obc") ? x.First(y => y.Caste == "obc").Percent.ToString() : 0.ToString(), x.Any(y => y.Caste == "dalit") ? x.First(y => y.Caste == "dalit").Percent.ToString() : 0.ToString(), x.Any(y => y.Caste == "muslim") ? x.First(y => y.Caste == "muslim").Percent.ToString() : 0.ToString(), x.Any(y => y.Caste == "others") ? x.First(y => y.Caste == "others").Percent.ToString() : 0.ToString(), x.Any(y => y.Caste == "uch") ? x.First(y => y.Caste == "uch").BJP.ToString() : 0.ToString(), x.Any(y => y.Caste == "yadav") ? x.First(y => y.Caste == "yadav").BJP.ToString() : 0.ToString(), x.Any(y => y.Caste == "obc") ? x.First(y => y.Caste == "obc").BJP.ToString() : 0.ToString(), x.Any(y => y.Caste == "dalit") ? x.First(y => y.Caste == "dalit").BJP.ToString() : 0.ToString(), x.Any(y => y.Caste == "muslim") ? x.First(y => y.Caste == "muslim").BJP.ToString() : 0.ToString(), x.Any(y => y.Caste == "others") ? x.First(y => y.Caste == "others").BJP.ToString() : 0.ToString() }));
-                xyz.Add(String.Join("\t", new string[] { x.First().AcNo, "inc", x.Any(y => y.Caste == "uch") ? x.First(y => y.Caste == "uch").Percent.ToString() : 0.ToString(), x.Any(y => y.Caste == "yadav") ? x.First(y => y.Caste == "yadav").Percent.ToString() : 0.ToString(), x.Any(y => y.Caste == "obc") ? x.First(y => y.Caste == "obc").Percent.ToString() : 0.ToString(), x.Any(y => y.Caste == "dalit") ? x.First(y => y.Caste == "dalit").Percent.ToString() : 0.ToString(), x.Any(y => y.Caste == "muslim") ? x.First(y => y.Caste == "muslim").Percent.ToString() : 0.ToString(), x.Any(y => y.Caste == "others") ? x.First(y => y.Caste == "others").Percent.ToString() : 0.ToString(), x.Any(y => y.Caste == "uch") ? x.First(y => y.Caste == "uch").INC.ToString() : 0.ToString(), x.Any(y => y.Caste == "yadav") ? x.First(y => y.Caste == "yadav").INC.ToString() : 0.ToString(), x.Any(y => y.Caste == "obc") ? x.First(y => y.Caste == "obc").INC.ToString() : 0.ToString(), x.Any(y => y.Caste == "dalit") ? x.First(y => y.Caste == "dalit").INC.ToString() : 0.ToString(), x.Any(y => y.Caste == "muslim") ? x.First(y => y.Caste == "muslim").INC.ToString() : 0.ToString(), x.Any(y => y.Caste == "others") ? x.First(y => y.Caste == "others").INC.ToString() : 0.ToString() }));
                 xyz.Add(String.Join("\t", new string[] { x.First().AcNo, "rjd", x.Any(y => y.Caste == "uch") ? x.First(y => y.Caste == "uch").Percent.ToString() : 0.ToString(), x.Any(y => y.Caste == "yadav") ? x.First(y => y.Caste == "yadav").Percent.ToString() : 0.ToString(), x.Any(y => y.Caste == "obc") ? x.First(y => y.Caste == "obc").Percent.ToString() : 0.ToString(), x.Any(y => y.Caste == "dalit") ? x.First(y => y.Caste == "dalit").Percent.ToString() : 0.ToString(), x.Any(y => y.Caste == "muslim") ? x.First(y => y.Caste == "muslim").Percent.ToString() : 0.ToString(), x.Any(y => y.Caste == "others") ? x.First(y => y.Caste == "others").Percent.ToString() : 0.ToString(), x.Any(y => y.Caste == "uch") ? x.First(y => y.Caste == "uch").RJD.ToString() : 0.ToString(), x.Any(y => y.Caste == "yadav") ? x.First(y => y.Caste == "yadav").RJD.ToString() : 0.ToString(), x.Any(y => y.Caste == "obc") ? x.First(y => y.Caste == "obc").RJD.ToString() : 0.ToString(), x.Any(y => y.Caste == "dalit") ? x.First(y => y.Caste == "dalit").RJD.ToString() : 0.ToString(), x.Any(y => y.Caste == "muslim") ? x.First(y => y.Caste == "muslim").RJD.ToString() : 0.ToString(), x.Any(y => y.Caste == "others") ? x.First(y => y.Caste == "others").RJD.ToString() : 0.ToString() }));
-                xyz.Add(String.Join("\t", new string[] { x.First().AcNo, "jdu", x.Any(y => y.Caste == "uch") ? x.First(y => y.Caste == "uch").Percent.ToString() : 0.ToString(), x.Any(y => y.Caste == "yadav") ? x.First(y => y.Caste == "yadav").Percent.ToString() : 0.ToString(), x.Any(y => y.Caste == "obc") ? x.First(y => y.Caste == "obc").Percent.ToString() : 0.ToString(), x.Any(y => y.Caste == "dalit") ? x.First(y => y.Caste == "dalit").Percent.ToString() : 0.ToString(), x.Any(y => y.Caste == "muslim") ? x.First(y => y.Caste == "muslim").Percent.ToString() : 0.ToString(), x.Any(y => y.Caste == "others") ? x.First(y => y.Caste == "others").Percent.ToString() : 0.ToString(), x.Any(y => y.Caste == "uch") ? x.First(y => y.Caste == "uch").JDU.ToString() : 0.ToString(), x.Any(y => y.Caste == "yadav") ? x.First(y => y.Caste == "yadav").JDU.ToString() : 0.ToString(), x.Any(y => y.Caste == "obc") ? x.First(y => y.Caste == "obc").JDU.ToString() : 0.ToString(), x.Any(y => y.Caste == "dalit") ? x.First(y => y.Caste == "dalit").JDU.ToString() : 0.ToString(), x.Any(y => y.Caste == "muslim") ? x.First(y => y.Caste == "muslim").JDU.ToString() : 0.ToString(), x.Any(y => y.Caste == "others") ? x.First(y => y.Caste == "others").JDU.ToString() : 0.ToString() }));
-                xyz.Add(String.Join("\t", new string[] { x.First().AcNo, "ljp", x.Any(y => y.Caste == "uch") ? x.First(y => y.Caste == "uch").Percent.ToString() : 0.ToString(), x.Any(y => y.Caste == "yadav") ? x.First(y => y.Caste == "yadav").Percent.ToString() : 0.ToString(), x.Any(y => y.Caste == "obc") ? x.First(y => y.Caste == "obc").Percent.ToString() : 0.ToString(), x.Any(y => y.Caste == "dalit") ? x.First(y => y.Caste == "dalit").Percent.ToString() : 0.ToString(), x.Any(y => y.Caste == "muslim") ? x.First(y => y.Caste == "muslim").Percent.ToString() : 0.ToString(), x.Any(y => y.Caste == "others") ? x.First(y => y.Caste == "others").Percent.ToString() : 0.ToString(), x.Any(y => y.Caste == "uch") ? x.First(y => y.Caste == "uch").LJP.ToString() : 0.ToString(), x.Any(y => y.Caste == "yadav") ? x.First(y => y.Caste == "yadav").LJP.ToString() : 0.ToString(), x.Any(y => y.Caste == "obc") ? x.First(y => y.Caste == "obc").LJP.ToString() : 0.ToString(), x.Any(y => y.Caste == "dalit") ? x.First(y => y.Caste == "dalit").LJP.ToString() : 0.ToString(), x.Any(y => y.Caste == "muslim") ? x.First(y => y.Caste == "muslim").LJP.ToString() : 0.ToString(), x.Any(y => y.Caste == "others") ? x.First(y => y.Caste == "others").LJP.ToString() : 0.ToString() }));
                 xyz.Add(String.Join("\t", new string[] { x.First().AcNo, "others", x.Any(y => y.Caste == "uch") ? x.First(y => y.Caste == "uch").Percent.ToString() : 0.ToString(), x.Any(y => y.Caste == "yadav") ? x.First(y => y.Caste == "yadav").Percent.ToString() : 0.ToString(), x.Any(y => y.Caste == "obc") ? x.First(y => y.Caste == "obc").Percent.ToString() : 0.ToString(), x.Any(y => y.Caste == "dalit") ? x.First(y => y.Caste == "dalit").Percent.ToString() : 0.ToString(), x.Any(y => y.Caste == "muslim") ? x.First(y => y.Caste == "muslim").Percent.ToString() : 0.ToString(), x.Any(y => y.Caste == "others") ? x.First(y => y.Caste == "others").Percent.ToString() : 0.ToString(), x.Any(y => y.Caste == "uch") ? x.First(y => y.Caste == "uch").Others.ToString() : 0.ToString(), x.Any(y => y.Caste == "yadav") ? x.First(y => y.Caste == "yadav").Others.ToString() : 0.ToString(), x.Any(y => y.Caste == "obc") ? x.First(y => y.Caste == "obc").Others.ToString() : 0.ToString(), x.Any(y => y.Caste == "dalit") ? x.First(y => y.Caste == "dalit").Others.ToString() : 0.ToString(), x.Any(y => y.Caste == "muslim") ? x.First(y => y.Caste == "muslim").Others.ToString() : 0.ToString(), x.Any(y => y.Caste == "others") ? x.First(y => y.Caste == "others").Others.ToString() : 0.ToString() }));  
-              return xyz;
+                return xyz;
             }
                 ));
             File.WriteAllLines(casteSharePerAcPartyParamsFile, formattedData);
