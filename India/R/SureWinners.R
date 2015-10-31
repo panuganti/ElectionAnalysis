@@ -14,3 +14,4 @@ names(results2015)[3] = "Result";
 extraction2015WithResults = merge(extraction2015,results2015,by=c("AcNo","Party"),all.x=TRUE);
 extraction2015WithResults$Result.x = NULL;
 names(extraction2015WithResults)[length(names(extraction2015WithResults))] = "Result";
+write.table(extraction2015WithResults,file="I:/ArchishaData/ElectionData/Bihar/Predictions2015/2015ExtractionWResults.tsv",quote=FALSE,sep="\t",row.names=FALSE)

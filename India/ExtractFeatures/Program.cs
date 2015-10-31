@@ -14,11 +14,12 @@ namespace ExtractFeatures
         static void Main(string[] args)
         {
             //ExtractAcFeatures();
-            ProcessCasteShareData();
+            //ProcessCasteShareData();
             //ProcessCasteShareData2015();
             //ExtractAcFeatures();
             //PrePoll.ExtractPrePollFeatures2010();
             //PrePoll.ExtractPrePollFeatures2015();
+            ProcessExtraction2015();
         }
 
         private static void ExtractCandidateFeatures()
@@ -431,6 +432,44 @@ namespace ExtractFeatures
                     throw new Exception();
             }
         }
-        
+
+        public static void ProcessExtraction2015()
+        {
+            string filename = "I:/ArchishaData/ElectionData/Bihar/Predictions2015/2015ExtractionWResults.tsv";
+            string outfile = "I:/ArchishaData/ElectionData/Bihar/Predictions2015/Extraction2015PlusResults.tsv";
+            string outfile1 = "I:/ArchishaData/ElectionData/Bihar/Predictions2015/Extraction2015WResults.tsv";
+            string outfile2 = "I:/ArchishaData/ElectionData/Bihar/Predictions2015/Extraction2015WOResults.tsv";
+            var allLines = File.ReadAllLines(filename);
+            var extraction = allLines.Skip(1).GroupBy(x =>
+            {
+                var parts = x.Split('\t');
+                return parts[0];
+            }).SelectMany(g=>
+            {
+                if (g.Any(y =>
+                {
+                    var parts = y.Split('\t');
+                    return parts[53].Equals("Perfect");
+                }))
+                {
+                    return g.Select(z =>
+                    {
+                        var parts = z.Split('\t');
+                        parts[53] = parts[53].Equals("Perfect") ? parts[53] : "Excellent";
+                        return String.Join("\t", parts);
+                    });                
+                }
+                return g;
+            }).ToArray();
+            var extractionWR = extraction.GroupBy(x => { var parts = x.Split('\t'); return parts[0];}).Where(g => g.Any(y => { var parts = y.Split('\t'); return parts[53].Equals("Perfect"); })).SelectMany(z=>z);
+            var extractionWOR = extraction.GroupBy(x => { var parts = x.Split('\t'); return parts[0]; }).Where(g => !g.Any(y => { var parts = y.Split('\t'); return parts[53].Equals("Perfect"); })).SelectMany(z => z); 
+
+            File.WriteAllLines(outfile, allLines.Take(1));
+            File.AppendAllLines(outfile, extraction);
+            File.WriteAllLines(outfile1, allLines.Take(1));
+            File.AppendAllLines(outfile1,extractionWR);
+            File.WriteAllLines(outfile2, allLines.Take(1));
+            File.AppendAllLines(outfile2, extractionWOR);
+        }
     }
 }
