@@ -59,7 +59,30 @@ module Controllers {
             this.allianceColorMap["JP+"] = "green";
             this.allianceColorMap["O"] = "black";
         }
-                        
+         
+        public Generate2015StyleMaps(acResults: Models.Result[]): AcStyleMap[]{
+            var colorService = new ColorService();
+            let en = Enumerable.From(acResults);
+            let acStyleMaps: AcStyleMap[] = [];
+            en.ForEach(element => {
+                let votes = Enumerable.From(en.Where(t=> t.Id == element.Id).First().Votes)
+                let party = votes.First(t=> t.Position == 1).Party;
+                let alliance = this.allianceMap[party];
+                let partyColor = this.allianceColorMap[alliance];
+                let styleMap = new AcStyleMap();
+                styleMap.Id = element.Id;
+                styleMap.Style = {
+                    strokeWeight: this.defaultStyle.strokeWeight,
+                    fillOpacity: this.defaultStyle.fillOpacity,
+                    strokeOpacity: this.defaultStyle.strokeOpacity,
+                    fillColor: partyColor
+                }
+                acStyleMaps.push(styleMap);
+            });
+            return acStyleMaps;
+        }
+
+        
         public GenerateStyleMaps(acResults: Models.Result[]): AcStyleMap[]{
             var colorService = new ColorService();
             let en = Enumerable.From(acResults);

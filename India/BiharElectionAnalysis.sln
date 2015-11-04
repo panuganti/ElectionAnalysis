@@ -35,8 +35,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrapeCVoterData", "ScrapeC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParseCandidateList", "ParseCandidateList\ParseCandidateList.csproj", "{BD2C3B6B-52D1-4231-9A01-56A37AFD314D}"
 EndProject
-Project("{202899A3-C531-4771-9089-0213D66978AE}") = "ScopeExtractionJoiner", "ScopeExtractionJoiner\ScopeExtractionJoiner.scopeproj", "{5BE96381-A27D-4C87-A459-B91E132DFDC3}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -161,14 +159,6 @@ Global
 		{BD2C3B6B-52D1-4231-9A01-56A37AFD314D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BD2C3B6B-52D1-4231-9A01-56A37AFD314D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{BD2C3B6B-52D1-4231-9A01-56A37AFD314D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{5BE96381-A27D-4C87-A459-B91E132DFDC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5BE96381-A27D-4C87-A459-B91E132DFDC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5BE96381-A27D-4C87-A459-B91E132DFDC3}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{5BE96381-A27D-4C87-A459-B91E132DFDC3}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{5BE96381-A27D-4C87-A459-B91E132DFDC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5BE96381-A27D-4C87-A459-B91E132DFDC3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5BE96381-A27D-4C87-A459-B91E132DFDC3}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{5BE96381-A27D-4C87-A459-B91E132DFDC3}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

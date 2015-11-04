@@ -136,10 +136,10 @@ namespace BiharElectionsLibrary
 
         // Misc
         others,
-        cantSay = 99,
+        cantSay,
         didNotVote,
         missingVote,
-        nota = 0,
+        nota,
         undecided,
         Error
         // ReSharper restore InconsistentNaming

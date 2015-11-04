@@ -1,11 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Configuration;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using BiharElectionsLibrary;
 
 namespace ExtractFeatures
 {
@@ -19,7 +15,8 @@ namespace ExtractFeatures
             //ExtractAcFeatures();
             //PrePoll.ExtractPrePollFeatures2010();
             //PrePoll.ExtractPrePollFeatures2015();
-            ProcessExtraction2015();
+            //ProcessExtraction2015();
+            PPT2015.Generate2015PredictionJson(@"I:\ArchishaData\ElectionData\Bihar\Predictions2015.txt", @"I:\ArchishaData\ElectionData\Bihar\Predictions2015.json");
         }
 
         private static void ExtractCandidateFeatures()
@@ -277,7 +274,7 @@ namespace ExtractFeatures
             var nPopGt100 = acCasteShares.Where(t => t.Sum(x => x.Percent) > 100).Select(x => new { Ac = x.Key, Sum = x.Sum(c => c.Percent) }).ToArray();
             var nPopEq0 = acCasteShares.Where(t => t.Sum(x => x.Percent) == 0).Select(x => x.Key).ToArray();
             var formattedData = new List<string>();
-            formattedData.Add(String.Join("\t", new string[] { "AcNo", "Party", "UCHPercent", "YadavPercent", "OBCPercent", "DalitPercent", "MuslimPercent", "OthersPercent", "UCHSupport", "YadavSupport", "OBCSupport", "DalitSupport", "MuslimSupport", "OthersSupport" }));
+            formattedData.Add(String.Join("\t", new[] { "AcNo", "Party", "UCHPercent", "YadavPercent", "OBCPercent", "DalitPercent", "MuslimPercent", "OthersPercent", "UCHSupport", "YadavSupport", "OBCSupport", "DalitSupport", "MuslimSupport", "OthersSupport" }));
 
             formattedData.AddRange(acCasteShares.Select(acs =>
             {

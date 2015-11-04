@@ -24,7 +24,7 @@ module Controllers {
         acName = "Ac Name";
 
         // Years
-        private years: string[] = ["2014", "2010", "2009"];
+        private years: string[] = ["2015", "2014", "2010", "2009"];
         private displayModes: string[] = ["Regular", "Stable"];
 
         public loadResultsHandler: { (response: any) } = (response) => this.loadResultsCallback(response);
@@ -95,7 +95,13 @@ module Controllers {
         }
 
         loadResultsCallback(acResults) {
-            let styleMapsArray = this.acStyleMap.GenerateStyleMaps(acResults);
+            let styleMapsArray: AcStyleMap[];
+            if (this.yearSelected == "2015") {
+                styleMapsArray = this.acStyleMap.Generate2015StyleMaps(acResults);
+            }
+            else {
+                styleMapsArray = this.acStyleMap.GenerateStyleMaps(acResults);
+            }    
             this.resultsSummary = this.acStyleMap.GenerateResultsSummary(acResults);
             let styleMaps = Enumerable.From(styleMapsArray);
             this.mapInstance.setStyle(function(feature) {

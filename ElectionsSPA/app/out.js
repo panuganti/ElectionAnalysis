@@ -58,6 +58,28 @@ var Controllers;
             this.allianceColorMap["JP+"] = "green";
             this.allianceColorMap["O"] = "black";
         };
+        AcStyleMap.prototype.Generate2015StyleMaps = function (acResults) {
+            var _this = this;
+            var colorService = new ColorService();
+            var en = Enumerable.From(acResults);
+            var acStyleMaps = [];
+            en.ForEach(function (element) {
+                var votes = Enumerable.From(en.Where(function (t) { return t.Id == element.Id; }).First().Votes);
+                var party = votes.First(function (t) { return t.Position == 1; }).Party;
+                var alliance = _this.allianceMap[party];
+                var partyColor = _this.allianceColorMap[alliance];
+                var styleMap = new AcStyleMap();
+                styleMap.Id = element.Id;
+                styleMap.Style = {
+                    strokeWeight: _this.defaultStyle.strokeWeight,
+                    fillOpacity: _this.defaultStyle.fillOpacity,
+                    strokeOpacity: _this.defaultStyle.strokeOpacity,
+                    fillColor: partyColor
+                };
+                acStyleMaps.push(styleMap);
+            });
+            return acStyleMaps;
+        };
         AcStyleMap.prototype.GenerateStyleMaps = function (acResults) {
             var _this = this;
             var colorService = new ColorService();
@@ -137,7 +159,7 @@ var Controllers;
             this._results2009Json = "json/results2009AcWise.json";
             this._results2010Json = "json/results2010AcWise.json";
             this._results2014Json = "json/results2014AcWise.json";
-            this._results2015Json = "json/results2015AcWise.json";
+            this._results2015Json = "json/predictions2015.json";
             this._localIssues2015 = "";
             this._localIssues2010 = "";
             this._casteDistribution = "";
@@ -292,7 +314,7 @@ var Controllers;
         function MapCtrl($scope, $http, $q, $timeout) {
             var _this = this;
             this.acName = "Ac Name";
-            this.years = ["2014", "2010", "2009"];
+            this.years = ["2015", "2014", "2010", "2009"];
             this.displayModes = ["Regular", "Stable"];
             this.loadResultsHandler = function (response) { return _this.loadResultsCallback(response); };
             this.mouseClickHandler = function (event) { return _this.mouseClick(event); };
@@ -348,7 +370,13 @@ var Controllers;
             pResults.then(this.loadResultsHandler);
         };
         MapCtrl.prototype.loadResultsCallback = function (acResults) {
-            var styleMapsArray = this.acStyleMap.GenerateStyleMaps(acResults);
+            var styleMapsArray;
+            if (this.yearSelected == "2015") {
+                styleMapsArray = this.acStyleMap.Generate2015StyleMaps(acResults);
+            }
+            else {
+                styleMapsArray = this.acStyleMap.GenerateStyleMaps(acResults);
+            }
             this.resultsSummary = this.acStyleMap.GenerateResultsSummary(acResults);
             var styleMaps = Enumerable.From(styleMapsArray);
             this.mapInstance.setStyle(function (feature) {
