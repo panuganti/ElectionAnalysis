@@ -222,7 +222,7 @@
       {
         "Name": "Pramod Kumar",
         "Party": "bjp",
-        "Votes": 3,
+        "Votes": 4,
         "Position": 1
       }
     ]
@@ -396,6 +396,18 @@
     ]
   },
   {
+    "Id": 34,
+    "Name": "Babubarhi",
+    "Votes": [
+      {
+        "Name": "Kapil Deo Kamat",
+        "Party": "rjd",
+        "Votes": 5,
+        "Position": 1
+      }
+    ]
+  },
+  {
     "Id": 35,
     "Name": "Bisfi",
     "Votes": [
@@ -558,6 +570,18 @@
       {
         "Name": "Krityanand Biswas",
         "Party": "rjd",
+        "Votes": 5,
+        "Position": 1
+      }
+    ]
+  },
+  {
+    "Id": 49,
+    "Name": "Araria",
+    "Votes": [
+      {
+        "Name": "Abidur Rahman",
+        "Party": "inc",
         "Votes": 5,
         "Position": 1
       }
@@ -2238,7 +2262,7 @@
       {
         "Name": "Nutan Paswan",
         "Party": "ham",
-        "Votes": 2,
+        "Votes": 3,
         "Position": 1
       }
     ]
@@ -2705,6 +2729,18 @@
     "Votes": [
       {
         "Name": "Samata Devi",
+        "Party": "rjd",
+        "Votes": 2,
+        "Position": 1
+      }
+    ]
+  },
+  {
+    "Id": 229,
+    "Name": "Bodh Gaya",
+    "Votes": [
+      {
+        "Name": "Kumar Sarvjeet",
         "Party": "rjd",
         "Votes": 2,
         "Position": 1

@@ -70,10 +70,12 @@ var Controllers;
                 var partyColor = _this.allianceColorMap[alliance];
                 var styleMap = new AcStyleMap();
                 styleMap.Id = element.Id;
+                var phase = votes.First(function (t) { return t.Position == 1; }).Votes;
+                var opacity = phase != 5 ? 0 : _this.defaultStyle.fillOpacity;
                 styleMap.Style = {
                     strokeWeight: _this.defaultStyle.strokeWeight,
-                    fillOpacity: _this.defaultStyle.fillOpacity,
-                    strokeOpacity: _this.defaultStyle.strokeOpacity,
+                    fillOpacity: opacity,
+                    strokeOpacity: 1,
                     fillColor: partyColor
                 };
                 acStyleMaps.push(styleMap);

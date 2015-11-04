@@ -16,7 +16,7 @@ namespace ExtractFeatures
             //PrePoll.ExtractPrePollFeatures2010();
             //PrePoll.ExtractPrePollFeatures2015();
             //ProcessExtraction2015();
-            PPT2015.Generate2015PredictionJson(@"I:\ArchishaData\ElectionData\Bihar\Predictions2015.txt", @"I:\ArchishaData\ElectionData\Bihar\Predictions2015.json");
+            PPT2015.Generate2015PredictionJson(@"C:\Business\ElectionAnalysis\CommonData\Predictions2015.txt", @"C:\Business\ElectionAnalysis\CommonData\predictions2015.json");
         }
 
         private static void ExtractCandidateFeatures()

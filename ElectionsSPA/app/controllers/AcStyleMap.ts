@@ -71,10 +71,12 @@ module Controllers {
                 let partyColor = this.allianceColorMap[alliance];
                 let styleMap = new AcStyleMap();
                 styleMap.Id = element.Id;
+                let phase = votes.First(t=> t.Position == 1).Votes;
+                let opacity = phase != 5 ? 0: this.defaultStyle.fillOpacity;
                 styleMap.Style = {
                     strokeWeight: this.defaultStyle.strokeWeight,
-                    fillOpacity: this.defaultStyle.fillOpacity,
-                    strokeOpacity: this.defaultStyle.strokeOpacity,
+                    fillOpacity: opacity,
+                    strokeOpacity: 1,
                     fillColor: partyColor
                 }
                 acStyleMaps.push(styleMap);
