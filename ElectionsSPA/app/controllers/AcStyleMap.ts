@@ -59,7 +59,27 @@ module Controllers {
             this.allianceColorMap["JP+"] = "green";
             this.allianceColorMap["O"] = "black";
         }
-         
+
+        public Generate2015InfoMaps(acDistrib: Models.Distribution[]): AcStyleMap[] {
+            var colorService = new ColorService();
+            let en = Enumerable.From(acDistrib);
+            let acStyleMaps: AcStyleMap[] = [];
+            en.ForEach(element => {
+                let styleMap = new AcStyleMap();
+                styleMap.Id = element.AcNo;
+                let percent = element.Percent;
+                let color = colorService.getColor("red", percent,0,40);
+                styleMap.Style = {
+                    strokeWeight: this.defaultStyle.strokeWeight,
+                    fillOpacity: this.defaultStyle.fillOpacity,
+                    strokeOpacity: this.defaultStyle.strokeOpacity,
+                    fillColor: color
+                }
+                acStyleMaps.push(styleMap);
+            });
+            return acStyleMaps;            
+        }
+        
         public Generate2015StyleMaps(acResults: Models.Result[]): AcStyleMap[]{
             var colorService = new ColorService();
             let en = Enumerable.From(acResults);

@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Runtime.Serialization;
+using Newtonsoft.Json;
 
 namespace ExtractFeatures
 {
@@ -16,7 +18,26 @@ namespace ExtractFeatures
             //PrePoll.ExtractPrePollFeatures2010();
             //PrePoll.ExtractPrePollFeatures2015();
             //ProcessExtraction2015();
-            PPT2015.Generate2015PredictionJson(@"C:\Business\ElectionAnalysis\CommonData\Predictions2015.txt", @"C:\Business\ElectionAnalysis\CommonData\predictions2015.json");
+            //PPT2015.Generate2015PredictionJson(@"C:\Business\ElectionAnalysis\CommonData\Predictions2015.txt", @"C:\Business\ElectionAnalysis\CommonData\predictions2015.json");
+            string infile = @"I:\ArchishaData\ElectionData\Bihar\Predictions2015\muslimDistrib.tsv";
+            string outfile = @"I:\ArchishaData\ElectionData\Bihar\Predictions2015\muslimDistrib.json";
+            GenerateDistribution(infile, outfile);
+        }
+
+        [DataContract]
+        public class Distribution
+        {
+            [DataMember]
+            public string AcNo { get; set; }
+            [DataMember]
+            public string Percent { get; set; }
+        }
+
+        private static void GenerateDistribution(string infile, string outfile)
+        {
+            var allLines = File.ReadAllLines(infile).Skip(1).Select(x => 
+                    { var parts = x.Split('\t'); return new Distribution{AcNo = parts[0], Percent = parts[1]};});
+            File.WriteAllText(outfile,JsonConvert.SerializeObject(allLines, Formatting.Indented));
         }
 
         private static void ExtractCandidateFeatures()

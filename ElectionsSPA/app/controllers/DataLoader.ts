@@ -6,7 +6,7 @@ module Controllers {
         private _results2009Json: string = "json/results2009AcWise.json";
         private _results2010Json: string = "json/results2010AcWise.json";
         private _results2014Json: string = "json/results2014AcWise.json";
-        private _results2015Json: string = "json/predictions2015.json";
+        private _results2015Json: string = "json/yadavDistrib.json";
         private _localIssues2015: string = "";
         private _localIssues2010: string = "";
         private _casteDistribution: string = "";

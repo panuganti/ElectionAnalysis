@@ -24,5 +24,10 @@ module Models {
 		Position: number;
 		Name: string;
 		Party: string;
-	}		
+	}
+	
+	export class Distribution {
+		AcNo: number;
+		Percent: number;
+	}
 }

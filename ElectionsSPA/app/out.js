@@ -58,6 +58,26 @@ var Controllers;
             this.allianceColorMap["JP+"] = "green";
             this.allianceColorMap["O"] = "black";
         };
+        AcStyleMap.prototype.Generate2015InfoMaps = function (acDistrib) {
+            var _this = this;
+            var colorService = new ColorService();
+            var en = Enumerable.From(acDistrib);
+            var acStyleMaps = [];
+            en.ForEach(function (element) {
+                var styleMap = new AcStyleMap();
+                styleMap.Id = element.AcNo;
+                var percent = element.Percent;
+                var color = colorService.getColor("red", percent, 0, 40);
+                styleMap.Style = {
+                    strokeWeight: _this.defaultStyle.strokeWeight,
+                    fillOpacity: _this.defaultStyle.fillOpacity,
+                    strokeOpacity: _this.defaultStyle.strokeOpacity,
+                    fillColor: color
+                };
+                acStyleMaps.push(styleMap);
+            });
+            return acStyleMaps;
+        };
         AcStyleMap.prototype.Generate2015StyleMaps = function (acResults) {
             var _this = this;
             var colorService = new ColorService();
@@ -161,7 +181,7 @@ var Controllers;
             this._results2009Json = "json/results2009AcWise.json";
             this._results2010Json = "json/results2010AcWise.json";
             this._results2014Json = "json/results2014AcWise.json";
-            this._results2015Json = "json/predictions2015.json";
+            this._results2015Json = "json/yadavDistrib.json";
             this._localIssues2015 = "";
             this._localIssues2010 = "";
             this._casteDistribution = "";
@@ -374,12 +394,11 @@ var Controllers;
         MapCtrl.prototype.loadResultsCallback = function (acResults) {
             var styleMapsArray;
             if (this.yearSelected == "2015") {
-                styleMapsArray = this.acStyleMap.Generate2015StyleMaps(acResults);
+                styleMapsArray = this.acStyleMap.Generate2015InfoMaps(acResults);
             }
             else {
                 styleMapsArray = this.acStyleMap.GenerateStyleMaps(acResults);
             }
-            this.resultsSummary = this.acStyleMap.GenerateResultsSummary(acResults);
             var styleMaps = Enumerable.From(styleMapsArray);
             this.mapInstance.setStyle(function (feature) {
                 var id = feature.getProperty('ac');
@@ -553,6 +572,12 @@ var Models;
         return CandidateVote;
     })();
     Models.CandidateVote = CandidateVote;
+    var Distribution = (function () {
+        function Distribution() {
+        }
+        return Distribution;
+    })();
+    Models.Distribution = Distribution;
 })(Models || (Models = {}));
 /// <reference path="../reference.ts" />
 var Models;
@@ -788,7 +813,7 @@ var ColorService = (function () {
                 throw new Error("color not supported: " + color);
         }
         var colorScale = d3.scale.quantize()
-            .domain([min - 10, max]).range(colors);
+            .domain([min, max]).range(colors);
         return colorScale(value);
     };
     return ColorService;

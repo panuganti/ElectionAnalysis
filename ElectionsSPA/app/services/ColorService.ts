@@ -57,7 +57,7 @@ class ColorService{
 				throw new Error("color not supported: " + color)							    
 		}
 		var colorScale = d3.scale.quantize()
-			.domain([min-10, max]).range(colors);
+			.domain([min, max]).range(colors);
 		return colorScale(value);
 	}
 }

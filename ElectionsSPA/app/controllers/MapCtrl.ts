@@ -97,12 +97,12 @@ module Controllers {
         loadResultsCallback(acResults) {
             let styleMapsArray: AcStyleMap[];
             if (this.yearSelected == "2015") {
-                styleMapsArray = this.acStyleMap.Generate2015StyleMaps(acResults);
+                styleMapsArray = this.acStyleMap.Generate2015InfoMaps(acResults);
             }
             else {
                 styleMapsArray = this.acStyleMap.GenerateStyleMaps(acResults);
             }    
-            this.resultsSummary = this.acStyleMap.GenerateResultsSummary(acResults);
+            //this.resultsSummary = this.acStyleMap.GenerateResultsSummary(acResults);
             let styleMaps = Enumerable.From(styleMapsArray);
             this.mapInstance.setStyle(function(feature) {
                 let id = feature.getProperty('ac');
