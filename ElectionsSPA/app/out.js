@@ -56,7 +56,7 @@ var Controllers;
             this.allianceColorMap = {};
             this.allianceColorMap["BJP+"] = "orange";
             this.allianceColorMap["JP+"] = "green";
-            this.allianceColorMap["O"] = "black";
+            this.allianceColorMap["O"] = "red";
         };
         AcStyleMap.prototype.Generate2015InfoMaps = function (acDistrib) {
             var _this = this;
@@ -181,7 +181,7 @@ var Controllers;
             this._results2009Json = "json/results2009AcWise.json";
             this._results2010Json = "json/results2010AcWise.json";
             this._results2014Json = "json/results2014AcWise.json";
-            this._results2015Json = "json/yadavDistrib.json";
+            this._results2015Json = "json/correctness2015AcWise.json";
             this._localIssues2015 = "";
             this._localIssues2010 = "";
             this._casteDistribution = "";
@@ -393,12 +393,8 @@ var Controllers;
         };
         MapCtrl.prototype.loadResultsCallback = function (acResults) {
             var styleMapsArray;
-            if (this.yearSelected == "2015") {
-                styleMapsArray = this.acStyleMap.Generate2015InfoMaps(acResults);
-            }
-            else {
-                styleMapsArray = this.acStyleMap.GenerateStyleMaps(acResults);
-            }
+            styleMapsArray = this.acStyleMap.GenerateStyleMaps(acResults);
+            this.resultsSummary = this.acStyleMap.GenerateResultsSummary(acResults);
             var styleMaps = Enumerable.From(styleMapsArray);
             this.mapInstance.setStyle(function (feature) {
                 var id = feature.getProperty('ac');

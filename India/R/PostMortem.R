@@ -1,10 +1,8 @@
-BiharPredictions = read.delim("C:/Users/rajkiran/Downloads/BiharPredictions.tsv", strip.white=TRUE, stringsAsFactors = FALSE)
-results = read.delim("C:/Users/rajkiran/Downloads/BiharResults.tsv", strip.white=TRUE, stringsAsFactors = FALSE)
+BiharPredictions = read.delim("I:\\ArchishaData\\ElectionData\\RawData\\BiharPredictions.tsv", strip.white=TRUE, stringsAsFactors = FALSE)
+results = read.delim("I:\\ArchishaData\\ElectionData\\RawData\\BiharResults.tsv", strip.white=TRUE, stringsAsFactors = FALSE)
 names(results)[1] = "AcNo";
 predictions_results = merge(BiharPredictions,results,by=c("AcNo"))
 predictions_results$District = NULL
-predictions_results$X = NULL
-predictions_results$X.1 = NULL
 names(predictions_results)[5] = "PredictedWinnerParty"
 names(predictions_results)[10] = "WinnerParty"
 names(predictions_results)[11] = "WinnerVotes"

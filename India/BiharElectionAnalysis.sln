@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrapeCVoterData", "ScrapeC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParseCandidateList", "ParseCandidateList\ParseCandidateList.csproj", "{BD2C3B6B-52D1-4231-9A01-56A37AFD314D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostPollAnalysis", "PostPollAnalysis\PostPollAnalysis.csproj", "{50DC3DB6-E134-42B6-B0B2-FEE775F14F31}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +161,14 @@ Global
 		{BD2C3B6B-52D1-4231-9A01-56A37AFD314D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BD2C3B6B-52D1-4231-9A01-56A37AFD314D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{BD2C3B6B-52D1-4231-9A01-56A37AFD314D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{50DC3DB6-E134-42B6-B0B2-FEE775F14F31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50DC3DB6-E134-42B6-B0B2-FEE775F14F31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50DC3DB6-E134-42B6-B0B2-FEE775F14F31}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{50DC3DB6-E134-42B6-B0B2-FEE775F14F31}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{50DC3DB6-E134-42B6-B0B2-FEE775F14F31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50DC3DB6-E134-42B6-B0B2-FEE775F14F31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50DC3DB6-E134-42B6-B0B2-FEE775F14F31}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{50DC3DB6-E134-42B6-B0B2-FEE775F14F31}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

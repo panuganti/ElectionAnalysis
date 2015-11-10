@@ -1,0 +1,4376 @@
+[
+  {
+    "Id": 1,
+    "Name": "1-VALMIKI NAGAR",
+    "Votes": [
+      {
+        "Name": "Dhirendra Pratap Singh Alias Rinku Singh",
+        "Party": "ind",
+        "Votes": 66860,
+        "Position": 1
+      },
+      {
+        "Name": "Irshad Hussain",
+        "Party": "inc",
+        "Votes": 33280,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "Name": "2-RAMNAGAR",
+    "Votes": [
+      {
+        "Name": "Bhagirathi Devi",
+        "Party": "bjp",
+        "Votes": 82166,
+        "Position": 1
+      },
+      {
+        "Name": "Purnmasi Ram",
+        "Party": "inc",
+        "Votes": 64178,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 3,
+    "Name": "3-NARKATIAGANJ",
+    "Votes": [
+      {
+        "Name": "Vinay Varma",
+        "Party": "inc",
+        "Votes": 57212,
+        "Position": 1
+      },
+      {
+        "Name": "Renu Devi",
+        "Party": "bjp",
+        "Votes": 41151,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 4,
+    "Name": "4-BAGAHA",
+    "Votes": [
+      {
+        "Name": "Raghaw Sharan Pandey",
+        "Party": "bjp",
+        "Votes": 74476,
+        "Position": 1
+      },
+      {
+        "Name": "Bhishm Sahani",
+        "Party": "jdu",
+        "Votes": 66293,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 5,
+    "Name": "5-LAURIYA",
+    "Votes": [
+      {
+        "Name": "Vinay Bihari",
+        "Party": "bjp",
+        "Votes": 57351,
+        "Position": 1
+      },
+      {
+        "Name": "Ran Kaushal Pratap Singh",
+        "Party": "rjd",
+        "Votes": 39778,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 6,
+    "Name": "6-NAUTAN",
+    "Votes": [
+      {
+        "Name": "Narayan Prasad",
+        "Party": "bjp",
+        "Votes": 66697,
+        "Position": 1
+      },
+      {
+        "Name": "Baidyanath Prasad Mahto",
+        "Party": "jdu",
+        "Votes": 52362,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 7,
+    "Name": "7-CHANPATIA",
+    "Votes": [
+      {
+        "Name": "Prakash Rai",
+        "Party": "bjp",
+        "Votes": 61304,
+        "Position": 1
+      },
+      {
+        "Name": "N. N. Sahi",
+        "Party": "jdu",
+        "Votes": 60840,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 8,
+    "Name": "8-BETTIAH",
+    "Votes": [
+      {
+        "Name": "Madan Mohan Tiwari",
+        "Party": "inc",
+        "Votes": 66786,
+        "Position": 1
+      },
+      {
+        "Name": "Renu Devi",
+        "Party": "bjp",
+        "Votes": 64466,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 9,
+    "Name": "9-SIKTA",
+    "Votes": [
+      {
+        "Name": "KHURSHID URF FIROJ AHMAD",
+        "Party": "jdu",
+        "Votes": 69870,
+        "Position": 1
+      },
+      {
+        "Name": "DILIP VARMA",
+        "Party": "bjp",
+        "Votes": 67035,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 10,
+    "Name": "10-RAXAUL",
+    "Votes": [
+      {
+        "Name": "AJAY KUMAR SINGH",
+        "Party": "bjp",
+        "Votes": 64731,
+        "Position": 1
+      },
+      {
+        "Name": "SURESH KUMAR",
+        "Party": "rjd",
+        "Votes": 61562,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 11,
+    "Name": "11-SUGAULI",
+    "Votes": [
+      {
+        "Name": "Ramchandra Sahni",
+        "Party": "bjp",
+        "Votes": 62384,
+        "Position": 1
+      },
+      {
+        "Name": "Om Prakash Choudhary",
+        "Party": "rjd",
+        "Votes": 54628,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 12,
+    "Name": "12-NARAKTIYA",
+    "Votes": [
+      {
+        "Name": "SHAMIM AHMAD",
+        "Party": "rjd",
+        "Votes": 75118,
+        "Position": 1
+      },
+      {
+        "Name": "SANT SINGH KUSHWAHA",
+        "Party": "rlsp",
+        "Votes": 55136,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 13,
+    "Name": "13-HARSIDHI",
+    "Votes": [
+      {
+        "Name": "RAJENDRA KUMAR",
+        "Party": "rjd",
+        "Votes": 75203,
+        "Position": 1
+      },
+      {
+        "Name": "KRISHNANDAN PASWAN",
+        "Party": "bjp",
+        "Votes": 64936,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 14,
+    "Name": "14-GOVINDGANJ",
+    "Votes": [
+      {
+        "Name": "Raju Tiwari",
+        "Party": "ljp",
+        "Votes": 74685,
+        "Position": 1
+      },
+      {
+        "Name": "Brajesh Kumar",
+        "Party": "inc",
+        "Votes": 46765,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 15,
+    "Name": "15-KESARIA",
+    "Votes": [
+      {
+        "Name": "Dr. Rajesh Kumar",
+        "Party": "rjd",
+        "Votes": 62902,
+        "Position": 1
+      },
+      {
+        "Name": "Rajendra Prasad Gupta",
+        "Party": "bjp",
+        "Votes": 46955,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 16,
+    "Name": "16-KALYANPUR",
+    "Votes": [
+      {
+        "Name": "Sachindra Prasad Singh",
+        "Party": "bjp",
+        "Votes": 50060,
+        "Position": 1
+      },
+      {
+        "Name": "Razia Khatoon",
+        "Party": "jdu",
+        "Votes": 38572,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 17,
+    "Name": "17-PIPRA",
+    "Votes": [
+      {
+        "Name": "Shyambabu Prasad Yadav",
+        "Party": "bjp",
+        "Votes": 65552,
+        "Position": 1
+      },
+      {
+        "Name": "Krishan Chandra",
+        "Party": "jdu",
+        "Votes": 61622,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 18,
+    "Name": "18-MADHUBAN",
+    "Votes": [
+      {
+        "Name": "Rana Randhir",
+        "Party": "bjp",
+        "Votes": 61054,
+        "Position": 1
+      },
+      {
+        "Name": "Shivajee Rai",
+        "Party": "jdu",
+        "Votes": 44832,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 19,
+    "Name": "19-MOTIHARI",
+    "Votes": [
+      {
+        "Name": "Pramod Kumar",
+        "Party": "bjp",
+        "Votes": 79947,
+        "Position": 1
+      },
+      {
+        "Name": "Binod Kumar Shrivastava",
+        "Party": "rjd",
+        "Votes": 61430,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 20,
+    "Name": "20-CHIRAIA",
+    "Votes": [
+      {
+        "Name": "Lal Babu Prasad Gupta",
+        "Party": "bjp",
+        "Votes": 62831,
+        "Position": 1
+      },
+      {
+        "Name": "Laxmi Narayan Prasad Yadav",
+        "Party": "rjd",
+        "Votes": 58457,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 21,
+    "Name": "21-DHAKA",
+    "Votes": [
+      {
+        "Name": "FAISAL RAHMAN",
+        "Party": "rjd",
+        "Votes": 87458,
+        "Position": 1
+      },
+      {
+        "Name": "PAWAN KUMAR JAISWAL",
+        "Party": "bjp",
+        "Votes": 68261,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 22,
+    "Name": "22-SHEOHAR",
+    "Votes": [
+      {
+        "Name": "SHARFUDDIN",
+        "Party": "jdu",
+        "Votes": 44576,
+        "Position": 1
+      },
+      {
+        "Name": "LABHALI ANAND",
+        "Party": "ham",
+        "Votes": 44115,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 23,
+    "Name": "23-RIGA",
+    "Votes": [
+      {
+        "Name": "Amit Kumar",
+        "Party": "inc",
+        "Votes": 79217,
+        "Position": 1
+      },
+      {
+        "Name": "Moti Lal Prasad",
+        "Party": "bjp",
+        "Votes": 56361,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 24,
+    "Name": "24-BATHNAHA",
+    "Votes": [
+      {
+        "Name": "Dinkar Ram",
+        "Party": "bjp",
+        "Votes": 74763,
+        "Position": 1
+      },
+      {
+        "Name": "Surendra Ram",
+        "Party": "inc",
+        "Votes": 54597,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 25,
+    "Name": "25-PARIHAR",
+    "Votes": [
+      {
+        "Name": "Gaytri Devi",
+        "Party": "bjp",
+        "Votes": 66388,
+        "Position": 1
+      },
+      {
+        "Name": "Ram Chandra Purve",
+        "Party": "rjd",
+        "Votes": 62371,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 26,
+    "Name": "26-SURSAND",
+    "Votes": [
+      {
+        "Name": "Syed Abu Dojana",
+        "Party": "rjd",
+        "Votes": 52857,
+        "Position": 1
+      },
+      {
+        "Name": "Amit Kumar",
+        "Party": "ind",
+        "Votes": 29623,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 27,
+    "Name": "27-BAJPATTI",
+    "Votes": [
+      {
+        "Name": "Dr. Ranju Geeta",
+        "Party": "jdu",
+        "Votes": 67194,
+        "Position": 1
+      },
+      {
+        "Name": "Rekha Kumari",
+        "Party": "rlsp",
+        "Votes": 50248,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 28,
+    "Name": "28-SITAMARHI",
+    "Votes": [
+      {
+        "Name": "Sunil Kumar",
+        "Party": "rjd",
+        "Votes": 81557,
+        "Position": 1
+      },
+      {
+        "Name": "Sunil Kumar Alias Pintu",
+        "Party": "bjp",
+        "Votes": 66835,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 29,
+    "Name": "29-RUNNISAIDPUR",
+    "Votes": [
+      {
+        "Name": "Mangita Devi",
+        "Party": "rjd",
+        "Votes": 55699,
+        "Position": 1
+      },
+      {
+        "Name": "Pankaj Kumar Mishra",
+        "Party": "rlsp",
+        "Votes": 41589,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 30,
+    "Name": "30-BELSAND",
+    "Votes": [
+      {
+        "Name": "Sunita Singh Chauhan",
+        "Party": "jdu",
+        "Votes": 33785,
+        "Position": 1
+      },
+      {
+        "Name": "Md. Nasir Ahmad",
+        "Party": "ljp",
+        "Votes": 28210,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 31,
+    "Name": "31-HARLAKHI",
+    "Votes": [
+      {
+        "Name": "Basant kumar",
+        "Party": "rlsp",
+        "Votes": 40468,
+        "Position": 1
+      },
+      {
+        "Name": "Mohammad Shabbir",
+        "Party": "inc",
+        "Votes": 36576,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 32,
+    "Name": "32-BENIPATTI",
+    "Votes": [
+      {
+        "Name": "Bhawana Jha",
+        "Party": "inc",
+        "Votes": 55978,
+        "Position": 1
+      },
+      {
+        "Name": "VINOD NARAIN JHA",
+        "Party": "bjp",
+        "Votes": 51244,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 33,
+    "Name": "33-KHAJAULI",
+    "Votes": [
+      {
+        "Name": "SITARAM YADAV",
+        "Party": "rjd",
+        "Votes": 71534,
+        "Position": 1
+      },
+      {
+        "Name": "ARUN SHANKAR PRASAD",
+        "Party": "bjp",
+        "Votes": 60831,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 34,
+    "Name": "34-BABUBARHI",
+    "Votes": [
+      {
+        "Name": "Kapil Deo Kamat",
+        "Party": "jdu",
+        "Votes": 61486,
+        "Position": 1
+      },
+      {
+        "Name": "Binod Kumar Singh",
+        "Party": "ljp",
+        "Votes": 41219,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 35,
+    "Name": "35-BISFI",
+    "Votes": [
+      {
+        "Name": "Faiyaz Ahmad",
+        "Party": "rjd",
+        "Votes": 70975,
+        "Position": 1
+      },
+      {
+        "Name": "Manoj Kumar Yadav (Bhoj Pandaul,)",
+        "Party": "rlsp",
+        "Votes": 35650,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 36,
+    "Name": "36-MADHUBANI",
+    "Votes": [
+      {
+        "Name": "SAMIR KUMAR MAHASETH",
+        "Party": "rjd",
+        "Votes": 76823,
+        "Position": 1
+      },
+      {
+        "Name": "RAMDEO MAHTO",
+        "Party": "bjp",
+        "Votes": 69516,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 37,
+    "Name": "37-RAJNAGAR",
+    "Votes": [
+      {
+        "Name": "RAM PRIT PASWAN",
+        "Party": "bjp",
+        "Votes": 71614,
+        "Position": 1
+      },
+      {
+        "Name": "RAMAWATAR PASWAN",
+        "Party": "rjd",
+        "Votes": 65372,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 38,
+    "Name": "38-JHANJHARPUR",
+    "Votes": [
+      {
+        "Name": "GULAB YADAV",
+        "Party": "rjd",
+        "Votes": 64320,
+        "Position": 1
+      },
+      {
+        "Name": "NITISH MISHRA",
+        "Party": "bjp",
+        "Votes": 63486,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 39,
+    "Name": "39-PHULPARAS",
+    "Votes": [
+      {
+        "Name": "GULJAR DEVI",
+        "Party": "jdu",
+        "Votes": 64368,
+        "Position": 1
+      },
+      {
+        "Name": "RAM SUNDAR YADAV",
+        "Party": "bjp",
+        "Votes": 50953,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 40,
+    "Name": "40-LAUKAHA",
+    "Votes": [
+      {
+        "Name": "Lakshmeshwar Roy",
+        "Party": "jdu",
+        "Votes": 79971,
+        "Position": 1
+      },
+      {
+        "Name": "Pramod Kumar Priyedarshi",
+        "Party": "bjp",
+        "Votes": 56138,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 41,
+    "Name": "41-NIRMALI",
+    "Votes": [
+      {
+        "Name": "Anirudh Prasad Yadav",
+        "Party": "jdu",
+        "Votes": 79600,
+        "Position": 1
+      },
+      {
+        "Name": "Ram Kumar Roy",
+        "Party": "bjp",
+        "Votes": 55649,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 42,
+    "Name": "42-PIPRA",
+    "Votes": [
+      {
+        "Name": "YADUBANSH KUMAR YADAV",
+        "Party": "rjd",
+        "Votes": 85944,
+        "Position": 1
+      },
+      {
+        "Name": "VISHWAMOHAN KUMAR",
+        "Party": "bjp",
+        "Votes": 49575,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 43,
+    "Name": "43-SUPAUL",
+    "Votes": [
+      {
+        "Name": "Bijendra Prasad Yadav",
+        "Party": "jdu",
+        "Votes": 82295,
+        "Position": 1
+      },
+      {
+        "Name": "Kishor Kumar",
+        "Party": "bjp",
+        "Votes": 44898,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 44,
+    "Name": "44-TRIVENIGANJ",
+    "Votes": [
+      {
+        "Name": "VEENA BHARTI",
+        "Party": "jdu",
+        "Votes": 89869,
+        "Position": 1
+      },
+      {
+        "Name": "ANANT KUMAR BHARTI",
+        "Party": "ljp",
+        "Votes": 37469,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 45,
+    "Name": "45-CHHATAPUR",
+    "Votes": [
+      {
+        "Name": "Niraj Kumar Singh",
+        "Party": "bjp",
+        "Votes": 75697,
+        "Position": 1
+      },
+      {
+        "Name": "Jahur Alam",
+        "Party": "rjd",
+        "Votes": 66405,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 46,
+    "Name": "46-NARPATGANJ",
+    "Votes": [
+      {
+        "Name": "ANIL KUMAR YADAV",
+        "Party": "rjd",
+        "Votes": 90250,
+        "Position": 1
+      },
+      {
+        "Name": "JANARDAN YADAV",
+        "Party": "bjp",
+        "Votes": 64299,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 47,
+    "Name": "47-RANIGANJ",
+    "Votes": [
+      {
+        "Name": "Achmit Rishidev",
+        "Party": "jdu",
+        "Votes": 77717,
+        "Position": 1
+      },
+      {
+        "Name": "Ramji Das Rishidev",
+        "Party": "bjp",
+        "Votes": 62787,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 48,
+    "Name": "48-FORBESGANJ",
+    "Votes": [
+      {
+        "Name": "Vidya sagar Keshri",
+        "Party": "bjp",
+        "Votes": 85929,
+        "Position": 1
+      },
+      {
+        "Name": "Krityanand Biswas",
+        "Party": "rjd",
+        "Votes": 60691,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 49,
+    "Name": "49-ARARIA",
+    "Votes": [
+      {
+        "Name": "Avidur Rahman",
+        "Party": "inc",
+        "Votes": 92667,
+        "Position": 1
+      },
+      {
+        "Name": "Ajay Kumar Jha",
+        "Party": "ljp",
+        "Votes": 52623,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 50,
+    "Name": "50-JOKIHAT",
+    "Votes": [
+      {
+        "Name": "Sarfraz Alam",
+        "Party": "jdu",
+        "Votes": 92890,
+        "Position": 1
+      },
+      {
+        "Name": "Ranjeet Yadav",
+        "Party": "ind",
+        "Votes": 38910,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 51,
+    "Name": "51-SIKTI",
+    "Votes": [
+      {
+        "Name": "Vijay Kumar Mandal",
+        "Party": "bjp",
+        "Votes": 76995,
+        "Position": 1
+      },
+      {
+        "Name": "Shatrughan Prasad Suman",
+        "Party": "jdu",
+        "Votes": 68889,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 52,
+    "Name": "52-BAHADURGANJ",
+    "Votes": [
+      {
+        "Name": "M.D. Tauseef Alam",
+        "Party": "inc",
+        "Votes": 53533,
+        "Position": 1
+      },
+      {
+        "Name": "Awadh Bihari Singh",
+        "Party": "bjp",
+        "Votes": 39591,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 53,
+    "Name": "53-THAKURGANJ",
+    "Votes": [
+      {
+        "Name": "NAUSHAD ALAM(Tatpauwa)",
+        "Party": "jdu",
+        "Votes": 74239,
+        "Position": 1
+      },
+      {
+        "Name": "GOPAL KUMAR AGRAWAL",
+        "Party": "ljp",
+        "Votes": 66152,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 54,
+    "Name": "54-KISHANGANJ",
+    "Votes": [
+      {
+        "Name": "Dr Mohammad Jawaid",
+        "Party": "inc",
+        "Votes": 66522,
+        "Position": 1
+      },
+      {
+        "Name": "Sweety Singh",
+        "Party": "bjp",
+        "Votes": 57913,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 55,
+    "Name": "55-KOCHADHAMAN",
+    "Votes": [
+      {
+        "Name": "Mujahid Alam",
+        "Party": "jdu",
+        "Votes": 55929,
+        "Position": 1
+      },
+      {
+        "Name": "Akhtarul Iman",
+        "Party": "aimim",
+        "Votes": 37086,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 56,
+    "Name": "56-AMOUR",
+    "Votes": [
+      {
+        "Name": "Abdul Jalil Mastan",
+        "Party": "inc",
+        "Votes": 100135,
+        "Position": 1
+      },
+      {
+        "Name": "Saba Zafar",
+        "Party": "bjp",
+        "Votes": 48138,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 57,
+    "Name": "57-BAISI",
+    "Votes": [
+      {
+        "Name": "Abdus Subhan",
+        "Party": "rjd",
+        "Votes": 67022,
+        "Position": 1
+      },
+      {
+        "Name": "Binod Kumar",
+        "Party": "ind",
+        "Votes": 28282,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 58,
+    "Name": "58-KASBA",
+    "Votes": [
+      {
+        "Name": "MD. AFAQUE ALAM",
+        "Party": "inc",
+        "Votes": 81633,
+        "Position": 1
+      },
+      {
+        "Name": "PRADIP KUMAR DAS",
+        "Party": "bjp",
+        "Votes": 79839,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 59,
+    "Name": "59-BANMANKHI",
+    "Votes": [
+      {
+        "Name": "KRISHNA KUMAR RISHI",
+        "Party": "bjp",
+        "Votes": 59053,
+        "Position": 1
+      },
+      {
+        "Name": "SANJIV KUMAR PASWAN",
+        "Party": "rjd",
+        "Votes": 58345,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 60,
+    "Name": "60-RUPAULI",
+    "Votes": [
+      {
+        "Name": "Bima Bharti",
+        "Party": "jdu",
+        "Votes": 50945,
+        "Position": 1
+      },
+      {
+        "Name": "Prem Prakash Mandal",
+        "Party": "bjp",
+        "Votes": 41273,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 61,
+    "Name": "61-DHAMDAHA",
+    "Votes": [
+      {
+        "Name": "Leshi Singh",
+        "Party": "jdu",
+        "Votes": 75400,
+        "Position": 1
+      },
+      {
+        "Name": "Shiv Shankar Thakur Alias Shankar Azad",
+        "Party": "rlsp",
+        "Votes": 45583,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 62,
+    "Name": "62-PURNIYA",
+    "Votes": [
+      {
+        "Name": "Vijay Kumar Khemka",
+        "Party": "bjp",
+        "Votes": 92020,
+        "Position": 1
+      },
+      {
+        "Name": "Indu Sinha",
+        "Party": "inc",
+        "Votes": 59205,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 63,
+    "Name": "63-KATIHAR",
+    "Votes": [
+      {
+        "Name": "Tarkishore Prasad",
+        "Party": "bjp",
+        "Votes": 66048,
+        "Position": 1
+      },
+      {
+        "Name": "Bjay Singh",
+        "Party": "jdu",
+        "Votes": 51154,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 64,
+    "Name": "64-KADWA",
+    "Votes": [
+      {
+        "Name": "Shakeel Ahmad Khan",
+        "Party": "inc",
+        "Votes": 56141,
+        "Position": 1
+      },
+      {
+        "Name": "Chander Bhushan Thakur",
+        "Party": "bjp",
+        "Votes": 50342,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 65,
+    "Name": "65-BALRAMPUR",
+    "Votes": [
+      {
+        "Name": "Mahboob Alam",
+        "Party": "cpi",
+        "Votes": 62513,
+        "Position": 1
+      },
+      {
+        "Name": "Barun Kumar Jha",
+        "Party": "bjp",
+        "Votes": 42094,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 66,
+    "Name": "66-PRANPUR",
+    "Votes": [
+      {
+        "Name": "BINOD KUMAR SINGH",
+        "Party": "bjp",
+        "Votes": 47924,
+        "Position": 1
+      },
+      {
+        "Name": "ISRAT PARWEEN",
+        "Party": "ncp",
+        "Votes": 39823,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 67,
+    "Name": "67-MANIHARI",
+    "Votes": [
+      {
+        "Name": "Manohar Prasad Singh",
+        "Party": "inc",
+        "Votes": 61704,
+        "Position": 1
+      },
+      {
+        "Name": "Anil Kumar Oraon",
+        "Party": "ljp",
+        "Votes": 48024,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 68,
+    "Name": "68-BARARI",
+    "Votes": [
+      {
+        "Name": "NEERAJ KUMAR",
+        "Party": "rjd",
+        "Votes": 71175,
+        "Position": 1
+      },
+      {
+        "Name": "BIBHASH CHANDRA CHOUDHARY",
+        "Party": "bjp",
+        "Votes": 56839,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 69,
+    "Name": "69-KORHA",
+    "Votes": [
+      {
+        "Name": "PUNAM KUMARI ALIAS PUNAM PASWAN",
+        "Party": "inc",
+        "Votes": 78409,
+        "Position": 1
+      },
+      {
+        "Name": "MAHESH PASWAN",
+        "Party": "bjp",
+        "Votes": 72983,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 70,
+    "Name": "70-ALAMNAGAR",
+    "Votes": [
+      {
+        "Name": "NARENDRA NARAYAN YADAV",
+        "Party": "jdu",
+        "Votes": 87962,
+        "Position": 1
+      },
+      {
+        "Name": "CHANDAN SINGH",
+        "Party": "ljp",
+        "Votes": 44086,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 71,
+    "Name": "71-BIHARIGANJ",
+    "Votes": [
+      {
+        "Name": "NIRANJAN KUMAR MEHTA",
+        "Party": "jdu",
+        "Votes": 78361,
+        "Position": 1
+      },
+      {
+        "Name": "RAVINDRA CHARAN YADAV",
+        "Party": "bjp",
+        "Votes": 49108,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 72,
+    "Name": "72-SINGHESHWAR",
+    "Votes": [
+      {
+        "Name": "Ramesh Rishidev",
+        "Party": "jdu",
+        "Votes": 83073,
+        "Position": 1
+      },
+      {
+        "Name": "Manju Devi",
+        "Party": "ham",
+        "Votes": 32873,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 73,
+    "Name": "73-MADHEPURA",
+    "Votes": [
+      {
+        "Name": "CHANDRA SHEKHAR",
+        "Party": "rjd",
+        "Votes": 90974,
+        "Position": 1
+      },
+      {
+        "Name": "VIJAY KUMAR  BIMAL",
+        "Party": "bjp",
+        "Votes": 53332,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 74,
+    "Name": "74-SONABARSHA",
+    "Votes": [
+      {
+        "Name": "Ratnesh Sada",
+        "Party": "jdu",
+        "Votes": 88789,
+        "Position": 1
+      },
+      {
+        "Name": "Sarita Devi",
+        "Party": "ljp",
+        "Votes": 35026,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 75,
+    "Name": "75-SAHARSA",
+    "Votes": [
+      {
+        "Name": "ARUN KUMAR",
+        "Party": "rjd",
+        "Votes": 102850,
+        "Position": 1
+      },
+      {
+        "Name": "ALOK RANJAN",
+        "Party": "bjp",
+        "Votes": 63644,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 76,
+    "Name": "76-SIMRI BAKHTIARPUR",
+    "Votes": [
+      {
+        "Name": "Dinesh Chandra Yadav",
+        "Party": "jdu",
+        "Votes": 78514,
+        "Position": 1
+      },
+      {
+        "Name": "Yusuf Salahuddin",
+        "Party": "ljp",
+        "Votes": 40708,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 77,
+    "Name": "77-MAHISHI",
+    "Votes": [
+      {
+        "Name": "DR. ABDUL GHAFOOR",
+        "Party": "rjd",
+        "Votes": 56436,
+        "Position": 1
+      },
+      {
+        "Name": "CHANDAN KUMAR SAH",
+        "Party": "rlsp",
+        "Votes": 30301,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 78,
+    "Name": "78-KUSHESHWAR ASTHAN",
+    "Votes": [
+      {
+        "Name": "Shashi Bhushan Hazari",
+        "Party": "jdu",
+        "Votes": 49889,
+        "Position": 1
+      },
+      {
+        "Name": "Dhananjay kumar alias Mrinal Paswan",
+        "Party": "ljp",
+        "Votes": 30138,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 79,
+    "Name": "79-GAURA BAURAM",
+    "Votes": [
+      {
+        "Name": "Madan sahni",
+        "Party": "jdu",
+        "Votes": 51403,
+        "Position": 1
+      },
+      {
+        "Name": "Vinod Sahni",
+        "Party": "ljp",
+        "Votes": 37341,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 80,
+    "Name": "80-BENIPUR",
+    "Votes": [
+      {
+        "Name": "Sunil Choudhary",
+        "Party": "jdu",
+        "Votes": 69511,
+        "Position": 1
+      },
+      {
+        "Name": "GopalJee Thakur",
+        "Party": "bjp",
+        "Votes": 43068,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 81,
+    "Name": "81-ALINAGAR",
+    "Votes": [
+      {
+        "Name": "Abdul Bari Siddiqui",
+        "Party": "rjd",
+        "Votes": 67461,
+        "Position": 1
+      },
+      {
+        "Name": "Mishri Lal Yadav",
+        "Party": "bjp",
+        "Votes": 54001,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 82,
+    "Name": "82-DARBHANGA RURAL",
+    "Votes": [
+      {
+        "Name": "Lalit Kumar Yadav",
+        "Party": "rjd",
+        "Votes": 70557,
+        "Position": 1
+      },
+      {
+        "Name": "Naushad Ahmad",
+        "Party": "ham",
+        "Votes": 36066,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 83,
+    "Name": "83-DARBHANGA",
+    "Votes": [
+      {
+        "Name": "SANJAY SARAOGI",
+        "Party": "bjp",
+        "Votes": 77776,
+        "Position": 1
+      },
+      {
+        "Name": "OM PRAKASH KHERIA",
+        "Party": "rjd",
+        "Votes": 70316,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 84,
+    "Name": "84-HAYAGHAT",
+    "Votes": [
+      {
+        "Name": "AMAR NATH GAMI",
+        "Party": "jdu",
+        "Votes": 65677,
+        "Position": 1
+      },
+      {
+        "Name": "RAMESH CHOUDHARY",
+        "Party": "ljp",
+        "Votes": 32446,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 85,
+    "Name": "85-BAHADURPUR",
+    "Votes": [
+      {
+        "Name": "BHOLA YADAV",
+        "Party": "rjd",
+        "Votes": 71547,
+        "Position": 1
+      },
+      {
+        "Name": "HARI SAHANI",
+        "Party": "bjp",
+        "Votes": 54558,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 86,
+    "Name": "86-KEOTI",
+    "Votes": [
+      {
+        "Name": "FARAZ FATMI",
+        "Party": "rjd",
+        "Votes": 68601,
+        "Position": 1
+      },
+      {
+        "Name": "ASHOK KUMAR YADAV",
+        "Party": "bjp",
+        "Votes": 60771,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 87,
+    "Name": "87-JALE",
+    "Votes": [
+      {
+        "Name": "JIBESH KUMAR",
+        "Party": "bjp",
+        "Votes": 62059,
+        "Position": 1
+      },
+      {
+        "Name": "RISHI MISHRA",
+        "Party": "jdu",
+        "Votes": 57439,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 88,
+    "Name": "88-GAIGHAT",
+    "Votes": [
+      {
+        "Name": "Maheshwar Prasad Yadav",
+        "Party": "rjd",
+        "Votes": 67313,
+        "Position": 1
+      },
+      {
+        "Name": "Veena Devi",
+        "Party": "bjp",
+        "Votes": 63812,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 89,
+    "Name": "89-AURAI",
+    "Votes": [
+      {
+        "Name": "Surendra Kumar",
+        "Party": "rjd",
+        "Votes": 66958,
+        "Position": 1
+      },
+      {
+        "Name": "Ram Surat Ray",
+        "Party": "bjp",
+        "Votes": 56133,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 90,
+    "Name": "90-MINAPUR",
+    "Votes": [
+      {
+        "Name": "Rajeev Kumar Urf Munna Yadav",
+        "Party": "rjd",
+        "Votes": 80790,
+        "Position": 1
+      },
+      {
+        "Name": "Ajay Kumar",
+        "Party": "bjp",
+        "Votes": 56850,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 91,
+    "Name": "91-BOCHAHA",
+    "Votes": [
+      {
+        "Name": "BEBY KUMARI",
+        "Party": "ind",
+        "Votes": 67720,
+        "Position": 1
+      },
+      {
+        "Name": "RAMAI RAM",
+        "Party": "jdu",
+        "Votes": 43590,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 92,
+    "Name": "92-SAKRA",
+    "Votes": [
+      {
+        "Name": "Lal Babu Ram",
+        "Party": "rjd",
+        "Votes": 75010,
+        "Position": 1
+      },
+      {
+        "Name": "Arjun Ram",
+        "Party": "bjp",
+        "Votes": 61998,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 93,
+    "Name": "93-KURHANI",
+    "Votes": [
+      {
+        "Name": "KEDAR PRASAD GUPTA",
+        "Party": "bjp",
+        "Votes": 73227,
+        "Position": 1
+      },
+      {
+        "Name": "MANOJ KUMAR SINGH",
+        "Party": "jdu",
+        "Votes": 61657,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 94,
+    "Name": "94-MUZAFFARPUR",
+    "Votes": [
+      {
+        "Name": "SURESH KUMAR SHARMA",
+        "Party": "bjp",
+        "Votes": 95594,
+        "Position": 1
+      },
+      {
+        "Name": "BIJENDRA CHAUDHARY",
+        "Party": "jdu",
+        "Votes": 65855,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 95,
+    "Name": "95-KANTI",
+    "Votes": [
+      {
+        "Name": "Ashok Kumar Choudhary (Sadatpur)",
+        "Party": "ind",
+        "Votes": 58111,
+        "Position": 1
+      },
+      {
+        "Name": "Ajit Kumar",
+        "Party": "ham",
+        "Votes": 48836,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 96,
+    "Name": "96-BARURAJ",
+    "Votes": [
+      {
+        "Name": "Nand Kumar Rai",
+        "Party": "rjd",
+        "Votes": 68011,
+        "Position": 1
+      },
+      {
+        "Name": "Arun kumar Singh",
+        "Party": "bjp",
+        "Votes": 63102,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 97,
+    "Name": "97-PAROO",
+    "Votes": [
+      {
+        "Name": "Ashok Kumar Singh",
+        "Party": "bjp",
+        "Votes": 80445,
+        "Position": 1
+      },
+      {
+        "Name": "Shankar Prasad",
+        "Party": "rjd",
+        "Votes": 66906,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 98,
+    "Name": "98-SAHEBGANJ",
+    "Votes": [
+      {
+        "Name": "Ramvichar Rai",
+        "Party": "rjd",
+        "Votes": 70583,
+        "Position": 1
+      },
+      {
+        "Name": "Raju Kumar Singh",
+        "Party": "bjp",
+        "Votes": 59923,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 99,
+    "Name": "99-BAIKUNTHPUR",
+    "Votes": [
+      {
+        "Name": "Mithilesh Tiwari",
+        "Party": "bjp",
+        "Votes": 56162,
+        "Position": 1
+      },
+      {
+        "Name": "Manjeet Kumar Singh",
+        "Party": "jdu",
+        "Votes": 42047,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 100,
+    "Name": "100-BARAULI",
+    "Votes": [
+      {
+        "Name": "Md. Nematullah",
+        "Party": "rjd",
+        "Votes": 61690,
+        "Position": 1
+      },
+      {
+        "Name": "Rampravesh Rai",
+        "Party": "bjp",
+        "Votes": 61186,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 101,
+    "Name": "101-GOPALGANJ",
+    "Votes": [
+      {
+        "Name": "Subash Singh",
+        "Party": "bjp",
+        "Votes": 78491,
+        "Position": 1
+      },
+      {
+        "Name": "Reyajul Haque Alias ‘’Raju”",
+        "Party": "rjd",
+        "Votes": 73417,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 102,
+    "Name": "102-KUCHAIKOTE",
+    "Votes": [
+      {
+        "Name": "Amrendra kumar Pandey",
+        "Party": "jdu",
+        "Votes": 72224,
+        "Position": 1
+      },
+      {
+        "Name": "Kali Prasad Pandey",
+        "Party": "ljp",
+        "Votes": 68662,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 103,
+    "Name": "103-BHOREY",
+    "Votes": [
+      {
+        "Name": "Anil Kumar",
+        "Party": "inc",
+        "Votes": 74365,
+        "Position": 1
+      },
+      {
+        "Name": "Indradev Manjhi",
+        "Party": "bjp",
+        "Votes": 59494,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 104,
+    "Name": "104-HATHUA",
+    "Votes": [
+      {
+        "Name": "RAMSEWAK SINGH",
+        "Party": "jdu",
+        "Votes": 57917,
+        "Position": 1
+      },
+      {
+        "Name": "MAHACHANDRA PD. SINGH",
+        "Party": "ham",
+        "Votes": 34933,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 105,
+    "Name": "105-SIWAN",
+    "Votes": [
+      {
+        "Name": "Vyasdeo Prasad",
+        "Party": "bjp",
+        "Votes": 55156,
+        "Position": 1
+      },
+      {
+        "Name": "Bablu Prasad",
+        "Party": "jdu",
+        "Votes": 51622,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 106,
+    "Name": "106-ZIRADEI",
+    "Votes": [
+      {
+        "Name": "Ramesh Singh Kushwaha",
+        "Party": "jdu",
+        "Votes": 40760,
+        "Position": 1
+      },
+      {
+        "Name": "Asha Devi",
+        "Party": "bjp",
+        "Votes": 34669,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 107,
+    "Name": "107-DARAULI",
+    "Votes": [
+      {
+        "Name": "Satyadeo Ram",
+        "Party": "cpi",
+        "Votes": 49576,
+        "Position": 1
+      },
+      {
+        "Name": "Ramayan Manjhi",
+        "Party": "bjp",
+        "Votes": 39992,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 108,
+    "Name": "108-RAGHUNATHPUR",
+    "Votes": [
+      {
+        "Name": "Harishankar Yadav",
+        "Party": "rjd",
+        "Votes": 61042,
+        "Position": 1
+      },
+      {
+        "Name": "Manoj Kumar Singh",
+        "Party": "bjp",
+        "Votes": 50420,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 109,
+    "Name": "109-DARAUNDHA",
+    "Votes": [
+      {
+        "Name": "KAVITA SINGH",
+        "Party": "jdu",
+        "Votes": 66255,
+        "Position": 1
+      },
+      {
+        "Name": "JITENDRA SWAMI",
+        "Party": "bjp",
+        "Votes": 53033,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 110,
+    "Name": "110-BARHARIA",
+    "Votes": [
+      {
+        "Name": "Shyam Bahadur Singh",
+        "Party": "jdu",
+        "Votes": 65168,
+        "Position": 1
+      },
+      {
+        "Name": "Bachcha Panday",
+        "Party": "ljp",
+        "Votes": 50585,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 111,
+    "Name": "111-GORIAKOTHI",
+    "Votes": [
+      {
+        "Name": "Satyadev Prasad Singh",
+        "Party": "rjd",
+        "Votes": 70965,
+        "Position": 1
+      },
+      {
+        "Name": "Devesh Kant Singh",
+        "Party": "bjp",
+        "Votes": 63314,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 112,
+    "Name": "112-MAHARAJGANJ",
+    "Votes": [
+      {
+        "Name": "Hem Narayan Sah",
+        "Party": "jdu",
+        "Votes": 68459,
+        "Position": 1
+      },
+      {
+        "Name": "Kumar Deo Ranjan Singh",
+        "Party": "bjp",
+        "Votes": 48167,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 113,
+    "Name": "113-EKMA",
+    "Votes": [
+      {
+        "Name": "Manoranjan Singh",
+        "Party": "jdu",
+        "Votes": 49508,
+        "Position": 1
+      },
+      {
+        "Name": "Kameshwar Kumar Singh",
+        "Party": "bjp",
+        "Votes": 41382,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 114,
+    "Name": "114-MANJHI",
+    "Votes": [
+      {
+        "Name": "Vijay Shanker Dubey",
+        "Party": "inc",
+        "Votes": 29558,
+        "Position": 1
+      },
+      {
+        "Name": "Keshav singh",
+        "Party": "ljp",
+        "Votes": 20692,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 115,
+    "Name": "115-BANIAPUR",
+    "Votes": [
+      {
+        "Name": "Kedar Nath Singh",
+        "Party": "rjd",
+        "Votes": 69851,
+        "Position": 1
+      },
+      {
+        "Name": "Tarkeshwar Singh",
+        "Party": "bjp",
+        "Votes": 53900,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 116,
+    "Name": "116-TARAIYA",
+    "Votes": [
+      {
+        "Name": "Mudrika Prasad Roy",
+        "Party": "rjd",
+        "Votes": 69012,
+        "Position": 1
+      },
+      {
+        "Name": "Janak singh",
+        "Party": "bjp",
+        "Votes": 48572,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 117,
+    "Name": "117-MARHAURA",
+    "Votes": [
+      {
+        "Name": "Jeetendra Kumar Rai",
+        "Party": "rjd",
+        "Votes": 66714,
+        "Position": 1
+      },
+      {
+        "Name": "Lal Babu Ray",
+        "Party": "bjp",
+        "Votes": 49996,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 118,
+    "Name": "118-CHAPRA",
+    "Votes": [
+      {
+        "Name": "Dr. C.N. Gupta",
+        "Party": "bjp",
+        "Votes": 71646,
+        "Position": 1
+      },
+      {
+        "Name": "Randhir Kumar Singh",
+        "Party": "rjd",
+        "Votes": 60267,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 119,
+    "Name": "119-GARKHA",
+    "Votes": [
+      {
+        "Name": "Muneshwar Chaudhary",
+        "Party": "rjd",
+        "Votes": 89249,
+        "Position": 1
+      },
+      {
+        "Name": "Gyanchand Manjhi",
+        "Party": "bjp",
+        "Votes": 49366,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 120,
+    "Name": "120-AMNOUR",
+    "Votes": [
+      {
+        "Name": "Shatrudhan Tiwary",
+        "Party": "bjp",
+        "Votes": 39134,
+        "Position": 1
+      },
+      {
+        "Name": "Krishan Kumar Mantoo",
+        "Party": "jdu",
+        "Votes": 33883,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 121,
+    "Name": "121-PARSA",
+    "Votes": [
+      {
+        "Name": "Chandrika Rai",
+        "Party": "rjd",
+        "Votes": 77211,
+        "Position": 1
+      },
+      {
+        "Name": "Chhotelal Rai",
+        "Party": "ljp",
+        "Votes": 34876,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 122,
+    "Name": "122-SONEPUR",
+    "Votes": [
+      {
+        "Name": "Dr. Ramanuj Prasad",
+        "Party": "rjd",
+        "Votes": 86082,
+        "Position": 1
+      },
+      {
+        "Name": "Vinay Kumar Singh",
+        "Party": "bjp",
+        "Votes": 49686,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 123,
+    "Name": "123-HAJIPUR",
+    "Votes": [
+      {
+        "Name": "Awadhesh Singh",
+        "Party": "bjp",
+        "Votes": 86773,
+        "Position": 1
+      },
+      {
+        "Name": "Jagannath Prasad Rai",
+        "Party": "inc",
+        "Votes": 74578,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 124,
+    "Name": "124-LALGANJ",
+    "Votes": [
+      {
+        "Name": "Raj Kumar Sah",
+        "Party": "ljp",
+        "Votes": 80842,
+        "Position": 1
+      },
+      {
+        "Name": "Vijay Kumar Shukla",
+        "Party": "jdu",
+        "Votes": 60549,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 125,
+    "Name": "125-VAISHALI",
+    "Votes": [
+      {
+        "Name": "RAJ KISHORE SINGH",
+        "Party": "jdu",
+        "Votes": 79286,
+        "Position": 1
+      },
+      {
+        "Name": "BRISHIN PATEL",
+        "Party": "ham",
+        "Votes": 48225,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 126,
+    "Name": "126-MAHUA",
+    "Votes": [
+      {
+        "Name": "Tej pratap Yadav",
+        "Party": "rjd",
+        "Votes": 66927,
+        "Position": 1
+      },
+      {
+        "Name": "Ravindra Ray",
+        "Party": "ham",
+        "Votes": 38772,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 127,
+    "Name": "127-RAJAPAKAR",
+    "Votes": [
+      {
+        "Name": "Shivchandra Ram",
+        "Party": "rjd",
+        "Votes": 61251,
+        "Position": 1
+      },
+      {
+        "Name": "Ram Nath Raman",
+        "Party": "ljp",
+        "Votes": 46096,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 128,
+    "Name": "128-RAGHOPUR",
+    "Votes": [
+      {
+        "Name": "Tejashwi Prasad Yadav",
+        "Party": "rjd",
+        "Votes": 91236,
+        "Position": 1
+      },
+      {
+        "Name": "Satish Kumar",
+        "Party": "bjp",
+        "Votes": 68503,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 129,
+    "Name": "129-MAHNAR",
+    "Votes": [
+      {
+        "Name": "UMESH SINGH KUSHWAHA",
+        "Party": "jdu",
+        "Votes": 69825,
+        "Position": 1
+      },
+      {
+        "Name": "DR. ACHUTA NAND",
+        "Party": "bjp",
+        "Votes": 43370,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 130,
+    "Name": "130-PATEPUR",
+    "Votes": [
+      {
+        "Name": "Prema Chaudhary",
+        "Party": "rjd",
+        "Votes": 67548,
+        "Position": 1
+      },
+      {
+        "Name": "Mahendra Baitha",
+        "Party": "bjp",
+        "Votes": 55087,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 131,
+    "Name": "131-KALYANPUR",
+    "Votes": [
+      {
+        "Name": "Maheshwar Hazari",
+        "Party": "jdu",
+        "Votes": 84904,
+        "Position": 1
+      },
+      {
+        "Name": "Prince Raj",
+        "Party": "ljp",
+        "Votes": 47218,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 132,
+    "Name": "132-WARISHNAGAR",
+    "Votes": [
+      {
+        "Name": "Ashok Kumar",
+        "Party": "jdu",
+        "Votes": 92687,
+        "Position": 1
+      },
+      {
+        "Name": "Chandrashekhar Rai",
+        "Party": "ljp",
+        "Votes": 34114,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 133,
+    "Name": "133-SAMASTIPUR",
+    "Votes": [
+      {
+        "Name": "Akhtarul Islam Shaheen",
+        "Party": "rjd",
+        "Votes": 82508,
+        "Position": 1
+      },
+      {
+        "Name": "Renu Kumari",
+        "Party": "bjp",
+        "Votes": 51428,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 134,
+    "Name": "134-UJIARPUR",
+    "Votes": [
+      {
+        "Name": "Alok Kumar Mehta",
+        "Party": "rjd",
+        "Votes": 85466,
+        "Position": 1
+      },
+      {
+        "Name": "Kumar Anant",
+        "Party": "rlsp",
+        "Votes": 38006,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 135,
+    "Name": "135-MORWA",
+    "Votes": [
+      {
+        "Name": "VIDYA SAGAR SINGH NISHAD",
+        "Party": "jdu",
+        "Votes": 59206,
+        "Position": 1
+      },
+      {
+        "Name": "SURESH RAY",
+        "Party": "bjp",
+        "Votes": 40390,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 136,
+    "Name": "136-SARAIRANJAN",
+    "Votes": [
+      {
+        "Name": "VIJAY KUMAR CHOUDHARY",
+        "Party": "jdu",
+        "Votes": 81055,
+        "Position": 1
+      },
+      {
+        "Name": "RANJEET NIRGUNI",
+        "Party": "bjp",
+        "Votes": 47011,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 137,
+    "Name": "137-MOHIUDDINNAGAR",
+    "Votes": [
+      {
+        "Name": "Ejya Yadav",
+        "Party": "rjd",
+        "Votes": 47137,
+        "Position": 1
+      },
+      {
+        "Name": "Rajesh Kumar Singh",
+        "Party": "ind",
+        "Votes": 23706,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 138,
+    "Name": "138-BIBHUTIPUR",
+    "Votes": [
+      {
+        "Name": "Ram Balak Singh",
+        "Party": "jdu",
+        "Votes": 57882,
+        "Position": 1
+      },
+      {
+        "Name": "Ram Deo Verma",
+        "Party": "cpi",
+        "Votes": 40647,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 139,
+    "Name": "139-ROSERA",
+    "Votes": [
+      {
+        "Name": "Dr. Ashok Kumar",
+        "Party": "inc",
+        "Votes": 85506,
+        "Position": 1
+      },
+      {
+        "Name": "Manju Hazari",
+        "Party": "bjp",
+        "Votes": 51145,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 140,
+    "Name": "140-HASANPUR",
+    "Votes": [
+      {
+        "Name": "Raj Kumar Ray",
+        "Party": "jdu",
+        "Votes": 63094,
+        "Position": 1
+      },
+      {
+        "Name": "Vinod Choudhary",
+        "Party": "rlsp",
+        "Votes": 33494,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 141,
+    "Name": "141-CHERIA BARIARPUR",
+    "Votes": [
+      {
+        "Name": "Kumari Manju Verma",
+        "Party": "jdu",
+        "Votes": 69795,
+        "Position": 1
+      },
+      {
+        "Name": "ANIL KUMAR CHAUDHARY",
+        "Party": "ljp",
+        "Votes": 40059,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 142,
+    "Name": "142-BACHHAWARA",
+    "Votes": [
+      {
+        "Name": "Ramdeo Rai",
+        "Party": "inc",
+        "Votes": 73983,
+        "Position": 1
+      },
+      {
+        "Name": "Arvind Kumar Singh",
+        "Party": "ljp",
+        "Votes": 37052,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 143,
+    "Name": "143-TEGHRA",
+    "Votes": [
+      {
+        "Name": "Birendra Kumar",
+        "Party": "rjd",
+        "Votes": 68975,
+        "Position": 1
+      },
+      {
+        "Name": "Ram Lakhan Singh",
+        "Party": "bjp",
+        "Votes": 53364,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 144,
+    "Name": "144-MATIHANI",
+    "Votes": [
+      {
+        "Name": "Narendra Kumar Singh Alias Bogo Singh",
+        "Party": "jdu",
+        "Votes": 89297,
+        "Position": 1
+      },
+      {
+        "Name": "Sarvesh Kumar",
+        "Party": "bjp",
+        "Votes": 66609,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 145,
+    "Name": "145-SAHEBPUR KAMAL",
+    "Votes": [
+      {
+        "Name": "Shreenarayan Yadav",
+        "Party": "rjd",
+        "Votes": 78225,
+        "Position": 1
+      },
+      {
+        "Name": "M.D. ASLAM",
+        "Party": "ljp",
+        "Votes": 32751,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 146,
+    "Name": "146-BEGUSARAI",
+    "Votes": [
+      {
+        "Name": "AMITA BHUSHAN",
+        "Party": "inc",
+        "Votes": 83521,
+        "Position": 1
+      },
+      {
+        "Name": "SURENDRA MEHTA",
+        "Party": "bjp",
+        "Votes": 66990,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 147,
+    "Name": "147-BAKHRI",
+    "Votes": [
+      {
+        "Name": "UPENDRA PASWAN",
+        "Party": "rjd",
+        "Votes": 72632,
+        "Position": 1
+      },
+      {
+        "Name": "RAMANAND RAM",
+        "Party": "bjp",
+        "Votes": 32376,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 148,
+    "Name": "148-ALAULI",
+    "Votes": [
+      {
+        "Name": "Chandan Kumar",
+        "Party": "rjd",
+        "Votes": 70519,
+        "Position": 1
+      },
+      {
+        "Name": "Pashupati Kumar Paras",
+        "Party": "ljp",
+        "Votes": 46049,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 149,
+    "Name": "149-KHAGARIA",
+    "Votes": [
+      {
+        "Name": "Poonam Devi Yadav",
+        "Party": "jdu",
+        "Votes": 64767,
+        "Position": 1
+      },
+      {
+        "Name": "Rajesh Kumar Urf Rohit Kumar",
+        "Party": "ham",
+        "Votes": 39202,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 150,
+    "Name": "150-BELDAUR",
+    "Votes": [
+      {
+        "Name": "Panna Lal Singh Patel",
+        "Party": "jdu",
+        "Votes": 63216,
+        "Position": 1
+      },
+      {
+        "Name": "Mithilesh KumarNishad",
+        "Party": "ljp",
+        "Votes": 49691,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 151,
+    "Name": "151-PARBATTA",
+    "Votes": [
+      {
+        "Name": "Ramanad Prasad Singh",
+        "Party": "jdu",
+        "Votes": 76248,
+        "Position": 1
+      },
+      {
+        "Name": "Ramanuj Choudhary",
+        "Party": "bjp",
+        "Votes": 47324,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 152,
+    "Name": "152-BIHPUR",
+    "Votes": [
+      {
+        "Name": "VARSHA RANI",
+        "Party": "rjd",
+        "Votes": 68963,
+        "Position": 1
+      },
+      {
+        "Name": "KUMAR SHAILENDRA",
+        "Party": "bjp",
+        "Votes": 56247,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 153,
+    "Name": "153-GOPALPUR",
+    "Votes": [
+      {
+        "Name": "NARENDRA KUMAR NIRAJ",
+        "Party": "jdu",
+        "Votes": 57403,
+        "Position": 1
+      },
+      {
+        "Name": "ANIL KUMAR YADAV",
+        "Party": "bjp",
+        "Votes": 52234,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 154,
+    "Name": "154-PIRPAINTI",
+    "Votes": [
+      {
+        "Name": "Ram Vilash Paswan",
+        "Party": "rjd",
+        "Votes": 80058,
+        "Position": 1
+      },
+      {
+        "Name": "Lalan Kumar",
+        "Party": "bjp",
+        "Votes": 74914,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 155,
+    "Name": "155-KAHALGAON",
+    "Votes": [
+      {
+        "Name": "SADANAND SINGH",
+        "Party": "inc",
+        "Votes": 64981,
+        "Position": 1
+      },
+      {
+        "Name": "NIRAJ KUMAR MANDAL",
+        "Party": "ljp",
+        "Votes": 43752,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 156,
+    "Name": "156-BHAGALPUR",
+    "Votes": [
+      {
+        "Name": "Ajeet Sharma",
+        "Party": "inc",
+        "Votes": 70514,
+        "Position": 1
+      },
+      {
+        "Name": "Arjit Shashwat Choubey",
+        "Party": "bjp",
+        "Votes": 59856,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 157,
+    "Name": "157-SULATANGANJ",
+    "Votes": [
+      {
+        "Name": "Subodh Roy",
+        "Party": "jdu",
+        "Votes": 63345,
+        "Position": 1
+      },
+      {
+        "Name": "Himanshu Prasad",
+        "Party": "rlsp",
+        "Votes": 49312,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 158,
+    "Name": "158-NATHNAGAR",
+    "Votes": [
+      {
+        "Name": "Ajay Kumar Mandal",
+        "Party": "jdu",
+        "Votes": 66485,
+        "Position": 1
+      },
+      {
+        "Name": "Amar Nath Prasad alies Amar Singh Kushwaha",
+        "Party": "ljp",
+        "Votes": 58660,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 159,
+    "Name": "159-AMARPUR",
+    "Votes": [
+      {
+        "Name": "Janardan Manjhi",
+        "Party": "jdu",
+        "Votes": 73707,
+        "Position": 1
+      },
+      {
+        "Name": "Mrinal Shekhar",
+        "Party": "bjp",
+        "Votes": 61934,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 160,
+    "Name": "160-DHAURAIYA",
+    "Votes": [
+      {
+        "Name": "Manish Kumar",
+        "Party": "jdu",
+        "Votes": 68858,
+        "Position": 1
+      },
+      {
+        "Name": "Bhudeo choudhary",
+        "Party": "rlsp",
+        "Votes": 44704,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 161,
+    "Name": "161-BANKA",
+    "Votes": [
+      {
+        "Name": "Ram Narayan Mandal",
+        "Party": "bjp",
+        "Votes": 52379,
+        "Position": 1
+      },
+      {
+        "Name": "Zafrul Hoda",
+        "Party": "rjd",
+        "Votes": 48649,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 162,
+    "Name": "162-KATORIA",
+    "Votes": [
+      {
+        "Name": "Sweety Sima Hembram",
+        "Party": "rjd",
+        "Votes": 54760,
+        "Position": 1
+      },
+      {
+        "Name": "Nikki Hembram",
+        "Party": "bjp",
+        "Votes": 44423,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 163,
+    "Name": "163-BELHAR",
+    "Votes": [
+      {
+        "Name": "Giridhari Yadav",
+        "Party": "jdu",
+        "Votes": 70348,
+        "Position": 1
+      },
+      {
+        "Name": "Manoj Yadav",
+        "Party": "bjp",
+        "Votes": 54157,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 164,
+    "Name": "164-TARAPUR",
+    "Votes": [
+      {
+        "Name": "M L Choudhary",
+        "Party": "jdu",
+        "Votes": 66411,
+        "Position": 1
+      },
+      {
+        "Name": "Sakuni choudhary",
+        "Party": "ham",
+        "Votes": 54464,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 165,
+    "Name": "165-MUNGER",
+    "Votes": [
+      {
+        "Name": "Vijay Kumar ‘Vijay’",
+        "Party": "rjd",
+        "Votes": 77216,
+        "Position": 1
+      },
+      {
+        "Name": "Pranav Kumar",
+        "Party": "bjp",
+        "Votes": 72851,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 166,
+    "Name": "166-JAMALPUR",
+    "Votes": [
+      {
+        "Name": "Shailesh Kumar",
+        "Party": "jdu",
+        "Votes": 67273,
+        "Position": 1
+      },
+      {
+        "Name": "Himanshu Kunvar",
+        "Party": "ljp",
+        "Votes": 51797,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 167,
+    "Name": "167-SURYAGARHA",
+    "Votes": [
+      {
+        "Name": "Prahlad Yadav",
+        "Party": "rjd",
+        "Votes": 82490,
+        "Position": 1
+      },
+      {
+        "Name": "Prem Ranjan Patel",
+        "Party": "bjp",
+        "Votes": 52460,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 168,
+    "Name": "168-LAKHISARAI",
+    "Votes": [
+      {
+        "Name": "Vijay Kumar Sinha",
+        "Party": "bjp",
+        "Votes": 75901,
+        "Position": 1
+      },
+      {
+        "Name": "Ramanand Mandal",
+        "Party": "jdu",
+        "Votes": 69345,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 169,
+    "Name": "169-SHEIKHPURA",
+    "Votes": [
+      {
+        "Name": "Randhir Kumar Soni",
+        "Party": "jdu",
+        "Votes": 41755,
+        "Position": 1
+      },
+      {
+        "Name": "Naresh Saw",
+        "Party": "ham",
+        "Votes": 28654,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 170,
+    "Name": "170-BARBIGHA",
+    "Votes": [
+      {
+        "Name": "Sudarshan Kumar",
+        "Party": "inc",
+        "Votes": 46406,
+        "Position": 1
+      },
+      {
+        "Name": "Sheo Kumar",
+        "Party": "rlsp",
+        "Votes": 30689,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 171,
+    "Name": "171-ASTHAWAN",
+    "Votes": [
+      {
+        "Name": "JITENDRA KUMAR",
+        "Party": "jdu",
+        "Votes": 58908,
+        "Position": 1
+      },
+      {
+        "Name": "CHHOTE LAL YADAV",
+        "Party": "ljp",
+        "Votes": 48464,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 172,
+    "Name": "172-BIHARASHARIF",
+    "Votes": [
+      {
+        "Name": "Dr. Sunil kumar",
+        "Party": "bjp",
+        "Votes": 76201,
+        "Position": 1
+      },
+      {
+        "Name": "Mohammad Asghar Shamim",
+        "Party": "jdu",
+        "Votes": 73861,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 173,
+    "Name": "173-RAJGIR",
+    "Votes": [
+      {
+        "Name": "Ravi Jyoti Kumar",
+        "Party": "jdu",
+        "Votes": 62009,
+        "Position": 1
+      },
+      {
+        "Name": "Satyadeo Narain Arya",
+        "Party": "bjp",
+        "Votes": 56619,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 174,
+    "Name": "174-ISLAMPUR",
+    "Votes": [
+      {
+        "Name": "Chandrasen Prasad",
+        "Party": "jdu",
+        "Votes": 66587,
+        "Position": 1
+      },
+      {
+        "Name": "Birendra Gope",
+        "Party": "bjp",
+        "Votes": 43985,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 175,
+    "Name": "175-HILSA",
+    "Votes": [
+      {
+        "Name": "Atri Muni Urph Shakti Singh Yadav",
+        "Party": "rjd",
+        "Votes": 72347,
+        "Position": 1
+      },
+      {
+        "Name": "Deepika Kumari",
+        "Party": "ljp",
+        "Votes": 46271,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 176,
+    "Name": "176-NALANDA",
+    "Votes": [
+      {
+        "Name": "Shrawon Kumar",
+        "Party": "jdu",
+        "Votes": 72596,
+        "Position": 1
+      },
+      {
+        "Name": "Kaushlendra Kumar",
+        "Party": "bjp",
+        "Votes": 69600,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 177,
+    "Name": "177-HARNAUT",
+    "Votes": [
+      {
+        "Name": "HARI NARAYAN SINGH",
+        "Party": "jdu",
+        "Votes": 71933,
+        "Position": 1
+      },
+      {
+        "Name": "ARUN KUMAR",
+        "Party": "ljp",
+        "Votes": 57638,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 178,
+    "Name": "178-MOKAMA",
+    "Votes": [
+      {
+        "Name": "Anant Kumar Singh",
+        "Party": "ind",
+        "Votes": 54005,
+        "Position": 1
+      },
+      {
+        "Name": "Neeraj Kumar",
+        "Party": "jdu",
+        "Votes": 35657,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 179,
+    "Name": "179-BARH",
+    "Votes": [
+      {
+        "Name": "Gyanendra Kumar Singh",
+        "Party": "bjp",
+        "Votes": 63989,
+        "Position": 1
+      },
+      {
+        "Name": "Manoj Kumar",
+        "Party": "jdu",
+        "Votes": 55630,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 180,
+    "Name": "180-BAKHTIARPUR",
+    "Votes": [
+      {
+        "Name": "Ranvijay Singh",
+        "Party": "bjp",
+        "Votes": 61496,
+        "Position": 1
+      },
+      {
+        "Name": "Aniruddh Kumar",
+        "Party": "rjd",
+        "Votes": 53594,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 181,
+    "Name": "181-DIGHA",
+    "Votes": [
+      {
+        "Name": "Sanjiv Chaurasia",
+        "Party": "bjp",
+        "Votes": 92671,
+        "Position": 1
+      },
+      {
+        "Name": "Rajeev Ranjan Prasad",
+        "Party": "jdu",
+        "Votes": 67892,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 182,
+    "Name": "182-BANKIPUR",
+    "Votes": [
+      {
+        "Name": "Nitin Naveen",
+        "Party": "bjp",
+        "Votes": 86759,
+        "Position": 1
+      },
+      {
+        "Name": "Kumar Ashish",
+        "Party": "inc",
+        "Votes": 46992,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 183,
+    "Name": "183-KUMHRAR",
+    "Votes": [
+      {
+        "Name": "Arun Kumar Sinha",
+        "Party": "bjp",
+        "Votes": 87792,
+        "Position": 1
+      },
+      {
+        "Name": "Aquil Haider",
+        "Party": "inc",
+        "Votes": 50517,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 184,
+    "Name": "184-PATNA SAHIB",
+    "Votes": [
+      {
+        "Name": "NAND KISHORE YADAV",
+        "Party": "bjp",
+        "Votes": 88108,
+        "Position": 1
+      },
+      {
+        "Name": "SANTOSH MEHTA",
+        "Party": "rjd",
+        "Votes": 85316,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 185,
+    "Name": "185-FATUHA",
+    "Votes": [
+      {
+        "Name": "Dr. Ramanand Yadav",
+        "Party": "rjd",
+        "Votes": 77210,
+        "Position": 1
+      },
+      {
+        "Name": "Satyendra Kumar Singh",
+        "Party": "ljp",
+        "Votes": 46808,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 186,
+    "Name": "186-DANAPUR",
+    "Votes": [
+      {
+        "Name": "Asha Devi",
+        "Party": "bjp",
+        "Votes": 72192,
+        "Position": 1
+      },
+      {
+        "Name": "Raj Kishor Yadav",
+        "Party": "rjd",
+        "Votes": 66983,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 187,
+    "Name": "187-MANER",
+    "Votes": [
+      {
+        "Name": "Bhai Virendra",
+        "Party": "rjd",
+        "Votes": 89773,
+        "Position": 1
+      },
+      {
+        "Name": "Shrikant Nirala",
+        "Party": "bjp",
+        "Votes": 66945,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 188,
+    "Name": "188-PHULWARI",
+    "Votes": [
+      {
+        "Name": "Shyam Rajak",
+        "Party": "jdu",
+        "Votes": 94094,
+        "Position": 1
+      },
+      {
+        "Name": "Rajeshwar Manjhi",
+        "Party": "ham",
+        "Votes": 48381,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 189,
+    "Name": "189-MASAURHI",
+    "Votes": [
+      {
+        "Name": "Rekha Devi(Vill- Pabheda)",
+        "Party": "rjd",
+        "Votes": 89657,
+        "Position": 1
+      },
+      {
+        "Name": "Nutan Paswan",
+        "Party": "ham",
+        "Votes": 50471,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 190,
+    "Name": "190-PALIGANJ",
+    "Votes": [
+      {
+        "Name": "Jay Vardhan Yadav Alias Bachcha Yadav",
+        "Party": "rjd",
+        "Votes": 65932,
+        "Position": 1
+      },
+      {
+        "Name": "Ram Janm Sharma",
+        "Party": "bjp",
+        "Votes": 41479,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 191,
+    "Name": "191-BIKRAM",
+    "Votes": [
+      {
+        "Name": "Siddharth",
+        "Party": "inc",
+        "Votes": 94088,
+        "Position": 1
+      },
+      {
+        "Name": "Anil Kumar",
+        "Party": "bjp",
+        "Votes": 49777,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 192,
+    "Name": "192-SANDESH",
+    "Votes": [
+      {
+        "Name": "Arun Kumar",
+        "Party": "rjd",
+        "Votes": 74306,
+        "Position": 1
+      },
+      {
+        "Name": "SANJAY SINGH (TIGER)",
+        "Party": "bjp",
+        "Votes": 48879,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 193,
+    "Name": "193-BARHARA",
+    "Votes": [
+      {
+        "Name": "Saroj yadav",
+        "Party": "rjd",
+        "Votes": 65001,
+        "Position": 1
+      },
+      {
+        "Name": "AASHA DEVI",
+        "Party": "bjp",
+        "Votes": 51693,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 194,
+    "Name": "194-ARRAH",
+    "Votes": [
+      {
+        "Name": "MOHAMMAD NAWAZ ALAM",
+        "Party": "rjd",
+        "Votes": 70004,
+        "Position": 1
+      },
+      {
+        "Name": "AMRENDRA PRATAP SINGH",
+        "Party": "bjp",
+        "Votes": 69338,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 195,
+    "Name": "195-AGIAON",
+    "Votes": [
+      {
+        "Name": "PRABHUNATH PRASAD",
+        "Party": "jdu",
+        "Votes": 52276,
+        "Position": 1
+      },
+      {
+        "Name": "SHIVESH KUMAR",
+        "Party": "bjp",
+        "Votes": 37572,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 196,
+    "Name": "196-TARARI",
+    "Votes": [
+      {
+        "Name": "SUDAMA PRASAD",
+        "Party": "cpi",
+        "Votes": 44050,
+        "Position": 1
+      },
+      {
+        "Name": "GITA PANDEY",
+        "Party": "ljp",
+        "Votes": 43778,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 197,
+    "Name": "197-JAGDISHPUR",
+    "Votes": [
+      {
+        "Name": "Ram vishun Singh",
+        "Party": "rjd",
+        "Votes": 49020,
+        "Position": 1
+      },
+      {
+        "Name": "Rakesh Raushan",
+        "Party": "rlsp",
+        "Votes": 38825,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 198,
+    "Name": "198-SHAHPUR",
+    "Votes": [
+      {
+        "Name": "RAHUL TIWARY",
+        "Party": "rjd",
+        "Votes": 69315,
+        "Position": 1
+      },
+      {
+        "Name": "VISHESHWAR OJHA",
+        "Party": "bjp",
+        "Votes": 54745,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 199,
+    "Name": "199-BRAHAMPUR",
+    "Votes": [
+      {
+        "Name": "Shambhu Nath Yadav",
+        "Party": "rjd",
+        "Votes": 94079,
+        "Position": 1
+      },
+      {
+        "Name": "Vivek Thakur",
+        "Party": "bjp",
+        "Votes": 63303,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 200,
+    "Name": "200-BUXAR",
+    "Votes": [
+      {
+        "Name": "SANJAY KUMAR TIWARI ALIAS MUNNA TIWARI",
+        "Party": "inc",
+        "Votes": 66527,
+        "Position": 1
+      },
+      {
+        "Name": "PRADEEP DUBEY",
+        "Party": "bjp",
+        "Votes": 56346,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 201,
+    "Name": "201-DUMRAON",
+    "Votes": [
+      {
+        "Name": "Dadan Yadav",
+        "Party": "jdu",
+        "Votes": 81081,
+        "Position": 1
+      },
+      {
+        "Name": "Ram Bihari Singh",
+        "Party": "rlsp",
+        "Votes": 50742,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 202,
+    "Name": "202-RAJPUR",
+    "Votes": [
+      {
+        "Name": "Santosh Kumar Nirala",
+        "Party": "jdu",
+        "Votes": 84184,
+        "Position": 1
+      },
+      {
+        "Name": "Bishawnath Ram",
+        "Party": "bjp",
+        "Votes": 51396,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 203,
+    "Name": "203-RAMGARH",
+    "Votes": [
+      {
+        "Name": "Ashok Kumar Singh",
+        "Party": "bjp",
+        "Votes": 57501,
+        "Position": 1
+      },
+      {
+        "Name": "Ambika Singh",
+        "Party": "rjd",
+        "Votes": 49490,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 204,
+    "Name": "204-MOHANIA",
+    "Votes": [
+      {
+        "Name": "Niranjan Ram",
+        "Party": "bjp",
+        "Votes": 60911,
+        "Position": 1
+      },
+      {
+        "Name": "Sanjay Kumar",
+        "Party": "inc",
+        "Votes": 53330,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 205,
+    "Name": "205-BHABUA",
+    "Votes": [
+      {
+        "Name": "Anand Bhushan Pandey",
+        "Party": "bjp",
+        "Votes": 50768,
+        "Position": 1
+      },
+      {
+        "Name": "Doctor Pramod Kumar Singh",
+        "Party": "jdu",
+        "Votes": 43024,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 206,
+    "Name": "206-CHAINPUR",
+    "Votes": [
+      {
+        "Name": "Brij Kishor Bind",
+        "Party": "bjp",
+        "Votes": 58913,
+        "Position": 1
+      },
+      {
+        "Name": "Mohammad Zama Khan",
+        "Party": "bsp",
+        "Votes": 58242,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 207,
+    "Name": "207-CHENARI",
+    "Votes": [
+      {
+        "Name": "LALAN PASWAN",
+        "Party": "rlsp",
+        "Votes": 68148,
+        "Position": 1
+      },
+      {
+        "Name": "MANGAL RAM",
+        "Party": "inc",
+        "Votes": 58367,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 208,
+    "Name": "208-SASARAM",
+    "Votes": [
+      {
+        "Name": "ASHOK KUMAR",
+        "Party": "rjd",
+        "Votes": 82766,
+        "Position": 1
+      },
+      {
+        "Name": "JAWAHAR PRASAD",
+        "Party": "bjp",
+        "Votes": 63154,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 209,
+    "Name": "209-KARGAHAR",
+    "Votes": [
+      {
+        "Name": "BASHISTH SINGH",
+        "Party": "jdu",
+        "Votes": 57018,
+        "Position": 1
+      },
+      {
+        "Name": "BIRENDRA KUMAR SINGH",
+        "Party": "rlsp",
+        "Votes": 44111,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 210,
+    "Name": "210-DINARA",
+    "Votes": [
+      {
+        "Name": "JAI KUMAR SINGH",
+        "Party": "jdu",
+        "Votes": 64699,
+        "Position": 1
+      },
+      {
+        "Name": "RAJENDRA PRASAD SINGH",
+        "Party": "bjp",
+        "Votes": 62008,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 211,
+    "Name": "211-NOKHA",
+    "Votes": [
+      {
+        "Name": "ANITA DEVI",
+        "Party": "rjd",
+        "Votes": 72780,
+        "Position": 1
+      },
+      {
+        "Name": "RAMESHWAR PRASAD",
+        "Party": "bjp",
+        "Votes": 49782,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 212,
+    "Name": "212-DEHRI",
+    "Votes": [
+      {
+        "Name": "Mohammad Iliyas Hussain",
+        "Party": "rjd",
+        "Votes": 49402,
+        "Position": 1
+      },
+      {
+        "Name": "Jitendra Kumar @ Rinku Soni",
+        "Party": "rlsp",
+        "Votes": 45504,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 213,
+    "Name": "213-KARAKAT",
+    "Votes": [
+      {
+        "Name": "SANJAY KUMAR SINGH",
+        "Party": "rjd",
+        "Votes": 59720,
+        "Position": 1
+      },
+      {
+        "Name": "RAJESHWAR RAJ",
+        "Party": "bjp",
+        "Votes": 47601,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 214,
+    "Name": "214-ARWAL",
+    "Votes": [
+      {
+        "Name": "Ravindra Singh",
+        "Party": "rjd",
+        "Votes": 55295,
+        "Position": 1
+      },
+      {
+        "Name": "Chitranjan Kumar",
+        "Party": "bjp",
+        "Votes": 37485,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 215,
+    "Name": "215-KURTHA",
+    "Votes": [
+      {
+        "Name": "Satyadeo Singh",
+        "Party": "jdu",
+        "Votes": 43676,
+        "Position": 1
+      },
+      {
+        "Name": "Ashok Kumar Verma",
+        "Party": "rlsp",
+        "Votes": 29557,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 216,
+    "Name": "216-JEHANABAD",
+    "Votes": [
+      {
+        "Name": "Mundrika Singh Yadav",
+        "Party": "rjd",
+        "Votes": 76458,
+        "Position": 1
+      },
+      {
+        "Name": "Praveen Kumar",
+        "Party": "rlsp",
+        "Votes": 46137,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 217,
+    "Name": "217-GHOSI",
+    "Votes": [
+      {
+        "Name": "Krishannandan Prasad verma",
+        "Party": "jdu",
+        "Votes": 67248,
+        "Position": 1
+      },
+      {
+        "Name": "Rahul Kumar",
+        "Party": "ham",
+        "Votes": 45623,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 218,
+    "Name": "218-MAKHDUMPUR",
+    "Votes": [
+      {
+        "Name": "Subedar Das",
+        "Party": "rjd",
+        "Votes": 66631,
+        "Position": 1
+      },
+      {
+        "Name": "Jitan Ram Manjhi",
+        "Party": "ham",
+        "Votes": 39854,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 219,
+    "Name": "219-GOH",
+    "Votes": [
+      {
+        "Name": "Manoj Kumar",
+        "Party": "bjp",
+        "Votes": 53615,
+        "Position": 1
+      },
+      {
+        "Name": "Doctor Ranvijay Kumar",
+        "Party": "jdu",
+        "Votes": 45943,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 220,
+    "Name": "220-OBRA",
+    "Votes": [
+      {
+        "Name": "Birendra Kumar Sinha",
+        "Party": "rjd",
+        "Votes": 56042,
+        "Position": 1
+      },
+      {
+        "Name": "Chandra Bhushan Verma",
+        "Party": "rlsp",
+        "Votes": 44646,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 221,
+    "Name": "221-NABINGAR",
+    "Votes": [
+      {
+        "Name": "VIRENDRA KUMAR SINGH",
+        "Party": "jdu",
+        "Votes": 42035,
+        "Position": 1
+      },
+      {
+        "Name": "GOPAL NARAYAN SINGH",
+        "Party": "bjp",
+        "Votes": 36774,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 222,
+    "Name": "222-KUTUMBA",
+    "Votes": [
+      {
+        "Name": "Rajesh Kumar",
+        "Party": "inc",
+        "Votes": 51303,
+        "Position": 1
+      },
+      {
+        "Name": "Santosh Kumar Suman",
+        "Party": "ham",
+        "Votes": 41205,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 223,
+    "Name": "223-AURANGABAD",
+    "Votes": [
+      {
+        "Name": "Anand Shankar Singh",
+        "Party": "inc",
+        "Votes": 63637,
+        "Position": 1
+      },
+      {
+        "Name": "Ramadhar Singh",
+        "Party": "bjp",
+        "Votes": 45239,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 224,
+    "Name": "224-RAFIGANJ",
+    "Votes": [
+      {
+        "Name": "Ashok Kumar Singh",
+        "Party": "jdu",
+        "Votes": 62897,
+        "Position": 1
+      },
+      {
+        "Name": "Pramod Kumar Singh",
+        "Party": "ljp",
+        "Votes": 53372,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 225,
+    "Name": "225-GURUA",
+    "Votes": [
+      {
+        "Name": "Rajiv Nandan",
+        "Party": "bjp",
+        "Votes": 56480,
+        "Position": 1
+      },
+      {
+        "Name": "Ramchandra Prasad Singh",
+        "Party": "jdu",
+        "Votes": 49965,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 226,
+    "Name": "226-SHERGHATI",
+    "Votes": [
+      {
+        "Name": "Vinod Prasad Yadav",
+        "Party": "jdu",
+        "Votes": 44579,
+        "Position": 1
+      },
+      {
+        "Name": "Mukesh Kumar Yadav",
+        "Party": "ham",
+        "Votes": 39745,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 227,
+    "Name": "227-IMAMGANJ",
+    "Votes": [
+      {
+        "Name": "JITAN RAM MANJHI",
+        "Party": "ham",
+        "Votes": 79389,
+        "Position": 1
+      },
+      {
+        "Name": "UDAY NARAIN CHOUDHARY",
+        "Party": "jdu",
+        "Votes": 49981,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 228,
+    "Name": "228-BARACHATTI",
+    "Votes": [
+      {
+        "Name": "Samta Devi",
+        "Party": "rjd",
+        "Votes": 70909,
+        "Position": 1
+      },
+      {
+        "Name": "Sudha Devi",
+        "Party": "ljp",
+        "Votes": 51783,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 229,
+    "Name": "229-BODH GAYA",
+    "Votes": [
+      {
+        "Name": "Kumar Sarvjeet",
+        "Party": "rjd",
+        "Votes": 82656,
+        "Position": 1
+      },
+      {
+        "Name": "Shyamdeo Paswan",
+        "Party": "bjp",
+        "Votes": 52183,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 230,
+    "Name": "230-GAYA TOWN",
+    "Votes": [
+      {
+        "Name": "Prem Kumar",
+        "Party": "bjp",
+        "Votes": 66891,
+        "Position": 1
+      },
+      {
+        "Name": "Priya Ranjan",
+        "Party": "inc",
+        "Votes": 44102,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 231,
+    "Name": "231-TIKARI",
+    "Votes": [
+      {
+        "Name": "Abhay Kumar Sinha",
+        "Party": "jdu",
+        "Votes": 86975,
+        "Position": 1
+      },
+      {
+        "Name": "Anil Kumar",
+        "Party": "ham",
+        "Votes": 55162,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 232,
+    "Name": "232-BELAGANJ",
+    "Votes": [
+      {
+        "Name": "SURENDRA PRASAD YADAV",
+        "Party": "rjd",
+        "Votes": 71067,
+        "Position": 1
+      },
+      {
+        "Name": "SHARIM ALI",
+        "Party": "ham",
+        "Votes": 40726,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 233,
+    "Name": "233-ATRI",
+    "Votes": [
+      {
+        "Name": "KUNTI DEVI",
+        "Party": "rjd",
+        "Votes": 60687,
+        "Position": 1
+      },
+      {
+        "Name": "ARVIND KUMAR SINGH",
+        "Party": "ljp",
+        "Votes": 46870,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 234,
+    "Name": "234-WAZIRGANJ",
+    "Votes": [
+      {
+        "Name": "AWADHESH KUMAR SINGH",
+        "Party": "inc",
+        "Votes": 80107,
+        "Position": 1
+      },
+      {
+        "Name": "BIRENDRA SINGH",
+        "Party": "bjp",
+        "Votes": 67348,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 235,
+    "Name": "235-RAJAULI",
+    "Votes": [
+      {
+        "Name": "Prakash Veer",
+        "Party": "rjd",
+        "Votes": 70549,
+        "Position": 1
+      },
+      {
+        "Name": "Arjun Ram",
+        "Party": "bjp",
+        "Votes": 65934,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 236,
+    "Name": "236-HISUA",
+    "Votes": [
+      {
+        "Name": "Anil Singh",
+        "Party": "bjp",
+        "Votes": 82493,
+        "Position": 1
+      },
+      {
+        "Name": "Kaushal Yadav",
+        "Party": "jdu",
+        "Votes": 70254,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 237,
+    "Name": "237-NAWADA",
+    "Votes": [
+      {
+        "Name": "Rajballabh Prasad",
+        "Party": "rjd",
+        "Votes": 88235,
+        "Position": 1
+      },
+      {
+        "Name": "Indradeo Prasad",
+        "Party": "rlsp",
+        "Votes": 71509,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 238,
+    "Name": "238-GOBINDPUR",
+    "Votes": [
+      {
+        "Name": "Purnima Yadav",
+        "Party": "inc",
+        "Votes": 43016,
+        "Position": 1
+      },
+      {
+        "Name": "Fula Devi",
+        "Party": "bjp",
+        "Votes": 38617,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 239,
+    "Name": "239-WARSALIGANJ",
+    "Votes": [
+      {
+        "Name": "Aruna Devi",
+        "Party": "bjp",
+        "Votes": 85912,
+        "Position": 1
+      },
+      {
+        "Name": "Pradip Kumar",
+        "Party": "jdu",
+        "Votes": 66385,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 240,
+    "Name": "240-SIKANDRA",
+    "Votes": [
+      {
+        "Name": "Sudhir kumar Alias Banty Choudhary",
+        "Party": "inc",
+        "Votes": 59092,
+        "Position": 1
+      },
+      {
+        "Name": "Subhash Chandra Bosh",
+        "Party": "ljp",
+        "Votes": 51102,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 241,
+    "Name": "241-JAMUI",
+    "Votes": [
+      {
+        "Name": "VIJAY PRAKASH",
+        "Party": "rjd",
+        "Votes": 66577,
+        "Position": 1
+      },
+      {
+        "Name": "AJOY PRATAP",
+        "Party": "bjp",
+        "Votes": 58328,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 242,
+    "Name": "242-JHAJHA",
+    "Votes": [
+      {
+        "Name": "RABINDRA YADAV",
+        "Party": "bjp",
+        "Votes": 65537,
+        "Position": 1
+      },
+      {
+        "Name": "DAMODAR RAWAT",
+        "Party": "jdu",
+        "Votes": 43451,
+        "Position": 2
+      }
+    ]
+  },
+  {
+    "Id": 243,
+    "Name": "243-CHAKAI",
+    "Votes": [
+      {
+        "Name": "Savitri Devi",
+        "Party": "rjd",
+        "Votes": 47064,
+        "Position": 1
+      },
+      {
+        "Name": "Sumit Kumar Singh",
+        "Party": "ind",
+        "Votes": 34951,
+        "Position": 2
+      }
+    ]
+  }
+]

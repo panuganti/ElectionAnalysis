@@ -57,7 +57,7 @@ module Controllers {
             this.allianceColorMap = {};
             this.allianceColorMap["BJP+"] = "orange";
             this.allianceColorMap["JP+"] = "green";
-            this.allianceColorMap["O"] = "black";
+            this.allianceColorMap["O"] = "red";
         }
 
         public Generate2015InfoMaps(acDistrib: Models.Distribution[]): AcStyleMap[] {
