@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
@@ -12,10 +14,19 @@ namespace ParseAndFormatProfiles
         {
             const string republicanProfilesDir = @"I:\ArchishaData\ElectionData\US\RepublicanProfiles";
             const string democraticProfilesDir = @"I:\ArchishaData\ElectionData\US\DemocraticProfiles";
+            const string outputDir = @"I:\ArchishaData\ElectionData\US\Tweets\";
+            ParseProfilesForTweets(republicanProfilesDir,outputDir);
+            ParseProfilesForTweets(democraticProfilesDir, outputDir);
+        }
+
+        static void ModifyProfiles()
+        {
+            const string republicanProfilesDir = @"I:\ArchishaData\ElectionData\US\RepublicanProfiles";
+            const string democraticProfilesDir = @"I:\ArchishaData\ElectionData\US\DemocraticProfiles";
             const string outputDir = @"E:\NMW\GitHub\ElectionAnalysis\US\Judging\profiles";
             const string profilesFile = @"E:\NMW\GitHub\ElectionAnalysis\US\Judging\allhandles.txt";
             ParseProfiles(republicanProfilesDir, outputDir, profilesFile, false);
-            ParseProfiles(democraticProfilesDir, outputDir, profilesFile, true);
+            ParseProfiles(democraticProfilesDir, outputDir, profilesFile, true);            
         }
 
         static void ParseProfiles(string inputDir, string outputDir, string profilesFile, bool append = false)
@@ -83,6 +94,41 @@ namespace ParseAndFormatProfiles
                 tweetNode.InnerHtml = String.Format(format, count) + tweetNode.InnerHtml;
                 count++;
             }
+        }
+
+        static void ParseProfilesForTweets(string inputDir, string outputDir)
+        {
+            int count = 0;
+            foreach (var file in Directory.GetFiles(inputDir))
+            {
+                try
+                {
+                    var filename = Path.GetFileNameWithoutExtension(file);
+                    var outfile = Path.Combine(outputDir, String.Format("{0}.txt",filename));
+                    var htmlDoc = new HtmlDocument { OptionFixNestedTags = true };
+                    htmlDoc.Load(file);
+                    var timelineNode = htmlDoc.GetElementbyId("timeline");
+                    File.WriteAllLines(outfile, ExtractTweets(timelineNode));
+                    count++; Console.WriteLine("count: {0}:", count);
+                }
+                catch (Exception)
+                {  
+                }
+            }
+        }
+
+        private static IEnumerable<string> ExtractTweets(HtmlNode node)
+        {
+            var tweetNodes = node.Descendants("li")
+                .Where(t => t.Attributes.Contains("class") && t.Attributes["class"].Value.Contains(
+                    "js-stream-item stream-item stream-item expanding-stream-item"));
+            var tweets = new List<string>();
+            foreach (var tweetNode in tweetNodes)
+            {
+                var text = String.Join(" ",tweetNode.Descendants("p").First().InnerText.Replace('\n', ' ').Split(' ').Select(x=>x.Trim()).Where(x=>x.Length > 0));
+                tweets.Add(text);
+            }
+            return tweets;
         }
     }
 }

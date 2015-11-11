@@ -40,7 +40,7 @@ class ColorService{
     	return this.colorMap[alliance];
     }
 	
-	getColor(color: string, value: number, min = 0, max = 100, nLevels = 9): any {
+	getColor(color: string, value: number, min = -10, max = 100, nLevels = 9): any {
 		let colors: string[] = colorbrewer.Oranges[nLevels];
 		switch (color) {
 			case "orange":

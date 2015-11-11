@@ -181,7 +181,7 @@ var Controllers;
             this._results2009Json = "json/results2009AcWise.json";
             this._results2010Json = "json/results2010AcWise.json";
             this._results2014Json = "json/results2014AcWise.json";
-            this._results2015Json = "json/correctness2015AcWise.json";
+            this._results2015Json = "json/results2015AcWise.json";
             this._localIssues2015 = "";
             this._localIssues2010 = "";
             this._casteDistribution = "";
@@ -358,7 +358,7 @@ var Controllers;
             this.geocode("Patna, Bihar, India");
             this.loadGeoData();
             this.mapInstance.addEventHandler('click', this.mouseClickHandler);
-            this.loadResults("2010");
+            this.loadResults("2015");
             this.infoCtrl.setInfoDivVisibility("none");
         };
         MapCtrl.prototype.mouseClick = function (event) {
@@ -785,7 +785,7 @@ var ColorService = (function () {
         return this.colorMap[alliance];
     };
     ColorService.prototype.getColor = function (color, value, min, max, nLevels) {
-        if (min === void 0) { min = 0; }
+        if (min === void 0) { min = -10; }
         if (max === void 0) { max = 100; }
         if (nLevels === void 0) { nLevels = 9; }
         var colors = colorbrewer.Oranges[nLevels];

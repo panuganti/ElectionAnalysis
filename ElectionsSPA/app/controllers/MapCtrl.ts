@@ -55,7 +55,7 @@ module Controllers {
             this.loadGeoData();
             this.mapInstance.addEventHandler('click', this.mouseClickHandler);
             
-            this.loadResults("2010");
+            this.loadResults("2015");
             this.infoCtrl.setInfoDivVisibility("none");
         }
         
