@@ -12,9 +12,40 @@ namespace ParseAndFormatProfiles
     {
         static void Main(string[] args)
         {
-            const string republicanProfilesDir = @"I:\ArchishaData\ElectionData\US\RepublicanProfiles";
-            const string democraticProfilesDir = @"I:\ArchishaData\ElectionData\US\DemocraticProfiles";
-            const string outputDir = @"I:\ArchishaData\ElectionData\US\Tweets\";
+            FormatTweets();
+        }
+
+        static void FormatTweets()
+        {
+            const string tweetsDir = @"D:\ArchishaData\ElectionData\US\Tweets";
+            const string outfile = @"D:\ArchishaData\ElectionData\US\FormattedTweets.tsv";
+            var files = Directory.GetFiles(tweetsDir);
+            File.WriteAllLines(outfile,files.SelectMany(x =>
+            {
+                var screenName = Path.GetFileNameWithoutExtension(x);
+                int count = 0;
+                return File.ReadAllLines(x).Select(y => { count++; return String.Format("{0}__{1}\t{2}", screenName, count, y); });
+            }));
+        }
+
+        static void ParseJudgements()
+        {
+            const string judgementsFile = @"D:\ArchishaData\ElectionData\US\Judgements.tsv";
+            const string outfile = @"D:\ArchishaData\ElectionData\US\JudgementsParsed.tsv";
+            File.WriteAllLines(outfile, File.ReadAllLines(judgementsFile).SelectMany(x =>
+            {
+                var parts = x.Split('\t');
+                var judgements = parts[4].Split(';').Skip(1);
+                int count = 0;
+                return judgements.Select(y => { count++; return String.Format("{0}__{1}\t{2}", parts[1], count, y); });
+            }));
+        }
+
+        static void ParseTweets()
+        {
+            const string republicanProfilesDir = @"D:\ArchishaData\ElectionData\US\RepublicanProfiles";
+            const string democraticProfilesDir = @"D:\ArchishaData\ElectionData\US\DemocraticProfiles";
+            const string outputDir = @"D:\ArchishaData\ElectionData\US\Tweets\";
             ParseProfilesForTweets(republicanProfilesDir,outputDir);
             ParseProfilesForTweets(democraticProfilesDir, outputDir);
         }
@@ -125,7 +156,7 @@ namespace ParseAndFormatProfiles
             var tweets = new List<string>();
             foreach (var tweetNode in tweetNodes)
             {
-                var text = String.Join(" ",tweetNode.Descendants("p").First().InnerText.Replace('\n', ' ').Split(' ').Select(x=>x.Trim()).Where(x=>x.Length > 0));
+                var text = String.Join(" ", tweetNode.Descendants("div").Where(x => x.Attributes.Contains("class") && x.Attributes["class"].Value == "content").First().Descendants("p").First().InnerText.Replace('\n', ' ').Split(' ').Select(x => x.Trim()).Where(x => x.Length > 0));
                 tweets.Add(text);
             }
             return tweets;
