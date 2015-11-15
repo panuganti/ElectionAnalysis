@@ -12,7 +12,7 @@ namespace USElectionAnalysis
 {
     public class TwitterCommunicator
     {
-        public IEnumerable<string> SearchForTweetStrings(string query, int maxResults = 1000)
+        public IEnumerable<string> SearchForTweetStrings(string query, int maxResults = 100)
         {
             var tweets = new List<string>();
             ITweet[] results = Search.SearchTweets(query).ToArray();
@@ -21,12 +21,12 @@ namespace USElectionAnalysis
             while (count < maxResults)
             {
                 var searchParams = Search.CreateTweetSearchParameter(query);
-                searchParams.MaximumNumberOfResults = 1000;
+                searchParams.MaximumNumberOfResults = 100;
                 searchParams.MaxId = maxId;
                 results = Search.SearchTweets(searchParams).ToArray();
                 if (!results.Any()) { break; }
                 tweets.AddRange(results.Select(t => t.Text.Replace("\n", " ").Replace("\t"," ")));
-                count = tweets.Distinct().Count();
+                count += tweets.Distinct().Count();
                 Console.WriteLine("Count:{0}", count);
                 maxId = results.Min(t => t.Id);
             }

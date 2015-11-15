@@ -6,7 +6,6 @@ using System.Net;
 using System.Runtime.Serialization;
 using System.Text;
 using System.Text.RegularExpressions;
-using Google.GData.Client;
 using HtmlAgilityPack;
 
 namespace ParseAndFormatProfiles

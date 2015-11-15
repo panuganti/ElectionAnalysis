@@ -5,6 +5,8 @@ using System.Linq;
 using System.Net;
 using HtmlAgilityPack;
 using Tweetinvi.Core.Extensions;
+using Tweetinvi.Core.Interfaces;
+using Newtonsoft.Json;
 
 namespace USElectionAnalysis
 {
@@ -13,12 +15,21 @@ namespace USElectionAnalysis
         static void Main(string[] args)
         {
             var twitter = TwitterCommunicator.GetTwittercommunicator();
-            GetRepublicanHandles(twitter);
+            //GetRepublicanHandles(twitter);
+            GetSentiment(twitter, "sanders", 100);
         }
 
-        public static void GetTweetsForSearch(TwitterCommunicator twitter)
+        public static void GetSentiment(TwitterCommunicator twitter, string query, int count)
         {
-            var tweets = twitter.SearchForTweetStrings("Gun Control", 9000);
+            var tweets = twitter.SearchForTweetStrings(query, count).ToArray();
+            var data = new RequestData { data = tweets.Take(10).Select(x => new Data { text = x }).ToArray() };
+            var sentiment = ScrapeSentiment140.PostRequest(data);
+            File.WriteAllText(String.Format("C:\\Projects\\ElectionAnalysis\\US\\Sentiment140\\{0}.txt",query), JsonConvert.SerializeObject(sentiment, Formatting.Indented));
+        }
+
+        public static void GetTweetsForSearch(TwitterCommunicator twitter, string query, int count)
+        {
+            var tweets = twitter.SearchForTweetStrings(query, count);
             File.WriteAllText("./Tweets.txt", String.Join("\n", tweets.ToArray()));            
         }
 
@@ -40,9 +51,9 @@ namespace USElectionAnalysis
                     count++;
                     continue;
                 }
-                var tweets = twitter.SearchForTweets(candidate).ToArray();
+                ITweet[] tweets = twitter.SearchForTweets(candidate).ToArray();
                 var tweetsInfoForCandidate = tweets.Select(
-                    t => String.Format("{0}\t{1}\t{2}", t.CreatedBy.Id, t.CreatedBy.ScreenName, t.CreatedBy.FollowersCount)).ToArray();
+                    t => string.Format("{0}\t{1}\t{2}", t.CreatedBy.Id, t.CreatedBy.ScreenName, t.CreatedBy.FollowersCount));
                 tweets.ForEach(tweet => DownloadTimeline(tweet.CreatedBy.ScreenName, outputDirPath));
                 handles.AddRange(tweetsInfoForCandidate);
                 tweetsInfoForCandidate.Distinct().ForEach(writer.WriteLine);
@@ -74,17 +85,5 @@ namespace USElectionAnalysis
             writer.Close();
         }
 
-        public static void ModifyProfileDiv(HtmlNode node)
-        {
-        }
-
-        public static void ModifyTimeline(HtmlNode node)
-        {            
-        }
-
-        public static void GetHandlesTweetingAboutQuery(string candidate, TwitterCommunicator twitter)
-        {
-            var tweets = twitter.SearchForTweetStrings("Gun Control", 9000);            
-        }
     }
 }
