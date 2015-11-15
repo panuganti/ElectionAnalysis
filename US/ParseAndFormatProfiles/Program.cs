@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Web;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -6,7 +7,6 @@ using System.Runtime.Serialization;
 using System.Security.Policy;
 using System.Text;
 using System.Text.RegularExpressions;
-using Google.GData.Client;
 using HtmlAgilityPack;
 
 namespace ParseAndFormatProfiles
@@ -15,13 +15,13 @@ namespace ParseAndFormatProfiles
     {
         static void Main(string[] args)
         {
-            ParseTweets();
+            FormatTweets();
         }
 
         static void FormatTweets()
         {
-            const string tweetsDir = @"I:\ArchishaData\ElectionData\US\Tweets";
-            const string outfile = @"I:\ArchishaData\ElectionData\US\FormattedTweets.tsv";
+            const string tweetsDir = @"D:\ArchishaData\ElectionData\US\Tweets";
+            const string outfile = @"D:\ArchishaData\ElectionData\US\FormattedTweets.tsv";
             var files = Directory.GetFiles(tweetsDir);
             File.WriteAllLines(outfile,files.SelectMany(x =>
             {
@@ -46,8 +46,8 @@ namespace ParseAndFormatProfiles
 
         static void ParseTweets()
         {
-            const string republicanProfilesDir = @"I:\ArchishaData\ElectionData\US\RepublicanProfiles";
-            const string democraticProfilesDir = @"I:\ArchishaData\ElectionData\US\DemocraticProfiles";
+            const string republicanProfilesDir = @"D:\ArchishaData\ElectionData\US\RepublicanProfiles";
+            const string democraticProfilesDir = @"D:\ArchishaData\ElectionData\US\DemocraticProfiles";
             const string outputDir = @"D:\ArchishaData\ElectionData\US\Tweets\";
             ParseProfilesForTweets(republicanProfilesDir,outputDir);
             ParseProfilesForTweets(democraticProfilesDir, outputDir);
@@ -142,7 +142,9 @@ namespace ParseAndFormatProfiles
                     var htmlDoc = new HtmlDocument { OptionFixNestedTags = true };
                     htmlDoc.Load(file);
                     var timelineNode = htmlDoc.GetElementbyId("timeline");
-                    File.WriteAllLines(outfile, ExtractTweets(timelineNode).Where(x=>!x.Text.Equals(String.Empty)).Select(x=>String.Format("{0}",x.Text)));
+                    File.WriteAllLines(outfile, ExtractTweets(timelineNode)
+                        .Where(x=>!x.Text.Equals(String.Empty))
+                        .Select(x=>String.Format("{0}\t{1}\t{2}\t{3}\t{4}\t{5}", x.Text, String.Join(" ", x.HashTags), x.Images.Count() > 0 ? 1:0, x.HashTags.Count() > 0 ? 1:0, x.Links.Count() > 0 ? 1:0, x.Mentions.Count() > 0 ? 1:0  )));
                     count++; Console.WriteLine("count: {0}:", count);
                 }
                 catch (Exception)
@@ -205,5 +207,6 @@ namespace ParseAndFormatProfiles
             }
             return tweets;
         }
+
     }
 }
