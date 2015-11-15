@@ -3,8 +3,8 @@ using System.Web;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Net;
 using System.Runtime.Serialization;
-using System.Security.Policy;
 using System.Text;
 using System.Text.RegularExpressions;
 using HtmlAgilityPack;
@@ -15,7 +15,8 @@ namespace ParseAndFormatProfiles
     {
         static void Main(string[] args)
         {
-            FormatTweets();
+		ParseTweets();
+		FormatTweets();
         }
 
         static void FormatTweets()
@@ -27,7 +28,9 @@ namespace ParseAndFormatProfiles
             {
                 var screenName = Path.GetFileNameWithoutExtension(x);
                 int count = 0;
-                return File.ReadAllLines(x).Select(y => { count++; return String.Format("{0}__{1}\t{2}", screenName, count, y); });
+                var lines = File.ReadAllLines(x);
+                var output = lines.Select(y => { count++; return String.Format("{0}__{1}\t{2}", screenName, count, y.Replace('\"', ' ').Replace(","," ")); });
+                return output;
             }));
         }
 
@@ -46,12 +49,14 @@ namespace ParseAndFormatProfiles
 
         static void ParseTweets()
         {
-            const string republicanProfilesDir = @"D:\ArchishaData\ElectionData\US\RepublicanProfiles";
-            const string democraticProfilesDir = @"D:\ArchishaData\ElectionData\US\DemocraticProfiles";
-            const string outputDir = @"D:\ArchishaData\ElectionData\US\Tweets\";
-            ParseProfilesForTweets(republicanProfilesDir,outputDir);
-            ParseProfilesForTweets(democraticProfilesDir, outputDir);
-        }
+	    const string republicanProfilesDir = @"I:\ArchishaData\ElectionData\US\RepublicanProfiles";
+            const string democraticProfilesDir = @"I:\ArchishaData\ElectionData\US\DemocraticProfiles";
+            const string outputDir = @"I:\ArchishaData\ElectionData\US\Tweets\";
+            string[] democraticCandidates = File.ReadAllLines(@"I:\ArchishaData\ElectionData\US\DemocraticCandidates.txt").SelectMany(x => x.Split(' ')).Where(x=>x.Length > 2).ToArray();
+            string[] republicanCandidates = File.ReadAllLines(@"I:\ArchishaData\ElectionData\US\RepublicanCandidates.txt").SelectMany(x => x.Split(' ')).Where(x => x.Length > 2).ToArray();
+            ParseProfilesForTweets(republicanProfilesDir, outputDir, democraticCandidates, republicanCandidates);
+            ParseProfilesForTweets(democraticProfilesDir, outputDir, democraticCandidates, republicanCandidates);
+	}
 
         static void ModifyProfiles()
         {
@@ -130,7 +135,7 @@ namespace ParseAndFormatProfiles
             }
         }
 
-        static void ParseProfilesForTweets(string inputDir, string outputDir)
+        static void ParseProfilesForTweets(string inputDir, string outputDir, string[] democratcandidates, string[] republicancandidates)
         {
             int count = 0;
             foreach (var file in Directory.GetFiles(inputDir))
@@ -142,13 +147,26 @@ namespace ParseAndFormatProfiles
                     var htmlDoc = new HtmlDocument { OptionFixNestedTags = true };
                     htmlDoc.Load(file);
                     var timelineNode = htmlDoc.GetElementbyId("timeline");
-                    File.WriteAllLines(outfile, ExtractTweets(timelineNode)
-                        .Where(x=>!x.Text.Equals(String.Empty))
-                        .Select(x=>String.Format("{0}\t{1}\t{2}\t{3}\t{4}\t{5}", x.Text, String.Join(" ", x.HashTags), x.Images.Count() > 0 ? 1:0, x.HashTags.Count() > 0 ? 1:0, x.Links.Count() > 0 ? 1:0, x.Mentions.Count() > 0 ? 1:0  )));
-                    count++; Console.WriteLine("count: {0}:", count);
-                }
-                catch (Exception)
-                {  
+	           File.WriteAllLines(outfile,
+                        ExtractTweets(timelineNode)
+                            .Select(x => String.Format("{0}\t{1}\t{2}\t{3}\t{4}\t{5}\t{6}\t{7}\t{8}\t{9}", 
+                                    x.Text, 
+                                    x.Images.Count(),
+                                    x.HashTags.Any() ? 1 : 0,
+                                    x.Links.Any() ? 1:0,
+                                    x.Mentions.Count(),
+                                    String.Join(" ",x.HashTags.Select(y=> SplitCamelCase(y.TrimStart('#')))),
+                                    String.Join(" ",x.HashTags.Select(y=> SplitCamelCase(y.TrimStart('#')))).Split(' ').Select(z=>z.ToLower()).Intersect(democratcandidates.Select(z=>z.ToLower())).Count(),
+                                    String.Join(" ",x.HashTags.Select(y=> SplitCamelCase(y.TrimStart('#')))).Split(' ').Select(z=>z.ToLower()).Intersect(republicancandidates.Select(z=>z.ToLower())).Count(),
+                                    String.Join(" ",x.Text.Split(' ').Intersect(democratcandidates).Count()),
+                                    String.Join(" ",x.Text.Split(' ').Intersect(republicancandidates).Count())
+                                    )));
+                    count++; 
+                    Console.WriteLine("count: {0}:", count);
+		    }
+                catch (Exception exception)
+                {
+                    throw;
                 }
             }
         }
@@ -174,9 +192,20 @@ namespace ParseAndFormatProfiles
 
         private static IEnumerable<Tweet> ExtractTweets(HtmlNode node)
         {
+            try
+            { 
+                if (!node.Descendants("li").Any()) { return Enumerable.Empty<Tweet>();}
+            }
+            catch(Exception ex)
+            {
+                return Enumerable.Empty<Tweet>();
+            }
+            if (!node.Descendants("li").Any()) { }
             var tweetNodes = node.Descendants("li")
-                .Where(t => t.Attributes.Contains("class") && t.Attributes["class"].Value.Contains(
-                    "js-stream-item stream-item stream-item expanding-stream-item"));
+                .Where(t => (t.Attributes.Contains("class") && t.Attributes["class"].Value.Contains(
+                    "js-stream-item stream-item stream-item expanding-stream-item")) ||
+                    (t.Attributes.Contains("role") && t.Attributes["role"].Value.Contains(
+                    "presentation")));
             var tweets = new List<Tweet>();
             var mentionPattern = "@([a-zA-Z0-9_]+)";
             var hashTagPattern = "#([a-zA-Z0-9_]+)";
@@ -184,14 +213,24 @@ namespace ParseAndFormatProfiles
             var imagePattern = @"(pic.twitter.com\/[a-zA-Z0-9]+)";
             foreach (var tweetNode in tweetNodes)
             {
-                var tweetText =
-                    tweetNode.Descendants("div")
+                var tweetTextNodesExist = tweetNode.Descendants("div")
+                        .Any(x => x.Attributes.Contains("class") && x.Attributes["class"].Value == "content");
+                if (!tweetTextNodesExist) continue;
+                var tweetTextNodes = tweetNode.Descendants("div")
                         .First(x => x.Attributes.Contains("class") && x.Attributes["class"].Value == "content")
-                        .Descendants("p")
-                        .First()
-                        .InnerText.Replace('\n', ' ');
+                        .Descendants("p").ToArray();
+                var tweetTextNodeExists = tweetTextNodes.Any(x => x.Attributes.Contains("class") && x.Attributes["class"].Value.StartsWith("TweetTextSize"));
+                string tweetText;
+                if (tweetTextNodeExists)
+                {
+                    tweetText = tweetTextNodes.First(x => x.Attributes.Contains("class") && x.Attributes["class"].Value.StartsWith("TweetTextSize")).InnerText.Replace('\n', ' ');
+                }
+                else
+                {
+                    tweetText = tweetTextNodes.First().InnerText.Replace('\n', ' ');
+                }
                 // TODO: Extract mentions, pics, links, correct html encodes, popularity info.
-                tweetText = HttpUtility.HtmlDecode(tweetText);
+                tweetText = HttpUtility.HtmlDecode(tweetText).Replace('\n', ' ');
                 var mentions = Regex.Matches(tweetText, mentionPattern).Cast<Match>().Select(x=>x.Value);
                 var hashtags = Regex.Matches(tweetText, hashTagPattern).Cast<Match>().Select(x => x.Value);
                 tweetText = Regex.Replace(tweetText, hashTagPattern, String.Empty);
@@ -208,5 +247,50 @@ namespace ParseAndFormatProfiles
             return tweets;
         }
 
-    }
+	static String SplitCamelCase(String s)
+        {
+            var r = new Regex(@"
+                (?<=[A-Z])(?=[A-Z][a-z]) |
+                 (?<=[^A-Z])(?=[A-Z]) |
+                 (?<=[A-Za-z])(?=[^A-Za-z])", RegexOptions.IgnorePatternWhitespace);
+            return r.Replace(s, " ");
+        }
+
+        public static string GetWebPageTitle(string url)
+        {
+            // Create a request to the url
+            HttpWebRequest request = HttpWebRequest.Create(url) as HttpWebRequest;
+
+            // If the request wasn't an HTTP request (like a file), ignore it
+            if (request == null) return null;
+
+            // Use the user's credentials
+            request.UseDefaultCredentials = true;
+
+            // Obtain a response from the server, if there was an error, return nothing
+            HttpWebResponse response = null;
+            try { response = request.GetResponse() as HttpWebResponse; }
+            catch (WebException) { return null; }
+
+            // Regular expression for an HTML title
+            string regex = @"(?<=<title.*>)([\s\S]*)(?=</title>)";
+
+            // If the correct HTML header exists for HTML text, continue
+            if (new List<string>(response.Headers.AllKeys).Contains("Content-Type"))
+                if (response.Headers["Content-Type"].StartsWith("text/html"))
+                {
+                    // Download the page
+                    WebClient web = new WebClient();
+                    web.UseDefaultCredentials = true;
+                    string page = web.DownloadString(url);
+
+                    // Extract the title
+                    Regex ex = new Regex(regex, RegexOptions.IgnoreCase);
+                    return ex.Match(page).Value.Trim();
+                }
+
+            // Not a valid HTML page
+            return null;
+        }
+ }
 }

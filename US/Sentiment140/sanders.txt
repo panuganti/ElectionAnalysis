@@ -1,0 +1,75 @@
+{
+  "data": [
+    {
+      "text": "I've selected Leonard Fournette to be my @NissanUSA #HeismanHouse finalist. https://t.co/C6oEMwsuNf",
+      "polarity": 2,
+      "meta": {
+        "language": "en"
+      }
+    },
+    {
+      "text": "@jukeboxthepilot Bernie Sanders isn't. All of his donations have been from individuals. He doesn't have a six-pack like the others.",
+      "polarity": 0,
+      "meta": {
+        "language": "en"
+      }
+    },
+    {
+      "text": "BOOM! Yamen Sanders CRUSHES the EWU QB, who fumbles, and the ball is collected by Gamboa who returns it for a TD! https://t.co/dNzyrHEPQc",
+      "polarity": 2,
+      "meta": {
+        "language": "en"
+      }
+    },
+    {
+      "text": "BOOM! Yamen Sanders CRUSHES the EWU QB, who fumbles, and the ball is collected by Gamboa who returns it for a TD! https://t.co/PExBkGEelu",
+      "polarity": 2,
+      "meta": {
+        "language": "en"
+      }
+    },
+    {
+      "text": "There's a democratic debate tonight?  Oh boy I'm gonna love seeing Sanders cuck hard to the muzz.",
+      "polarity": 2,
+      "meta": {
+        "language": "en"
+      }
+    },
+    {
+      "text": "RT @timothypmurphy: .@patcaldwell picks out a really important distinction between Clinton and Sanders https://t.co/YXoGvSJn6B",
+      "polarity": 2,
+      "meta": {
+        "language": "en"
+      }
+    },
+    {
+      "text": "@M_E_Adams I can't believe how many so called Americans could vote sanders a self confessed socialist",
+      "polarity": 2,
+      "meta": {
+        "language": "en"
+      }
+    },
+    {
+      "text": "#DemDebate Bernie Sanders, how would you deal with the current threat of ISIS?",
+      "polarity": 2,
+      "meta": {
+        "language": "en"
+      }
+    },
+    {
+      "text": "RT @WORLDSTARVlNE: THAT MOMENT YOU REALIZE BERNIE SANDERS HAS YOUR VOTE https://t.co/XYTPWik6NK",
+      "polarity": 4,
+      "meta": {
+        "headline": "True",
+        "language": "en"
+      }
+    },
+    {
+      "text": "Sanders tried to hit Mangum in the end zone on fourth down. MSU ball, 0-0 ... 10:50ish 1Q #bigskyfb https://t.co/vKHG59rYYA",
+      "polarity": 2,
+      "meta": {
+        "language": "en"
+      }
+    }
+  ]
+}
