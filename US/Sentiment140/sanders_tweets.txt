@@ -1,0 +1,52 @@
+[
+  {
+    "Text": "@Austin_B_Walker rrally there's no good politician/candidate but either sanders or Rubio has a somewhat vote of mine",
+    "Sentiment": "2",
+    "Time": "1/1/0001"
+  },
+  {
+    "Text": "RT @SpiritShards: yeah I'll be voting for Bernie Sanders in 2016. he's gonna make college free and legalize weed. trumps racist. https://t.?",
+    "Sentiment": "2",
+    "Time": "1/1/0001"
+  },
+  {
+    "Text": "RT @QueenT__: Sanders is the only politician that admits ISIS and instability in the Middle East is a product of U.S. intervention #DemDeba?",
+    "Sentiment": "2",
+    "Time": "1/1/0001"
+  },
+  {
+    "Text": "#SocialMediaPolitics Sanders got far more social media buzz during the debate t... https://t.co/eXTGxZOI0O +#SMM?https://t.co/NuRI9d80Ak",
+    "Sentiment": "2",
+    "Time": "1/1/0001"
+  },
+  {
+    "Text": "#SocialMediaPolitics Sanders got far more social media buzz during the debate t... https://t.co/Ykbjj1gThk +#SMM?https://t.co/mPSBFxDtg7",
+    "Sentiment": "2",
+    "Time": "1/1/0001"
+  },
+  {
+    "Text": "Teddy Sanders ??????",
+    "Sentiment": "2",
+    "Time": "1/1/0001"
+  },
+  {
+    "Text": "RT @Slate: \"I don't think any sensible person would disagree that the invasion of Iraq LED to the? instability we are seeing...now.\"?Sander?",
+    "Sentiment": "2",
+    "Time": "1/1/0001"
+  },
+  {
+    "Text": "RT @jayceegatwood: I love how everyone is quote tweeting Chynas snapchats ??",
+    "Sentiment": "4",
+    "Time": "1/1/0001"
+  },
+  {
+    "Text": "RT @JimDalrympleII: Bernie Sanders on police accountability. Via CBS. https://t.co/NaRBkd9xYR",
+    "Sentiment": "2",
+    "Time": "1/1/0001"
+  },
+  {
+    "Text": "If attacking the web w wisdom, humor, charm, confidence &amp; valuable content &amp; a stand-out profile pic u?ll get noticed. - Konrad Sanders",
+    "Sentiment": "2",
+    "Time": "1/1/0001"
+  }
+]

@@ -1,0 +1,8 @@
+[
+  {
+    "Time": "1/1/0001",
+    "Total": 10,
+    "Positive": 1,
+    "Negative": 0
+  }
+]
