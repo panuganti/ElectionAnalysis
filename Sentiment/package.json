@@ -8,6 +8,7 @@
     "linq": "~3.0.5",
     "less": "~2.5.1",
     "grunt-contrib-uglify": "~0.9.2",
-    "colorbrewer": "~0.0.2"
+    "colorbrewer": "~0.0.2",
+    "typescript": "1.7.0-dev.20150827"
   }
 }

@@ -25,7 +25,7 @@ namespace USElectionAnalysis
             }
         }
 
-        public static RequestData PostRequest(RequestData data)
+        public static WebsiteData PostRequest(RequestData data)
         {
             var request = (HttpWebRequest)WebRequest.Create("http://www.sentiment140.com/api/bulkClassifyJson?appid=rajkiran.panuganti@gmail.com");
 
@@ -43,8 +43,53 @@ namespace USElectionAnalysis
 
             var response = (HttpWebResponse)request.GetResponse();
             var responseString = new StreamReader(response.GetResponseStream()).ReadToEnd();
-            return JsonConvert.DeserializeObject<RequestData>(responseString);
+            var responseData = JsonConvert.DeserializeObject<RequestData>(responseString);
+            var websiteData = new WebsiteData();
+            websiteData.Summary = responseData.data.GroupBy(t => t.time.Date).Select(y => new Summary() { Time = y.Key.ToShortDateString(), Total = y.Count(), Positive = y.Count(z=> z.polarity == 4), Negative = y.Count(z=> z.polarity == 0)}).ToArray();
+            websiteData.Tweets = responseData.data.Select(y => new Tweet() { Time = y.time.ToShortDateString(), Text = y.text, Sentiment = y.polarity.ToString()}).ToArray();
+            return websiteData;
         }
+    }
+
+    [DataContract]
+    public class WebsiteData
+    {
+        [DataMember]
+        public Summary[] Summary { get; set; }
+        [DataMember]
+        public Tweet[] Tweets { get; set; }
+    }
+
+    [DataContract]
+    public class Tweet
+    {
+        [DataMember]
+        public string Text { get; set; }
+        [DataMember]
+        public string Sentiment { get; set; }
+        [DataMember]
+        public string Time { get; set; }
+    }
+
+    [DataContract]
+    public class Summary
+    {
+        [DataMember]
+        public string Time { get; set; }
+        [DataMember]
+        public int Total { get; set; }
+        [DataMember]
+        public int Positive { get; set; }
+        [DataMember]
+        public int Negative { get; set; }
+    }
+
+    [DataContract]
+    public enum Polarity
+    {
+        Positive,
+        Negative,
+        CantSay,
     }
 
     [DataContract]
@@ -57,9 +102,9 @@ namespace USElectionAnalysis
     [DataContract]
     public class Data
     {
+        public DateTime time { get; set; }
         [DataMember]
         public string text { get; set; }
-
         [DataMember]
         [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
         public int polarity { get; set; }

@@ -20,12 +20,24 @@
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="vendor/linq.min.js"></script>
 
-    
+    <script type="text/javascript" src="https://www.google.com/jsapi?autoload={'modules':[{'name':'visualization','version':'1','packages':['corechart']}]}"></script>
     <!--our code -->
     <script src="app/out.js"></script>
         
 </head>
 <body ng-app="SentimentTracker" ng-controller="MainCtrl" >
+     
+     <div id="select"> 
+        <select data-ng-model="vMain.candidate", ng-change="vMain.candidateSelectionChanged()" 
+            ng-options="candidate as candidate for candidate in vMain.candidates">
+        </select>
+     </div>
+     <div id="LineChart" > </div>
+     <div id="Tweets">
+         <div ng-repeat="tweet in vMain.tweets"> 
+             <span> {{tweet.Text}}</span>
+         </div> 
+     </div>
      
     <!-- ng directives not being used <testme></testme> -->
 </body>

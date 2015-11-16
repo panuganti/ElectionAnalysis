@@ -23,8 +23,9 @@ namespace USElectionAnalysis
         {
             var tweets = twitter.SearchForTweetStrings(query, count).ToArray();
             var data = new RequestData { data = tweets.Take(10).Select(x => new Data { text = x }).ToArray() };
-            var sentiment = ScrapeSentiment140.PostRequest(data);
-            File.WriteAllText(String.Format("C:\\Projects\\ElectionAnalysis\\US\\Sentiment140\\{0}.txt",query), JsonConvert.SerializeObject(sentiment, Formatting.Indented));
+            var websiteData = ScrapeSentiment140.PostRequest(data);
+            File.WriteAllText(String.Format("C:\\Projects\\ElectionAnalysis\\US\\Sentiment140\\{0}_summary.txt", query), JsonConvert.SerializeObject(websiteData.Summary, Formatting.Indented));
+            File.WriteAllText(String.Format("C:\\Projects\\ElectionAnalysis\\US\\Sentiment140\\{0}_tweets.txt", query), JsonConvert.SerializeObject(websiteData.Tweets, Formatting.Indented));
         }
 
         public static void GetTweetsForSearch(TwitterCommunicator twitter, string query, int count)

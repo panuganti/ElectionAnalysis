@@ -15,6 +15,9 @@ module.exports = function (grunt) {
                 out: 'app/out.js',         // If specified, generate an out.js file which is the merged js file
                 watch: 'app'
             },
+            options: {
+                compiler: './node_modules/typescript/bin/tsc'
+            }
         },
         nuget_install: {
             //file: 'Client.Project.sln',

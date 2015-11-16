@@ -4,7 +4,7 @@
 //grunt-start
 /// <reference path="directives/testme.html.ts" />
 /// <reference path="controllers/MainController.ts" />
-/// <reference path="controllers/MapCtrl.ts" />
+/// <reference path="controllers/MainCtrl.ts" />
 /// <reference path="directives/testme.ts" />
 /// <reference path="services/LogService.ts" />
 /// <reference path="vendor.d.ts" />
