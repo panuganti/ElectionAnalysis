@@ -28,7 +28,6 @@ namespace USElectionAnalysis
         public static WebsiteData PostRequest(RequestData data)
         {
             var request = (HttpWebRequest)WebRequest.Create("http://www.sentiment140.com/api/bulkClassifyJson?appid=rajkiran.panuganti@gmail.com");
-
             string jsonString = JsonConvert.SerializeObject(data);
             var postData = Encoding.ASCII.GetBytes(jsonString);
 
@@ -42,12 +41,26 @@ namespace USElectionAnalysis
             }
 
             var response = (HttpWebResponse)request.GetResponse();
+            // ReSharper disable once AssignNullToNotNullAttribute
             var responseString = new StreamReader(response.GetResponseStream()).ReadToEnd();
             var responseData = JsonConvert.DeserializeObject<RequestData>(responseString);
             var websiteData = new WebsiteData();
-            websiteData.Summary = responseData.data.GroupBy(t => t.time.Date).Select(y => new Summary() { Time = y.Key.ToShortDateString(), Total = y.Count(), Positive = y.Count(z=> z.polarity == 4), Negative = y.Count(z=> z.polarity == 0)}).ToArray();
-            websiteData.Tweets = responseData.data.Select(y => new Tweet() { Time = y.time.ToShortDateString(), Text = y.text, Sentiment = y.polarity.ToString()}).ToArray();
+            websiteData.Summary = responseData.data.GroupBy(t => t.time.Date).Select(y => new Summary() { Time = y.Key.ToShortDateString(), Total = y.Count(), Positive = y.Count(z=> z.polarity == Polarity.Positive), Negative = y.Count(z=> z.polarity == 0)}).ToList();
+            websiteData.Tweets = responseData.data.Select(y => new Tweet() { Time = y.time.ToShortDateString(), Text = y.text, Sentiment = PolarityToString(y.polarity) }).ToList();
             return websiteData;
+        }
+        public static string PolarityToString(Polarity value)
+        {
+            switch (value)
+            {
+                    case Polarity.Negative:
+                    return "red";
+                    case Polarity.Neutral:
+                    return "yellow";
+                    case Polarity.Positive:
+                    return "green";
+                    default: return "white";
+            }
         }
     }
 
@@ -55,9 +68,9 @@ namespace USElectionAnalysis
     public class WebsiteData
     {
         [DataMember]
-        public Summary[] Summary { get; set; }
+        public List<Summary> Summary { get; set; }
         [DataMember]
-        public Tweet[] Tweets { get; set; }
+        public List<Tweet> Tweets { get; set; }
     }
 
     [DataContract]
@@ -87,9 +100,12 @@ namespace USElectionAnalysis
     [DataContract]
     public enum Polarity
     {
-        Positive,
-        Negative,
-        CantSay,
+        [EnumMember(Value = "green")]
+        Positive = 4,
+        [EnumMember(Value = "red")]
+        Negative = 0,
+        [EnumMember(Value = "yellow")]
+        Neutral = 2,
     }
 
     [DataContract]
@@ -102,12 +118,13 @@ namespace USElectionAnalysis
     [DataContract]
     public class Data
     {
+        [DataMember]
         public DateTime time { get; set; }
         [DataMember]
         public string text { get; set; }
         [DataMember]
         [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
-        public int polarity { get; set; }
+        public Polarity polarity { get; set; }
 
         [DataMember]
         [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
@@ -125,5 +142,4 @@ namespace USElectionAnalysis
         [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
         public string language { get; set; }
     }
-
 }

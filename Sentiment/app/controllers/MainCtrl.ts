@@ -8,19 +8,19 @@ module Controllers {
 
 
         private headers: any = { 'Authorization': 'OAuth AIzaSyD4of1Mljc1T1HU0pREX7fvfUKZX-lx2HQ' }
-        private json: string = "./trump_summary.json";
-        private tweets_json: string = "./trump_tweets.json";
-        private trumpjson: string = "./trump_summary.json";
-        private tweets_trump: string = "./trump_tweets.json";
-        private clintonjson: string = "./clinton_summary.json";
-        private tweets_clinton: string = "./trump_tweets.json";
-        private sandersjson: string = "./sanders_summary.json";
-        private tweets_sanders: string = "./trump_tweets.json";
-        private obamajson: string = "./obama_summary.json";
-        private tweets_obama: string = "./trump_tweets.json";
+        private json: string = "./json/trump_summary.txt";
+        private tweets_json: string = "./json/trump_tweets.txt";
+        private trumpjson: string = "./json/trump_summary.txt";
+        private tweets_trump: string = "./json/trump_tweets.txt";
+        private clintonjson: string = "./json/clinton_summary.txt";
+        private tweets_clinton: string = "./json/trump_tweets.txt";
+        private sandersjson: string = "./json/sanders_summary.txt";
+        private tweets_sanders: string = "./json/trump_tweets.txt";
+        private obamajson: string = "./json/obama_summary.txt";
+        private tweets_obama: string = "./json/trump_tweets.txt";
 
         candidate: string = "trump";
-        candidates: string[] = ["trump", "clinton", "etisalat"];
+        candidates: string[] = ["trump", "clinton", "sanders"];
         tweets: Tweet[] = [];
         data: ChartData[] = [];
         vizData: google.visualization.DataTable;
@@ -63,19 +63,7 @@ module Controllers {
             this.http = $http;
             this.q = $q;
             this.timeout = $timeout;
-            this.drawChart();
-        }
-
-        drawChart() {
-            var options = {
-                title: 'Sentiment Trend',
-                curveType: 'function',
-                legend: { position: 'bottom' }
-            };
-
-            var chart = new google.visualization.LineChart(document.getElementById('LineChart'));
             this.candidateSelectionChanged();
-            chart.draw(this.vizData, options);
         }
 
         prepareData(x) {
@@ -88,6 +76,13 @@ module Controllers {
             this.data.forEach(y => {
                 this.vizData.addRow([y.Time, y.Total, y.Positive, y.Negative]);
             });
+            var options = {
+                title: 'Sentiment Trend',
+                curveType: 'function',
+                legend: { position: 'bottom' }
+            };
+            var chart = new google.visualization.LineChart(document.getElementById('LineChart'));
+            chart.draw(this.vizData, options);
         }
         
         prepareTweets(x) {

@@ -15,17 +15,23 @@ namespace USElectionAnalysis
         static void Main(string[] args)
         {
             var twitter = TwitterCommunicator.GetTwittercommunicator();
-            //GetRepublicanHandles(twitter);
-            GetSentiment(twitter, "sanders", 100);
+            GetSentiment(twitter, "obama", 4000);
         }
 
         public static void GetSentiment(TwitterCommunicator twitter, string query, int count)
         {
-            var tweets = twitter.SearchForTweetStrings(query, count).ToArray();
-            var data = new RequestData { data = tweets.Take(10).Select(x => new Data { text = x }).ToArray() };
-            var websiteData = ScrapeSentiment140.PostRequest(data);
-            File.WriteAllText(String.Format("C:\\Projects\\ElectionAnalysis\\US\\Sentiment140\\{0}_summary.txt", query), JsonConvert.SerializeObject(websiteData.Summary, Formatting.Indented));
-            File.WriteAllText(String.Format("C:\\Projects\\ElectionAnalysis\\US\\Sentiment140\\{0}_tweets.txt", query), JsonConvert.SerializeObject(websiteData.Tweets, Formatting.Indented));
+            var tweets = twitter.SearchForTweets(query, count).ToArray();
+            var tweetsByDate = tweets.GroupBy(x => new DateTime(x.CreatedAt.Year, x.CreatedAt.Month, x.CreatedAt.Day));
+            var websiteData = new WebsiteData() {Summary = new List<Summary>(), Tweets = new List<Tweet>()};
+            foreach (var tweetsOfADate in tweetsByDate)
+            {
+                var data = new RequestData { data = tweetsOfADate.Select(x => new Data { text = x.Text, time = tweetsOfADate.Key }).ToArray() };
+                var daysSummary = ScrapeSentiment140.PostRequest(data);
+                websiteData.Summary.AddRange(daysSummary.Summary);
+                websiteData.Tweets.AddRange(daysSummary.Tweets);
+            }
+            File.WriteAllText(String.Format(@"I:\ArchishaData\ElectionData\US\\Sentiment140\\{0}_summary.txt", query), JsonConvert.SerializeObject(websiteData.Summary, Formatting.Indented));
+            File.WriteAllText(String.Format(@"I:\ArchishaData\ElectionData\US\\Sentiment140\\{0}_tweets.txt", query), JsonConvert.SerializeObject(websiteData.Tweets, Formatting.Indented));
         }
 
         public static void GetTweetsForSearch(TwitterCommunicator twitter, string query, int count)

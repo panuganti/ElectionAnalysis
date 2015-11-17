@@ -34,8 +34,9 @@
      </div>
      <div id="LineChart" > </div>
      <div id="Tweets">
-         <div ng-repeat="tweet in vMain.tweets"> 
-             <span> {{tweet.Text}}</span>
+         <div ng-repeat="tweet in vMain.tweets" ng-style="{color: tweet.Sentiment}" > 
+             <span> {{tweet.Text}}</span><br>
+             <span> {{tweet.Time}}             
          </div> 
      </div>
      
