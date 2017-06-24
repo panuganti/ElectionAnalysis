@@ -6,6 +6,7 @@ ElectionsSPA/.tscache/
 ElectionsSPA/node_modules/
 ElectionsSPA/app/out.js
 ElectionsSPA/app/out.js.map
+Sentiment/node_modules/
 
 #Ignore rajkiran's old directories
 US/packages

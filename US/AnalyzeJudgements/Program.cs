@@ -72,7 +72,7 @@ namespace AnalyzeJudgements
         private static IEnumerable<ProfileJudgement> ReadJudgements(string filename)
         {
             var profileJudgements = new List<ProfileJudgement>();
-            var allLines = File.ReadAllLines(filename);
+            string[] allLines = File.ReadAllLines(filename);
             foreach (var line in allLines)
             {
                 var parts = line.Split('\t');
