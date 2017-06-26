@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace KarnatakaElections
+namespace KarnatakaElections.PreDelim
 {    
     public class GeoJsonUtils
     {

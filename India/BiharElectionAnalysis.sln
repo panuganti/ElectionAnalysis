@@ -37,7 +37,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParseCandidateList", "Parse
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostPollAnalysis", "PostPollAnalysis\PostPollAnalysis.csproj", "{50DC3DB6-E134-42B6-B0B2-FEE775F14F31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KarnatakaElections", "KarnatakaElections\KarnatakaElections.csproj", "{651FE816-AE04-43C0-941F-158E0DB1669D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KarnatakaElections", "KarnatakaElections\KarnatakaElections.csproj", "{FD65557A-780E-4F2F-BD8A-BBE15CFD7A76}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -171,14 +171,14 @@ Global
 		{50DC3DB6-E134-42B6-B0B2-FEE775F14F31}.Release|Any CPU.Build.0 = Release|Any CPU
 		{50DC3DB6-E134-42B6-B0B2-FEE775F14F31}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{50DC3DB6-E134-42B6-B0B2-FEE775F14F31}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{651FE816-AE04-43C0-941F-158E0DB1669D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{651FE816-AE04-43C0-941F-158E0DB1669D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{651FE816-AE04-43C0-941F-158E0DB1669D}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{651FE816-AE04-43C0-941F-158E0DB1669D}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{651FE816-AE04-43C0-941F-158E0DB1669D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{651FE816-AE04-43C0-941F-158E0DB1669D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{651FE816-AE04-43C0-941F-158E0DB1669D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{651FE816-AE04-43C0-941F-158E0DB1669D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{FD65557A-780E-4F2F-BD8A-BBE15CFD7A76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD65557A-780E-4F2F-BD8A-BBE15CFD7A76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD65557A-780E-4F2F-BD8A-BBE15CFD7A76}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{FD65557A-780E-4F2F-BD8A-BBE15CFD7A76}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{FD65557A-780E-4F2F-BD8A-BBE15CFD7A76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD65557A-780E-4F2F-BD8A-BBE15CFD7A76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD65557A-780E-4F2F-BD8A-BBE15CFD7A76}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{FD65557A-780E-4F2F-BD8A-BBE15CFD7A76}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

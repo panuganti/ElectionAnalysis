@@ -1,8 +1,20 @@
 [
   {
-    "Time": "1/1/0001",
-    "Total": 10,
-    "Positive": 1,
+    "Time": "11/14/2015",
+    "Total": 1,
+    "Positive": 0,
+    "Negative": 1
+  },
+  {
+    "Time": "11/15/2015",
+    "Total": 2,
+    "Positive": 0,
     "Negative": 0
+  },
+  {
+    "Time": "11/16/2015",
+    "Total": 1097,
+    "Positive": 130,
+    "Negative": 40
   }
 ]

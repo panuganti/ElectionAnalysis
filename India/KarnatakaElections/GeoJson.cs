@@ -1,38 +1,55 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.IO;
 using Newtonsoft.Json;
 
-namespace KarnatakaElections.GeoJson
+namespace KarnatakaElections
 {
     public class GeoJsonUtils
     {
-        public static void PrintIdName(string infile, string outfile)
+        public static GeoJson KeepKarnatakaOnly(string inGeoJsonFile, string outGeoJsonFile, string state)
         {
-            var geoJson = JsonConvert.DeserializeObject<GeoJson2>(File.ReadAllText(infile));
-            Console.WriteLine(geoJson.features.Count());
-            File.WriteAllText(outfile, string.Join("\n",geoJson.features.OrderBy(f => f.properties.ac).Select(f => String.Format("{0}\t{1}\t{2}\t{3}",f.properties.ac, f.properties.ac_name, f.properties.pc, f.properties.pc_name))));
+            var geoJson = JsonConvert.DeserializeObject<GeoJson>(File.ReadAllText(inGeoJsonFile));
+            var outGeoJson = geoJson;
+            outGeoJson.features = geoJson.features.Where(f => f.properties.state.Equals(state)).ToArray();
+            return outGeoJson;
+        }
+
+        public static void PrintNamesAndIds(GeoJson geoJson, string outfile)
+        {
+            File.WriteAllLines(outfile, geoJson.features.Select(f => String.Join("\t", f.properties.state, f.properties.ac.ToString(), f.properties.ac_name, f.properties.pc.ToString(), f.properties.pc_name)));
         }
     }
 
-
-    public class GeoJson2
+    public class GeoJson
     {
         public string type { get; set; }
+        public Crs crs { get; set; }
         public Feature[] features { get; set; }
+    }
+
+    public class Crs
+    {
+        public string type { get; set; }
+        public Properties properties { get; set; }
+    }
+
+    public class Properties
+    {
+        public string name { get; set; }
     }
 
     public class Feature
     {
         public string type { get; set; }
-        public Properties properties { get; set; }
+        public Properties1 properties { get; set; }
         public Geometry geometry { get; set; }
     }
 
-    public class Properties
+    public class Properties1
     {
         public string state { get; set; }
         public int pc { get; set; }
@@ -44,7 +61,7 @@ namespace KarnatakaElections.GeoJson
     public class Geometry
     {
         public string type { get; set; }
-        public object[][][] coordinates { get; set; }
+        public float[][][] coordinates { get; set; }
     }
 
 }

@@ -24,18 +24,18 @@ var Controllers;
     var MainCtrl = (function () {
         function MainCtrl($scope, $http, $q, $timeout) {
             this.headers = { 'Authorization': 'OAuth AIzaSyD4of1Mljc1T1HU0pREX7fvfUKZX-lx2HQ' };
-            this.json = "./trump_summary.json";
-            this.tweets_json = "./trump_tweets.json";
-            this.trumpjson = "./trump_summary.json";
-            this.tweets_trump = "./trump_tweets.json";
-            this.clintonjson = "./clinton_summary.json";
-            this.tweets_clinton = "./trump_tweets.json";
-            this.sandersjson = "./sanders_summary.json";
-            this.tweets_sanders = "./trump_tweets.json";
-            this.obamajson = "./obama_summary.json";
-            this.tweets_obama = "./trump_tweets.json";
+            this.json = "./json/trump_summary.txt";
+            this.tweets_json = "./json/trump_tweets.txt";
+            this.trumpjson = "./json/trump_summary.txt";
+            this.tweets_trump = "./json/trump_tweets.txt";
+            this.clintonjson = "./json/clinton_summary.txt";
+            this.tweets_clinton = "./json/trump_tweets.txt";
+            this.sandersjson = "./json/sanders_summary.txt";
+            this.tweets_sanders = "./json/trump_tweets.txt";
+            this.obamajson = "./json/obama_summary.txt";
+            this.tweets_obama = "./json/trump_tweets.txt";
             this.candidate = "trump";
-            this.candidates = ["trump", "clinton", "etisalat"];
+            this.candidates = ["trump", "clinton", "sanders"];
             this.tweets = [];
             this.data = [];
             $scope.vMain = this;
@@ -43,7 +43,7 @@ var Controllers;
             this.http = $http;
             this.q = $q;
             this.timeout = $timeout;
-            this.drawChart();
+            this.candidateSelectionChanged();
         }
         MainCtrl.prototype.loadData = function () {
             var deferred = this.q.defer();
@@ -87,16 +87,6 @@ var Controllers;
                 .success(function (data) { return deferred.resolve(data); });
             return deferred.promise;
         };
-        MainCtrl.prototype.drawChart = function () {
-            var options = {
-                title: 'Sentiment Trend',
-                curveType: 'function',
-                legend: { position: 'bottom' }
-            };
-            var chart = new google.visualization.LineChart(document.getElementById('LineChart'));
-            this.candidateSelectionChanged();
-            chart.draw(this.vizData, options);
-        };
         MainCtrl.prototype.prepareData = function (x) {
             var _this = this;
             this.vizData = new google.visualization.DataTable();
@@ -108,6 +98,13 @@ var Controllers;
             this.data.forEach(function (y) {
                 _this.vizData.addRow([y.Time, y.Total, y.Positive, y.Negative]);
             });
+            var options = {
+                title: 'Sentiment Trend',
+                curveType: 'function',
+                legend: { position: 'bottom' }
+            };
+            var chart = new google.visualization.LineChart(document.getElementById('LineChart'));
+            chart.draw(this.vizData, options);
         };
         MainCtrl.prototype.prepareTweets = function (x) {
             this.tweets = x;
